@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h93d3af5eg98dbg47aegb5a3gdc9c9f2b940b" version="1">Drive a disorienting spike of psychic energy into the mind of a creature, possibly imposing a -[1] penalty to its next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="h5c8dccaag720cg9253g7c85gda2454b1cb3a" version="2">Peform a minor magical trick that can clean or soil creatures and surfaces, light or snuff out small fires, and create musical notes.</content>
+  <content contentuid="h098143174b834385813af86b7297a752e4g4" version="1">Prestidigitation: Soil</content>
+  <content contentuid="h2ab13c887e07491c8df07a38513440a8gd0g" version="1">Instantly soil a creature with dirt or create a small muddy surface.</content>
+  <content contentuid="hddcf2ce8g086ag32ecga581g75d0af8eecf9" version="1">Light a candle or torch. Can also ignite flammable surfaces.</content>
+  <content contentuid="he0c0c916g0c0agb2a2g33f7g92ceb685a6ed" version="3">Snuff out a small fire on a weapon, candle, torch, or surface.</content>
+</contentList>
