@@ -49,7 +49,7 @@ data "SpellFlags" "IsSpell;IsHarmful;HasSomaticComponent;IsMelee;CannotTargetTer
 new entry "Target_GreenFlameBlade_SneakAttack"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_GreenFlameBlade_Normal"
+using "Target_GreenFlameBlade"
 data "ContainerSpells" ""
 data "SpellContainerID" "Target_GreenFlameBlade"
 data "Cooldown" "OncePerTurn"
