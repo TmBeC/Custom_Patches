@@ -46,12 +46,12 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5eSpells Druid Cantrips"/>
-                    <attribute id="Spells" type="LSString" value="Target_ControlFlames;Target_CreateBonfire;Shout_Druidcraft;Target_Frostbite;Target_Gust;Target_MagicStone;Target_PrimalSavagery;Target_ShapeWater;Shout_Thunderclap"/>
+                    <attribute id="Spells" type="LSString" value="Target_ControlFlames;Target_CreateBonfire;Shout_Druidcraft;Target_Frostbite;Target_Gust;Target_MagicStone;Target_CreateDestroyMoldEarth;Target_PrimalSavagery;Target_ShapeWater;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="7e6dd8e0-a7a9-4907-8167-6c15d02e4265"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5eSpells Sorcerer cantrips"/>
-                    <attribute id="Spells" type="LSString" value="Target_ControlFlames;Target_CreateBonfire;Target_Frostbite;Target_GreenFlameBlade;Target_Gust;Target_LightningLure;Projectile_MindSliver;Target_Prestidigitation;Target_ShapeWater;Shout_SwordBurst;Shout_Thunderclap"/>
+                    <attribute id="Spells" type="LSString" value="Target_ControlFlames;Target_CreateBonfire;Target_Frostbite;Target_GreenFlameBlade;Target_Gust;Target_LightningLure;Projectile_MindSliver;Target_CreateDestroyMoldEarth;Target_Prestidigitation;Target_ShapeWater;Shout_SwordBurst;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="3a585213-c055-48d7-9621-ace04e698840"/>
                 </node>
                 <node id="SpellList">
@@ -61,7 +61,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5eSpells Wizard cantrips (Intelligence)"/>
-                    <attribute id="Spells" type="LSString" value="Target_ControlFlames;Target_CreateBonfire;Target_Frostbite;Target_GreenFlameBlade;Target_Gust;Target_LightningLure;Projectile_MindSliver;Target_Prestidigitation;Target_ShapeWater;Shout_SwordBurst;Shout_Thunderclap"/>
+                    <attribute id="Spells" type="LSString" value="Target_ControlFlames;Target_CreateBonfire;Target_Frostbite;Target_GreenFlameBlade;Target_Gust;Target_LightningLure;Projectile_MindSliver;Target_CreateDestroyMoldEarth;Target_Prestidigitation;Target_ShapeWater;Shout_SwordBurst;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="a5117087-fa75-4c1e-ac8c-1e578c8da2b3"/>
                 </node>
             </children>
