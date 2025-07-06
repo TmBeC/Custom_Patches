@@ -46,7 +46,7 @@
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
           <attribute id="Description" type="LSString" value="Patches the duplicate cantrip spells and lists from 5e Spells and Mystra's Spells." />
           <attribute id="FileSize" type="uint64" value="0" />
-          <attribute id="Folder" type="LSString" value="5eMystraCantrip" />
+          <attribute id="Folder" type="LSString" value="Cantrips5eMystra" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
