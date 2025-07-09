@@ -1,0 +1,6 @@
+new entry "Target_LesserRestoration"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_LesserRestoration"
+data "SpellProperties" "RemoveStatus(SG_Poisoned);RemoveStatus(SG_Disease);RemoveStatus(SG_Paralyzed);RemoveStatus(SG_Blinded);RemoveStatus(SG_Deafened);RemoveStatus(ASTARION_WEAK);RemoveStatus(LAEZEL_WEAK)"
+data "TargetConditions" "Character() and (HasStatus('SG_Poisoned') or HasStatus('SG_Disease') or HasStatus('SG_Paralyzed') or HasStatus('SG_Blinded') or HasStatus('SG_Deafened') or HasStatus('ASTARION_WEAK') or HasStatus('LAEZEL_WEAK'))"
