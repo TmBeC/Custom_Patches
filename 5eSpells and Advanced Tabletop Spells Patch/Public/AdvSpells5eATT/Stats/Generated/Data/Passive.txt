@@ -1,0 +1,6 @@
+new entry "HolyAura_Backlash"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and (Tagged('UNDEAD',context.Source) or Tagged('FIEND',context.Source))"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution,13,false,false,context.Source)):ApplyStatus(SWAP,BLINDNESS,100,2)"
