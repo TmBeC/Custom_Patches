@@ -6,4 +6,27 @@
   <content contentuid="h2ab13c887e07491c8df07a38513440a8gd0g" version="1">Instantly soil a creature with dirt or create a small muddy surface.</content>
   <content contentuid="hddcf2ce8g086ag32ecga581g75d0af8eecf9" version="1">Light a candle or torch. Can also ignite flammable surfaces.</content>
   <content contentuid="he0c0c916g0c0agb2a2g33f7g92ceb685a6ed" version="3">Snuff out a small fire on a weapon, candle, torch, or surface.</content>
+  <content contentuid="h6f764152e3e04bbf9be148e9a32e81355453" version="1">Elementalism</content>
+  <content contentuid="hb2aaa35a06744eafb8e590959cbb72e15b85" version="1">Exert control over the elements.</content>
+  <content contentuid="h1e59de7fg2f54g4f51g9304g9aabd84e3f15" version="1">Beckon Air</content>
+  <content contentuid="hc5526a6dg376dg4c65g8036g7b07ccdd38b5" version="1">Seize air and compel it to possibly push a creature up to [1] or an object up to [2] away from you.</content>
+  <content contentuid="hef8c6c1dg46a4g4562gb181ga73663a6abe3" version="1">%%% Push Creature</content>
+  <content contentuid="h71283891g5573g45fbg8c7fgfdcc11536cad" version="1">%%% Push Object</content>
+  <content contentuid="hdadbcfc4g44acg44beg9b01g999bfb636baf" version="1">%%% Distraction</content>
+  <content contentuid="h9d7d6dd6g4f80g4e70g8dd7gfd5aa40d3704" version="1">Beckon Earth: Sculpt</content>
+  <content contentuid="ha42fcc44g335cg4c84gb536g5be090f6ad90" version="1">Beckon Earth: Destroy</content>
+  <content contentuid="h85a05eacge688g4811gaa65g4f771167fc2d" version="1">Beckon Fire: Sculpt</content>
+  <content contentuid="h70dd64c3g4570g459dg82b9g2f235d4fb560" version="1">Beckon Fire: Extinguish</content>
+  <content contentuid="haf1b7a97g343ageb7ag66d2g0c3ae1a0ca19" version="1">%%% Bonfire</content>
+  <content contentuid="hf4b20905ga3cfg5260g3243g2a99037e620f" version="5">%%% Create a harmless bonfire that emits light for [1].</content>
+  <content contentuid="hacf2bbbagc509gae83g6fffgaf0101722c2c" version="1">%%% Bonfire</content>
+  <content contentuid="h5ee40f79gea5eg6898gffc3gf3312bcc6b30" version="1">%%% Brighten an area in a [1] radius.</content>
+  <content contentuid="hd22f1779g65cegca3cg121cgfdbecf5f182f" version="2">%%% Bonfire</content>
+  <content contentuid="h2f55f289g9c63g50f7g2ae8ga124b097a4ee" version="4">%%% Shouldn't see this.</content>
+  <content contentuid="he2cd9f3agf489g46a0ga3fag3ee284b2e9e2" version="1">Beckon Water: Freeze</content>
+  <content contentuid="h8b79b41cg27eag4a00gaa1dg039d29a121ab" version="1">Manipulate a water surface and freeze it to become an ice surface.</content>
+  <content contentuid="hc249b596gef94g4631gb226gc7ce065c9850" version="1">Beckon Water: Ice Block</content>
+  <content contentuid="h358a33cagab17g4ac2gbb89g2cfdebc71966" version="1">Manipulate a water surface to change its shape and freeze it into a block of ice.</content>
+  <content contentuid="h3aab77a8g5455g4968g9341gef97386d1798" version="1">Beckon Water: Move</content>
+  <content contentuid="h99d89c81g7507g4a4dgbac4ge68c80d3a84c" version="1">Manipulate a water surface to move to a different location.</content>
 </contentList>

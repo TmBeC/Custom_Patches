@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Transmutation_Elementalism"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/IconAtlas.dds"/>
+                    <attribute id="UUID" type="FixedString" value="255e74bb-eb2c-4c55-9d7f-50aacfe22c75"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
