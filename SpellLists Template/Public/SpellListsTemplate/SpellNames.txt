@@ -1,0 +1,213 @@
+
+
+
+
+
+// 1st Level Spells
+(WORD)
+
+
+(Acid Stream)
+Zone_AcidStream
+
+
+(Detect Evil and Good)
+Shout_DetectEvilAndGood
+
+(Detect Magic)
+Shout_DetectMagic
+
+
+
+
+
+(Gift of Alacrity) - Chronurgy Wizard only
+Target_GiftOfAlacrity
+
+(Id Insinuation)
+Target_IdInsinuation
+
+(Magnify Gravity) - Chronurgy Wizard only
+Target_MagnifyGravity
+
+
+
+
+(Silvery Barbs)
+Target_SilveryBarbs
+
+(Sudden Awakening)
+Target_SuddenAwakening
+
+
+
+
+(Unseen Servant)
+Target_UnseenServant
+
+
+
+
+
+
+
+
+
+
+
+// 7th Level Spells
+(Crown of Stars)
+Shout_ATT_CrownOfStars
+
+(Delayed Blast Fireball)
+Projectile_ATT_DelayedBlastFireball
+
+(Divine Word)
+Shout_DivineWord
+
+(Draconic Transformation)
+Zone_ATT_FizbanTransform
+
+(Etherealness)
+Target_ATT_Etherealness
+
+(Finger of Death)
+Projectile_FingerOfDeath
+
+(Fire Storm)
+Target_FireStorm
+
+(Power Word Fortify)
+Target_ATT_PowerWordFortify
+
+(Power Word Pain)
+Target_ATT_PowerWordPain
+
+(Prismatic Spray)
+Zone_PrismaticSpray
+
+(Regenerate)
+Target_Regenerate
+
+(Reverse Gravity)
+Target_ATT_ReverseGravity
+
+(Symbol)
+Target_ATT_Symbol
+
+(Whirlwind)
+Target_ATT_Whirlwind
+
+
+
+
+
+
+
+
+
+
+// 8th Level Spells
+(Abi-Dalzim's Horrid Wilting)
+Target_HorridWilting
+
+(Animal Shapes)
+Target_ATT_AnimalShapes
+
+(Antimagic Field)
+Shout_AntimagicField
+
+(Befuddlement)
+Target_Feeblemind
+
+(Dominate Monster)
+Target_DominateMonster
+
+(Glibness)
+Shout_Glibness
+
+(Holy Aura)
+Shout_HolyAura
+
+(Illusory Dragon)
+Target_IllusoryDragon
+
+(Incendiary Cloud)
+Target_ATT_IncendiaryCloud
+
+(Maddening Darkness)
+Target_ATT_MaddeningDarkness
+
+(Maze)
+Target_ATT_Maze
+
+(Mind Blank)
+Target_MindBlank
+
+(Power Word Stun)
+Target_ATT_PowerWordStun
+
+(Sunburst)
+Target_Sunburst
+
+
+
+
+
+
+
+
+
+
+// 9th Level Spells
+(Blade of Disaster)
+Target_BladeOfDisaster
+
+(Foresight)
+Target_Foresight
+
+(Gate)
+Target_Gate_Container
+
+(Invulnerability)
+Shout_ATT_Invulnerability
+
+(Mass Heal)
+Target_ATT_MassHeal
+
+(Mass Polymorph)
+Target_MassPolymorph
+
+(Meteor Swarm)
+Target_ATT_MeteorSwarm
+
+(Power Word Heal)
+Target_PowerWordHeal
+
+(Power Word Kill)
+Target_PowerWordKill
+
+(Prismatic Wall)
+Wall_ATT_PrismaticWall
+
+(Psychic Scream)
+Shout_PsychicScream
+
+(Shapechange)
+Shout_ATT_Shapechange_Container
+
+(Storm of Vengeance)
+Shout_ATT_StormOfVengeance
+
+(Time Stop)
+Shout_ATT_TimeStop
+
+(True Resurrection)
+Teleportation_ATT_MOD_TrueResurrection
+
+(Weird)
+Target_Weird
+
+(Wish)
+Shout_Wish
+

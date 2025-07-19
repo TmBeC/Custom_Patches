@@ -25,6 +25,60 @@
 
 
 
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="269d1a3b-eed8-4131-8901-a562238f5289"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 1 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="21be0992-499f-4c7a-a77a-4430085e947a"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 3 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 4 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="b73aeea5-1ff9-4cac-b61d-b5aa6dfe31c2"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 5 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f8ba7b05-1237-4eaa-97fa-1d3623d5862b"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 6 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
 
 
 
@@ -455,11 +509,6 @@
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="3d4a1681-abd7-47ef-bb71-ebdf0ec61ebb"/>
                 </node>
-
-
-
-
-
 
 
 
