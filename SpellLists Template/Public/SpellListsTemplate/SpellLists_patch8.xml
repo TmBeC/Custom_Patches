@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Barbarian Giant 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Thaumaturgy"/>
+                    <attribute id="UUID" type="guid" value="afe6b18c-47a7-4c5f-aed5-49dfe07e5234"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Barbarian Giant 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_BootOfTheGiants"/>
+                    <attribute id="UUID" type="guid" value="12653b66-e36c-4b0b-872d-b61a1b2a3411"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Barbarian Giant 6"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ElementalCleaver"/>
+                    <attribute id="UUID" type="guid" value="21a34b97-43ee-47d7-b7c2-f902822a6e18"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Barbarian Giant 10"/>
+                    <attribute id="Spells" type="LSString" value="Throw_MightyImpel"/>
+                    <attribute id="UUID" type="guid" value="1ae44b76-581c-4fdf-92f8-0a1049a026dc"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Death Domain 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FalseLife;Projectile_RayOfSickness"/>
+                    <attribute id="UUID" type="guid" value="b4ef4e54-3f09-49b6-bbb4-5d1121bfb325"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Death Domain 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Projectile_RayOfEnfeeblement"/>
+                    <attribute id="UUID" type="guid" value="070e22ed-b6f9-44ee-befa-fe611c95cfee"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Death Domain 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_VampiricTouch"/>
+                    <attribute id="UUID" type="guid" value="7f94a649-35bb-4ef1-bd77-6a7ee6206db9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Death Domain 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_DeathWard"/>
+                    <attribute id="UUID" type="guid" value="9bd92577-7ab4-43d4-bb4c-11b7a4b3dab0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Death Domain 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_Contagion"/>
+                    <attribute id="UUID" type="guid" value="673543a9-8656-4c1d-8567-88ec32f2ca94"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Death Domain Reaper Cantrips 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_BurstingSinew;Target_ChillTouch;Target_TollTheDead"/>
+                    <attribute id="UUID" type="guid" value="86d4d2c3-56d9-4e78-ba6e-5fbbcde96438"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Fighter, Arcane Archer 3"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ArcaneShot_BanishingArrow;Projectile_ArcaneShot_BeguilingArrow;Projectile_ArcaneShot_BurstingArrow;Projectile_ArcaneShot_EnfeeblingArrow;Projectile_ArcaneShot_GraspingArrow;Projectile_ArcaneShot_SeekingArrow;Projectile_ArcaneShot_ShadowArrow;Zone_ArcaneShot_PiercingArrow"/>
+                    <attribute id="UUID" type="guid" value="ca17da37-65bc-4d00-96d1-61e48fcfb51d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Fighter, Arcane Archer Cantrip"/>
+                    <attribute id="Spells" type="LSString" value="Target_Guidance;Target_Light;Target_TrueStrike"/>
+                    <attribute id="UUID" type="guid" value="a8a358c4-d5d5-4cf8-baa1-0ac682aebd0a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma)"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="UUID" type="guid" value="3489b1a5-9f7c-439a-b6e3-8cceb21e34fd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric cantrips (Wisdom)"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BurstingSinew;Target_Guidance;Target_Light;Shout_ProduceFlame;Target_Resistance;Target_SacredFlame;Shout_Thaumaturgy;Target_TollTheDead"/>
+                    <attribute id="UUID" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard cantrips (Intelligence)"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Projectile_FireBolt;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_BladeWard;Target_Friends;Target_DancingLights;Target_Light;Target_MageHand;Target_MinorIllusion;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Projectile_AcidSplash;Target_MageHand;Projectile_PoisonSpray;Target_TrueStrike;Target_Friends;Target_DancingLights;Projectile_FireBolt;Target_Light;Projectile_RayOfFrost;Target_ShockingGrasp;Target_MinorIllusion;Target_ChillTouch"/>
+                    <attribute id="UUID" type="guid" value="485a68b4-c678-4888-be63-4a702efbe391"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_HexbladesCurse"/>
+                    <attribute id="UUID" type="guid" value="c4020f68-bb82-4c45-8a4a-8c24fb400526"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="d90e88eb-e5f9-4db2-b7ef-1dccb044839a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="4a3bf687-91c1-4dad-821c-ad32171c7552"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_Counterspell;Target_ElementalWeapon;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_StaggeringSmite;Shout_Blink;Target_Counterspell;Target_ElementalWeapon;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="39750075-781e-4ce2-a033-f8a288e47b8e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Smite_Banishing_Container;Zone_ConeOfCold;Target_HoldMonster;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_StaggeringSmite;Shout_Blink;Target_Counterspell;Target_ElementalWeapon;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="88fafaeb-8b59-4319-9841-b9e6043f4636"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid of the Stars Starry Forms"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Wildshape_Star_Archer;Shout_Wildshape_Star_Chalice;Shout_Wildshape_Star_Dragon"/>
+                    <attribute id="UUID" type="guid" value="3d8f435d-c35a-4701-ac8d-f004e3504712"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid of the Stars. Starry Map"/>
+                    <attribute id="Spells" type="LSString" value="Target_Guidance;Projectile_GuidingBolt_StarMap;Projectile_GuidingBolt"/>
+                    <attribute id="UUID" type="guid" value="6352a9a8-f710-4838-8a76-2525d38ff4f6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger Swarmkeeper 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_MageHand;Target_FaerieFire"/>
+                    <attribute id="UUID" type="guid" value="d26b8133-bfce-421a-9c36-1229e4d6dd86"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger Swarmkeeper 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Web"/>
+                    <attribute id="UUID" type="guid" value="9e6f5226-fb49-4927-ad3e-e215b16ec974"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger Swarmkeeper 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_GaseousForm"/>
+                    <attribute id="UUID" type="guid" value="7c18f54c-2675-4762-8921-d0b9f0b1b8f4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Drunken Master Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_DrunkenTechnique"/>
+                    <attribute id="UUID" type="guid" value="966a3d57-dcdc-4aa4-a682-812c0e3ec857"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Drunken Master Level 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_IntoxicatingStrike;Target_IntoxicatingStrike_BonusAction"/>
+                    <attribute id="UUID" type="guid" value="a16af3be-de15-49c5-b9c8-99719b1fce2f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Drunken Master Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_SoberingRealisation"/>
+                    <attribute id="UUID" type="guid" value="46fd6e90-d0bd-4825-896e-b266beaec95d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_RighteousClarity"/>
+                    <attribute id="UUID" type="guid" value="0e170ae3-56b4-487a-9690-83b7a9975a43"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Command_Container;Target_CompelledDuel;Shout_TurnTheTide;Shout_Champion_Challenge"/>
+                    <attribute id="UUID" type="guid" value="04454ba7-6ad0-430f-9005-4a14602bb436"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_WardingBond;Target_SpiritualWeapon"/>
+                    <attribute id="UUID" type="guid" value="07e548a2-ddd4-4865-a899-96c8077817b9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 9"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Shout_SpiritGuardians"/>
+                    <attribute id="UUID" type="guid" value="4f0b2566-0486-4c61-b491-7bb48afd52c3"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin, Redemption spell scroll list"/>
+                    <attribute id="Spells" type="LSString" value="Target_Sanctuary;Target_Sleep;Target_CalmEmotions;Target_HoldPerson;Target_Counterspell;Target_HypnoticPattern"/>
+                    <attribute id="UUID" type="guid" value="9a0dc25d-639b-4b19-a0ff-b1f60bf0f876"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Death Domain Divine Strike"/>
+                    <attribute id="Spells" type="LSString" value="Target_DivineStrike_Death_Container"/>
+                    <attribute id="UUID" type="guid" value="0eac992a-965d-4e5d-a826-8fee46ba19aa"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 2 expanded"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneLock;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Target_ArcaneLock;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_ResilientSphere;Target_PhantasmalKiller;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Target_ArcaneLock;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_ResilientSphere;Target_PhantasmalKiller;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Target_ArcaneLock;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Target_CreateUndead;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Target_FreezingSphere;Target_IrresistibleDance;Zone_Sunbeam;Wall_WallOfIce;Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_ResilientSphere;Target_PhantasmalKiller;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Target_AnimateDead;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Target_ArcaneLock;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_StinkingCloud;Target_VampiricTouch;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="5dec41aa-f16a-434e-b209-50c07e64e4ed"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Shout_FireShield;Wall_WallOfFire;Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_StinkingCloud;Target_VampiricTouch;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_FlameStrike;Target_HoldMonster;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Shout_FireShield;Wall_WallOfFire;Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_StinkingCloud;Target_VampiricTouch;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="deab57bf-4eec-4085-82f7-87335bce3f5d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_Slow;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="30e9b761-6be0-418e-bb28-5103c00c663b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_BlackTentacles;Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_Slow;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="b64e527e-1f97-4125-84f7-78376ab1440b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_HoldMonster;Throw_Telekinesis;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_BlackTentacles;Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_Slow;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="0cc2c8ab-9bbc-43a7-a66d-08e47da4c172"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_PlantGrowth;Target_RemoveCurse;Target_VampiricTouch;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="f18ad912-e2f4-47a9-8744-73d6a51c2941"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_PlantGrowth;Target_RemoveCurse;Target_VampiricTouch;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c3d8a4a5-9dae-4193-8322-a5d1c5b89f47"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_HoldMonster;Target_Seeming;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_PlantGrowth;Target_RemoveCurse;Target_VampiricTouch;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="0a9b924f-64fb-4f22-b975-5eeedc99b2fd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 2 expanded"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="f80396e2-cb76-4694-b0db-5c34da61a478"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_GlobeOfInvulnerability;Zone_Sunbeam;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma)"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="UUID" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Shadow Sorcerer Hound of Ill Omen"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoundOfIllOmen"/>
+                    <attribute id="UUID" type="guid" value="f4791675-9f08-433f-8ee2-e90a5ea072e9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Shadow Sorcerer level 11"/>
+                    <attribute id="Spells" type="LSString" value="Target_ShadowWalk"/>
+                    <attribute id="UUID" type="guid" value="e95177b1-f243-4837-868e-8e84563f518e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Shadow Sorcerer Eyes of the Dark, Darkness spells"/>
+                    <attribute id="Spells" type="LSString" value="Target_Darkness;Target_Darkness_Sorcerer"/>
+                    <attribute id="UUID" type="guid" value="98837fc3-8d85-4eaa-b357-337602b22884"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bladesinging Wizard, Bladesong"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Bladesong"/>
+                    <attribute id="UUID" type="guid" value="e97297e2-5cc9-45c9-ae8d-5a24257dd176"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Panache, Swashbuckler Rogue"/>
+                    <attribute id="Spells" type="LSString" value="Target_Panache"/>
+                    <attribute id="UUID" type="guid" value="62b78cbc-f9df-4834-a544-d661e7571fc4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Glamour Bard Level 6 Mantle of Majesty"/>
+                    <attribute id="Spells" type="LSString" value="Target_MantleOfMajesty"/>
+                    <attribute id="UUID" type="guid" value="3b45a71a-971b-41b2-806e-8560d4410b52"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Swashbuckler Rogue, Dirty Trick list"/>
+                    <attribute id="Spells" type="LSString" value="Target_DirtyTrick_Disarm;Target_DirtyTrick_Vicious"/>
+                    <attribute id="UUID" type="guid" value="f3b319db-3e70-454e-aab0-4e5947396119"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Swashbuckler Rogue, Dirty Trick Blind"/>
+                    <attribute id="Spells" type="LSString" value="Target_DirtyTrick_Blind"/>
+                    <attribute id="UUID" type="guid" value="b492841a-8c01-4dd7-9146-33dabedb9954"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

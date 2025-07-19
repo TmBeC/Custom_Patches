@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="4b629bbb-203b-4382-9786-755bf897567f"/>
+                    <attribute id="Name" type="FixedString" value="Rogue (Arcane Trickster) SLevel 1 MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Target_IdInsinuation;Target_SuddenAwakening"/>
+                    <attribute id="UUID" type="guid" value="f200ab54-9257-4d5f-b959-7a3462d70e48"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f9fd64f1-f417-4544-94a9-51d8876d68df"/>
+                    <attribute id="Name" type="FixedString" value="Rogue Arcane Trickster SLevel 2 MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_GlowingCoin_Jim;Target_NathairsMischief;Shout_ShadowBlade_Spell;Target_SilveryBarbs;Target_MindWhip;Target_IdInsinuation;Target_SuddenAwakening"/>
+                    <attribute id="UUID" type="guid" value="2c9c7fc7-6c8d-46b7-b27e-6a48d69961ac"/>
+                </node>
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f9fd64f1-f417-4544-94a9-51d8876d68df"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Rogue Arcane Trickster SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_TashasMindWhip;Target_NathairsMischief;Shout_ShadowBlade"/>
+                    <attribute id="UUID" type="guid" value="07ad14af-517e-4121-8f86-5bfa1b53bc48"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c707cc1f-e5ed-4798-909a-3652ad497d24"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Rogue Arcane Trickster SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_TashasMindWhip;Target_NathairsMischief;Shout_ShadowBlade"/>
+                    <attribute id="UUID" type="guid" value="c1c84daa-42db-4ff7-905c-3c02ab176b7b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="0329cc67-3e67-409c-9b22-fb510a564c98"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Rogue Arcane Trickster SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_TashasMindWhip;Target_NathairsMischief;Shout_ShadowBlade"/>
+                    <attribute id="UUID" type="guid" value="b026beea-e92f-4147-9e4c-b5c81789da53"/>
+                </node>
+
+
+
+
+
+            </children>
+        </node>
+    </region>
+</save>

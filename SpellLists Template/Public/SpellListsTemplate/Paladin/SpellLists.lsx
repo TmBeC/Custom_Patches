@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 1 NEW"/>
+                    <attribute id="Spells" type="LSString" value="Target_Ceremony"/>
+                    <attribute id="UUID" type="guid" value="20ec5141-3e56-420a-9226-9697fee8512e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 2 NEW"/>
+                    <attribute id="Spells" type="LSString" value="Target_ForceWeapon"/>
+                    <attribute id="UUID" type="guid" value="21d31053-83c0-46b4-b4a9-f32a5260d170"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 3 NEW"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BlindFaith;Shout_CreateFoodAndWater;Shout_SpiritShroud"/>
+                    <attribute id="UUID" type="guid" value="10d2c10c-d1fa-47d3-ae79-c6b1a09d471d"/>
+                </node>
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
+                    <attribute id="UUID" type="guid" value="f9c4d953-9080-41c7-8da5-f3e7be65678b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_PrayerOfHealing;Target_WardingBond;Target_ZoneofTruth"/>
+                    <attribute id="UUID" type="guid" value="a45ee3d1-874e-440e-9be7-09fd2123ab44"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_CreateFoodAndWater;Target_MagicCircle;Shout_SpiritShroud"/>
+                    <attribute id="UUID" type="guid" value="5b1c6a5e-4c26-4238-879e-b5067809f816"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="11d0c2a0-41c6-4ec0-98fe-5d987f7e1665"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfLife"/>
+                    <attribute id="UUID" type="guid" value="3122a944-18ee-4bcc-9496-7999d29642ec"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f351595c-90f7-4804-9e55-18c4d624593c"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_CircleOfPower;Target_HolyWeapon;Target_RaiseDead"/>
+                    <attribute id="UUID" type="guid" value="0ccd1ca9-2cdb-4fe8-93a1-51e40aa870c0"/>
+                </node>
+
+
+
+
+
+            </children>
+        </node>
+    </region>
+</save>

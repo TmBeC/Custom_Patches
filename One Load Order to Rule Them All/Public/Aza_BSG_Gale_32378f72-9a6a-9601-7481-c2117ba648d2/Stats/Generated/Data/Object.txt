@@ -1,5 +1,0 @@
-new entry "CONT_Chest_BSG_Gale_Aza"
-type "Object"
-using "_Loot"
-data "RootTemplate" ""
-data "ValueUUID" ""

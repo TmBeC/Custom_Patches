@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
+                    <attribute id="Name" type="FixedString" value="Wizard cantrips (Intelligence) 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_BoomingBlade_ClassSpell;Target_Elementalism;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Projectile_MindSliver;Target_Prestidigitation;Projectile_SappingSting;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead"/>
+                    <attribute id="UUID" type="guid" value="9320d210-e8e1-4a9e-b264-75527faf0aaa"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 1 expanded MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_GiftOfAlacrity;Target_IdInsinuation;Shout_MagicMissile_Jim;Target_MagnifyGravity;Target_SuddenAwakening;Zone_CausticBrew"/>
+                    <attribute id="UUID" type="guid" value="d7d38b60-9e43-4cda-baaa-e1dd781d8ee7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 2 expanded MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AganazzarScorcher;Shout_BeastAspect;Shout_BorrowedKnowledge;Target_DragonsBreath;Shout_DustDevil;Target_Earthbind;Target_FlockOfFamiliars;Target_ForceWeapon;Target_HealingElixir;Projectile_GlowingCoin_Jim;Shout_KineticJaunt;Target_EarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Shout_ShadowBlade_Spell;Target_SilveryBarbs;Target_SnowballStorm;Zone_SprayOfCards;Shout_SummonMoonblade_Container;Target_MindWhip;Target_VortexWarp;Target_WitherAndBloom;Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_GiftOfAlacrity;Target_IdInsinuation;Shout_MagicMissile_Jim;Target_MagnifyGravity;Target_SuddenAwakening;Zone_CausticBrew"/>
+                    <attribute id="UUID" type="guid" value="f82e8333-d0b0-4910-abe6-902b61b52b70"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 3 MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Shout_InciteGreed;Target_IntellectFortress;Target_LifeTransference;Shout_MelfsMinuteMeteors;Zone_PsionicBlast;Zone_PulseWave;Shout_SpiritShroud;Target_SummonFey_Container;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_TidalWave;Zone_AganazzarScorcher;Shout_BeastAspect;Shout_BorrowedKnowledge;Target_DragonsBreath;Shout_DustDevil;Target_Earthbind;Target_FlockOfFamiliars;Target_ForceWeapon;Target_HealingElixir;Projectile_GlowingCoin_Jim;Shout_KineticJaunt;Target_EarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Shout_ShadowBlade_Spell;Target_SilveryBarbs;Target_SnowballStorm;Zone_SprayOfCards;Shout_SummonMoonblade_Container;Target_MindWhip;Target_VortexWarp;Target_WitherAndBloom;Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_GiftOfAlacrity;Target_IdInsinuation;Shout_MagicMissile_Jim;Target_MagnifyGravity;Target_SuddenAwakening;Zone_CausticBrew"/>
+                    <attribute id="UUID" type="guid" value="215b549f-c76d-4620-889b-c8006cc71948"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 4 MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneEyeNew;Target_CharmMonster;Target_ControlWater_Container;Target_DreamSleep;Target_EgoWhip;Target_ElementalBane;Target_GravitySinkhole;Target_IllusoryWeapon;Target_PsychicLance;Target_StoneShape_Container;Target_StormSphere;Target_SummonAberration;Target_SummonConstruct;Target_SummonElemental;Target_SummonGreaterDemon;Projectile_VitriolicSphere;Projectile_WebOfFire;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Shout_InciteGreed;Target_IntellectFortress;Target_LifeTransference;Shout_MelfsMinuteMeteors;Zone_PsionicBlast;Zone_PulseWave;Shout_SpiritShroud;Target_SummonFey_Container;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_TidalWave;Zone_AganazzarScorcher;Shout_BeastAspect;Shout_BorrowedKnowledge;Target_DragonsBreath;Shout_DustDevil;Target_Earthbind;Target_FlockOfFamiliars;Target_ForceWeapon;Target_HealingElixir;Projectile_GlowingCoin_Jim;Shout_KineticJaunt;Target_EarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Shout_ShadowBlade_Spell;Target_SilveryBarbs;Target_SnowballStorm;Zone_SprayOfCards;Shout_SummonMoonblade_Container;Target_MindWhip;Target_VortexWarp;Target_WitherAndBloom;Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_GiftOfAlacrity;Target_IdInsinuation;Shout_MagicMissile_Jim;Target_MagnifyGravity;Target_SuddenAwakening;Zone_CausticBrew"/>
+                    <attribute id="UUID" type="guid" value="51f32555-3c2f-4730-b2bc-0e631f7005fa"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 5 MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Target_AstralDisjunction;Target_BigbyHand;Target_DanseMacabre_Container;Projectile_Enervation;Shout_FarStep;Target_Immolation;Target_InfernalCalling;Target_MacabreExplosion;Projectile_NegativeEnergyFlood;Projectile_SteelWindStrikeNew;Target_SummonDragon;Target_SynapticStatic;Target_ArcaneEyeNew;Target_CharmMonster;Target_ControlWater_Container;Target_DreamSleep;Target_EgoWhip;Target_ElementalBane;Target_GravitySinkhole;Target_IllusoryWeapon;Target_PsychicLance;Target_StoneShape_Container;Target_StormSphere;Target_SummonAberration;Target_SummonConstruct;Target_SummonElemental;Target_SummonGreaterDemon;Projectile_VitriolicSphere;Projectile_WebOfFire;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Shout_InciteGreed;Target_IntellectFortress;Target_LifeTransference;Shout_MelfsMinuteMeteors;Zone_PsionicBlast;Zone_PulseWave;Shout_SpiritShroud;Target_SummonFey_Container;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_TidalWave;Zone_AganazzarScorcher;Shout_BeastAspect;Shout_BorrowedKnowledge;Target_DragonsBreath;Shout_DustDevil;Target_Earthbind;Target_FlockOfFamiliars;Target_ForceWeapon;Target_HealingElixir;Projectile_GlowingCoin_Jim;Shout_KineticJaunt;Target_EarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Shout_ShadowBlade_Spell;Target_SilveryBarbs;Target_SnowballStorm;Zone_SprayOfCards;Shout_SummonMoonblade_Container;Target_MindWhip;Target_VortexWarp;Target_WitherAndBloom;Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_GiftOfAlacrity;Target_IdInsinuation;Shout_MagicMissile_Jim;Target_MagnifyGravity;Target_SuddenAwakening;Zone_CausticBrew"/>
+                    <attribute id="UUID" type="guid" value="d6c4c082-7594-4f87-b0cd-d936601dc17f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 6 MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value="Zone_Fissure;Shout_ElementalInvestiture;Target_PsychicCrush;Shout_TensersTransformation;Target_TrueSeeing;Target_AstralDisjunction;Target_BigbyHand;Target_DanseMacabre_Container;Projectile_Enervation;Shout_FarStep;Target_Immolation;Target_InfernalCalling;Target_MacabreExplosion;Projectile_NegativeEnergyFlood;Projectile_SteelWindStrikeNew;Target_SummonDragon;Target_SynapticStatic;Target_ArcaneEyeNew;Target_CharmMonster;Target_ControlWater_Container;Target_DreamSleep;Target_EgoWhip;Target_ElementalBane;Target_GravitySinkhole;Target_IllusoryWeapon;Target_PsychicLance;Target_StoneShape_Container;Target_StormSphere;Target_SummonAberration;Target_SummonConstruct;Target_SummonElemental;Target_SummonGreaterDemon;Projectile_VitriolicSphere;Projectile_WebOfFire;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Shout_InciteGreed;Target_IntellectFortress;Target_LifeTransference;Shout_MelfsMinuteMeteors;Zone_PsionicBlast;Zone_PulseWave;Shout_SpiritShroud;Target_SummonFey_Container;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_TidalWave;Zone_AganazzarScorcher;Shout_BeastAspect;Shout_BorrowedKnowledge;Target_DragonsBreath;Shout_DustDevil;Target_Earthbind;Target_FlockOfFamiliars;Target_ForceWeapon;Target_HealingElixir;Projectile_GlowingCoin_Jim;Shout_KineticJaunt;Target_EarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Shout_ShadowBlade_Spell;Target_SilveryBarbs;Target_SnowballStorm;Zone_SprayOfCards;Shout_SummonMoonblade_Container;Target_MindWhip;Target_VortexWarp;Target_WitherAndBloom;Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_GiftOfAlacrity;Target_IdInsinuation;Shout_MagicMissile_Jim;Target_MagnifyGravity;Target_SuddenAwakening;Zone_CausticBrew"/>
+                    <attribute id="UUID" type="guid" value="e33704eb-dc7d-4b6c-86d7-8c1b0feee98f"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 1 expanded"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="aa4c5ec3-58c5-4da3-a525-3ae6d01ee953"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 2 expanded"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="4e2d4d3f-859e-489c-817b-31d44b9d1c74"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="c489d104-c6f2-4dc5-9d41-cdaf9d8baae2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="9eb6e06c-ce8a-4902-871f-1c663e02928f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="f66bae85-a922-423b-82a8-58635b367139"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value="Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="c3fc49b1-01b0-4c98-8924-472c09611a04"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="dff7917a-0abc-4671-b68f-c03e56212549"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_FingerOfDeath;Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="5b2bb676-ddb6-4d48-87ba-cc0c27704a1b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f27a2d0a-0d6c-4c01-98a5-60081abf4807"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominateMonster;Target_Feeblemind;Target_MindBlank;Target_FingerOfDeath;Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="3f13c7dc-77fc-4f47-985d-3be0342ea368"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="cb123d97-8809-4d71-a0cb-0ecb66177d15"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Foresight;Target_PowerWordKill;Target_DominateMonster;Target_Feeblemind;Target_MindBlank;Target_FingerOfDeath;Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="8fecd894-7a73-44b7-b00c-20b44377f452"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="dff7917a-0abc-4671-b68f-c03e56212549"/>
+                    <attribute id="Name" type="FixedString" value="AddTo_Wizard7thOther"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Target_ATT_ReverseGravity;Zone_PrismaticSpray;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
+                    <attribute id="UUID" type="guid" value="d6cd4272-5736-41d9-9428-2cc317c0aa73"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f27a2d0a-0d6c-4c01-98a5-60081abf4807"/>
+                    <attribute id="Name" type="FixedString" value="AddTo_Wizard8thOther"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AntimagicField;Target_ATT_DominateMonster;Projectile_ATT_Feeblemind;Target_ATT_IncendiaryCloud;Target_IllusoryDragon;Target_HorridWilting;Target_ATT_MaddeningDarkness;Target_ATT_Maze;Target_ATT_MindBlank;Target_ATT_PowerWordStun;Target_Sunburst;Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Target_ATT_ReverseGravity;Zone_PrismaticSpray;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
+                    <attribute id="UUID" type="guid" value="21f43d14-3f87-491f-ab5e-6985bddb391c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="cb123d97-8809-4d71-a0cb-0ecb66177d15"/>
+                    <attribute id="Name" type="FixedString" value="AddTo_Wizard9thOther"/>
+                    <attribute id="Spells" type="LSString" value="Target_BladeOfDisaster;Target_ATT_Foresight;Target_Gate_Container;Shout_ATT_Invulnerability;Target_MassPolymorph;Target_ATT_MeteorSwarm;Target_ATT_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream;Shout_ATT_Shapechange_Container;Shout_ATT_TimeStop;Target_Weird;Shout_Wish;Shout_AntimagicField;Target_ATT_DominateMonster;Projectile_ATT_Feeblemind;Target_ATT_IncendiaryCloud;Target_IllusoryDragon;Target_HorridWilting;Target_ATT_MaddeningDarkness;Target_ATT_Maze;Target_ATT_MindBlank;Target_ATT_PowerWordStun;Target_Sunburst;Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Target_ATT_ReverseGravity;Zone_PrismaticSpray;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
+                    <attribute id="UUID" type="guid" value="94046684-e6ce-4cde-aa90-ce94e0c81ffc"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard cantrips (Intelligence) NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="9e880431-40ec-4801-b546-d2d4ebb4f46d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard cantrips (Intelligence)"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="a5117087-fa75-4c1e-ac8c-1e578c8da2b3"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </children>
+        </node>
+    </region>
+</save>
