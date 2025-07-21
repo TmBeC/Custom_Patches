@@ -4,11 +4,25 @@
 
 
 // 1st Level Spells
-(WORD)
-
+(Absorb Elements)
+Shout_AbsorbElements
 
 (Acid Stream)
 Zone_AcidStream
+
+(Beast Bond)
+
+
+(Catapult)
+
+
+(Cause Fear)
+
+
+(Ceremony)
+
+
+(Chaos Bolt)
 
 
 (Detect Evil and Good)
@@ -17,8 +31,10 @@ Shout_DetectEvilAndGood
 (Detect Magic)
 Shout_DetectMagic
 
+(Earth Tremor)
 
 
+(Frost Fingers)
 
 
 (Gift of Alacrity) - Chronurgy Wizard only
@@ -30,20 +46,22 @@ Target_IdInsinuation
 (Magnify Gravity) - Chronurgy Wizard only
 Target_MagnifyGravity
 
-
-
-
 (Silvery Barbs)
 Target_SilveryBarbs
+
+(Snare)
+
 
 (Sudden Awakening)
 Target_SuddenAwakening
 
-
+(Tasha's Caustic Brew)
 
 
 (Unseen Servant)
 Target_UnseenServant
+
+(Zephyr Strike)
 
 
 
