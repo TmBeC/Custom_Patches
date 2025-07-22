@@ -22,9 +22,6 @@ Target_CauseFear
 (Ceremony)
 Target_Ceremony
 
-(Chaos Bolt)
-
-
 (Detect Evil and Good)
 Shout_DetectEvilAndGood
 
@@ -32,10 +29,10 @@ Shout_DetectEvilAndGood
 Shout_DetectMagic
 
 (Earth Tremor)
-
+Shout_EarthTremor
 
 (Frost Fingers)
-
+Zone_FrostFingers
 
 (Gift of Alacrity) - Chronurgy Wizard only
 Target_GiftOfAlacrity
@@ -50,7 +47,7 @@ Target_MagnifyGravity
 Target_SilveryBarbs
 
 (Snare)
-
+Target_Snare
 
 (Sudden Awakening)
 Target_SuddenAwakening
