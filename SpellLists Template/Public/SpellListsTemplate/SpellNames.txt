@@ -53,13 +53,97 @@ Target_Snare
 Target_SuddenAwakening
 
 (Tasha's Caustic Brew)
-
+Zone_CausticBrew
 
 (Unseen Servant)
 Target_UnseenServant
 
 (Zephyr Strike)
+Shout_ZephyrStrike
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 2nd Level Spells
+(SPELL_NAME)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 3rd Level Spells
+(SPELL_NAME)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 4th Level Spells
+(SPELL_NAME)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 5th Level Spells
+(SPELL_NAME)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 6th Level Spells
+(SPELL_NAME)
 
 
 
