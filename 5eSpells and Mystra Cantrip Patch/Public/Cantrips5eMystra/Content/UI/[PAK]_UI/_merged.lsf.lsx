@@ -12,8 +12,8 @@
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="Width" type="int32" value="64" />
-					<attribute id="Height" type="int32" value="64" />
+					<attribute id="Width" type="int32" value="256" />
+					<attribute id="Height" type="int32" value="256" />
 					<attribute id="Depth" type="int32" value="1" />
 				</node>
 			</children>
