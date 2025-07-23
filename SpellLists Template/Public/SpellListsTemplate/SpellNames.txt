@@ -164,6 +164,7 @@ Shout_ZephyrStrike
 
 
 
+
 // 7th Level Spells
 (Crown of Stars)
 Shout_ATT_CrownOfStars
@@ -216,6 +217,10 @@ Target_ATT_Whirlwind
 
 
 
+
+
+
+
 // 8th Level Spells
 (Abi-Dalzim's Horrid Wilting)
 Target_HorridWilting
@@ -258,6 +263,9 @@ Target_ATT_PowerWordStun
 
 (Sunburst)
 Target_Sunburst
+
+
+
 
 
 

@@ -24,6 +24,38 @@
 
 
 
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="dff7917a-0abc-4671-b68f-c03e56212549"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_FingerOfDeath;Target_ATT_PowerWordPain;Zone_PrismaticSpray;Target_ATT_ReverseGravity;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
+                    <attribute id="UUID" type="guid" value="6ad636d3-319c-4bf2-a139-84d22109f532"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f27a2d0a-0d6c-4c01-98a5-60081abf4807"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_FingerOfDeath;Target_ATT_PowerWordPain;Zone_PrismaticSpray;Target_ATT_ReverseGravity;Target_ATT_Symbol;Target_ATT_Whirlwind;Target_HorridWilting;Shout_AntimagicField;Target_Feeblemind;Target_DominateMonster;Target_IllusoryDragon;Target_ATT_IncendiaryCloud;Target_ATT_MaddeningDarkness;Target_ATT_Maze;Target_MindBlank;Target_ATT_PowerWordStun;Target_Sunburst"/>
+                    <attribute id="UUID" type="guid" value="f1059952-d7ee-44b9-99fa-b957f7f943ea"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="cb123d97-8809-4d71-a0cb-0ecb66177d15"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_FingerOfDeath;Target_ATT_PowerWordPain;Zone_PrismaticSpray;Target_ATT_ReverseGravity;Target_ATT_Symbol;Target_ATT_Whirlwind;Target_HorridWilting;Shout_AntimagicField;Target_Feeblemind;Target_DominateMonster;Target_IllusoryDragon;Target_ATT_IncendiaryCloud;Target_ATT_MaddeningDarkness;Target_ATT_Maze;Target_MindBlank;Target_ATT_PowerWordStun;Target_Sunburst;Target_BladeOfDisaster;Target_Foresight;Target_Gate_Container;Shout_ATT_Invulnerability;Target_MassPolymorph;Target_ATT_MeteorSwarm;Target_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream;Shout_ATT_Shapechange_Container;Shout_ATT_TimeStop;Target_Weird;Shout_Wish"/>
+                    <attribute id="UUID" type="guid" value="ce6e80f9-19d0-499a-aa92-87b8af37411e"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Wizard SLevel 2 expanded 5R"/>
@@ -51,24 +83,6 @@
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Wizard SLevel 6 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Wizard SLevel 7 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Wizard SLevel 8 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Wizard SLevel 9 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="SpellList_UUID"/>
                 </node>
@@ -159,47 +173,6 @@
                     <attribute id="Spells" type="LSString" value="Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="c3fc49b1-01b0-4c98-8924-472c09611a04"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="dff7917a-0abc-4671-b68f-c03e56212549"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 7"/>
-                    <attribute id="Spells" type="LSString" value="Target_FingerOfDeath;Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="5b2bb676-ddb6-4d48-87ba-cc0c27704a1b"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="f27a2d0a-0d6c-4c01-98a5-60081abf4807"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 8"/>
-                    <attribute id="Spells" type="LSString" value="Target_DominateMonster;Target_Feeblemind;Target_MindBlank;Target_FingerOfDeath;Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="3f13c7dc-77fc-4f47-985d-3be0342ea368"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="cb123d97-8809-4d71-a0cb-0ecb66177d15"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 9"/>
-                    <attribute id="Spells" type="LSString" value="Target_Foresight;Target_PowerWordKill;Target_DominateMonster;Target_Feeblemind;Target_MindBlank;Target_FingerOfDeath;Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="8fecd894-7a73-44b7-b00c-20b44377f452"/>
-                </node>
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="dff7917a-0abc-4671-b68f-c03e56212549"/>
-                    <attribute id="Name" type="FixedString" value="AddTo_Wizard7thOther"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Target_ATT_ReverseGravity;Zone_PrismaticSpray;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
-                    <attribute id="UUID" type="guid" value="d6cd4272-5736-41d9-9428-2cc317c0aa73"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="f27a2d0a-0d6c-4c01-98a5-60081abf4807"/>
-                    <attribute id="Name" type="FixedString" value="AddTo_Wizard8thOther"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AntimagicField;Target_ATT_DominateMonster;Projectile_ATT_Feeblemind;Target_ATT_IncendiaryCloud;Target_IllusoryDragon;Target_HorridWilting;Target_ATT_MaddeningDarkness;Target_ATT_Maze;Target_ATT_MindBlank;Target_ATT_PowerWordStun;Target_Sunburst;Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Target_ATT_ReverseGravity;Zone_PrismaticSpray;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
-                    <attribute id="UUID" type="guid" value="21f43d14-3f87-491f-ab5e-6985bddb391c"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="cb123d97-8809-4d71-a0cb-0ecb66177d15"/>
-                    <attribute id="Name" type="FixedString" value="AddTo_Wizard9thOther"/>
-                    <attribute id="Spells" type="LSString" value="Target_BladeOfDisaster;Target_ATT_Foresight;Target_Gate_Container;Shout_ATT_Invulnerability;Target_MassPolymorph;Target_ATT_MeteorSwarm;Target_ATT_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream;Shout_ATT_Shapechange_Container;Shout_ATT_TimeStop;Target_Weird;Shout_Wish;Shout_AntimagicField;Target_ATT_DominateMonster;Projectile_ATT_Feeblemind;Target_ATT_IncendiaryCloud;Target_IllusoryDragon;Target_HorridWilting;Target_ATT_MaddeningDarkness;Target_ATT_Maze;Target_ATT_MindBlank;Target_ATT_PowerWordStun;Target_Sunburst;Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Target_ATT_ReverseGravity;Zone_PrismaticSpray;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
-                    <attribute id="UUID" type="guid" value="94046684-e6ce-4cde-aa90-ce94e0c81ffc"/>
-                </node>
 
 
 
@@ -260,6 +233,36 @@
 
 
 
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="5b2bb676-ddb6-4d48-87ba-cc0c27704a1b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Wizard7thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="d6cd4272-5736-41d9-9428-2cc317c0aa73"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="3f13c7dc-77fc-4f47-985d-3be0342ea368"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Wizard8thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="21f43d14-3f87-491f-ab5e-6985bddb391c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="8fecd894-7a73-44b7-b00c-20b44377f452"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Wizard9thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="94046684-e6ce-4cde-aa90-ce94e0c81ffc"/>
+                </node>
             </children>
         </node>
     </region>

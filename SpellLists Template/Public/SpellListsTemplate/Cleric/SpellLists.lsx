@@ -27,6 +27,26 @@
 
 
 
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="11862b36-c2d6-4d2f-b2d7-4af29f8fe31a"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DivineWord;Target_ATT_Etherealness;Target_FireStorm;Target_ATT_PowerWordFortify;Target_Regenerate;Target_ATT_Symbol"/>
+                    <attribute id="UUID" type="guid" value="51e3b4cc-37f8-49f2-b901-241695b7d311"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="a0df1e32-1c61-4017-939f-44cc7695a924"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DivineWord;Target_ATT_Etherealness;Target_FireStorm;Target_ATT_PowerWordFortify;Target_Regenerate;Target_ATT_Symbol;Shout_AntimagicField;Shout_HolyAura;Target_Sunburst"/>
+                    <attribute id="UUID" type="guid" value="b4eb1f43-60ad-4dc1-832d-eba4bb403864"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="9ea2891d-f0f9-42d0-b13d-7f1a5df154c3"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DivineWord;Target_ATT_Etherealness;Target_FireStorm;Target_ATT_PowerWordFortify;Target_Regenerate;Target_ATT_Symbol;Shout_AntimagicField;Shout_HolyAura;Target_Sunburst;Target_Gate_Container;Target_ATT_MassHeal;Target_PowerWordHeal;Teleportation_ATT_MOD_TrueResurrection"/>
+                    <attribute id="UUID" type="guid" value="23edcfc1-f3b4-43dd-84bc-019f80f6eedb"/>
+                </node>
+
+
 
 
 
@@ -61,24 +81,35 @@
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="70859146-c83b-4fe1-9c78-56c8d095b738"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 7 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="51e3b4cc-37f8-49f2-b901-241695b7d311"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 8 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="b4eb1f43-60ad-4dc1-832d-eba4bb403864"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 9 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="23edcfc1-f3b4-43dd-84bc-019f80f6eedb"/>
-                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -407,24 +438,6 @@
                     <attribute id="Spells" type="LSString" value="Zone_Sunbeam;Target_TrueSeeing"/>
                     <attribute id="UUID" type="guid" value="61e191fc-a521-4a93-acdd-200a7a225cb8"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="11862b36-c2d6-4d2f-b2d7-4af29f8fe31a"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 7"/>
-                    <attribute id="Spells" type="LSString" value="Target_Regenerate"/>
-                    <attribute id="UUID" type="guid" value="3800b2c7-5538-4fc3-b682-dbaa4ee2542a"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="a0df1e32-1c61-4017-939f-44cc7695a924"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 8"/>
-                    <attribute id="Spells" type="LSString" value="Shout_HolyAura"/>
-                    <attribute id="UUID" type="guid" value="de6ad5dd-ce50-49fa-8955-0af2ef90c14b"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="9ea2891d-f0f9-42d0-b13d-7f1a5df154c3"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 9"/>
-                    <attribute id="Spells" type="LSString" value="Target_PowerWordHeal"/>
-                    <attribute id="UUID" type="guid" value="85271bbf-45a6-4cfe-becd-23e9fb0b33e7"/>
-                </node>
 
 
 
@@ -436,34 +449,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="11862b36-c2d6-4d2f-b2d7-4af29f8fe31a"/>
-                    <attribute id="Name" type="FixedString" value="AddTo_Cleric7thOther"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DivineWord;Target_ATT_Etherealness;Target_FireStorm;Target_ATT_PowerWordFortify;Target_ATT_Regenerate;Target_ATT_Symbol"/>
-                    <attribute id="UUID" type="guid" value="685b9cb8-ae81-432c-8fdb-2c9ab4619021"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="a0df1e32-1c61-4017-939f-44cc7695a924"/>
-                    <attribute id="Name" type="FixedString" value="AddTo_Cleric8thOther"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AntimagicField;Shout_ATT_HolyAura;Target_Sunburst"/>
-                    <attribute id="UUID" type="guid" value="7c6e968b-b419-4463-9838-cdf9a32ef3c7"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="9ea2891d-f0f9-42d0-b13d-7f1a5df154c3"/>
-                    <attribute id="Name" type="FixedString" value="AddTo_Cleric9thOther"/>
-                    <attribute id="Spells" type="LSString" value="Target_Gate_Container;Target_ATT_MassHeal;Teleportation_ATT_MOD_TrueResurrection"/>
-                    <attribute id="UUID" type="guid" value="68d805f6-78d9-4398-9b5c-279803e4cbe8"/>
-                </node>
 
 
 
@@ -520,6 +505,36 @@
 
 
 
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="3800b2c7-5538-4fc3-b682-dbaa4ee2542a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Cleric7thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="685b9cb8-ae81-432c-8fdb-2c9ab4619021"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="de6ad5dd-ce50-49fa-8955-0af2ef90c14b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Cleric8thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="7c6e968b-b419-4463-9838-cdf9a32ef3c7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="85271bbf-45a6-4cfe-becd-23e9fb0b33e7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Cleric9thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="68d805f6-78d9-4398-9b5c-279803e4cbe8"/>
+                </node>
             </children>
         </node>
     </region>

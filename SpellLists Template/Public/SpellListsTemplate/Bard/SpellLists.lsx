@@ -251,12 +251,12 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 9"/>
-                    <attribute id="Spells" type="LSString" value="Target_Foresight;Target_PowerWordHeal;Target_PowerWordKill;Target_DominateMonster;Target_Regenerate;Shout_HeroesFeast;Target_TrueSeeing;Target_Feeblemind;Target_MindBlank;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Target_PhantasmalKiller;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_IntellectFortress;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_Nondetection;Target_Slow;Shout_Aid;Shout_BorrowedKnowledge;Target_EnlargeReduce;Shout_KineticJaunt;Target_Knock;Shout_MirrorImage;Target_NathairsMischief;Shout_WardingWind;Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_UnseenServant;Target_ZoneofTruth"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="d0e9ca0a-fd52-403e-833c-d8c3ad6d5d1c"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="AddTo_Bard9thOther"/>
-                    <attribute id="Spells" type="LSString" value="Target_ATT_Foresight;Target_MassPolymorph;Target_ATT_PowerWordHeal;Target_ATT_PowerWordKill;Shout_PsychicScream;Target_ATT_DominateMonster;Projectile_ATT_Feeblemind;Shout_Glibness;Target_ATT_MindBlank;Target_ATT_PowerWordStun;Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Target_ATT_Regenerate;Target_ATT_Symbol"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="eb5eba00-56d4-4141-805a-ae02dfca78c1"/>
                 </node>
                 <node id="SpellList">
