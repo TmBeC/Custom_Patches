@@ -16,68 +16,68 @@
                     <attribute id="Spells" type="LSString" value="Projectile_SappingSting"/>
                     <attribute id="UUID" type="guid" value="6c8d5bda-0002-4673-b18c-2b8a3360c1d4"/>
                 </node>
-
-
-
-
-
-
-
-
-
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="269d1a3b-eed8-4131-8901-a562238f5289"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 1 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="Spells" type="LSString" value="Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
+                    <attribute id="UUID" type="guid" value="3553c382-6aaa-4897-bff7-b20a84581d3f"/>
                 </node>
+
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 2 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="dd4db95f-7998-4521-8a05-0d2d87a2b351"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="21be0992-499f-4c7a-a77a-4430085e947a"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 3 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="7027b294-078d-4973-bbf5-8c6ac800fefe"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 4 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="04095e96-fadc-4b40-89ca-de3a0e6ad0cb"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="b73aeea5-1ff9-4cac-b61d-b5aa6dfe31c2"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 5 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="342f9508-8539-4583-9725-c7abd95bf2de"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f8ba7b05-1237-4eaa-97fa-1d3623d5862b"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 6 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="70859146-c83b-4fe1-9c78-56c8d095b738"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 7 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="51e3b4cc-37f8-49f2-b901-241695b7d311"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 8 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="b4eb1f43-60ad-4dc1-832d-eba4bb403864"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 9 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="23edcfc1-f3b4-43dd-84bc-019f80f6eedb"/>
                 </node>
 
 
@@ -93,12 +93,8 @@
 
 
 
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="269d1a3b-eed8-4131-8901-a562238f5289"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_Ceremony"/>
-                    <attribute id="UUID" type="guid" value="019b3773-fef4-4178-958c-b53271d9f9e7"/>
-                </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 2 NEW"/>
@@ -168,15 +164,13 @@
 
 
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="26ffbe70-23c6-4918-9e6a-a3e556a9d355"/>
                     <attribute id="Name" type="FixedString" value="Cleric Life Domain NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_Ceremony"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="401231c5-8f0a-4872-81be-460641d54633"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="a9ff6ed3-050e-4963-b37b-c083285d6214"/>
                     <attribute id="Name" type="FixedString" value="Cleric Life Domain 5 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Shout_CreateFoodAndWater"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="f4d3d823-a491-4423-9c1b-13b178657f53"/>
                 </node>
                 <node id="SpellList">
@@ -384,12 +378,6 @@
 
 
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="269d1a3b-eed8-4131-8901-a562238f5289"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
-                    <attribute id="UUID" type="guid" value="7015fe5b-666f-49a3-8432-bb3a5edf3fd3"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 2"/>
                     <attribute id="Spells" type="LSString" value="Shout_BorrowedKnowledge;Target_ContinualFlame;Target_ZoneofTruth"/>
@@ -508,6 +496,16 @@
                     <attribute id="Name" type="FixedString" value="5eSpells Cleric cantrips (Wisdom)"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="3d4a1681-abd7-47ef-bb71-ebdf0ec61ebb"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 1 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="019b3773-fef4-4178-958c-b53271d9f9e7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Cleric SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="7015fe5b-666f-49a3-8432-bb3a5edf3fd3"/>
                 </node>
 
 

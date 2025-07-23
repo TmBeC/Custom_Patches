@@ -4,46 +4,46 @@
     <region id="SpellLists">
         <node id="root">
             <children>
-
-
-
-
-
-
-
-
-
-
-
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 1 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="Spells" type="LSString" value="Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
+                    <attribute id="UUID" type="guid" value="770d8c35-5bdd-4d7d-bf4a-719bf12421ba"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 2 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="98017c2b-9332-49af-b59f-cbf816eb1cb3"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 3 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="be744ad8-1fc4-4a44-9e38-ec3bd4351db5"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 4 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="fc32b3e5-37d3-4a3a-9df6-49c37fb80058"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 5 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="1962f68f-823c-4fdd-ab93-874c6207e047"/>
                 </node>
 
 
@@ -54,12 +54,11 @@
 
 
 
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_Ceremony"/>
-                    <attribute id="UUID" type="guid" value="20ec5141-3e56-420a-9226-9697fee8512e"/>
-                </node>
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 2 NEW"/>
@@ -81,12 +80,6 @@
 
 
 
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
-                    <attribute id="UUID" type="guid" value="f9c4d953-9080-41c7-8da5-f3e7be65678b"/>
-                </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 2"/>
@@ -113,6 +106,26 @@
                 </node>
 
 
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 1 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="20ec5141-3e56-420a-9226-9697fee8512e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="f9c4d953-9080-41c7-8da5-f3e7be65678b"/>
+                </node>
 
 
 

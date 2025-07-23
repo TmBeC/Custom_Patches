@@ -10,68 +10,68 @@
                     <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Infestation;Target_MagicStone;Target_PrimalSavagery;Target_SpareTheDying;Projectile_StarryWisp;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="9745acf8-5f02-4940-9997-600fc2162bf3"/>
                 </node>
-
-
-
-
-
-
-
-
-
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="MergedInto" type="guid" value="2cd54137-2fe5-4100-aad3-df64735a8145"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 1 expanded 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_BeastBond;Shout_DetectMagic;Shout_EarthTremor;Target_ProtectionFromEvilAndGood;Target_Snare"/>
+                    <attribute id="UUID" type="guid" value="185be763-1af3-4ede-8e2a-d6e8b96221a6"/>
                 </node>
+
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid spells level 2 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="003b833b-431f-4730-bad3-2bafa014f4f4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 3 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="4e39c2e0-ac40-4595-95e9-fc5764640556"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 4 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="05a1cc96-1f54-4ae7-8a1f-4852b1a1247f"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 5 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="166eccb7-f47e-4013-b7b3-b1a8d13cc508"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 6 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="2c0a0f23-0a69-4b55-8eda-cef341ccb44f"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 7 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="3bb4f8de-b26d-4ed0-ac4c-2aa8b6ab53bd"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 8 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="ae12f1b6-99c8-481e-9506-a96ad8b8826b"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 9 5R"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="UUID" type="guid" value="1263234f-71c7-4f55-a049-dbb7325669a5"/>
                 </node>
 
 
@@ -87,12 +87,11 @@
 
 
 
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="2cd54137-2fe5-4100-aad3-df64735a8145"/>
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 1 expanded NEW"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElementsSpell;Target_BeastBond;Shout_EarthTremor;Target_Snare"/>
-                    <attribute id="UUID" type="guid" value="ae9bdc9e-9ae9-4583-a970-8aca3cdcf45d"/>
-                </node>
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135"/>
                     <attribute id="Name" type="FixedString" value="Druid spells level 2 NEW"/>
@@ -142,12 +141,6 @@
 
 
 
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="2cd54137-2fe5-4100-aad3-df64735a8145"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 1 expanded"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_BeastBond;Shout_DetectMagic;Shout_EarthTremor;Target_ProtectionFromEvilAndGood;Target_Snare"/>
-                    <attribute id="UUID" type="guid" value="49580223-016f-4da6-8a6c-9f2761e8ee7e"/>
-                </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Druid spells level 2"/>
@@ -266,6 +259,18 @@
                     <attribute id="Name" type="FixedString" value="5eSpells Druid Cantrips"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="7e6dd8e0-a7a9-4907-8167-6c15d02e4265"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2cd54137-2fe5-4100-aad3-df64735a8145"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 1 expanded NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="ae9bdc9e-9ae9-4583-a970-8aca3cdcf45d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2cd54137-2fe5-4100-aad3-df64735a8145"/>
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 1 expanded"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="49580223-016f-4da6-8a6c-9f2761e8ee7e"/>
                 </node>
 
 

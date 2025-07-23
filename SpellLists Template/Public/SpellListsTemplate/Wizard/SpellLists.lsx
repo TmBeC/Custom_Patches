@@ -10,20 +10,20 @@
                     <attribute id="Spells" type="LSString" value="Target_BoomingBlade_ClassSpell;Target_Elementalism;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Projectile_MindSliver;Target_Prestidigitation;Projectile_SappingSting;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead"/>
                     <attribute id="UUID" type="guid" value="9320d210-e8e1-4a9e-b264-75527faf0aaa"/>
                 </node>
-
-
-
-
-
-
-
-
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
                     <attribute id="Name" type="FixedString" value="Wizard SLevel 1 expanded 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_IdInsinuation;Target_SilveryBarbs;Target_Snare;Target_SuddenAwakening;Zone_CausticBrew;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="f1489f98-a3ee-434d-8efb-64d1acb17bd0"/>
                 </node>
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Wizard SLevel 2 expanded 5R"/>
@@ -81,12 +81,16 @@
 
 
 
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
-                    <attribute id="Name" type="FixedString" value="Wizard SLevel 1 expanded MystraSpells"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_GiftOfAlacrity;Target_IdInsinuation;Shout_MagicMissile_Jim;Target_MagnifyGravity;Target_SuddenAwakening;Zone_CausticBrew"/>
-                    <attribute id="UUID" type="guid" value="d7d38b60-9e43-4cda-baaa-e1dd781d8ee7"/>
-                </node>
+
+
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
                     <attribute id="Name" type="FixedString" value="Wizard SLevel 2 expanded MystraSpells"/>
@@ -125,18 +129,6 @@
 
 
 
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 1 expanded"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="aa4c5ec3-58c5-4da3-a525-3ae6d01ee953"/>
-                </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 2 expanded"/>
@@ -185,26 +177,6 @@
                     <attribute id="Spells" type="LSString" value="Target_Foresight;Target_PowerWordKill;Target_DominateMonster;Target_Feeblemind;Target_MindBlank;Target_FingerOfDeath;Shout_TensersTransformation;Target_TrueSeeing;Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SkillEmpowerment;Target_SteelWindStrike;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_ArcaneEye;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Target_StormSphere;Target_SummonBeholderkin;Target_SummonConstruct;Target_SummonElemental;Projectile_VitriolicSphere;Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;Target_EruptingEarth;Target_FlameArrows;Target_IntellectFortress;Target_LifeTransference;Target_MagicCircle;Projectile_MinuteMeteors;Target_Nondetection;Target_SpeakWithDead;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarsScorcher;Shout_AlterSelf;Shout_BorrowedKnowledge;Target_ContinualFlame;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_FlockOfFamiliars;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Target_TashasMindWhip;Target_MindSpike;Target_NathairsMischief;Zone_RimesBindingIce;Target_SnillocsSnowballStorm;Target_VortexWarp;Shout_WardingWind;Target_WitherAndBloom;Shout_AbsorbElements;Throw_Catapult;Target_CauseFear;Shout_DetectMagic;Shout_EarthTremor;Zone_FrostFingers;Target_Snare;Zone_TashasCausticBrew;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="8fecd894-7a73-44b7-b00c-20b44377f452"/>
                 </node>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -260,6 +232,16 @@
                     <attribute id="Name" type="FixedString" value="5eSpells Wizard cantrips (Intelligence)"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="a5117087-fa75-4c1e-ac8c-1e578c8da2b3"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 1 expanded MystraSpells"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="d7d38b60-9e43-4cda-baaa-e1dd781d8ee7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Wizard SLevel 1 expanded"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="aa4c5ec3-58c5-4da3-a525-3ae6d01ee953"/>
                 </node>
 
 

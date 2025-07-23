@@ -10,24 +10,24 @@
                     <attribute id="Spells" type="LSString" value="Target_BoomingBlade_ClassSpell;Target_Elementalism;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Projectile_MindSliver;Target_Prestidigitation;Projectile_SorcerousBurst;Shout_SwordBurst;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="7636fd26-0d4f-4f70-acca-8defaec2ef73"/>
                 </node>
-
-
-
-
-
-
-
-
-
-
-
-
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="MergedInto" type="guid" value="92c4751f-6255-4f67-822c-a75d53830b27"/>
                     <attribute id="Name" type="FixedString" value="Sorcerer SLevel 1 expanded 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Throw_Catapult;Shout_DetectMagic;Shout_EarthTremor;Target_Grease;Target_IdInsinuation;Target_SilveryBarbs;Target_SuddenAwakening;Zone_CausticBrew"/>
+                    <attribute id="UUID" type="guid" value="2b64fc5b-aac2-4233-b92a-76c74041c1e5"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Sorcerer SLevel 2 expanded 5R"/>
@@ -115,12 +115,6 @@
 
 
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="92c4751f-6255-4f67-822c-a75d53830b27"/>
-                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 1 expanded NEW"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Projectile_ChaosBoltNew;Shout_EarthTremor;Zone_FrostFingers;Target_IdInsinuation;Target_SuddenAwakening;Zone_CausticBrew"/>
-                    <attribute id="UUID" type="guid" value="a184a5d3-d662-49f5-ac6f-e923dd666ca0"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f80396e2-cb76-4694-b0db-5c34da61a478"/>
                     <attribute id="Name" type="FixedString" value="Sorcerer SLevel 2 expanded NEW"/>
                     <attribute id="Spells" type="LSString" value="Zone_AganazzarScorcher;Shout_BeastAspect;Target_DragonsBreath;Shout_DustDevil;Target_Earthbind;Target_ForceWeapon;Shout_KineticJaunt;Target_EarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Shout_ShadowBlade_Spell;Target_SilveryBarbs;Target_SnowballStorm;Zone_SprayOfCards;Shout_SummonMoonblade_Container;Target_MindWhip;Target_VortexWarp;Target_WitherAndBloom;Shout_AbsorbElementsSpell;Zone_AcidStream;Throw_Catapult;Projectile_ChaosBoltNew;Shout_EarthTremor;Zone_FrostFingers;Target_IdInsinuation;Target_SuddenAwakening;Zone_CausticBrew"/>
@@ -186,12 +180,6 @@
 
 
 
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="92c4751f-6255-4f67-822c-a75d53830b27"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Sorcerer SLevel 1 expanded"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Throw_Catapult;Target_ChaosBolt;Shout_DetectMagic;Shout_EarthTremor;Target_Grease;Zone_TashasCausticBrew"/>
-                    <attribute id="UUID" type="guid" value="a070ee3b-f5b3-41e1-a040-7e773d0539be"/>
-                </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f80396e2-cb76-4694-b0db-5c34da61a478"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Sorcerer SLevel 2 expanded"/>
@@ -330,6 +318,16 @@
                     <attribute id="Name" type="FixedString" value="5eSpells Sorcerer cantrips"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="3a585213-c055-48d7-9621-ace04e698840"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 1 expanded NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="a184a5d3-d662-49f5-ac6f-e923dd666ca0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Sorcerer SLevel 1 expanded"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="a070ee3b-f5b3-41e1-a040-7e773d0539be"/>
                 </node>
 
 

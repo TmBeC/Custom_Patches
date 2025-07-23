@@ -3,12 +3,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 1st Level Spells
 (Absorb Elements)
 Shout_AbsorbElements
-
-(Acid Stream)
-Zone_AcidStream
 
 (Beast Bond)
 Target_BeastBond

@@ -13,88 +13,305 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+Warlock lists changed in 2024
+No longer have an Expanded Spelllist to choose more from
+Gets an Always Prepared list instead
+Warlock lists need a revamp
 
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 1 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="MergedInto" type="guid" value="e0099b15-2599-4cba-a54b-b25ae03d6519"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Bane;Target_CauseFear;Shout_DetectMagic;Target_IdInsinuation;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="96bf8c37-e2fb-433e-be80-71a53072236d"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 2 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 3 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 4 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 5 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 6 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 7 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 8 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 9 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
-                </node>
-
-
-
-
-
-
-
-
-
-
-
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="4823a292-f584-4f7f-8434-6630c72e5411"/>
-                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_IdInsinuation"/>
-                    <attribute id="UUID" type="guid" value="784ca7b4-b6f5-4e97-908e-2d1e9b9ae9d0"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Bane;Target_CauseFear;Shout_DetectMagic;Target_IdInsinuation;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="93053ceb-e036-4e6d-b1fa-95f6bdba12ce"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="65952d48-bb16-4ad7-b173-532182bf7770"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Bane;Target_CauseFear;Shout_DetectMagic;Target_IdInsinuation;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="af1e7e75-59db-4bc5-ba10-bde334e87b54"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="d90e88eb-e5f9-4db2-b7ef-1dccb044839a"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Bane;Target_CauseFear;Shout_DetectMagic;Target_IdInsinuation;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant"/>
+                    <attribute id="UUID" type="guid" value="2d46f4c3-3253-479d-ace5-7689e9a4953e"/>
+                </node>
+
+
+
+
+
+Target_FaerieFire;
+Target_Sleep;
+
+Zone_BurningHands;
+Target_Command_Container;
+
+Target_DissonantWhispers;
+
+Shout_Shield_Warlock;
+Target_Smite_Wrathful
+
+
+Archfey lvl 3
+Calm Emotions - slvl2
+Faerie Fire - slvl1
+Misty Step - slvl2
+Phantasmal Force - slvl2
+Sleep - slvl1
+
+
+
+Fiend lvl 3
+Burning Hands - slvl1
+Command - slvl1
+Scorching Ray - slvl2
+Suggestion
+
+
+
+GOO lvl 3
+Detect Thoughts - slvl2
+Dissonant Whispers - slvl1
+Phantasmal Force - slvl2
+Tasha's Hideous Laughter - slvl1
+
+
+
+Hexblade lvl 3
+Arcane Vigor (new 2024 spell)
+Hex - slvl1
+Magic Weapon - slvl2
+Wrathful Smite - slvl1
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 3 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 3 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 3 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 3 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 4 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 4 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 4 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 4 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 5 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 5 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 5 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 5 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 6 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 6 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 6 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 6 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec"/>
                     <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 2 NEW"/>
@@ -119,12 +336,8 @@
                     <attribute id="Spells" type="LSString" value="Target_DanseMacabre_Container;Projectile_Enervation;Shout_FarStep;Target_Immolation;Target_InfernalCalling;Target_MacabreExplosion;Projectile_NegativeEnergyFlood;Target_SynapticStatic;Target_CharmMonster;Target_DreamSleep;Target_EgoWhip;Target_ElementalBane;Target_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Projectile_WebOfFire;Target_Antagonize;Shout_AshardalonsStride;Target_EnemiesAbound;Shout_InciteGreed;Target_IntellectFortress;Zone_PsionicBlast;Shout_SpiritShroud;Target_SummonFey_Container;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Zone_AganazzarScorcher;Shout_BorrowedKnowledge;Target_Earthbind;Target_FlockOfFamiliars;Target_HealingElixir;Shout_MentalBarrier;Target_MindSpike;Shout_ShadowBlade_Spell;Zone_SprayOfCards;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_IdInsinuation"/>
                     <attribute id="UUID" type="guid" value="232a2153-6b02-480f-a554-1ddb2fa4ca64"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="65952d48-bb16-4ad7-b173-532182bf7770"/>
-                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Shout_EarthTremor;Target_IdInsinuation;Target_MagnifyGravity;Target_SuddenAwakening"/>
-                    <attribute id="UUID" type="guid" value="abf2a147-762c-4d25-84a7-7e81eecaf055"/>
-                </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054"/>
                     <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 2 NEW"/>
@@ -149,12 +362,8 @@
                     <attribute id="Spells" type="LSString" value="Target_AstralDisjunction;Target_DanseMacabre_Container;Projectile_Enervation;Shout_FarStep;Target_InfernalCalling;Target_MacabreExplosion;Projectile_NegativeEnergyFlood;Target_SynapticStatic;Target_CharmMonster;Target_DreamSleep;Target_EgoWhip;Target_ElementalBane;Target_GravitySinkhole;Target_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_EnemiesAbound;Shout_InciteGreed;Target_IntellectFortress;Zone_PsionicBlast;Shout_SpiritShroud;Target_SummonFey_Container;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_Earthbind;Target_FlockOfFamiliars;Target_HealingElixir;Shout_MentalBarrier;Target_MindSpike;Shout_ShadowBlade_Spell;Zone_SprayOfCards;Shout_SummonMoonblade_Container;Target_VortexWarp;Target_CauseFear;Shout_EarthTremor;Target_IdInsinuation;Target_MagnifyGravity;Target_SuddenAwakening"/>
                     <attribute id="UUID" type="guid" value="05c7d1e5-6906-4bf1-b738-ecd6364e3772"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="e0099b15-2599-4cba-a54b-b25ae03d6519"/>
-                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Shout_EarthTremor;Target_IdInsinuation;Target_SuddenAwakening"/>
-                    <attribute id="UUID" type="guid" value="20d61052-d81b-4328-8e22-7782b2cd0abe"/>
-                </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="0cc2c8ab-9bbc-43a7-a66d-08e47da4c172"/>
                     <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 2 NEW"/>
@@ -179,12 +388,8 @@
                     <attribute id="Spells" type="LSString" value="Target_DanseMacabre_Container;Projectile_Enervation;Shout_FarStep;Target_InfernalCalling;Target_MacabreExplosion;Projectile_NegativeEnergyFlood;Target_SynapticStatic;Target_CharmMonster;Target_DreamSleep;Target_EgoWhip;Target_ElementalBane;Shout_MesmersLullaby;Target_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_EnemiesAbound;Shout_InciteGreed;Target_IntellectFortress;Target_MotivationalSpeech;Zone_PsionicBlast;Shout_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_Earthbind;Target_FlockOfFamiliars;Target_HealingElixir;Shout_MentalBarrier;Target_MindSpike;Shout_ShadowBlade_Spell;Target_NathairsMischief;Zone_SprayOfCards;Target_CauseFear;Shout_EarthTremor;Target_IdInsinuation;Target_SuddenAwakening"/>
                     <attribute id="UUID" type="guid" value="1b05adfe-0aa6-4d19-834a-13960086ed92"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="d90e88eb-e5f9-4db2-b7ef-1dccb044839a"/>
-                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Shout_EarthTremor;Target_IdInsinuation"/>
-                    <attribute id="UUID" type="guid" value="d1976893-f798-47d9-91dc-92fe08e39a24"/>
-                </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="4a3bf687-91c1-4dad-821c-ad32171c7552"/>
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 2 NEW"/>
@@ -209,6 +414,8 @@
                     <attribute id="Spells" type="LSString" value="Target_DanseMacabre_Container;Projectile_Enervation;Shout_FarStep;Target_InfernalCalling;Target_MacabreExplosion;Projectile_NegativeEnergyFlood;Projectile_SteelWindStrikeNew;Target_SynapticStatic;Target_CharmMonster;Target_DreamSleep;Target_EgoWhip;Target_ElementalBane;Target_IllusoryWeapon;Target_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_EnemiesAbound;Shout_InciteGreed;Target_IntellectFortress;Zone_PsionicBlast;Shout_SpiritShroud;Target_SummonFey_Container;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_Earthbind;Target_FlockOfFamiliars;Target_ForceWeapon;Target_HealingElixir;Shout_MentalBarrier;Target_MindSpike;Shout_ShadowBlade_Spell;Zone_SprayOfCards;Target_CauseFear;Shout_EarthTremor;Target_IdInsinuation"/>
                     <attribute id="UUID" type="guid" value="d062b9d5-b292-4d7c-9603-39e7217f612b"/>
                 </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6"/>
                     <attribute id="Name" type="FixedString" value="Warlock Mysic Arcanum SLevel 6 NEW"/>
@@ -231,42 +438,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="e0099b15-2599-4cba-a54b-b25ae03d6519"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Archfey SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="93f0f5b5-a2c5-4ac4-8598-db0e3e37a865"/>
-                </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="0cc2c8ab-9bbc-43a7-a66d-08e47da4c172"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Warlock Archfey SLevel 2"/>
@@ -291,12 +462,8 @@
                     <attribute id="Spells" type="LSString" value="Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Shout_ShadowOfMoil;Target_SummonBeholderkin;Target_Antagonize;Target_EnemiesAbound;Target_IntellectFortress;Target_MagicCircle;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_FlockOfFamiliars;Target_MindSpike;Target_CauseFear;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="a03f89cd-461a-4a3e-9193-bd117152c897"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="4823a292-f584-4f7f-8434-6630c72e5411"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Fiend SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="db5b931f-91ff-474f-ba76-60d8e1747874"/>
-                </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Warlock Fiend SLevel 2"/>
@@ -321,12 +488,8 @@
                     <attribute id="Spells" type="LSString" value="Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Shout_ShadowOfMoil;Target_SummonBeholderkin;Target_Antagonize;Target_EnemiesAbound;Target_IntellectFortress;Target_MagicCircle;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_FlockOfFamiliars;Target_MindSpike;Target_CauseFear;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="e491a6b7-35ce-49eb-96e4-a0a701e0bcbf"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="65952d48-bb16-4ad7-b173-532182bf7770"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Warlock The Great Old One SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="2ccf281d-5904-41cc-99f8-15687c12fe03"/>
-                </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Warlock The Great Old One SLevel 2"/>
@@ -351,12 +514,8 @@
                     <attribute id="Spells" type="LSString" value="Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Shout_ShadowOfMoil;Target_SummonBeholderkin;Target_Antagonize;Target_EnemiesAbound;Target_IntellectFortress;Target_MagicCircle;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_FlockOfFamiliars;Target_MindSpike;Target_CauseFear;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="aa22781d-bd7f-4984-adf9-928bbb5af523"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="d90e88eb-e5f9-4db2-b7ef-1dccb044839a"/>
-                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_CauseFear;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="31de1f72-5f46-4cb8-b426-3b86fdeab087"/>
-                </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="4a3bf687-91c1-4dad-821c-ad32171c7552"/>
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 2"/>
@@ -381,6 +540,8 @@
                     <attribute id="Spells" type="LSString" value="Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Shout_ShadowOfMoil;Target_SummonBeholderkin;Target_Antagonize;Target_EnemiesAbound;Target_IntellectFortress;Target_MagicCircle;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_FlockOfFamiliars;Target_MindSpike;Target_CauseFear;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="e6171a5e-8476-446a-9e81-f793b9132de1"/>
                 </node>
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6"/>
                     <attribute id="Name" type="FixedString" value="Warlock Mysic Arcanum SLevel 6"/>
@@ -405,25 +566,6 @@
                     <attribute id="Spells" type="LSString" value="Target_Foresight;Target_PowerWordKill"/>
                     <attribute id="UUID" type="guid" value="8a8d732e-abf3-4cf2-9a40-b73230ee1662"/>
                 </node>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -481,6 +623,46 @@
                     <attribute id="Name" type="FixedString" value="5eSpells Warlock cantrips (Charisma)"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="77d74d0c-4d34-4b7c-a37e-ecdbd4c10756"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 1 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="20d61052-d81b-4328-8e22-7782b2cd0abe"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Archfey SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="93f0f5b5-a2c5-4ac4-8598-db0e3e37a865"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 1 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="784ca7b4-b6f5-4e97-908e-2d1e9b9ae9d0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Fiend SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="db5b931f-91ff-474f-ba76-60d8e1747874"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 1 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="abf2a147-762c-4d25-84a7-7e81eecaf055"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Warlock The Great Old One SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="2ccf281d-5904-41cc-99f8-15687c12fe03"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="d1976893-f798-47d9-91dc-92fe08e39a24"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="31de1f72-5f46-4cb8-b426-3b86fdeab087"/>
                 </node>
 
 
