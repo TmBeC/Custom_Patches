@@ -20,7 +20,7 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSString" value="MaxStrengthWizard" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSString" value="MOD_DESCRIPTION_NAME_HERE_DESCRIPTION_HERE_DESC" />
+          <attribute id="Description" type="LSString" value="Patches and updates duplicate spells from 5e Spells and Mystra's Spells." />
           <attribute id="FileSize" type="uint64" value="0" />
           <attribute id="Folder" type="LSString" value="FirstLevel5eMystra" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
@@ -31,11 +31,11 @@
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="PublishHandle" type="uint64" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
-          <attribute id="UUID" type="FixedString" value="MOD_UNIQUE_IDENTIFIER_UUID_HERE" />
-          <attribute id="Version64" type="int64" value="36028799166447616" />
+          <attribute id="UUID" type="FixedString" value="b6f96ddd-94bc-4b03-b305-d17368056da3" />
+          <attribute id="Version64" type="int64" value="36028801313931264" />
           <children>
             <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="36028799166447616" />
+              <attribute id="Version64" type="int64" value="36028801313931264" />
             </node>
             <node id="Scripts">
               <children>
