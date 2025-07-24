@@ -85,10 +85,76 @@ Shout_ZephyrStrike
 
 
 // 2nd Level Spells
-(SPELL_NAME)
+(Aganazzars Scorcher)
+Zone_AganazzarsScorcher
+
+(Alter Self)
 
 
+(Borrowed Knowledge)
+Shout_BorrowedKnowledge
 
+(Continual Flame)
+
+
+(Dragons Breath)
+Target_DragonsBreath
+
+(Dust Devil)
+
+
+(Earthbind)
+
+
+(Flock of Familiars)
+
+
+(Healing Spirit)
+
+
+(Kinetic Jaunt)
+
+
+(Maximillians Earthen Grasp)
+
+
+(Mental Barrier)
+
+
+(Mind Spike)
+
+
+(Nathairs Mischief)
+
+
+(Pyrotechnics)
+
+
+(Rimes Binding Ice)
+
+
+(Snillocs Snowball Swarm)
+
+
+(Spray of Cards)
+
+
+(Summon Beast)
+
+
+(Tashas Mind Whip)
+
+
+(Vortex Warp)
+
+
+(Warding Wind)
+
+
+(Wither and Bloom)
+
+
+(Zone of Truth)
 
 
 
