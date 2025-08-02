@@ -70,7 +70,7 @@
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 4 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="Spells" type="LSString" value="Shout_FountOfMoonlight"/>
                     <attribute id="UUID" type="guid" value="05a1cc96-1f54-4ae7-8a1f-4852b1a1247f"/>
                 </node>
                 <node id="SpellList">

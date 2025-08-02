@@ -35,7 +35,7 @@
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
                     <attribute id="Name" type="FixedString" value="Bard SLevel 4 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="Spells" type="LSString" value="Shout_FountOfMoonlight"/>
                     <attribute id="UUID" type="guid" value="d78a3583-a907-42c5-9c2b-bb13ef7fc523"/>
                 </node>
                 <node id="SpellList">
