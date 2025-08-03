@@ -25,6 +25,7 @@
   <content contentuid="hc4a369ef024148108070eed26d634a33fdge" version="1">Divine light washes out in a [1] radius, protecting allies and potentially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; opposing fiends and undead.</content>
   <content contentuid="hb58800213f8c447a9a429dae524799b015f0" version="1">Holy Aura</content>
   <content contentuid="hc86e93e615604ed3b5d278f6860b75991gce" version="1">Divine light is protecting this creature from attackers.</content>
+  <content contentuid="h6c82f35d3c8f46f5bf5f3800cee78a981c3b" version="1">Maddening Darkness: Sphere</content>
   <content contentuid="h65a287682e9842e8a3d17e170343a4265677" version="1">Conjure a nightmarish cloud of darkness filled with shrieks, gibbering, and mad laughter. All creatures inside are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; and suffer Psychic damage each turn.</content>
   <content contentuid="h024b4ebff9eb4230ad27b745672e9fb23a59" version="1">Maddening Darkness</content>
   <content contentuid="h6c9e675ab4af432abeb1dfef6dbccb15ae21" version="1">A sphere of maddening blackness filled with shrieks, gibbering, and mad laughter.&lt;br&gt;&lt;br&gt;Creatures starting their turn in the area take [1].&lt;br&gt;&lt;br&gt;Creatures within the area are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
@@ -32,6 +33,8 @@
   <content contentuid="h7625fa95da1e437e8a63f20a3a710f2d726b" version="1">Bombarded with shrieking and wailing.</content>
   <content contentuid="h33bd7a73f55246f2899de5908fe5f6a4g0d5" version="1">Maddening Darkness</content>
   <content contentuid="hec0821fc6256496bba2c611640b29fd743e7" version="1">Bombarded with shrieking and wailing.</content>
+  <content contentuid="h2f2218ac1a534b3999167327bb4122fd57b0" version="1">%%% Maddening Darkness Technical</content>
+  <content contentuid="h842591002ab14575968a16b40585650c2e98" version="1">Maddening Darkness: Enchant</content>
   <content contentuid="h74f33502fba543f4be79fcf3e9081bc74e5g" version="1">Mind Blank</content>
   <content contentuid="hcee426ff2fec423cb5eea4f99a858620ba02" version="1">Touch an allied creature, making them &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Psychic damage and being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;. In addition, the target is also unaffected by anything that senses its emotions, read its thoughts, or control its mind.</content>
   <content contentuid="hc219e4f7f81e4407a2f341dc21a3abbeb8e3" version="1">No spell, not even &lt;LSTag Type="Spell" Tooltip="Shout_Wish"&gt;Wish&lt;/LSTag&gt;, can affect the creatures mind or gain information about them.</content>
