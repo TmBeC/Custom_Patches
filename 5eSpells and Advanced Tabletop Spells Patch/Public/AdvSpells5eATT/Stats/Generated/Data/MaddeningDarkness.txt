@@ -1,0 +1,369 @@
+new entry "Target_ATT_MaddeningDarkness"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellContainerID" ""
+data "ContainerSpells" "Target_MaddeningDarkness_Point;Target_MaddeningDarkness_Object"
+data "SpellProperties" "GROUND:Summon(bdddd432-a5fd-4110-bfc2-90d7792631a0,100,Projectile_AiHelper_Darkness,,Darkness,MADDENING_DARKNESS,ATT_MADDENINGDARKNESS_AURA)"
+data "AreaRadius" "12"
+data "DisplayName" "hf73ceecdge5b7g61eegc742gbc85e0ed92f5;2"
+data "Description" "h87f67ec9gbacdgcb12g9e33gfee66bfa96d1;1"
+data "TooltipStatusApply" "ApplyStatus(DARKNESS_SPELLSTATUS,100,100)"
+data "SpellFlags" "HasVerbalComponent;IsSpell;IsHarmful;IsConcentration;Stealth;Invisible;IsLinkedSpellContainer"
+
+new entry "Target_MaddeningDarkness_Point"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "8"
+data "SpellSchool" "Evocation"
+data "SpellContainerID" "Target_ATT_MaddeningDarkness"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(bdddd432-a5fd-4110-bfc2-90d7792631a0,100,Projectile_AiHelper_Darkness,,Darkness,MADDENING_DARKNESS,ATT_MADDENINGDARKNESS_AURA);ApplyStatus(MADDENING_DARKNESS_DAMAGE_RECEIVED,100,1)"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "SpellSuccess" "DealDamage(8d8,Psychic,Magical)"
+data "SpellFail" "DealDamage((8d8)/2,Psychic,Magical)"
+data "TargetRadius" "18"
+data "AreaRadius" "12"
+data "Icon" "Spell_Evocation_MaddeningDarkness"
+data "Description" "h65a287682e9842e8a3d17e170343a4265677;1"
+data "TooltipDamageList" "DealDamage(8d8,Psychic)"
+data "TooltipStatusApply" "ApplyStatus(DARKNESS_SPELLSTATUS,100,100);ApplyStatus(ATT_MADDENINGDARKNESS_AURA,100,100)"
+data "TooltipAttackSave" "Wisdom"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "TooltipUpcastDescriptionParams" ""
+data "PrepareSound" "Spell_Prepare_ClericSummon_Gen"
+data "PrepareLoopSound" "Spell_Loop_ClericSummon_Gen"
+data "CastSound" "Spell_Cast_Utility_Darkness_L1to3"
+data "TargetSound" "Spell_Impact_Utility_Darkness_L1to3"
+data "VocalComponentSound" "Vocal_Component_Dark"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "HasVerbalComponent;IsSpell;IsHarmful;IsConcentration;Stealth;Invisible"
+data "MemoryCost" "1"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "e61d2266-f041-4bd5-a488-7b66e76d781c"
+data "PositionEffect" "0afcbe13-7593-4bb7-8dfd-b7147a3f416c"
+data "DamageType" "Psychic"
+data "SpellSoundMagnitude" "Big"
+
+new entry "Target_MaddeningDarkness_Object"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaddeningDarkness_Point"
+data "SpellProperties" "IF(Item()):ApplyStatus(MADDENING_DARKNESS_TECHNICAL,100,100);IF(Character()):ApplyEquipmentStatus(MainHand,MADDENING_DARKNESS_TECHNICAL,100,100);IF(Character() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(MADDENING_DARKNESS_DAMAGE_RECEIVED,100,1)"
+data "TargetConditions" "TD_NotInDaylight(context.Target) and (Item() or (HasWeaponInMainHand() and Self()))"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "ATT_MADDENINGDARKNESS_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h024b4ebff9eb4230ad27b745672e9fb23a59;1"
+data "Description" "h6c9e675ab4af432abeb1dfef6dbccb15ae21;1"
+data "DescriptionParams" "DealDamage(8d8,Psychic)"
+data "Icon" "Spell_Evocation_MaddeningDarkness"
+data "SoundLoop" "Surf_Void_Cloud_ST_Start"
+data "StackId" "ATT_MADDENINGDARKNESS_AURA"
+data "AuraRadius" "12"
+data "AuraStatuses" "IF(Character() and not Item() and not Dead() and not Tagged('INVISIBLE_HELPER')):ApplyStatus(ATT_MADDENINGDARKNESS)"
+data "TooltipSave" "Wisdom"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "f518671b-98e5-498c-95b3-43ef0f28ff00"
+
+new entry "ATT_MADDENINGDARKNESS_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ATT_INCENDIARY_CLOUD_AURA"
+data "DisplayName" "he6dfb2bcgf2dbgefbbg2d85g0782aad589e8;1"
+data "Description" ""
+data "DescriptionParams" "DealDamage(8d8, Psychic)"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "StackId" "MADDARKNESSAURA"
+data "AuraRadius" "12"
+data "AuraStatuses" "IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(ATT_MADDENINGDARKNESS)"
+data "TooltipSave" "Wisdom"
+data "StatusEffect" "f518671b-98e5-498c-95b3-43ef0f28ff00"
+
+new entry "ATT_INCENDIARY_CLOUD_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "INSECT_PLAGUE_AURA"
+data "DisplayName" "ha6bb7666g3b11g20b9g8045g5aaf8db56474;1"
+data "Description" ""
+data "DescriptionParams" "DealDamage(10d8, Fire)"
+data "Icon" "Action_Monster_ElementalFire_EruptingCinder"
+data "SoundLoop" "Spell_Status_FireShieldChill_Trigger"
+data "SoundStop" "Spell_Status_FireShieldChill_MO_Stop"
+data "StackId" "INCENDIARYCLOUDAURA"
+data "StackType" "Ignore"
+data "AuraStatuses" "IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(ATT_INCENDIARY_CLOUD)"
+data "TooltipSave" "Dexterity"
+data "StatusEffect" "7b3404ec-cdca-4edf-b84a-1c1673e3870d"
+
+new entry "INSECT_PLAGUE_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1bddb38eg8c8ag4e54g9533g52a6d6a01e17;3"
+data "Description" "he402057fg8d03g4b13gbee6g6027cd930f0c;4"
+data "DescriptionParams" "DealDamage(4d10, Piercing)"
+data "Icon" "Spell_Conjuration_InsectPlague"
+data "SoundLoop" "Spell_Status_InsectPlague_Start"
+data "SoundStop" "Spell_Status_InsectPlague_End"
+data "AuraRadius" "6"
+data "AuraStatuses" "IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(INSECT_PLAGUE);IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(DIFFICULT_TERRAIN)"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "7d8cd24e-a781-4ae0-8417-5c72ad1d92d3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "ATT_MADDENINGDARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h2c9d43df5df74b3890a59a3dd663e58074af;1"
+data "Description" "h7625fa95da1e437e8a63f20a3a710f2d726b;1"
+data "Icon" "Spell_Evocation_MaddeningDarkness"
+data "StackId" "ATT_MADDENINGDARKNESS"
+data "StackPriority" "1"
+data "TickType" "StartTurn"
+data "TooltipSave" "Wisdom"
+data "TooltipDamage" "DealDamage(8d8,Psychic)"
+data "OnApplyRoll" "not SavingThrow(Ability.Wisdom,CalculateSpellDC(context.PreferredCastingAbility,GetSummoner(context.Source)))"
+data "OnApplySuccess" "IF(not HasStatus('ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED') and not (HasPassive('SculptSpells',GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage(8d8,Psychic,Magical);ApplyStatus(ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED,100,1)"
+data "OnApplyFail" "IF(not HasStatus('ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED') and not (HasPassive('SculptSpells',GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage((8d8)/2,Psychic,Magical);ApplyStatus(ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED,100,1)"
+data "OnTickRoll" "not SavingThrow(Ability.Wisdom,CalculateSpellDC(context.PreferredCastingAbility,GetSummoner(context.Source)))"
+data "OnTickSuccess" "IF(not HasStatus('ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED') and not (HasPassive('SculptSpells',GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage(8d8,Psychic,Magical)"
+data "OnTickFail" "IF(not HasStatus('ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED') and not (HasPassive('SculptSpells',GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage((8d8)/2,Psychic,Magical)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "fcd606f1-32af-4065-90b0-bc96a5f32374"
+data "StatusEffectOnTurn" "5b3d9c97-0687-4552-bdf0-371b14361b84"
+
+
+
+new entry "ATT_MADDENINGDARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h90363ad5gdd28g51afg1334g6ff97083ac22;3"
+data "Description" "h966a9290g3e24gbee3g102cg4663dde14651;1"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "StackId" "MADDARKNESS"
+data "StackPriority" "1"
+data "TickType" "EndTurn"
+data "Boosts" ""
+data "TooltipSave" "Wisdom"
+data "TooltipDamage" "DealDamage(8d8,Psychic)"
+data "OnApplyRoll" "not SavingThrow(Ability.Wisdom, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnApplySuccess" "IF(not HasStatus('ATT_MADDENINGDARKNESS_TECHNICAL') and not (HasPassive('SculptSpells', GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage(8d8,Psychic,Magical);ApplyStatus(ATT_MADDENINGDARKNESS_TECHNICAL,100,1)"
+data "OnApplyFail" "IF(not HasStatus('ATT_MADDENINGDARKNESS_TECHNICAL') and not (HasPassive('SculptSpells', GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage((8d8)/2,Psychic,Magical);ApplyStatus(ATT_MADDENINGDARKNESS_TECHNICAL,100,1)"
+data "OnTickRoll" "not SavingThrow(Ability.Wisdom, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnTickSuccess" "IF(not HasStatus('ATT_MADDENINGDARKNESS_TECHNICAL') and not (HasPassive('SculptSpells', GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage(8d8,Psychic,Magical)"
+data "OnTickFail" "IF(not HasStatus('ATT_MADDENINGDARKNESS_TECHNICAL') and not (HasPassive('SculptSpells', GetOwner(context.Source)) and Ally(GetOwner(context.Source),context.Target))):DealDamage((8d8)/2,Psychic,Magical)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+
+
+
+
+new entry "ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h33bd7a73f55246f2899de5908fe5f6a4g0d5;1"
+data "Description" "hec0821fc6256496bba2c611640b29fd743e7;1"
+data "Icon" "Spell_Evocation_MaddeningDarkness"
+data "StackId" "ATT_MADDENINGDARKNESS_DAMAGE_RECEIVED"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "ATT_MADDENINGDARKNESS_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ATT_INCENDIARY_CLOUD_TECHNICAL"
+data "DisplayName" "hc587da89gdcfcg252eg9731gc956aebb197f;1"
+data "Description" "h294ce275gfa50g3fa2g585egbfb7b259f51b;1"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "StackId" "MADDARKNESS_TECHNICAL"
+
+
+new entry "ATT_MADDENINGDARKNESS_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hc587da89gdcfcg252eg9731gc956aebb197f;1"
+data "Description" "h294ce275gfa50g3fa2g585egbfb7b259f51b;1"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "StackId" "MADDARKNESS_TECHNICAL"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MADDENING_DARKNESS
+
+// Darkness status that defines the gameplay within Darkness aura
+// This is the most important status that displays the visual effect
+new entry "YOUR_DARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "YOUR_DARKNESS"
+// Required to correctly handle spell casting and moving items with Darkness between containers
+// Any status that has --- using "DARKNESS" --- will behave like the original Darkness
+using "DARKNESS"
+data "DisplayName" "h7a191deagde7ag4ae9g3a09gb781fcff8b65;1"
+data "Description" "h3b7500badf294db39695c212e0fe4e97a115;4"
+data "Icon" "Spell_Evocation_Darkness"
+// Set whatever radius your Darkness spell has
+data "AuraRadius" "10"
+// Add whatever statuses you want to apply with your Darkness
+// Keep the original as well if you want your Darkness to work the same as the base spell
+data "AuraStatuses" "TARGET:IF(Character()):ApplyStatus(BLINDED_DARKNESS,100,-1);TARGET:IF(Character()):ApplyStatus(DARKNESS_STATUS,100,-1);TARGET:IF(Character() or Item()):ApplyStatus(LIGHT_REMOVE,100,-1)"
+// Set the radius of your darkness here as well
+// This makes everything inside the aura Heavily Obscured
+data "Boosts" "GameplayObscurity(10)"
+data "StatusPropertyFlags" "IndicateDarkness;BringIntoCombat;InitiateCombat;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+// This is the UUID of your VFX Darkness from:
+// Public\TrueDarkness_ModdingResource\MultiEffectInfos\MultiEffect_YOUR_DARKNESS_VFX.lsf
+data "StatusEffect" "7209c298-1c34-407d-882f-dd0cd7d57adb"
+
+
+
+
+
+
+// Status applied to objects when Darkness is cast as item enchantment
+new entry "YOUR_DARKNESS_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+// Required for items to correctly handle Darkness when moved around in containers, equipped, etc.
+// Any status that has --- using "DARKNESS_TECHNICAL" --- will behave like the original Darkness applied to items
+using "DARKNESS_TECHNICAL"
+data "DisplayName" "h7a191deagde7ag4ae9g3a09gb781fcff8b65;1"
+data "Icon" "Spell_Evocation_Darkness"
+// Set whatever radius your Darkness spell has
+// This is required to correctly prevent spells
+data "AuraRadius" "10"
+// All it does is keeps track of the turns left, so you don't need to add anything else
+// The statuses are separate so the effect can be disabled when items are hidden in containers
+data "OnApplyFunctors" "ApplyStatus(YOUR_DARKNESS,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(YOUR_DARKNESS)"
+data "StatusPropertyFlags" "DisableCombatlog"
+
+
+
+
+
+
+
+
+
+- using "DARKNESS" 
+- A status that represents Darkness aura, applies statuses on creatures inside of it, and displays VFX cloud must contain it.
+
+- using "DARKNESS_TECHNICAL
+- A status that gets applied to items enchanted with Darkness spell must contain it.
+
+- data "AuraRadius"
+- Every spell must contain it for the system to know how large your Darkness spell is.
+
+- data "StatusEffect"
+- This is what displays the cloud VFX. Make sure you use the UUID from the correct file in MultiEffectInfos folder (more on that below).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
