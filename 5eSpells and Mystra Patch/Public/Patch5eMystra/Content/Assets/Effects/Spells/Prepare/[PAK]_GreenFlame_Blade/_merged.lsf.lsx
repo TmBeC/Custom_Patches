@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="57114122-2fa1-c981-f752-a2eb4ff5e1e3" />
+					<attribute id="Name" type="LSString" value="VFX_Actions_Prepare_WeaponAttack_Target_GreenFlame_Blade_Root_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Patch5eMystra/Assets/Effects/Effects_Banks/Spells/Prepare/GreenFlame_Blade/VFX_Actions_Prepare_WeaponAttack_Target_GreenFlame_Blade_Root_01.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Actions_Prepare_WeaponAttack_Target_GreenFlame_Blade_Root_01" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.4433757 0.056624293 -1.4433757" />
+					<attribute id="BoundsMax" type="fvec3" value="1.4433757 2.9433756 1.4433757" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b197d2f9-785a-6d86-5d91-0d3eac96be73" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2368fcb2-a312-b925-0580-b2e062ea5634" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="eff4c2ed-23b3-14b3-6c86-ca0648bbb2f1" />
+					<attribute id="Name" type="LSString" value="VFX_Actions_Prepare_GreenFlame_Blade_Weapon_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Patch5eMystra/Assets/Effects/Effects_Banks/Spells/Prepare/GreenFlame_Blade/VFX_Actions_Prepare_GreenFlame_Blade_Weapon_01.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Actions_Prepare_GreenFlame_Blade_Weapon_01" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.7320509 -1.7320509 -1.7320509" />
+					<attribute id="BoundsMax" type="fvec3" value="1.7320509 1.7320509 1.7320509" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7496eb02-96d3-eea9-99fd-48d3209283d3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4d9f2788-e3a2-93b3-fa7f-3cbcc4fa6230" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="914a5279-c6f1-05e7-86e0-b690b3206b59" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d6ec6a0-3b81-43d2-d0e2-6b8d77fdefce" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
