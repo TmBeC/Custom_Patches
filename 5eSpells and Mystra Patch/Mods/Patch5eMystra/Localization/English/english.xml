@@ -107,5 +107,112 @@
   <content contentuid="hb479191dbeb64738b4128663305ff36065f1" version="1">%%% Zephyr Strike Force Damage</content>
   <content contentuid="h9689daef98e8479e8c4d4d276b52107b5c45" version="1">Zephyr Strike: Dash</content>
   <content contentuid="h5bc5a24ccf304742abeda28fe4959908d505" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is increased by [1].</content>
+  <content contentuid="h5ecde72egf3c0g40fcga7bbg52a928e0c7b5" version="1">Cure a creature from &lt;LSTag Type="Status" Tooltip="DISEASED"&gt;Disease&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysis&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="DEAFENED"&gt;Deafeness&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BLOODLESS"&gt;Bloodlessness&lt;/LSTag&gt;.</content>
+  <content contentuid="h20fdfb6cg4e14g41e4gaa76g53bb819fbad9" version="1">Cure a creature from &lt;LSTag Type="Status" Tooltip="DISEASED"&gt;Disease&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysis&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="DEAFENED"&gt;Deafeness&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BLOODLESS"&gt;Bloodlessness&lt;/LSTag&gt;.</content>
+  <content contentuid="h2775a10e3cfb40bbb25470e361c919cca2a5" version="1">Aganazzar's Scorcher</content>
+  <content contentuid="hfcd65c1aa3cc41d6a6fade16e4b119835c1d" version="1">Roaring flame emanates from you in a line, dealing [1] to all creatures caught in its path.</content>
+  <content contentuid="h16948230a39c4dd3936d444b43ee0d5f80ag" version="1">Borrowed Knowledge</content>
+  <content contentuid="h9482278a5fb14cb79f862373ce6cb4eecc91" version="1">Draw on knowledge from spirits of the past and become &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in one skill you lack proficiency in.</content>
+  <content contentuid="h8c5c4a7e481a4ce49808887693adc2882ge6" version="1">Draw on knowledge from spirits of the past and gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in [1] if you're not already proficient.</content>
+  <content contentuid="hfc2552961a1c45329c102715108f7d6fe2a2" version="1">Borrowed Knowledge: Athletics</content>
+  <content contentuid="hb6e8635b974d49979b6f4fc53905a2905g5f" version="1">Borrowed Knowledge: Acrobatics</content>
+  <content contentuid="h556e543b8c4a4cdab21db17a3caa976b2159" version="1">Borrowed Knowledge: Sleight of Hand</content>
+  <content contentuid="hd2f8e9a89f98403bb705dbea7b75a5ed6278" version="1">Borrowed Knowledge: Stealth</content>
+  <content contentuid="hd9a837abf989422c800a6dd3fe4de1a9b878" version="1">Borrowed Knowledge: Arcana</content>
+  <content contentuid="hc582f2720c3e4c8783ac6c315d8fd573c670" version="1">Borrowed Knowledge: History</content>
+  <content contentuid="h6f705778ecae4ebea8a7c5547240a432bd00" version="1">Borrowed Knowledge: Investigation</content>
+  <content contentuid="h161601add45b4e9fa4f407b26e57f156c8gc" version="1">Borrowed Knowledge: Nature</content>
+  <content contentuid="h20791c30c7874c25a013a7b41c95197daf4e" version="1">Borrowed Knowledge: Religion</content>
+  <content contentuid="hd6e276e738b2499dba954ec2f7b6d8f22ad5" version="1">Borrowed Knowledge: Animal Handling</content>
+  <content contentuid="hf010ca134eb74b0cb5070c23c4521beac3g3" version="1">Borrowed Knowledge: Insight</content>
+  <content contentuid="h6e55bf3a810b4347a8d8049e1c8ccb2c03ce" version="1">Borrowed Knowledge: Medicine</content>
+  <content contentuid="h11d825ec1d2e4b28b53663562957cb9agea0" version="1">Borrowed Knowledge: Perception</content>
+  <content contentuid="h179975b8a3ce45c9a4433a53567b0d21d508" version="1">Borrowed Knowledge: Survival</content>
+  <content contentuid="h68bd22d5f76a49e0aaa24f7949da6313345c" version="1">Borrowed Knowledge: Deception</content>
+  <content contentuid="ha73640857c4c41f7b84e81a2514a18649463" version="1">Borrowed Knowledge: Intimidation</content>
+  <content contentuid="hc4d6a15d82c5454ab7ac9dce886b597f3f5b" version="1">Borrowed Knowledge: Performance</content>
+  <content contentuid="hbed8b25a3e0a4019beed6c9bad5234efa35c" version="1">Borrowed Knowledge: Persuasion</content>
+  <content contentuid="hb0d329d447cd420d80625150806b5cbf9102" version="1">Has &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in [1].</content>
+  <content contentuid="h76004bd77ef74af4bd8446b0baa5eb667398" version="1">Borrowed Knowledge: Athletics</content>
+  <content contentuid="h5d15e0273b5f4314a790094524ea7e3d04g0" version="1">Borrowed Knowledge: Acrobatics</content>
+  <content contentuid="hc8070900757343c7b5f2334afcce3b001610" version="1">Borrowed Knowledge: Sleight of Hand</content>
+  <content contentuid="h5e4769439aa0482fbfd817079a1480d91c7b" version="1">Borrowed Knowledge: Stealth</content>
+  <content contentuid="hb7a6f8f1aea34f05aa672929a6e34a20fd84" version="1">Borrowed Knowledge: Arcana</content>
+  <content contentuid="h67653de1a7474d65b04b47d79c8e5d4605b5" version="1">Borrowed Knowledge: History</content>
+  <content contentuid="hd663b2b0cc234efcb51cc5495d8bd7fcaac7" version="1">Borrowed Knowledge: Investigation</content>
+  <content contentuid="h43a29c69f0a54ee4b7f699c3fded4d1ce93e" version="1">Borrowed Knowledge: Nature</content>
+  <content contentuid="heba902e7057540429db22be52808e42a7645" version="1">Borrowed Knowledge: Religion</content>
+  <content contentuid="h43173f75966e495a840d915cb1f1f90c0296" version="1">Borrowed Knowledge: Animal Handling</content>
+  <content contentuid="h8914c8d9218e4d7ab8b3a76175ecd8d5877b" version="1">Borrowed Knowledge: Insight</content>
+  <content contentuid="h01a279067b464d4b8a2086347a1f5ae3gca9" version="1">Borrowed Knowledge: Medicine</content>
+  <content contentuid="h37c7ff77b4bc4ad1a792ff45f5c9dd2e5ad8" version="1">Borrowed Knowledge: Perception</content>
+  <content contentuid="h2ec8e7c27b90418c8e30aa682db741ce56g2" version="1">Borrowed Knowledge: Survival</content>
+  <content contentuid="h946a625b66844436a641faea03b9be608262" version="1">Borrowed Knowledge: Deception</content>
+  <content contentuid="hf3431524b64c4e58a52f72fbea2af1341gc6" version="1">Borrowed Knowledge: Intimidation</content>
+  <content contentuid="hbd6b4f25ad4143eea70744a2fd7dff6d03g1" version="1">Borrowed Knowledge: Performance</content>
+  <content contentuid="h8edf59a8ee624c9a8c7958f4228d1979676e" version="1">Borrowed Knowledge: Persuasion</content>
+  <content contentuid="hb7018bb7ea9a4013b233f162ffdf4b730gb6" version="1">Dragon's Breath</content>
+  <content contentuid="h8ca80de492184c639c803a16c1939f26g5f5" version="1">Imbue an ally with the power to spew magical energy from their mouth.</content>
+  <content contentuid="h64172fd9bd54485e9fb7fe1a446a959e812d" version="1">Dragon's Breath: Acid</content>
+  <content contentuid="hdb699faa3afc4459bbf5b6ffbbe402355206" version="1">Imbue an ally with the power of a black dragon's acid breath.</content>
+  <content contentuid="hb3e57ff6bb474d30b60acba35006fd64b196" version="1">Dragon's Breath: Cold</content>
+  <content contentuid="h0cab7183080b4ea19910b3cd591532f87a48" version="1">Imbue an ally with the power of a white dragon's frost breath.</content>
+  <content contentuid="h57d24eff69744bb0a2ee45e343ef8fff37g4" version="1">Dragon's Breath: Fire</content>
+  <content contentuid="h167c7f685cae4b2ba5d8d1028ff9399cf156" version="1">Imbue an ally with the power of a red dragon's fire breath.</content>
+  <content contentuid="he0f8157154c24959b32cdd522c2e0c582a1g" version="1">Dragon's Breath: Lightning</content>
+  <content contentuid="hdb4c94c04667479b9146289bd2019b60f9e7" version="1">Imbue an ally with the power of a blue dragon's lightning breath.</content>
+  <content contentuid="h17fff96c311d4b3cb653d8d8db0ce11e9b46" version="1">Dragon's Breath: Poison</content>
+  <content contentuid="h432806ba0e014a9aaa5d3c537faa6835656c" version="1">Imbue an ally with the power of a green dragon's poison breath.</content>
+  <content contentuid="h48ee201c2e1641f29f53f395551263ceegc4" version="1">Dragon's Breath: Acid</content>
+  <content contentuid="hbbaa558a6c674d83bdd4c60c74c07f828gg5" version="1">Gained ability to exhale draconic acid breath.</content>
+  <content contentuid="h0c14d7eef05d487b9d760b8df342a049befa" version="1">Dragon's Breath: Cold</content>
+  <content contentuid="h0bf95bfb9b23467cb86815ebd32b3c740dc7" version="1">Gained ability to exhale draconic frost breath.</content>
+  <content contentuid="hdec16f7ed9b54b6d8d86f60acaf324e27ac8" version="1">Dragon's Breath: Fire</content>
+  <content contentuid="he3e661966f91407caaafba28c3c5eecba93b" version="1">Gained ability to exhale draconic fire breath.</content>
+  <content contentuid="hd1494cfe330441e6a54325a81b5897728982" version="1">Dragon's Breath: Lightning</content>
+  <content contentuid="h9fa50eab860743098530577b3df8d79863d7" version="1">Gained ability to exhale draconic lightning breath.</content>
+  <content contentuid="h04cb8ccbdd504e24ad5f4e0f5550aeb0dg32" version="1">Dragon's Breath: Poison</content>
+  <content contentuid="h3054f68d5e2f4ffa8fd66c988cdfe5da906c" version="1">Gained ability to exhale draconic poison breath.</content>
+  <content contentuid="h7e8df21e40c44c0e97c0ba16c0f5e6665g1e" version="1">Acid Breath</content>
+  <content contentuid="he695df6269ab4a838d52dae6a8800f15c199" version="1">Exhale a cone of acid.</content>
+  <content contentuid="h0dee3f0b7c1f435da54bc939379dcd455085" version="1">Frost Breath</content>
+  <content contentuid="h108ea553d3f947a28bd06bef1eee9f213f77" version="1">Exhale a cone of frost.</content>
+  <content contentuid="h635157457afd4743894acc9c4562fd1e9e28" version="1">Fire Breath</content>
+  <content contentuid="hfb872bfab2114d439d06e39debcf1feeccag" version="1">Exhale a cone of fire.</content>
+  <content contentuid="h18a149d8faa443f0b6bf1f1f4e6da306be96" version="1">Lightning Breath</content>
+  <content contentuid="hf242b62eefc04a99aa45403a3b89d510ed2f" version="1">Exhale a cone of lightning.</content>
+  <content contentuid="h8682d70bd75b4a9696ae2692e0397c35aede" version="1">Poison Breath</content>
+  <content contentuid="h182f30d421214591baae1fd764cca0bf1810" version="1">Exhale a cone of poison.</content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </contentList>
