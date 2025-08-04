@@ -89,21 +89,18 @@ Shout_ZephyrStrike
 Zone_AganazzarsScorcher
 
 (Alter Self)
-
+Shout_AlterSelf
 
 (Borrowed Knowledge)
 Shout_BorrowedKnowledge
 
 (Continual Flame)
-
+Target_ContinualFlame
 
 (Dragons Breath)
 Target_DragonsBreath
 
 (Dust Devil)
-
-
-(Earthbind)
 
 
 (Flock of Familiars)
@@ -119,7 +116,7 @@ Target_DragonsBreath
 
 
 (Mental Barrier)
-
+Shout_MentalBarrier
 
 (Mind Spike)
 
@@ -128,15 +125,12 @@ Target_DragonsBreath
 
 
 (Pyrotechnics)
-
+Target_Pyrotechnics
 
 (Rimes Binding Ice)
-
+Zone_RimesBindingIce
 
 (Snillocs Snowball Swarm)
-
-
-(Spray of Cards)
 
 
 (Summon Beast)
@@ -149,13 +143,13 @@ Target_DragonsBreath
 
 
 (Warding Wind)
-
+Shout_WardingWind
 
 (Wither and Bloom)
 
 
 (Zone of Truth)
-
+Target_ZoneofTruth
 
 
 
