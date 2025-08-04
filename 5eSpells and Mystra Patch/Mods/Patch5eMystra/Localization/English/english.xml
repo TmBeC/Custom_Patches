@@ -181,10 +181,20 @@
   <content contentuid="hf242b62eefc04a99aa45403a3b89d510ed2f" version="1">Exhale a cone of lightning.</content>
   <content contentuid="h8682d70bd75b4a9696ae2692e0397c35aede" version="1">Poison Breath</content>
   <content contentuid="h182f30d421214591baae1fd764cca0bf1810" version="1">Exhale a cone of poison.</content>
-  <content contentuid="ha0f620ed2d1e4b368714bf3b863560375ecg" version="1">Dust Devil</content>
-  <content contentuid="h01679b80180a4f8b9046aff80181036b01ga" version="1">%%% Dust Devil Technical</content>
-  <content contentuid="h69898431c2e44986bb92d855cfa3bce2352e" version="1">Tempest</content>
-  <content contentuid="h062a50eb7e864d9497dc4a63150ae43d2bf4" version="1">When the dust devil is tempestuous, it deals [1] to nearby creatures and pushes them [2] away.</content>
+  <content contentuid="h1cd52fc7fa294bc4867656bc91947b60214a" version="1">Flock of Familiars</content>
+  <content contentuid="hfea3f63cac4946eebc973c76cb59caefge15" version="1">Gain the service of [1] familiars, each a fey spirit that takes an animal form you choose.</content>
+  <content contentuid="he4142c4605ce4366a9325bde236c96d8275c" version="1">Flock of Familiars: Imp</content>
+  <content contentuid="h26beb42fd26a4195bb2c2d6fcf5f4ccf3fcf" version="1">Summon [1] imp familiars that can fly, turn Invisible, and &lt;LSTag Type="Spell" Tooltip="Target_Sting_Imp_Summon"&gt;Sting&lt;/LSTag&gt; enemies.</content>
+  <content contentuid="hd9ad2e7dc500448d8d520a30b209ab6c51fg" version="1">Flock of Familiars: Quasit</content>
+  <content contentuid="h9242e4621429499fad8be084ac78ff592f8e" version="1">Summon [1] quasit familiars that can turn Invisible and &lt;LSTag Type="Spell" Tooltip="Target_Scare_Quasit_Summon"&gt;Scare&lt;/LSTag&gt; enemies.</content>
+  <content contentuid="ha2c6589f2928404785e96ec10900dfca5d3e" version="1">Kinetic Jaunt</content>
+  <content contentuid="hf2f7e5edd2314519aa94ac1ad6bb48bacfc8" version="1">Magically empower your movement, giving yourself an additional [1] of &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and the ability to avoid &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="h7d925bbafd9d44d7b0fc077f4124cc6b18ga" version="1">Kinetic Jaunt</content>
+  <content contentuid="h689d476909be4f2b98bfd8cfab87c4b46eb9" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; increased by [1] and don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+
+
+
+
 
 
 

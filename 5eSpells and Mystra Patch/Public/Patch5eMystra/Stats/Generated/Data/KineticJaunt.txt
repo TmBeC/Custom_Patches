@@ -1,45 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2nd-level Transmutation
-
-Casting Time: 1 bonus action
-Range: Self
-Components: S
-Duration: Concentration, up to 1 minute
-
-You magically empower your movement with dancelike steps, giving yourself the following benefits for the duration:
-
-    Your walking speed increases by 10 feet.
-
-    You don't provoke opportunity attacks.
-
-    You can move through the space of another creature, and it doesn't count as difficult terrain. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage.
-
-
-
-
-
-
-
-mystras
-
-  <content contentuid="h0b639fa9g01b4gb3deg9fc1g4f65ed17f662" version="1">Kinetic Jaunt</content>
-  <content contentuid="haa712b4eg648cgabcbg8397g7717ed3b0732" version="2">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1] and moving no longer provokes &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
-  <content contentuid="h3de6c95bg7565g6275gbcfdg6c341a179317" version="1">Kinetic Jaunt</content>
-  <content contentuid="h752a20b3g8247gabddgfbf9g0fcbad1e5b16" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1] and moving no longer provokes &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
-
 new entry "Shout_KineticJaunt"
 type "SpellData"
 data "SpellType" "Shout"
@@ -48,31 +6,28 @@ data "SpellSchool" "Transmutation"
 data "SpellProperties" "ApplyStatus(KINETIC_JAUNT,100,10)"
 data "TargetConditions" "Self()"
 data "Icon" "Spell_New_KineticJaunt"
-data "DisplayName" "h0b639fa9g01b4gb3deg9fc1g4f65ed17f662;1"
-data "Description" "haa712b4eg648cgabcbg8397g7717ed3b0732;2"
+data "DisplayName" "ha2c6589f2928404785e96ec10900dfca5d3e;1"
+data "Description" "hf2f7e5edd2314519aa94ac1ad6bb48bacfc8;1"
 data "DescriptionParams" "Distance(3)"
 data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT,100,10)"
-data "TooltipUpcastDescription" "fcc00846-6526-4d5d-9933-7f3e0bd7e2ef"
-data "PrepareSound" "Spell_Prepare_Buff_Gen_L1to3_01"
-data "PrepareLoopSound" "Spell_Prepare_Buff_Gen_L1to3_01_Loop"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "PrepareSound" "CrSpell_Prepare_DisplacerBeast_CreateIllusion"
+data "PrepareLoopSound" "CrSpell_Loop_DisplacerBeast_CreateIllusion"
 data "CastSound" "Spell_Cast_Utility_ExpeditiousRetreat_L1to3"
 data "VocalComponentSound" "Vocal_Component_BuffMovement"
 data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:2"
 data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
-data "VerbalIntent" "Utility"
+data "VerbalIntent" "Buff"
 data "SpellFlags" "IsSpell;IsConcentration;HasSomaticComponent;IgnoreSilence"
 data "MemoryCost" "1"
 data "PrepareEffect" "33302a46-4a12-41dd-8845-6b7314d50022"
-data "CastEffect" "1a4b0423-005b-4577-b376-815a08809675"
+data "CastEffect" "2e13383d-6141-42e7-9f88-9900d073be7c"
 
 new entry "Shout_KineticJaunt_3"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_KineticJaunt"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT_3,100,10)"
-data "DescriptionParams" "Distance(5)"
-data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT_3,100,10)"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:3"
 data "RootSpellID" "Shout_KineticJaunt"
 data "PowerLevel" "3"
@@ -81,9 +36,6 @@ new entry "Shout_KineticJaunt_4"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_KineticJaunt"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT_4,100,10)"
-data "DescriptionParams" "Distance(7)"
-data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT_4,100,10)"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
 data "RootSpellID" "Shout_KineticJaunt"
 data "PowerLevel" "4"
@@ -92,9 +44,6 @@ new entry "Shout_KineticJaunt_5"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_KineticJaunt"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT_5,100,10)"
-data "DescriptionParams" "Distance(9)"
-data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT_5,100,10)"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
 data "RootSpellID" "Shout_KineticJaunt"
 data "PowerLevel" "5"
@@ -103,9 +52,6 @@ new entry "Shout_KineticJaunt_6"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_KineticJaunt"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT_6,100,10)"
-data "DescriptionParams" "Distance(11)"
-data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT_6,100,10)"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
 data "RootSpellID" "Shout_KineticJaunt"
 data "PowerLevel" "6"
@@ -114,9 +60,6 @@ new entry "Shout_KineticJaunt_7"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_KineticJaunt"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT_7,100,10)"
-data "DescriptionParams" "Distance(13)"
-data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT_7,100,10)"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
 data "RootSpellID" "Shout_KineticJaunt"
 data "PowerLevel" "7"
@@ -125,9 +68,6 @@ new entry "Shout_KineticJaunt_8"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_KineticJaunt"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT_8,100,10)"
-data "DescriptionParams" "Distance(15)"
-data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT_8,100,10)"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
 data "RootSpellID" "Shout_KineticJaunt"
 data "PowerLevel" "8"
@@ -136,274 +76,21 @@ new entry "Shout_KineticJaunt_9"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_KineticJaunt"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT_9,100,10)"
-data "DescriptionParams" "Distance(17)"
-data "TooltipStatusApply" "ApplyStatus(KINETIC_JAUNT_9,100,10)"
 data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
 data "RootSpellID" "Shout_KineticJaunt"
 data "PowerLevel" "9"
 
-
 new entry "KINETIC_JAUNT"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h3de6c95bg7565g6275gbcfdg6c341a179317;1"
-data "Description" "h752a20b3g8247gabddgfbf9g0fcbad1e5b16;1"
+data "DisplayName" "h7d925bbafd9d44d7b0fc077f4124cc6b18ga;1"
+data "Description" "h689d476909be4f2b98bfd8cfab87c4b46eb9;1"
 data "DescriptionParams" "Distance(3)"
-data "Icon" "Spell_New_KineticJaunt"
 data "StackId" "KINETIC_JAUNT"
-data "StackType" "Overwrite"
+data "StillAnimationType" "Dancing"
+data "TickType" "StartTurn"
 data "Boosts" "ActionResource(Movement,3,0);IgnoreLeaveAttackRange()"
-data "StatusPropertyFlags" "NonExtendable"
 data "StatusGroups" "SG_RemoveOnRespec;SG_Ignore_AOO"
 data "StatusEffect" "e14337a2-55b0-495a-8294-02f7de8d0209"
 data "ManagedStatusEffectType" "Positive"
 data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
-
-new entry "KINETIC_JAUNT_3"
-type "StatusData"
-data "StatusType" "BOOST"
-using "KINETIC_JAUNT"
-data "DescriptionParams" "Distance(5)"
-data "Boosts" "ActionResource(Movement,5,0);IgnoreLeaveAttackRange()"
-
-new entry "KINETIC_JAUNT_4"
-type "StatusData"
-data "StatusType" "BOOST"
-using "KINETIC_JAUNT"
-data "DescriptionParams" "Distance(7)"
-data "Boosts" "ActionResource(Movement,7,0);IgnoreLeaveAttackRange()"
-
-new entry "KINETIC_JAUNT_5"
-type "StatusData"
-data "StatusType" "BOOST"
-using "KINETIC_JAUNT"
-data "DescriptionParams" "Distance(9)"
-data "Boosts" "ActionResource(Movement,9,0);IgnoreLeaveAttackRange()"
-
-new entry "KINETIC_JAUNT_6"
-type "StatusData"
-data "StatusType" "BOOST"
-using "KINETIC_JAUNT"
-data "DescriptionParams" "Distance(11)"
-data "Boosts" "ActionResource(Movement,11,0);IgnoreLeaveAttackRange()"
-
-new entry "KINETIC_JAUNT_7"
-type "StatusData"
-data "StatusType" "BOOST"
-using "KINETIC_JAUNT"
-data "DescriptionParams" "Distance(13)"
-data "Boosts" "ActionResource(Movement,13,0);IgnoreLeaveAttackRange()"
-
-new entry "KINETIC_JAUNT_8"
-type "StatusData"
-data "StatusType" "BOOST"
-using "KINETIC_JAUNT"
-data "DescriptionParams" "Distance(15)"
-data "Boosts" "ActionResource(Movement,15,0);IgnoreLeaveAttackRange()"
-
-new entry "KINETIC_JAUNT_9"
-type "StatusData"
-data "StatusType" "BOOST"
-using "KINETIC_JAUNT"
-data "DescriptionParams" "Distance(17)"
-data "Boosts" "ActionResource(Movement,17,0);IgnoreLeaveAttackRange()"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5e
-	<content contentuid="h6485b8a7g2721g459ag9802g5325ee091396" version="1">Kinetic Jaunt</content>
-	<content contentuid="h6bafd69dgb302g4c16g9223gdb50d531e263" version="1">Magically empower your movement, giving yourself an additional [1] of &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and the ability to avoid &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. You can also move through the space of other creatures but you take [2] when ending your turn in their space.</content>
-	<content contentuid="he48a7210g71b5g472egaec2gd2ad3b52f7e5" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; increased by [1] and don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. Can also move through the space of other creatures.</content>
-	<content contentuid="h72c745e8g519ag4585gb321ga5ae505c6755" version="1">Deal [1] when turn ends while in another creature's space.</content>
-
-new entry "Shout_KineticJaunt"
-type "SpellData"
-data "SpellType" "Shout"
-data "Level" "2"
-data "SpellSchool" "Transmutation"
-data "SpellProperties" "ApplyStatus(KINETIC_JAUNT,100,10)"
-data "TargetConditions" "Self()"
-data "Icon" "Spell_Transmutation_KineticJaunt"
-data "DisplayName" "h6485b8a7g2721g459ag9802g5325ee091396;1"
-data "Description" "h6bafd69dgb302g4c16g9223gdb50d531e263;1"
-data "DescriptionParams" "Distance(3);DealDamage(1d8,Force)"
-data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
-data "CastTextEvent" "Cast"
-data "PrepareSound" "CrSpell_Prepare_DisplacerBeast_CreateIllusion"
-data "PrepareLoopSound" "CrSpell_Loop_DisplacerBeast_CreateIllusion"
-data "CastSound" "CrSpell_Cast_DisplacerBeast_Displacement"
-data "TargetSound" "CrSpell_Impact_DisplacerBeast_Displacement"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:2"
-data "SpellAnimation" "5e57443f-284e-47b2-915e-5b6417db269c,,;d8b7f668-db2b-43b0-9707-5da2ed2cf27e,,;7521e279-1bb3-4105-b32d-8206234836a3,,;d172e037-7041-4352-9a20-5f4b185f9ef1,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;,,;,,;,,"
-data "SpellFlags" "IsSpell;HasSomaticComponent;IsConcentration"
-data "VerbalIntent" "Buff"
-data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
-data "CastEffect" "2e13383d-6141-42e7-9f88-9900d073be7c"
-
-new entry "Shout_KineticJaunt_9"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_KineticJaunt"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
-data "RootSpellID" "Shout_KineticJaunt"
-data "PowerLevel" "9"
-
-new entry "Shout_KineticJaunt_8"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_KineticJaunt"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
-data "RootSpellID" "Shout_KineticJaunt"
-data "PowerLevel" "8"
-
-new entry "Shout_KineticJaunt_7"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_KineticJaunt"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
-data "RootSpellID" "Shout_KineticJaunt"
-data "PowerLevel" "7"
-
-new entry "Shout_KineticJaunt_6"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_KineticJaunt"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
-data "RootSpellID" "Shout_KineticJaunt"
-data "PowerLevel" "6"
-
-new entry "Shout_KineticJaunt_5"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_KineticJaunt"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
-data "RootSpellID" "Shout_KineticJaunt"
-data "PowerLevel" "5"
-
-new entry "Shout_KineticJaunt_4"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_KineticJaunt"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
-data "RootSpellID" "Shout_KineticJaunt"
-data "PowerLevel" "4"
-
-new entry "Shout_KineticJaunt_3"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_KineticJaunt"
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:3"
-data "RootSpellID" "Shout_KineticJaunt"
-data "PowerLevel" "3"
-
-
-
-
-new entry "KINETIC_JAUNT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h6485b8a7g2721g459ag9802g5325ee091396;1"
-data "Description" "he48a7210g71b5g472egaec2gd2ad3b52f7e5;1"
-data "DescriptionParams" "Distance(3)"
-data "StillAnimationType" "Dancing"
-data "Icon" "Spell_Transmutation_KineticJaunt"
-data "Boosts" "IgnoreLeaveAttackRange;ActionResource(Movement,3,0)"
-data "OnApplyFunctors" "ApplyStatus(KINETIC_JAUNT_AURA,100,1)"
-data "TickFunctors" "ApplyStatus(KINETIC_JAUNT_AURA,100,1)"
-data "TickType" "StartTurn"
-data "StackId" "KINETIC_JAUNT"
-data "StatusEffect" "VFX_Status_IrresistableDance_Root_01:Dummy_Root"
-data "StatusGroups" "SG_RemoveOnRespec"
-
-new entry "KINETIC_JAUNT_AURA"
-type "StatusData"
-data "StatusType" "BOOST"
-data "AuraRadius" "30"
-data "AuraStatuses" "IF(Character()):ApplyStatus(KINETIC_JAUNT_WALKTHROUGH,100,1)"
-data "TickType" "EndTurn"
-data "StackId" "KINETIC_JAUNT_AURA"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-new entry "KINETIC_JAUNT_WALKTHROUGH"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "CanWalkThrough(true)"
-data "OnApplyFunctors" "IF(not HasStatus('KINETIC_JAUNT_TECHNICAL')):ApplyStatus(KINETIC_JAUNT_TECHNICAL,100,1)"
-data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.External)):RemoveStatus(SELF,KINETIC_JAUNT_AURA)"
-data "StackId" "KINETIC_JAUNT_WALKTHROUGH"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-new entry "KINETIC_JAUNT_TECHNICAL"
-type "StatusData"
-data "StatusType" "BOOST"
-data "AuraRadius" "1"
-data "AuraStatuses" "IF(HasStatus('KINETIC_JAUNT')):ApplyStatus(KINETIC_JAUNT_TECHNICAL_2,100,1)"
-data "StackId" "KINETIC_JAUNT_TECHNICAL"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-new entry "KINETIC_JAUNT_TECHNICAL_2"
-type "StatusData"
-data "StatusType" "BOOST"
-data "TickFunctors" "IF(HasStatus('KINETIC_JAUNT_TECHNICAL',context.Source)):DealDamage(1d8,Force,Magical,,0,,true,true)"
-data "TickType" "EndTurn"
-data "OnApplyFunctors" "ApplyStatus(KINETIC_JAUNT_DAMAGE,100,1)"
-data "StackId" "KINETIC_JAUNT_TECHNICAL_2"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-new entry "KINETIC_JAUNT_DAMAGE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h6485b8a7g2721g459ag9802g5325ee091396;1"
-data "Description" "h72c745e8g519ag4585gb321ga5ae505c6755;1"
-data "DescriptionParams" "DealDamage(1d8,Force);Distance(2)"
-data "Icon" "Spell_Transmutation_KineticJaunt"
-data "TickType" "EndTurn"
-data "StackId" "KINETIC_JAUNT_DAMAGE"
-data "RemoveConditions" "not HasStatus('KINETIC_JAUNT_TECHNICAL_2')"
-data "RemoveEvents" "OnStatusRemoved"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -100,20 +100,14 @@ Target_ContinualFlame
 (Dragons Breath)
 Target_DragonsBreath
 
-(Dust Devil)
-Target_DustDevil
-
 (Flock of Familiars)
-
-
-(Healing Spirit)
-
+Target_FlockOfFamiliars
 
 (Kinetic Jaunt)
-
+Shout_KineticJaunt
 
 (Maximillians Earthen Grasp)
-
+Target_EarthenGrasp
 
 (Mental Barrier)
 Shout_MentalBarrier
