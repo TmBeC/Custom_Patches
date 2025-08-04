@@ -1,0 +1,1116 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2nd-level conjuration
+
+Casting Time: 1 action
+Range: 90 feet
+Components: V, S, M (a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp)
+Duration: Concentration, up to 1 hour
+
+You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Bestial Spirit stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
+
+The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.
+
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, use the higher level where the spell’s level appears in the stat block.
+
+Bestial Spirit
+Small beast
+Armor Class: 11 + the level of the spell (natural armor)
+Hit Points: 20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2nd
+Speed: 30 ft., climb 30 ft. (Land only), fly 60 ft. (Air only), swim 30 ft. (Water only)
+STR 	DEX 	CON 	INT 	WIS 	CHA
+18 (+4) 	11 (+0) 	16 (+3) 	4 (−3) 	14 (+2) 	5 (−3)
+Senses: darkvision 60 ft., passive Perception 12
+Languages: understands the languages you speak
+Challenge: —
+Proficiency Bonus: equals your bonus
+Flyby (Air Only). The beast doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.
+Pack Tactics (Land and Water Only). The beast has advantage on an attack roll against a creature if at least one of the beast’s allies is within 5 feet of the creature and the ally isn’t incapacitated.
+Water Breathing (Water Only). The beast can breathe only underwater.
+Actions
+Multiattack. The beast makes a number of attacks equal to half this spell’s level (rounded down).
+Maul. Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell’s level piercing damage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mystras
+
+
+  <content contentuid="h7695878ag193fg9a4bgd90cg2b6b6bee97e7" version="2">Summon Beast: Raven</content>
+  <content contentuid="h7e0c8958g3807ge51cg4923gd6b88006cb46" version="1">Summon Beast</content>
+  <content contentuid="h08c1117eg26d8gcf05g4b2cgdc53fb5da90a" version="3">Call forth the spirit of a beast to assist you.</content>
+  <content contentuid="h986334abgd087gcceag0227gf4f4ee514ae4" version="2">Summon Beast: Wolf</content>
+  <content contentuid="h742f5cb8gfa7cgace6g9788g47983a79b4c3" version="2">Summon Beast: Frog</content>
+  <content contentuid="hffd4cd9ag436egb261g6f34g7ae91c048bfb" version="1">Maul</content>
+  <content contentuid="hb19a0b5dgeaf1g3d4dg7ab3g56a90b45e650" version="5">Wolf Spirit</content>
+  <content contentuid="hc5414b0bg327agf16cgf5d1g57ee09df02fb" version="11">Frog Spirit</content>
+  <content contentuid="h37dfcb83g89d6gddf8g562fg9325af270d87" version="4">Summon a Raven spirit. It has &lt;LSTag Type="Passive" Tooltip="Flyby"&gt;Flyby&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Target_RendVision_SummonBeast"&gt;Blind&lt;/LSTag&gt; enemies with its beak.</content>
+  <content contentuid="h86c45f21gc736g018eg2bd2gaff3c7bccce9" version="4">Summon a Wolf spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Rush_Charge_SummonBeast"&gt;Charge&lt;/LSTag&gt; at enemies.</content>
+  <content contentuid="h22c416f9g2228gc2bbgf709g2acbffcc2ec6" version="4">Summon a Frog spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and is covered in &lt;LSTag Type="Passive" Tooltip="Bufotoxin_Passive"&gt;Bufotoxin&lt;/LSTag&gt;.</content>
+  <content contentuid="hf01174b8g349dg0716gd04fg00958bbbe140" version="1">Flyby</content>
+  <content contentuid="hf62788ebgd3d6g790agb3bcg2fb55e26d6ce" version="1">Doesn't provoke Attacks of Opportunity.</content>
+  <content contentuid="hb13b5b6fge999g3369geeaegd43397bb0a16" version="1">Flyby</content>
+  <content contentuid="h7ca0d42bga706g5f76g8ca1g11886990c483" version="1">Bufotoxin</content>
+  <content contentuid="h7e6971b2g9bf0g1414g670fg06b36097f2cd" version="4">Deals [1] to nearby enemies that attack it and possibly &lt;LSTag Type="Status" Tooltip="FROG_BUFOTOXIN"&gt;Intoxicates&lt;/LSTag&gt; them.</content>
+  <content contentuid="h221c21dfg73d2gec9agd334g2b52d0ca4789" version="1">Bufotoxin</content>
+  <content contentuid="he28666f3g1d2agc508g3be4g3ccbd4ace590" version="1">Charge</content>
+  <content contentuid="h9895347cg56a3ge5e8g7724g0bf57e662af1" version="1">Charge forward, attacking all enemies in the way and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h77d5fc6agb737gfc50g5e9ag8c94c8d7bf5d" version="2">Raven Spirit</content>
+  <content contentuid="h5722e37ag0f83g318eg4ae2gc32d41a8ff78" version="1">Summon a Frog spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and is covered in &lt;LSTag Type="Passive" Tooltip="Bufotoxin_Passive_4"&gt;Bufotoxin&lt;/LSTag&gt;.</content>
+  <content contentuid="hbdd8a130g989fg3417g11f8gf46bccef5a80" version="1">Summon a Frog spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and is covered in &lt;LSTag Type="Passive" Tooltip="Bufotoxin_Passive_4"&gt;Bufotoxin&lt;/LSTag&gt;.</content>
+  <content contentuid="hdc70609dg2277g1a53g0cc3g232600c8ab74" version="1">Summon a Frog spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and is covered in &lt;LSTag Type="Passive" Tooltip="Bufotoxin_Passive_6"&gt;Bufotoxin&lt;/LSTag&gt;.</content>
+  <content contentuid="ha171addbg91d5g4d4eg73abg0872c1b632d1" version="1">Summon a Wolf spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Rush_Charge_SummonBeast_4"&gt;Charge&lt;/LSTag&gt; at enemies.</content>
+  <content contentuid="hcfd93398g4b3cg6333g33b9ge9955158e861" version="1">Summon a Wolf spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Rush_Charge_SummonBeast_4"&gt;Charge&lt;/LSTag&gt; at enemies.</content>
+  <content contentuid="h32360438gfa1dg976dgb405gf4fceade4601" version="1">Summon a Wolf spirit. It has &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Rush_Charge_SummonBeast_6"&gt;Charge&lt;/LSTag&gt; at enemies.</content>
+  <content contentuid="hda334f9bgc1a1g7022g486egdec235d20d4a" version="1">Aim multiple attacks at a target that is &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FROG_BUFOTOXIN"&gt;Intoxicated&lt;/LSTag&gt;.</content>
+  <content contentuid="h112cf00dg5077g6ec7g7a0eg23eaad05ce76" version="2">Aim multiple attacks at a target. The target must be &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FROG_BUFOTOXIN"&gt;Intoxicated&lt;/LSTag&gt;, or have less than half of its maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h42cb5dfag05c5gba2aga90fgc47feb6ce638" version="3">Each additional attack checks against a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="h83250222g054ag40cbgb756g4d40aaae179c" version="1">Maul the target creature.</content>
+  <content contentuid="h2308cceeg491bg2b97g2aa8gbb802a48de87" version="1">Wolf Spirit</content>
+  <content contentuid="h31de0f70gbfceg363fg9f19gf7410f76d324" version="1">Wolf Spirit</content>
+  <content contentuid="hce1395a1g60aagee20gb9d0gc46ae51f6461" version="1">Wolf Spirit</content>
+  <content contentuid="h3e12d4cbgee16gdb3cg6734g362a7f5d8ccd" version="1">Wolf Spirit</content>
+  <content contentuid="hea9bde79gddc1g54edg0da2g08b15bc59ba1" version="1">Raven Spirit</content>
+  <content contentuid="h1c21f8c4g7993ga61age5daga917cb7ba80f" version="1">Raven Spirit</content>
+  <content contentuid="h26996c82g6de3g0fc4gb70cg317b37c43569" version="1">Raven Spirit</content>
+  <content contentuid="h09807570g6a22g9886g6435gf6f1ff31b3c9" version="1">Raven Spirit</content>
+  <content contentuid="h6a66c101g9779g22b8g5653gdc3653beb042" version="1">Summon a Raven spirit. It has &lt;LSTag Type="Passive" Tooltip="Flyby"&gt;Flyby&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Target_RendVision_SummonBeast_4"&gt;Blind&lt;/LSTag&gt; enemies with its beak.</content>
+  <content contentuid="h57819601gfe82g20d0g8cbeg7e6f9bcf2ffc" version="1">Summon a Raven spirit. It has &lt;LSTag Type="Passive" Tooltip="Flyby"&gt;Flyby&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Target_RendVision_SummonBeast_4"&gt;Blind&lt;/LSTag&gt; enemies with its beak.</content>
+  <content contentuid="h707ff0d3gcd6egb0bcg0038g1344728473e4" version="1">Summon a Raven spirit. It has &lt;LSTag Type="Passive" Tooltip="Flyby"&gt;Flyby&lt;/LSTag&gt; and can &lt;LSTag Type="Spell" Tooltip="Target_RendVision_SummonBeast_6"&gt;Blind&lt;/LSTag&gt; enemies with its beak.</content>
+
+new entry "Target_SummonBeast"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "SpellSchool" "Conjuration"
+data "ContainerSpells" "Target_SummonBeast_Raven;Target_SummonBeast_Wolf;Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(9c2ed0d0-0892-4d8b-b0cc-fde30fad31ec, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetRadius" "18"
+data "RequirementConditions" "TutorialSummonBlockCheck()"
+data "RequirementEvents" "OnStatusRemoved;OnStatusApplied"
+data "TargetConditions" "CanStand('42da1663-b150-4e9b-abc8-8cdc7240fd56') and not Character() and not Self()"
+data "Icon" "Spell_New_SummonBeast"
+data "DisplayName" "h7e0c8958g3807ge51cg4923gd6b88006cb46;1"
+data "Description" "h08c1117eg26d8gcf05g4b2cgdc53fb5da90a;3"
+data "CastSound" "Spell_Cast_Summon_ConjureWoodlandBeing_L4to5"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;IsLinkedSpellContainer;CannotTargetCharacter;CannotTargetItems"
+data "MemoryCost" "1"
+data "PrepareEffect" "7bf288a2-61a1-4e9a-be06-1b31a7e5c204"
+data "CastEffect" "c4a3d033-a273-4489-a00c-ba7e52b6f1d5"
+data "PositionEffect" "af05b622-2a1e-406a-b1a0-41a7ceb77253"
+data "DamageType" "Acid"
+
+new entry "Target_SummonBeast_Raven"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "SpellContainerID" "Target_SummonBeast"
+data "SpellProperties" "GROUND:Summon(9c2ed0d0-0892-4d8b-b0cc-fde30fad31ec, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('9c2ed0d0-0892-4d8b-b0cc-fde30fad31ec') and not Character() and not Self()"
+data "Icon" "Action_Ranger_RangersCompanion_Raven"
+data "DisplayName" "h7695878ag193fg9a4bgd90cg2b6b6bee97e7;2"
+data "Description" "h37dfcb83g89d6gddf8g562fg9325af270d87;4"
+
+new entry "Target_SummonBeast_Raven_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Raven"
+data "SpellProperties" "GROUND:Summon(ce72744e-c72c-4192-bb9c-4d112e9cbb21, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_SummonBeast_Raven"
+data "PowerLevel" "3"
+
+new entry "Target_SummonBeast_Raven_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Raven"
+data "SpellProperties" "GROUND:Summon(e5a05251-91e9-4ff8-97c4-8116944c0816, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h6a66c101g9779g22b8g5653gdc3653beb042;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_SummonBeast_Raven"
+data "PowerLevel" "4"
+
+new entry "Target_SummonBeast_Raven_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Raven"
+data "SpellProperties" "GROUND:Summon(4eb0f043-fa31-4c62-8917-3404eb058b10, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h57819601gfe82g20d0g8cbeg7e6f9bcf2ffc;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonBeast_Raven"
+data "PowerLevel" "5"
+
+new entry "Target_SummonBeast_Raven_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Raven"
+data "SpellProperties" "GROUND:Summon(76d523b0-c98c-408a-9594-b7dd6cf03848, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h707ff0d3gcd6egb0bcg0038g1344728473e4;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonBeast_Raven"
+data "PowerLevel" "6"
+
+new entry "Target_SummonBeast_Raven_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Raven"
+data "SpellProperties" "GROUND:Summon(8c8f803c-d8c0-449f-9ec1-2a596d1d4a5f, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "hac075b90gc865g112dg4f13g701be0f7886d;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonBeast_Raven"
+data "PowerLevel" "7"
+
+new entry "Target_SummonBeast_Raven_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Raven"
+data "SpellProperties" "GROUND:Summon(9d2ec00a-d829-4382-958c-4b3d025b75a5, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "hec9f3d22g77c7gc07ag8df1g73f6e2c5220e;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonBeast_Raven"
+data "PowerLevel" "8"
+
+new entry "Target_SummonBeast_Raven_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Raven"
+data "SpellProperties" "GROUND:Summon(e4df7505-a5ec-435b-a4ab-8f98f45baf5e, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h5e049f29gfe64g1420g332fg041547e44ea0;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonBeast_Raven"
+data "PowerLevel" "9"
+
+new entry "Target_SummonBeast_Wolf"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "SpellContainerID" "Target_SummonBeast"
+data "SpellProperties" "GROUND:Summon(f923da80-6865-4829-bf0c-fa6d7992d701, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('f923da80-6865-4829-bf0c-fa6d7992d701') and not Character() and not Self()"
+data "Icon" "Action_Ranger_RangersCompanion_Wolf"
+data "DisplayName" "h986334abgd087gcceag0227gf4f4ee514ae4;2"
+data "Description" "h86c45f21gc736g018eg2bd2gaff3c7bccce9;4"
+
+new entry "Target_SummonBeast_Wolf_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Wolf"
+data "SpellProperties" "GROUND:Summon(7339692a-8dfa-4fef-b624-276aabc7d94b, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_SummonBeast_Wolf"
+data "PowerLevel" "3"
+
+new entry "Target_SummonBeast_Wolf_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Wolf"
+data "SpellProperties" "GROUND:Summon(8b273dd0-61b9-46c1-b39e-6ae58bf4db32, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "ha171addbg91d5g4d4eg73abg0872c1b632d1;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_SummonBeast_Wolf"
+data "PowerLevel" "4"
+
+new entry "Target_SummonBeast_Wolf_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Wolf"
+data "SpellProperties" "GROUND:Summon(7bed0889-c428-467d-89bc-8f6357d6d376, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "hcfd93398g4b3cg6333g33b9ge9955158e861;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonBeast_Wolf"
+data "PowerLevel" "5"
+
+new entry "Target_SummonBeast_Wolf_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Wolf"
+data "SpellProperties" "GROUND:Summon(8ee9e408-8d62-448f-90d4-8de345338184, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h32360438gfa1dg976dgb405gf4fceade4601;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonBeast_Wolf"
+data "PowerLevel" "6"
+
+new entry "Target_SummonBeast_Wolf_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Wolf"
+data "SpellProperties" "GROUND:Summon(4a7f634a-84c3-4357-a446-16fefa2b7728, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "had04d07dg78c0gd6e6g872bg554cedac8943;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonBeast_Wolf"
+data "PowerLevel" "7"
+
+new entry "Target_SummonBeast_Wolf_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Wolf"
+data "SpellProperties" "GROUND:Summon(e8b80414-27d2-4755-ae38-df91b44550ec, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "he6aab450g25bbg0006g4088g434525912607;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonBeast_Wolf"
+data "PowerLevel" "8"
+
+new entry "Target_SummonBeast_Wolf_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Wolf"
+data "SpellProperties" "GROUND:Summon(d480ebe7-7ee2-45e7-b0c9-2717a5763ced, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h978853b3g1db1g978egb7d5g238a60f207ca;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonBeast_Wolf"
+data "PowerLevel" "9"
+
+new entry "Target_SummonBeast_Frog"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "SpellContainerID" "Target_SummonBeast"
+data "SpellProperties" "GROUND:Summon(ed817a67-4840-44d5-883e-631bb9a22bc0, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('ed817a67-4840-44d5-883e-631bb9a22bc0') and not Character() and not Self()"
+data "Icon" "Action_Frog_Bufotoxin"
+data "DisplayName" "h742f5cb8gfa7cgace6g9788g47983a79b4c3;2"
+data "Description" "h22c416f9g2228gc2bbgf709g2acbffcc2ec6;4"
+
+new entry "Target_SummonBeast_Frog_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(baff11a4-d2c9-4913-8bbd-a99bd98b6ef0, -1,Projectile_AiHelper_Summon_Weak,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_SummonBeast_Frog"
+data "PowerLevel" "3"
+
+new entry "Target_SummonBeast_Frog_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(270e6724-a4c0-4479-b1d6-fc2f23a773dc, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h5722e37ag0f83g318eg4ae2gc32d41a8ff78;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_SummonBeast_Frog"
+data "PowerLevel" "4"
+
+new entry "Target_SummonBeast_Frog_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(a2fad455-7204-4332-9533-e5c724b0c22d, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "hbdd8a130g989fg3417g11f8gf46bccef5a80;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonBeast_Frog"
+data "PowerLevel" "5"
+
+new entry "Target_SummonBeast_Frog_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(d523374f-a81c-40b3-8160-7020bbc47269, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "hdc70609dg2277g1a53g0cc3g232600c8ab74;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonBeast_Frog"
+data "PowerLevel" "6"
+
+new entry "Target_SummonBeast_Frog_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(358125e2-1d7f-4725-9358-7b9b9619d34f, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "hbe04ac0agfc64ged43g6a00g385fcdb09191;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonBeast_Frog"
+data "PowerLevel" "7"
+
+new entry "Target_SummonBeast_Frog_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(7eef938d-053a-4b70-833c-a924926f0375, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h3846cb33gfcc5g4c10g27abgbc7783346b59;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonBeast_Frog"
+data "PowerLevel" "8"
+
+new entry "Target_SummonBeast_Frog_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Frog"
+data "SpellProperties" "GROUND:Summon(29b57da6-f797-46ee-b43e-d2045ac36e09, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "Description" "h051ef304gd258g3ef9g9c73g5817867fe37a;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonBeast_Frog"
+data "PowerLevel" "9"
+
+new entry "Target_Maul_SummonBeast"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Claws"
+data "SpellSuccess" "DealDamage(max(1,1d6+UnarmedMeleeAbilityModifier),Piercing)"
+data "Icon" "Action_Bear_Claws"
+data "DisplayName" "hffd4cd9ag436egb261g6f34g7ae91c048bfb;1"
+data "Description" "h83250222g054ag40cbgb756g4d40aaae179c;1"
+data "TooltipDamageList" "DealDamage(1d6+UnarmedMeleeAbilityModifier,Piercing)"
+data "SpellAnimationIntentType" "Aggressive"
+data "CastEffect" "a37d8fbb-f762-45bf-b335-be9c120ecd72"
+data "TargetEffect" "5b143818-1f79-47e2-b5ad-a39e97ce83c1"
+data "DamageType" "Piercing"
+
+new entry "Target_Maul_SummonBeast_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Maul_SummonBeast"
+data "SpellSuccess" "DealDamage(max(1,1d6+2+UnarmedMeleeAbilityModifier),Piercing)"
+data "TooltipDamageList" "DealDamage(1d6+2+UnarmedMeleeAbilityModifier,Piercing)"
+
+new entry "Target_Maul_SummonBeast_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Maul_SummonBeast"
+data "SpellSuccess" "DealDamage(max(1,1d6+4+UnarmedMeleeAbilityModifier),Piercing)"
+data "TooltipDamageList" "DealDamage(1d6+4+UnarmedMeleeAbilityModifier,Piercing)"
+
+new entry "Target_Maul_SummonBeast_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Maul_SummonBeast"
+data "SpellSuccess" "DealDamage(max(1,1d6+6+UnarmedMeleeAbilityModifier),Piercing)"
+data "TooltipDamageList" "DealDamage(1d6+8+UnarmedMeleeAbilityModifier,Piercing)"
+
+new entry "Target_RendVision_SummonBeast"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_RendVision_Raven_Summon"
+data "SpellSuccess" "DealDamage(1d6+2, Piercing);ApplyStatus(BLINDED,100,1)"
+data "TargetConditions" "not Self() and not Dead()"
+data "TooltipDamageList" "DealDamage(1d6+2, Piercing)"
+data "TooltipStatusApply" "ApplyStatus(BLINDED,100,1)"
+data "CastSound" "CrSpell_Cast_RendVision"
+data "TargetSound" "CrSpell_Impact_RendVision"
+data "SpellAnimationIntentType" "Aggressive"
+data "DamageType" "Piercing"
+
+new entry "Target_RendVision_SummonBeast_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_RendVision_SummonBeast"
+data "SpellSuccess" "DealDamage(1d6+4, Piercing);ApplyStatus(BLINDED,100,1)"
+data "TooltipDamageList" "DealDamage(1d6+4, Piercing)"
+
+new entry "Target_RendVision_SummonBeast_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_RendVision_SummonBeast"
+data "SpellSuccess" "DealDamage(2d6+4, Piercing);ApplyStatus(BLINDED,100,1)"
+data "TooltipDamageList" "DealDamage(2d6+4, Piercing)"
+
+new entry "Target_RendVision_SummonBeast_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_RendVision_SummonBeast"
+data "SpellSuccess" "DealDamage(2d6+6, Piercing);ApplyStatus(BLINDED,100,1)"
+data "TooltipDamageList" "DealDamage(2d6+6, Piercing)"
+
+new entry "Target_Multiattack_SummonBeast_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack)"
+data "SpellSuccess" "DealDamage(max(1,1d6+2+UnarmedMeleeAbilityModifier),Piercing);IF(not SavingThrow(Ability.Dexterity, SourceSpellDC())):DealDamage(max(1,1d6+2+UnarmedMeleeAbilityModifier),Piercing)"
+data "TargetConditions" "not Self() and not Dead() and (HasStatus('PRONE') or HasStatus('BLINDED') or HasStatus('FROG_BUFOTOXIN') or HasHPPercentageEqualOrLessThan(50))"
+data "Description" "h112cf00dg5077g6ec7g7a0eg23eaad05ce76;2"
+data "ExtraDescription" "h42cb5dfag05c5gba2aga90fgc47feb6ce638;3"
+data "TooltipDamageList" "DealDamage(1d6+2+UnarmedMeleeAbilityModifier,Piercing);DealDamage(1d6+2+UnarmedMeleeAbilityModifier,Piercing,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipAttackSave" "MeleeUnarmedAttack;Dexterity"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,,;f4ac302b-1569-404f-bd52-1fe443e265df,,;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "CastEffect" "880f2fcb-9d82-47a3-b028-c257a39a9d38"
+data "TargetEffect" "3c1857a6-5d61-4da3-8ec3-f8feb5096357"
+data "DamageType" "Piercing"
+
+new entry "Target_Multiattack_SummonBeast_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonBeast_4"
+data "SpellSuccess" "DealDamage(max(1,1d6+4+UnarmedMeleeAbilityModifier),Piercing);IF(not SavingThrow(Ability.Dexterity, SourceSpellDC())):DealDamage(max(1,1d6+4+UnarmedMeleeAbilityModifier),Piercing);IF(not SavingThrow(Ability.Dexterity, SourceSpellDC())):DealDamage(max(1,1d6+4+UnarmedMeleeAbilityModifier),Piercing)"
+data "TooltipDamageList" "DealDamage(1d6+4+UnarmedMeleeAbilityModifier,Piercing);DealDamage(1d6+4+UnarmedMeleeAbilityModifier,Piercing,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e);DealDamage(1d6+4+UnarmedMeleeAbilityModifier,Piercing,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+
+new entry "Target_Multiattack_SummonBeast_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonBeast_4"
+data "SpellSuccess" "DealDamage(max(1,1d6+6+UnarmedMeleeAbilityModifier),Piercing);IF(not SavingThrow(Ability.Dexterity, SourceSpellDC())):DealDamage(max(1,1d6+6+UnarmedMeleeAbilityModifier),Piercing);IF(not SavingThrow(Ability.Dexterity, SourceSpellDC())):DealDamage(max(1,1d6+6+UnarmedMeleeAbilityModifier),Piercing);IF(not SavingThrow(Ability.Dexterity, SourceSpellDC())):DealDamage(max(1,1d6+6+UnarmedMeleeAbilityModifier),Piercing)"
+data "TooltipDamageList" "DealDamage(1d6+6+UnarmedMeleeAbilityModifier,Piercing);DealDamage(1d6+6+UnarmedMeleeAbilityModifier,Piercing,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e);DealDamage(1d6+6+UnarmedMeleeAbilityModifier,Piercing,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e);DealDamage(1d6+6+UnarmedMeleeAbilityModifier,Piercing,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5e
+
+	<content contentuid="hhf97794c7g36a2g4462gb221ge05553a6ed02" version="1">Summon Beast</content>
+	<content contentuid="h3aece828g6f27g47f5gb167g739ebfeca2d9" version="1">Call forth an allied bestial spirit from an environment of Air or Land.</content>
+	<content contentuid="he76c6060g3d27g4dfeg8b37g37257c449315" version="1">Summon Beast: Air</content>
+	<content contentuid="h1dfec43cg2336g4409g8406ge400af1729eb" version="1">Call forth an allied bestial spirit from the environment of Air.</content>
+	<content contentuid="h95311edag8d04g4310g8c1cg9d0b7efa8e08" version="1">Summon Beast: Land</content>
+	<content contentuid="h180967fdg8508g41a9gb442gd56134e11943" version="1">Call forth an allied bestial spirit from the environment of Land.</content>
+
+
+new entry "Target_SummonBeast"
+type "SpellData"
+data "SpellType" "Target"
+data "ContainerSpells" "Target_SummonBeast_Land;Target_SummonBeast_Air"
+data "Level" "2"
+data "SpellSchool" "Conjuration"
+data "TargetRadius" "27"
+data "Icon" "Spell_Conjuration_SummonBeast"
+data "DisplayName" "hhf97794c7g36a2g4462gb221ge05553a6ed02;1"
+data "Description" "h3aece828g6f27g47f5gb167g739ebfeca2d9;1"
+data "TooltipUpcastDescription" "56532f99-3dcf-47fd-a86a-8eebd296d67f"
+data "TooltipUpcastDescriptionParams" "1;RegainHitPoints(5)"
+data "CastTextEvent" "VFX_Somatic_03"
+data "CastSound" "Action_Cast_RangersCompanion"
+data "TargetSound" "Action_Impact_RangersCompanion"
+data "SpellAnimation" "85f63b1e-1fe6-4228-863d-71f43a945b46,,;,,;551b8855-805c-45fa-973f-88df0cbe646a,,;394f93b4-106a-44e4-8e08-2feae2881df1,,;db52441a-8a80-4630-bcb8-0f220e1b8323,,;,,;f588875b-9a5f-4e05-ac41-3f3e73cdb4e4,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "PrepareEffect" "2adc2574-07ac-4116-ba89-9ffe367ff77b"
+data "CastEffect" "23d05225-027b-4656-97f8-564b185d37a2"
+data "PositionEffect" "47de8912-a859-436b-b88b-e849b1f5e180"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "RequirementConditions" "not HasStatus('SAGE_SUMMONER_BLOCK')"
+
+new entry "Target_SummonBeast_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "ContainerSpells" "Target_SummonBeast_Land_9;Target_SummonBeast_Air_9"
+data "Level" "9"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "RootSpellID" "Target_SummonBeast"
+data "PowerLevel" "9"
+
+new entry "Target_SummonBeast_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "ContainerSpells" "Target_SummonBeast_Land_8;Target_SummonBeast_Air_8"
+data "Level" "8"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "RootSpellID" "Target_SummonBeast"
+data "PowerLevel" "8"
+
+new entry "Target_SummonBeast_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "ContainerSpells" "Target_SummonBeast_Land_7;Target_SummonBeast_Air_7"
+data "Level" "7"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "RootSpellID" "Target_SummonBeast"
+data "PowerLevel" "7"
+
+new entry "Target_SummonBeast_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "ContainerSpells" "Target_SummonBeast_Land_6;Target_SummonBeast_Air_6"
+data "Level" "6"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "RootSpellID" "Target_SummonBeast"
+data "PowerLevel" "6"
+
+new entry "Target_SummonBeast_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "ContainerSpells" "Target_SummonBeast_Land_5;Target_SummonBeast_Air_5"
+data "Level" "5"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "RootSpellID" "Target_SummonBeast"
+data "PowerLevel" "5"
+
+new entry "Target_SummonBeast_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "ContainerSpells" "Target_SummonBeast_Land_4;Target_SummonBeast_Air_4"
+data "Level" "4"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "RootSpellID" "Target_SummonBeast"
+data "PowerLevel" "4"
+
+new entry "Target_SummonBeast_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "ContainerSpells" "Target_SummonBeast_Land_3;Target_SummonBeast_Air_3"
+data "Level" "3"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsSpell;IsConcentration"
+data "RootSpellID" "Target_SummonBeast"
+data "PowerLevel" "3"
+
+new entry "Target_SummonBeast_Air"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "SpellContainerID" "Target_SummonBeast"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('b745f288-36ed-4f62-b667-eebfbfb7566d') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_SummonBeast_Air"
+data "DisplayName" "he76c6060g3d27g4dfeg8b37g37257c449315;1"
+data "Description" "h1dfec43cg2336g4409g8406ge400af1729eb;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+
+new entry "Target_SummonBeast_Air_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Air"
+data "SpellContainerID" "Target_SummonBeast_9"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_9,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_9_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_9_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_9_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_9_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "9"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonBeast_Air"
+data "PowerLevel" "9"
+
+new entry "Target_SummonBeast_Air_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Air"
+data "SpellContainerID" "Target_SummonBeast_8"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_8,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_8_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_8_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_8_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_8_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "8"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonBeast_Air"
+data "PowerLevel" "8"
+
+new entry "Target_SummonBeast_Air_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Air"
+data "SpellContainerID" "Target_SummonBeast_7"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_7,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_7_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_7_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_7_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_7_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "7"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonBeast_Air"
+data "PowerLevel" "7"
+
+new entry "Target_SummonBeast_Air_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Air"
+data "SpellContainerID" "Target_SummonBeast_6"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_6,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_6_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_6_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_6_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_6_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "6"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonBeast_Air"
+data "PowerLevel" "6"
+
+new entry "Target_SummonBeast_Air_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Air"
+data "SpellContainerID" "Target_SummonBeast_5"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_5,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_5_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_5_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_5_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_5_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "5"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonBeast_Air"
+data "PowerLevel" "5"
+
+new entry "Target_SummonBeast_Air_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Air"
+data "SpellContainerID" "Target_SummonBeast_4"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_4,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_4_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_4_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_4_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_4_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "4"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_SummonBeast_Air"
+data "PowerLevel" "4"
+
+new entry "Target_SummonBeast_Air_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Air"
+data "SpellContainerID" "Target_SummonBeast_3"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_3,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_3_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_3_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_3_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(b745f288-36ed-4f62-b667-eebfbfb7566d, 600,,,SummonBeastStack,SUMMON_BEAST_3_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "3"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_SummonBeast_Air"
+data "PowerLevel" "3"
+
+new entry "Target_SummonBeast_Land"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+data "SpellContainerID" "Target_SummonBeast"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('56df0785-ab6b-4f23-b8a0-baa574080a7e') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_SummonBeast_Land"
+data "DisplayName" "h95311edag8d04g4310g8c1cg9d0b7efa8e08;1"
+data "Description" "h180967fdg8508g41a9gb442gd56134e11943;1"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+
+new entry "Target_SummonBeast_Land_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Land"
+data "SpellContainerID" "Target_SummonBeast_9"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_9,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_9_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_9_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_9_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_9_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2) and NinjaSageSummoner()):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, -1,,,SummonBeastStack,SUMMON_BEAST_9,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3) and NinjaSageSummoner()):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, -1,,,SummonBeastStack,SUMMON_BEAST_9_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4) and NinjaSageSummoner()):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, -1,,,SummonBeastStack,SUMMON_BEAST_9_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5) and NinjaSageSummoner()):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, -1,,,SummonBeastStack,SUMMON_BEAST_9_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6) and NinjaSageSummoner()):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, -1,,,SummonBeastStack,SUMMON_BEAST_9_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "9"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonBeast_Land"
+data "PowerLevel" "9"
+
+new entry "Target_SummonBeast_Land_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Land"
+data "SpellContainerID" "Target_SummonBeast_8"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_8,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_8_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_8_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_8_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_8_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "8"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonBeast_Land"
+data "PowerLevel" "8"
+
+new entry "Target_SummonBeast_Land_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Land"
+data "SpellContainerID" "Target_SummonBeast_7"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_7,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_7_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_7_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_7_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_7_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "7"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonBeast_Land"
+data "PowerLevel" "7"
+
+new entry "Target_SummonBeast_Land_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Land"
+data "SpellContainerID" "Target_SummonBeast_6"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_6,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_6_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_6_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_6_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_6_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "6"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonBeast_Land"
+data "PowerLevel" "6"
+
+new entry "Target_SummonBeast_Land_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Land"
+data "SpellContainerID" "Target_SummonBeast_5"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_5,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_5_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_5_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_5_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_5_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "5"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonBeast_Land"
+data "PowerLevel" "5"
+
+new entry "Target_SummonBeast_Land_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Land"
+data "SpellContainerID" "Target_SummonBeast_4"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_4,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_4_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_4_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_4_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_4_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "4"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_SummonBeast_Land"
+data "PowerLevel" "4"
+
+new entry "Target_SummonBeast_Land_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast_Land"
+data "SpellContainerID" "Target_SummonBeast_3"
+data "SpellProperties" "GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 2)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_3,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 3)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_3_5TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 4)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_3_9TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 5)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_3_13TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK); GROUND:IF(ConditionResult(context.Source.ProficiencyBonus == 6)):Summon(56df0785-ab6b-4f23-b8a0-baa574080a7e, 600,,,SummonBeastStack,SUMMON_BEAST_3_17TH,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "Level" "3"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_SummonBeast_Land"
+data "PowerLevel" "3"
+
+
+
+
+
+new entry "SUMMON_BEAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hhf97794c7g36a2g4462gb221ge05553a6ed02;1"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(2);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(2)"
+data "OnApplyFunctors" "IF(HasPassive('ContractedConnection',context.Source)):ApplyStatus(SELF,CONTRACTED_CONNECTION_TECHNICAL,100,-1);IF(HasPassive('ContractedConnection',context.Source)):ApplyStatus(SELF,CONTRACTED_CONNECTION_AURA,100,0)"
+data "OnRemoveFunctors" "ApplyStatus(SELF,BREAK_CONCENTRATION,100,0)"
+data "StackId" "SUMMON_BEAST"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "SUMMON_BEAST_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(2);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(2)"
+
+new entry "SUMMON_BEAST_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(2);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(2)"
+
+new entry "SUMMON_BEAST_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(2);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(2)"
+
+new entry "SUMMON_BEAST_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(2);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(2)"
+
+new entry "SUMMON_BEAST_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(3);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(3);IncreaseMaxHP(5)"
+
+new entry "SUMMON_BEAST_3_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(3);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(3);IncreaseMaxHP(5)"
+
+new entry "SUMMON_BEAST_3_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(3);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(3);IncreaseMaxHP(5)"
+
+new entry "SUMMON_BEAST_3_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(3);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(3);IncreaseMaxHP(5)"
+
+new entry "SUMMON_BEAST_3_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(3);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(3);IncreaseMaxHP(5)"
+
+new entry "SUMMON_BEAST_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(4);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(4);IncreaseMaxHP(10)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_4_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(4);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(4);IncreaseMaxHP(10)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_4_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(4);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(4);IncreaseMaxHP(10)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_4_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(4);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(4);IncreaseMaxHP(10)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_4_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(4);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(4);IncreaseMaxHP(10)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(5);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(5);IncreaseMaxHP(15)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_5_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(5);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(5);IncreaseMaxHP(15)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_5_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(5);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(5);IncreaseMaxHP(15)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_5_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(5);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(5);IncreaseMaxHP(15)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_5_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(5);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(5);IncreaseMaxHP(15)"
+data "Passives" "Multiattack_SummonBeast"
+
+new entry "SUMMON_BEAST_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(6);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(6);IncreaseMaxHP(20)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_6_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(6);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(6);IncreaseMaxHP(20)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_6_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(6);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(6);IncreaseMaxHP(20)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_6_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(6);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(6);IncreaseMaxHP(20)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_6_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(6);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(6);IncreaseMaxHP(20)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(7);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(7);IncreaseMaxHP(25)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_7_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(7);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(7);IncreaseMaxHP(25)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_7_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(7);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(7);IncreaseMaxHP(25)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_7_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(7);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(7);IncreaseMaxHP(25)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_7_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(7);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(7);IncreaseMaxHP(25)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2"
+
+new entry "SUMMON_BEAST_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(8);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(8);IncreaseMaxHP(30)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_8_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(8);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(8);IncreaseMaxHP(30)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_8_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(8);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(8);IncreaseMaxHP(30)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_8_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(8);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(8);IncreaseMaxHP(30)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_8_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(8);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(8);IncreaseMaxHP(30)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(9);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(9);IncreaseMaxHP(35)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_9_5TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(9);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(9);IncreaseMaxHP(35)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_9_9TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(9);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(9);IncreaseMaxHP(35)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_9_13TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(9);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(9);IncreaseMaxHP(35)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "SUMMON_BEAST_9_17TH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_BEAST"
+data "Boosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);AC(9);RollBonus(Attack,Owner.SpellCastingAbilityModifier);RollBonus(Attack,-StrengthModifier);DamageBonus(9);IncreaseMaxHP(35)"
+data "Passives" "Multiattack_SummonBeast;Multiattack_SummonBeast_2;Multiattack_SummonBeast_3"
+
+new entry "MULTIATTACK_SUMMONBEAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h10454df7ga048g4d41ga404g2fca74dd508d;1"
+data "Description" "h9ad5ba7dgf148g4525g852fg32d0de965b15;1"
+data "StackId" "MULTIATTACK_SUMMONBEAST"
+data "Boosts" "UnlockSpellVariant(ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition) and HasPassive('Multiattack_SummonBeast_2',context.Source)):ApplyStatus(MULTIATTACK_SUMMONBEAST_2,100,1)"
+data "RemoveConditions" "(IsAttack()) and HasUseCosts('ActionPoint') and not HasStatus('MULTIATTACK_SUMMONBEAST_2') and not HasStatus('MULTIATTACK_SUMMONBEAST_3')"
+data "RemoveEvents" "OnAttack"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "MULTIATTACK_SUMMONBEAST_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MULTIATTACK_SUMMONBEAST"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition) and HasPassive('Multiattack_SummonBeast_3',context.Source)):ApplyStatus(MULTIATTACK_SUMMONBEAST_3,100,1)"
+data "RemoveConditions" "(SpellId('Target_Maul_SummonBeast_Land') or SpellId('Target_Maul_SummonBeast_Air')) and HasUseCosts('ActionPoint') and not HasStatus('MULTIATTACK_SUMMONBEAST') and not HasStatus('MULTIATTACK_SUMMONBEAST_3')"
+
+new entry "MULTIATTACK_SUMMONBEAST_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MULTIATTACK_SUMMONBEAST"
+data "OnRemoveFunctors" ""
+data "RemoveConditions" "(SpellId('Target_Maul_SummonBeast_Land') or SpellId('Target_Maul_SummonBeast_Air')) and HasUseCosts('ActionPoint') and not HasStatus('MULTIATTACK_SUMMONBEAST') and not HasStatus('MULTIATTACK_SUMMONBEAST_2')"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

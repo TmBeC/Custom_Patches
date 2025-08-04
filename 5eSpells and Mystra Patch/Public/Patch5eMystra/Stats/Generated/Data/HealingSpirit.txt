@@ -1,0 +1,845 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2nd-level conjuration
+
+Casting Time: 1 bonus action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+
+You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).
+
+Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can’t heal constructs or undead.
+
+As a bonus action on your turn, you can move the Spirit up to 30 feet to a space you can see. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.
+
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the healing increases 1d6 for each slot level above 2nd.
+
+
+
+
+
+
+
+
+
+
+
+
+mystras
+
+  <content contentuid="h7946d671g7648g1284g0d85gb946689009b7" version="20">Healing Spirit</content>
+  <content contentuid="h539156ecgf83fg7809gd618gb4d33cc02b03" version="1">Healing Spirit</content>
+  <content contentuid="h6310b579g2c84g1861ga552g49c3435e1140" version="1">Affected entity is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to all damage.</content>
+  <content contentuid="h2aba6ce4g15cdgfcf3gc4eagd451e82051ab" version="3">Spirit Heal</content>
+  <content contentuid="h6bfd9659g9deeg9204g976fgac5a0f984608" version="1">Heal a creature moving into range.</content>
+  <content contentuid="h7149b5e5g3678g2bbbgf2b2g4d7e94a46786" version="3">Spirit Heal</content>
+  <content contentuid="h7a75a35egc246g1458g6291gde9d37675026" version="3">Heal a creature moving into range.</content>
+  <content contentuid="h3089bd5eg37b1g313fg0345g740686a9d4ed" version="1">Healing Spirit</content>
+  <content contentuid="h5fad5ce2g18afg34b0gc488g6089dcc55089" version="5">Calls forth a Nature Spirit to sooth the wounded. Each creature can only be healed once per turn. Expires after healing [2] times.</content>
+  <content contentuid="h20531850gab4dg1906g7ee1ged6e703c001a" version="2">Spirit Heal</content>
+  <content contentuid="h50f40109gb53ag5ac1gd41fg135750575463" version="1">Recently healed by the healing spirit and cannot be healed again by the same one this turn.</content>
+  <content contentuid="h1e56bd68g0915g2ad1g2318gf1c29efc7f64" version="1">Healing Spirit</content>
+  <content contentuid="h45d180a7g68b5g313bgd3cag30b28e08cc60" version="2">Number of remaining heals.</content>
+  <content contentuid="h199d309cg29ebg5aa4g4783g3546acdb3056" version="1">Unarmed Strike</content>
+  <content contentuid="h1328e69ag74c7gf446g2a36g743b02538d62" version="1">Hit a target with your bare fists.</content>
+  <content contentuid="hb148e9f1gff49g8cf2g4571gd63f58d75de4" version="1">Healing Spirit</content>
+  <content contentuid="h81f85df5ga792g57a4g9366ga27f096377d8" version="1">Heal target creature.</content>
+  <content contentuid="h91bac419g2da1g3b7eg4da9gf071e83d81ec" version="1">Healed by the healing spirit.</content>
+  <content contentuid="h4085b5a7g8f9egc171gd39bg16e0a980b81c" version="2">Spirit Healed</content>
+  <content contentuid="hedafb4f5g6451g144bgbb5cga1db10dbb13b" version="2">Recently healed by a healing spirit and cannot be healed again this turn.</content>
+  <content contentuid="hc520355fg1533gee6bg5dc7ge397a9a52721" version="1">Swift Quiver (Magical Ammunition)</content>
+  <content contentuid="h4bc6f82bg41f4g43b2g54b2g0c4f981474e9" version="2">When enabled, magical ammunition can be fired twice with a single bonus action.</content>
+  <content contentuid="hc52925acg1ad7g46c4g1065g2e1285a99c2f" version="2">Spirit Heal</content>
+  <content contentuid="h7c4273eeg37b4gbb7bg689cg4089c7704c8e" version="1">Heal target creature.</content>
+  <content contentuid="h7e393eb5gb812gbd50g839bga92d6ef5465e" version="1">Approaching the Nature Spirit will trigger a heal on reaction.</content>
+  <content contentuid="hdfe1244ege021ged38g71dbg4392d9d3af13" version="1">Heal a creature moving into range.</content>
+  <content contentuid="h07e405f8g8046g29d3g3b34g53b837fb6b4f" version="1">Heal a creature moving into range.</content>
+  <content contentuid="hcc10c3aag9e85ga7e9gc62ag7cd13226f4a1" version="1">Heal a creature moving into range.</content>
+  <content contentuid="h401bd820g418bge83ag0ab7g4e7aa1e5e751" version="1">Heal a creature moving into range.</content>
+
+new entry "Target_HealingSpirit"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "SpellSchool" "Conjuration"
+data "SpellProperties" "GROUND:Summon(06e2b716-3b68-4d68-9645-930d4cba8afb,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetRadius" "18"
+data "AreaRadius" "1"
+data "TargetConditions" "CanStand('06e2b716-3b68-4d68-9645-930d4cba8afb') and not Character() and not Self()"
+data "Icon" "Spell_New_HealingSpirit"
+data "DisplayName" "h3089bd5eg37b1g313fg0345g740686a9d4ed;1"
+data "Description" "h5fad5ce2g18afg34b0gc488g6089dcc55089;5"
+data "DescriptionParams" "RegainHitPoints(1d6);5"
+data "ExtraDescription" "h7e393eb5gb812gbd50g839bga92d6ef5465e;1"
+data "TooltipDamageList" "RegainHitPoints(1d6)"
+data "TooltipUpcastDescription" "ef4fc937-9b23-4fcc-a67f-7706f86cfa44"
+data "TooltipUpcastDescriptionParams" "RegainHitPoints(1d6)"
+data "CastSound" "Spell_Cast_Summon_FindFamiliar_L1to3"
+data "TargetSound" "Spell_Impact_Summon_FindFamiliar_L1to3"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell;CannotTargetCharacter;CannotTargetItems"
+data "MemoryCost" "1"
+data "PrepareEffect" "96a51ac8-2e7e-4718-bb62-dcfd18964a02"
+data "CastEffect" "23d05225-027b-4656-97f8-564b185d37a2"
+data "TargetEffect" "d16a93f4-ddb5-4175-9b3f-22eced19ff02"
+
+new entry "Target_HealingSpirit_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(74e34c86-4e7d-476a-ab65-d0684a10748f,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('74e34c86-4e7d-476a-ab65-d0684a10748f') and not Character() and not Self()"
+data "DescriptionParams" "RegainHitPoints(2d6);6"
+data "TooltipDamageList" "RegainHitPoints(2d6)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "3"
+
+new entry "Target_HealingSpirit_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(3dd3ea37-e358-43d7-ad80-4ae83c5fd2ae,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('3dd3ea37-e358-43d7-ad80-4ae83c5fd2ae') and not Character() and not Self()"
+data "DescriptionParams" "RegainHitPoints(3d6);6"
+data "TooltipDamageList" "RegainHitPoints(3d6)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "4"
+
+new entry "Target_HealingSpirit_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(3487ea5b-6947-4963-9d1b-2e92ae1836b9,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('3487ea5b-6947-4963-9d1b-2e92ae1836b9') and not Character() and not Self()"
+data "DescriptionParams" "RegainHitPoints(4d6);6"
+data "TooltipDamageList" "RegainHitPoints(4d6)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "5"
+
+new entry "Target_HealingSpirit_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(27a0a31e-aa57-4589-acdc-9f0ffd6ff8be,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('27a0a31e-aa57-4589-acdc-9f0ffd6ff8be') and not Character() and not Self()"
+data "DescriptionParams" "RegainHitPoints(5d6);6"
+data "TooltipDamageList" "RegainHitPoints(5d6)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "6"
+
+new entry "Target_HealingSpirit_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(3dd29798-bdbe-4a9e-9ab0-fc2d95fc6202,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('27a0a31e-aa57-4589-acdc-9f0ffd6ff8be') and not Character() and not Self()"
+data "DescriptionParams" "RegainHitPoints(6d6);6"
+data "TooltipDamageList" "RegainHitPoints(6d6)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "7"
+
+new entry "Target_HealingSpirit_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(2634b42c-7a71-4ee8-9927-0fc81c1af6e9,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('27a0a31e-aa57-4589-acdc-9f0ffd6ff8be') and not Character() and not Self()"
+data "DescriptionParams" "RegainHitPoints(7d6);6"
+data "TooltipDamageList" "RegainHitPoints(7d6)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "8"
+
+new entry "Target_HealingSpirit_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(da926350-1fa7-4478-a42e-4330b97357e3,10,,,'HealingSpiritStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('27a0a31e-aa57-4589-acdc-9f0ffd6ff8be') and not Character() and not Self()"
+data "DescriptionParams" "RegainHitPoints(8d6);6"
+data "TooltipDamageList" "RegainHitPoints(8d6)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "9"
+
+new entry "Target_HealingSpirit_Heal"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TargetRadius" "1.5"
+data "RequirementConditions" "HasStatus('HEALING_SPIRIT_COUNT')"
+data "RequirementEvents" "OnStatusRemoved"
+data "TargetConditions" "Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT') and not HasStatus('HEALING_SPIRIT_HEALED', context.Target, context.Source) and not Self()"
+data "Icon" "Spell_Evocation_HealingWord"
+data "DisplayName" "hc52925acg1ad7g46c4g1065g2e1285a99c2f;2"
+data "Description" "h7c4273eeg37b4gbb7bg689cg4089c7704c8e;1"
+data "TooltipDamageList" "RegainHitPoints(1d6)"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "TooltipPermanentWarnings" "662e013d-e5cb-4669-9a4b-771636b24aa2"
+data "CastSound" "Spell_Cast_Healing_HealingWord_L1to3"
+data "TargetSound" "Spell_Impact_Healing_HealingWord_L1to3"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Ally() and not Dead()"
+data "SpellAnimation" "414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;2f893fad-98eb-47cf-a524-dd4efd42bc2a,,;ca3147a8-2cf6-45a8-ac9a-1ce0fc11305f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,"
+data "VerbalIntent" "Healing"
+data "SpellFlags" "IsSpell;RangeIgnoreVerticalThreshold;ImmediateCast"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareEffect" "96a51ac8-2e7e-4718-bb62-dcfd18964a02"
+data "CastEffect" "7a73fa11-81e8-44bc-8653-a0d0ebbecf4b"
+data "TargetEffect" "70319a43-6342-4996-811d-dd50df8b3fa1"
+
+new entry "Target_HealingSpirit_Heal_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL_3,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TooltipDamageList" "RegainHitPoints(2d6)"
+
+new entry "Target_HealingSpirit_Heal_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL_4,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TooltipDamageList" "RegainHitPoints(3d6)"
+
+new entry "Target_HealingSpirit_Heal_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL_5,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TooltipDamageList" "RegainHitPoints(4d6)"
+
+new entry "Target_HealingSpirit_Heal_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL_6,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TooltipDamageList" "RegainHitPoints(5d6)"
+
+new entry "Target_HealingSpirit_Heal_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL_7,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TooltipDamageList" "RegainHitPoints(6d6)"
+
+new entry "Target_HealingSpirit_Heal_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL_8,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TooltipDamageList" "RegainHitPoints(7d6)"
+
+new entry "Target_HealingSpirit_Heal_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_HEAL_9,100,1);IF(StatusGroupDurationEqualOrMoreThan(context.Source,'HEALING_SPIRIT_COUNT',1)):ApplyStatus(SELF,HEALING_SPIRIT_COUNT,100,HEALING_SPIRIT_COUNT.Duration-1)"
+data "TooltipDamageList" "RegainHitPoints(8d6)"
+
+new entry "Target_HealingSpirit_Heal_Unlock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "TargetRadius" "1.5"
+data "TargetConditions" "Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT') and not HasStatus('HEALING_SPIRIT_HEALED')"
+data "Icon" "Spell_Evocation_HealingWord"
+data "DisplayName" "h7149b5e5g3678g2bbbgf2b2g4d7e94a46786;3"
+data "Description" "h7a75a35egc246g1458g6291gde9d37675026;3"
+data "TooltipDamageList" "RegainHitPoints(1d6)"
+data "InterruptPrototype" "Interrupt_HealingSpirit"
+
+new entry "Target_HealingSpirit_Heal_Unlock_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal_3"
+data "Description" "hdfe1244ege021ged38g71dbg4392d9d3af13;1"
+data "InterruptPrototype" "Interrupt_HealingSpirit_3"
+
+new entry "Target_HealingSpirit_Heal_Unlock_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal_4"
+data "Description" "h07e405f8g8046g29d3g3b34g53b837fb6b4f;1"
+data "InterruptPrototype" "Interrupt_HealingSpirit_4"
+
+new entry "Target_HealingSpirit_Heal_Unlock_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal_5"
+data "Description" "hcc10c3aag9e85ga7e9gc62ag7cd13226f4a1;1"
+data "InterruptPrototype" "Interrupt_HealingSpirit_5"
+
+new entry "Target_HealingSpirit_Heal_Unlock_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal_6"
+data "Description" "h401bd820g418bge83ag0ab7g4e7aa1e5e751;1"
+data "InterruptPrototype" "Interrupt_HealingSpirit_6"
+
+new entry "Target_HealingSpirit_Heal_Unlock_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal_7"
+data "Description" "hca0b79c5g839eg89b0g8554g58cde3a35209;1"
+data "InterruptPrototype" "Interrupt_HealingSpirit_7"
+
+new entry "Target_HealingSpirit_Heal_Unlock_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal_8"
+data "Description" "hbb413173ga5cbg3937g0500gc08531995cec;1"
+data "InterruptPrototype" "Interrupt_HealingSpirit_8"
+
+new entry "Target_HealingSpirit_Heal_Unlock_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal_9"
+data "Description" "h69c847b6ga289g0a01g8ab5gc125794f7b01;1"
+data "InterruptPrototype" "Interrupt_HealingSpirit_9"
+
+new entry "Target_HealingSpirit_UnarmedAttack"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "TargetRadius" "2.5"
+
+
+
+new entry "HEALING_SPIRIT_IMMUNE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h539156ecgf83fg7809gd618gb4d33cc02b03;1"
+data "Description" "h6310b579g2c84g1861ga552g49c3435e1140;1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "TickType" "EndTurn"
+data "Boosts" "Invulnerable();Attribute(Grounded);StatusImmunity(SG_Frightened);StatusImmunity(SG_Incapacitated);StatusImmunity(SG_Paralyzed);StatusImmunity(SG_Prone);StatusImmunity(SG_Unconscious);StatusImmunity(SG_Stunned);StatusImmunity(SG_Poisoned);StatusImmunity(SG_Surface);StatusImmunity(SG_Polymorph);StatusImmunity(SG_Charmed);StatusImmunity(BURNING);StatusImmunity(WILD_MAGIC_BURNING);StatusImmunity(BURNING_HOLY);StatusImmunity(WET);StatusImmunity(SG_Condition)"
+data "RemoveConditions" "not HasStatus('HEALING_SPIRIT_COUNT')"
+data "RemoveEvents" "OnTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "ApplyStatus(UNSUMMON_ACTIVE,100,-1);Unsummon()"
+data "ApplyEffect" "6c411017-21be-4af3-8615-ed0db2cf947a"
+data "StatusEffect" "8aa59540-9ded-437f-aa13-5c7c2d3c7cac"
+
+new entry "HEALING_SPIRIT_COUNT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1e56bd68g0915g2ad1g2318gf1c29efc7f64;1"
+data "Description" "h45d180a7g68b5g313bgd3cag30b28e08cc60;2"
+data "Icon" "Spell_New_HealingSpirit"
+data "StackId" "HEALING_SPIRIT_COUNT"
+data "StackType" "Overwrite"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "RemoveOnLongRest;FreezeDuration;DisableOverhead;DisableCombatlog"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "b066badc-492a-43b0-8df1-8370865fc039"
+
+new entry "HEALING_SPIRIT_HEALED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4085b5a7g8f9egc171gd39bg16e0a980b81c;2"
+data "Description" "hedafb4f5g6451g144bgbb5cga1db10dbb13b;2"
+data "Icon" "Spell_New_HealingSpirit"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "OnApplyFunctors" "RemoveStatus(HEALING_SPIRIT_HEAL);IF(not Combat()):RemoveStatus(HEALING_SPIRIT_HEALED)"
+data "ApplyEffect" "89f2d0ac-9295-4657-bfa6-fb6d61adf59c"
+data "StatusEffect" "b066badc-492a-43b0-8df1-8370865fc039"
+
+new entry "HEALING_SPIRIT_HEAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h20531850gab4dg1906g7ee1ged6e703c001a;2"
+data "Description" "h91bac419g2da1g3b7eg4da9gf071e83d81ec;1"
+data "Icon" "Spell_New_HealingSpirit"
+data "RemoveEvents" "OnApply"
+data "OnApplyFunctors" "RegainHitPoints(1d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "HEALING_SPIRIT_HEAL_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(2d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "HEALING_SPIRIT_HEAL_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(3d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "HEALING_SPIRIT_HEAL_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(4d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "HEALING_SPIRIT_HEAL_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(5d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "HEALING_SPIRIT_HEAL_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(6d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "HEALING_SPIRIT_HEAL_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(7d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "HEALING_SPIRIT_HEAL_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(8d6);ApplyStatus(HEALING_SPIRIT_HEALED,100,1)"
+
+new entry "GENERIC_HEAL_VFX"
+type "StatusData"
+data "StatusType" "BOOST"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5e
+
+
+	<content contentuid="hc1dd7601g7032g4c76ga56ag7590a829f526" version="1">Healing Spirit</content>
+	<content contentuid="hc627d3feg9fd5g4124g8a05gd2392bd17a5f" version="1">Call forth a nature spirit to soothe the wounded. While a creature is within [1] of the spirit, you can heal it for [2].</content>
+	<content contentuid="h85b2bbb0g75b2g4110g8caegea1a79be9017" version="1">Healing Spirit: Movement</content>
+	<content contentuid="ha30b410agbc01g455fg8c05g08fc62295eba" version="1">Command the summon to act.</content>
+	<content contentuid="hdb5f9f29g4a1eg4475g8f10gf644ab0cd30f" version="1">Commanded</content>
+	<content contentuid="h59291ac9g6b2dg4020gbafcg278d2883de38" version="1">This summon can act due to its summoner's command.</content>
+	<content contentuid="h138546e5g85c2g49feg8fbegecec21ee79d0" version="1">Healing Spirit: Heal</content>
+	<content contentuid="h083b46a6gf90bg424fgb8a7g4506a74def72" version="1">Heal a creature for [1] through your Healing Spirit.</content>
+	<content contentuid="h567387d1g75f9g4e3dgabcdg4c0367ebe4db" version="1">Creature can be healed.</content>
+	<content contentuid="h74355585gaaecg43eag93a4g0c20e5b6d303" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Once you've healed through your Healing Spirit six times, the spell ends.</content>
+
+new entry "Target_HealingSpirit"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "SpellSchool" "Conjuration"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, 10,,,,HEALING_SPIRIT,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetRadius" "18"
+data "TargetConditions" "CanStand('53a91f29-c687-43c2-912d-495488305bea') and not Character() and not Self() and not Dead()"
+data "Icon" "Spell_Conjuration_HealingSpirit"
+data "DisplayName" "hc1dd7601g7032g4c76ga56ag7590a829f526;1"
+data "Description" "hc627d3feg9fd5g4124g8a05gd2392bd17a5f;1"
+data "DescriptionParams" "Distance(2);RegainHitPoints(1d6)"
+data "TooltipUpcastDescription" "ef4fc937-9b23-4fcc-a67f-7706f86cfa44"
+data "TooltipUpcastDescriptionParams" "RegainHitPoints(1d6)"
+data "TooltipPermanentWarnings" "09ba0f95-d77b-4775-988c-84ef5f81d7f8"
+data "CastTextEvent" "VFX_Somatic_03"
+data "CastSound" "Spell_Cast_Summon_FindFamiliar_L1to3"
+data "TargetSound" "Spell_Impact_Summon_FindFamiliar_L1to3"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;IsConcentration"
+data "MemoryCost" "1"
+data "PrepareEffect" "739617e8-1255-4429-8b96-cc86296e0366"
+data "CastEffect" "23d05225-027b-4656-97f8-564b185d37a2"
+
+new entry "Target_HealingSpirit_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, -1,,,,HEALING_SPIRIT_9,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "RegainHitPoints(8d6+SpellCastingAbilityModifier)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "9"
+
+new entry "Target_HealingSpirit_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, -1,,,,HEALING_SPIRIT_8,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "RegainHitPoints(7d6+SpellCastingAbilityModifier)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "8"
+
+new entry "Target_HealingSpirit_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, -1,,,,HEALING_SPIRIT_7,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "RegainHitPoints(6d6+SpellCastingAbilityModifier)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "7"
+
+new entry "Target_HealingSpirit_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, -1,,,,HEALING_SPIRIT_6,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "RegainHitPoints(5d6+SpellCastingAbilityModifier)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "6"
+
+new entry "Target_HealingSpirit_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, -1,,,,HEALING_SPIRIT_5,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "RegainHitPoints(4d6+SpellCastingAbilityModifier)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "5"
+
+new entry "Target_HealingSpirit_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, -1,,,,HEALING_SPIRIT_4,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "RegainHitPoints(3d6+SpellCastingAbilityModifier)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "4"
+
+new entry "Target_HealingSpirit_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit"
+data "SpellProperties" "GROUND:Summon(53a91f29-c687-43c2-912d-495488305bea, -1,,,,HEALING_SPIRIT_3,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "RegainHitPoints(2d6+SpellCastingAbilityModifier)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_HealingSpirit"
+data "PowerLevel" "3"
+
+new entry "Target_HealingSpirit_Movement"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellProperties" "ApplyStatus(HEALING_SPIRIT_COMMANDED,100,1)"
+data "TargetRadius" "36"
+data "TargetConditions" "HasStatus('HEALING_SPIRIT_BLOCK') and HasStatus('UNSUMMON_ABLE',context.Target,context.Source)"
+data "Icon" "Spell_Conjuration_HealingSpirit_Move"
+data "DisplayName" "h85b2bbb0g75b2g4110g8caegea1a79be9017;1"
+data "Description" "ha30b410agbc01g455fg8c05g08fc62295eba;1"
+data "DescriptionParams" "Distance(9)"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;3e441d3f-11f9-432d-877c-c0ba4d92c74a,,;8b7ae969-2a04-4720-9685-3bde54c18ffe,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "IgnoreVisionBlock;RangeIgnoreVerticalThreshold;Temporary;Wildshape"
+data "PrepareEffect" "17f11731-a1c7-4653-a15b-6c7f871574b3"
+data "CastEffect" "28a8039d-9df1-4210-8137-f396dd23614e"
+data "TargetEffect" "6b316222-955e-4539-87eb-a098db22c98b"
+data "BeamEffect" "2d8309ab-c73d-40eb-a42f-fa4935858786"
+
+new entry "Target_HealingSpirit_Heal"
+type "SpellData"
+data "SpellType" "Target"
+data "Cooldown" "OncePerTurn"
+data "SpellProperties" "RegainHitPoints(1d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);IF(not HasActionResource('HealingSpiritPoint',2,0,false,false,context.Source)):ApplyStatus(SELF,BREAK_CONCENTRATION,100,0)"
+data "TargetRadius" "18"
+data "TargetConditions" "HasStatus('HEALING_SPIRIT_HEAL') and not HasStatus('HEALING_SPIRIT_HEAL_BLOCK') and not Tagged('CONSTRUCT') and not Tagged('UNDEAD')"
+data "Icon" "Spell_Conjuration_HealingSpirit"
+data "DisplayName" "h138546e5g85c2g49feg8fbegecec21ee79d0;1"
+data "Description" "h083b46a6gf90bg424fgb8a7g4506a74def72;1"
+data "DescriptionParams" "RegainHitPoints(1d6)"
+data "TooltipDamageList" "RegainHitPoints(1d6)"
+data "TooltipPermanentWarnings" "662e013d-e5cb-4669-9a4b-771636b24aa2"
+data "CastTextEvent" "Cast"
+data "CastSound" "Spell_Cast_Healing_HealingWord_L1to3"
+data "TargetSound" "Spell_Impact_Healing_HealingWord_L1to3"
+data "CycleConditions" "Ally() and not Dead()"
+data "UseCosts" "HealingSpiritPoint:1"
+data "SpellAnimation" "414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,"
+data "VerbalIntent" "Healing"
+data "SpellFlags" "Temporary"
+data "HitAnimationType" "MagicalNonDamage"
+data "MemoryCost" "1"
+data "PrepareEffect" "96a51ac8-2e7e-4718-bb62-dcfd18964a02"
+data "CastEffect" "7a73fa11-81e8-44bc-8653-a0d0ebbecf4b"
+data "TargetEffect" "70319a43-6342-4996-811d-dd50df8b3fa1"
+
+new entry "Target_HealingSpirit_Heal_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "RegainHitPoints(2d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);ApplyStatus(SELF,HEALING_SPIRIT_REMOVAL,100,0)"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "TooltipDamageList" "RegainHitPoints(2d6)"
+
+new entry "Target_HealingSpirit_Heal_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "RegainHitPoints(3d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);ApplyStatus(SELF,HEALING_SPIRIT_REMOVAL,100,0)"
+data "DescriptionParams" "RegainHitPoints(3d6)"
+data "TooltipDamageList" "RegainHitPoints(3d6)"
+
+new entry "Target_HealingSpirit_Heal_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "RegainHitPoints(4d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);ApplyStatus(SELF,HEALING_SPIRIT_REMOVAL,100,0)"
+data "DescriptionParams" "RegainHitPoints(4d6)"
+data "TooltipDamageList" "RegainHitPoints(4d6)"
+
+new entry "Target_HealingSpirit_Heal_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "RegainHitPoints(5d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);ApplyStatus(SELF,HEALING_SPIRIT_REMOVAL,100,0)"
+data "DescriptionParams" "RegainHitPoints(5d6)"
+data "TooltipDamageList" "RegainHitPoints(5d6)"
+
+new entry "Target_HealingSpirit_Heal_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "RegainHitPoints(6d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);ApplyStatus(SELF,HEALING_SPIRIT_REMOVAL,100,0)"
+data "DescriptionParams" "RegainHitPoints(6d6)"
+data "TooltipDamageList" "RegainHitPoints(6d6)"
+
+new entry "Target_HealingSpirit_Heal_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "RegainHitPoints(7d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);ApplyStatus(SELF,HEALING_SPIRIT_REMOVAL,100,0)"
+data "DescriptionParams" "RegainHitPoints(7d6)"
+data "TooltipDamageList" "RegainHitPoints(7d6)"
+
+new entry "Target_HealingSpirit_Heal_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingSpirit_Heal"
+data "SpellProperties" "RegainHitPoints(8d6);ApplyStatus(HEALING_SPIRIT_HEAL_BLOCK,100,1);ApplyStatus(SELF,HEALING_SPIRIT_REMOVAL,100,0)"
+data "DescriptionParams" "RegainHitPoints(8d6)"
+data "TooltipDamageList" "RegainHitPoints(8d6)"
+
+
+
+
+new entry "HEALING_SPIRIT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hc1dd7601g7032g4c76ga56ag7590a829f526;1"
+data "DescriptionParams" "Distance(2);RegainHitPoints(1d6)"
+data "StatusEffect" "VFX_Status_Invisible_Overlay_01"
+data "Boosts" "Invulnerable();Tag(AI_IGNORED_TARGET);IncreaseMaxHP(-1);ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER,100,-1);ApplyStatus(HEALING_SPIRIT_BLOCK,100,1)"
+data "TickFunctors" "ApplyStatus(HEALING_SPIRIT_BLOCK,100,1)"
+data "TickType" "StartTurn"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER)"
+data "AuraRadius" "2"
+data "AuraStatuses" "IF(Ally() and not HasStatus('HEALING_SPIRIT_HEAL_BLOCK')):ApplyStatus(HEALING_SPIRIT_HEAL,100,1)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource"
+
+new entry "HEALING_SPIRIT_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER_3,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER_3)"
+
+new entry "HEALING_SPIRIT_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER_4,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER_4)"
+
+new entry "HEALING_SPIRIT_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER_5,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER_5)"
+
+new entry "HEALING_SPIRIT_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER_6,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER_6)"
+
+new entry "HEALING_SPIRIT_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER_7,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER_7)"
+
+new entry "HEALING_SPIRIT_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER_8,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER_8)"
+
+new entry "HEALING_SPIRIT_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT"
+data "DescriptionParams" "RegainHitPoints(2d6)"
+data "OnApplyFunctors" "ApplyStatus(SELF,HEALING_SPIRIT_CASTER_9,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,HEALING_SPIRIT_CASTER_9)"
+
+new entry "HEALING_SPIRIT_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "HEALING_SPIRIT_CASTER_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_CASTER"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal_3);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+
+new entry "HEALING_SPIRIT_CASTER_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_CASTER"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal_4);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+
+new entry "HEALING_SPIRIT_CASTER_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_CASTER"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal_5);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+
+new entry "HEALING_SPIRIT_CASTER_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_CASTER"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal_6);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+
+new entry "HEALING_SPIRIT_CASTER_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_CASTER"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal_7);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+
+new entry "HEALING_SPIRIT_CASTER_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_CASTER"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal_8);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+
+new entry "HEALING_SPIRIT_CASTER_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEALING_SPIRIT_CASTER"
+data "Boosts" "UnlockSpell(Target_HealingSpirit_Heal_9);UnlockSpell(Target_HealingSpirit_Movement);ActionResource(HealingSpiritPoint,6,0)"
+
+new entry "HEALING_SPIRIT_MOVEMENT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "ActionResource(Movement,9,0)"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "HEALING_SPIRIT_HEAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hc1dd7601g7032g4c76ga56ag7590a829f526;1"
+data "Description" "h567387d1g75f9g4e3dgabcdg4c0367ebe4db;1"
+data "Icon" "Spell_Conjuration_HealingSpirit"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "ApplyToDead"
+
+new entry "HEALING_SPIRIT_HEAL_BLOCK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "HEALING_SPIRIT_BLOCK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "HEALING_SPIRIT_BLOCK"
+data "Boosts" "IF(TurnBased(context.Source)):ActionResourceBlock(Movement)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "HEALING_SPIRIT_COMMANDED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hdb5f9f29g4a1eg4475g8f10gf644ab0cd30f;1"
+data "Description" "h59291ac9g6b2dg4020gbafcg278d2883de38;1"
+data "Icon" "Spell_Conjuration_HealingSpirit"
+data "StackId" "HEALING_SPIRIT_BLOCK"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

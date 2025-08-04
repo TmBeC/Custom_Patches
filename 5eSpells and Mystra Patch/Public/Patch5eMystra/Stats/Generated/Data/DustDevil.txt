@@ -1,0 +1,697 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2nd-level conjuration
+
+Casting Time: 1 action
+Range: 60 feet
+Components: V, S, M (a pinch of dust)
+Duration: Concentration, up to 1 minute
+
+Choose an unoccupied 5-foot cube of air that you can see within range.
+An elemental force that resembles a dust devil appears in the cube and lasts for the spell’s duration.
+
+Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw.
+On a failed save, the creature takes 1d8 bludgeoning damage and is pushed 10 feet away.
+On a successful save, the creature takes half as much damage and isn’t pushed.
+
+As a bonus action, you can move the dust devil up to 30 feet in any direction.
+If the dust devil moves over sand, dust, loose dirt, or small gravel,
+	it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn.
+The cloud heavily obscures its area.
+
+At Higher Levels.
+When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+
+
+
+
+
+
+
+mystras
+
+  <content contentuid="h0f0ec782gfcf7gb392gb35cg72e5d6c60d18" version="1">Dust Devil</content>
+  <content contentuid="h2a1236f0g9127g31ddgac56g12c3901d3ade" version="5">Surround yourself with whirling dust that deals [1] to all other creatures within [2].&lt;br&gt;&lt;br&gt;At the end of each turn, create a cloud of fog around yourself that &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscures&lt;/LSTag&gt; creatures within it.</content>
+  <content contentuid="h9979f678g7270g0236g9abdg7145b48cb51e" version="1">Dust Devil</content>
+  <content contentuid="hbc25d0aeg28c2g0156g66dfgbf922fe1cf76" version="3">Dust buffets the entity.&lt;br&gt;&lt;br&gt;Takes [1] at the end of each turn.&lt;br&gt;&lt;br&gt;Still takes half damage on successful Saving Throw.&lt;br&gt;&lt;br&gt;Removed upon leaving the area.</content>
+  <content contentuid="h4cc9d7f3g5c0ag685ag83e7ge273d0430817" version="1">Dust Devil Aura</content>
+  <content contentuid="h7d567cdbg419ag1a66gad45g50be13cf3d13" version="6">Whirling dust surrounds the entity dealing [1] to all other creatures within [2].&lt;br&gt;&lt;br&gt;On a successful save, targets still take half damage.&lt;br&gt;&lt;br&gt;At the end of each turn, create a cloud of fog around yourself that &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscures&lt;/LSTag&gt; creatures within it.&lt;br&gt;&lt;br&gt;The caster can't become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; while concentrating on this spell.</content>
+
+new entry "Shout_DustDevil"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "2"
+data "SpellSchool" "Conjuration"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA,100,10)"
+data "TargetConditions" "Self()"
+data "Icon" "Spell_New_DustDevil"
+data "DisplayName" "h0f0ec782gfcf7gb392gb35cg72e5d6c60d18;1"
+data "Description" "h2a1236f0g9127g31ddgac56g12c3901d3ade;5"
+data "DescriptionParams" "DealDamage(1d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(1d8,Bludgeoning)"
+data "TooltipAttackSave" "Strength"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA,100,10)"
+data "TooltipOnSave" "f762efbb-f8f1-493e-b248-2de1567b4bd2"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1d8,Bludgeoning)"
+data "PrepareSound" "Spell_Prepare_Buff_Gen_L1to3_01"
+data "PrepareLoopSound" "Spell_Prepare_Buff_Gen_L1to3_01_Loop"
+data "CastSound" "Spell_Cast_Buff_MirrorImage_L1to3"
+data "VocalComponentSound" "Vocal_Component_SurfaceCreationCloud"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration;IsHarmful"
+data "MemoryCost" "1"
+data "PrepareEffect" "33302a46-4a12-41dd-8845-6b7314d50022"
+data "CastEffect" "1a4b0423-005b-4577-b376-815a08809675"
+
+new entry "Shout_DustDevil_3"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DustDevil"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA_3,100,10)"
+data "DescriptionParams" "DealDamage(2d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(2d8,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA_3,100,10)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Shout_DustDevil"
+data "PowerLevel" "3"
+
+new entry "Shout_DustDevil_4"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DustDevil"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA_4,100,10)"
+data "DescriptionParams" "DealDamage(3d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(3d8,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA_4,100,10)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Shout_DustDevil"
+data "PowerLevel" "4"
+
+new entry "Shout_DustDevil_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DustDevil"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA_5,100,10)"
+data "DescriptionParams" "DealDamage(4d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(4d8,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA_5,100,10)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_DustDevil"
+data "PowerLevel" "5"
+
+new entry "Shout_DustDevil_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DustDevil"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA_6,100,10)"
+data "DescriptionParams" "DealDamage(5d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(5d8,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA_6,100,10)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_DustDevil"
+data "PowerLevel" "6"
+
+new entry "Shout_DustDevil_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DustDevil"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA_7,100,10)"
+data "DescriptionParams" "DealDamage(6d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(6d8,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA_7,100,10)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_DustDevil"
+data "PowerLevel" "7"
+
+new entry "Shout_DustDevil_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DustDevil"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA_8,100,10)"
+data "DescriptionParams" "DealDamage(7d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(7d8,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA_8,100,10)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_DustDevil"
+data "PowerLevel" "8"
+
+new entry "Shout_DustDevil_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DustDevil"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_AURA_9,100,10)"
+data "DescriptionParams" "DealDamage(8d8,Bludgeoning);Distance(2)"
+data "TooltipDamageList" "DealDamage(8d8,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(DUST_DEVIL_AURA_9,100,10)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_DustDevil"
+data "PowerLevel" "9"
+
+
+
+new entry "DUST_DEVIL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h9979f678g7270g0236g9abdg7145b48cb51e;1"
+data "Description" "hbc25d0aeg28c2g0156g66dfgbf922fe1cf76;3"
+data "DescriptionParams" "DealDamage(1d8,Bludgeoning);Distance(2)"
+data "Icon" "Spell_New_DustDevil"
+data "TickType" "EndTurn"
+data "TooltipSave" "Strength"
+data "TooltipDamage" "DealDamage(1d8,Bludgeoning)"
+data "OnTickRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(1d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(1d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "82450c75-2049-4078-b8fb-dd55f2415dfd"
+data "StatusEffectOnTurn" "82450c75-2049-4078-b8fb-dd55f2415dfd"
+
+new entry "DUST_DEVIL_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4cc9d7f3g5c0ag685ag83e7ge273d0430817;1"
+data "Description" "h7d567cdbg419ag1a66gad45g50be13cf3d13;6"
+data "DescriptionParams" "DealDamage(1d8,Bludgeoning);Distance(2)"
+data "Icon" "Spell_New_DustDevil"
+data "SoundLoop" "Spell_Status_SpiritGuardian_ST"
+data "SoundStop" "Spell_Status_SpiritGuardian_ST_Stop"
+data "StackId" "DUST_DEVIL_AURA"
+data "AuraRadius" "2"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL,100,-1)"
+data "AuraFlags" "ShouldCheckLOS"
+data "TickType" "EndTurn"
+data "Boosts" "StatusImmunity(SG_Invisible)"
+data "RemoveConditions" "HasStatus('SANCTUARY')"
+data "RemoveEvents" "OnStatusApplied"
+data "TooltipSave" "Strength"
+data "TooltipDamage" "DealDamage(1d8,Bludgeoning)"
+data "TickFunctors" "CreateSurface(2,1,FogCloud,true)"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "f9502fb1-534e-4174-99ce-5fc3e530ccc3"
+
+new entry "DUST_DEVIL_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "DescriptionParams" "DealDamage(2d8,Bludgeoning);Distance(2)"
+data "TooltipDamage" "DealDamage(2d8,Bludgeoning)"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(2d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(2d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+
+new entry "DUST_DEVIL_AURA_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "DescriptionParams" "DealDamage(2d8,Bludgeoning);Distance(2)"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL_3,100,-1)"
+data "TooltipDamage" "DealDamage(2d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "DescriptionParams" "DealDamage(3d8,Bludgeoning);Distance(2)"
+data "TooltipDamage" "DealDamage(3d8,Bludgeoning)"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(3d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(3d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+
+new entry "DUST_DEVIL_AURA_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "DescriptionParams" "DealDamage(3d8,Bludgeoning);Distance(2)"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL_4,100,-1)"
+data "TooltipDamage" "DealDamage(3d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "DescriptionParams" "DealDamage(4d8,Bludgeoning);Distance(2)"
+data "TooltipDamage" "DealDamage(4d8,Bludgeoning)"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(4d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(4d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+
+new entry "DUST_DEVIL_AURA_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "DescriptionParams" "DealDamage(4d8,Bludgeoning);Distance(2)"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL_5,100,-1)"
+data "TooltipDamage" "DealDamage(4d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "DescriptionParams" "DealDamage(5d8,Bludgeoning);Distance(2)"
+data "TooltipDamage" "DealDamage(5d8,Bludgeoning)"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+
+new entry "DUST_DEVIL_AURA_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "DescriptionParams" "DealDamage(5d8,Bludgeoning);Distance(2)"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL_6,100,-1)"
+data "TooltipDamage" "DealDamage(5d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "DescriptionParams" "DealDamage(6d8,Bludgeoning);Distance(2)"
+data "TooltipDamage" "DealDamage(6d8,Bludgeoning)"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(6d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(6d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+
+new entry "DUST_DEVIL_AURA_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "DescriptionParams" "DealDamage(6d8,Bludgeoning);Distance(2)"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL_7,100,-1)"
+data "TooltipDamage" "DealDamage(6d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "DescriptionParams" "DealDamage(7d8,Bludgeoning);Distance(2)"
+data "TooltipDamage" "DealDamage(7d8,Bludgeoning)"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(7d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(7d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+
+new entry "DUST_DEVIL_AURA_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "DescriptionParams" "DealDamage(7d8,Bludgeoning);Distance(2)"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL_8,100,-1)"
+data "TooltipDamage" "DealDamage(7d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "DescriptionParams" "DealDamage(8d8,Bludgeoning);Distance(2)"
+data "TooltipDamage" "DealDamage(8d8,Bludgeoning)"
+data "OnTickSuccess" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(8d8,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('DUST_DEVIL_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'DUST_DEVIL_DAMAGE_RECEIVED', 0.1)):DealDamage(8d8/2,Bludgeoning,Magical);ApplyStatus(DUST_DEVIL_DAMAGE_RECEIVED,100,1)"
+
+new entry "DUST_DEVIL_AURA_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "DescriptionParams" "DealDamage(8d8,Bludgeoning);Distance(2)"
+data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(DUST_DEVIL_9,100,-1)"
+data "TooltipDamage" "DealDamage(8d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_DAMAGE_RECEIVED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hf8549227g43d3gf537ga06bgea7d89b60617;1"
+data "StackId" "DUST_DEVIL_DAMAGE_RECEIVED"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+
+
+
+
+
+
+
+
+
+5e
+
+	<content contentuid="h0c47714cg3607g4f7cga8f2g08eefae6d2aa" version="1">Dust Devil</content>
+	<content contentuid="he531785age230g47fega786gcb76ecf270e3" version="1">Summon an elemental force that resembles a dust devil that damages creatures that end their turn within [1] of it and pushed back [2].</content>
+	<content contentuid="ha7d13afega06ag4c91gb8e2gbcaeb1360d59" version="1">If the dust devil moves through a mud surface, it removes the surface and generates a [1] cloud that moves with the dust devil, &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscuring&lt;/LSTag&gt; the area.</content>
+	<content contentuid="hbc378123g725ag48fbgb2b7g9fa634337771" version="1">Creatures that end their turn within [1] of the dust devil take [2] and are pushed back [3].</content>
+	<content contentuid="h05136948g66d7g46a3g8bebgaedc86091a81" version="1">Dust Devil: Move</content>
+	<content contentuid="h57a1996fgbc7bg4d46g8ae8g3ea1e4b3b8d0" version="1">Allow the dust devil to move up to [1].</content>
+	<content contentuid="hf6e19e75gd6efg472eg8474g1fc9da6596f9" version="1">Possibly deal [1] and push creature back [2] or deal half damage and no push back on a successful save.</content>
+	<content contentuid="hac78e7abg00ebg4283gb227gcf7fb615c3a7" version="1">Movement</content>
+	<content contentuid="h00437f93g8bacg46bfg9d80g1ffb8c1a8f9d" version="1">Entity can move up to [1].</content>
+
+new entry "Target_DustDevil"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "SpellSchool" "Conjuration"
+data "TargetRadius" "18"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK);GROUND:ApplyStatus(SELF,DUST_DEVIL_TECHNICAL,100,10)"
+data "TargetConditions" "CanStand('410a0dc0-e137-4347-bf31-c50247351efd')"
+data "Icon" "Spell_Conjuration_DustDevil"
+data "DisplayName" "h0c47714cg3607g4f7cga8f2g08eefae6d2aa;1"
+data "Description" "he531785age230g47fega786gcb76ecf270e3;1"
+data "DescriptionParams" "Distance(2);Distance(3)"
+data "ExtraDescription" "ha7d13afega06ag4c91gb8e2gbcaeb1360d59;1"
+data "ExtraDescriptionParams" "Distance(3)"
+data "TooltipDamageList" "DealDamage(1d8,Bludgeoning)"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1d8,Bludgeoning)"
+data "TooltipOnSave" "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
+data "CastTextEvent" "Cast"
+data "PrepareSound" "CrSpell_Prepare_ElementalAir_Whirlwind"
+data "PrepareLoopSound" "CrSpell_Loop_ElementalAir_Whirlwind"
+data "CastSound" "Spell_Cast_Control_GustOfWind_L1to3"
+data "VocalComponentSound" "Vocal_Component_Wind"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;IsConcentration"
+data "MemoryCost" "1"
+data "PrepareEffect" "2af907e1-127c-4c83-a117-af18f211c59d"
+data "CastEffect" "ee3c85ae-0078-4223-9345-c2594535d1f2"
+
+new entry "Target_DustDevil_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA_9,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "Distance(2);DealDamage(8d8,Bludgeoning);Distance(3)"
+data "TooltipDamageList" "DealDamage(8d8,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_DustDevil"
+data "PowerLevel" "9"
+
+new entry "Target_DustDevil_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA_8,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "Distance(2);DealDamage(7d8,Bludgeoning);Distance(3)"
+data "TooltipDamageList" "DealDamage(7d8,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_DustDevil"
+data "PowerLevel" "8"
+
+new entry "Target_DustDevil_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA_7,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "Distance(2);DealDamage(6d8,Bludgeoning);Distance(3)"
+data "TooltipDamageList" "DealDamage(6d8,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_DustDevil"
+data "PowerLevel" "7"
+
+new entry "Target_DustDevil_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA_6,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "Distance(2);DealDamage(5d8,Bludgeoning);Distance(3)"
+data "TooltipDamageList" "DealDamage(5d8,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_DustDevil"
+data "PowerLevel" "6"
+
+new entry "Target_DustDevil_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA_5,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "Distance(2);DealDamage(4d8,Bludgeoning);Distance(3)"
+data "TooltipDamageList" "DealDamage(4d8,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_DustDevil"
+data "PowerLevel" "5"
+
+new entry "Target_DustDevil_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA_4,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "Distance(2);DealDamage(3d8,Bludgeoning);Distance(3)"
+data "TooltipDamageList" "DealDamage(3d8,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_DustDevil"
+data "PowerLevel" "4"
+
+new entry "Target_DustDevil_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "SpellProperties" "GROUND:Summon(410a0dc0-e137-4347-bf31-c50247351efd, 10,,,, DUST_DEVIL_AURA_3,DUST_DEVIL_BANISHED_VFX,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "DescriptionParams" "Distance(2);DealDamage(2d8,Bludgeoning);Distance(3)"
+data "TooltipDamageList" "DealDamage(2d8,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_DustDevil"
+data "PowerLevel" "3"
+
+new entry "Target_DustDevil_Move"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DustDevil"
+data "ConcentrationSpellID" "Target_DustDevil_Move"
+data "Level" ""
+data "SpellSchool" ""
+data "TargetRadius" "36"
+data "SpellProperties" "ApplyStatus(DUST_DEVIL_MOVEMENT_REMOVAL,100,1)"
+data "TargetConditions" "HasStatus('DUST_DEVIL_AURA',context.Target,context.Source) or HasStatus('DUST_DEVIL_AURA_3',context.Target,context.Source) or HasStatus('DUST_DEVIL_AURA_4',context.Target,context.Source) or HasStatus('DUST_DEVIL_AURA_5',context.Target,context.Source) or HasStatus('DUST_DEVIL_AURA_6',context.Target,context.Source) or HasStatus('DUST_DEVIL_AURA_7',context.Target,context.Source) or HasStatus('DUST_DEVIL_AURA_8',context.Target,context.Source) or HasStatus('DUST_DEVIL_AURA_9',context.Target,context.Source)"
+data "Icon" "Spell_Conjuration_DustDevil_Move"
+data "DisplayName" "h05136948g66d7g46a3g8bebgaedc86091a81;1"
+data "Description" "h57a1996fgbc7bg4d46g8ae8g3ea1e4b3b8d0;1"
+data "DescriptionParams" "Distance(9)"
+data "ExtraDescription" ""
+data "TooltipDamageList" ""
+data "TooltipUpcastDescription" ""
+data "TooltipUpcastDescriptionParams" ""
+data "TooltipOnSave" ""
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "Temporary;Wildshape;IgnoreVisionBlock;RangeIgnoreVerticalThreshold"
+data "MemoryCost" ""
+
+new entry "Projectile_DustDevil_CloudRemoval"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellProperties" "GROUND:CreateSurface(3,-1,None)"
+data "ExplodeRadius" "3"
+data "Trajectories" "b64b516c-1afd-4f8d-b624-4c9caf06f1c2"
+data "SpellAnimation" ",,;,,;6889097a-f94b-4a09-82f5-b2a2ed1eb796,,;,,;,,;,,;,,;,,;,,"
+
+
+
+new entry "DUST_DEVIL_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "AuraRadius" "2"
+data "AuraStatuses" "IF(((Character() and Combat()) or (not Combat() and not Ally())) and not Item()):ApplyStatus(DUST_DEVIL)"
+data "OnApplyFunctors" "ApplyStatus(DUST_DEVIL_MOVEMENT,100,1)"
+data "TickFunctors" "IF(not Combat(context.Source)):ApplyStatus(DUST_DEVIL_MOVEMENT,100,1)"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusEffect" "82450c75-2049-4078-b8fb-dd55f2415dfd"
+data "Passives" "S5E_IndestructibleSummon_AI_Ignore;S5E_DustDevil"
+data "OnRemoveFunctors" "RemoveStatus(DUST_DEVIL_CLOUD_TECHNICAL)"
+
+new entry "DUST_DEVIL_BANISHED_VFX"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusEffect" "VFX_Status_Banished_01"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "DUST_DEVIL_AURA_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "AuraStatuses" "IF(Character() and not Item() and Combat()):ApplyStatus(DUST_DEVIL_3)"
+
+new entry "DUST_DEVIL_AURA_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "AuraStatuses" "IF(Character() and not Item() and Combat()):ApplyStatus(DUST_DEVIL_4)"
+
+new entry "DUST_DEVIL_AURA_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "AuraStatuses" "IF(Character() and not Item() and Combat()):ApplyStatus(DUST_DEVIL_5)"
+
+new entry "DUST_DEVIL_AURA_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "AuraStatuses" "IF(Character() and not Item() and Combat()):ApplyStatus(DUST_DEVIL_6)"
+
+new entry "DUST_DEVIL_AURA_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "AuraStatuses" "IF(Character() and not Item() and Combat()):ApplyStatus(DUST_DEVIL_7)"
+
+new entry "DUST_DEVIL_AURA_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "AuraStatuses" "IF(Character() and not Item() and Combat()):ApplyStatus(DUST_DEVIL_8)"
+
+new entry "DUST_DEVIL_AURA_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL_AURA"
+data "AuraStatuses" "IF(Character() and not Item() and Combat()):ApplyStatus(DUST_DEVIL_9)"
+
+new entry "DUST_DEVIL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Spell_Conjuration_DustDevil"
+data "DisplayName" "h0c47714cg3607g4f7cga8f2g08eefae6d2aa;1"
+data "Description" "hf6e19e75gd6efg472eg8474g1fc9da6596f9;1"
+data "DescriptionParams" "DealDamage(1d8,Bludgeoning);Distance(3)"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
+data "OnTickRoll" "not SavingThrow(Ability.Strength,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnTickSuccess" "DealDamage(1d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(1d8/2,Bludgeoning, Magical)"
+data "TickFunctors" "ApplyStatus(DUST_DEVIL_VFX,100,1)"
+data "TickType" "EndTurn"
+data "OnRemoveFunctors" "ApplyStatus(SELF,BREAK_CONCENTRATION,100,0)"
+data "TooltipSave" "Strength"
+data "TooltipDamage" "DealDamage(1d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "Description" "DealDamage(2d8,Bludgeoning);Distance(3)"
+data "OnTickSuccess" "DealDamage(2d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(2d8/2,Bludgeoning, Magical)"
+data "TooltipDamage" "DealDamage(2d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "Description" "DealDamage(3d8,Bludgeoning);Distance(3)"
+data "OnTickSuccess" "DealDamage(3d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(3d8/2,Bludgeoning, Magical)"
+data "TooltipDamage" "DealDamage(3d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "Description" "DealDamage(4d8,Bludgeoning);Distance(3)"
+data "OnTickSuccess" "DealDamage(4d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(4d8/2,Bludgeoning, Magical)"
+data "TooltipDamage" "DealDamage(4d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "Description" "DealDamage(5d8,Bludgeoning);Distance(3)"
+data "OnTickSuccess" "DealDamage(5d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(5d8/2,Bludgeoning, Magical)"
+data "TooltipDamage" "DealDamage(5d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "Description" "DealDamage(6d8,Bludgeoning);Distance(3)"
+data "OnTickSuccess" "DealDamage(6d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(6d8/2,Bludgeoning, Magical)"
+data "TooltipDamage" "DealDamage(6d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_8"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "Description" "DealDamage(7d8,Bludgeoning);Distance(3)"
+data "OnTickSuccess" "DealDamage(7d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(7d8/2,Bludgeoning, Magical)"
+data "TooltipDamage" "DealDamage(7d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DUST_DEVIL"
+data "Description" "DealDamage(8d8,Bludgeoning);Distance(3)"
+data "OnTickSuccess" "DealDamage(8d8,Bludgeoning, Magical);Force(3)"
+data "OnTickFail" "DealDamage(8d8/2,Bludgeoning, Magical)"
+data "TooltipDamage" "DealDamage(8d8,Bludgeoning)"
+
+new entry "DUST_DEVIL_VFX"
+type "StatusData"
+data "StatusType" "BOOST"
+data "ApplyEffect" "e0438396-b78d-4249-bc46-f45dd6feb10a"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "DUST_DEVIL_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "UnlockSpell(Target_DustDevil_Move)"
+data "StackId" "DUST_DEVIL_TECHNICAL"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "DUST_DEVIL_MOVEMENT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "DUST_DEVIL_MOVEMENT"
+data "Boosts" "IF(TurnBased(context.Source)):ActionResourceBlock(Movement)"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "DUST_DEVIL_MOVEMENT_REMOVAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hac78e7abg00ebg4283gb227gcf7fb615c3a7;1"
+data "Description" "h00437f93g8bacg46bfg9d80g1ffb8c1a8f9d;1"
+data "DescriptionParams" "Distance(9)"
+data "Icon" "Spell_Conjuration_DustDevil"
+data "StackId" "DUST_DEVIL_MOVEMENT"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+
+new entry "DUST_DEVIL_CLOUD"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "DUST_DEVIL_CLOUD"
+data "OnApplyFunctors" "CreateSurface(4,-1,None);CreateSurface(3,-1,FogCloud)"
+data "StatusPropertyFlags" "DisablePortraitIndicator;DisableOverhead;DisableCombatlog"
+data "StatusGroups" "SG_Surface;SG_RemoveOnRespec"
+
+new entry "DUST_DEVIL_CLOUD_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "OnApplyFunctors" "CreateSurface(4,-1,None);CreateSurface(3,-1,FogCloud)"
+data "OnRemoveFunctors" "CreateExplosion(Projectile_DustDevil_CloudRemoval)"
+data "StackId" "DUST_DEVIL_CLOUD_TECHNICAL"
+data "Passives" "S5E_DustDevil_Cloud"
+data "StatusPropertyFlags" "DisablePortraitIndicator;DisableOverhead;DisableCombatlog"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+

@@ -1,0 +1,541 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2nd-level transmutation
+
+Casting Time: 1 action
+Range: 30 feet
+Components: V, S, M (a miniature hand sculpted from clay)
+Duration: Concentration, up to 1 minute
+
+You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell’s duration.
+
+As an action, you can cause the hand to crush the restrained target, who must make a Strength saving throw. It takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.
+
+To break out, the restrained target can use its action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.
+
+As an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either.
+
+
+
+
+
+
+
+
+
+
+
+
+
+mystras
+
+
+
+  <content contentuid="hf82907c8g08edgeeb3g0836g9d0c217836e5" version="1">Maximillian's Earthen Grasp</content>
+  <content contentuid="h662244b4g9057gb074g62ddgcab2826c7f2f" version="1">Maximillian's Earthen Grab</content>
+  <content contentuid="h1d9df22agcf32g924dgc7e1g332780a553a3" version="1">Maximillian's Earthen Crush</content>
+  <content contentuid="h8a51844fg7a43g4412g3661g1a659143470c" version="1">Earthen Grasp</content>
+  <content contentuid="hec291d24g5db3gf595gfc8eg83acc1c26e14" version="1">Earthen Grasp</content>
+  <content contentuid="h06488c53g1838g0819gd101g747b5aaf9c3f" version="1">Maximilian's Earthen Grasp</content>
+  <content contentuid="h315d0661g4413g7d0dg3bb4g997afd67f334" version="2">Grab and restrain the creature.</content>
+  <content contentuid="h7bdfbde6gf4b0g1d63g74a6g4edba2c17815" version="1">The grab is loosened if the earthen hand moves too far away from their grabbed target.</content>
+  <content contentuid="hc2db5d21g44e1g4c58gc72cg35cde9794546" version="2">Summon an earthen hand made of compacted soil to grab and crush your enemies.</content>
+  <content contentuid="hce3de987gdbfdga905g7445g64d82cf51cd2" version="1">Crush a grabbed creature.</content>
+  <content contentuid="h9a269cd3g8b2cgdb12g2f52ga9d088ebaf3c" version="1">Affected entity can't move. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, while its Attack Rolls and Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+
+new entry "Target_EarthenGrasp"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "SpellSchool" "Transmutation"
+data "SpellProperties" "GROUND:Summon(6d1c2c5c-90a9-4252-a63f-9ce4fa54acd9,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetRadius" "9"
+data "RequirementConditions" "TutorialSummonBlockCheck()"
+data "RequirementEvents" "OnStatusRemoved;OnStatusApplied"
+data "TargetConditions" "CanStand('6d1c2c5c-90a9-4252-a63f-9ce4fa54acd9') and not Character() and not Self()"
+data "Icon" "Spell_New_EarthenGrasp"
+data "DisplayName" "hf82907c8g08edgeeb3g0836g9d0c217836e5;1"
+data "Description" "hc2db5d21g44e1g4c58gc72cg35cde9794546;2"
+data "TooltipDamageList" "DealDamage(2d6,Bludgeoning)"
+data "TooltipAttackSave" "Strength"
+data "TooltipStatusApply" "ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1d6,Bludgeoning)"
+data "PrepareSound" "Spell_Prepare_Control_Gen_L1to3_01"
+data "PrepareLoopSound" "Spell_Prepare_Control_Gen_L1to3_01_Loop"
+data "CastSound" "Spell_Cast_Utility_MageHand_L1to3"
+data "TargetSound" "Spell_Impact_Utility_MageHand_L1to3"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems"
+data "MemoryCost" "1"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "518bc78f-c169-43ba-b951-977d75429199"
+data "PositionEffect" "3e60abe6-f625-43a5-b593-1e35a005082a"
+
+new entry "Target_EarthenGrasp_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp"
+data "SpellProperties" "GROUND:Summon(0c4213a6-cc7e-4f72-a4af-222c6782119f,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TooltipDamageList" "DealDamage(3d6,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_EarthenGrasp"
+data "PowerLevel" "3"
+
+new entry "Target_EarthenGrasp_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_3"
+data "SpellProperties" "GROUND:Summon(ba3f983c-6817-4f3f-9b0f-025e1dcf4d2f,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TooltipDamageList" "DealDamage(4d6,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "PowerLevel" "4"
+
+new entry "Target_EarthenGrasp_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_3"
+data "SpellProperties" "GROUND:Summon(b6fa04a9-c46e-4da2-b5bc-44253e978afb,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TooltipDamageList" "DealDamage(5d6,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "PowerLevel" "5"
+
+new entry "Target_EarthenGrasp_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_3"
+data "SpellProperties" "GROUND:Summon(7d381eda-27d2-4134-945a-12d72511c11d,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TooltipDamageList" "DealDamage(6d6,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "PowerLevel" "6"
+
+new entry "Target_EarthenGrasp_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_3"
+data "SpellProperties" "GROUND:Summon(b9592eb6-e973-4440-b3de-60fa75a78385,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TooltipDamageList" "DealDamage(7d6,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "PowerLevel" "7"
+
+new entry "Target_EarthenGrasp_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_3"
+data "SpellProperties" "GROUND:Summon(53c48be6-fa69-4a7a-be64-3e20d2af7b31,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TooltipDamageList" "DealDamage(8d6,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "PowerLevel" "8"
+
+new entry "Target_EarthenGrasp_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_3"
+data "SpellProperties" "GROUND:Summon(4acf366b-ef2a-4170-b2d7-7fb8b7da3748,10,,,'EarthenGraspStack',EARTHEN_GRASP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TooltipDamageList" "DealDamage(9d6,Bludgeoning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "PowerLevel" "9"
+
+new entry "Target_EarthenGrasp_Grab"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetRadius" "1.5"
+data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "SpellSuccess" "DealDamage(2d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TargetConditions" "not Self() and not Dead() and Character()"
+data "Icon" "Spell_New_EarthenGrasp"
+data "DisplayName" "h662244b4g9057gb074g62ddgcab2826c7f2f;1"
+data "Description" "h315d0661g4413g7d0dg3bb4g997afd67f334;2"
+data "ExtraDescription" "h7bdfbde6gf4b0g1d63g74a6g4edba2c17815;1"
+data "TooltipDamageList" "DealDamage(2d6,Bludgeoning)"
+data "TooltipAttackSave" "Strength"
+data "TooltipStatusApply" "ApplyStatus(EARTHEN_GRASP,100,10)"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "IsSpell;IsMelee;IgnoreSilence;IsConcentration;IsAttack"
+
+new entry "Target_EarthenGrasp_Grab_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Grab"
+data "SpellSuccess" "DealDamage(3d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipDamageList" "DealDamage(3d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Grab_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Grab"
+data "SpellSuccess" "DealDamage(4d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipDamageList" "DealDamage(4d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Grab_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Grab"
+data "SpellSuccess" "DealDamage(5d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipDamageList" "DealDamage(5d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Grab_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Grab"
+data "SpellSuccess" "DealDamage(6d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipDamageList" "DealDamage(6d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Grab_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Grab"
+data "SpellSuccess" "DealDamage(7d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipDamageList" "DealDamage(7d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Grab_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Grab"
+data "SpellSuccess" "DealDamage(8d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipDamageList" "DealDamage(8d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Grab_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Grab"
+data "SpellSuccess" "DealDamage(9d6,Bludgeoning);ApplyStatus(EARTHEN_GRASP,100,10)"
+data "TooltipDamageList" "DealDamage(9d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Crush"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetRadius" "1.5"
+data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "SpellSuccess" "DealDamage(2d6,Bludgeoning)"
+data "SpellFail" "DealDamage((2d6)/2,Bludgeoning)"
+data "TargetConditions" "not Self() and not Dead() and Character() and HasStatus('EARTHEN_GRASP', context.Target, context.Source)"
+data "Icon" "Action_Monster_ElementalWater_Slam"
+data "DisplayName" "h1d9df22agcf32g924dgc7e1g332780a553a3;1"
+data "Description" "hce3de987gdbfdga905g7445g64d82cf51cd2;1"
+data "TooltipDamageList" "DealDamage(2d6,Bludgeoning)"
+data "TooltipAttackSave" "Strength"
+data "TooltipOnSave" "f762efbb-f8f1-493e-b248-2de1567b4bd2"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "IsSpell;IsMelee;IgnoreSilence"
+
+new entry "Target_EarthenGrasp_Crush_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Crush"
+data "SpellSuccess" "DealDamage(3d6,Bludgeoning)"
+data "SpellFail" "DealDamage((3d6)/2,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(3d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Crush_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Crush"
+data "SpellSuccess" "DealDamage(4d6,Bludgeoning)"
+data "SpellFail" "DealDamage((4d6)/2,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(4d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Crush_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Crush"
+data "SpellSuccess" "DealDamage(5d6,Bludgeoning)"
+data "SpellFail" "DealDamage((5d6)/2,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(5d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Crush_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Crush"
+data "SpellSuccess" "DealDamage(6d6,Bludgeoning)"
+data "SpellFail" "DealDamage((6d6)/2,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(6d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Crush_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Crush"
+data "SpellSuccess" "DealDamage(7d6,Bludgeoning)"
+data "SpellFail" "DealDamage((7d6)/2,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(7d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Crush_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Crush"
+data "SpellSuccess" "DealDamage(8d6,Bludgeoning)"
+data "SpellFail" "DealDamage((8d6)/2,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(8d6,Bludgeoning)"
+
+new entry "Target_EarthenGrasp_Crush_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EarthenGrasp_Crush"
+data "SpellSuccess" "DealDamage(9d6,Bludgeoning)"
+data "SpellFail" "DealDamage((9d6)/2,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(9d6,Bludgeoning)"
+
+
+
+new entry "EARTHEN_GRASP_SUMMON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h8a51844fg7a43g4412g3661g1a659143470c;1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusEffect" "10e29e97-31af-400f-8520-71fbed87d2aa"
+
+new entry "EARTHEN_GRASP"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hec291d24g5db3gf595gfc8eg83acc1c26e14;1"
+data "Description" "h9a269cd3g8b2cgdb12g2f52ga9d088ebaf3c;1"
+data "Icon" "statIcons_Ensnared"
+data "StackId" "ENSNARED"
+data "Boosts" "Advantage(AttackTarget);Disadvantage(AttackRoll);ActionResourceBlock(Movement);Disadvantage(SavingThrow,Dexterity);Attribute(Grounded)"
+data "RemoveConditions" "SavingThrow(Ability.Strength, SourceSpellDC()) or DistanceToGreaterThan(context.SourcePosition, context.TargetPosition, 3)"
+data "RemoveEvents" "OnTurn"
+data "TooltipSave" "Strength"
+data "StatusPropertyFlags" "InitiateCombat"
+data "StatusGroups" "SG_Restrained;SG_Condition"
+data "ApplyEffect" "92f376fb-aa71-4858-99b2-785cb9694734"
+data "StatusEffect" "b5561d10-6cc4-4403-a567-b569c96a5d76"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5e
+
+	<content contentuid="h88ee6921g7bf4g45c3g85ddg24cd03325d46" version="1">Maximilian's Earthen Grasp</content>
+	<content contentuid="hf5ab92e9g0d07g44aeg88b9g55fcc7f1f038" version="1">Create a hand composed of soil to crush and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrain&lt;/LSTag&gt; a creature.</content>
+	<content contentuid="h491fd635g0880g433fga3f5gd6feae1f82e3" version="1">An affected creature may use an action to free themselves by making a Strength &lt;LSTag Tooltip="AbilityCheck"&gt;check&lt;/LSTag&gt; against your spell save DC, escaping and no longer being &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; on a success.</content>
+	<content contentuid="hbf35c51age8deg410eg80f4g5619f5fcb658" version="1">Crush a &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; target or &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrain&lt;/LSTag&gt; a different creature.</content>
+	<content contentuid="h24cb4e80g826dg4744g8b69g49b1a6941f3d" version="1">Maximillian's Earthen Grasp: Crush</content>
+	<content contentuid="hd700afe7g3983g4860g8797gf83532325b9a" version="1">Crush a &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; target.</content>
+	<content contentuid="h662c86dbgdf97g4c04g8fbfgdaa1e4c6e662" version="1">Maximillian's Earthen Grasp: Change</content>
+	<content contentuid="hfea41097g5fdeg4e7agb1b4g1fa1d718020e" version="1">Reach for a different creature with the earthen hand, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; it and freeing the previous target.</content>
+	<content contentuid="h8a6e3d95g17dfg4df3g9551g4f5b8e42f949" version="1">Break Free</content>
+	<content contentuid="f259d54d-a112-46bd-ae0b-bde92c717b00" version="1">Attempt to free yourself.</content>
+
+new entry "Target_MaximiliansEarthenGrasp"
+type "SpellData"
+data "SpellType" "Target"
+data "ConcentrationSpellID" "Target_MaximiliansEarthenGrasp_Spell"
+data "Level" "2"
+data "SpellSchool" "Transmutation"
+data "TargetRadius" "9"
+data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "SpellSuccess" "DealDamage(2d6, Bludgeoning, Magical);ApplyStatus(SELF,MAXIMILIANS_EARTHEN_GRASP_OWNER,100,10);ApplyStatus(MAXIMILIANS_EARTHEN_GRASP,100,10)"
+data "SpellFail" "ApplyStatus(SELF,MAXIMILIANS_EARTHEN_GRASP_OWNER,100,10)"
+data "Icon" "Spell_Transmutation_MaximilliansEarthenGrasp"
+data "DisplayName" "h88ee6921g7bf4g45c3g85ddg24cd03325d46;1"
+data "Description" "hf5ab92e9g0d07g44aeg88b9g55fcc7f1f038;1"
+data "DescriptionParams" "DealDamage(2d6,Bludgeoning)"
+data "ExtraDescription" "h491fd635g0880g433fga3f5gd6feae1f82e3;1"
+data "TooltipAttackSave" "Strength"
+data "TooltipDamageList" "DealDamage(2d6,Bludgeoning)"
+data "TooltipStatusApply" "ApplyStatus(MAXIMILIANS_EARTHEN_GRASP,100,10)"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "CastTextEvent" "Cast"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Earth_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Earth_L4to5"
+data "CastSound" "CrSpell_Cast_Myrmidon_Earth_MudSlap"
+data "HitAnimationType" "MagicalDamage_External"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "20bc8606-6406-4f04-a0f7-ec458125b663,,;8f5c3b68-2383-4470-bb15-ca3e9b6c5819,,;36fcebc4-6813-48f0-81f0-c473b79782b7,,;6e5625e7-7912-450f-9375-d42491d31335,,;7a4db7bc-d962-4e4c-9ac8-c2f03b96a370,,;,,;f2849708-05fa-405a-ba15-3bacbe1a3d56,,;,,;,,"
+data "SpellFlags" "HasSomaticComponent;HasVerbalComponent;IsSpell;IsConcentration;HasHighGroundRangeExtension"
+data "VerbalIntent" "Damage"
+data "PrepareEffect" "33302a46-4a12-41dd-8845-6b7314d50022"
+data "CastEffect" "82cd426e-7d1c-4e44-9965-9859d0660658"
+data "TargetEffect" "ec18ddf7-7c12-4255-8ac9-21be3ae508a9"
+data "DamageType" "Bludgeoning"
+
+new entry "Target_MaximiliansEarthenGrasp_Spell"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "ContainerSpells" "Target_MaximiliansEarthenGrasp_Crush;Target_MaximiliansEarthenGrasp_Change"
+data "ConcentrationSpellID" ""
+data "DisplayName" "h88ee6921g7bf4g45c3g85ddg24cd03325d46;1"
+data "Description" "hbf35c51age8deg410eg80f4g5619f5fcb658;1"
+data "UseCosts" "ActionPoint:1"
+data "SpellFlags" "IsLinkedSpellContainer;Temporary;Wildshape"
+
+new entry "Target_MaximiliansEarthenGrasp_Crush"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "SpellContainerID" "Target_MaximiliansEarthenGrasp_Spell"
+data "SpellSuccess" "DealDamage(2d6, Bludgeoning, Magical)"
+data "SpellFail" "DealDamage(2d6/2,Bludgeoning, Magical)"
+data "TargetConditions" "HasStatus('MAXIMILIANS_EARTHEN_GRASP')"
+data "DisplayName" "h24cb4e80g826dg4744g8b69g49b1a6941f3d;1"
+data "Description" "hd700afe7g3983g4860g8797gf83532325b9a;1"
+data "ExtraDescription" ""
+data "TooltipOnSave" "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
+data "TooltipStatusApply" ""
+data "UseCosts" "ActionPoint:1"
+data "SpellFlags" "Wildshape"
+
+new entry "Target_MaximiliansEarthenGrasp_Change"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "SpellContainerID" "Target_MaximiliansEarthenGrasp_Spell"
+data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "SpellSuccess" "DealDamage(2d6, Bludgeoning, Magical);ApplyStatus(MAXIMILIANS_EARTHEN_GRASP,100,10,,,,,true)"
+data "SpellFail" ""
+data "TargetConditions" "not HasStatus('MAXIMILIANS_EARTHEN_GRASP')"
+data "DisplayName" "h662c86dbgdf97g4c04g8fbfgdaa1e4c6e662;1"
+data "Description" "hfea41097g5fdeg4e7agb1b4g1fa1d718020e;1"
+data "ExtraDescription" ""
+data "UseCosts" "ActionPoint:1"
+data "SpellFlags" "Wildshape"
+
+new entry "Target_MaximiliansEarthenGrasp_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_MaximiliansEarthenGrasp"
+data "PowerLevel" "9"
+
+new entry "Target_MaximiliansEarthenGrasp_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_MaximiliansEarthenGrasp"
+data "PowerLevel" "8"
+
+new entry "Target_MaximiliansEarthenGrasp_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_MaximiliansEarthenGrasp"
+data "PowerLevel" "7"
+
+new entry "Target_MaximiliansEarthenGrasp_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_MaximiliansEarthenGrasp"
+data "PowerLevel" "6"
+
+new entry "Target_MaximiliansEarthenGrasp_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_MaximiliansEarthenGrasp"
+data "PowerLevel" "5"
+
+new entry "Target_MaximiliansEarthenGrasp_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Target_MaximiliansEarthenGrasp"
+data "PowerLevel" "4"
+
+new entry "Target_MaximiliansEarthenGrasp_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MaximiliansEarthenGrasp"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "RootSpellID" "Target_MaximiliansEarthenGrasp"
+data "PowerLevel" "3"
+
+
+
+new entry "MAXIMILIANS_EARTHEN_GRASP"
+type "StatusData"
+data "StatusType" "BOOST"
+using "RESTRAINED"
+data "StackId" "MAXIMILIANS_EARTHEN_GRASP"
+data "StatusGroups" "SG_Restrained;SG_Condition;SG_RemoveOnRespec"
+data "IsUnique" "1"
+data "TickFunctors" "UseActionResource(ActionPoint,1,0)"
+data "OnTickRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "OnTickFail" "RemoveStatus(MAXIMILIANS_EARTHEN_GRASP)"
+data "TickType" "StartTurn"
+
+new entry "MAXIMILIANS_EARTHEN_GRASP_OWNER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "MAXIMILIANS_EARTHEN_GRASP_OWNER"
+data "Boosts" "UnlockSpell(Target_MaximiliansEarthenGrasp_Spell)"
+data "OnRemoveFunctors" "BreakConcentration()"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
