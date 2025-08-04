@@ -162,6 +162,75 @@ Target_ZoneofTruth
 
 
 // 3rd Level Spells
+(Antagonize)
+
+
+(Ashardalon's Stride)
+
+
+(Catnap)
+
+
+(Create Food and Water)
+
+
+(Enemies Abound)
+
+
+(Erupting Earth)
+
+
+(Flame Arrows)
+
+
+(Freedom of the Waves)
+
+
+(Incite Greed)
+
+
+(Intellect Fortress)
+
+
+(Life Transference)
+
+
+(Magic Circle)
+
+
+(Melf's Minute Meteors)
+
+
+(Motivational Speech)
+
+
+(Nondetection)
+
+
+(Psionic Blast)
+
+
+(Pulse Wave)
+
+
+(Spirit Shroud)
+
+
+(Summon Fey)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
 (SPELL_NAME)
 
 
@@ -176,9 +245,64 @@ Target_ZoneofTruth
 
 
 
-
-
 // 4th Level Spells
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
 (SPELL_NAME)
 
 
@@ -199,6 +323,63 @@ Target_ZoneofTruth
 (SPELL_NAME)
 
 
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
 
 
 
@@ -213,6 +394,63 @@ Target_ZoneofTruth
 
 
 // 6th Level Spells
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
+(SPELL_NAME)
+
+
 (SPELL_NAME)
 
 
