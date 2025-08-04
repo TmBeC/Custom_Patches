@@ -181,6 +181,10 @@
   <content contentuid="hf242b62eefc04a99aa45403a3b89d510ed2f" version="1">Exhale a cone of lightning.</content>
   <content contentuid="h8682d70bd75b4a9696ae2692e0397c35aede" version="1">Poison Breath</content>
   <content contentuid="h182f30d421214591baae1fd764cca0bf1810" version="1">Exhale a cone of poison.</content>
+  <content contentuid="ha0f620ed2d1e4b368714bf3b863560375ecg" version="1">Dust Devil</content>
+  <content contentuid="h01679b80180a4f8b9046aff80181036b01ga" version="1">%%% Dust Devil Technical</content>
+  <content contentuid="h69898431c2e44986bb92d855cfa3bce2352e" version="1">Tempest</content>
+  <content contentuid="h062a50eb7e864d9497dc4a63150ae43d2bf4" version="1">When the dust devil is tempestuous, it deals [1] to nearby creatures and pushes them [2] away.</content>
 
 
 
@@ -207,7 +211,16 @@
 
 
 
+  <content contentuid="PLACEHOLDER" version="1">Example_Text_Block</content>
 
+
+&lt;LSTag
+
+&lt;
+
+&gt;
+
+&lt;/LSTag&gt;
 
 
 

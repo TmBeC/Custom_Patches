@@ -101,7 +101,7 @@ Target_ContinualFlame
 Target_DragonsBreath
 
 (Dust Devil)
-
+Target_DustDevil
 
 (Flock of Familiars)
 
@@ -219,19 +219,19 @@ Target_ZoneofTruth
 (Summon Fey)
 
 
-(SPELL_NAME)
+(Summon Lesser Demons)
 
 
-(SPELL_NAME)
+(Summon Shadowspawn)
 
 
-(SPELL_NAME)
+(Thunder Step)
 
 
-(SPELL_NAME)
+(Tidal Wave)
 
 
-(SPELL_NAME)
+(Water Walk)
 
 
 
@@ -246,64 +246,58 @@ Target_ZoneofTruth
 
 
 // 4th Level Spells
-(SPELL_NAME)
+(Arcane Eye)
 
 
-(SPELL_NAME)
+(Aura of Life)
 
 
-(SPELL_NAME)
+(Aura of Purity)
 
 
-(SPELL_NAME)
+(Charm Monster)
 
 
-(SPELL_NAME)
+(Control Water)
 
 
-(SPELL_NAME)
+(Ego Whip)
 
 
-(SPELL_NAME)
+(Elemental Bane)
 
 
-(SPELL_NAME)
+(Gravity Sinkhole) - Chronurgy Wizard only
 
 
-(SPELL_NAME)
+(Guardian of Nature)
 
 
-(SPELL_NAME)
+(Raulothim's Psychic Lance)
 
 
-(SPELL_NAME)
+(Shadow of Moil)
 
 
-(SPELL_NAME)
+(Stone Shape)
 
 
-(SPELL_NAME)
+(Storm Sphere)
 
 
-(SPELL_NAME)
+(Summon Aberration)
 
 
-(SPELL_NAME)
+(Summon Construct)
 
 
-(SPELL_NAME)
+(Summon Elemental)
 
 
-(SPELL_NAME)
+(Summon Greater Demon)
 
 
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
+(Vitriolic Sphere)
 
 
 
@@ -320,64 +314,70 @@ Target_ZoneofTruth
 
 
 // 5th Level Spells
-(SPELL_NAME)
+(Antilife Shell)
 
 
-(SPELL_NAME)
+(Bigby's Hand)
 
 
-(SPELL_NAME)
+(Circle of Power)
 
 
-(SPELL_NAME)
+(Commune With Nature)
 
 
-(SPELL_NAME)
+(Conjure Volley)
 
 
-(SPELL_NAME)
+(Danse Macabre)
 
 
-(SPELL_NAME)
+(Enervation)
 
 
-(SPELL_NAME)
+(Far Step)
 
 
-(SPELL_NAME)
+(Holy Weapon)
 
 
-(SPELL_NAME)
+(Immolation)
 
 
-(SPELL_NAME)
+(Infernal Calling)
 
 
-(SPELL_NAME)
+(Maelstrom)
 
 
-(SPELL_NAME)
+(Mislead)
 
 
-(SPELL_NAME)
+(Negative Energy Flood)
 
 
-(SPELL_NAME)
+(Raise Dead)
 
 
-(SPELL_NAME)
+(Skill Empowerment)
 
 
-(SPELL_NAME)
+(Steel Wind Strike)
 
 
-(SPELL_NAME)
+(Summon Dragon)
 
 
-(SPELL_NAME)
+(Swift Quiver)
 
 
-(SPELL_NAME)
+(Synaptic Static)
+
+
+(Teleportation Circle)
+
+
+(Temporal Shunt)
 
 
 
@@ -394,64 +394,31 @@ Target_ZoneofTruth
 
 
 // 6th Level Spells
-(SPELL_NAME)
+(Conjure Fey)
 
 
-(SPELL_NAME)
+(Investiture of Flame)
 
 
-(SPELL_NAME)
+(Investiture of Ice)
 
 
-(SPELL_NAME)
+(Investiture of Stone)
 
 
-(SPELL_NAME)
+(Investiture of Wind)
 
 
-(SPELL_NAME)
+(Primordial Ward)
 
 
-(SPELL_NAME)
+(Psychic Crush)
 
 
-(SPELL_NAME)
+(Tenser's Transformation)
 
 
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
-
-
-(SPELL_NAME)
+(True Seeing)
 
 
 
