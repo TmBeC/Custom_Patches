@@ -125,16 +125,16 @@ Target_Pyrotechnics
 Zone_RimesBindingIce
 
 (Snillocs Snowball Swarm)
-
+Target_SnowballSwarm
 
 (Summon Beast)
-
+Target_SummonBeast
 
 (Tashas Mind Whip)
-
+Target_MindWhip
 
 (Vortex Warp)
-
+Target_VortexWarp
 
 (Warding Wind)
 Shout_WardingWind

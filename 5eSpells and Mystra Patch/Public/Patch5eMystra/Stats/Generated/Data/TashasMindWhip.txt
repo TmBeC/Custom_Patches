@@ -1,59 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2nd-level enchantment
-
-Casting Time: 1 action
-Range: 90 feet
-Components: V
-Duration: 1 round
-
-You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can’t take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell’s other effects.
-
-At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mystras
-
-  <content contentuid="hac353de3g2002g3c30gb5dfg0069aae23b60" version="1">Tasha's Mind Whip</content>
-  <content contentuid="h27a2bea6g1030g90e0g8c85g9abf3c98b5b8" version="3">Psychically lash out at the target to prevent them from moving and taking bonus actions or reactions for 1 turn.</content>
-  <content contentuid="h14f9a29eg554agb2cag5586g224331f049a8" version="1">Mind Whip</content>
-  <content contentuid="hee02161eg381cgaa3bg267fgf6085570227b" version="3">Can't move, nor take bonus actions or reactions.</content>
-
 new entry "Target_MindWhip"
 type "SpellData"
 data "SpellType" "Target"
@@ -61,40 +5,39 @@ data "Level" "2"
 data "SpellSchool" "Enchantment"
 data "TargetRadius" "18"
 data "SpellRoll" "not SavingThrow(Ability.Intelligence, SourceSpellDC())"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
+data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP,100,1)"
 data "SpellFail" "DealDamage((3d6)/2,Psychic,Magical)"
-data "TargetConditions" "not Self() and not Dead() and Character()"
-data "Icon" "Spell_New_MindWhip"
-data "DisplayName" "hac353de3g2002g3c30gb5dfg0069aae23b60;1"
-data "Description" "h27a2bea6g1030g90e0g8c85g9abf3c98b5b8;3"
+data "TargetConditions" "Character() and not Self() and not Dead()"
+data "Icon" "Spell_Enchantment_MindWhip"
+data "DisplayName" "hc01128d7068543a6a8fe9d465cfd8f17622a;1"
+data "Description" "hd1cc1007f0d540529a7e8294f506afe7fgf9;1"
 data "TooltipDamageList" "DealDamage(3d6,Psychic)"
 data "TooltipAttackSave" "Intelligence"
-data "TooltipStatusApply" "ApplyStatus(MIND_WHIP, 100, 1)"
+data "TooltipStatusApply" "ApplyStatus(MIND_WHIP,100,1)"
 data "TooltipOnSave" "f762efbb-f8f1-493e-b248-2de1567b4bd2"
 data "TooltipUpcastDescription" "04cc3403-f67a-4747-b49e-a1802cc7a6ad"
-data "PrepareSound" "Spell_Prepare_Control_Gen_L1to3_01"
-data "PrepareLoopSound" "Spell_Prepare_Control_Gen_L1to3_01_Loop"
-data "CastSound" "Spell_Cast_Damage_Psychic_PhantasmalKiller_L1to3"
-data "TargetSound" "Spell_Impact_Damage_Radiant_PhantasmalKiller_L1to3"
+data "PrepareSound" "Action_Prepare_Item_ActionGrudges"
+data "PrepareLoopSound" "Action_Loop_Item_ActionGrudges"
+data "CastSound" "CrSpell_Cast_ShadowWhip"
+data "TargetSound" "CrSpell_Impact_ShadowWhip"
 data "PreviewCursor" "Cast"
 data "CastTextEvent" "Cast"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
-data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;70a28457-dba7-46f7-b03c-ceb3b9e12bad,,;68868848-6341-448a-97e3-94aa43ad5faf,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
 data "VerbalIntent" "Damage"
 data "SpellFlags" "IsSpell;IsHarmful;RangeIgnoreVerticalThreshold;HasVerbalComponent"
 data "HitAnimationType" "MagicalDamage_Psychic"
 data "MemoryCost" "1"
-data "PrepareEffect" "2fa6b127-6f8a-4150-8be6-6f62b7a85911"
-data "CastEffect" "d2ef6b50-243f-478d-85c6-892086a1477e"
-data "TargetEffect" "9c82304c-f4cc-4204-b0f0-424867d2c0b4"
+data "PrepareEffect" "556fd141-698d-4c08-9322-ad155821260a"
+data "CastEffect" "456933cc-f8c3-42d9-ae4c-622d83391cc6"
+data "TargetEffect" "aafee3d2-0f5b-42b7-a91c-1397fb58dd25"
 data "DamageType" "Psychic"
 
 new entry "Target_MindWhip_3"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindWhip"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
 data "AmountOfTargets" "2"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
 data "RootSpellID" "Target_MindWhip"
@@ -104,7 +47,6 @@ new entry "Target_MindWhip_4"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindWhip"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
 data "AmountOfTargets" "3"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
 data "RootSpellID" "Target_MindWhip"
@@ -114,7 +56,6 @@ new entry "Target_MindWhip_5"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindWhip"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
 data "AmountOfTargets" "4"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
 data "RootSpellID" "Target_MindWhip"
@@ -124,7 +65,6 @@ new entry "Target_MindWhip_6"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindWhip"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
 data "AmountOfTargets" "5"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
 data "RootSpellID" "Target_MindWhip"
@@ -134,7 +74,6 @@ new entry "Target_MindWhip_7"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindWhip"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
 data "AmountOfTargets" "6"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
 data "RootSpellID" "Target_MindWhip"
@@ -144,7 +83,6 @@ new entry "Target_MindWhip_8"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindWhip"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
 data "AmountOfTargets" "7"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
 data "RootSpellID" "Target_MindWhip"
@@ -154,291 +92,34 @@ new entry "Target_MindWhip_9"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindWhip"
-data "SpellSuccess" "DealDamage(3d6,Psychic,Magical);ApplyStatus(MIND_WHIP, 100, 1)"
 data "AmountOfTargets" "8"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
 data "RootSpellID" "Target_MindWhip"
 data "PowerLevel" "9"
 
-
-
-
-
 new entry "MIND_WHIP"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h14f9a29eg554agb2cag5586g224331f049a8;1"
-data "Description" "hee02161eg381cgaa3bg267fgf6085570227b;3"
-data "Icon" "Spell_New_MindWhip"
-data "StillAnimationType" "Weakened"
-data "StillAnimationPriority" "Weakened"
-data "StackId" "MIND_WHIP"
-data "TickType" "StartTurn"
-data "Boosts" "ActionResourceBlock(ReactionActionPoint);ActionResourceBlock(BonusActionPoint);ActionResourceBlock(Movement)"
-data "StatusPropertyFlags" "TickingWithSource"
-data "OnApplyFunctors" "RemoveStatus(SELF,SANCTUARY);RemoveStatus(SELF,SANCTUARY_TRANQUILITY)"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5e
-
-
-	<content contentuid="h3ff4769cg9bc2g43c7gb286g52fe6886f87e" version="1">Mind Whip</content>
-	<content contentuid="he72eab18g4df7g422egbfadga27fc0a89633" version="1">Psychically lash out at [1] creature(s), possibly preventing them from taking Reactions and limiting it using movement, an Action or a Bonus Action.</content>
-	<content contentuid="hfe24127cgaf44g4d14gb08egb0e902b3c764" version="7">The entity can't take reactions and can only use movement or take either an action or a bonus action.</content>
-	<content contentuid="537bd30410514e10b31933dfb1c6a1c1" version="1">Cannot take Actions or Bonus Actions.</content>
-	<content contentuid="6fec29bcd7574b3b87b5d26971a667b2" version="1">Cannot take Bonus Actions or Reactions.</content>
-	<content contentuid="92fb13580b144447afcd36c32ed91a14" version="1">Cannot move or take Reactions.</content>
-
-
-new entry "Target_TashasMindWhip"
-type "SpellData"
-data "SpellType" "Target"
-data "Level" "2"
-data "SpellSchool" "Enchantment"
-data "TargetRadius" "18"
-data "SpellRoll" "not SavingThrow(Ability.Intelligence, SourceSpellDC())"
-data "SpellSuccess" "DealDamage(3d6, Psychic, Magical);AI_IGNORE:IF(Player() or Ally()):ApplyStatus(MIND_WHIP,100,1);AI_IGNORE:IF(not Player() and Enemy()):ApplyStatus(MIND_WHIP_ENEMY,100,1);AI_ONLY:ApplyStatus(STUNNED,100,1)"
-data "SpellFail" "DealDamage(3d6/2, Psychic, Magical)"
-data "TargetConditions" "Character() and not Self()"
+data "DisplayName" "h9eb4ba71216b4767b59c96e1d9188081aade;1"
+data "Description" "hebe5ccffd42343b59dbec1abd9dfdc0d7d93;1"
 data "Icon" "Spell_Enchantment_MindWhip"
-data "DisplayName" "h3ff4769cg9bc2g43c7gb286g52fe6886f87e;1"
-data "Description" "he72eab18g4df7g422egbfadga27fc0a89633;1"
-data "DescriptionParams" "1"
-data "TooltipOnSave" "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
-data "TooltipDamageList" "DealDamage(3d6,Psychic)"
-data "TooltipStatusApply" "ApplyStatus(MIND_WHIP,100,1)"
-data "TooltipAttackSave" "Intelligence"
-data "TooltipUpcastDescription" "04cc3403-f67a-4747-b49e-a1802cc7a6ad"
-data "PrepareSound" "Action_Prepare_Item_ActionGrudges"
-data "PrepareLoopSound" "Action_Loop_Item_ActionGrudges"
-data "CastSound" "CrSpell_Cast_ShadowWhip"
-data "TargetSound" "CrSpell_Impact_ShadowWhip"
-data "CastTextEvent" "Cast"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
-data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;70a28457-dba7-46f7-b03c-ceb3b9e12bad,,;68868848-6341-448a-97e3-94aa43ad5faf,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
-data "VerbalIntent" "Damage"
-data "HitAnimationType" "MagicalDamage_Psychic"
-data "SpellFlags" "IsSpell;CannotTargetTerrain;HasVerbalComponent;CannotTargetItems;IgnorePreviouslyPickedEntities"
-data "AmountOfTargets" "1"
-data "PrepareEffect" "556fd141-698d-4c08-9322-ad155821260a"
-data "CastEffect" "456933cc-f8c3-42d9-ae4c-622d83391cc6"
-data "TargetEffect" "aafee3d2-0f5b-42b7-a91c-1397fb58dd25"
-
-new entry "Target_TashasMindWhip_9"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_TashasMindWhip"
-data "DescriptionParams" "8"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
-data "AmountOfTargets" "8"
-data "RootSpellID" "Target_TashasMindWhip"
-data "PowerLevel" "9"
-
-new entry "Target_TashasMindWhip_8"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_TashasMindWhip"
-data "DescriptionParams" "7"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
-data "AmountOfTargets" "7"
-data "RootSpellID" "Target_TashasMindWhip"
-data "PowerLevel" "8"
-
-new entry "Target_TashasMindWhip_7"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_TashasMindWhip"
-data "DescriptionParams" "6"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
-data "AmountOfTargets" "6"
-data "RootSpellID" "Target_TashasMindWhip"
-data "PowerLevel" "7"
-
-new entry "Target_TashasMindWhip_6"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_TashasMindWhip"
-data "DescriptionParams" "5"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
-data "AmountOfTargets" "5"
-data "RootSpellID" "Target_TashasMindWhip"
-data "PowerLevel" "6"
-
-new entry "Target_TashasMindWhip_5"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_TashasMindWhip"
-data "DescriptionParams" "4"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
-data "AmountOfTargets" "4"
-data "RootSpellID" "Target_TashasMindWhip"
-data "PowerLevel" "5"
-
-new entry "Target_TashasMindWhip_4"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_TashasMindWhip"
-data "DescriptionParams" "3"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
-data "AmountOfTargets" "3"
-data "RootSpellID" "Target_TashasMindWhip"
-data "PowerLevel" "4"
-
-new entry "Target_TashasMindWhip_3"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_TashasMindWhip"
-data "DescriptionParams" "2"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
-data "AmountOfTargets" "2"
-data "RootSpellID" "Target_TashasMindWhip"
-data "PowerLevel" "3"
-
-new entry "Shout_MindWhip_Unblock_Action"
-type "SpellData"
-data "SpellType" "Shout"
-data "AIFlags" "GrantsResources"
-data "SpellProperties" "RemoveStatus(MIND_WHIP_ACTION_BLOCK)"
-data "TargetConditions" "Self()"
-data "Icon" "Skill_Fighter_ActionSurge"
-data "DisplayName" "h8ce7c774g6da0g4d49g99c8g49d370057eab"
-data "Description" "h4f113a97gdaccg4af3gb052ge251565965a3"
-data "CastTextEvent" "Cast"
-data "UseCosts" ""
-data "SpellAnimation" ""
-data "VerbalIntent" ""
-data "SpellFlags" "IgnoreSilence;Stealth;Invisible;NoCameraMove;CombatLogSetSingleLineRoll;ImmediateCast"
-data "CinematicArenaFlags" "Ignore"
-data "Sheathing" "DontChange"
-
-new entry "Shout_MindWhip_Unblock_BonusAction"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_MindWhip_Unblock_Action"
-data "Icon" "PassiveFeature_FastHands"
-data "SpellProperties" "RemoveStatus(MIND_WHIP_BONUS_ACTION_BLOCK)"
-data "DisplayName" "h2914e8begb926g4829g913dg0bea135a9514"
-data "Description" "h74e1c017g7f1ag4f8bgae99g670af670c5b2"
-
-new entry "Shout_MindWhip_Unblock_Movement"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_MindWhip_Unblock_Action"
-data "Icon" "Action_Dash"
-data "SpellProperties" "RemoveStatus(MIND_WHIP_MOVEMENT_BLOCK)"
-data "DisplayName" "h653d077fg969fg46b8gbedfga32db05036de"
-data "Description" "h5171ca94g757fg4534ga22bga0d2d8c46e2f"
-
-new entry "Shout_MindWhip_Unblock_Movement_Enemy"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_MindWhip_Unblock_Movement"
-data "SpellProperties" "RemoveStatus(MIND_WHIP_MOVEMENT_BLOCK);ApplyStatus(MIND_WHIP_ACTION_BLOCK,100,1);AI_ONLY:ApplyStatus(DASH,100,1)"
-data "UseCosts" "ActionPoint:1"
-
-
-
-
-
-
-new entry "MIND_WHIP"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h3ff4769cg9bc2g43c7gb286g52fe6886f87e;1"
-data "Description" "hfe24127cgaf44g4d14gb08egb0e902b3c764;1"
-data "StackId" "MIND_WHIP"
-data "Icon" "Spell_Enchantment_MindWhip"
-data "Boosts" "ActionResourceBlock(ReactionActionPoint)"
-data "OnApplyFunctors" "ApplyStatus(MIND_WHIP_ACTION_BLOCK,100,1);ApplyStatus(MIND_WHIP_BONUS_ACTION_BLOCK,100,1);ApplyStatus(MIND_WHIP_MOVEMENT_BLOCK,100,1);ApplyStatus(MIND_WHIP_UNBLOCK,100,1)"
-data "TickType" "EndTurn"
-data "StillAnimationType" "Dazed"
-data "StillAnimationPriority" "Dazed"
-data "StatusEffect" "b89b7538-2cb3-400f-b1c9-378f61070abb"
 data "SoundVocalStart" "WEAK"
 data "SoundVocalEnd" "RECOVER"
-
-new entry "MIND_WHIP_UNBLOCK"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "UnlockSpell(Shout_MindWhip_Unblock_Action);UnlockSpell(Shout_MindWhip_Unblock_BonusAction);UnlockSpell(Shout_MindWhip_Unblock_Movement)"
+data "StillAnimationType" "Dazed"
+data "StillAnimationPriority" "Dazed"
+data "StackId" "MIND_WHIP"
 data "TickType" "EndTurn"
-data "RemoveConditions" "SpellId('Shout_MindWhip_Unblock_Action') or SpellId('Shout_MindWhip_Unblock_BonusAction') or SpellId('Shout_MindWhip_Unblock_Movement')"
-data "RemoveEvents" "OnSpellCast"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "Boosts" "ActionResourceBlock(ReactionActionPoint)"
+data "Passives" "MindWhip_ActionPoint"
+data "StatusEffect" "1e34754f-17e3-4aeb-9db9-a34f682c1c45"
+data "ManagedStatusEffectType" "Negative"
+data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
 
-new entry "MIND_WHIP_ACTION_BLOCK"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "ActionResourceBlock(ActionPoint)"
-data "OnApplyFunctors" "RestoreResource(ActionPoint,100%,0)"
-data "TickType" "EndTurn"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-new entry "MIND_WHIP_BONUS_ACTION_BLOCK"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "ActionResourceBlock(BonusActionPoint)"
-data "TickType" "EndTurn"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-new entry "MIND_WHIP_MOVEMENT_BLOCK"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "ActionResourceBlock(Movement)"
-data "TickType" "EndTurn"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-new entry "MIND_WHIP_ENEMY"
-type "StatusData"
-data "StatusType" "BOOST"
-using "MIND_WHIP"
-data "Boosts" "ActionResourceBlock(ReactionActionPoint);ActionResourceBlock(BonusActionPoint)"
-data "OnApplyFunctors" "ApplyStatus(MIND_WHIP_MOVEMENT_BLOCK,100,1);ApplyStatus(MIND_WHIP_UNBLOCK_ENEMY,100,1)"
-
-new entry "MIND_WHIP_UNBLOCK_ENEMY"
-type "StatusData"
-data "StatusType" "BOOST"
-using "MIND_WHIP_UNBLOCK"
-data "Boosts" "UnlockSpell(Shout_MindWhip_Unblock_Movement_Enemy)"
-data "RemoveConditions" "SpellId('Shout_MindWhip_Unblock_Movement_Enemy')"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "MindWhip_ActionPoint"
+type "PassiveData"
+data "DisplayName" "hf8647f7b6ee84c74bfbaf42469fba0bc6ed9;1"
+data "Description" "h9a4f58164b104dbcac7b1f3332ae532ac085;1"
+data "TooltipUseCosts" "ActionPoint:1;BonusActionPoint:1;Movement:9"
+data "Icon" "Spell_Enchantment_MindWhip"
+data "StatsFunctorContext" "OnCast"
+data "StatsFunctors" "IF(not HasActionResource('Movement',100,0,true)):UseActionResource(SELF,ActionPoint,1);IF(not HasActionResource('Movement',100,0,true)):UseActionResource(SELF,BonusActionPoint,1);IF(not HasActionResource('BonusActionPoint',1,0,false)):UseActionResource(SELF,ActionPoint,1);IF(not HasActionResource('BonusActionPoint',1,0,false)):UseActionResource(SELF,Movement,9,0,false);IF(not HasActionResource('ActionPoint',1,0,false)):UseActionResource(SELF,BonusActionPoint,1);IF(not HasActionResource('ActionPoint',1,0,false)):UseActionResource(SELF,Movement,9,0,false)"

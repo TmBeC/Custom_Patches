@@ -1,40 +1,22 @@
+new entry "Target_VortexWarp"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "SpellSchool" "Conjuration"
+data "TargetRadius" "18"
+data "SpellRoll" "SpellAutoResolveOnAlly(Ability.Constitution, SourceSpellDC(),true)"
 
 
 
 
 
+data "SpellSuccess" "ApplyStatus(VORTEX_WARP,100,1);SELF:ApplyStatus(SELF,VORTEX_WARP_CASTER,100,1)"
+data "SpellFail" "IF(Ally()):ApplyStatus(VORTEX_WARP,100,1);SELF:IF(Ally()):ApplyStatus(SELF,VORTEX_WARP_CASTER,100,1)"
+data "SpellSuccess" "ApplyStatus(VORTEX_WARP,100,-1);ApplyStatus(SELF,VORTEX_WARP_TECHNICAL,100,-1);IF(HasPassive('Metamagic_Twinned',context.Source)):ApplyStatus(SELF,VORTEX_WARP_TECHNICAL_2,100,-1)"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2nd-level Conjuration
-
-Casting Time: 1 action
-Range: 90 feet
-Components: V, S
-Duration: Instantaneous
-
-You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
-
-At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd.
+data "TargetConditions" "Character() and not Dead() and not Self()"
+data "Icon" "Spell_Conjuration_VortexWarp"
 
 
 
@@ -52,17 +34,7 @@ mystras
   <content contentuid="h7f4e3ce9g4998gce09g1a47g95cc84ed9590" version="2">Allied creatures will always be affected regardless of the save.</content>
 
 
-new entry "Target_VortexWarp"
-type "SpellData"
-data "SpellType" "Target"
-data "Level" "2"
-data "SpellSchool" "Conjuration"
-data "TargetRadius" "18"
-data "SpellRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC())"
-data "SpellSuccess" "ApplyStatus(VORTEX_WARP,100,1);SELF:ApplyStatus(SELF,VORTEX_WARP_CASTER,100,1)"
-data "SpellFail" "IF(Ally()):ApplyStatus(VORTEX_WARP,100,1);SELF:IF(Ally()):ApplyStatus(SELF,VORTEX_WARP_CASTER,100,1)"
-data "TargetConditions" "not Self() and not Dead() and Character() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'))"
-data "Icon" "Spell_New_VortexWarp"
+
 data "DisplayName" "h701f9c2eg0bf1g5425g3318g92be44add6c9;1"
 data "Description" "hfae54cf7g8c4agb47cgdbc9gfe4e44a69b8e;1"
 data "DescriptionParams" "Distance(18)"
@@ -84,6 +56,66 @@ data "MemoryCost" "1"
 data "PrepareEffect" "18836661-c3d8-46b5-bdd5-eda997329657"
 data "CastEffect" "ea827ec4-a0c7-47c3-bf1e-f8525bd5beaf"
 data "TargetEffect" "9157bc9f-4eaa-46ee-94ee-ea67a4f93ae7"
+
+
+
+5e
+
+
+	<content contentuid="he7b9654cg5abag4a17g8ca7g9a0f4d858982" version="1">Vortex Warp</content>
+	<content contentuid="hc360f59bgd658g482bg991ag4e89dd68c601" version="1">Magically twist space around another creature, possibly preparing them to be teleported.</content>
+	<content contentuid="h9d031748g20cfg44f8g8f2dgfe5a46d5c486" version="1">Teleport a creature you've magically twisted the space around to an unoccupied space.</content>
+	<content contentuid="h5dd7fde2g45f8g41a4g9ae8g115da5c10022" version="1">Susceptible to being teleported to an unoccupied space.</content>
+
+
+
+data "DisplayName" "he7b9654cg5abag4a17g8ca7g9a0f4d858982;1"
+data "Description" "hc360f59bgd658g482bg991ag4e89dd68c601;1"
+data "TooltipAttackSave" "Constitution"
+data "TooltipUpcastDescription" "5217141e-4587-4ade-ada9-77d7171d4520"
+data "TooltipUpcastDescriptionParams" "Distance(9)"
+data "CastTextEvent" "Cast"
+data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
+data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
+data "VocalComponentSound" "Vocal_Component_Teleport"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "HasVerbalComponent;IsSpell;HasSomaticComponent"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "4f8e353e-c04e-45c3-880b-d10885fd091f"
+
+
+
+
+
+
+
+2nd-level Conjuration
+
+Casting Time: 1 action
+Range: 90 feet
+Components: V, S
+Duration: Instantaneous
+
+You magically twist space around another creature you can see within range.
+The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range.
+The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
+
+
+At Higher Levels
+When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd.
+
+
+
+
+
+
+
+
+
+
+mystras
 
 new entry "Target_VortexWarp_3"
 type "SpellData"
@@ -199,37 +231,6 @@ data "StatusGroups" "SG_RemoveOnRespec"
 5e
 
 
-	<content contentuid="he7b9654cg5abag4a17g8ca7g9a0f4d858982" version="1">Vortex Warp</content>
-	<content contentuid="hc360f59bgd658g482bg991ag4e89dd68c601" version="1">Magically twist space around another creature, possibly preparing them to be teleported.</content>
-	<content contentuid="h9d031748g20cfg44f8g8f2dgfe5a46d5c486" version="1">Teleport a creature you've magically twisted the space around to an unoccupied space.</content>
-	<content contentuid="h5dd7fde2g45f8g41a4g9ae8g115da5c10022" version="1">Susceptible to being teleported to an unoccupied space.</content>
-
-
-new entry "Target_VortexWarp"
-type "SpellData"
-data "SpellType" "Target"
-data "Level" "2"
-data "SpellSchool" "Conjuration"
-data "TargetRadius" "27"
-data "SpellRoll" "SpellAutoResolveOnAlly(Ability.Constitution, SourceSpellDC(),true)"
-data "SpellSuccess" "ApplyStatus(VORTEX_WARP,100,-1);ApplyStatus(SELF,VORTEX_WARP_TECHNICAL,100,-1);IF(HasPassive('Metamagic_Twinned',context.Source)):ApplyStatus(SELF,VORTEX_WARP_TECHNICAL_2,100,-1)"
-data "TargetConditions" "Character() and not Dead() and not Self()"
-data "Icon" "Spell_Conjuration_VortexWarp"
-data "DisplayName" "he7b9654cg5abag4a17g8ca7g9a0f4d858982;1"
-data "Description" "hc360f59bgd658g482bg991ag4e89dd68c601;1"
-data "TooltipAttackSave" "Constitution"
-data "TooltipUpcastDescription" "5217141e-4587-4ade-ada9-77d7171d4520"
-data "TooltipUpcastDescriptionParams" "Distance(9)"
-data "CastTextEvent" "Cast"
-data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
-data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
-data "VocalComponentSound" "Vocal_Component_Teleport"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
-data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
-data "VerbalIntent" "Utility"
-data "SpellFlags" "HasVerbalComponent;IsSpell;HasSomaticComponent"
-data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
-data "CastEffect" "4f8e353e-c04e-45c3-880b-d10885fd091f"
 
 new entry "Teleportation_VortexWarp"
 type "SpellData"
