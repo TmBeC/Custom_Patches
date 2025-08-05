@@ -5,19 +5,16 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d"/>
-                    <attribute id="Name" type="FixedString" value="Ritual Caster Feat 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages;Shout_FeatherFall;Shout_DetectThoughts;Target_Silence;Target_FeignDeath;Target_Ceremony_Ritual;Shout_DetectMagic_Ritual;Target_UnseenServant_Ritual;Target_WaterWalk"/>
-                    <attribute id="UUID" type="guid" value="0317eb21-bb8e-44d4-9b63-4585cc5db37e"/>
+                    <attribute id="Name" type="FixedString" value="Ritual Caster Feat" />
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_DisguiseSelf;Shout_FeatherFall;Target_Longstrider;Target_Jump;Target_Ceremony_Ritual;Shout_ComprehendLanguages;Shout_DetectMagic_Ritual;Target_FindFamiliar;Shout_SpeakWithAnimals;Target_UnseenServant_Ritual;Target_Silence;Target_SpeakWithDead;Target_FeignDeath;Target_WaterWalk;Shout_CommuneWithNature_Ritual" />
+                    <attribute id="UUID" type="guid" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d" />
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d"/>
                     <attribute id="Name" type="FixedString" value="Ritual Caster Feat NEW"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="78cc832e-568e-4b81-9fef-d53c41c1c76a"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Ritual Caster Feat"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="4b96eed7-d8a8-4485-aa71-d3e344f9d58b"/>
@@ -29,13 +26,11 @@
                     <attribute id="UUID" type="guid" value="2fabbb58-30bd-44fd-9ca2-16f703397b7e"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="64784e08-e31e-4850-a743-ecfb3fd434d7"/>
                     <attribute id="Name" type="FixedString" value="SpellSniperAttackSpells NEW"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="9d0b6a9f-cb8b-4c3f-8a24-8ec810879794"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="64784e08-e31e-4850-a743-ecfb3fd434d7"/>
                     <attribute id="Name" type="FixedString" value="5eSpells SpellSniperAttackSpells"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="451a982f-8a71-4261-b38a-da8916ccecbb"/>

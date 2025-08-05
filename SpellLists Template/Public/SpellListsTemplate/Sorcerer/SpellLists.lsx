@@ -16,6 +16,57 @@
                     <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Throw_Catapult;Shout_DetectMagic;Shout_EarthTremor;Target_Grease;Target_IdInsinuation;Target_SilveryBarbs;Target_SuddenAwakening;Zone_CausticBrew"/>
                     <attribute id="UUID" type="guid" value="2b64fc5b-aac2-4233-b92a-76c74041c1e5"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 2 expanded 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                </node>
+
+
+
+
+
+
+lvl 1
+
+
+
+lvl 2
+
+
+
+lvl 3
+
+
+
+lvl 4
+
+
+
+lvl 5
+
+
+
+lvl 6
+
+
+
+lvl 7
+
+
+
+lvl 8
+
+
+
+lvl 9
+
+
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
 
 
 
@@ -25,6 +76,57 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
 
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="9e38e5ae-51e8-4dd4-aad5-869a571b1519"/>
@@ -49,18 +151,26 @@
 
 
 
-
-
-
-
-
-
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 2 expanded 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="SpellList_UUID"/>
+                    <attribute id="Comment" type="LSString" value="Sorcerer SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_GlobeOfInvulnerability;Zone_Sunbeam;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="9e38e5ae-51e8-4dd4-aad5-869a571b1519"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Sorcerer SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_GlobeOfInvulnerability;Zone_Sunbeam;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="5a8a002c-352b-44e9-8233-da7e6112f4b0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Sorcerer SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_GlobeOfInvulnerability;Zone_Sunbeam;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="d58ac072-e079-410b-b167-a5e43723b59f"/>
+                </node>
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Sorcerer SLevel 3 5R"/>

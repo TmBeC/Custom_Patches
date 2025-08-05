@@ -5,84 +5,167 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="61f79a30-2cac-4a7a-b5fe-50c89d307dd6"/>
-                    <attribute id="Name" type="FixedString" value="Bard cantrip 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Prestidigitation;Projectile_StarryWisp;Shout_Thunderclap"/>
-                    <attribute id="UUID" type="guid" value="8790a3b3-9967-480b-9767-a2561f808da7"/>
+                    <attribute id="Name" type="FixedString" value="Bard cantrip"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_DancingLights;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Target_Prestidigitation;Projectile_StarryWisp;Shout_Thunderclap;Target_TrueStrike;Target_ViciousMockery"/>
+                    <attribute id="UUID" type="guid" value="61f79a30-2cac-4a7a-b5fe-50c89d307dd6"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="dcb45167-86bd-4297-9b9d-c295be51af5b"/>
-                    <attribute id="Name" type="FixedString" value="Bard spells level 1 5R"/>
-                    <attribute id="Spells" type="LSString" value="Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Zone_CausticBrew;Target_UnseenServant"/>
-                    <attribute id="UUID" type="guid" value="82a0b928-58ac-44db-8e85-5447d7cc1b17"/>
-                </node>
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="7ea8f476-97a1-4256-8f10-afa76a845cce"/>
-                    <attribute id="Name" type="FixedString" value="Bard spells level 2 5R"/>
+                    <attribute id="Name" type="FixedString" value="Bard spells level 1"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="b3b40a74-ab8f-4999-a8eb-b5b8be7713ae"/>
+                    <attribute id="UUID" type="guid" value="dcb45167-86bd-4297-9b9d-c295be51af5b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 3 5R"/>
+                    <attribute id="Name" type="FixedString" value="Bard spells level 2"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="66b19ee2-e8dc-4436-91c3-cc0d3d3d3bae"/>
+                    <attribute id="UUID" type="guid" value="7ea8f476-97a1-4256-8f10-afa76a845cce"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 4 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_FountOfMoonlight"/>
-                    <attribute id="UUID" type="guid" value="d78a3583-a907-42c5-9c2b-bb13ef7fc523"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 5 5R"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 3"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="e59f7dfd-3462-478a-bf3f-c89a1c046a44"/>
+                    <attribute id="UUID" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 6 5R"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="e2b7d335-19f9-43df-a267-42109141ab6a"/>
-                </node>
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="f923e058-b1d9-4b02-98ef-9daaa82a71b6"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 7 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_Regenerate;Target_ATT_Symbol"/>
-                    <attribute id="UUID" type="guid" value="07132d3d-9e23-46e2-ba90-80e6f2529647"/>
+                    <attribute id="UUID" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="073c09e5-ccb9-4153-a210-001225a30cbb"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 8 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_MindBlank;Target_ATT_PowerWordStun;Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_Regenerate;Target_ATT_Symbol"/>
-                    <attribute id="UUID" type="guid" value="bf699adb-0b23-4774-b0fe-688dc625eec4"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="2bbd99d0-21b4-41cc-836e-e386a96fc8e6"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 9 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Foresight;Target_MassPolymorph;Target_PowerWordHeal;Target_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream;Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_MindBlank;Target_ATT_PowerWordStun;Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_Regenerate;Target_ATT_Symbol"/>
-                    <attribute id="UUID" type="guid" value="c7dafe25-394b-4dca-acee-307d824c53a8"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="f923e058-b1d9-4b02-98ef-9daaa82a71b6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="073c09e5-ccb9-4153-a210-001225a30cbb"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="2bbd99d0-21b4-41cc-836e-e386a96fc8e6"/>
+                </node>
+
+lvl 1
+Target_AnimalFriendship;Target_Bane;Zone_CausticBrew;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Shout_DetectMagic;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_EarthTremor;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_SilveryBarbs;Target_Sleep;Shout_SpeakWithAnimals;Target_SuddenAwakening;Target_HideousLaughter;Zone_Thunderwave;Target_UnseenServant
+
+
+lvl 2
+Shout_Aid;Target_BlindnessDeafness;Shout_BorrowedKnowledge;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_NathairsMischief;Target_PhantasmalForce;Target_Pyrotechnics;Shout_SeeInvisibility;Target_Shatter;Target_Silence;Shout_WardingWind;Target_ZoneofTruth
+
+
+lvl 3
+
+
+Target_BestowCurse;
+Zone_Fear;
+Target_FeignDeath;
+Target_GlyphOfWarding;
+Target_HypnoticPattern;
+Target_PlantGrowth;
+Target_SpeakWithDead;
+Target_StinkingCloud
+
+
+lvl 4
+
+
+Target_Confusion;
+Teleportation_DimensionDoor;
+Target_FreedomOfMovement;
+Target_Invisibility_Greater;
+Target_Polymorph;
+
+
+lvl 5
+
+
+Target_DominatePerson;
+Target_GreaterRestoration;
+Target_HoldMonster;
+Target_CureWounds_Mass;
+Target_PlanarBinding;
+Target_Seeming;
+
+
+lvl 6
+
+
+Target_Eyebite;
+Target_IrresistibleDance;
+
+
+lvl 7
+
+
+Target_ATT_Etherealness;
+Target_ATT_PowerWordFortify;
+Zone_PrismaticSpray;
+Target_Regenerate;
+Target_ATT_Symbol
+
+
+lvl 8
+
+
+Target_Feeblemind;
+Target_DominateMonster;
+Shout_Glibness;
+Target_MindBlank;
+Target_ATT_PowerWordStun
+
+
+lvl 9
+
+
+Target_Foresight;
+Target_MassPolymorph;
+Target_PowerWordHeal;
+Target_PowerWordKill;
+Wall_ATT_PrismaticWall;
+Shout_PsychicScream
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Bard Magical Secrets SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value="
+					
+					
+					Projectile_Smite_Banishing_Container;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_DeathWard;Target_DominateBeast;Shout_FireShield;Target_GuardianOfFaith;Target_IceStorm;Wall_WallOfFire;Target_AnimateDead;Shout_AuraOfVitality;Target_CallLightning;Target_Counterspell;Shout_CrusadersMantle;Target_Daylight_Container;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HungerOfHadar;Zone_LightningBolt;Shout_HealingWord_Mass;Target_RemoveCurse;Teleportation_Revivify;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians;Target_VampiricTouch;Target_ArcaneLock;Shout_Blur;Target_Darkness;Target_Darkvision;Target_MistyStep;Shout_PassWithoutTrace;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_SpikeGrowth;Target_SpiritualWeapon;Target_Web;Shout_ArmorOfAgathys;Target_Bless;Projectile_ChromaticOrb;Target_Command_Container;Target_Entangle;Shout_FalseLife;Projectile_GuidingBolt;Shout_HellishRebuke;Target_Hex;Target_HuntersMark;Projectile_IceKnife;Projectile_MagicMissile;Target_Sanctuary;Target_Smite_Thunderous;Target_ChillTouch;Projectile_EldritchBlast;Projectile_FireBolt;Projectile_RayOfFrost;Target_SacredFlame"/>
+                    <attribute id="UUID" type="guid" value="95f80109-32b7-43f8-a99a-7ee2286a993a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Bard Magical Secrets SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="
+					
+					
+					
+					
+					Projectile_Smite_Banishing_Container;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_DeathWard;Target_DominateBeast;Shout_FireShield;Target_GuardianOfFaith;Target_IceStorm;Wall_WallOfFire;Target_AnimateDead;Shout_AuraOfVitality;Target_CallLightning;Target_Counterspell;Shout_CrusadersMantle;Target_Daylight_Container;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HungerOfHadar;Zone_LightningBolt;Shout_HealingWord_Mass;Target_RemoveCurse;Teleportation_Revivify;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians;Target_VampiricTouch;Target_ArcaneLock;Shout_Blur;Target_Darkness;Target_Darkvision;Target_MistyStep;Shout_PassWithoutTrace;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_SpikeGrowth;Target_SpiritualWeapon;Target_Web;Shout_ArmorOfAgathys;Target_Bless;Projectile_ChromaticOrb;Target_Command_Container;Target_Entangle;Shout_FalseLife;Projectile_GuidingBolt;Shout_HellishRebuke;Target_Hex;Target_HuntersMark;Projectile_IceKnife;Projectile_MagicMissile;Target_Sanctuary;Target_Smite_Thunderous;Target_ChillTouch;Projectile_EldritchBlast;Projectile_FireBolt;Projectile_RayOfFrost;Target_SacredFlame"/>
+                    <attribute id="UUID" type="guid" value="cd83187f-c886-45c2-be81-34083981f240"/>
                 </node>
 
 
 
-
-		<!-- lv 6 Lore Bard Magical Secrets = Cleric + Druid + Wizard spell lists UP TO 3rd/THIRD LEVEL SPELLS -->
+        <!-- lv 6 Lore Bard Magical Secrets = Cleric + Druid + Wizard spell lists UP TO 3rd/THIRD LEVEL SPELLS -->
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="175ceed7-5a53-4f48-823c-41c4f72d18ae"/>
                     <attribute id="Name" type="FixedString" value="Lore Bard Magical Secrets 6 NEW"/>
                     <attribute id="Spells" type="LSString" value="Target_Bane;Target_Bless;Target_Ceremony;Target_CreateDestroyWater;Target_CureWounds;Shout_DetectEvilAndGood;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CharmPerson;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Target_Snare;Zone_Thunderwave;Zone_BurningHands;Throw_Catapult;Target_CauseFear;Projectile_ChromaticOrb;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Zone_FrostFingers;Target_Grease;Target_IdInsinuation;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Projectile_WitchBolt;Shout_HandOfRadiance;Target_SpareTheDying;Shout_WordOfRadiance;Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Infestation;Target_MagicStone;Target_PrimalSavagery;Projectile_StarryWisp;Shout_Thunderclap;Target_BoomingBlade_ClassSpell;Target_GreenFlameBlade;Target_LightningLure;Projectile_MindSliver;Target_Prestidigitation;Projectile_SappingSting;Shout_SwordBurst;Target_TollTheDead"/>
                     <attribute id="UUID" type="guid" value="b27f1f82-9509-4db5-869c-0dfeee1bae72"/>
                 </node>
-		<!-- lv 10 Magical Secrets = Bard + Cleric + Druid + Wizard spell lists UP TO 5th/FIFTH LEVEL SPELLS -->
+        <!-- lv 10 Magical Secrets = Bard + Cleric + Druid + Wizard spell lists UP TO 5th/FIFTH LEVEL SPELLS -->
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="Bard Magical Secrets 10 NEW"/>
@@ -101,104 +184,7 @@
 
 
 
-
-
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="7ea8f476-97a1-4256-8f10-afa76a845cce"/>
-                    <attribute id="Name" type="FixedString" value="Bard spells level 2 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Target_SilveryBarbs;Zone_SprayOfCards;Shout_EarthTremor;Target_SuddenAwakening"/>
-                    <attribute id="UUID" type="guid" value="fc6199da-836d-4834-a30a-d7380196f2b1"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 3 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_Catnap;Shout_DiscordantMelody;Target_IntellectFortress;Target_MotivationalSpeech;Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Target_SilveryBarbs;Zone_SprayOfCards;Shout_EarthTremor;Target_SuddenAwakening"/>
-                    <attribute id="UUID" type="guid" value="58c6c6fd-1701-49d2-a1c5-8c5377ccd148"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 4 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_CharmMonster;Target_DreamSleep;Target_IllusoryWeapon;Shout_MesmersLullaby;Target_PsychicLance;Target_Antagonize;Target_Catnap;Shout_DiscordantMelody;Target_IntellectFortress;Target_MotivationalSpeech;Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Target_SilveryBarbs;Zone_SprayOfCards;Shout_EarthTremor;Target_SuddenAwakening"/>
-                    <attribute id="UUID" type="guid" value="5c92aecf-ca32-42a1-8ae9-3e78f5aae170"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 5 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_SynapticStatic;Target_CharmMonster;Target_DreamSleep;Target_IllusoryWeapon;Shout_MesmersLullaby;Target_PsychicLance;Target_Antagonize;Target_Catnap;Shout_DiscordantMelody;Target_IntellectFortress;Target_MotivationalSpeech;Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Target_SilveryBarbs;Zone_SprayOfCards;Shout_EarthTremor;Target_SuddenAwakening"/>
-                    <attribute id="UUID" type="guid" value="6553eed7-dfcd-4e30-bf71-a0843a3b491e"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 6 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_TrueSeeing;Target_SynapticStatic;Target_CharmMonster;Target_DreamSleep;Target_IllusoryWeapon;Shout_MesmersLullaby;Target_PsychicLance;Target_Antagonize;Target_Catnap;Shout_DiscordantMelody;Target_IntellectFortress;Target_MotivationalSpeech;Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Target_SilveryBarbs;Zone_SprayOfCards;Shout_EarthTremor;Target_SuddenAwakening"/>
-                    <attribute id="UUID" type="guid" value="ef65538d-8cc5-4c36-9716-bc8da25f0e47"/>
-                </node>
-
-
-
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="7ea8f476-97a1-4256-8f10-afa76a845cce"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Bard spells level 2"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Aid;Shout_BorrowedKnowledge;Target_EnlargeReduce;Shout_KineticJaunt;Target_Knock;Shout_MirrorImage;Target_NathairsMischief;Shout_WardingWind;Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_UnseenServant;Target_ZoneofTruth"/>
-                    <attribute id="UUID" type="guid" value="dd255f0a-b524-4070-944e-20a09701e2a0"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_IntellectFortress;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_Nondetection;Target_Slow;Shout_Aid;Shout_BorrowedKnowledge;Target_EnlargeReduce;Shout_KineticJaunt;Target_Knock;Shout_MirrorImage;Target_NathairsMischief;Shout_WardingWind;Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_UnseenServant;Target_ZoneofTruth"/>
-                    <attribute id="UUID" type="guid" value="7315dde5-2265-4fc9-8cde-b7ec5d7a0e8b"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_CharmMonster;Target_PhantasmalKiller;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_IntellectFortress;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_Nondetection;Target_Slow;Shout_Aid;Shout_BorrowedKnowledge;Target_EnlargeReduce;Shout_KineticJaunt;Target_Knock;Shout_MirrorImage;Target_NathairsMischief;Shout_WardingWind;Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_UnseenServant;Target_ZoneofTruth"/>
-                    <attribute id="UUID" type="guid" value="594987a5-0416-4722-8606-e62cd69681da"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Target_PhantasmalKiller;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_IntellectFortress;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_Nondetection;Target_Slow;Shout_Aid;Shout_BorrowedKnowledge;Target_EnlargeReduce;Shout_KineticJaunt;Target_Knock;Shout_MirrorImage;Target_NathairsMischief;Shout_WardingWind;Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_UnseenServant;Target_ZoneofTruth"/>
-                    <attribute id="UUID" type="guid" value="04f115cb-ab71-4ba7-bd6f-63e962e37c47"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_HeroesFeast;Target_TrueSeeing;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Target_PhantasmalKiller;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_IntellectFortress;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_Nondetection;Target_Slow;Shout_Aid;Shout_BorrowedKnowledge;Target_EnlargeReduce;Shout_KineticJaunt;Target_Knock;Shout_MirrorImage;Target_NathairsMischief;Shout_WardingWind;Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_UnseenServant;Target_ZoneofTruth"/>
-                    <attribute id="UUID" type="guid" value="9f49d8f3-dc28-48a9-9786-a81accb1b38c"/>
-                </node>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- ======================================================================================================================================================================================================================================= -->
 
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Bard cantrip NEW"/>
@@ -220,15 +206,56 @@
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="2ffb1916-7af2-4899-8e60-2b08cdd5c492"/>
                 </node>
-
-
-
-
-
-
-
-
-
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard spells level 2 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="fc6199da-836d-4834-a30a-d7380196f2b1"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Bard spells level 2"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="dd255f0a-b524-4070-944e-20a09701e2a0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 3 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="58c6c6fd-1701-49d2-a1c5-8c5377ccd148"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="7315dde5-2265-4fc9-8cde-b7ec5d7a0e8b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 4 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="5c92aecf-ca32-42a1-8ae9-3e78f5aae170"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="594987a5-0416-4722-8606-e62cd69681da"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 5 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="6553eed7-dfcd-4e30-bf71-a0843a3b491e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="04f115cb-ab71-4ba7-bd6f-63e962e37c47"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 6 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="ef65538d-8cc5-4c36-9716-bc8da25f0e47"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="9f49d8f3-dc28-48a9-9786-a81accb1b38c"/>
+                </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5eSpells Bard SLevel 7"/>
                     <attribute id="Spells" type="LSString" value=""/>

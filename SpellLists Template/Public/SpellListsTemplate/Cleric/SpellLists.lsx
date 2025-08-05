@@ -22,10 +22,128 @@
                     <attribute id="Spells" type="LSString" value="Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
                     <attribute id="UUID" type="guid" value="3553c382-6aaa-4897-bff7-b20a84581d3f"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac"/>
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BorrowedKnowledge;Target_ContinualFlame;Target_ZoneofTruth;Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
+                    <attribute id="UUID" type="guid" value="dd4db95f-7998-4521-8a05-0d2d87a2b351"/>
+                </node>
+
+
+lvl 1
+
+
+
+lvl 2
+
+
+
+lvl 3
+
+
+
+lvl 4
+
+
+
+lvl 5
+
+
+
+lvl 6
+
+
+
+lvl 7
+
+
+
+lvl 8
+
+
+
+lvl 9
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
 
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="11862b36-c2d6-4d2f-b2d7-4af29f8fe31a"/>
@@ -51,12 +169,30 @@
 
 
 
+
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac"/>
-                    <attribute id="Name" type="FixedString" value="Cleric SLevel 2 5R"/>
+                    <attribute id="Comment" type="LSString" value="Cleric SLevel 7"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="dd4db95f-7998-4521-8a05-0d2d87a2b351"/>
+                    <attribute id="UUID" type="guid" value="11862b36-c2d6-4d2f-b2d7-4af29f8fe31a"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Cleric SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="a0df1e32-1c61-4017-939f-44cc7695a924"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Cleric SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="9ea2891d-f0f9-42d0-b13d-7f1a5df154c3"/>
+                </node>
+
+
+
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="21be0992-499f-4c7a-a77a-4430085e947a"/>
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 3 5R"/>

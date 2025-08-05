@@ -3,6 +3,28 @@
 
 
 
+// Changes from mods
+(Blindness)
+Target_BlindnessDeafness
+
+(Shining Smite: Melee)
+Target_Smite_Branding
+
+(Shining Smite: Ranged)
+Projectile_Smite_Branding
+
+(Shining Smite: Zariel Tiefling)
+Target_Smite_Branding_ZarielTiefling
+
+(Banishing Smite: Melee)
+Target_Smite_Banishing
+
+(Banishing Smite: Ranged)
+Projectile_Smite_Banishing
+
+
+
+
 
 
 
@@ -84,6 +106,12 @@ Shout_ZephyrStrike
 
 
 
+
+
+
+
+
+
 // 2nd Level Spells
 (Aganazzars Scorcher)
 Zone_AganazzarsScorcher
@@ -138,9 +166,6 @@ Target_VortexWarp
 
 (Warding Wind)
 Shout_WardingWind
-
-(Wither and Bloom)
-
 
 (Zone of Truth)
 Target_ZoneofTruth

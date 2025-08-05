@@ -13,6 +13,90 @@
 
 
 
+
+
+
+
+
+lvl 1
+
+
+
+lvl 2
+
+
+
+lvl 3
+
+
+
+lvl 4
+
+
+
+lvl 5
+
+
+
+lvl 6
+
+
+
+lvl 7
+
+
+
+lvl 8
+
+
+
+lvl 9
+
+
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
 Warlock lists changed in 2024
 No longer have an Expanded Spelllist to choose more from
 Gets an Always Prepared list instead
@@ -313,6 +397,36 @@ Wrathful Smite - slvl1
 
 
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Mystic Arcanum SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="388cd3b0-914a-44b6-a828-1315323b9fd7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Mystic Arcanum SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="070495e1-ccf4-4c05-9add-61c5010b8204"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Mystic Arcanum SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="47766c27-e791-4e6e-9b3d-2bb379106e62"/>
+                </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec"/>
                     <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 2 NEW"/>
                     <attribute id="Spells" type="LSString" value="Zone_AganazzarScorcher;Shout_BorrowedKnowledge;Target_Earthbind;Target_FlockOfFamiliars;Target_HealingElixir;Shout_MentalBarrier;Target_MindSpike;Shout_ShadowBlade_Spell;Zone_SprayOfCards;Target_CauseFear;Shout_EarthTremor;Zone_FrostFingers;Target_IdInsinuation"/>
@@ -583,7 +697,7 @@ Wrathful Smite - slvl1
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="070495e1-ccf4-4c05-9add-61c5010b8204"/>
                     <attribute id="Name" type="FixedString" value="AddTo_Warlock8thOther"/>
-                    <attribute id="Spells" type="LSString" value="Target_ATT_DominateMonster;Projectile_ATT_Feeblemind;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun" />
+                    <attribute id="Spells" type="LSString" value="Target_ATT_DominateMonster;Projectile_ATT_Feeblemind;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun"/>
                     <attribute id="UUID" type="guid" value="17fd78d3-71e0-47a3-b0a2-416922a198f1"/>
                 </node>
                 <node id="SpellList">

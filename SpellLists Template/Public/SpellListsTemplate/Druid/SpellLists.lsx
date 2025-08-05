@@ -16,6 +16,55 @@
                     <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_BeastBond;Shout_DetectMagic;Shout_EarthTremor;Target_ProtectionFromEvilAndGood;Target_Snare"/>
                     <attribute id="UUID" type="guid" value="185be763-1af3-4ede-8e2a-d6e8b96221a6"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
+                    <attribute id="Name" type="FixedString" value="Druid spells level 2 5R"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="003b833b-431f-4730-bad3-2bafa014f4f4"/>
+                </node>
+
+
+
+
+lvl 1
+
+
+
+lvl 2
+
+
+
+lvl 3
+
+
+
+lvl 4
+
+
+
+lvl 5
+
+
+
+lvl 6
+
+
+
+lvl 7
+
+
+
+lvl 8
+
+
+
+lvl 9
+
+
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
 
 
 
@@ -25,6 +74,60 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
 
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="29c9cf78-3bd6-47dc-88b4-2dce54710124"/>
@@ -49,18 +152,26 @@
 
 
 
-
-
-
-
-
-
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Druid spells level 2 5R"/>
+                    <attribute id="Comment" type="LSString" value="Druid SLevel 7"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="003b833b-431f-4730-bad3-2bafa014f4f4"/>
+                    <attribute id="UUID" type="guid" value="29c9cf78-3bd6-47dc-88b4-2dce54710124"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Druid SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="bdff0cba-d631-4b83-9562-63c0187df380"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Druid SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="9e388f0f-7432-4f29-bfe5-5358ebde4491"/>
+                </node>
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Druid SLevel 3 5R"/>

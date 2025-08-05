@@ -5,115 +5,422 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 1 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic"/>
-                    <attribute id="UUID" type="guid" value="770d8c35-5bdd-4d7d-bf4a-719bf12421ba"/>
-                </node>
-
-
-
-
-
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 2 5R"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 1"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="98017c2b-9332-49af-b59f-cbf816eb1cb3"/>
+                    <attribute id="UUID" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 3 5R"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 2"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="be744ad8-1fc4-4a44-9e38-ec3bd4351db5"/>
+                    <attribute id="UUID" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 4 5R"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 3"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="fc32b3e5-37d3-4a3a-9df6-49c37fb80058"/>
+                    <attribute id="UUID" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 5 5R"/>
+                    <attribute id="Comment" type="LSString" value="Paladin SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="1962f68f-823c-4fdd-ab93-874c6207e047"/>
-                </node>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 2 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Target_ForceWeapon"/>
-                    <attribute id="UUID" type="guid" value="21d31053-83c0-46b4-b4a9-f32a5260d170"/>
+                    <attribute id="UUID" type="guid" value="11d0c2a0-41c6-4ec0-98fe-5d987f7e1665"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 3 NEW"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BlindFaith;Shout_CreateFoodAndWater;Shout_SpiritShroud"/>
-                    <attribute id="UUID" type="guid" value="10d2c10c-d1fa-47d3-ae79-c6b1a09d471d"/>
+                    <attribute id="Comment" type="LSString" value="Paladin SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="f351595c-90f7-4804-9e55-18c4d624593c"/>
                 </node>
 
 
 
+lvl 1
+Target_Bless;Target_Ceremony;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DetectEvilAndGood;Shout_DetectMagic;Shout_DivineFavor;
+<<Divine Smite>>
+Target_Heroism;Target_ProtectionFromEvilAndGood;Target_Smite_Searing;Target_ShieldOfFaith;Target_Smite_Thunderous;Target_Smite_Wrathful
 
 
+lvl 2
+Shout_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding;Warding_Bond;Target_ZoneofTruth
 
 
+lvl 3
+Shout_AuraOfVitality;Target_Smite_Blinding;
+<<Create Food and Water>>
+Shout_CrusadersMantle;Target_Daylight_Container;Target_ElementalWeapon;
+<<Magic Circle>>
+Target_RemoveCurse;Teleportation_Revivify;
+<<Spirit Shroud>>
 
 
+lvl 4
+<<Aura of Life>>
+<<Aura of Purity>>
+Target_Banishment;Target_DeathWard;Target_StaggeringSmite
+
+
+lvl 5
+Target_Smite_Banishing;
+<<Circle of Power>>
+Shout_DestructiveWave;Shout_DispelEvilAndGood;Target_GreaterRestoration;
+<<Holy Weapon>>
+<<Raise Dead>>
+<<Summon Celestial>>
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
+<!-- Paladin -->
+
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin always prepared spells level 1"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="fb407d81-3a05-46f1-9153-0fb27dce95b6"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin always prepared spells level 2"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="58aef51d-a46c-44c8-8bed-df90870eb55f"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin level 6 (Aura)"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="94db914d-95d0-484e-8a02-c0faa9d575a7"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin level 10 (Aura)"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="da27c6ae-15cf-4441-9115-82dcc282f8cc"/>
+</node>
+
+lvl 1
+Target_LayOnHands
+
+lvl 2
+Target_Smite_Divine;
+Target_Smite_Divine_Unlock;
+Target_Smite_Divine_Critical_Unlock
+
+lvl 3 (Channel Divinity)
+Shout_DivineSense (CD)
+
+lvl 6
+Shout_AuraOf_Protection
+
+lvl 9 (Channel Divinity)
+Target_AbjureEnemy (CD)
+
+lvl 10
+Shout_AuraOf_Courage
+
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
+<!-- Ancients -->
+
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Ancients Spells level 1"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="9e04298e-871d-414d-979a-c05570df603b"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Ancients Spells level 3"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="de27ac05-a6d2-4c77-8bc9-1611344f6370"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Ancients Spells level 5"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="0557efcb-f072-45e3-aee0-4f84359e777d"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Ancients level 7 (Aura)"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="f6e69adb-d2d3-4d38-aca1-639fb38cf0fd"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Ancients Spells level 9"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="02c495eb-c79a-445d-804c-628be82b586b"/>
+</node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value="Shout_PrayerOfHealing;Target_WardingBond;Target_ZoneofTruth"/>
-                    <attribute id="UUID" type="guid" value="a45ee3d1-874e-440e-9be7-09fd2123ab44"/>
+                    <attribute id="Comment" type="LSString" value="Ancient Paladin SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="e119674f-37d0-49f5-8c6e-426f65a254bc"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_CreateFoodAndWater;Target_MagicCircle;Shout_SpiritShroud"/>
-                    <attribute id="UUID" type="guid" value="5b1c6a5e-4c26-4238-879e-b5067809f816"/>
+                    <attribute id="Comment" type="LSString" value="Ancient Paladin SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="8c33c86e-e3e4-4ea2-838e-0823bef06061"/>
+                </node>
+
+lvl 3
+Projectile_EnsnaringStrike_Container;Shout_SpeakWithAnimals
+Target_NaturesWrath (CD)
+
+lvl 5
+Target_MistyStep;Target_Moonbeam
+
+lvl 7
+Shout_AuraOf_Warding
+
+lvl 9
+Target_PlantGrowth;Target_ProtectionFromEnergy
+
+lvl 13
+Target_IceStorm;Target_Stoneskin
+
+lvl 17
+Shout_CommuneWithNature
+<<Tree Stride ???>>
+
+<!-- Base Game Spells unused in 2024 -->
+Shout_HealingRadiance
+Shout_TurnTheFaithless
+Wall_WallOfStone
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
+<!-- Devotion -->
+
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 1"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="b4220712-15bb-4235-b4a8-9946a9708a9c"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 3"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 5"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="a54421d2-c07c-451a-b060-a125696e0ce7"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Devotion level 7 (Aura)"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="7112a6f2-8100-40e8-a411-75cde8847b36"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 9"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="99a16aaf-233b-4eb0-82cd-c4abfd2e389f"/>
+</node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Devotion Paladin SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="592ad940-48a6-4835-a147-84d0a237b9bf"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="11d0c2a0-41c6-4ec0-98fe-5d987f7e1665"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfLife"/>
-                    <attribute id="UUID" type="guid" value="3122a944-18ee-4bcc-9496-7999d29642ec"/>
+                    <attribute id="Comment" type="LSString" value="Devotion Paladin SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="70ee3e4a-536f-485d-882a-94de6fbf7c65"/>
+                </node>
+
+lvl 3
+Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith
+Shout_SacredWeapon (CD)
+
+lvl 5
+Shout_Aid;Target_ZoneofTruth
+
+lvl 7
+Shout_AuraOf_Devotion
+
+lvl 9
+Shout_BeaconOfHope;Target_Dispel_Magic
+
+lvl 13
+Target_FreedomOfMovement;Target_GuardianOfFaith
+
+lvl 17
+<<Commune ???>>
+Target_FlameStrike
+
+
+<!-- Base Game Spells unused in 2024 -->
+Target_HolyRebuke
+Shout_TurnTheUnholy;Target_Sanctuary
+Target_LesserRestoration;Target_Silence
+Target_RemoveCurse
+Target_GreaterRestoration
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
+<!-- Vengeance -->
+
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Vengance Spells level 1"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="bc56da1f-38fa-49b6-bf58-1159cecd92a4"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Vengance Spells level 3"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="5f73341d-36d7-4960-a5b2-4f916ec5e4b9"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Vengance Spells level 5"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="d04f6f81-6cb3-4dc7-9c78-21701bb1e385"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Vengance Spells level 9"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="49a63d5c-04a3-4f20-8da5-fa75136b0255"/>
+</node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Vengeance Paladin SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="47d6a1a8-eacc-4355-ac2d-dac73ff01490"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="f351595c-90f7-4804-9e55-18c4d624593c"/>
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_CircleOfPower;Target_HolyWeapon;Target_RaiseDead"/>
-                    <attribute id="UUID" type="guid" value="0ccd1ca9-2cdb-4fe8-93a1-51e40aa870c0"/>
+                    <attribute id="Comment" type="LSString" value="Vengeance Paladin SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="e8fce689-c836-45b3-9666-fb45d57ab1f9"/>
                 </node>
 
+lvl 3
+Target_Bane;Target_HuntersMark
+Target_VowOfEnmity (CD)
 
+lvl 5
+Target_HoldPerson;Target_MistyStep
 
+lvl 7
+<<RelentlessAvenger passive>>
 
+lvl 9
+Target_Haste;Target_ProtectionFromEnergy
 
+lvl 13
+Target_Banishment;Teleportation_DimensionDoor
 
+lvl 17
+Target_HoldMonster
+<<Scrying ???>>
 
+<!-- Base Game Spells unused in 2024 -->
+Target_InquisitorsMight
+Target_AbjureEnemy
+Target_FarStep
 
+<!-- ======================================================================================================================================================================================================================================= -->
 
+<!-- Crown -->
 
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 1"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="0e170ae3-56b4-487a-9690-83b7a9975a43"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 3"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="04454ba7-6ad0-430f-9005-4a14602bb436"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 5"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="07e548a2-ddd4-4865-a899-96c8077817b9"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Crown spells level 9"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="4f0b2566-0486-4c61-b491-7bb48afd52c3"/>
+</node>
+
+<!-- 2014 -->
+lvl 3
+Target_Command_Container;Target_CompelledDuel
+Shout_Champion_Challenge (CD)
+Shout_TurnTheTide (CD)
+
+lvl 5
+Target_WardingBond;Target_ZoneofTruth
+
+lvl 7
+<<DivineAllegiance passive>>
+
+lvl 9
+Shout_AuraOfVitality;Shout_SpiritGuardians
+
+lvl 13
+Target_Banishment;Target_GuardianOfFaith
+
+lvl 17
+<<Circle of Power>>
+<<Geas ???>>
+
+<!-- Base Game Spells unused in 2024 -->
+Target_RighteousClarity
+Target_SpiritualWeapon
+
+<!-- ======================================================================================================================================================================================================================================= -->
+
+<!-- Oathbreaker -->
+
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Oathbreaker Spells level 1"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="cb1e5aad-26cd-4370-a179-5536bfcc3d47"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Oathbreaker Spells level 3"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="a59baeac-1be2-40ac-b93c-20eb498b0e0b"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Oathbreaker Spells level 5"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="06330a3b-4b76-4cb0-b23d-9041a9a2868a"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Oathbreaker level 7 (Aura)"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="20c3ac99-a937-464c-810d-d2f50ba44e6e"/>
+</node>
+<node id="SpellList">
+    <attribute id="Name" type="FixedString" value="Paladin Oathbreaker Spells level 9"/>
+    <attribute id="Spells" type="LSString" value=""/>
+    <attribute id="UUID" type="guid" value="dd7c1c98-73ab-4543-a17e-c19e680caaa4"/>
+</node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Oathbreaker Paladin SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="243663d7-7662-49bc-83cc-f99284138761"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Oathbreaker Paladin SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="5054ddf0-e093-4228-8c62-6ed98667c4f7"/>
+                </node>
+
+<!-- 2014 -->
+lvl 3
+Shout_HellishRebuke;Target_InflictWounds
+Target_ControlUndead (CD)
+Shout_Dreadful_Aspect (CD)
+
+lvl 5
+Target_CrownOfMadness;Target_Darkness
+
+lvl 7
+Shout_AuraOf_Hate
+
+lvl 9
+Target_AnimateDead;Target_BestowCurse
+
+lvl 13
+Target_Blight;Target_Confusion
+
+lvl 17
+Target_Contagion;Target_DominatePerson
+
+<!-- Base Game Spells unused in 2024 -->
+Target_SpitefulSuffering
+
+<!-- ======================================================================================================================================================================================================================================= -->
 
 
                 <node id="SpellList">
@@ -122,13 +429,40 @@
                     <attribute id="UUID" type="guid" value="20ec5141-3e56-420a-9226-9697fee8512e"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 2 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="21d31053-83c0-46b4-b4a9-f32a5260d170"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 3 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="10d2c10c-d1fa-47d3-ae79-c6b1a09d471d"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 1"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="f9c4d953-9080-41c7-8da5-f3e7be65678b"/>
                 </node>
-
-
-
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="a45ee3d1-874e-440e-9be7-09fd2123ab44"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="5b1c6a5e-4c26-4238-879e-b5067809f816"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="3122a944-18ee-4bcc-9496-7999d29642ec"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="0ccd1ca9-2cdb-4fe8-93a1-51e40aa870c0"/>
+                </node>
             </children>
         </node>
     </region>

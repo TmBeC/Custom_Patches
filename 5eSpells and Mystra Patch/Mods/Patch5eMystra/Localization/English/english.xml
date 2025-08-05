@@ -220,6 +220,12 @@
   <content contentuid="hebe5ccffd42343b59dbec1abd9dfdc0d7d93" version="1">Affected entity can't take reactions and it must choose whether it uses movement, takes an action, or a bonus action; it gets only one of the three.</content>
   <content contentuid="hf8647f7b6ee84c74bfbaf42469fba0bc6ed9" version="1">Mind Whip: Actions</content>
   <content contentuid="h9a4f58164b104dbcac7b1f3332ae532ac085" version="1">You can't take an action, a bonus action, and movement. If you take an action, you lose a bonus action and movement, and vice versa.</content>
+  <content contentuid="heae2c0b0459c4b5c819d95be9afd803f2ff7" version="1">Vortex Warp</content>
+  <content contentuid="h516a9c5d69fc4751baf42befc8e096a9604g" version="1">Magically twist space around another creature up to [1] away and teleport them to an unoccupied space.</content>
+  <content contentuid="h45a3743e02e748279d369af3b9d5a26ac7e0" version="1">Vortex Warp</content>
+  <content contentuid="hdb21976f2999467f8f266654b7263a6e5b17" version="1">Can be teleported by Vortex Warp.</content>
+  <content contentuid="h252a44f2b0ce4edbbcf3bd7fe989447cde45" version="1">Vortex Warp</content>
+  <content contentuid="h20f4cfb2ca4e414e9c593dacb9112baae305" version="1">Magically twist space around another creature and teleport them up to [1] away.</content>
 
 
 
