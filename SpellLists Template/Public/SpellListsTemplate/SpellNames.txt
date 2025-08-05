@@ -113,10 +113,10 @@ Target_EarthenGrasp
 Shout_MentalBarrier
 
 (Mind Spike)
-
+Target_MindSpike
 
 (Nathairs Mischief)
-
+Target_NathairsMischief
 
 (Pyrotechnics)
 Target_Pyrotechnics

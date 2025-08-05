@@ -1,98 +1,29 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2nd-level Illusion
-
-Casting Time: 1 Action
-Range: 60ft
-Components: S, M (a piece of crust from an apple pie)
-Duration: Concentration, up to 1 minute
-
-You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.
-
-Mischievous Surge
-d4 	Effect
-1 	The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next turn.
-2 	Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces.
-3 	Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction.
-4 	Drops of molasses appear and hover in the cube, turning it into difficult terrain until the start of your next turn.
-
-
-
-
-
-
-
-
-
-
-
-
-
-mystras
-
-  <content contentuid="h806e7c99g7389g4d8bg1bd3g1d1ea146dfa9" version="1">Nathair's Mischief</content>
-  <content contentuid="haf64a579geb2dgc6bdg4076g220088e74586" version="6">Until the entity passes a saving throw they are affected by one of the following each turn: &lt;LSTag Type="Status" Tooltip="NATHAIRS_MISCHIEF_1"&gt;Charmed&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="NATHAIRS_MISCHIEF_2"&gt;Blinded&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="NATHAIRS_MISCHIEF_3"&gt;Incapacitated&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="NATHAIRS_MISCHIEF_4"&gt;Slowed&lt;/LSTag&gt; as if on difficult terrain.</content>
-  <content contentuid="hef6620c6g8a36gc18cg86e2ga4349086aa9f" version="1">Nathair's Mischief</content>
-  <content contentuid="h5d553d3dg16dagfcceg5032g2138f89cce50" version="4">Enchant all creatures within [1] of the target location with a random debilitating effect at the start of each turn.</content>
-  <content contentuid="hf95f322dg86b6g750eg0ff3gd8b8b1a05cab" version="1">%%% EMPTY</content>
-  <content contentuid="hd3b9e77ag4c7eg1511g6845g08543e24c5a3" version="1">Nathair's Blindness</content>
-  <content contentuid="hcac69919g7094g50a7gc027g0afe81b49fbf" version="1">Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Range of attacks and spells reduced to [1]. &lt;br&gt;&lt;br&gt;Attack Rolls against Blinded creatures have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
-  <content contentuid="h81bf91feg76fcgb0abgd312ga7be7d52726d" version="1">Nathair's Charm</content>
-  <content contentuid="ha11aff96gc757gfdb4gae53g05eeca6b3acf" version="1">Can't attack spellcaster. Spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; in dialogue.</content>
-  <content contentuid="hafd65bdbg9288gb695g521bg008e8da49e41" version="1">Nathair's Laughter</content>
-  <content contentuid="hb5f9a16ag3cafg12begd441g2e2d00c48a30" version="1">Nathair's Slipperiness</content>
-  <content contentuid="hf9ab1f88g7345g633fg7c47g53a8dba40a64" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; halved as if walking on &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
-
 new entry "Target_NathairsMischief"
 type "SpellData"
 data "SpellType" "Target"
 data "Level" "2"
 data "SpellSchool" "Illusion"
-data "SpellProperties" "ApplyStatus(NATHAIRS_MISCHIEF, 100, 10)"
+data "SpellProperties" "ApplyStatus(NATHAIRS_MISCHIEF,100,10)"
 data "TargetRadius" "18"
 data "AreaRadius" "6"
 data "AoEConditions" "not Dead() and Character()"
-data "Icon" "Spell_New_NathairsMischief"
-data "DisplayName" "hef6620c6g8a36gc18cg86e2ga4349086aa9f;1"
-data "Description" "h5d553d3dg16dagfcceg5032g2138f89cce50;4"
+data "Icon" "Spell_Illusion_NathairsMischief"
+data "DisplayName" "hd58202e8d1684c76bfe359e4430e52e9ge9g;1"
+data "Description" "he9a44da23683427895d4ae8e1428c857266g;1"
 data "DescriptionParams" "Distance(6)"
-data "TooltipStatusApply" "ApplyStatus(NATHAIRS_MISCHIEF, 100, 10)"
+data "TooltipStatusApply" "ApplyStatus(NATHAIRS_MISCHIEF,100,10)"
 data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
 data "PrepareSound" "Spell_Prepare_Control_Gen_L1to3_01"
 data "PrepareLoopSound" "Spell_Prepare_Control_Gen_L1to3_01_Loop"
-data "CastSound" "Spell_Cast_Debuff_FaerieFire_L1to3"
-data "TargetSound" "Spell_Impact_Debuff_FaerieFire_L1to3"
+data "CastSound" "Spell_Cast_Debuff_Silence_L1to3"
+data "TargetSound" "Spell_Impact_Debuff_Silence_L1to3"
+data "VocalComponentSound" "Vocal_Component_Silence"
 data "CastTextEvent" "Cast"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
 data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;3e441d3f-11f9-432d-877c-c0ba4d92c74a,,;8b7ae969-2a04-4720-9685-3bde54c18ffe,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
 data "VerbalIntent" "Control"
-data "SpellFlags" "IsSpell;IsConcentration;IsHarmful;RangeIgnoreVerticalThreshold;HasSomaticComponent;HasVerbalComponent"
+data "SpellFlags" "IsSpell;IsConcentration;IsHarmful;HasSomaticComponent;HasVerbalComponent"
 data "MemoryCost" "1"
 data "PrepareEffect" "f8e1f2b3-7539-49f4-b9e8-4f76c0f3bcf5"
 data "CastEffect" "8fe961a7-510b-45b7-a913-3690327b4551"
@@ -154,27 +85,6 @@ data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
 data "RootSpellID" "Target_NathairsMischief"
 data "PowerLevel" "9"
 
-
-
-new entry "NATHAIRS_MISCHIEF"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h806e7c99g7389g4d8bg1bd3g1d1ea146dfa9;1"
-data "Description" "haf64a579geb2dgc6bdg4076g220088e74586;6"
-data "Icon" "Spell_New_NathairsMischief"
-data "SoundLoop" "Spell_Status_FaerieFire_MO"
-data "SoundStop" "Spell_Status_FaerieFire_MO_Stop"
-data "StackId" "NATHAIRS_MISCHIEF"
-data "StackType" "Overwrite"
-data "TickType" "StartTurn"
-data "RemoveConditions" "HasStatus('NATHAIRS_MISCHIEF_SAVED')"
-data "RemoveEvents" "OnStatusApplied"
-data "TooltipSave" "Wisdom;Dexterity"
-data "TickFunctors" "IF(RollDieAgainstDC(DiceType.d4,4)):ApplyStatus(NATHAIRS_MISCHIEF_1,100,1);IF(RollDieAgainstDC(DiceType.d12,9)):ApplyStatus(NATHAIRS_MISCHIEF_2,100,1);IF(RollDieAgainstDC(DiceType.d4,3)):ApplyStatus(NATHAIRS_MISCHIEF_3,100,1);ApplyStatus(NATHAIRS_MISCHIEF_4,100,1)"
-data "StatusGroups" "SG_RemoveOnRespec"
-data "ApplyEffect" "887e86db-a1a5-4ea2-8b96-e3195e66b24c"
-data "StatusEffect" "423ef553-a009-40d0-b110-1f5398b1b774"
-
 new entry "NATHAIRS_MISCHIEF_SAVED"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -184,374 +94,94 @@ data "StackPriority" "5"
 data "StackType" "Overwrite"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
-new entry "NATHAIRS_MISCHIEF_1"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h81bf91feg76fcgb0abgd312ga7be7d52726d;1"
-data "Description" "ha11aff96gc757gfdb4gae53g05eeca6b3acf;1"
-data "Icon" "Status_Charmed"
-data "SoundLoop" "Spell_Status_Control_MO"
-data "SoundStop" "Spell_Status_Control_MO_Stop"
-data "StackId" "NATHAIRS_MISCHIEF_STATUS"
-data "StackType" "Overwrite"
-data "TickType" "StartTurn"
-data "Boosts" "CannotHarmCauseEntity(CannotHarmCharmer);Advantage(SourceDialogue,Charisma)"
-data "RemoveConditions" "HasDamageEffectFlag(DamageFlags.Hit) and HasSpellFlag(SpellFlags.Harmful) and (IsInflicterEqualToSource() or Ally(context.HitDescription.InflicterObject, context.Source))"
-data "RemoveEvents" "OnAttacked"
-data "StatusPropertyFlags" "TickingWithSource;InitiateCombat;OverheadOnTurn"
-data "OnApplyRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
-data "OnApplyFail" "ApplyStatus(NATHAIRS_MISCHIEF_SAVED,100,1)"
-data "StatusGroups" "SG_Charmed;SG_Condition;SG_Charmed_Subtle"
-data "StatusEffect" "a53689ae-d00b-45e1-8dd6-4540635f070e"
-
-new entry "NATHAIRS_MISCHIEF_2"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "hd3b9e77ag4c7eg1511g6845g08543e24c5a3;1"
-data "Description" "hcac69919g7094g50a7gc027g0afe81b49fbf;1"
-data "DescriptionParams" "Distance(3)"
-data "Icon" "Status_Blinded"
-data "StillAnimationType" "Blinded"
-data "StillAnimationPriority" "Blinded"
-data "SoundVocalStart" "WEAK"
-data "SoundLoop" "Spell_Status_Blinded_MO"
-data "SoundStop" "Spell_Status_Blinded_MO_Stop"
-data "StackId" "NATHAIRS_MISCHIEF_STATUS"
-data "StackType" "Overwrite"
-data "TickType" "StartTurn"
-data "Boosts" "Disadvantage(AttackRoll); Advantage(AttackTarget); SightRangeMaximum(3)"
-data "StatusPropertyFlags" "InitiateCombat;Blind;OverheadOnTurn;TickingWithSource"
-data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
-data "OnApplyFail" "ApplyStatus(NATHAIRS_MISCHIEF_SAVED,100,1)"
-data "StatusGroups" "SG_Blinded;SG_Condition"
-data "ApplyEffect" "39044361-a2df-4730-90ca-ce37ddcbc482"
-data "StatusEffect" "5c53ef4c-bd94-4567-94c1-8b1a8cefa7e3"
-
-new entry "NATHAIRS_MISCHIEF_4"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "hb5f9a16ag3cafg12begd441g2e2d00c48a30;1"
-data "Description" "hf9ab1f88g7345g633fg7c47g53a8dba40a64;1"
-data "Icon" "Status_DifficultTerrain"
-data "StackId" "NATHAIRS_MISCHIEF_STATUS"
-data "StackType" "Overwrite"
-data "TickType" "StartTurn"
-data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit(Walk)"
-data "StatusPropertyFlags" "TickingWithSource;InitiateCombat;OverheadOnTurn"
-data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
-data "OnApplyFail" "ApplyStatus(NATHAIRS_MISCHIEF_SAVED,100,1)"
-data "StatusGroups" "SG_DifficultTerrain"
-data "StatusEffect" "dad9bc41-e1b4-4f80-98a0-4d9e768f3575"
-data "ManagedStatusEffectType" "Negative"
-data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5e
-
-
-	<content contentuid="h04d72d2agefc4g4adag8a20g591753ee92ef" version="1">Nathair's Mischief</content>
-	<content contentuid="h215750fage2c8g4c14g9bd9gfa6e4b782fbd" version="1">Fill a [1] cube with fey and draconic magic, producing random, magical effects when the spell is cast and at the start of your turns.</content>
-	<content contentuid="hfebba116g165cg4e18gbba3g161150ab76ca" version="1">The magical effects produced in the cube can cause creatures to become &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; by you, to be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;, to become &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; and unable to move or can turn the area into &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
-	<content contentuid="hf57092a8ga2f7g4c42gb586g400825440423" version="1">Nathair's Mischief: Move</content>
-	<content contentuid="h069b2728g9089g4cf5gb541gdba69c0bddac" version="1">Move the cube of fey and draconic magic up to [1].</content>
-	<content contentuid="hc7e1510dg268bg41f2ga8f2gca043608daec" version="1">Susceptible to a random, magical effect per turn.</content>
-
-
-new entry "Target_NathairsMischief"
-type "SpellData"
-data "SpellType" "Target"
-data "ConcentrationSpellID" "Target_NathairsMischief_Move"
-data "Level" "2"
-data "SpellSchool" "Illusion"
-data "SpellProperties" "GROUND:Summon(13373f6a-e805-4677-a3ad-ce94b1ca2caa, 10,,,'NathairsMischiefStack',NATHAIRS_MISCHIEF);GROUND:ApplyStatus(SELF,NATHAIRS_MISCHIEF_OWNER,100,10)"
-data "TargetRadius" "18"
-data "AreaRadius" "6"
-data "Icon" "Spell_Illusion_NathairsMischief"
-data "DisplayName" "h04d72d2agefc4g4adag8a20g591753ee92ef;1"
-data "Description" "h215750fage2c8g4c14g9bd9gfa6e4b782fbd;1"
-data "DescriptionParams" "Distance(6)"
-data "ExtraDescription" "hfebba116g165cg4e18gbba3g161150ab76ca;1"
-data "TooltipStatusApply" "ApplyStatus(NATHAIRS_MISCHIEF,100,10)"
-data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
-data "PrepareSound" "Spell_Prepare_Debuff_Gen_L1to3_01"
-data "PrepareLoopSound" "Spell_Prepare_Debuff_Gen_L1to3_01_Loop"
-data "CastSound" "Spell_Cast_Debuff_Silence_L1to3"
-data "TargetSound" "Spell_Impact_Debuff_Silence_L1to3"
-data "VocalComponentSound" "Vocal_Component_Silence"
-data "CastTextEvent" "Cast"
-data "CycleConditions" "Enemy() and not Dead()"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
-data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
-data "VerbalIntent" "Control"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell"
-data "RechargeValues" "5-6"
-data "MemoryCost" "1"
-data "PrepareEffect" "239d0263-eb26-4d7e-9683-4d7be6b6a1cf"
-data "CastEffect" "111a8b8c-b395-46d0-b2f0-a10ac6f9731f"
-
-new entry "Target_NathairsMischief_Move"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "ConcentrationSpellID" ""
-data "Cooldown" "OncePerTurn"
-data "SpellProperties" "GROUND:Summon(13373f6a-e805-4677-a3ad-ce94b1ca2caa, 10,,true,'NathairsMischiefStack',NATHAIRS_MISCHIEF_MOVE)"
-data "DisplayName" "hf57092a8ga2f7g4c42gb586g400825440423;1"
-data "Description" "h069b2728g9089g4cf5gb541gdba69c0bddac;1"
-data "DescriptionParams" "Distance(18)"
-data "UseCosts" ""
-data "SpellFlags" "Temporary"
-data "RequirementConditions" "not HasStatus('NATHAIRS_MISCHIEF_BLOCK')"
-
-new entry "Projectile_NathairsMischief_Charmed"
-type "SpellData"
-data "SpellType" "Projectile"
-data "AreaRadius" "6"
-data "ExplodeRadius" "6"
-data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
-data "SpellSuccess" "ApplyStatus(NATHAIRS_MISCHIEF_CHARMED,100,1)"
-data "DisplayName" "h04d72d2agefc4g4adag8a20g591753ee92ef;1"
-data "TargetConditions" "(HasStatus('NATHAIRS_MISCHIEF_TECHNICAL') and not HasStatus('NATHAIRS_MISCHIEF_OWNER') and Combat()) or (HasStatus('NATHAIRS_MISCHIEF_TECHNICAL') and not HasStatus('NATHAIRS_MISCHIEF_OWNER') and not Combat() and not Ally())"
-data "Trajectories" "c9b71330-8e34-4cad-ab03-844047e3ac0d"
-data "SpellAnimation" ",,;,,;6889097a-f94b-4a09-82f5-b2a2ed1eb796,,;,,;,,;,,;,,;,,;,,"
-
-new entry "Projectile_NathairsMischief_Blinded"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_NathairsMischief_Charmed"
-data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
-data "SpellSuccess" "ApplyStatus(NATHAIRS_MISCHIEF_BLINDED,100,1)"
-data "TargetConditions" "(HasStatus('NATHAIRS_MISCHIEF_TECHNICAL') and Combat()) or (HasStatus('NATHAIRS_MISCHIEF_TECHNICAL') and not Combat() and not Ally())"
-data "Trajectories" "c63c4527-1bdf-4635-ad59-7d7e2f666fa3"
-
-new entry "Projectile_NathairsMischief_Incapacitated"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_NathairsMischief_Charmed"
-data "SpellSuccess" "ApplyStatus(NATHAIRS_MISCHIEF_INCAPACITATED,100,1)"
-data "TargetConditions" "(HasStatus('NATHAIRS_MISCHIEF_TECHNICAL') and Combat()) or (HasStatus('NATHAIRS_MISCHIEF_TECHNICAL') and not Combat() and not Ally())"
-data "Trajectories" "81a545c2-f61d-4626-b066-237db154dc13"
-
-new entry "Projectile_NathairsMischief_DifficultTerrain"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_NathairsMischief_Charmed"
-data "SpellProperties" "GROUND:CreateSurface(6,1,Mud)"
-data "SpellRoll" ""
-data "SpellSuccess" ""
-data "Trajectories" "b9b5e32c-a9e4-481f-8c11-caa8f3d23b02"
-
-new entry "Target_NathairsMischief_3"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
-data "RootSpellID" "Target_NathairsMischief"
-data "PowerLevel" "3"
-
-new entry "Target_NathairsMischief_4"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
-data "RootSpellID" "Target_NathairsMischief"
-data "PowerLevel" "4"
-
-new entry "Target_NathairsMischief_5"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
-data "RootSpellID" "Target_NathairsMischief"
-data "PowerLevel" "5"
-
-new entry "Target_NathairsMischief_6"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
-data "RootSpellID" "Target_NathairsMischief"
-data "PowerLevel" "6"
-
-new entry "Target_NathairsMischief_7"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
-data "RootSpellID" "Target_NathairsMischief"
-data "PowerLevel" "7"
-
-new entry "Target_NathairsMischief_8"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
-data "RootSpellID" "Target_NathairsMischief"
-data "PowerLevel" "8"
-
-new entry "Target_NathairsMischief_9"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_NathairsMischief"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
-data "RootSpellID" "Target_NathairsMischief"
-data "PowerLevel" "9"
-
-
-
-
-
-
-
 new entry "NATHAIRS_MISCHIEF"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h04d72d2agefc4g4adag8a20g591753ee92ef;1"
+data "DisplayName" "hd80f686e74cd4076acec35660eb1d58cd08c;1"
+data "Description" "hd862ee571a564cd6885797e36262a583cf20;1"
 data "Icon" "Spell_Illusion_NathairsMischief"
-data "SoundLoop" "Misc_Status_Madness_MO"
-data "SoundStop" "Misc_Status_Madness_MO_Stop"
-data "AuraRadius" "6"
-data "AuraStatuses" "IF(((Character() and Combat(context.Target)) or (not Combat(context.Target) and not Ally())) and not Item() and not HasStatus('TRUESIGHT')):ApplyStatus(NATHAIRS_MISCHIEF_TECHNICAL,100,1)"
-data "OnApplyFunctors" "ApplyStatus(NATHAIRS_MISCHIEF_EFFECT,100,1);ApplyStatus(SELF,NATHAIRS_MISCHIEF_BLOCK,100,1)"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "SoundLoop" "Spell_Status_FaerieFire_MO"
+data "SoundStop" "Spell_Status_FaerieFire_MO_Stop"
 data "StackId" "NATHAIRS_MISCHIEF"
-
-new entry "NATHAIRS_MISCHIEF_MOVE"
-type "StatusData"
-data "StatusType" "BOOST"
-using "NATHAIRS_MISCHIEF"
-data "OnApplyFunctors" ""
-
-new entry "NATHAIRS_MISCHIEF_OWNER"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "UnlockSpell(Target_NathairsMischief_Move)"
-data "TickFunctors" "ApplyStatus(NATHAIRS_MISCHIEF_PROC,100,1)"
+data "StackType" "Overwrite"
 data "TickType" "StartTurn"
-data "StackId" "NATHAIRS_MISCHIEF_OWNER"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "RemoveConditions" "HasStatus('NATHAIRS_MISCHIEF_SAVED')"
+data "RemoveEvents" "OnStatusApplied"
+data "TooltipSave" "Wisdom;Dexterity"
+data "TickFunctors" "ApplyStatus(NATHAIRS_MISCHIEF_ROLLS,100,1d4)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "ApplyEffect" "887e86db-a1a5-4ea2-8b96-e3195e66b24c"
+data "StatusEffect" "423ef553-a009-40d0-b110-1f5398b1b774"
 
-new entry "NATHAIRS_MISCHIEF_PROC"
+new entry "NATHAIRS_MISCHIEF_ROLLS"
 type "StatusData"
 data "StatusType" "BOOST"
-data "StackId" "NATHAIRS_MISCHIEF_PROC"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "OnApplyFunctors" "ApplyStatus(NATHAIRS_MISCHIEF_TECHNICAL,100,0)"
+data "StatusPropertyFlags" "FreezeDuration;DisableOverhead;DisablePortraitIndicator"
 
 new entry "NATHAIRS_MISCHIEF_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h04d72d2agefc4g4adag8a20g591753ee92ef;1"
-data "Description" "hc7e1510dg268bg41f2ga8f2gca043608daec;1"
-data "Icon" "Spell_Illusion_NathairsMischief"
-data "StackId" "NATHAIRS_MISCHIEF_TECHNICAL"
+data "OnRemoveFunctors" "IF(ConditionResult(GetStatusDuration('NATHAIRS_MISCHIEF_ROLLS',context.Target) == 1)):ApplyStatus(NATHAIRS_MISCHIEF_1,100,1);IF(ConditionResult(GetStatusDuration('NATHAIRS_MISCHIEF_ROLLS',context.Target) == 2)):ApplyStatus(NATHAIRS_MISCHIEF_2,100,1);IF(ConditionResult(GetStatusDuration('NATHAIRS_MISCHIEF_ROLLS',context.Target) == 3)):ApplyStatus(NATHAIRS_MISCHIEF_3,100,1);IF(ConditionResult(GetStatusDuration('NATHAIRS_MISCHIEF_ROLLS',context.Target) == 4)):ApplyStatus(NATHAIRS_MISCHIEF_4,100,1);RemoveStatus(NATHAIRS_MISCHIEF_ROLLS)"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
 
-new entry "NATHAIRS_MISCHIEF_EFFECT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "StackId" "NATHAIRS_MISCHIEF_EFFECT"
-data "TickType" "EndTurn"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-new entry "NATHAIRS_MISCHIEF_CHARMED_EFFECT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "OnApplyFunctors" "CreateExplosion(Projectile_NathairsMischief_Charmed);GROUND:CreateExplosion(Projectile_NathairsMischief_Charmed)"
-data "StackId" "NATHAIRS_MISCHIEF_CHARMED_EFFECT"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-new entry "NATHAIRS_MISCHIEF_BLINDED_EFFECT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "OnApplyFunctors" "CreateExplosion(Projectile_NathairsMischief_Blinded)"
-data "StackId" "NATHAIRS_MISCHIEF_BLINDED_EFFECT"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-new entry "NATHAIRS_MISCHIEF_INCAPACITATED_EFFECT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "OnApplyFunctors" "CreateExplosion(Projectile_NathairsMischief_Incapacitated)"
-data "StackId" "NATHAIRS_MISCHIEF_INCAPACITATED_EFFECT"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-new entry "NATHAIRS_MISCHIEF_CHARMED"
+new entry "NATHAIRS_MISCHIEF_1"
 type "StatusData"
 data "StatusType" "BOOST"
 using "CHARMED"
+data "DisplayName" "h81bf91feg76fcgb0abgd312ga7be7d52726d;1"
+data "Description" "ha11aff96gc757gfdb4gae53g05eeca6b3acf;1"
+data "StackId" "NATHAIRS_MISCHIEF_STATUS"
+data "StackType" "Overwrite"
 data "TickType" "StartTurn"
-data "StatusPropertyFlags" "TickingWithSource"
-data "RemoveConditions" ""
-data "RemoveEvents" ""
+data "Boosts" "CannotHarmCauseEntity(CannotHarmCharmer);Advantage(SourceDialogue,Charisma)"
+data "StatusPropertyFlags" "TickingWithSource;InitiateCombat;OverheadOnTurn"
+data "OnApplyRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "OnApplyFail" "ApplyStatus(NATHAIRS_MISCHIEF_SAVED,100,1)"
 
-new entry "NATHAIRS_MISCHIEF_BLINDED"
+new entry "NATHAIRS_MISCHIEF_2"
 type "StatusData"
 data "StatusType" "BOOST"
 using "BLINDED"
+data "DisplayName" "hed8547f100484bf7be032258c855b6af22gf;1"
+data "Description" "hc737830677c04449836b63932dc557dc1f9e;1"
+data "StackId" "NATHAIRS_MISCHIEF_STATUS"
+data "StackType" "Overwrite"
 data "TickType" "StartTurn"
-data "StatusPropertyFlags" "TickingWithSource"
+data "Boosts" "Disadvantage(AttackRoll);Advantage(AttackTarget);SightRangeMaximum(3)"
+data "StatusPropertyFlags" "InitiateCombat;Blind;OverheadOnTurn;TickingWithSource"
+data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "OnApplyFail" "ApplyStatus(NATHAIRS_MISCHIEF_SAVED,100,1)"
 
-new entry "NATHAIRS_MISCHIEF_INCAPACITATED"
+new entry "NATHAIRS_MISCHIEF_3"
 type "StatusData"
-data "StatusType" "BOOST"
-using "INCAPACITATED_DND"
-data "StillAnimationType" "Laughing_Hideous"
-data "StillAnimationPriority" "Shouting"
-data "StillAnimationPriority" "Shouting"
-data "SoundVocalStart" "NONE"
-data "SoundVocalLoop" "LAUGHTERMANIACAL"
+data "StatusType" "INCAPACITATED"
+using "INCAPACITATED"
+data "DisplayName" "hafd65bdbg9288gb695g521bg008e8da49e41;1"
+data "StillAnimationType" "Laughing"
+data "SoundVocalLoop" "LAUGHTER"
 data "SoundStart" "Misc_Status_HideousLaughter,HEAD"
 data "SoundStop" "Misc_Status_HideousLaughter_Stop,HEAD"
 data "SoundVocalEnd" "RECOVER"
-data "Boosts" "ActionResourceBlock(ActionPoint);ActionResourceBlock(ReactionActionPoint);ActionResourceBlock(BonusActionPoint);ActionResourceBlock(Movement)"
+data "StackId" "NATHAIRS_MISCHIEF_STATUS"
+data "StackType" "Overwrite"
 data "TickType" "StartTurn"
-data "StatusPropertyFlags" "TickingWithSource"
-data "StackPriority" "10"
-data "StatusEffect" "b89b7538-2cb3-400f-b1c9-378f61070abb"
+data "Boosts" "ActionResourceBlock(ActionPoint);ActionResourceBlock(ReactionActionPoint);ActionResourceBlock(BonusActionPoint);DetectDisturbancesBlock(true);BlockVerbalComponent();DialogueBlock();VoicebarkBlock();Initiative(-5)"
+data "StatusPropertyFlags" "InitiateCombat;OverheadOnTurn;TickingWithSource"
+data "OnApplyRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "OnApplyFail" "ApplyStatus(NATHAIRS_MISCHIEF_SAVED,100,1)"
 
-new entry "NATHAIRS_MISCHIEF_DIFFICULT_TERRAIN_EFFECT"
+new entry "NATHAIRS_MISCHIEF_4"
 type "StatusData"
 data "StatusType" "BOOST"
-data "OnApplyFunctors" "CreateExplosion(Projectile_NathairsMischief_DifficultTerrain)"
+using "DIFFICULT_TERRAIN"
+data "DisplayName" "hb5f9a16ag3cafg12begd441g2e2d00c48a30;1"
+data "Description" "hf9ab1f88g7345g633fg7c47g53a8dba40a64;1"
+data "StackId" "NATHAIRS_MISCHIEF_STATUS"
+data "StackType" "Overwrite"
 data "TickType" "StartTurn"
-data "StackId" "NATHAIRS_MISCHIEF_DIFFICULT_TERRAIN_EFFECT"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;TickingWithSource"
-
-new entry "NATHAIRS_MISCHIEF_BLOCK"
-type "StatusData"
-data "StatusType" "BOOST"
-data "TickType" "EndTurn"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+data "Boosts" "ActionResourceConsumeMultiplier(Movement,2,0);MovementSpeedLimit(Walk)"
+data "StatusPropertyFlags" "TickingWithSource;InitiateCombat;OverheadOnTurn"
+data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "OnApplyFail" "ApplyStatus(NATHAIRS_MISCHIEF_SAVED,100,1)"
+data "StatusGroups" "SG_DifficultTerrain"

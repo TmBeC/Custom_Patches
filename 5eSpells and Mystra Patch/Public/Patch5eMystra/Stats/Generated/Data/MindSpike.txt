@@ -1,54 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2nd-level divination
-
-Casting Time: 1 action
-Range: 60 feet
-Components: S
-Duration: Concentration, up to 1 hour
-
-You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it’s invisible, it gains no benefit from that condition against you.
-
-At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mystras
-
-  <content contentuid="hf77e8bf7g2935gc7c9g9144g013bf8d71b12" version="1">Mind Spike</content>
-  <content contentuid="hdb053bceg9b81g52d0g1790gd504ca8dbacb" version="1">Invade the mind of the target and prevent them from turning invisible.</content>
-
 new entry "Target_MindSpike"
 type "SpellData"
 data "SpellType" "Target"
@@ -56,31 +5,31 @@ data "Level" "2"
 data "SpellSchool" "Divination"
 data "TargetRadius" "18"
 data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
-data "SpellSuccess" "DealDamage(3d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(3d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((3d8)/2,Psychic,Magical)"
-data "TargetConditions" "not Self() and not Dead() and Character()"
-data "Icon" "Spell_New_MindSpike"
-data "DisplayName" "hf77e8bf7g2935gc7c9g9144g013bf8d71b12;1"
-data "Description" "hdb053bceg9b81g52d0g1790gd504ca8dbacb;1"
+data "TargetConditions" "not Self() and not Dead() and Character() and not HasStatus('NONDETECTION') and not HasStatus('MIND_BLANK')"
+data "Icon" "Action_Monster_Duergar_MindSpike"
+data "DisplayName" "hfef983d1cb3149d1ba329b8cabb0c416ec17;1"
+data "Description" "h8dcf3f2323b34ea194e53be12e52b1f8d196;1"
 data "TooltipDamageList" "DealDamage(3d8,Psychic)"
 data "TooltipAttackSave" "Wisdom"
-data "TooltipStatusApply" "ApplyStatus(MIND_SPIKE, 100, -1)"
+data "TooltipStatusApply" "ApplyStatus(MIND_SPIKE,100,-1)"
 data "TooltipOnSave" "f762efbb-f8f1-493e-b248-2de1567b4bd2"
 data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
 data "TooltipUpcastDescriptionParams" "DealDamage(1d8,Psychic)"
-data "CastSound" "Spell_Cast_Debuff_FaerieFire_L1to3"
-data "TargetSound" "Spell_Impact_Debuff_FaerieFire_L1to3"
+data "CastSound" "CrSpell_Cast_MentalSlam"
+data "TargetSound" "CrSpell_Impact_MentalSlam"
 data "VocalComponentSound" "Vocal_Component_ShowInvisibleHidden"
 data "CastTextEvent" "Cast"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
-data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;b9bf0c36-7d07-472d-b5cc-82b0b4911e99,,;f1fe3ffe-9aec-445b-9473-0d7900b85550,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
 data "VerbalIntent" "Damage"
 data "SpellFlags" "IsSpell;IsConcentration;IsHarmful;RangeIgnoreVerticalThreshold;HasSomaticComponent;IgnoreSilence"
 data "HitAnimationType" "MagicalDamage_Psychic"
 data "MemoryCost" "1"
-data "PrepareEffect" "f8e1f2b3-7539-49f4-b9e8-4f76c0f3bcf5"
-data "CastEffect" "8fe961a7-510b-45b7-a913-3690327b4551"
+data "PrepareEffect" "752219e2-351d-46ea-9448-3a714b3d3acc"
+data "CastEffect" "bd2fc245-5645-452f-a2cd-d158b751bbe4"
 data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
 data "DamageType" "Psychic"
 
@@ -88,96 +37,85 @@ new entry "Target_MindSpike_3"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(4d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(4d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((4d8)/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(4d8,Psychic)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
 data "RootSpellID" "Target_MindSpike"
 data "PowerLevel" "3"
-data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
 
 new entry "Target_MindSpike_4"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(5d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(5d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((5d8)/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(5d8,Psychic)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
 data "RootSpellID" "Target_MindSpike"
 data "PowerLevel" "4"
-data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
 
 new entry "Target_MindSpike_5"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(6d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(6d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((6d8)/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(6d8,Psychic)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
 data "RootSpellID" "Target_MindSpike"
 data "PowerLevel" "5"
-data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
 
 new entry "Target_MindSpike_6"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(7d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(7d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((7d8)/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(7d8,Psychic)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
 data "RootSpellID" "Target_MindSpike"
 data "PowerLevel" "6"
-data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
 
 new entry "Target_MindSpike_7"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(8d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(8d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((8d8)/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(8d8,Psychic)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
 data "RootSpellID" "Target_MindSpike"
 data "PowerLevel" "7"
-data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
 
 new entry "Target_MindSpike_8"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(9d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(9d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((9d8)/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(9d8,Psychic)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
 data "RootSpellID" "Target_MindSpike"
 data "PowerLevel" "8"
-data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
 
 new entry "Target_MindSpike_9"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(10d8,Psychic,Magical);ApplyStatus(MIND_SPIKE, 100, -1)"
+data "SpellSuccess" "DealDamage(10d8,Psychic,Magical);ApplyStatus(MIND_SPIKE,100,-1)"
 data "SpellFail" "DealDamage((10d8)/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(10d8,Psychic)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
 data "RootSpellID" "Target_MindSpike"
 data "PowerLevel" "9"
-data "TargetEffect" "c34b836f-ac14-4222-8e32-bdb4d1c0f504"
-
-
-  <content contentuid="h226d1b3bg6de4gfcf0g3132gbc34a97bb59b" version="1">Mind Spike</content>
-  <content contentuid="hb50c083eg48f5ge62fgb049g9153b8b54fa1" version="1">Cannot be Invisible.</content>
 
 new entry "MIND_SPIKE"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h226d1b3bg6de4gfcf0g3132gbc34a97bb59b;1"
-data "Description" "hb50c083eg48f5ge62fgb049g9153b8b54fa1;1"
-data "Icon" "Spell_New_MindSpike"
+data "DisplayName" "hdb69157ee00e40638f9c76f0182c0aaa909e;1"
+data "Description" "h1fda6527d680439daf840a7ecd371b5a3e7b;1"
+data "Icon" "Action_Monster_Duergar_MindSpike"
 data "SoundLoop" "Spell_Status_FaerieFire_MO"
 data "SoundStop" "Spell_Status_FaerieFire_MO_Stop"
 data "StackId" "INVISIBILITY"
@@ -186,207 +124,3 @@ data "Boosts" "StatusImmunity(SG_Invisible)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "ApplyEffect" "887e86db-a1a5-4ea2-8b96-e3195e66b24c"
 data "StatusEffect" "423ef553-a009-40d0-b110-1f5398b1b774"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5e
-
-	<content contentuid="h46343aeag52a8g4e40g8aa8g83e48c19e665" version="1">Mind Spike</content>
-	<content contentuid="h40bbecbcgda15g4dfbga9abg4ff38d7c2251" version="1">Breach a creature's mind, possibly preventing it from being hidden and granting it no benefit from being &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
-	<content contentuid="hc8d38e61g5b25g453bg9203gbe3ce5c46a88" version="1">This entity cannot hide or benefit from &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; against the source of the &lt;LSTag Type="Spell" Tooltip="Target_MindSpike"&gt;Mind Spike&lt;/LSTag&gt; spell.</content>
-
-
-new entry "Target_MindSpike"
-type "SpellData"
-data "SpellType" "Target"
-data "Level" "2"
-data "SpellSchool" "Divination"
-data "TargetRadius" "18"
-data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
-data "SpellSuccess" "DealDamage(3d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100);ApplyStatus(SELF,MIND_SPIKE_OWNER,100,100)"
-data "SpellFail" "DealDamage((3d8)/2, Psychic, Magical)"
-data "TargetConditions" "Character() and not Self() and not HasStatus('NONDETECTION') and not HasStatus('MIND_BLANK')"
-data "Icon" "Spell_Enchantment_MindSpike"
-data "DisplayName" "h46343aeag52a8g4e40g8aa8g83e48c19e665;1"
-data "Description" "h40bbecbcgda15g4dfbga9abg4ff38d7c2251;1"
-data "TooltipDamageList" "DealDamage(3d8,Psychic)"
-data "TooltipStatusApply" "ApplyStatus(MIND_SPIKE, 100, 100)"
-data "TooltipAttackSave" "Wisdom"
-data "TooltipOnSave" "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
-data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
-data "TooltipUpcastDescriptionParams" "DealDamage(1d8,Psychic)"
-data "CastSound" "CrSpell_Cast_MentalSlam"
-data "TargetSound" "CrSpell_Impact_MentalSlam"
-data "CastTextEvent" "Cast"
-data "CycleConditions" "Enemy() and not Dead()"
-data "HitAnimationType" "MagicalDamage_Psychic"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
-data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;49fe22cb-4b9f-4480-b7ce-050942c420bb,,;3eeccdd5-70cb-41aa-91c5-549c8d81a9de,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
-data "VerbalIntent" "Damage"
-data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;IsHarmful;IsConcentration"
-data "MemoryCost" "1"
-data "PrepareEffect" "752219e2-351d-46ea-9448-3a714b3d3acc"
-data "CastEffect" "bd2fc245-5645-452f-a2cd-d158b751bbe4"
-data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
-
-new entry "Target_MindSpike_9"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(10d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100)"
-data "SpellFail" "DealDamage((10d8)/2, Psychic, Magical)"
-data "TooltipDamageList" "DealDamage(10d8,Psychic)"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
-data "RootSpellID" "Target_MindSpike"
-data "PowerLevel" "9"
-
-new entry "Target_MindSpike_8"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(9d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100)"
-data "SpellFail" "DealDamage((9d8)/2, Psychic, Magical)"
-data "TooltipDamageList" "DealDamage(9d8,Psychic)"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
-data "RootSpellID" "Target_MindSpike"
-data "PowerLevel" "8"
-
-new entry "Target_MindSpike_7"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(8d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100)"
-data "SpellFail" "DealDamage((8d8)/2, Psychic, Magical)"
-data "TooltipDamageList" "DealDamage(8d8,Psychic)"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
-data "RootSpellID" "Target_MindSpike"
-data "PowerLevel" "7"
-
-new entry "Target_MindSpike_6"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(7d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100)"
-data "SpellFail" "DealDamage((7d8)/2, Psychic, Magical)"
-data "TooltipDamageList" "DealDamage(7d8,Psychic)"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
-data "RootSpellID" "Target_MindSpike"
-data "PowerLevel" "6"
-
-new entry "Target_MindSpike_5"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(6d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100)"
-data "SpellFail" "DealDamage((6d8)/2, Psychic, Magical)"
-data "TooltipDamageList" "DealDamage(6d8,Psychic)"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
-data "RootSpellID" "Target_MindSpike"
-data "PowerLevel" "5"
-
-new entry "Target_MindSpike_4"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(5d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100)"
-data "SpellFail" "DealDamage((5d8)/2, Psychic, Magical)"
-data "TooltipDamageList" "DealDamage(5d8,Psychic)"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
-data "RootSpellID" "Target_MindSpike"
-data "PowerLevel" "4"
-
-new entry "Target_MindSpike_3"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_MindSpike"
-data "SpellSuccess" "DealDamage(4d8, Psychic, Magical);ApplyStatus(MIND_SPIKE,100,100)"
-data "SpellFail" "DealDamage((4d8)/2, Psychic, Magical)"
-data "TooltipDamageList" "DealDamage(4d8,Psychic)"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
-data "RootSpellID" "Target_MindSpike"
-data "PowerLevel" "3"
-
-
-
-new entry "MIND_SPIKE_OWNER"
-type "StatusData"
-data "StatusType" "BOOST"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-new entry "MIND_SPIKE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Icon" "Spell_Enchantment_MindSpike"
-data "DisplayName" "h46343aeag52a8g4e40g8aa8g83e48c19e665;1"
-data "Description" "hc8d38e61g5b25g453bg9203gbe3ce5c46a88;1"
-data "StackId" "MIND_SPIKE"
-data "OnRemoveFunctors" "IF(HasStatus('INVISIBLE_SEEN')):ApplyStatus(INVISIBLE,100,Target.INVISIBLE_SEEN.Duration);IF(HasStatus('INVISIBLE_MAGEHAND_SEEN')):ApplyStatus(INVISIBLE_MAGEHAND,100,Target.INVISIBLE_MAGEHAND_SEEN.Duration);IF(HasStatus('INVISIBILITY_SEEN')):ApplyStatus(INVISIBILITY,100,Target.INVISIBILITY_SEEN.Duration);IF(HasStatus('ONE_WITH_SHADOWS_SEEN')):ApplyStatus(ONE_WITH_SHADOWS,100,Target.ONE_WITH_SHADOWS_SEEN.Duration);IF(HasStatus('POTION_OF_INVISIBILITY_SEEN')):ApplyStatus(POTION_OF_INVISIBILITY,100,Target.POTION_OF_INVISIBILITY_SEEN.Duration);IF(HasStatus('CLOAK_OF_SHADOWS_SEEN')):ApplyStatus(CLOAK_OF_SHADOWS,100,Target.CLOAK_OF_SHADOWS_SEEN.Duration);IF(HasStatus('CLOAK_OF_SHADOWS_MONK_SEEN')):ApplyStatus(CLOAK_OF_SHADOWS_MONK,100,Target.CLOAK_OF_SHADOWS_MONK_SEEN.Duration);IF(HasStatus('UMBRAL_CLOAK_SEEN')):ApplyStatus(UMBRAL_CLOAK,100,Target.UMBRAL_CLOAK_SEEN.Duration);IF(HasStatus('GREATER_INVISIBILITY_SEEN')):ApplyStatus(GREATER_INVISIBILITY,100,Target.GREATER_INVISIBILITY_SEEN.Duration);IF(HasStatus('SHADOWBLEND_SEEN')):ApplyStatus(SHADOWBLEND,100,Target.SHADOWBLEND_SEEN.Duration);IF(HasStatus('INVISIBILITY_SHADARKAI_GLOOMWEAVER_SEEN')):ApplyStatus(INVISIBILITY_SHADARKAI_GLOOMWEAVER,100,Target.INVISIBILITY_SHADARKAI_GLOOMWEAVER_SEEN.Duration);IF(HasStatus('HIDE_IN_PLAIN_SIGHT_SEEN')):ApplyStatus(HIDE_IN_PLAIN_SIGHT,100,Target.HIDE_IN_PLAIN_SIGHT_SEEN.Duration);IF(HasStatus('MISTY_ESCAPE_INVISIBLE_SEEN')):ApplyStatus(MISTY_ESCAPE_INVISIBLE,100,Target.MISTY_ESCAPE_INVISIBLE_SEEN.Duration);IF(HasStatus('INVISIBILITY_PANTHER_SEEN')):ApplyStatus(INVISIBILITY_PANTHER,100,Target.INVISIBILITY_PANTHER_SEEN.Duration);IF(HasStatus('SHROUD_SELF_SEEN')):ApplyStatus(SHROUD_SELF,100,Target.SHROUD_SELF_SEEN.Duration);IF(HasStatus('SUPREME_SNEAK_SEEN')):ApplyStatus(SUPREME_SNEAK,100,Target.SUPREME_SNEAK_SEEN.Duration);IF(HasStatus('LOW_POLTERGEIST_INVISIBLE_SEEN')):ApplyStatus(LOW_POLTERGEIST_INVISIBLE,100,Target.LOW_POLTERGEIST_INVISIBLE_SEEN.Duration);RemoveStatus(SELF,MIND_SPIKE_OWNER)"
-
-new entry "MIND_SPIKE_AURA"
-type "StatusData"
-data "StatusType" "BOOST"
-data "AuraRadius" "36"
-data "AuraStatuses" "TARGET:IF(not HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{},context.Source) and HasStatus('SG_Invisible') and HasStatus('MIND_SPIKE',context.Target,context.Source)):ApplyStatus(MIND_SPIKE_REMOVAL,100,1);TARGET:IF(not HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{},context.Source) and not HasStatus('MIND_SPIKE',context.Target,context.Source) and Ally()):ApplyStatus(MIND_SPIKE_TECHNICAL,100,1)"
-data "TickType" "EndTurn"
-data "StackId" "MIND_SPIKE_AURA"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-new entry "MIND_SPIKE_REMOVAL"
-type "StatusData"
-data "StatusType" "BOOST"
-data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.External)):RemoveStatus(SELF,MIND_SPIKE_AURA)"
-data "StackId" "MIND_SPIKE_REMOVAL"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-new entry "MIND_SPIKE_TECHNICAL"
-type "StatusData"
-data "StatusType" "BOOST"
-data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.External)):RemoveStatus(SELF,MIND_SPIKE_AURA)"
-data "StackId" "MIND_SPIKE_TECHNICAL"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

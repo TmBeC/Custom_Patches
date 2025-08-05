@@ -191,6 +191,24 @@
   <content contentuid="hf2f7e5edd2314519aa94ac1ad6bb48bacfc8" version="1">Magically empower your movement, giving yourself an additional [1] of &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and the ability to avoid &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
   <content contentuid="h7d925bbafd9d44d7b0fc077f4124cc6b18ga" version="1">Kinetic Jaunt</content>
   <content contentuid="h689d476909be4f2b98bfd8cfab87c4b46eb9" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; increased by [1] and don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="hfef983d1cb3149d1ba329b8cabb0c416ec17" version="1">Mind Spike</content>
+  <content contentuid="h8dcf3f2323b34ea194e53be12e52b1f8d196" version="1">Invade the mind of the target and prevent them from turning invisible.</content>
+  <content contentuid="hdb69157ee00e40638f9c76f0182c0aaa909e" version="1">Mind Spike</content>
+  <content contentuid="h1fda6527d680439daf840a7ecd371b5a3e7b" version="1">Cannot be Invisible.</content>
+  <content contentuid="hd58202e8d1684c76bfe359e4430e52e9ge9g" version="1">Nathair's Mischief</content>
+  <content contentuid="he9a44da23683427895d4ae8e1428c857266g" version="1">Enchant all creatures within [1] of the target location with a random debilitating effect at the start of each turn.</content>
+  <content contentuid="hd80f686e74cd4076acec35660eb1d58cd08c" version="1">Mischievous Surge</content>
+	<content contentuid="hd862ee571a564cd6885797e36262a583cf20" version="1">Fill an area with fey and draconic magic, producing random, magical effects when the spell is cast and at the start of your turns.</content>
+  <content contentuid="h81bf91feg76fcgb0abgd312ga7be7d52726d" version="1">Nathair's Charm</content>
+  <content contentuid="ha11aff96gc757gfdb4gae53g05eeca6b3acf" version="1">Can't attack spellcaster. Spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; in dialogue.</content>
+  <content contentuid="hed8547f100484bf7be032258c855b6af22gf" version="1">Nathair's Blindness</content>
+  <content contentuid="hc737830677c04449836b63932dc557dc1f9e" version="1">Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Range of attacks and spells reduced to [1]. &lt;br&gt;&lt;br&gt;Attack Rolls against Blinded creatures have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="hafd65bdbg9288gb695g521bg008e8da49e41" version="1">Nathair's Laughter</content>
+  <content contentuid="hb5f9a16ag3cafg12begd441g2e2d00c48a30" version="1">Nathair's Slipperiness</content>
+  <content contentuid="hf9ab1f88g7345g633fg7c47g53a8dba40a64" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; halved as if walking on &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+
+
+
 
 
 
