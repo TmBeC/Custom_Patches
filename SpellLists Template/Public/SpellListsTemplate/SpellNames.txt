@@ -1,8 +1,4 @@
 
-
-
-
-
 // Changes from mods
 (Blindness)
 Target_BlindnessDeafness
@@ -22,9 +18,7 @@ Target_Smite_Banishing
 (Banishing Smite: Ranged)
 Projectile_Smite_Banishing
 
-
-
-
+Shout_ComprehendLanguages
 
 
 // Cantrips
@@ -48,17 +42,6 @@ Target_SpareTheDying
 Projectile_StarryWisp
 
 Shout_Thunderclap
-
-
-
-
-
-
-
-
-
-
-
 
 
 // 1st Level Spells
@@ -115,24 +98,6 @@ Target_UnseenServant
 
 (Zephyr Strike)
 Shout_ZephyrStrike
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // 2nd Level Spells
@@ -194,35 +159,27 @@ Shout_WardingWind
 Target_ZoneofTruth
 
 
-
-
-
-
-
-
-
-
 // 3rd Level Spells
 (Antagonize)
-
+Target_Antagonize
 
 (Ashardalon's Stride)
-
+Shout_AshardalonsStride
 
 (Catnap)
-
+Target_Catnap
 
 (Create Food and Water)
-
+Target_CreateFoodAndWater
 
 (Enemies Abound)
-
+Target_EnemiesAbound
 
 (Erupting Earth)
-
+Target_EruptingEarth
 
 (Flame Arrows)
-
+Target_FlameArrows
 
 (Freedom of the Waves)
 
@@ -231,16 +188,16 @@ Target_ZoneofTruth
 
 
 (Intellect Fortress)
-
+Target_IntellectFortress
 
 (Life Transference)
-
+Target_LifeTransference
 
 (Magic Circle)
 
 
 (Melf's Minute Meteors)
-
+Shout_MinuteMeteors
 
 (Motivational Speech)
 
@@ -273,16 +230,6 @@ Target_ZoneofTruth
 
 
 (Water Walk)
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -342,18 +289,6 @@ Target_ZoneofTruth
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // 5th Level Spells
 (Antilife Shell)
 
@@ -371,6 +306,9 @@ Target_ZoneofTruth
 
 
 (Danse Macabre)
+
+
+(Dream)
 
 
 (Enervation)
@@ -422,18 +360,6 @@ Target_ZoneofTruth
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // 6th Level Spells
 (Conjure Fey)
 
@@ -460,14 +386,6 @@ Target_ZoneofTruth
 
 
 (True Seeing)
-
-
-
-
-
-
-
-
 
 
 
@@ -515,18 +433,6 @@ Target_ATT_Symbol
 Target_ATT_Whirlwind
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // 8th Level Spells
 (Abi-Dalzim's Horrid Wilting)
 Target_HorridWilting
@@ -569,17 +475,6 @@ Target_ATT_PowerWordStun
 
 (Sunburst)
 Target_Sunburst
-
-
-
-
-
-
-
-
-
-
-
 
 
 // 9th Level Spells

@@ -226,6 +226,55 @@
   <content contentuid="hdb21976f2999467f8f266654b7263a6e5b17" version="1">Can be teleported by Vortex Warp.</content>
   <content contentuid="h252a44f2b0ce4edbbcf3bd7fe989447cde45" version="1">Vortex Warp</content>
   <content contentuid="h20f4cfb2ca4e414e9c593dacb9112baae305" version="1">Magically twist space around another creature and teleport them up to [1] away.</content>
+  <content contentuid="hbaf964f8210c4dc7897832c01a4e0ac77b43" version="1">Antagonize</content>
+  <content contentuid="h9ffd976f8c19435db0023cd30d85b942cdd0" version="1">&lt;LSTag Type="Status" Tooltip="ANTAGONIZE"&gt;Antagonize&lt;/LSTag&gt; a creature: they'll have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and can't take reactions until the start of your next turn.</content>
+  <content contentuid="h99a69b92725240b1af7a09bc48994314a33b" version="1">Antagonized</content>
+  <content contentuid="h8ce0685dfd1e4b91875a11e2ee6b806175da" version="1">Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and can't take reactions.</content>
+  <content contentuid="hdbd81402a66649788e1cb3cf37e3b39456c4" version="1">Ashardalon's Stride</content>
+  <content contentuid="hd9a6075acbdf4e2c96f573b0fc66276cd9b3" version="1">Billowing dragon flames blast from your feet, burning creatures within [3] for [1].&lt;br&gt;&lt;br&gt;Increases movement speed by [2] and moving no longer provokes &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="hd2378a05g1ec0g40a7gb126gda627b6a5d0c" version="1">Increase movement speed by [1] and deal an additional [2] per level.</content>
+  <content contentuid="hc2444906b61a42b8b4d6fbde175a0dda1dcb" version="1">Ashardalon's Stride: Aura</content>
+  <content contentuid="hc488c045e1ff4b11b6c186e342e00aa0df85" version="1">Surrounded with billowing flames that burn nearby entities for [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; increased by [1] and do not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="hef6aeeebbfc1489da8a1faa704114cc86fbd" version="1">%%% EMPTY</content>
+  <content contentuid="hc69a515f35eb499f83d72520c0cc3769faga" version="1">Ashardalon's Stride</content>
+  <content contentuid="h964e3e6b67354ff08b85a99aa30760e910bd" version="1">Takes [1] per turn.&lt;br&gt;&lt;br&gt;Removed upon leaving the area.</content>
+  <content contentuid="hfe17dc7611b04517b992daebbce255a767fg" version="1">Catnap</content>
+  <content contentuid="h36ad4a8dd7fd4fdbad55a98e94f8a0e5ba48" version="1">Make a calming gesture that forces targeted allies to fall unconscious and gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h4fba505fc0bc483eb7beef4c800dd0e719g5" version="1">Catnap</content>
+  <content contentuid="h451255fc5e634e36a2dcec05035f73a9eb2a" version="1">Affected entity falls asleep for 10 rounds. When it wakes up, it receives the effects of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; and all 1st and 2nd level spell slots are restored.&lt;br&gt;&lt;br&gt;If interrupted before the duration expires, the effects will not apply.</content>
+  <content contentuid="h2242117148584e4980b0a7a946fa29bde54d" version="1">%%% EMPTY</content>
+  <content contentuid="hac5b3484067b440481a2a7bc8f27d882ge2f" version="1">Create Food and Water</content>
+  <content contentuid="h40e8b6d138b74044ba8a271525360c4aaa40" version="1">Create several pounds and gallons of food and water as camp supplies.</content>
+  <content contentuid="haf64c89141ee4a179b00a53c9f3722b40cc7" version="1">Enemies Abound</content>
+  <content contentuid="h03ef0cf094224f2ea43122c3b3a727c45d7a" version="1">Reach into a creature's mind, causing it to lose the ability to distinguish friend from foe.</content>
+  <content contentuid="h84ea59633e62409ab267c507f11f898f6632" version="1">Enemies Abound</content>
+  <content contentuid="h4d7ba39eb54d42b0abda0c2af0bb6b7131bg" version="1">Affected entity is hostile to everyone and may wander around aimlessly.&lt;br&gt;&lt;br&gt;When it takes damage, the entity can try to shake off the effect.</content>
+  <content contentuid="hf77924ed1e7947b88c7d773eb5b928520e53" version="1">Flame Arrows</content>
+  <content contentuid="h82fe3a27967840b493718dc8c9706d6e61g7" version="1">Touch a ranged weapon held by a creature, causing up to [1] attacks with it to deal an extra [2].</content>
+  <content contentuid="h67a978b368b0464883c846c3a55779c8gd5c" version="1">Flame Arrows</content>
+  <content contentuid="h07b3a0ff1295448fa728321716ff8af8gc6d" version="1">Flame Arrows</content>
+  <content contentuid="h506945e2a35a4d5fa305be17754b16e63b8b" version="1">Ranged attacks using affected weapon deal an additional [1].</content>
+  <content contentuid="hf9ee55c5482b44759d1329a7b8e1f73b441e" version="1">Flame Arrows</content>
+  <content contentuid="h468bdf53ac494d6a9818f0b815930612eg33" version="1">Intellect Fortress</content>
+  <content contentuid="h85fc623c1ae140fdae8e6a71012ff86df0af" version="1">Grant yourself or a target &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to psychic damage as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="h08f655a8dfa449aba2c15f8ddc532601180c" version="1">Intellect Fortress</content>
+  <content contentuid="ha5964fac6fd94cabb8e0c3983d97f02c5dc2" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom, and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to psychic damage.</content>
+  <content contentuid="h47f34d63b831431dae69ed9f3ef90b14fa3a" version="1">Life Transference</content>
+  <content contentuid="h0ea151a495cf473e8e040ee9636dfe5ffa2g" version="1">Sacrifice some of your life to mend another creature's injuries. You take [1] and the targeted creature regains &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; equal to twice the damage you take.</content>
+  <content contentuid="PLACEHOLDER" version="1">Example_Text_Block</content>
+  <content contentuid="PLACEHOLDER" version="1">Example_Text_Block</content>
+
+
+
+
+
+
+
+data "DisplayName" "h6e3f302bdbae455b864f7b69c9b53857f5cd;1"
+data "Description" "ha77075f90f944a82b80eaa46e7173c9a380c;1"
+
+
+
 
 
 
