@@ -27,6 +27,29 @@ Projectile_Smite_Banishing
 
 
 
+// Cantrips
+
+Shout_Druidcraft
+
+Target_Elementalism
+
+Target_Frostbite
+
+Target_Infestation
+
+Target_MagicStone
+
+Target_Mending
+
+Target_PrimalSavagery
+
+Target_SpareTheDying
+
+Projectile_StarryWisp
+
+Shout_Thunderclap
+
+
 
 
 
@@ -169,7 +192,6 @@ Shout_WardingWind
 
 (Zone of Truth)
 Target_ZoneofTruth
-
 
 
 

@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Bard cantrip"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_DancingLights;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Target_Prestidigitation;Projectile_StarryWisp;Shout_Thunderclap;Target_TrueStrike;Target_ViciousMockery"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_DancingLights;Target_Friends;Target_Light;Target_MageHand;Target_Mending;Target_MinorIllusion;Target_Prestidigitation;Projectile_StarryWisp;Shout_Thunderclap;Target_TrueStrike;Target_ViciousMockery"/>
                     <attribute id="UUID" type="guid" value="61f79a30-2cac-4a7a-b5fe-50c89d307dd6"/>
                 </node>
                 <node id="SpellList">
@@ -64,75 +64,53 @@ Shout_Aid;Target_BlindnessDeafness;Shout_BorrowedKnowledge;Target_CalmEmotions;T
 
 
 lvl 3
-
-
+<<Antagonize>>
 Target_BestowCurse;
-Zone_Fear;
-Target_FeignDeath;
-Target_GlyphOfWarding;
-Target_HypnoticPattern;
-Target_PlantGrowth;
-Target_SpeakWithDead;
-Target_StinkingCloud
+<<Catnap>>
+<<Enemies Abound>>
+Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;
+<<Intellect Fortress>>
+<<Motivational Speech>>
+<<Nondetection>>
+Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
 
 
 lvl 4
-
-
-Target_Confusion;
-Teleportation_DimensionDoor;
-Target_FreedomOfMovement;
-Target_Invisibility_Greater;
-Target_Polymorph;
+<<Charm Monster>>
+Target_Confusion;Teleportation_DimensionDoor;
+<<Ego Whip>>
+Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;
+<<Raulothim&apos;s Psychic Lance>>
 
 
 lvl 5
-
-
 Target_DominatePerson;
-Target_GreaterRestoration;
-Target_HoldMonster;
-Target_CureWounds_Mass;
+<<Dream>>
+Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;
+<<Mislead>>
 Target_PlanarBinding;
+<<Raise Dead>>
 Target_Seeming;
+<<Skill Empowerment>>
+<<Synaptic Static>>
+<<Teleportation Circle>>
 
 
 lvl 6
-
-
-Target_Eyebite;
-Target_IrresistibleDance;
+Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance;
+<<True Seeing>>
 
 
 lvl 7
-
-
-Target_ATT_Etherealness;
-Target_ATT_PowerWordFortify;
-Zone_PrismaticSpray;
-Target_Regenerate;
-Target_ATT_Symbol
+Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_Regenerate;Target_ATT_Symbol
 
 
 lvl 8
-
-
-Target_Feeblemind;
-Target_DominateMonster;
-Shout_Glibness;
-Target_MindBlank;
-Target_ATT_PowerWordStun
+Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_MindBlank;Target_ATT_PowerWordStun
 
 
 lvl 9
-
-
-Target_Foresight;
-Target_MassPolymorph;
-Target_PowerWordHeal;
-Target_PowerWordKill;
-Wall_ATT_PrismaticWall;
-Shout_PsychicScream
+Target_Foresight;Target_MassPolymorph;Target_PowerWordHeal;Target_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream
 
 
 <!-- ======================================================================================================================================================================================================================================= -->
@@ -158,30 +136,20 @@ Shout_PsychicScream
 
 
 
-        <!-- lv 6 Lore Bard Magical Secrets = Cleric + Druid + Wizard spell lists UP TO 3rd/THIRD LEVEL SPELLS -->
+        <!-- lv 6 Lore Bard Magical Secrets = Cleric + Druid + Wizard spell lists -->
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="175ceed7-5a53-4f48-823c-41c4f72d18ae"/>
                     <attribute id="Name" type="FixedString" value="Lore Bard Magical Secrets 6 NEW"/>
                     <attribute id="Spells" type="LSString" value="Target_Bane;Target_Bless;Target_Ceremony;Target_CreateDestroyWater;Target_CureWounds;Shout_DetectEvilAndGood;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CharmPerson;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Target_Snare;Zone_Thunderwave;Zone_BurningHands;Throw_Catapult;Target_CauseFear;Projectile_ChromaticOrb;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Zone_FrostFingers;Target_Grease;Target_IdInsinuation;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Projectile_WitchBolt;Shout_HandOfRadiance;Target_SpareTheDying;Shout_WordOfRadiance;Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Infestation;Target_MagicStone;Target_PrimalSavagery;Projectile_StarryWisp;Shout_Thunderclap;Target_BoomingBlade_ClassSpell;Target_GreenFlameBlade;Target_LightningLure;Projectile_MindSliver;Target_Prestidigitation;Projectile_SappingSting;Shout_SwordBurst;Target_TollTheDead"/>
                     <attribute id="UUID" type="guid" value="b27f1f82-9509-4db5-869c-0dfeee1bae72"/>
                 </node>
-        <!-- lv 10 Magical Secrets = Bard + Cleric + Druid + Wizard spell lists UP TO 5th/FIFTH LEVEL SPELLS -->
+        <!-- lv 10 Magical Secrets = Bard + Cleric + Druid + Wizard spell lists -->
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="Bard Magical Secrets 10 NEW"/>
                     <attribute id="Spells" type="LSString" value="Zone_ColorSpray;Target_Command_Container;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Zone_CausticBrew;Target_UnseenServant;Target_Bane;Target_Bless;Target_Ceremony;Target_CreateDestroyWater;Target_CureWounds;Shout_DetectEvilAndGood;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CharmPerson;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Target_Snare;Zone_Thunderwave;Zone_BurningHands;Throw_Catapult;Target_CauseFear;Projectile_ChromaticOrb;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Zone_FrostFingers;Target_Grease;Target_IdInsinuation;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Projectile_WitchBolt;Target_Prestidigitation;Projectile_StarryWisp;Shout_Thunderclap;Shout_HandOfRadiance;Target_SpareTheDying;Shout_WordOfRadiance;Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Infestation;Target_MagicStone;Target_PrimalSavagery;Target_BoomingBlade_ClassSpell;Target_GreenFlameBlade;Target_LightningLure;Projectile_MindSliver;Projectile_SappingSting;Shout_SwordBurst;Target_TollTheDead"/>
                     <attribute id="UUID" type="guid" value="ba14054d-9e74-4c36-b080-7794a41e732a"/>
                 </node>
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- ======================================================================================================================================================================================================================================= -->

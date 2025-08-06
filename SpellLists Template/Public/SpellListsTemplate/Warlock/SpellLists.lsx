@@ -7,14 +7,14 @@
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
                     <attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma) 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_BoomingBlade_ClassSpell;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Target_MagicStone;Projectile_MindSliver;Target_Prestidigitation;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="5fa86cd2-15ac-4c48-b4bc-680c5cc131da"/>
                 </node>
 
 
 
 
-
+Target_BoomingBlade_ClassSpell;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Target_MagicStone;Projectile_MindSliver;Target_Prestidigitation;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead
 
 
 
@@ -60,6 +60,166 @@ lvl 9
 
 
 
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma)" />
+	<attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Target_TrueStrike" />
+	<attribute id="UUID" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma)" />
+	<attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Target_TollTheDead;Target_TrueStrike" />
+	<attribute id="UUID" type="guid" value="3489b1a5-9f7c-439a-b6e3-8cceb21e34fd" />
+</node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Archfey 1" />
+	<attribute id="Spells" type="LSString" value="Shout_FeyPresence_Container" />
+	<attribute id="UUID" type="guid" value="489ff3dd-b93e-4a96-b553-b59c07d5cd6f" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 1" />
+	<attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="e0099b15-2599-4cba-a54b-b25ae03d6519" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 2" />
+	<attribute id="Spells" type="LSString" value="Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="0cc2c8ab-9bbc-43a7-a66d-08e47da4c172" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 3" />
+	<attribute id="Spells" type="LSString" value="Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_PlantGrowth;Target_RemoveCurse;Target_VampiricTouch;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="f18ad912-e2f4-47a9-8744-73d6a51c2941" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 4" />
+	<attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_PlantGrowth;Target_RemoveCurse;Target_VampiricTouch;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="c3d8a4a5-9dae-4193-8322-a5d1c5b89f47" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 5" />
+	<attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_HoldMonster;Target_Seeming;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_PlantGrowth;Target_RemoveCurse;Target_VampiricTouch;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="0a9b924f-64fb-4f22-b975-5eeedc99b2fd" />
+</node>
+
+
+
+
+
+
+
+
+
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 1" />
+	<attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="4823a292-f584-4f7f-8434-6630c72e5411" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 2" />
+	<attribute id="Spells" type="LSString" value="Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 3" />
+	<attribute id="Spells" type="LSString" value="Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_StinkingCloud;Target_VampiricTouch;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="5dec41aa-f16a-434e-b209-50c07e64e4ed" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 4" />
+	<attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Shout_FireShield;Wall_WallOfFire;Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_StinkingCloud;Target_VampiricTouch;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 5" />
+	<attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_FlameStrike;Target_HoldMonster;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Shout_FireShield;Wall_WallOfFire;Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_StinkingCloud;Target_VampiricTouch;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="deab57bf-4eec-4085-82f7-87335bce3f5d" />
+</node>
+
+
+
+
+
+
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 1" />
+	<attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="65952d48-bb16-4ad7-b173-532182bf7770" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 2" />
+	<attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 3" />
+	<attribute id="Spells" type="LSString" value="Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_Slow;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="30e9b761-6be0-418e-bb28-5103c00c663b" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 4" />
+	<attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_BlackTentacles;Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_Slow;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="b64e527e-1f97-4125-84f7-78376ab1440b" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 5" />
+	<attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_HoldMonster;Throw_Telekinesis;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_BlackTentacles;Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_Slow;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Shout_DetectThoughts;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_HideousLaughter;Projectile_WitchBolt" />
+	<attribute id="UUID" type="guid" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5" />
+</node>
+
+
+
+
+
+
+
+
+
+
+
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Hexblade 1" />
+	<attribute id="Spells" type="LSString" value="Target_HexbladesCurse" />
+	<attribute id="UUID" type="guid" value="c4020f68-bb82-4c45-8a4a-8c24fb400526" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1" />
+	<attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful" />
+	<attribute id="UUID" type="guid" value="d90e88eb-e5f9-4db2-b7ef-1dccb044839a" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 2" />
+	<attribute id="Spells" type="LSString" value="Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful" />
+	<attribute id="UUID" type="guid" value="4a3bf687-91c1-4dad-821c-ad32171c7552" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 3" />
+	<attribute id="Spells" type="LSString" value="Shout_Blink;Target_Counterspell;Target_ElementalWeapon;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful" />
+	<attribute id="UUID" type="guid" value="58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 4" />
+	<attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_StaggeringSmite;Shout_Blink;Target_Counterspell;Target_ElementalWeapon;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful" />
+	<attribute id="UUID" type="guid" value="39750075-781e-4ce2-a033-f8a288e47b8e" />
+</node>
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 5" />
+	<attribute id="Spells" type="LSString" value="Projectile_Smite_Banishing_Container;Zone_ConeOfCold;Target_HoldMonster;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_StaggeringSmite;Shout_Blink;Target_Counterspell;Target_ElementalWeapon;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Shout_Blur;Target_Smite_Branding_Container;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_Shield_Warlock;Projectile_WitchBolt;Target_Smite_Wrathful" />
+	<attribute id="UUID" type="guid" value="88fafaeb-8b59-4319-9841-b9e6043f4636" />
+</node>
 
 
 
@@ -75,16 +235,11 @@ lvl 9
 
 
 
-
-
-
-
-
-
-
-
-
-
+<node id="SpellList">
+	<attribute id="Name" type="FixedString" value="Warlock Mysic Arcanum SLevel 6" />
+	<attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Teleportation_ArcaneGate;Target_Eyebite;Target_FleshToStone;Target_CreateUndead" />
+	<attribute id="UUID" type="guid" value="e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6" />
+</node>
 
 
 
@@ -418,14 +573,6 @@ Wrathful Smite - slvl1
 
 
 
-
-
-
-
-
-
-
-
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec"/>
                     <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 2 NEW"/>
@@ -543,15 +690,6 @@ Wrathful Smite - slvl1
 
 
 
-
-
-
-
-
-
-
-
-
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="0cc2c8ab-9bbc-43a7-a66d-08e47da4c172"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Warlock Archfey SLevel 2"/>
@@ -576,6 +714,8 @@ Wrathful Smite - slvl1
                     <attribute id="Spells" type="LSString" value="Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Shout_ShadowOfMoil;Target_SummonBeholderkin;Target_Antagonize;Target_EnemiesAbound;Target_IntellectFortress;Target_MagicCircle;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_FlockOfFamiliars;Target_MindSpike;Target_CauseFear;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="a03f89cd-461a-4a3e-9193-bd117152c897"/>
                 </node>
+
+
 
 
                 <node id="SpellList">
@@ -604,6 +744,8 @@ Wrathful Smite - slvl1
                 </node>
 
 
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054"/>
                     <attribute id="Name" type="FixedString" value="5eSpells Warlock The Great Old One SLevel 2"/>
@@ -630,6 +772,8 @@ Wrathful Smite - slvl1
                 </node>
 
 
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="4a3bf687-91c1-4dad-821c-ad32171c7552"/>
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 2"/>
@@ -654,6 +798,10 @@ Wrathful Smite - slvl1
                     <attribute id="Spells" type="LSString" value="Target_FarStep;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Projectile_RaulothimsPsychicLance;Shout_ShadowOfMoil;Target_SummonBeholderkin;Target_Antagonize;Target_EnemiesAbound;Target_IntellectFortress;Target_MagicCircle;Shout_SpiritShroud;Target_SummonFey;Target_SummonShadowspawn;Teleportation_ThunderStep;Shout_BorrowedKnowledge;Target_FlockOfFamiliars;Target_MindSpike;Target_CauseFear;Target_UnseenServant"/>
                     <attribute id="UUID" type="guid" value="e6171a5e-8476-446a-9e81-f793b9132de1"/>
                 </node>
+
+
+
+
 
 
                 <node id="SpellList">
@@ -715,28 +863,10 @@ Wrathful Smite - slvl1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma) NEW"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="8a0218fd-d366-4605-b12d-36cf15c871fa"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Warlock cantrips (Charisma)"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="77d74d0c-4d34-4b7c-a37e-ecdbd4c10756"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 1 NEW"/>
@@ -744,19 +874,9 @@ Wrathful Smite - slvl1
                     <attribute id="UUID" type="guid" value="20d61052-d81b-4328-8e22-7782b2cd0abe"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Archfey SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="93f0f5b5-a2c5-4ac4-8598-db0e3e37a865"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 1 NEW"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="784ca7b4-b6f5-4e97-908e-2d1e9b9ae9d0"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Fiend SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="db5b931f-91ff-474f-ba76-60d8e1747874"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 1 NEW"/>
@@ -764,14 +884,29 @@ Wrathful Smite - slvl1
                     <attribute id="UUID" type="guid" value="abf2a147-762c-4d25-84a7-7e81eecaf055"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Warlock The Great Old One SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="2ccf281d-5904-41cc-99f8-15687c12fe03"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1 NEW"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="d1976893-f798-47d9-91dc-92fe08e39a24"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Warlock cantrips (Charisma)"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="77d74d0c-4d34-4b7c-a37e-ecdbd4c10756"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Archfey SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="93f0f5b5-a2c5-4ac4-8598-db0e3e37a865"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Warlock Fiend SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="db5b931f-91ff-474f-ba76-60d8e1747874"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Warlock The Great Old One SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="2ccf281d-5904-41cc-99f8-15687c12fe03"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1"/>
