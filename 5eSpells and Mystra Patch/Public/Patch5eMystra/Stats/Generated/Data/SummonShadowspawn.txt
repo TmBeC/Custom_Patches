@@ -1,3 +1,320 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Medium monstrosity
+Armor Class: 11 + the level of the spell (natural armor)
+Hit Points: 35 + 15 for each level of the spell above 3rd
+Speed: 40 ft.
+
+STR		DEX		CON		INT 	WIS		CHA
+13		16		15		4		10		16
+
+Damage Resistances: necrotic
+Condition Immunities: frightened
+Senses: darkvision 120 ft.
+Proficiency Bonus: equals your bonus
+Terror Frenzy (Fury Only). The spirit has advantage on attack rolls against frightened creatures.
+Weight of Sorrow (Despair Only). Any creature, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that creature’s next turn.
+
+Multiattack. The spirit makes a number of attacks equal to half this spell’s level (rounded down).
+Chilling Hand. Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell’s level cold damage.
+Dreadful Scream (1/Day). The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened of the spirit for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+Shadow Stealth (Fear Only). While in dim light or darkness, the spirit takes the Hide action.
+
+
+
+
+
+
+
+new entry "Shadow"
+type "Character"
+using "_Undead"
+data "Strength" "6"
+data "Dexterity" "16"
+data "Constitution" "13"
+data "Intelligence" "6"
+data "Wisdom" "10"
+data "Charisma" "8"
+data "Armor" "10"
+data "Vitality" "24"
+data "Sight" "1400"
+data "Weight" "0.01"
+data "GameSize" "Medium"
+data "SoundSize" "Medium"
+data "Flags" "Floating;ObscurityWithoutSneaking;SlippingImmunity;FloatingWhileMoving;EnableObscurityEvents;Grounded"
+data "DefaultBoosts" "BlockRegainHP(Undead;Construct);ProficiencyBonus(Skill, Stealth)"
+data "PersonalStatusImmunities" "SG_Poisoned;EXHAUSTED;PARALYZED;HOLD_PERSON;PETRIFIED;PRONE;RESTRAINED;POISONED;KNOCKED_DOWN;ABJURE_ENEMY_FRIGHT;NET;BLEEDING;GAPING_WOUND;GRAPPLED;FEARED"
+data "SpellCastingAbility" "Dexterity"
+data "UnarmedAttackAbility" "Dexterity"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "Passives" "ShadowyRetreat;Ethereal;SunlightWeakness;AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check"
+data "BludgeoningResistance" "ResistantToNonMagical"
+data "SlashingResistance" "ResistantToNonMagical"
+data "PiercingResistance" "ResistantToNonMagical"
+data "AcidResistance" "Resistant"
+data "ColdResistance" "Resistant"
+data "FireResistance" "Resistant"
+data "LightningResistance" "Resistant"
+data "NecroticResistance" "Immune"
+data "PoisonResistance" "Immune"
+data "RadiantResistance" "Vulnerable"
+data "ThunderResistance" "Resistant"
+data "DarkvisionRange" "14"
+data "ArmorType" "None"
+
+
+
+
+
+
+new entry "Shadowspawn"
+type "Character"
+using "_Base"
+data "Strength" "13"
+data "Dexterity" "16"
+data "Constitution" "15"
+data "Intelligence" "4"
+data "Wisdom" "10"
+data "Charisma" "16"
+data "Armor" "11"
+data "Vitality" "35"
+data "XPReward" ""
+data "PersonalStatusImmunities" "SG_Frightened"
+data "SpellCastingAbility" "Charisma"
+data "UnarmedAttackAbility" "Dexterity"
+data "Passives" "AttackOfOpportunity;DarknessRules;Darkvision_Shadowspawn;Ethereal"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "NecroticResistance" "Resistant"
+data "DarkvisionRange" "36"
+data "ArmorType" "None"
+data "DifficultyStatuses" ""
+
+
+
+new entry "Shadowspawn_Summon_Fear"
+type "Character"
+data "Level" "5"
+data "Strength" "13"
+data "Dexterity" "16"
+data "Constitution" "15"
+data "Intelligence" "4"
+data "Wisdom" "10"
+data "Charisma" "12"
+data "Armor" "12"
+data "Vitality" "30"
+data "XPReward" "40806669-8c6b-4068-8bc4-07e4981bb020"
+data "Sight" "1400"
+data "Hearing" "1100"
+data "FOV" "90"
+data "Weight" "0.01"
+data "GameSize" "Medium"
+data "SoundSize" "Medium"
+data "StepsType" "Bare"
+data "Flags" "Floating;ObscurityWithoutSneaking;SlippingImmunity;FloatingWhileMoving;EnableObscurityEvents;Grounded"
+data "DefaultBoosts" "BlockRegainHP(Undead;Construct);ProficiencyBonus(Skill, Stealth);DialogueBlock()"
+data "PersonalStatusImmunities" "SG_Poisoned;EXHAUSTED;PARALYZED;HOLD_PERSON;PETRIFIED;PRONE;RESTRAINED;POISONED;KNOCKED_DOWN;ABJURE_ENEMY_FRIGHT;NET;BLEEDING;GAPING_WOUND;GRAPPLED;FEARED"
+data "PathInfluence" "BloodElectrified,100;BloodFrozen,30;Lava,700;Fire,40;HolyFire,40;Hellfire,100;PoisonCloud,70;WyvernPoison,70;DrowPoisonCloud,70;PurpleWormPoison,70;SerpentVenom,70;InvisibleGithAcid,70;CloudkillCloud,70;MaliceCloud,70;CrawlerMucusCloud,70;WaterElectrified,100;WaterFrozen,30;Grease,30;Web,30;Vines,40;SporeBlackCloud,100;WaterCloudElectrified,40;SporeGreenCloud,40;Acid,30;CausticBrine,40;DarknessCloud,30;FogCloud,30;Mud,30;Oil,30;Poison,30;SpikeGrowth,40;SporePinkCloud,40;StinkingCloud,40"
+data "ProficiencyBonusScaling" "265d62c4-9b82-4ed6-9a86-da675b4ef8fe"
+data "SpellCastingAbility" "Dexterity"
+data "UnarmedAttackAbility" "Dexterity"
+data "UnarmedRangedAttackAbility" "Strength"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "Passives" "Ethereal;AttackOfOpportunity;Darkvision;DarknessRules;ShortResting;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check"
+data "BludgeoningResistance" "ResistantToNonMagical"
+data "SlashingResistance" "ResistantToNonMagical"
+data "PiercingResistance" "ResistantToNonMagical"
+data "NecroticResistance" "Immune"
+data "PoisonResistance" "Immune"
+data "MinimumDetectionRange" "2"
+data "DarkvisionRange" "14"
+data "FallingHitEffect" "VFX_Combat_Bludgeoning_Damage_Blood_01"
+data "FallingLandEffect" "VFX_Combat_Force_Land_01"
+data "ArmorType" "None"
+data "DifficultyStatuses" "STATUS_EASY:PLAYER_BONUSES_EASYMODE"
+
+
+
+
+
+new entry "Shadowspawn_Summon_Despair"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Passives" "WeightOfSorrow;Ethereal;AttackOfOpportunity;Darkvision;DarknessRules;ShortResting;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check"
+
+new entry "Shadowspawn_Summon_Fury"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Passives" "TerrorFrenzy;Ethereal;AttackOfOpportunity;Darkvision;DarknessRules;ShortResting;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check"
+
+new entry "Shadowspawn_Summon_Fear_4"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Level" "6"
+data "Armor" "13"
+data "Vitality" "45"
+
+new entry "Shadowspawn_Summon_Fear_5"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Level" "7"
+data "Armor" "14"
+data "Vitality" "60"
+
+new entry "Shadowspawn_Summon_Fear_6"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Level" "8"
+data "Armor" "15"
+data "Vitality" "75"
+
+new entry "Shadowspawn_Summon_Fear_7"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Level" "9"
+data "Armor" "16"
+data "Vitality" "90"
+
+new entry "Shadowspawn_Summon_Fear_8"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Level" "10"
+data "Armor" "17"
+data "Vitality" "105"
+
+new entry "Shadowspawn_Summon_Fear_9"
+type "Character"
+using "Shadowspawn_Summon_Fear"
+data "Level" "11"
+data "Armor" "18"
+data "Vitality" "120"
+
+
+
+
+
+
+
+
+new entry "Shadowspawn_Summon_Despair_4"
+type "Character"
+using "Shadowspawn_Summon_Despair"
+data "Level" "6"
+data "Armor" "13"
+data "Vitality" "45"
+
+new entry "Shadowspawn_Summon_Despair_5"
+type "Character"
+using "Shadowspawn_Summon_Despair"
+data "Level" "7"
+data "Armor" "14"
+data "Vitality" "60"
+
+new entry "Shadowspawn_Summon_Despair_6"
+type "Character"
+using "Shadowspawn_Summon_Despair"
+data "Level" "8"
+data "Armor" "15"
+data "Vitality" "75"
+
+new entry "Shadowspawn_Summon_Despair_7"
+type "Character"
+using "Shadowspawn_Summon_Despair"
+data "Level" "9"
+data "Armor" "16"
+data "Vitality" "90"
+
+new entry "Shadowspawn_Summon_Despair_8"
+type "Character"
+using "Shadowspawn_Summon_Despair"
+data "Level" "10"
+data "Armor" "17"
+data "Vitality" "105"
+
+new entry "Shadowspawn_Summon_Despair_9"
+type "Character"
+using "Shadowspawn_Summon_Despair"
+data "Level" "11"
+data "Armor" "18"
+data "Vitality" "120"
+
+
+
+
+
+
+
+
+
+new entry "Shadowspawn_Summon_Fury_4"
+type "Character"
+using "Shadowspawn_Summon_Fury"
+data "Level" "6"
+data "Armor" "13"
+data "Vitality" "45"
+
+new entry "Shadowspawn_Summon_Fury_5"
+type "Character"
+using "Shadowspawn_Summon_Fury"
+data "Level" "7"
+data "Armor" "14"
+data "Vitality" "60"
+
+new entry "Shadowspawn_Summon_Fury_6"
+type "Character"
+using "Shadowspawn_Summon_Fury"
+data "Level" "8"
+data "Armor" "15"
+data "Vitality" "75"
+
+new entry "Shadowspawn_Summon_Fury_7"
+type "Character"
+using "Shadowspawn_Summon_Fury"
+data "Level" "8"
+data "Armor" "16"
+data "Vitality" "90"
+
+new entry "Shadowspawn_Summon_Fury_8"
+type "Character"
+using "Shadowspawn_Summon_Fury"
+data "Level" "8"
+data "Armor" "17"
+data "Vitality" "105"
+
+new entry "Shadowspawn_Summon_Fury_9"
+type "Character"
+using "Shadowspawn_Summon_Fury"
+data "Level" "8"
+data "Armor" "18"
+data "Vitality" "120"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 new entry "Target_SummonShadowspawn"
 type "SpellData"
 data "SpellType" "Target"
