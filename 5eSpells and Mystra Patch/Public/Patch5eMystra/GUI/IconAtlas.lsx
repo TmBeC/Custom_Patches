@@ -236,14 +236,14 @@
                     <attribute id="V2" type="float" value="0.625"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Conjuration_SummonFey"/>
                     <attribute id="U1" type="float" value="0.125"/>
                     <attribute id="U2" type="float" value="0.25"/>
                     <attribute id="V1" type="float" value="0.5"/>
                     <attribute id="V2" type="float" value="0.625"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Conjuration_SummonShadowspawn"/>
                     <attribute id="U1" type="float" value="0.25"/>
                     <attribute id="U2" type="float" value="0.375"/>
                     <attribute id="V1" type="float" value="0.5"/>

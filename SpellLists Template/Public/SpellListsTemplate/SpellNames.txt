@@ -215,7 +215,7 @@ Target_MotivationalSpeech
 Shout_SpiritShroud
 
 (Summon Fey)
-
+Target_Summon_Fey
 
 (Summon Lesser Demons)
 

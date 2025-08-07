@@ -1,13 +1,89 @@
+new entry "Target_SummonShadowspawn"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+data "SpellSchool" "Conjuration"
+data "ContainerSpells" "Target_SummonShadowspawn_Fear;Target_SummonShadowspawn_Fury;Target_SummonShadowspawn_Despair"
+data "TargetRadius" "18"
+data "TargetConditions" "CanStand('308da8fd-fb8e-4078-8991-a8ee678b49da') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_SummonShadowspawn"
+data "DisplayName" "h382602906eae4f5fb0419693f1922197182b;1"
+data "Description" "h1d0c51651f3a40e49da1173b19b1d25bc4d4;1"
+data "PrepareSound" "Spell_Prepare_Summon_InsectPlague_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_InsectPlague_L4to5"
+data "CastSound" "Spell_Cast_Summon_AnimateDead_L1to3"
+data "TargetSound" "Spell_Impact_Summon_AnimateDead_L1to3"
+data "VocalComponentSound" "Vocal_Component_AnimateDead"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:3"
+data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems;IsConcentration;IsLinkedSpellContainer"
+data "MemoryCost" "1"
+data "PrepareEffect" "12adcfc2-96c1-4f52-b9cc-df7fd63cbce9"
+data "CastEffect" "383e59eb-4db8-4ebe-9b19-5ae78387e1c2"
+data "TargetEffect" "a082692d-ad88-44e2-ab4e-f92e69150438"
+data "DamageType" "Necrotic"
+
+
+
+
+  <content contentuid="h2500a190gcc91g27aaga741ga15e3907c524" version="1">Summon Shadowspawn of Fear</content>
+  <content contentuid="h10fbf35cg9fafga90cgb85eg3ee772d63a0d" version="1">Summons a shadow spirit of Fear that can hide in dim light or darkness as a bonus action.</content>
+
+new entry "Target_SummonShadowspawn_Fear"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonShadowspawn"
+data "SpellContainerID" "Target_SummonShadowspawn"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(beda152d-9da1-4879-ae64-4ec86f4e5434,-1,,,'SummonShadowspawn',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('beda152d-9da1-4879-ae64-4ec86f4e5434') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_SummonShadowspawn"
+data "DisplayName" "h2500a190gcc91g27aaga741ga15e3907c524;1"
+data "Description" "h10fbf35cg9fafga90cgb85eg3ee772d63a0d;1"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems;IsConcentration"
 
 
 
 
 
+  <content contentuid="hdb43b64cg758eg1a62g89f1g692a68b0ae28" version="1">Summon Shadowspawn of Fury</content>
+  <content contentuid="h3b7d1f20g6450ge933g68fag87a7767909d3" version="1">Summons a shadow spirit of Fury that has advantage on attack rolls against Frightened creatures.</content>
+
+new entry "Target_SummonShadowspawn_Fury"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonShadowspawn"
+data "SpellContainerID" "Target_SummonShadowspawn"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(7d025d1c-f753-4f6e-952a-d2d98aa48618,-1,,,'SummonShadowspawn',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('7d025d1c-f753-4f6e-952a-d2d98aa48618') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_SummonShadowspawn"
+data "DisplayName" "hdb43b64cg758eg1a62g89f1g692a68b0ae28;1"
+data "Description" "h3b7d1f20g6450ge933g68fag87a7767909d3;1"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems;IsConcentration"
 
 
 
 
 
+  <content contentuid="h4bd16300g8604gf101g0a6ag1cba6d925b05" version="1">Summon Shadowspawn of Despair</content>
+  <content contentuid="hc12ea166ge57ag17b6ga902g839adbfaacff" version="1">Summons a shadow spirit of Despair that slows enemies around it.</content>
+
+new entry "Target_SummonShadowspawn_Despair"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonShadowspawn"
+data "SpellContainerID" "Target_SummonShadowspawn"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(47dada38-89de-4b11-bb84-3d55dc7523fb,-1,,,'SummonShadowspawn',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('47dada38-89de-4b11-bb84-3d55dc7523fb') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_SummonShadowspawn"
+data "DisplayName" "h4bd16300g8604gf101g0a6ag1cba6d925b05;1"
+data "Description" "hc12ea166ge57ag17b6ga902g839adbfaacff;1"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems;IsConcentration"
 
 
 

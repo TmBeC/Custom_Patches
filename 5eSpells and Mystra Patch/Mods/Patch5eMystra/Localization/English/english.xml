@@ -287,8 +287,55 @@
   <content contentuid="hf76ad74ff6bc4d17b1805389caec951314bf" version="1">Call forth spirits of the dead that flit around you. Attacks you make against creatures within [1] of you deal an extra [2] prevents them from regaining &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
   <content contentuid="h93d0c8343c01495a95e5642955feeedc74aa" version="1">Spirit Shroud: Necrotic</content>
   <content contentuid="h501fe7fa5cf44c4485c63a5b5ea514c57be4" version="1">Spirit Shroud: Cold</content>
-
-
+  <content contentuid="h93c7ae02fa17443d81aefdd605df90a6dcgd" version="1">Spirit Shroud: Radiant</content>
+  <content contentuid="hbd1f89e3ad3e41e2b2a55b85d684bfc9g599" version="1">Nearby enemies have [1] of reduced movement speed.&lt;br&gt;&lt;br&gt;When you attack a nearby enemy deal an extra [2] and prevent them from regaining hit points until your next turn.</content>
+  <content contentuid="hddc1272f406d477faa918f2e89552ff8a1g2" version="1">Spirit Shroud: Necrotic</content>
+  <content contentuid="h567cbcb861fc465d8ce78f8f1db9e5caa7cf" version="1">Spirit Shroud: Cold</content>
+  <content contentuid="hebb4c59798754d78a2c3976e2863ba7b00fd" version="1">Spirit Shroud Vulnerable</content>
+  <content contentuid="hdfdc0be12c444d23ae664f6bc2b8c2d23c03" version="1">Susceptible to taking additional damage from spellcaster.</content>
+  <content contentuid="h034bdd70ee084ab08c9418a0a595cbf1ec79" version="1">Spirit Shroud: Movement</content>
+  <content contentuid="he86f2b5b163545618f2d53de31a706f9dacf" version="1">Movement reduced by [1].</content>
+  <content contentuid="h616cc89ec8f54bfc85885f74952a9f26cecf" version="1">Spirit Shroud</content>
+  <content contentuid="h99164b56f4e94a3b8b344a3f56ab6030e952" version="1">Cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="hf63da89931b24e369b661d8aec60dcdcb27g" version="1">Summon Fey</content>
+  <content contentuid="h899f8ab1f9b647709e360b5c4f9386604ege" version="1">Call forth a fey spirit with a chosen mood: &lt;LSTag Type="Status" Tooltip="SUMMON_FEY_FUMING"&gt;Fuming&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SUMMON_FEY_MIRTHFUL"&gt;Mirthful&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="SUMMON_FEY_TRICKSY"&gt;Tricksy&lt;/LSTag&gt;.</content>
+  <content contentuid="h66258b59c64547f79262e90b3b636102b906" version="1">Jingles the Fuming Spirit</content>
+  <content contentuid="h0d2e3f415e824345969a4f01ee5ea0040985" version="1">Summon Fey: Fuming</content>
+  <content contentuid="h85f2d1994ca54bfaa394be00e418a668d8b2" version="1">Call forth a frenzied fey spirit that channels its rage in melee combat.</content>
+  <content contentuid="h748c93c62af74d4fa0794b79f63b9d8675f2" version="1">Summon Fey: Fuming</content>
+  <content contentuid="hd24318661c7f4e2e92030d89067db226dcab" version="1">This summoned fey is furious. After using its &lt;LSTag Type="Spell" Tooltip="Target_FeyStep_Fuming"&gt;Fey Step&lt;/LSTag&gt; ability, it has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h23d3a0f997d74393bef5878659046cf59f7f" version="1">Fey Step: Fuming</content>
+  <content contentuid="h84890eab193d42b398157c104375a837fe2g" version="1">Teleport to an unoccupied space you can see. Afterwards, get &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h8e6c52cadffb426d8f2a7c4b2dedd953728f" version="1">Fuming Advantage</content>
+  <content contentuid="h2962ed38f95e4d758015e36261a1de6b7e2e" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h94207b07d38d4dcfa84c86fe60476addac7a" version="1">Summon Fey: Mirthful</content>
+  <content contentuid="hec8d5091fab249d9befda3eb0a6ddb4ab72b" version="1">Call forth a delightful fey spirit able to charm enemies.</content>
+  <content contentuid="hb3d4a9b6819c4b849c984b2095532802d564" version="1">Skitters the Mirthful Spirit</content>
+  <content contentuid="hee9546fba7134781a183b861372d5b520ef9" version="1">Summon Fey: Mirthful</content>
+  <content contentuid="hf68c841ac2df40cd9270a54b532967fd2552" version="1">This summoned fey is positively captivating. After using its &lt;LSTag Type="Spell" Tooltip="Target_FeyStep_Mirthful"&gt;Fey Step&lt;/LSTag&gt; ability, it can charm a nearby enemy.</content>
+  <content contentuid="he1f13b36732541d89d64b669b3aef28caf77" version="1">Fey Step: Mirthful</content>
+  <content contentuid="h584164ff82624effa043e3a3cd10f699b88f" version="1">Teleport to an unoccupied space you can see. Afterwards, you can &lt;LSTag Type="Spell" Tooltip="Target_MirthfulCharm"&gt;charm&lt;/LSTag&gt; an enemy.</content>
+  <content contentuid="h46ebaf43dbe64646b0c9f1f3c1f7fdf5g23a" version="1">Mirthful Charm</content>
+  <content contentuid="hd5548210ab0c416c9f4633d9f638361d5a0a" version="1">Can charm a nearby enemy.</content>
+  <content contentuid="h47f32de2aa4e4d8e851e46b4ca04da7337e2" version="1">Mirthful Charm</content>
+  <content contentuid="h49ee61715ae34afb9f0dfe2f739b2aa1c9c3" version="1">Charms a nearby enemy, preventing it from attacking you.</content>
+  <content contentuid="h61b64047af6841549ece8cc32ff1b51687cf" version="1">Mirthful Charm</content>
+  <content contentuid="h1061074d3db44961ad1cb51cffea20d3c021" version="1">Charmed by a fey spirit.</content>
+  <content contentuid="hee0b6d8af1174d3495aed5100fd25f03030c" version="1">Summon Fey: Tricksy</content>
+  <content contentuid="h8624d215e9bd41d0bd8271f7e8f398f8f643" version="1">Call forth a mischievous fey spirit able to call forth patches of darkness.</content>
+  <content contentuid="ha5b945dc09104583aa48c98b3f8646f55a0f" version="1">Zooli the Tricksy Spirit</content>
+  <content contentuid="hc0336876ba61499f9206e663ca8192a26g65" version="1">Summon Fey: Tricksy</content>
+  <content contentuid="h070bc343b506491d90fbb7aa5b0b69926674" version="1">This summoned fey is up to something. When using its &lt;LSTag Type="Spell" Tooltip="Target_FeyStep_Tricksy"&gt;Fey Step&lt;/LSTag&gt; ability, it can create a patch of darkness that lasts until the end of its next turn.</content>
+  <content contentuid="hb439ee927f5145b6b06d364004937d90fd85" version="1">Fey Step: Tricksy</content>
+  <content contentuid="he00e5d57edf14f1ca8bb93b12ca3f3103a70" version="1">Teleport to an unoccupied space you can see. Afterwards, you can create a &lt;LSTag Type="Spell" Tooltip="Target_Darkness_Tricksy"&gt;patch of darkness&lt;/LSTag&gt; that lasts until the end of your next turn.</content>
+  <content contentuid="h5e9f9dc4b96145bc82b87fb73bb6f9b653ad" version="1">Tricksy Darkness</content>
+  <content contentuid="haa601daa8a124434847815c2f474489c92ec" version="1">Can create a small patch of darkness.</content>
+  <content contentuid="h2e1da9138aa74d2388cba99b59168d4f67f7" version="1">Tricksy Darkness</content>
+  <content contentuid="h4895d50ce17845a6b7e05cc27df5100a9795" version="1">Create a small patch of darkness.</content>
+  <content contentuid="h53ab9ebbge744g415fgb2f7g1e5214c50a86" version="1">Fey Blade</content>
+  <content contentuid="h56f0bca6e298423da1981576e991e8159e92" version="1">Fey Claws</content>
+  <content contentuid="h382602906eae4f5fb0419693f1922197182b" version="1">Summon Shadowspawn</content>
+  <content contentuid="h1d0c51651f3a40e49da1173b19b1d25bc4d4" version="1">Call forth a shadow spirit of &lt;LSTag Type="Spell" Tooltip="Target_SummonShadowspawn_Fury"&gt;Fury&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SummonShadowspawn_Despair"&gt;Despair&lt;/LSTag&gt;, or &lt;LSTag Type="Spell" Tooltip="Target_SummonShadowspawn_Fear"&gt;Fear&lt;/LSTag&gt;.</content>
 
 
 

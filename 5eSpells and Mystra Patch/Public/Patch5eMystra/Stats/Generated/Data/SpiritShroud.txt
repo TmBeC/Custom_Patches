@@ -31,6 +31,59 @@ data "MemoryCost" "1"
 data "PrepareEffect" "2534712b-d31e-45a4-b8e3-6385caa9ddc1"
 data "CastEffect" "56ea5092-8ecd-4b86-8686-c1c35d016928"
 
+new entry "Shout_SpiritShroud_4"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Shout_SpiritShroud"
+data "PowerLevel" "4"
+
+new entry "Shout_SpiritShroud_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Radiant);DealDamage(2d8,Necrotic);DealDamage(2d8,Cold)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_SpiritShroud"
+data "PowerLevel" "5"
+
+new entry "Shout_SpiritShroud_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Radiant);DealDamage(2d8,Necrotic);DealDamage(2d8,Cold)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_SpiritShroud"
+data "PowerLevel" "6"
+
+new entry "Shout_SpiritShroud_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Radiant);DealDamage(3d8,Necrotic);DealDamage(3d8,Cold)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_SpiritShroud"
+data "PowerLevel" "7"
+
+new entry "Shout_SpiritShroud_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Radiant);DealDamage(3d8,Necrotic);DealDamage(3d8,Cold)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_SpiritShroud"
+data "PowerLevel" "8"
+
+new entry "Shout_SpiritShroud_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud"
+data "DescriptionParams" "Distance(3);DealDamage(4d8,Radiant);DealDamage(4d8,Necrotic);DealDamage(4d8,Cold)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_SpiritShroud"
+data "PowerLevel" "9"
+
 new entry "Shout_SpiritShroud_Radiant"
 type "SpellData"
 data "SpellType" "Shout"
@@ -52,6 +105,80 @@ data "PrepareEffect" "2534712b-d31e-45a4-b8e3-6385caa9ddc1"
 data "CastEffect" "56ea5092-8ecd-4b86-8686-c1c35d016928"
 data "DamageType" "Radiant"
 
+new entry "Shout_SpiritShroud_Radiant_4"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Radiant"
+data "SpellContainerID" "Shout_SpiritShroud_4"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Shout_SpiritShroud_Radiant"
+data "PowerLevel" "4"
+
+new entry "Shout_SpiritShroud_Radiant_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Radiant"
+data "SpellContainerID" "Shout_SpiritShroud_5"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_RADIANT_5,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Radiant)"
+data "TooltipDamageList" "DealDamage(2d8,Radiant,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_RADIANT_5,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_SpiritShroud_Radiant"
+data "PowerLevel" "5"
+
+new entry "Shout_SpiritShroud_Radiant_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Radiant"
+data "SpellContainerID" "Shout_SpiritShroud_6"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_RADIANT_5,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Radiant)"
+data "TooltipDamageList" "DealDamage(2d8,Radiant,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_RADIANT_5,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_SpiritShroud_Radiant"
+data "PowerLevel" "6"
+
+new entry "Shout_SpiritShroud_Radiant_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Radiant"
+data "SpellContainerID" "Shout_SpiritShroud_7"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_RADIANT_7,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Radiant)"
+data "TooltipDamageList" "DealDamage(3d8,Radiant,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_RADIANT_7,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_SpiritShroud_Radiant"
+data "PowerLevel" "7"
+
+new entry "Shout_SpiritShroud_Radiant_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Radiant"
+data "SpellContainerID" "Shout_SpiritShroud_8"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_RADIANT_7,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Radiant)"
+data "TooltipDamageList" "DealDamage(3d8,Radiant,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_RADIANT_7,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_SpiritShroud_Radiant"
+data "PowerLevel" "8"
+
+new entry "Shout_SpiritShroud_Radiant_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Radiant"
+data "SpellContainerID" "Shout_SpiritShroud_9"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_RADIANT_9,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(4d8,Radiant)"
+data "TooltipDamageList" "DealDamage(4d8,Radiant,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_RADIANT_9,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "9"
+
 new entry "Shout_SpiritShroud_Necrotic"
 type "SpellData"
 data "SpellType" "Shout"
@@ -67,6 +194,80 @@ data "PrepareEffect" "80a4c9a2-af28-4ba2-bcab-082c9d2ee0e4"
 data "CastEffect" "104d98d3-1402-4fce-bab8-14df357d660e"
 data "DamageType" "Necrotic"
 
+new entry "Shout_SpiritShroud_Necrotic_4"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Necrotic"
+data "SpellContainerID" "Shout_SpiritShroud_4"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Shout_SpiritShroud_Necrotic"
+data "PowerLevel" "4"
+
+new entry "Shout_SpiritShroud_Necrotic_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Necrotic"
+data "SpellContainerID" "Shout_SpiritShroud_5"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_5,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Necrotic)"
+data "TooltipDamageList" "DealDamage(2d8,Necrotic,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_5,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_SpiritShroud_Necrotic"
+data "PowerLevel" "5"
+
+new entry "Shout_SpiritShroud_Necrotic_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Necrotic"
+data "SpellContainerID" "Shout_SpiritShroud_6"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_5,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Necrotic)"
+data "TooltipDamageList" "DealDamage(2d8,Necrotic,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_5,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_SpiritShroud_Necrotic"
+data "PowerLevel" "6"
+
+new entry "Shout_SpiritShroud_Necrotic_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Necrotic"
+data "SpellContainerID" "Shout_SpiritShroud_7"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_7,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Necrotic)"
+data "TooltipDamageList" "DealDamage(3d8,Necrotic,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_7,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_SpiritShroud_Necrotic"
+data "PowerLevel" "7"
+
+new entry "Shout_SpiritShroud_Necrotic_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Necrotic"
+data "SpellContainerID" "Shout_SpiritShroud_8"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_7,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Necrotic)"
+data "TooltipDamageList" "DealDamage(3d8,Necrotic,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_7,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_SpiritShroud_Necrotic"
+data "PowerLevel" "8"
+
+new entry "Shout_SpiritShroud_Necrotic_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Necrotic"
+data "SpellContainerID" "Shout_SpiritShroud_9"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_9,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(4d8,Necrotic)"
+data "TooltipDamageList" "DealDamage(4d8,Necrotic,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_NECROTIC_9,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "9"
+
 new entry "Shout_SpiritShroud_Cold"
 type "SpellData"
 data "SpellType" "Shout"
@@ -81,250 +282,228 @@ data "CastSound" "Spell_Cast_Damage_Ice_ChromaticOrbIce_L1to3"
 data "PrepareEffect" "f4aab3ad-a4ad-48e1-9052-3808e2b65981"
 data "DamageType" "Cold"
 
+new entry "Shout_SpiritShroud_Cold_4"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Cold"
+data "SpellContainerID" "Shout_SpiritShroud_4"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "4"
 
+new entry "Shout_SpiritShroud_Cold_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Cold"
+data "SpellContainerID" "Shout_SpiritShroud_5"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_COLD_5,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Cold)"
+data "TooltipDamageList" "DealDamage(2d8,Cold,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_COLD_5,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "5"
 
+new entry "Shout_SpiritShroud_Cold_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Cold"
+data "SpellContainerID" "Shout_SpiritShroud_6"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_COLD_5,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Cold)"
+data "TooltipDamageList" "DealDamage(2d8,Cold,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_COLD_5,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "6"
 
+new entry "Shout_SpiritShroud_Cold_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Cold"
+data "SpellContainerID" "Shout_SpiritShroud_7"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_COLD_7,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Cold)"
+data "TooltipDamageList" "DealDamage(3d8,Cold,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_COLD_7,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "7"
 
+new entry "Shout_SpiritShroud_Cold_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Cold"
+data "SpellContainerID" "Shout_SpiritShroud_8"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_COLD_7,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Cold)"
+data "TooltipDamageList" "DealDamage(3d8,Cold,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_COLD_7,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "8"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "Shout_SpiritShroud_Cold_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritShroud_Cold"
+data "SpellContainerID" "Shout_SpiritShroud_9"
+data "SpellProperties" "ApplyStatus(SPIRIT_SHROUD_COLD_9,100,10)"
+data "DescriptionParams" "Distance(3);DealDamage(4d8,Cold)"
+data "TooltipDamageList" "DealDamage(4d8,Cold,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(SPIRIT_SHROUD_COLD_9,100,10)"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_SpiritShroud_Cold"
+data "PowerLevel" "9"
 
 new entry "SPIRIT_SHROUD_HIT"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h3f09552dg71bcga311g7d32g62306427b214;1"
-data "Description" "hd484197ag23d4g63a4g53d1g1d2483f6c0ba;2"
-data "Icon" "Spell_New_SpiritShroud"
-data "Boosts" "IF(Enemy()):ActionResource(Movement,-3,0)"
-data "StatusGroups" "SG_RemoveOnRespec"
-
-new entry "SPIRIT_SHROUD_ATTACKED"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "hea9c0c71g72e1gad29gd880g19d3c58e8e5c;2"
-data "Description" "hbcdd29f4g2665gec29gf256g1d47acff01e4;2"
-data "Icon" "Spell_New_SpiritShroud"
-data "StillAnimationType" "Weakened"
-data "StillAnimationPriority" "Weakened"
-data "StackId" "SPIRIT_SHROUD_ATTACKED"
-data "TickType" "StartTurn"
-data "Boosts" "BlockRegainHP(Living;Undead)"
-data "StatusPropertyFlags" "TickingWithSource"
-
-new entry "SPIRIT_SHROUD_RADIANT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h46b8601fga50dgfb61g3924g0cbe979f4302;2"
-data "Description" "hdec3b7aag41fdg1534g3ccfg91165599aed0;2"
-data "DescriptionParams" "Distance(3);DealDamage(1d8,Radiant)"
-data "Icon" "Spell_New_SpiritShroud"
-data "StackId" "SPIRIT_SHROUD"
-data "StackType" "Overwrite"
-data "AuraRadius" "3"
-data "AuraStatuses" "TARGET:IF(not Self() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(SPIRIT_SHROUD_HIT,100,-1);"
-data "AuraFlags" "ShouldCheckLOS"
-data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsWeaponAttack()):CharacterWeaponDamage(1d8, Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(1d8, Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(1d8, Radiant);StatusImmunity(SG_Invisible)"
-data "Passives" "SpiritShroud_Attack"
-data "RemoveConditions" "HasStatus('SANCTUARY')"
-data "RemoveEvents" "OnStatusApplied"
-data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
-data "StatusGroups" "SG_RemoveOnRespec"
-data "StatusEffect" "0ed23914-38bc-42fc-b8e4-61c177a6df22"
-
-new entry "SPIRIT_SHROUD_NECROTIC"
-type "StatusData"
-data "StatusType" "BOOST"
-using "SPIRIT_SHROUD_RADIANT"
-data "DisplayName" "h92612203g9339g2bedg500ag184c4e281d1b;1"
-data "DescriptionParams" "Distance(3);DealDamage(1d8,Necrotic)"
-data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsWeaponAttack()):CharacterWeaponDamage(1d8, Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(1d8, Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(1d8, Necrotic);StatusImmunity(SG_Invisible)"
-data "StatusEffect" "33cfce8d-3ac1-4ddb-b66d-0ee6b5ec0131"
-
-new entry "SPIRIT_SHROUD_COLD"
-type "StatusData"
-data "StatusType" "BOOST"
-using "SPIRIT_SHROUD_RADIANT"
-data "DisplayName" "h303b7c93g06dcgb20fg97f9ge3c453f7d14a;1"
-data "DescriptionParams" "Distance(3);DealDamage(1d8,Cold)"
-data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsWeaponAttack()):CharacterWeaponDamage(1d8, Cold);IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(1d8, Cold);IF(HasStatus('SPIRIT_SHROUD_HIT', context.Target, context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(1d8, Cold);StatusImmunity(SG_Invisible)"
-data "StatusEffect" "33cfce8d-3ac1-4ddb-b66d-0ee6b5ec0131"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-new entry "SPIRIT_SHROUD_RADIANT"
-type "StatusData"
-data "StatusType" "BOOST"
-using "SPIRIT_SHROUD_COLD"
-data "DescriptionParams" "DealDamage(1d8,Radiant);Distance(3)"
-data "Icon" "Spell_Necromancy_SpiritShroud_Radiant"
-data "Boosts" "IF(HasStatus('SPIRIT_SHROUD')):CharacterWeaponDamage(1d8,Radiant);IF(HasStatus('SPIRIT_SHROUD')):CharacterUnarmedDamage(1d8,Radiant);IF(IsSpellAttack() and HasStatus('SPIRIT_SHROUD')):DamageBonus(1d8,Radiant)"
-data "StatusEffect" "VFX_Spells_Prepare_Arcane_Damage_Radiant_GuidingBolt_R_HandFX_01:Dummy_BodyFX;VFX_Spells_Prepare_Arcane_Damage_Radiant_GuidingBolt_R_HandFX_Textkey_01:Dummy_BodyFX"
-
-
-new entry "SPIRIT_SHROUD_NECROTIC"
-type "StatusData"
-data "StatusType" "BOOST"
-using "SPIRIT_SHROUD_COLD"
-data "DescriptionParams" "DealDamage(1d8,Necrotic);Distance(3)"
-data "Icon" "Spell_Necromancy_SpiritShroud_Necrotic"
-data "Boosts" "IF(HasStatus('SPIRIT_SHROUD')):CharacterWeaponDamage(1d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD')):CharacterUnarmedDamage(1d8,Necrotic);IF(IsSpellAttack() and HasStatus('SPIRIT_SHROUD')):DamageBonus(1d8,Necrotic)"
-data "StatusEffect" "VFX_Spells_Prepare_Arcane_Damage_Necrotic_R_HandFX_01:Dummy_BodyFX;VFX_Spells_Prepare_Arcane_Damage_Necrotic_R_HandFX_Textkey_01:Dummy_BodyFX"
-
-
-new entry "SPIRIT_SHROUD_COLD"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h23dd88c7g8782g42c0gb724g4a402ab2665b;1"
-data "Description" "hb524a91fgb0a5g47d3gb9c7gf21b535b39e2;1"
-data "DescriptionParams" "DealDamage(1d8,Cold);Distance(3)"
-data "Icon" "Spell_Necromancy_SpiritShroud_Cold"
-data "AuraRadius" "3"
-data "AuraStatuses" "IF(Enemy() and not HasStatus('SG_Blinded',context.Source)):ApplyStatus(SPIRIT_SHROUD)"
-data "Boosts" "IF(HasStatus('SPIRIT_SHROUD')):CharacterWeaponDamage(1d8,Cold);IF(HasStatus('SPIRIT_SHROUD')):CharacterUnarmedDamage(1d8,Cold);IF(IsSpellAttack() and HasStatus('SPIRIT_SHROUD')):DamageBonus(1d8,Cold)"
-data "Passives" "S5E_SpiritShroud_BlockHP"
-data "StackId" "SPIRIT_SHROUD"
-data "StatusEffect" "VFX_Spells_Prepare_Arcane_Damage_Cold_ChromaticOrb_R_HandFX_01:Dummy_BodyFX"
-
-
-new entry "S5E_SpiritShroud_BlockHP"
-type "PassiveData"
-data "DisplayName" "h00652ab8g2a29g43bcg9a08g58a4e8b1ac39;1"
-data "Properties" "IsHidden;OncePerTurn"
-data "Conditions" "IsHit() and HasStatus('SPIRIT_SHROUD')"
-data "StatsFunctors" "ApplyStatus(SPIRIT_SHROUD_HP,100,1)"
-data "StatsFunctorContext" "OnAttack"
-
-
-
-new entry "SPIRIT_SHROUD"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h23dd88c7g8782g42c0gb724g4a402ab2665b;1"
-data "Description" "h68f92fc9gc8e5g4339gaa41g40b4b1cfdd8f;1"
+data "DisplayName" "hebb4c59798754d78a2c3976e2863ba7b00fd;1"
+data "Description" "hdfdc0be12c444d23ae664f6bc2b8c2d23c03;1"
 data "Icon" "Spell_Necromancy_SpiritShroud"
+data "StackId" "SPIRIT_SHROUD"
 data "TickFunctors" "ApplyStatus(SPIRIT_SHROUD_MOVEMENT,100,1)"
 data "TickType" "StartTurn"
-data "StackId" "SPIRIT_SHROUD"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "SPIRIT_SHROUD_MOVEMENT"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h4f44da0ag8c77g4926g99abgace2952fd6c6;1"
-data "Description" "hcceccfedgc171g4e1bgb60fg2b04d95c703e;1"
+data "DisplayName" "h034bdd70ee084ab08c9418a0a595cbf1ec79;1"
+data "Description" "he86f2b5b163545618f2d53de31a706f9dacf;1"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Necromancy_SpiritShroud"
-data "Boosts" "ActionResource(Movement,-3,0)"
 data "StackId" "SPIRIT_SHROUD_MOVEMENT"
+data "Boosts" "ActionResource(Movement,-3,0)"
 data "TickType" "StartTurn"
 data "StatusPropertyFlags" "TickingWithSource"
 
-new entry "SPIRIT_SHROUD_HP"
+new entry "SpiritShroud_BlockHeal"
+type "PassiveData"
+data "Properties" "IsHidden;OncePerTurn"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and TotalDamageDoneGreaterThan(0) and IsAttack()"
+data "StatsFunctors" "ApplyStatus(SPIRIT_SHROUD_BLOCK_HEAL,100,1)"
+
+new entry "SPIRIT_SHROUD_BLOCK_HEAL"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h00652ab8g2a29g43bcg9a08g58a4e8b1ac39;1"
-data "Description" "h21a33956ga935g4ce5gb209g195b811ead9a;1"
+data "DisplayName" "h616cc89ec8f54bfc85885f74952a9f26cecf;1"
+data "Description" "h99164b56f4e94a3b8b344a3f56ab6030e952;1"
 data "Icon" "Spell_Necromancy_SpiritShroud"
-data "Boosts" "BlockRegainHP()"
+data "StillAnimationType" "Weakened"
+data "StillAnimationPriority" "Weakened"
+data "StackId" "SPIRIT_SHROUD_BLOCK_HEAL"
 data "TickType" "StartTurn"
+data "Boosts" "BlockRegainHP()"
 data "StatusPropertyFlags" "TickingWithSource"
-data "StackId" "SPIRIT_SHROUD_HP"
 
+new entry "SPIRIT_SHROUD_RADIANT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h93c7ae02fa17443d81aefdd605df90a6dcgd;1"
+data "Description" "hbd1f89e3ad3e41e2b2a55b85d684bfc9g599;1"
+data "DescriptionParams" "Distance(3);DealDamage(1d8,Radiant)"
+data "Icon" "Spell_Necromancy_SpiritShroud"
+data "StackId" "SPIRIT_SHROUD"
+data "AuraRadius" "3"
+data "AuraStatuses" "TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT')) and not HasStatus('SG_Blinded',context.Source)):ApplyStatus(SPIRIT_SHROUD_HIT)"
+data "AuraFlags" "ShouldCheckLOS"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(1d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(1d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(1d8,Radiant);StatusImmunity(SG_Invisible)"
+data "Passives" "SpiritShroud_BlockHeal"
+data "RemoveConditions" "HasStatus('SANCTUARY')"
+data "RemoveEvents" "OnStatusApplied"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "4acda1d7-3078-4648-ab06-ee027409d9a7"
 
+new entry "SPIRIT_SHROUD_RADIANT_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_RADIANT"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Radiant)"
+data "StackPriority" "5"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(2d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(2d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(2d8,Radiant);StatusImmunity(SG_Invisible)"
 
-  <content contentuid="h46b8601fga50dgfb61g3924g0cbe979f4302" version="2">Spirit Shroud: Radiant</content>
-  <content contentuid="hdec3b7aag41fdg1534g3ccfg91165599aed0" version="2">Nearby enemies have [1] of reduced movement speed.&lt;br&gt;&lt;br&gt;When you attack a nearby enemy deal an extra [2] and prevent them from regaining hit points until your next turn.</content>
-  <content contentuid="h3f09552dg71bcga311g7d32g62306427b214" version="1">Spirit Shroud Vulnerable</content>
-  <content contentuid="hd484197ag23d4g63a4g53d1g1d2483f6c0ba" version="2">Takes bonus damage when attacked by the source of the spirit shroud.</content>
-  <content contentuid="h49c1a4e0gc524gd597gecc8g78e7bfe3de5b" version="2">Spirit Shroud: Radiant</content>
-  <content contentuid="h78c7a3ecg3953g314bg26e6g02d730bcac17" version="1">Spirit Shroud: Radiant</content>
-  <content contentuid="h0834e27eg7cb7g9784gcb75gdceb6f842bf7" version="1">Call forth spirits to fight. Nearby enemies have [2] of reduced movement speed, can't regain hit points until your next turn, and take [1] extra damage when you attack them.</content>
-  <content contentuid="h5fd28eacg9f44gb448g5654g145eb3987b68" version="3">Call forth spirits to fight. Nearby enemies have [1] of reduced movement speed.&lt;br&gt;&lt;br&gt;When you attack a nearby enemy deal an extra [2] and prevent them from regaining hit points until your next turn.</content>
-  <content contentuid="hc937b506ga87fg6930g7e9fg5fe8e0a9d5af" version="1">Spirit Shroud: Necrotic</content>
-  <content contentuid="hddb29463gd28fg8a7cg4bc8g4d60a55cec14" version="1">Spirit Shroud: Cold</content>
-  <content contentuid="h3dd28fcege882g504dg5963g98166b8e6b06" version="1">Spirit Shroud: Necrotic</content>
-  <content contentuid="h05939d90gf26cge1e4g93b0gd764346acb95" version="1">Spirit Shroud: Cold</content>
-  <content contentuid="h92612203g9339g2bedg500ag184c4e281d1b" version="1">Spirit Shroud: Necrotic</content>
-  <content contentuid="h303b7c93g06dcgb20fg97f9ge3c453f7d14a" version="1">Spirit Shroud: Cold</content>
-  <content contentuid="hea9c0c71g72e1gad29gd880g19d3c58e8e5c" version="2">Spirit Shroud Chilled</content>
-  <content contentuid="hbcdd29f4g2665gec29gf256g1d47acff01e4" version="2">Cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
-  <content contentuid="hf9b10db4g0c0agbe21g1db3g59ce04cbc16f" version="1">Spirit Shroud</content>
+new entry "SPIRIT_SHROUD_RADIANT_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_RADIANT"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Radiant)"
+data "StackPriority" "7"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(3d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(3d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(3d8,Radiant);StatusImmunity(SG_Invisible)"
 
+new entry "SPIRIT_SHROUD_RADIANT_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_RADIANT"
+data "DescriptionParams" "Distance(3);DealDamage(4d8,Radiant)"
+data "StackPriority" "9"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(4d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(4d8,Radiant);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(4d8,Radiant);StatusImmunity(SG_Invisible)"
 
+new entry "SPIRIT_SHROUD_NECROTIC"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_RADIANT"
+data "DisplayName" "hddc1272f406d477faa918f2e89552ff8a1g2;1"
+data "DescriptionParams" "Distance(3);DealDamage(1d8,Necrotic)"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(1d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(1d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(1d8,Necrotic);StatusImmunity(SG_Invisible)"
+data "StatusEffect" "ec80b3cd-29fd-40d2-a41a-b703db1b6f8e"
 
+new entry "SPIRIT_SHROUD_NECROTIC_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_NECROTIC"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Necrotic)"
+data "StackPriority" "5"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(2d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(2d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(2d8,Necrotic);StatusImmunity(SG_Invisible)"
 
+new entry "SPIRIT_SHROUD_NECROTIC_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_NECROTIC"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Necrotic)"
+data "StackPriority" "7"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(3d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(3d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(3d8,Necrotic);StatusImmunity(SG_Invisible)"
 
+new entry "SPIRIT_SHROUD_NECROTIC_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_NECROTIC"
+data "DescriptionParams" "Distance(3);DealDamage(4d8,Necrotic)"
+data "StackPriority" "9"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(4d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(4d8,Necrotic);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(4d8,Necrotic);StatusImmunity(SG_Invisible)"
 
+new entry "SPIRIT_SHROUD_COLD"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_RADIANT"
+data "DisplayName" "h567cbcb861fc465d8ce78f8f1db9e5caa7cf;1"
+data "DescriptionParams" "Distance(3);DealDamage(1d8,Cold)"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(1d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(1d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(1d8,Cold);StatusImmunity(SG_Invisible)"
+data "StatusEffect" "cc7c02e9-b4f2-4c4d-bb4a-7526d7bef885"
 
-  <content contentuid="h3e36d300g9c21g4249gb403g1c7a0109bb57" version="1">Spirit Shroud: Cold</content>
-  <content contentuid="h583c96d5gf57ag4aa0gad7fg70c9816217fa" version="1">Spirit Shroud: Necrotic</content>
-  <content contentuid="hb524a91fgb0a5g47d3gb9c7gf21b535b39e2" version="1">Deals extra [1] against creature within [2].</content>
-  <content contentuid="h68f92fc9gc8e5g4339gaa41g40b4b1cfdd8f" version="1">Susceptible to taking additional damage from spellcaster.</content>
-  <content contentuid="h4f44da0ag8c77g4926g99abgace2952fd6c6" version="1">Spirit Shroud: Movement</content>
-  <content contentuid="hcceccfedgc171g4e1bgb60fg2b04d95c703e" version="1">Movement reduced by [1].</content>
-  <content contentuid="h00652ab8g2a29g43bcg9a08g58a4e8b1ac39" version="1">Spirit Shroud: Hit Points</content>
-  <content contentuid="h21a33956ga935g4ce5gb209g195b811ead9a" version="1">Cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+new entry "SPIRIT_SHROUD_COLD_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_COLD"
+data "DescriptionParams" "Distance(3);DealDamage(2d8,Cold)"
+data "StackPriority" "5"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(2d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(2d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(2d8,Cold);StatusImmunity(SG_Invisible)"
 
+new entry "SPIRIT_SHROUD_COLD_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_COLD"
+data "DescriptionParams" "Distance(3);DealDamage(3d8,Cold)"
+data "StackPriority" "7"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(3d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(3d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(3d8,Cold);StatusImmunity(SG_Invisible)"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "SPIRIT_SHROUD_COLD_9"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_SHROUD_COLD"
+data "DescriptionParams" "Distance(3);DealDamage(4d8,Cold)"
+data "StackPriority" "9"
+data "Boosts" "IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsWeaponAttack()):CharacterWeaponDamage(4d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsUnarmedAttack()):CharacterUnarmedDamage(4d8,Cold);IF(HasStatus('SPIRIT_SHROUD_HIT',context.Target,context.Source) and IsSpell() and IsSpellAttack()):DamageBonus(4d8,Cold);StatusImmunity(SG_Invisible)"
