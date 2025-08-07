@@ -194,7 +194,7 @@ Target_IntellectFortress
 Target_LifeTransference
 
 (Magic Circle)
-
+Target_MagicCircle
 
 (Melf's Minute Meteors)
 Shout_MinuteMeteors
@@ -203,7 +203,7 @@ Shout_MinuteMeteors
 Target_MotivationalSpeech
 
 (Nondetection)
-
+Target_Nondetection
 
 (Psionic Blast)
 
@@ -221,16 +221,16 @@ Target_Summon_Fey
 
 
 (Summon Shadowspawn)
-
+Target_SummonShadowspawn
 
 (Thunder Step)
-
+Teleportation_ThunderStep
 
 (Tidal Wave)
 
 
 (Water Walk)
-
+Target_WaterWalk
 
 
 // 4th Level Spells

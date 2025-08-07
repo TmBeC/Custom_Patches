@@ -27,6 +27,16 @@
 							</children>
 						</node>
 						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Abjuration_Nondetection.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Abjuration_Snare.png" />
 							<children>
 								<node id="entries">
@@ -48,6 +58,16 @@
 						</node>
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Conjuration_SummonShadowspawn.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Conjuration_ThunderStep.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="144" />
@@ -357,6 +377,16 @@
 							</children>
 						</node>
 						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Transmutation_WaterWalk.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Spell_Abjuration_Snare.png" />
 							<children>
 								<node id="entries">
@@ -378,6 +408,16 @@
 						</node>
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Spell_Conjuration_SummonShadowspawn.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Spell_Conjuration_ThunderStep.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="380" />
@@ -598,6 +638,16 @@
 						</node>
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Spell_Transmutation_Elementalism_ShapeWater.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Spell_Transmutation_WaterWalk.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="380" />

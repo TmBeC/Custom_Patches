@@ -336,6 +336,45 @@
   <content contentuid="h56f0bca6e298423da1981576e991e8159e92" version="1">Fey Claws</content>
   <content contentuid="h382602906eae4f5fb0419693f1922197182b" version="1">Summon Shadowspawn</content>
   <content contentuid="h1d0c51651f3a40e49da1173b19b1d25bc4d4" version="1">Call forth a shadow spirit of &lt;LSTag Type="Spell" Tooltip="Target_SummonShadowspawn_Fury"&gt;Fury&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SummonShadowspawn_Despair"&gt;Despair&lt;/LSTag&gt;, or &lt;LSTag Type="Spell" Tooltip="Target_SummonShadowspawn_Fear"&gt;Fear&lt;/LSTag&gt;.</content>
+  <content contentuid="h8dbd5c3f17714160b1ffd2206184a3842b7c" version="1">Shadow Stealth</content>
+  <content contentuid="h5ac7fa34cd58468cb5785e82c6425fdadd7b" version="1">While in dim light or darkness, the spirit is &lt;LSTag Type="Status" Tooltip="SHADOW_STEALTH"&gt;stealthed&lt;/LSTag&gt;.</content>
+  <content contentuid="he448ce1c22ef40808f508ddccf4ce8aea45g" version="1">Terror Frenzy</content>
+  <content contentuid="h3b9d34513f3149febbd47f74bf9db85egef0" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attacks&lt;/LSTag&gt; made from against &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; targets have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h3972033d7f4b41508e881a6c7d04203cdc07" version="1">Weight of Sorrow</content>
+  <content contentuid="h5a70fe77b620455daaed2cdbb00ce5bf4e6e" version="1">Enemy &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; within is reduced by [2] when within [1].</content>
+  <content contentuid="hefb05350631346919a6c69de6695457d52c6" version="1">Weight of Sorrow: Aura</content>
+  <content contentuid="hc2aad75b7c504524bd2b7fb9d63ed39dg138" version="1">Enemy &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is reduced by [2] when within [1].</content>
+  <content contentuid="h86420031eb8844979914e7cbff5c8355g131" version="1">Weight of Sorrow</content>
+  <content contentuid="hcfa06acc75944741a2f9530e041b33832ce4" version="1">Has &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced by [1].</content>
+  <content contentuid="h58ad7bf475b94329b7ba0c9014e18112524c" version="1">Shadowspawn of Fear</content>
+  <content contentuid="h5b3d831ba5be4cf485f549ab8d65d741b8g8" version="1">Chilling Hand</content>
+  <content contentuid="hac0fe10d56c545bb90c9c818206b0aa36c2c" version="1">Strike the target with a freezing cold touch.</content>
+  <content contentuid="h85823cdab0cb400ea8410c05356bb309c3de" version="1">Dreadful Scream</content>
+  <content contentuid="he5b52c63a2ee49ce8587ceb854c4ec188cf7" version="1">Induce fear to nearby creatures.</content>
+  <content contentuid="h159bb7b5c2894d2bb94e11b6d70a2288bgcc" version="1">Frightened</content>
+  <content contentuid="h18c32a8842164a2e88d526426147a8911de8" version="1">Cannot move. Frightened entities also have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="h76010776dd81494cb40a6b8bc16bca972bf9" version="1">Summon Shadowspawn: Fear</content>
+  <content contentuid="h9f7fb5e67dcc4a8f8b9e2a7c16e3ba30c010" version="1">Call forth a shadowy spirit that embodies the emotion of Fear, allowing it to take the &lt;LSTag Type="Spell" Tooltip="Shout_Hide_ShadowStealth"&gt;Hide&lt;/LSTag&gt; action as a bonus action while in dim light or darkness.</content>
+  <content contentuid="hca6e248d57474e40b7a2d2c1b936a79de2e3" version="1">Summon Shadowspawn: Fury</content>
+  <content contentuid="h837ba909eaf6424b84766257afce27bcaf33" version="1">Call forth a shadowy spirit that embodies the emotion of Fury, gaining &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; creatures.</content>
+  <content contentuid="h3a3dc599d6144fd09a06d1c064885178f2ef" version="1">Summon Shadowspawn: Despair</content>
+  <content contentuid="he8531410253147d894b162559c56b534g1e3" version="1">Call forth a shadowy spirit that embodies the emotion of Despair, causing creatures other than you within [1] of it to have its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; reduced by [2].</content>
+  <content contentuid="h04f9d53b84e74e4fa052465abfed2278d787" version="1">Shadowspawn of Fury</content>
+  <content contentuid="h2e4d4956571e44789bd520ae747b489bb681" version="1">Shadowspawn of Despair</content>
+  <content contentuid="hd07f975966de4a7897c11837fbcdce503990" version="1">Thunder Step</content>
+  <content contentuid="hc373b6071e6f4f008ac4a3b5476e9d6d4d76" version="1">Teleport yourself and up to 1 adjacent ally to a place you can see. A thunderous boom damages all creatures within [1] of the space you left.</content>
+  <content contentuid="h8d5887b01ba749b5980ece7d6782e0d8bcf1" version="1">The ally cannot be larger than medium.</content>
+  <content contentuid="h109fcf8410cb45d09fc2d790803710892ece" version="1">Thunder Step</content>
+  <content contentuid="h3546a07e7bbf401586e5e6178102b2f64704" version="1">Water Walk</content>
+  <content contentuid="h1dfc7c408a6b4843bf79b291c943a56ebe38" version="1">Grant allied creatures the ability to move across any liquid surface as if it were harmless solid ground.</content>
+  <content contentuid="h5b62a2b02c0d4c4f90a5f4262ebe127498a8" version="1">Surfaces include water, electrified water, electrified blood, mud, poison and grease.</content>
+  <content contentuid="hb2001f3b113647b5b82c6a15da970ad835c1" version="1">Water Walk</content>
+  <content contentuid="ha29d8629465b4e0f9c55c7b7e660f0b64cg6" version="1">Immune to certain liquid surfaces.</content>
+
+
+
+
+
 
 
 
