@@ -261,26 +261,32 @@
   <content contentuid="ha5964fac6fd94cabb8e0c3983d97f02c5dc2" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom, and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to psychic damage.</content>
   <content contentuid="h47f34d63b831431dae69ed9f3ef90b14fa3a" version="1">Life Transference</content>
   <content contentuid="h0ea151a495cf473e8e040ee9636dfe5ffa2g" version="1">Sacrifice some of your life to mend another creature's injuries. You take [1] and the targeted creature regains &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; equal to twice the damage you take.</content>
-  <content contentuid="PLACEHOLDER" version="1">Example_Text_Block</content>
-  <content contentuid="PLACEHOLDER" version="1">Example_Text_Block</content>
-
-
-
-
-
-
-
-data "DisplayName" "h6e3f302bdbae455b864f7b69c9b53857f5cd;1"
-data "Description" "ha77075f90f944a82b80eaa46e7173c9a380c;1"
-
-
-
-
-
-
-
-
-
+  <content contentuid="h6e3f302bdbae455b864f7b69c9b53857f5cd" version="1">Melf's Minute Meteors</content>
+  <content contentuid="ha77075f90f944a82b80eaa46e7173c9a380c" version="1">Conjure [2] flaming meteors that can be sent streaking toward enemies to explode in a [3] radius dealing [1].</content>
+  <content contentuid="ha785fc92g442dg8f18gf4c8g115bda549ab9" version="1">Melf's Minute Meteors</content>
+  <content contentuid="h33f67305g974eg1a8fgff3dgd4f2c0a58a7b" version="1">Can throw minute meteors at enemies.</content>
+  <content contentuid="h9740fb09g50dcg54f2g66f3g11949796556c" version="1">Melf's Minute Meteors</content>
+  <content contentuid="h2f481cfbg6f34g0493gf7e7g8123d1e8bfed" version="1">Can throw minute meteors at enemies.</content>
+  <content contentuid="h2f753524g21bfg88dage58dgdd19529c2e84" version="1">Melf's Minute Meteors</content>
+  <content contentuid="h405f1153g7202g345fgba40g62f6ad16dc3f" version="1">Can throw minute meteors at enemies for free.</content>
+  <content contentuid="h1a034193g7318g30bbga1e2g4b9aa563b365" version="1">Melf's Minute Meteors</content>
+  <content contentuid="hd96b5d55g731dg1ca9gce63gcef63d4497b3" version="1">Can throw minute meteors at enemies.</content>
+  <content contentuid="h1f265b48gc68dgdc53gb5f2g553895878072" version="2">Melf's Minute Meteors</content>
+  <content contentuid="h2f4d92d8gbe40g2cbcgb176gaf8a140fa7f3" version="2">Hurl a minute meteor at the target that explodes in a [1] radius.</content>
+  <content contentuid="h3fe0e198gc928gd061g4965gf08db5c18a4d" version="1">Melf's Minute Meteors</content>
+  <content contentuid="ha2b90619b523445baac079d2e4222b5e42b6" version="1">Motivational Speech</content>
+  <content contentuid="hde0036b00c6541939416660c07929982443a" version="1">Motivate up to 5 creatures. They gain +[1] and advantage on Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;If an affected entity is hit by an attack it has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h3270a52f52b74349974c7c5d179f6e91ca85" version="1">Motivational Speech</content>
+  <content contentuid="h77b6bd30699541adb44140e5925a1ac4d80a" version="1">Gain [1] and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; after being hit by an attack.</content>
+  <content contentuid="h3490c6e73e914c8faafb88e6af2fc759c8eb" version="1">Motivational Speech: Advantage</content>
+  <content contentuid="h5d56dd4b46564a78a1609e93287c094e8d87" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h1856c4eba0d94eccb40904d7aeb4e05b1b39" version="1">Spirit Shroud</content>
+  <content contentuid="h8945ce9a21bf43719d34141a2713ca64337g" version="1">Call forth spirits of the dead that flit around you. Attacks you make against creatures within [1] of you deal an extra [2], [3] or [4] and prevents them from regaining &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h929aa43d272442e28ff30dea3a7ec11bg27f" version="1">Hostile creatures that start their turns within [1] of you have its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; reduced by [1].</content>
+  <content contentuid="hecaffd5b3e9d45d386a8fe555b23208dd003" version="1">Spirit Shroud: Radiant</content>
+  <content contentuid="hf76ad74ff6bc4d17b1805389caec951314bf" version="1">Call forth spirits of the dead that flit around you. Attacks you make against creatures within [1] of you deal an extra [2] prevents them from regaining &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h93d0c8343c01495a95e5642955feeedc74aa" version="1">Spirit Shroud: Necrotic</content>
+  <content contentuid="h501fe7fa5cf44c4485c63a5b5ea514c57be4" version="1">Spirit Shroud: Cold</content>
 
 
 

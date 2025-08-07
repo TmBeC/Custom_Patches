@@ -200,7 +200,7 @@ Target_LifeTransference
 Shout_MinuteMeteors
 
 (Motivational Speech)
-
+Target_MotivationalSpeech
 
 (Nondetection)
 
@@ -212,7 +212,7 @@ Shout_MinuteMeteors
 
 
 (Spirit Shroud)
-
+Shout_SpiritShroud
 
 (Summon Fey)
 
