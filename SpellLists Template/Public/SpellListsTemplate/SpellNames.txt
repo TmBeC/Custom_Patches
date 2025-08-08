@@ -238,7 +238,7 @@ Target_WaterWalk
 
 
 (Aura of Purity)
-
+Shout_AuraOfPurity
 
 (Charm Monster)
 
