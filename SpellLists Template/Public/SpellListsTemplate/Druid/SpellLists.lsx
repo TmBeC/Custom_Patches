@@ -64,15 +64,7 @@ Shout_Aid;Target_Barkskin;Target_ContinualFlame;Target_Darkvision;Target_Enhance
 
 
 lvl 3
-Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;
-<<Erupting Earth>>
-Target_FeignDeath;
-<<Flame Arrows>>
-Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;
-<<Summon Fey>>
-<<Tidal Wave>>
-<<Water Walk>>
-
+Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_EruptingEarth;Target_FeignDeath;Target_FlameArrows;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_Summon_Fey;Target_TidalWave;Target_WaterWalk
 
 lvl 4
 Target_Blight;

@@ -39,14 +39,7 @@ Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWin
 
 
 lvl 3
-<<Ashardalon&apos;s Stride>>
-Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;
-<<Flame Arrows>>
-Projectile_LightningArrow;
-<<Nondetection>>
-Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;
-<<Summon Fey>>
-<<Water Walk>>
+Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Target_FlameArrows;Projectile_LightningArrow;Target_Nondetection;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_Summon_Fey;Target_WaterWalk
 
 
 lvl 4

@@ -64,15 +64,7 @@ Shout_Aid;Target_BlindnessDeafness;Shout_BorrowedKnowledge;Target_CalmEmotions;T
 
 
 lvl 3
-<<Antagonize>>
-Target_BestowCurse;
-<<Catnap>>
-<<Enemies Abound>>
-Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;
-<<Intellect Fortress>>
-<<Motivational Speech>>
-<<Nondetection>>
-Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+Target_Antagonize;Target_BestowCurse;Target_Catnap;Target_EnemiesAbound;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
 
 
 lvl 4

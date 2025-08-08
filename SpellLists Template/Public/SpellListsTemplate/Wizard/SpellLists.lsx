@@ -64,38 +64,7 @@ Zone_AganazzarsScorcher;Shout_AlterSelf;Target_ArcaneLock;Target_BlindnessDeafne
 
 
 lvl 3
-Target_AnimateDead;
-<<Antagonize>>
-<<Ashardalon&apos;s Stride>>
-Target_BestowCurse;Shout_Blink;
-<<Catnap>>
-Target_Counterspell;
-<<Enemies Abound>>
-<<Erupting Earth>>
-Zone_Fear;Target_FeignDeath;Projectile_Fireball;
-<<Flame Arrows>>
-Target_Fly;
-<<Freedom of the Waves>>
-Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;
-<<Incite Greed>>
-<<Intellect Fortress>>
-<<Life Transference>>
-Zone_LightningBolt;
-<<Magic Circle>>
-<<Melf&apos;s Minute Meteors>>
-<<Nondetection>>
-Target_ProtectionFromEnergy;
-<<Psionic Blast>>
-<<Pulse Wave>>
-Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;
-<<Spirit Shroud>>
-Target_StinkingCloud;
-<<Summon Fey>>
-<<Summon Lesser Demons>>
-<<Summon Shadowspawn>>
-<<Thunder Step>>
-<<Tidal Wave>>
-Target_VampiricTouch
+Target_AnimateDead;Target_Antagonize;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Counterspell;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Target_MagicCircle;Shout_MinuteMeteors;Target_Nondetection;Target_ProtectionFromEnergy;Zone_PsionicBlast;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Shout_SpiritShroud;Target_StinkingCloud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_TidalWave;Target_VampiricTouch
 
 
 lvl 4

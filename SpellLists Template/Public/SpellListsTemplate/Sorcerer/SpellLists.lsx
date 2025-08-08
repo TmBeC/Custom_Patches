@@ -64,29 +64,7 @@ Zone_AganazzarsScorcher;Shout_AlterSelf;Target_BlindnessDeafness;Shout_Blur;Targ
 
 
 lvl 3
-<<Antagonize>>
-<<Ashardalon&apos;s Stride>>
-Shout_Blink;
-<<Catnap>>
-Target_Counterspell;Target_Daylight_Container;
-<<Enemies Abound>>
-<<Erupting Earth>>
-Zone_Fear;Projectile_Fireball;
-<<Flame Arrows>>
-Target_Fly;
-<<Freedom of the Waves>>
-Target_GaseousForm;Target_Haste;Target_HypnoticPattern;
-<<Incite Greed>>
-<<Intellect Fortress>>
-Zone_LightningBolt;
-<<Melf&apos;s Minute Meteors>>
-Target_ProtectionFromEnergy;
-<<Psionic Blast>>
-Target_SleetStorm;Target_Slow;Target_StinkingCloud;
-<<Thunder Step>>
-<<Tidal Wave>>
-Target_VampiricTouch
-<<Water Walk>>
+Target_Antagonize;Shout_AshardalonsStride;Shout_Blink;Target_Catnap;Target_Counterspell;Target_Daylight_Container;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Zone_PsionicBlast;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Target_TidalWave;Target_VampiricTouch;Target_WaterWalk
 
 
 lvl 4

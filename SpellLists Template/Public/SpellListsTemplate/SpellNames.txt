@@ -181,11 +181,8 @@ Target_EruptingEarth
 (Flame Arrows)
 Target_FlameArrows
 
-(Freedom of the Waves)
-
-
 (Incite Greed)
-
+Target_InciteGreed
 
 (Intellect Fortress)
 Target_IntellectFortress
@@ -206,10 +203,10 @@ Target_MotivationalSpeech
 Target_Nondetection
 
 (Psionic Blast)
+Zone_PsionicBlast
 
-
-(Pulse Wave)
-
+(Pulse Wave) - Dunamancy spell
+Zone_PulseWave
 
 (Spirit Shroud)
 Shout_SpiritShroud
@@ -218,7 +215,7 @@ Shout_SpiritShroud
 Target_Summon_Fey
 
 (Summon Lesser Demons)
-
+Target_SummonLesserDemons
 
 (Summon Shadowspawn)
 Target_SummonShadowspawn
@@ -227,7 +224,7 @@ Target_SummonShadowspawn
 Teleportation_ThunderStep
 
 (Tidal Wave)
-
+Target_TidalWave
 
 (Water Walk)
 Target_WaterWalk
