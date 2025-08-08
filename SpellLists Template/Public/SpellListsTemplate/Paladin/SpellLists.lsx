@@ -47,17 +47,13 @@ Shout_AuraOfVitality;Target_Smite_Blinding;Target_CreateFoodAndWater;Shout_Crusa
 
 
 lvl 4
-<<Aura of Life>>
-<<Aura of Purity>>
-Target_Banishment;Target_DeathWard;Target_StaggeringSmite
+Shout_AuraOfLife;Shout_AuraOfPurity;Target_Banishment;Target_DeathWard;Target_StaggeringSmite
 
 
 lvl 5
-Target_Smite_Banishing;
-<<Circle of Power>>
-Shout_DestructiveWave;Shout_DispelEvilAndGood;Target_GreaterRestoration;
+Target_Smite_Banishing;Shout_CircleOfPower;Shout_DestructiveWave;Shout_DispelEvilAndGood;Target_GreaterRestoration;
 <<Holy Weapon>>
-<<Raise Dead>>
+Target_RaiseDead;
 <<Summon Celestial>>
 
 

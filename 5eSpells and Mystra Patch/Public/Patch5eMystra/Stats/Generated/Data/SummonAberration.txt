@@ -1,3 +1,222 @@
+new entry "SummonAberration_Beholderkin"
+type "Character"
+using "Spectator"
+data "Strength" "16"
+data "Dexterity" "10"
+data "Constitution" "15"
+data "Intelligence" "16"
+data "Wisdom" "10"
+data "Charisma" "6"
+data "Armor" "15"
+data "Vitality" "40"
+data "XPReward" "40806669-8c6b-4068-8bc4-07e4981bb020"
+data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1"
+data "Passives" "AttackOfOpportunity;Darkvision;DarknessRules;Spectator_FallResist;ShortResting;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check"
+data "PsychicResistance" "Immune"
+data "DifficultyStatuses" ""
+
+new entry "SummonAberration_Beholderkin_5"
+type "Character"
+using "SummonAberration_Beholderkin"
+data "Armor" "16"
+data "Vitality" "50"
+
+new entry "SummonAberration_Beholderkin_6"
+type "Character"
+using "SummonAberration_Beholderkin"
+data "Armor" "17"
+data "Vitality" "60"
+
+new entry "SummonAberration_Beholderkin_7"
+type "Character"
+using "SummonAberration_Beholderkin"
+data "Armor" "18"
+data "Vitality" "70"
+
+new entry "SummonAberration_Beholderkin_8"
+type "Character"
+using "SummonAberration_Beholderkin"
+data "Armor" "19"
+data "Vitality" "80"
+
+new entry "SummonAberration_Beholderkin_9"
+type "Character"
+using "SummonAberration_Beholderkin"
+data "Armor" "20"
+data "Vitality" "90"
+
+new entry "SummonAberration_MindFlayer"
+type "Character"
+using "MindFlayer"
+data "Strength" "16"
+data "Dexterity" "10"
+data "Constitution" "15"
+data "Intelligence" "16"
+data "Wisdom" "10"
+data "Charisma" "6"
+data "Armor" "15"
+data "Vitality" "40"
+data "XPReward" "40806669-8c6b-4068-8bc4-07e4981bb020"
+data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
+data "Passives" "SummonAberration_WhisperingAura;Darkvision;AttackOfOpportunity;DarknessRules;ShortResting;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check"
+data "PsychicResistance" "Immune"
+data "Proficiency Group" ""
+data "DifficultyStatuses" ""
+
+new entry "SummonAberration_MindFlayer_5"
+type "Character"
+using "SummonAberration_MindFlayer"
+data "Armor" "16"
+data "Vitality" "50"
+
+new entry "SummonAberration_MindFlayer_6"
+type "Character"
+using "SummonAberration_MindFlayer"
+data "Armor" "17"
+data "Vitality" "60"
+
+new entry "SummonAberration_MindFlayer_7"
+type "Character"
+using "SummonAberration_MindFlayer"
+data "Armor" "18"
+data "Vitality" "70"
+
+new entry "SummonAberration_MindFlayer_8"
+type "Character"
+using "SummonAberration_MindFlayer"
+data "Armor" "19"
+data "Vitality" "80"
+
+new entry "SummonAberration_MindFlayer_9"
+type "Character"
+using "SummonAberration_MindFlayer"
+data "Armor" "20"
+data "Vitality" "90"
+
+new entry "SummonAberration_Cloaker"
+type "Character"
+using "Cloaker"
+data "Strength" "16"
+data "Dexterity" "10"
+data "Constitution" "15"
+data "Intelligence" "16"
+data "Wisdom" "10"
+data "Charisma" "6"
+data "Armor" "15"
+data "Vitality" "40"
+data "XPReward" "40806669-8c6b-4068-8bc4-07e4981bb020"
+data "Flags" "Floating;FloatingWhileMoving"
+data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1"
+data "Passives" "SummonAberration_Regeneration;Darkvision;AttackOfOpportunity;DarknessRules;ShortResting;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check"
+data "PsychicResistance" "Immune"
+data "DifficultyStatuses" ""
+
+new entry "SummonAberration_Cloaker_5"
+type "Character"
+using "SummonAberration_Cloaker"
+data "Armor" "16"
+data "Vitality" "50"
+
+new entry "SummonAberration_Cloaker_6"
+type "Character"
+using "SummonAberration_Cloaker"
+data "Armor" "17"
+data "Vitality" "60"
+
+new entry "SummonAberration_Cloaker_7"
+type "Character"
+using "SummonAberration_Cloaker"
+data "Armor" "18"
+data "Vitality" "70"
+
+new entry "SummonAberration_Cloaker_8"
+type "Character"
+using "SummonAberration_Cloaker"
+data "Armor" "19"
+data "Vitality" "80"
+
+new entry "SummonAberration_Cloaker_9"
+type "Character"
+using "SummonAberration_Cloaker"
+data "Armor" "20"
+data "Vitality" "90"
+
+new entry "SummonAberration_Regeneration"
+type "PassiveData"
+data "DisplayName" "h6ce7eb0749c44d7f87d4305c60f759f0ed79;1"
+data "Description" "h6af2d959bbaa442cb5f6cfc5151fc5a23726;1"
+data "DescriptionParams" "RegainHitPoints(5)"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCombatStarted"
+data "Conditions" "not HasStatus('SUMMON_ABERRATION_REGENERATION')"
+data "StatsFunctors" "ApplyStatus(SUMMON_ABERRATION_REGENERATION,100,-1)"
+
+new entry "SUMMON_ABERRATION_REGENERATION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hf6cb91b573c945b0be8c5a4f1b75ff5b5237;1"
+data "StackId" "SUMMON_ABERRATION_REGENERATION"
+data "TickType" "StartTurn"
+data "TickFunctors" "IF(not HasStatus('DOWNED') and not Dead() and Combat()):RegainHitPoints(5)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+new entry "SummonAberration_WhisperingAura"
+type "PassiveData"
+data "DisplayName" "h27814537a7e641f8a6804541290dc66b2358;1"
+data "Description" "he58fa218b13b4580b05f0938ad208b265b0a;1"
+data "DescriptionParams" "Distance(2)"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCombatStarted"
+data "Conditions" "not HasStatus('SUMMON_ABERRATION_WHISPERING_AURA')"
+data "StatsFunctors" "ApplyStatus(SUMMON_ABERRATION_WHISPERING_AURA,100,-1)"
+
+new entry "SUMMON_ABERRATION_WHISPERING_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h844695b66daf4eee9b6532a1aa49b8048403;1"
+data "Description" "h1ece779f2d3c443ca0a9bab9101ba9684510;1"
+data "DescriptionParams" "Distance(2)"
+data "Icon" "GenericIcon_DamageType_Psychic"
+data "StackId" "SUMMON_ABERRATION_WHISPERING_AURA"
+data "AuraRadius" "2"
+data "AuraStatuses" "TARGET:IF(Character() and not Self() and not SummonOwner()):ApplyStatus(SUMMON_ABERRATION_WHISPERING_DAMAGE)"
+data "TickType" "StartTurn"
+data "RemoveConditions" "HasStatus('SG_Incapacitated')"
+data "RemoveEvents" "OnStatusApplied"
+data "StatusPropertyFlags" "DisableCombatlog"
+
+new entry "SUMMON_ABERRATION_WHISPERING_DAMAGE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5c860169148249efa5cf01456d2803b4ga30;1"
+data "Description" "h1a65a8d5214e46278d1dc4857d90ea61ec80;1"
+data "Icon" "GenericIcon_DamageType_Psychic"
+data "TooltipDamage" "DealDamage(2d6,Psychic)"
+data "StackId" "SUMMON_ABERRATION_WHISPERING_DAMAGE"
+data "StackType" "Ignore"
+data "TickType" "StartTurn"
+data "RemoveConditions" "not Combat()"
+data "RemoveEvents" "OnCombatEnded"
+data "TooltipSave" "Wisdom"
+data "OnTickRoll" "not SavingThrow(Ability.Wisdom, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnTickSuccess" "DealDamage(2d6,Psychic,Magical)"
+
+
+
+
+
+
+
+
+
+data "TickFunctors" "IF(not HasStatus('SG_Incapacitated') and not Dead() and Combat()):RegainHitPoints(5)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+
+// Meenlock Fear
+// This entity's proximity to a meenlock fills it with fear. It will become <LSTag Type="Status" Tooltip="FRIGHTENED">Frightened</LSTag> unless it succeeds a Wisdom <LSTag Tooltip="SavingThrow">Saving Throw</LSTag>.
 
 
 
@@ -25,6 +244,289 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "Target_SummonAberration"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "4"
+data "SpellSchool" "Conjuration"
+data "ContainerSpells" "Target_SummonAberration_Beholderkin;Target_SummonAberration_MindFlayer;Target_SummonAberration_Cloaker"
+data "SpellProperties" "GROUND:Summon(e9dca237-edc6-4d47-86fd-f1fea560d27d,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetRadius" "18"
+data "TargetConditions" "CanStand('e9dca237-edc6-4d47-86fd-f1fea560d27d') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_SummonAberration"
+data "DisplayName" "h11afdd4e1e3e4dac9f775bf49adc042b8a27;1"
+data "Description" "h36d47ce0eb3f4ed0acf8cda0a167ea7b4g95;1"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Air_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Air_L4to5"
+data "CastSound" "CrSpell_Cast_Cloaker_Phantasms"
+data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Air_L4to5"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;IsConcentration;IsLinkedSpellContainer;CannotTargetCharacter;CannotTargetItems"
+data "MemoryCost" "1"
+data "PrepareEffect" "8cd96174-585d-41b6-89ce-b4b309f2ecab"
+data "CastEffect" "111a8b8c-b395-46d0-b2f0-a10ac6f9731f"
+data "PositionEffect" "ec62fb4a-f6f7-459b-8cc1-044b8b30f3a1"
+data "DamageType" "Acid"
+
+new entry "Target_SummonAberration_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "ContainerSpells" "Target_SummonAberration_Beholderkin_5;Target_SummonAberration_MindFlayer_5;Target_SummonAberration_Cloaker_5"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonAberration"
+data "PowerLevel" "5"
+
+new entry "Target_SummonAberration_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "ContainerSpells" "Target_SummonAberration_Beholderkin_6;Target_SummonAberration_MindFlayer_6;Target_SummonAberration_Cloaker_6"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonAberration"
+data "PowerLevel" "6"
+
+new entry "Target_SummonAberration_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "ContainerSpells" "Target_SummonAberration_Beholderkin_7;Target_SummonAberration_MindFlayer_7;Target_SummonAberration_Cloaker_7"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonAberration"
+data "PowerLevel" "7"
+
+new entry "Target_SummonAberration_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "ContainerSpells" "Target_SummonAberration_Beholderkin_8;Target_SummonAberration_MindFlayer_8;Target_SummonAberration_Cloaker_8"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonAberration"
+data "PowerLevel" "8"
+
+new entry "Target_SummonAberration_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "ContainerSpells" "Target_SummonAberration_Beholderkin_9;Target_SummonAberration_MindFlayer_9;Target_SummonAberration_Cloaker_9"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonAberration"
+data "PowerLevel" "9"
+
+new entry "Target_SummonAberration_Beholderkin"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "SpellContainerID" "Target_SummonAberration"
+data "ContainerSpells" ""
+data "Icon" "Spell_Conjuration_SummonAberration"
+data "DisplayName" "h40a4a36fg2b8dgab41g4904g89b98fbbd134;1"
+data "Description" "h18228036g9c2dg43c8g1bdeg53805a13f4b0;1"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;IsConcentration;CannotTargetCharacter;CannotTargetItems"
+data "PrepareEffect" "be762a33-c7ea-418a-b565-dc122f7d87aa"
+data "CastEffect" "518bc78f-c169-43ba-b951-977d75429199"
+data "PositionEffect" "303b6851-33e8-488e-8d35-a3b73b732faf"
+
+new entry "Target_SummonAberration_Beholderkin_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Beholderkin"
+data "SpellProperties" "GROUND:Summon(6e97f2ed-ed70-460e-ba89-307aee952e98,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('6e97f2ed-ed70-460e-ba89-307aee952e98') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonAberration_Beholderkin"
+data "PowerLevel" "5"
+
+new entry "Target_SummonAberration_Beholderkin_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Beholderkin"
+data "SpellProperties" "GROUND:Summon(b20b92fa-d46e-44d6-bc4d-7bebdfced9bc,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('b20b92fa-d46e-44d6-bc4d-7bebdfced9bc') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonAberration_Beholderkin"
+data "PowerLevel" "6"
+
+new entry "Target_SummonAberration_Beholderkin_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Beholderkin"
+data "SpellProperties" "GROUND:Summon(7636d73e-e7c1-4e63-a81e-427115c8cd2a,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "TargetConditions" "CanStand('7636d73e-e7c1-4e63-a81e-427115c8cd2a') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonAberration_Beholderkin"
+data "PowerLevel" "7"
+
+new entry "Target_SummonAberration_Beholderkin_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Beholderkin"
+data "SpellProperties" "GROUND:Summon(cc175ed8-9f52-42c8-99d2-7adf35c826ce,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "TargetConditions" "CanStand('cc175ed8-9f52-42c8-99d2-7adf35c826ce') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonAberration_Beholderkin"
+data "PowerLevel" "8"
+
+new entry "Target_SummonAberration_Beholderkin_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Beholderkin"
+data "SpellProperties" "GROUND:Summon(a5fb2613-b1ee-40ea-939a-b8abc94fdea6,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "TargetConditions" "CanStand('a5fb2613-b1ee-40ea-939a-b8abc94fdea6') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonAberration_Beholderkin"
+data "PowerLevel" "9"
+
+new entry "Target_SummonAberration_Cloaker"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "SpellContainerID" "Target_SummonAberration"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(0980b92e-8d8a-44aa-9455-db88e323795b,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('0980b92e-8d8a-44aa-9455-db88e323795b') and not Character() and not Self()"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;IsConcentration;CannotTargetCharacter;CannotTargetItems"
+data "DisplayName" "h3f7d9a91g094ag5ab5g37a2g7f54bad34969;1"
+data "Description" "hc5a20024gbffeg557ag5dfag982b76203b02;1"
+
+new entry "Target_SummonAberration_Cloaker_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Cloaker"
+data "SpellProperties" "GROUND:Summon(d2aa4a4a-6283-49bc-bd88-f8674879be8d,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('d2aa4a4a-6283-49bc-bd88-f8674879be8d') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonAberration_Cloaker"
+data "PowerLevel" "5"
+
+new entry "Target_SummonAberration_Cloaker_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Cloaker"
+data "SpellProperties" "GROUND:Summon(ec20fe7c-5794-4bd2-9ee5-bf39bdb92c74,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('ec20fe7c-5794-4bd2-9ee5-bf39bdb92c74') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonAberration_Cloaker"
+data "PowerLevel" "6"
+
+new entry "Target_SummonAberration_Cloaker_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Cloaker"
+data "SpellProperties" "GROUND:Summon(2c5becc0-8b94-40de-a29c-bd69bb2321ab,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "TargetConditions" "CanStand('2c5becc0-8b94-40de-a29c-bd69bb2321ab') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonAberration_Cloaker"
+data "PowerLevel" "7"
+
+new entry "Target_SummonAberration_Cloaker_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Cloaker"
+data "SpellProperties" "GROUND:Summon(661b0eff-b518-4e77-8c17-6a96c2ae72b6,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "TargetConditions" "CanStand('661b0eff-b518-4e77-8c17-6a96c2ae72b6') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonAberration_Cloaker"
+data "PowerLevel" "8"
+
+new entry "Target_SummonAberration_Cloaker_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Cloaker"
+data "SpellProperties" "GROUND:Summon(29d48082-972e-4406-9c7c-6958d2d1b822,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "TargetConditions" "CanStand('29d48082-972e-4406-9c7c-6958d2d1b822') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonAberration_Cloaker"
+data "PowerLevel" "9"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data "CastSound" "Spell_Cast_Summon_ArcaneEye_L4to5"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration"
+data "MemoryCost" "1"
+data "PrepareEffect" "be762a33-c7ea-418a-b565-dc122f7d87aa"
+data "CastEffect" "518bc78f-c169-43ba-b951-977d75429199"
+data "PositionEffect" "303b6851-33e8-488e-8d35-a3b73b732faf"
+data "DamageType" "Psychic"
+
+
+
+
+  <content contentuid="h1034a55fg4abcgfa34gae39g4dba975bcab2" version="1">Wounding Ray</content>
+  <content contentuid="h29fa1fc2g7fafg201bg23c1g1cfa492ce6cb" version="1">Shoot an eye ray that deals psychic damage. </content>
+  <content contentuid="h375cd28eg661bg6311g7d03ge7c105b5a9a1" version="1">Fear Ray</content>
+  <content contentuid="h7e56a96eg5f0cg8ed8g488ag7f848b82a51c" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; its target.</content>
+  <content contentuid="h14d41c88gf67fg472fgc97egf843d66f625d" version="1">Fear Ray</content>
+  <content contentuid="hbd7e2726g98c9g7a2ag36cdg3d10999ed583" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; its target.</content>
+  <content contentuid="h7cd50b41g5993g2849g1306gc14d56a1da70" version="1">Paralysing Ray</content>
+  <content contentuid="hea1f8374g0516geed0g03abg6cab73f4c0f9" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="PARALYZED_SPECTATOR"&gt;Paralyses&lt;/LSTag&gt; its target.</content>
+  <content contentuid="h1b4332f2g6786g993bg4b36gd39df3598661" version="1">Confusion Ray</content>
+  <content contentuid="h2979616bg3c3cg49c5gbd9bg9648c068d526" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="CONFUSION_RAY"&gt;Befuddles&lt;/LSTag&gt; its target.</content>
+  <content contentuid="ha1df2d1dg8f94ga80ag38d3g6705ecc04b54" version="1">Spectator Spirit</content>
+  <content contentuid="h6baf5718g4966g56ccgf832gcceef14a8ab5" version="1">Bite</content>
+  <content contentuid="ha4d55033g29d4g89cag7691gb99ce195b7cf" version="1">Bite the target.</content>
+  <content contentuid="hc762c3f1gbf02g85eag19e2gb16b4926b26b" version="1">Cloaker Spirit</content>
+  <content contentuid="he4ef0f67g2d81g4ecagb1bdga399365a9c02" version="1">Aim multiple attacks at a target that cause &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;. The target must be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; or have less than half of its maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="hd348f7d6g9f85g22e1g7b4dg65acf6b77f87" version="1">Multiattack</content>
+  <content contentuid="h3f7d9a91g094ag5ab5g37a2g7f54bad34969" version="1">Summon Aberration: Cloaker</content>
+  <content contentuid="hc5a20024gbffeg557ag5dfag982b76203b02" version="1">Summon a Cloaker spirit. Its can &lt;LSTag Type="Spell" Tooltip="Shout_Phantasm_Cloaker_SummonAberration"&gt;Summon Phantasms&lt;/LSTag&gt;, induce &lt;LSTag Type="Spell" Tooltip="Shout_Moan_Cloaker_SummonAberration"&gt;Fear&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker_SummonAberration"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="he2045714g59eeg7681gdbdfgee13c708e926" version="1">Moan</content>
+  <content contentuid="h0e1a8191g12fagf570g1582g8da82352c511" version="1">Produce a piercing moan and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; nearby creatures.</content>
+  <content contentuid="h79e0ac9dgf5cdgbf5cg4fa5gff935612340a" version="1">Summon Phantasms</content>
+  <content contentuid="h246e5968g3c52gf0d5g7e6bg4270c557f2af" version="1">Create 3 illusory duplicates of yourself that distract attackers. Each duplicate increases your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3.&lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while there is at least one phantasm active.</content>
+  <content contentuid="hc7b3a903g56ffg99ddgcd1bg802950071094" version="1">Whenever you successfully evade an attack, one of the duplicates disappears.&lt;br&gt;&lt;br&gt;Bright light prevents phantasms from being summoned and dispels any active phantasms.</content>
+  <content contentuid="hf8708e49g7eddg0045g8a85g8f7d48e9b226" version="1">Phantasms: Saving Throws</content>
+  <content contentuid="hffbedb78g7746g8948g50d6g60d5f9b6eadc" version="1">Phantasm</content>
+  <content contentuid="h75abc8ffg2283g3ce4gc7d6g37b058c65b3c" version="1">The phantasm distracts attackers, increasing the Cloaker's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3.&lt;br&gt;&lt;br&gt;Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while there is at least one phantasm active.&lt;br&gt;&lt;br&gt;When the Cloaker successfully evades an attack, one of the images disappears.&lt;br&gt;&lt;br&gt;Bright light prevents phantasms from being summoned and dispels any active phantasms.</content>
+  <content contentuid="h392a9bfbg32f7g7b4eg7f00g8ad74c04f94c" version="1">Second Phantasm</content>
+  <content contentuid="h3d52d8e2g36d4gbdecg9426gcc0ad2e2850b" version="1">Third Phantasm</content>
+  <content contentuid="h1d4b2c4bg561cgb03cg463bga421d53516ad" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while there is at least one phantasm active.</content>
+  <content contentuid="h96cad309g905dge925gfc0ag9e4847f42272" version="1">Phantasms Obscurity</content>
+  <content contentuid="hfa3cc5a6g6bbagfb81g5643g505f82922a9d" version="1">Summon a Spectator spirit. Its eye rays can &lt;LSTag Type="Spell" Tooltip="Target_EyeRay_SummonAberration_5"&gt;Wound&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FearRay_SummonAberration"&gt;Frighten&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ParalyzingRay_SummonAberration"&gt;Paralyze&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ConfusionRay_SummonAberration"&gt;Confuse&lt;/LSTag&gt;.</content>
+  <content contentuid="h9ab216ecg4867g6a34g7235g0a41ff92b437" version="1">Summon a Spectator spirit. Its eye rays can &lt;LSTag Type="Spell" Tooltip="Target_EyeRay_SummonAberration_6"&gt;Wound&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FearRay_SummonAberration"&gt;Frighten&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ParalyzingRay_SummonAberration"&gt;Paralyze&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ConfusionRay_SummonAberration"&gt;Confuse&lt;/LSTag&gt;.</content>
+  <content contentuid="h14e3eb14g8b43ga1cag82c7ga22ade66b734" version="1">Summon a Cloaker spirit. Its can &lt;LSTag Type="Spell" Tooltip="Shout_Phantasm_Cloaker_SummonAberration"&gt;Summon Phantasms&lt;/LSTag&gt;, induce &lt;LSTag Type="Spell" Tooltip="Shout_Moan_Cloaker_SummonAberration_5"&gt;Fear&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker_SummonAberration_5"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="h02f86216g5205ga07eg1c7cg8fcc7cad37a3" version="1">Summon a Cloaker spirit. Its can &lt;LSTag Type="Spell" Tooltip="Shout_Phantasm_Cloaker_SummonAberration"&gt;Summon Phantasms&lt;/LSTag&gt;, induce &lt;LSTag Type="Spell" Tooltip="Shout_Moan_Cloaker_SummonAberration_6"&gt;Fear&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker_SummonAberration_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
+
+
+  <content contentuid="h2e2114b9g2922g41f9ga396g9e485a4043f3" version="1">Summon Aberration: Beholderkin</content>
+  <content contentuid="h2865ab28g7c78g40cegbc49g22910db110d8" version="1">Call forth an aberrant spirit whose corporeal form resembles a Beholderkin.</content>
+  <content contentuid="h5677fe1cgc4bdg4db7gb4e9gdc3c4c8069f7" version="1">Aberrant Spirit: Beholderkin</content>
+  <content contentuid="h41b4be4dgedffg4072gb3aegb51839ab050d" version="1">Eye Ray</content>
+  <content contentuid="h8ba16f71gc073g414ag8270g509d2fe00666" version="1">Shoot amagical eye ray at a creature.</content>
 
 
 

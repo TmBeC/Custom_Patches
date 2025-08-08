@@ -370,6 +370,63 @@
   <content contentuid="h5b62a2b02c0d4c4f90a5f4262ebe127498a8" version="1">Surfaces include water, electrified water, electrified blood, mud, poison and grease.</content>
   <content contentuid="hb2001f3b113647b5b82c6a15da970ad835c1" version="1">Water Walk</content>
   <content contentuid="ha29d8629465b4e0f9c55c7b7e660f0b64cg6" version="1">Immune to certain liquid surfaces.</content>
+  <content contentuid="h9f511a29847544f68b9ae9e1b7494975727g" version="1">Arcane Eye</content>
+  <content contentuid="h7ab8d4b20697420285cf700a117c36343128" version="1">Arcane Eye</content>
+  <content contentuid="hc12ec2582f5a4ff0843e30d9642bfda0166e" version="1">Create an invisible, magical eye that can scout the path ahead for you.</content>
+  <content contentuid="h34e9622b395b41f585e7a8903ae96a186923" version="1">Aura of Life</content>
+  <content contentuid="h1b319da7f06d40308749aa55947d52bf1114" version="1">An aura of life-preserving energy radiates from you in a [1] radius. Allied creatures in the aura have &lt;LSTag Tooltip="Resistance"&gt;Resistance&lt;/LSTag&gt; against Necrotic damage, their hit point maximum cannot be reduced and living creatures regain [2] when starting their turns with [3].</content>
+  <content contentuid="h74e719e5f7534323a129a0e86910ceb73b81" version="1">Aura of Life</content>
+  <content contentuid="h152ffb6dgdb36gb4fegca87g3fb36d8e7629" version="1">Radiate an aura that grants all nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage, hit point maximums cannot be reduced, and &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; allies will regain [1] hit point at the start of their turn.</content>
+  <content contentuid="h5c3faab474194e5780137cdbc079da44d234" version="1">Aura of Life</content>
+  <content contentuid="ha0618ffcb57c4967a9dd01353e4be34b1c6d" version="1">Radiate an aura that grants all nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage, hit point maximums cannot be reduced, and &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; allies will regain [1] hit point at the start of their turn.</content>
+  <content contentuid="hb9550de34bf445a5b47ba4818d62704c2ca2" version="1">This entity has &lt;LSTag Tooltip="Resistance"&gt;Resistance&lt;/LSTag&gt; against Necrotic damage, its hit point maximum cannot be reduced and it regains [1] at the start of its turn if &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt;.</content>
+  <content contentuid="h8b18365fcb3b4be0afd8b153996433afbefb" version="1">Charm Monster</content>
+  <content contentuid="h91921d672e704e25979578327d43ac6bb0cd" version="1">&lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; a creature to prevent it from attacking you. You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; in dialogue.</content>
+  <content contentuid="hd85209ffb4b04373b29429c9e56eb00fd5a9" version="1">Enemies have Advantage on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being Charmed.</content>
+  <content contentuid="h3380708b939046f59d55e41bed6cd95ee7e4" version="1">Guardian of Nature</content>
+  <content contentuid="hb8daf485b3284487a8d801b05a608d19801g" version="1">Call forth a nature spirit to transform you into a powerful guardian.</content>
+  <content contentuid="hbce277098035451faf7e2af3aa220b55d6ac" version="1">Guardian of Nature: Primal Beast</content>
+  <content contentuid="h4e8707376f754e19a71902dbdf3dd723e6f8" version="1">Bestial fur covers your body and your facial features become feral.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is increased by [1], you gain darkvision with a range of [2], your Strength-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and your melee weapon attacks deal an extra [3].</content>
+  <content contentuid="h92e2c28841a8432b83c0ff35a61c29b99aeb" version="1">Guardian of Nature: Great Tree</content>
+  <content contentuid="hc7c79eb2e46a4d7bbaa9f5c2bf935ea75df1" version="1">Your skin turns to bark and leaves begin to sprout from your hair.&lt;br&gt;&lt;br&gt;You gain [1], you make Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, you make Dexterity and Wisdom-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and the ground within [2] of you is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="hb747206730a1422ab2a64bbcc60f6683906e" version="1">Guardian of Nature: Primal Beast</content>
+  <content contentuid="ha16f3f7a4e25402da0fc698ddcb6c29aa6gd" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; increased by [1], gains [2] darkvision, Strength-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and melee weapon attacks deal an extra [3].</content>
+  <content contentuid="h147a05ece1774b7f8f1b9c38b13aad7ea210" version="1">Guardian of Nature: Giant Tree</content>
+  <content contentuid="h4346cbbafe0e4b0f90775a7cb370fc19a221" version="1">Gains [1].&lt;br&gt;&lt;br&gt;Gains advantage on Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and make Dexterity and Wisdom-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The area within [2] of the entity is considered &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="hf32c82953b3e4e018aea05eeb56dcf93c5gc" version="1">Raulothim's Psychic Lance</content>
+  <content contentuid="h78a0ddfa096f4d61afa696e08049ee431b0d" version="1">Unleash a shimmering lance of psychic power at a creature, possibly causing it to be &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;.</content>
+  <content contentuid="h06430c44d23a4ddb932af6f284f4015f1gd6" version="1">Psychic Lance</content>
+  <content contentuid="hf16cbee83a864a2dbfb1e08ea7a0db34gfd8" version="1">Shadow of Moil</content>
+  <content contentuid="he123686e6d1e4ea9bd8d7f2e4da0735ea3ag" version="1">Flame-like shadows wreathe your body, causing you to gain &lt;LSTag Tooltip="Resistance"&gt;Resistance&lt;/LSTag&gt; to radiant damage and become &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt; to others.</content>
+  <content contentuid="h4df3f39aa77747e884dbcdc53073658a245d" version="1">Whenever a creature within [1] hits you with an attack, the shadows lash out at that creature, dealing [2].</content>
+  <content contentuid="h82a42bf4ccf54595ab7b7bea8575b011ebc0" version="1">Shadow of Moil</content>
+  <content contentuid="hafb5344bb0d54b5da84fdb1b53469fd0bf7d" version="1">The entity is &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt; by thick shadows exuding up to [1] away from it.&lt;br&gt;&lt;br&gt;Gains &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.&lt;br&gt;&lt;br&gt;Creatures attacking the entity within [1] take [2].</content>
+  <content contentuid="h9ac347067fae424d872db148e967d27578g0" version="1">Shadow of Moil</content>
+  <content contentuid="h196106fc1d01453c9f54105a4bb65aaf4e8b" version="1">Deal [1] when a nearby creature lands an attack.</content>
+  <content contentuid="hb818e99f9aa3488bb43811f2528192c70cab" version="1">Storm Sphere</content>
+	<content contentuid="h9c02d5e3dd574b7cb3567b8069bdc5295e09" version="1">A [1] radius sphere of whirling air springs into existence. Creatures in the sphere when it appears or that ends its turn there takes [2]. The sphere’s space is difficult terrain.</content>
+	<content contentuid="h04ae9ae0353c4234b9971419e1dbca4f8d82" version="1">You can use a &lt;LSTag Tooltip="BonusAction"&gt;bonus action&lt;/LSTag&gt; to cause a bolt of lightning to leap from the sphere towards a creature within [1], dealing [2]. You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; if the target is in the sphere.</content>
+  <content contentuid="ha38febffa9e9415ebac067872d2c5e9d7b3g" version="1">Storm Sphere</content>
+  <content contentuid="h04ce7eaef90f46c8b3d558baf00d54a79278" version="1">A sphere of whirling air buffets enemies that stand too close.&lt;br&gt;&lt;br&gt;Creatures starting their turn in the area possibly take [1].&lt;br&gt;&lt;br&gt;The area within [2] of the sphere is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="hbe324bd43ceb4158934bd58f44511eb7b1b8" version="1">Stormy Winds</content>
+  <content contentuid="hf13929799d484bb7863c8c920b0393495edg" version="1">Standing near a storm sphere that buffets them at the end of each turn for [1].</content>
+  <content contentuid="h345f432a2ab147fca40a48a63aa3c05039ag" version="1">Storm Charge</content>
+  <content contentuid="hdcb64370fcc741e69476dc3efb9de66d1317" version="1">Electricity surges through the air, priming enemies within [1] for electrocution.</content>
+  <content contentuid="hc2ca96b48bd04272a55f07376d409b0c81dg" version="1">Storm Charge</content>
+  <content contentuid="hc60473f94d7a4ffc9f85399b23580ba3663a" version="1">Primed for electrocution while standing within [1] of a storm sphere.</content>
+  <content contentuid="h3a9614a93e2040a0bc5190f33d8e4ed348e0" version="1">Storm Sphere</content>
+  <content contentuid="hcd1409e46cef4a65a074550d071db68c1ca5" version="1">Can call forth lightning to strike those who stand near the storm sphere.</content>
+  <content contentuid="h96bb467e27464f70bee02c296e600ffef7f2" version="1">Within the Storm Sphere</content>
+  <content contentuid="h9f910885b5c444a4b880896fb0d80df5bbda" version="1">Storm Sphere Shock</content>
+  <content contentuid="h8f0f7adb70f4471ea6569a881deecca2gf43" version="1">Call down a lightning bolt to hit a target near the storm sphere.</content>
+  <content contentuid="h49c6228b65e0434a9a4efd5255a6ed613aef" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;on the attack roll if the enemy is standing within [1] of the sphere.</content>
+  <content contentuid="h11afdd4e1e3e4dac9f775bf49adc042b8a27" version="1">Summon Aberration</content>
+  <content contentuid="h36d47ce0eb3f4ed0acf8cda0a167ea7b4g95" version="1">Call forth an aberrant spirit of a &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_Beholderkin"&gt;Beholderkin&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_MindFlayer"&gt;Mind Flayer&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_Cloaker"&gt;Cloaker&lt;/LSTag&gt; aberration.</content>
+  <content contentuid="h40a4a36fg2b8dgab41g4904g89b98fbbd134" version="1">Summon Aberration: Beholderkin</content>
+  <content contentuid="h18228036g9c2dg43c8g1bdeg53805a13f4b0" version="1">Summon a Spectator spirit. Its eye rays can &lt;LSTag Type="Spell" Tooltip="Target_EyeRay_SummonAberration"&gt;Wound&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FearRay_SummonAberration"&gt;Frighten&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ParalyzingRay_SummonAberration"&gt;Paralyze&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ConfusionRay_SummonAberration"&gt;Confuse&lt;/LSTag&gt;.</content>
+  <content contentuid="hb62f97230ddc4a69a92af39c14e748733165" version="1">Spectator Spirit</content>
+  <content contentuid="hd5127002fa474af4bbca5921c2712504e8ca" version="1">Mind Flayer Spirit</content>
+  <content contentuid="hc762c3f1gbf02g85eag19e2gb16b4926b26b" version="1">Cloaker Spirit</content>
 
 
 
@@ -379,11 +436,9 @@
 
 
 
-
-
-
-
-
+  <content contentuid="h6ce7eb0749c44d7f87d4305c60f759f0ed79" version="1">Regeneration</content>
+  <content contentuid="h6af2d959bbaa442cb5f6cfc5151fc5a23726" version="1">At the beginning of your turn, heal you [1].</content>
+  <content contentuid="hf6cb91b573c945b0be8c5a4f1b75ff5b5237" version="1">Regeneration Technical</content>
 
 
 

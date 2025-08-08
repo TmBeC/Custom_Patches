@@ -232,46 +232,40 @@ Target_WaterWalk
 
 // 4th Level Spells
 (Arcane Eye)
-
+Target_ArcaneEye
 
 (Aura of Life)
-
+Shout_AuraOfLife
 
 (Aura of Purity)
 Shout_AuraOfPurity
 
 (Charm Monster)
-
-
-(Control Water)
-
+Target_CharmMonster
 
 (Ego Whip)
-
+Target_EgoWhip
 
 (Elemental Bane)
-
+Target_ElementalBane
 
 (Gravity Sinkhole) - Chronurgy Wizard only
-
+Target_GravitySinkhole
 
 (Guardian of Nature)
-
+Shout_GuardianOfNature
 
 (Raulothim's Psychic Lance)
-
+Projectile_PsychicLance
 
 (Shadow of Moil)
-
-
-(Stone Shape)
-
+Shout_ShadowOfMoil
 
 (Storm Sphere)
-
+Target_StormSphere
 
 (Summon Aberration)
-
+Target_SummonAberration
 
 (Summon Construct)
 
@@ -280,7 +274,7 @@ Shout_AuraOfPurity
 
 
 (Summon Greater Demon)
-
+Target_SummonGreaterDemon
 
 (Vitriolic Sphere)
 
@@ -288,28 +282,28 @@ Shout_AuraOfPurity
 
 // 5th Level Spells
 (Antilife Shell)
-
+Shout_AntilifeShell
 
 (Bigby's Hand)
-
+Target_BigbyHand
 
 (Circle of Power)
-
+Shout_CircleOfPower
 
 (Commune With Nature)
-
+Shout_CommuneWithNature
 
 (Conjure Volley)
-
+ProjectileStrike_ConjureVolley
 
 (Danse Macabre)
-
+Target_DanseMacabre_Container
 
 (Dream)
-
+Target_DreamSleep
 
 (Enervation)
-
+Shout_Enervation_Activate
 
 (Far Step)
 
@@ -318,31 +312,31 @@ Shout_AuraOfPurity
 
 
 (Immolation)
-
+Target_Immolation
 
 (Infernal Calling)
-
+Target_InfernalCalling
 
 (Maelstrom)
 
 
 (Mislead)
-
+Target_Mislead
 
 (Negative Energy Flood)
 
 
 (Raise Dead)
-
+Target_RaiseDead
 
 (Skill Empowerment)
-
+Target_SkillEmpowerment
 
 (Steel Wind Strike)
 
 
 (Summon Dragon)
-
+Target_SummonDragon
 
 (Swift Quiver)
 
@@ -351,33 +345,24 @@ Shout_AuraOfPurity
 
 
 (Teleportation Circle)
-
+Teleportation_TeleportationCircle
 
 (Temporal Shunt)
-
+Target_AstralDisjunction
 
 
 // 6th Level Spells
 (Conjure Fey)
+Target_ConjureFey
 
-
-(Investiture of Flame)
-
-
-(Investiture of Ice)
-
-
-(Investiture of Stone)
-
-
-(Investiture of Wind)
-
+(Elemental Investiture)
+Shout_ElementalInvestiture
 
 (Primordial Ward)
-
+Shout_PrimordialWard
 
 (Psychic Crush)
-
+Target_PsychicCrush
 
 (Tenser's Transformation)
 

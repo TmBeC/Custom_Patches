@@ -67,39 +67,21 @@ lvl 3
 Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_EruptingEarth;Target_FeignDeath;Target_FlameArrows;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_Summon_Fey;Target_TidalWave;Target_WaterWalk
 
 lvl 4
-Target_Blight;
-<<Charm Monster>>
-Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;
-<<Control Water>>
-Target_DominateBeast;
-<<Elemental Bane>>
-Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;
-<<Guardian of Nature>>
-Target_IceStorm;Target_Polymorph;
-<<Stone Shape>>
-Target_Stoneskin;
+Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;
+Target_ElementalBane;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;
+Shout_GuardianOfNature;Target_IceStorm;Target_Polymorph;Target_Stoneskin;
 <<Summon Elemental>>
 Wall_WallOfFire
 
 
 lvl 5
-<<Antilife Shell>>
-<<Commune With Nature>>
-Zone_ConeOfCold;
-Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;
+Shout_AntilifeShell;Shout_CommuneWithNature;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;
 <<Maelstrom>>
 Target_PlanarBinding;Wall_WallOfStone
 
 
 lvl 6
-<<Conjure Fey>>
-Target_FleshToStone;Target_Heal;Shout_HeroesFeast;
-<<Investiture of Flame>>
-<<Investiture of Ice>>
-<<Investiture of Stone>>
-<<Investiture of Wind>>
-<<Primordial Ward>>
-Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk
+Target_ConjureFey;Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Shout_ElementalInvestiture;Shout_PrimordialWard;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk
 
 
 lvl 7

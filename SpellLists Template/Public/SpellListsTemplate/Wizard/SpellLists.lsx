@@ -68,62 +68,32 @@ Target_AnimateDead;Target_Antagonize;Shout_AshardalonsStride;Target_BestowCurse;
 
 
 lvl 4
-<<Arcane Eye>>
-Target_Banishment;Target_Blight;
-<<Charm Monster>>
-Target_Confusion;Target_ConjureElementals_Minor_Container;
-<<Control Water>>
-Teleportation_DimensionDoor;
-<<Ego Whip>>
-<<Elemental Bane>>
-Target_BlackTentacles;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_ResilientSphere;Target_PhantasmalKiller;Target_Polymorph;
-<<Raulothim&apos;s Psychic Lance>>
-<<Stone Shape>>
-Target_Stoneskin;
-<<Storm Sphere>>
-<<Summon Aberration>>
+Target_ArcaneEye;Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_EgoWhip;
+Target_ElementalBane;Target_BlackTentacles;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_ResilientSphere;Target_PhantasmalKiller;Target_Polymorph;Projectile_PsychicLance;Target_Stoneskin;
+Target_StormSphere;Target_SummonAberration;
 <<Summon Construct>>
 <<Summon Elemental>>
-<<Summon Greater Demon>>
+Target_SummonGreaterDemon;
 <<Vitriolic Sphere>>
 Wall_WallOfFire
 
 
 lvl 5
-<<Bigby&apos;s Hand>>
-<<Circle of Power>>
-Target_Cloudkill;
-<<Commune With Nature>>
-Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;
-<<Dream>>
-<<Enervation>>
+Target_BigbyHand;Shout_CircleOfPower;Target_Cloudkill;Shout_CommuneWithNature;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_DreamSleep;Shout_Enervation_Activate;
 <<Far Step>>
-Target_HoldMonster;
-<<Immolation>>
-<<Infernal Calling>>
+Target_HoldMonster;Target_Immolation;Target_InfernalCalling;
 <<Maelstrom>>
-<<Mislead>>
+Target_Mislead;
 <<Negative Energy Flood>>
-Target_PlanarBinding;Target_Seeming;
-<<Skill Empowerment>>
+Target_PlanarBinding;Target_Seeming;Target_SkillEmpowerment;
 <<Steel Wind Strike>>
-<<Summon Dragon>>
+Target_SummonDragon;
 <<Synaptic Static>>
-Throw_Telekinesis;
-<<Teleportation Circle>>
-<<Temporal Shunt>>
-Wall_WallOfStone
+Throw_Telekinesis;Teleportation_TeleportationCircle;Target_AstralDisjunction;Wall_WallOfStone
 
 
 lvl 6
-Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Target_CreateUndead;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;
-<<Investiture of Flame>>
-<<Investiture of Ice>>
-<<Investiture of Stone>>
-<<Investiture of Wind>>
-Target_FreezingSphere;Target_IrresistibleDance;
-<<Psychic Crush>>
-Zone_Sunbeam;
+Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Target_CreateUndead;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Shout_ElementalInvestiture;Target_FreezingSphere;Target_IrresistibleDance;Target_PsychicCrush;Zone_Sunbeam;
 <<Tenser&apos;s Transformation>>
 <<True Seeing>>
 Wall_WallOfIce

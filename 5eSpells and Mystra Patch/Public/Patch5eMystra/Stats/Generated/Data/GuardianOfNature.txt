@@ -1,57 +1,228 @@
+new entry "Shout_GuardianOfNature"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "4"
+data "SpellSchool" "Transmutation"
+data "ContainerSpells" "Shout_GuardianOfNature_PrimalBeast;Shout_GuardianOfNature_GreatTree"
+data "TargetConditions" "Self()"
+data "Icon" "Spell_Transmutation_GuardianOfNature"
+data "DisplayName" "h3380708b939046f59d55e41bed6cd95ee7e4;1"
+data "Description" "hb8daf485b3284487a8d801b05a608d19801g;1"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "PrepareSound" "Spell_Prepare_Buff_WildShape_L1to3"
+data "PrepareLoopSound" "Spell_Loop_Buff_WildShape_L1to3"
+data "CastSound" "Spell_Cast_Buff_Barkskin_L1to3"
+data "TargetSound" "Spell_Impact_Buff_Barkskin_L1to3"
+data "VocalComponentSound" "Vocal_Component_PolymorphGeneric"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "HasVerbalComponent;IsSpell;IsConcentration;IsLinkedSpellContainer"
+data "MemoryCost" "1"
+data "PrepareEffect" "4ccd738c-494b-4231-9067-742798e4c241"
+data "CastEffect" "6fa15e05-79a0-466e-adbb-6d3ad9c3e6fc"
+data "TargetEffect" "c8c8a4be-6483-454c-815a-e24feed40e88"
 
+new entry "Shout_GuardianOfNature_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature"
+data "ContainerSpells" "Shout_GuardianOfNature_PrimalBeast_5;Shout_GuardianOfNature_GreatTree_5"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_GuardianOfNature"
+data "PowerLevel" "5"
 
+new entry "Shout_GuardianOfNature_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature"
+data "ContainerSpells" "Shout_GuardianOfNature_PrimalBeast_6;Shout_GuardianOfNature_GreatTree_6"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_GuardianOfNature"
+data "PowerLevel" "6"
 
+new entry "Shout_GuardianOfNature_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature"
+data "ContainerSpells" "Shout_GuardianOfNature_PrimalBeast_7;Shout_GuardianOfNature_GreatTree_7"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_GuardianOfNature"
+data "PowerLevel" "7"
 
+new entry "Shout_GuardianOfNature_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature"
+data "ContainerSpells" "Shout_GuardianOfNature_PrimalBeast_8;Shout_GuardianOfNature_GreatTree_8"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_GuardianOfNature"
+data "PowerLevel" "8"
 
+new entry "Shout_GuardianOfNature_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature"
+data "ContainerSpells" "Shout_GuardianOfNature_PrimalBeast_9;Shout_GuardianOfNature_GreatTree_9"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_GuardianOfNature"
+data "PowerLevel" "9"
 
+new entry "Shout_GuardianOfNature_PrimalBeast"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature"
+data "SpellContainerID" "Shout_GuardianOfNature"
+data "ContainerSpells" ""
+data "SpellProperties" "ApplyStatus(GUARDIAN_OF_NATURE_PRIMAL_BEAST,100,10)"
+data "Icon" "Spell_Transmutation_GuardianOfNature_PrimalBeast"
+data "DisplayName" "hbce277098035451faf7e2af3aa220b55d6ac;1"
+data "Description" "h4e8707376f754e19a71902dbdf3dd723e6f8;1"
+data "DescriptionParams" "Distance(3);Distance(36);DealDamage(1d6,Force)"
+data "TooltipStatusApply" "ApplyStatus(GUARDIAN_OF_NATURE_PRIMAL_BEAST,100,10)"
+data "CastSound" "Spell_Cast_Buff_WildShapeWolf_L1to3"
+data "TargetSound" "Spell_Impact_Buff_EnhanceAbilityBearsEndurance_L1to3"
 
+new entry "Shout_GuardianOfNature_PrimalBeast_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_PrimalBeast"
+data "SpellContainerID" "Shout_GuardianOfNature_5"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_GuardianOfNature_PrimalBeast"
+data "PowerLevel" "5"
 
+new entry "Shout_GuardianOfNature_PrimalBeast_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_PrimalBeast"
+data "SpellContainerID" "Shout_GuardianOfNature_6"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_GuardianOfNature_PrimalBeast"
+data "PowerLevel" "6"
 
+new entry "Shout_GuardianOfNature_PrimalBeast_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_PrimalBeast"
+data "SpellContainerID" "Shout_GuardianOfNature_7"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_GuardianOfNature_PrimalBeast"
+data "PowerLevel" "7"
 
+new entry "Shout_GuardianOfNature_PrimalBeast_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_PrimalBeast"
+data "SpellContainerID" "Shout_GuardianOfNature_8"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_GuardianOfNature_PrimalBeast"
+data "PowerLevel" "8"
 
+new entry "Shout_GuardianOfNature_PrimalBeast_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_PrimalBeast"
+data "SpellContainerID" "Shout_GuardianOfNature_9"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_GuardianOfNature_PrimalBeast"
+data "PowerLevel" "9"
 
+new entry "Shout_GuardianOfNature_GreatTree"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature"
+data "SpellContainerID" "Shout_GuardianOfNature"
+data "ContainerSpells" ""
+data "SpellProperties" "ApplyStatus(GUARDIAN_OF_NATURE_GREAT_TREE,100,10)"
+data "Icon" "Spell_Transmutation_GuardianOfNature_GreatTree"
+data "DisplayName" "h92e2c28841a8432b83c0ff35a61c29b99aeb;1"
+data "Description" "hc7c79eb2e46a4d7bbaa9f5c2bf935ea75df1;1"
+data "DescriptionParams" "GainTemporaryHitPoints(10);Distance(5)"
+data "TooltipStatusApply" "ApplyStatus(GUARDIAN_OF_NATURE_GREAT_TREE,100,10)"
+data "TooltipPermanentWarnings" "8892b93b-721f-4b99-b9b4-05ac25aadb33"
 
+new entry "Shout_GuardianOfNature_GreatTree_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_GreatTree"
+data "SpellContainerID" "Shout_GuardianOfNature_5"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Shout_GuardianOfNature_GreatTree"
+data "PowerLevel" "5"
 
+new entry "Shout_GuardianOfNature_GreatTree_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_GreatTree"
+data "SpellContainerID" "Shout_GuardianOfNature_6"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Shout_GuardianOfNature_GreatTree"
+data "PowerLevel" "6"
 
+new entry "Shout_GuardianOfNature_GreatTree_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_GreatTree"
+data "SpellContainerID" "Shout_GuardianOfNature_7"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_GuardianOfNature_GreatTree"
+data "PowerLevel" "7"
 
+new entry "Shout_GuardianOfNature_GreatTree_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_GreatTree"
+data "SpellContainerID" "Shout_GuardianOfNature_8"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_GuardianOfNature_GreatTree"
+data "PowerLevel" "8"
 
+new entry "Shout_GuardianOfNature_GreatTree_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GuardianOfNature_GreatTree"
+data "SpellContainerID" "Shout_GuardianOfNature_9"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_GuardianOfNature_GreatTree"
+data "PowerLevel" "9"
 
+new entry "GUARDIAN_OF_NATURE_PRIMAL_BEAST"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+data "DisplayName" "hb747206730a1422ab2a64bbcc60f6683906e;1"
+data "Description" "ha16f3f7a4e25402da0fc698ddcb6c29aa6gd;1"
+data "DescriptionParams" "Distance(3);Distance(36);DealDamage(1d6,Force)"
+data "Icon" "Spell_Transmutation_GuardianOfNature"
+data "StackId" "GUARDIAN_OF_NATURE"
+data "Boosts" "ActionResource(Movement,3,0);DarkvisionRangeMin(36);ActiveCharacterLight(03d551ac-bba6-4ce3-a09e-9f40aa5cb90b);IF(ConditionResult(context.HitDescription.AttackAbility == Ability.Strength)):Advantage(AttackRoll);CharacterWeaponDamage(1d6,Force);CharacterUnarmedDamage(1d6,Force)"
+data "Rules" "b40d9ab4-57a7-4632-b8d7-188904b00606"
+data "StatusGroups" "SG_DropForNonMutingDialog;SG_RemoveOnRespec;SG_Polymorph"
+data "ApplyEffect" "10460a87-cafb-4cf3-bce7-43bf7eba309f"
+data "StatusEffect" "f1162d63-e269-47f7-94ad-abda93b2e08a"
 
+new entry "GUARDIAN_OF_NATURE_GREAT_TREE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h147a05ece1774b7f8f1b9c38b13aad7ea210;1"
+data "Description" "h4346cbbafe0e4b0f90775a7cb370fc19a221;1"
+data "DescriptionParams" "GainTemporaryHitPoints(10);Distance(5)"
+data "Icon" "Spell_Transmutation_GuardianOfNature"
+data "StackId" "TEMPORARY_HP"
+data "StackPriority" "10"
+data "StackType" "Overwrite"
+data "AuraRadius" "5"
+data "AuraStatuses" "TARGET:IF(Character()):ApplyStatus(DIFFICULT_TERRAIN,100,-1)"
+data "Boosts" "TemporaryHP(10);Advantage(SavingThrow,Constitution);IF(AttackRollAbility(Ability.Dexterity)):Advantage(AttackRoll);IF(AttackRollAbility(Ability.Wisdom)):Advantage(AttackRoll)"
+data "OnApplyFunctors" "ApplyStatus(GUARDIAN_OF_NATURE_VFX,100,10)"
+data "OnRemoveFunctors" "RemoveStatus(GUARDIAN_OF_NATURE_VFX)"
+data "StatusGroups" "SG_DropForNonMutingDialog;SG_RemoveOnRespec;SG_Polymorph"
+data "ApplyEffect" "e430b526-6319-4074-84f6-70601205e8c3"
+data "StatusEffect" "f101e4eb-7b86-4bb4-bf10-d6a110f93b21"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "GUARDIAN_OF_NATURE_VFX"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusEffect" "e5fc8f24-6939-4a5d-b627-27cf45040265"

@@ -43,16 +43,12 @@ Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_Ele
 
 
 lvl 4
-Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;
-<<Guardian of Nature>>
-Target_Stoneskin;
+Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_Stoneskin;
 <<Summon Elemental>>
 
 
 lvl 5
-<<Commune with Nature>>
-<<Conjure Volley>>
-Target_GreaterRestoration;
+Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Target_GreaterRestoration;
 <<Steel Wind Strike>>
 <<Swift Quiver>>
 

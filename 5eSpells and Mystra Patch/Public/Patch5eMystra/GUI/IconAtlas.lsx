@@ -271,42 +271,42 @@
                     <attribute id="V2" type="float" value="0.625"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Abjuration_AuraOfLife"/>
                     <attribute id="U1" type="float" value="0.75"/>
                     <attribute id="U2" type="float" value="0.875"/>
                     <attribute id="V1" type="float" value="0.5"/>
                     <attribute id="V2" type="float" value="0.625"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Transmutation_GuardianOfNature"/>
                     <attribute id="U1" type="float" value="0.875"/>
                     <attribute id="U2" type="float" value="1.0"/>
                     <attribute id="V1" type="float" value="0.5"/>
                     <attribute id="V2" type="float" value="0.625"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Enchantment_RaulothimsPsychicLance"/>
                     <attribute id="U1" type="float" value="0.0"/>
                     <attribute id="U2" type="float" value="0.125"/>
                     <attribute id="V1" type="float" value="0.625"/>
                     <attribute id="V2" type="float" value="0.75"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Necromancy_ShadowOfMoil"/>
                     <attribute id="U1" type="float" value="0.125"/>
                     <attribute id="U2" type="float" value="0.25"/>
                     <attribute id="V1" type="float" value="0.625"/>
                     <attribute id="V2" type="float" value="0.75"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Evocation_StormSphere"/>
                     <attribute id="U1" type="float" value="0.25"/>
                     <attribute id="U2" type="float" value="0.375"/>
                     <attribute id="V1" type="float" value="0.625"/>
                     <attribute id="V2" type="float" value="0.75"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_Conjuration_SummonAberration"/>
                     <attribute id="U1" type="float" value="0.375"/>
                     <attribute id="U2" type="float" value="0.5"/>
                     <attribute id="V1" type="float" value="0.625"/>

@@ -68,24 +68,13 @@ Target_Antagonize;Target_BestowCurse;Target_Catnap;Target_EnemiesAbound;Zone_Fea
 
 
 lvl 4
-<<Charm Monster>>
-Target_Confusion;Teleportation_DimensionDoor;
-<<Ego Whip>>
-Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;
-<<Raulothim&apos;s Psychic Lance>>
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_EgoWhip;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Projectile_PsychicLance
 
 
 lvl 5
-Target_DominatePerson;
-<<Dream>>
-Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;
-<<Mislead>>
-Target_PlanarBinding;
-<<Raise Dead>>
-Target_Seeming;
-<<Skill Empowerment>>
+Target_DominatePerson;Target_DreamSleep;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_Mislead;Target_PlanarBinding;Target_RaiseDead;Target_Seeming;Target_SkillEmpowerment;
 <<Synaptic Static>>
-<<Teleportation Circle>>
+Teleportation_TeleportationCircle
 
 
 lvl 6

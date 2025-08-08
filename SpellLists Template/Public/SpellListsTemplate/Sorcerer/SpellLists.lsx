@@ -68,42 +68,22 @@ Target_Antagonize;Shout_AshardalonsStride;Shout_Blink;Target_Catnap;Target_Count
 
 
 lvl 4
-Target_Banishment;Target_Blight;
-<<Charm Monster>>
-Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;
-<<Ego Whip>>
-Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;
-<<Raulothim&apos;s Psychic Lance>>
-Target_Stoneskin;
-<<Storm Sphere>>
+Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;
+Target_EgoWhip;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Projectile_PsychicLance;Target_Stoneskin;Target_StormSphere;
 <<Vitriolic Sphere>>
 Wall_WallOfFire
 
 
 lvl 5
-<<Bigby&apos;s Hand>>
-Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;
-<<Enervation>>
+Target_BigbyHand;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Shout_Enervation_Activate;
 <<Far Step>>
-Target_HoldMonster;
-<<Immolation>>
-Target_InsectPlague;Target_Seeming;
-<<Skill Empowerment>>
+Target_HoldMonster;Target_Immolation;Target_InsectPlague;Target_Seeming;Target_SkillEmpowerment;
 <<Synaptic Static>>
-Throw_Telekinesis;
-<<Teleportation Circle>>
-Wall_WallOfStone
+Throw_Telekinesis;Teleportation_TeleportationCircle;Wall_WallOfStone
 
 
 lvl 6
-Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;
-<<Investiture of Flame>>
-<<Investiture of Ice>>
-<<Investiture of Stone>>
-<<Investiture of Wind>>
-Target_FreezingSphere;
-<<Psychic Crush>>
-Zone_Sunbeam;
+Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Shout_ElementalInvestiture;Target_FreezingSphere;Target_PsychicCrush;Zone_Sunbeam;
 <<True Seeing>>
 
 

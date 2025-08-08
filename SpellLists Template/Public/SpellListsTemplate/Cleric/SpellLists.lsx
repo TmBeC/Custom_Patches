@@ -73,20 +73,13 @@ Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Ta
 
 
 lvl 4
-<<Aura of Life>>
-<<Aura of Purity>>
-Target_Banishment;
-<<Control Water>>
-Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith;
-<<Stone Shape>>
+Shout_AuraOfLife;Shout_AuraOfPurity;Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith
 
 
 lvl 5
-<<Circle of Power>>
-Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;
+Shout_CircleOfPower;Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;
 <<Holy Weapon>>
-Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;
-<<Raise Dead>>
+Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Target_RaiseDead
 
 
 lvl 6
