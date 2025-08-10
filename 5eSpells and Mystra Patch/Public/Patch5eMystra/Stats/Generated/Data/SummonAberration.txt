@@ -221,7 +221,10 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 
 
 
-
+Whispering Aura (Mind Flayer Only)
+At the start of each of the spirit's turns, the spirit emits psionic energy if it doesn't have the Incapacitated condition.
+Wisdom Saving Throw: DC equals your spell save DC, each creature (other than you) within 5 feet of the spirit.
+Failure: 2d6 Psychic damage.
 
 
 
@@ -368,7 +371,7 @@ new entry "Target_SummonAberration_Beholderkin_7"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonAberration_Beholderkin"
-data "SpellProperties" "GROUND:Summon(7636d73e-e7c1-4e63-a81e-427115c8cd2a,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "SpellProperties" "GROUND:Summon(7636d73e-e7c1-4e63-a81e-427115c8cd2a,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('7636d73e-e7c1-4e63-a81e-427115c8cd2a') and not Character() and not Self()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
 data "RootSpellID" "Target_SummonAberration_Beholderkin"
@@ -378,7 +381,7 @@ new entry "Target_SummonAberration_Beholderkin_8"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonAberration_Beholderkin"
-data "SpellProperties" "GROUND:Summon(cc175ed8-9f52-42c8-99d2-7adf35c826ce,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "SpellProperties" "GROUND:Summon(cc175ed8-9f52-42c8-99d2-7adf35c826ce,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('cc175ed8-9f52-42c8-99d2-7adf35c826ce') and not Character() and not Self()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
 data "RootSpellID" "Target_SummonAberration_Beholderkin"
@@ -388,10 +391,72 @@ new entry "Target_SummonAberration_Beholderkin_9"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonAberration_Beholderkin"
-data "SpellProperties" "GROUND:Summon(a5fb2613-b1ee-40ea-939a-b8abc94fdea6,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "SpellProperties" "GROUND:Summon(a5fb2613-b1ee-40ea-939a-b8abc94fdea6,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('a5fb2613-b1ee-40ea-939a-b8abc94fdea6') and not Character() and not Self()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
 data "RootSpellID" "Target_SummonAberration_Beholderkin"
+data "PowerLevel" "9"
+
+new entry "Target_SummonAberration_MindFlayer"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration"
+data "SpellContainerID" "Target_SummonAberration"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(df6d83b2-40cc-4d31-becf-633dc5e4606d,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('df6d83b2-40cc-4d31-becf-633dc5e4606d') and not Character() and not Self()"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;IsConcentration;CannotTargetCharacter;CannotTargetItems"
+data "DisplayName" "h70a0f439fc014eb286073c1d1640748760f9;1"
+data "Description" "h53aebea815824d23af1fab5dc0803a9cc331;1"
+
+new entry "Target_SummonAberration_MindFlayer_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_MindFlayer"
+data "SpellProperties" "GROUND:Summon(f4c28838-69a0-466e-a5fb-4201bd5677bb,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('f4c28838-69a0-466e-a5fb-4201bd5677bb') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonAberration_MindFlayer"
+data "PowerLevel" "5"
+
+new entry "Target_SummonAberration_MindFlayer_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_MindFlayer"
+data "SpellProperties" "GROUND:Summon(2d5bfd33-ed5f-487f-ab21-a37af3df1b74,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('2d5bfd33-ed5f-487f-ab21-a37af3df1b74') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonAberration_MindFlayer"
+data "PowerLevel" "6"
+
+new entry "Target_SummonAberration_MindFlayer_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_MindFlayer"
+data "SpellProperties" "GROUND:Summon(4f64e951-46eb-4b16-bcaf-9c01bcdfeb6c,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('4f64e951-46eb-4b16-bcaf-9c01bcdfeb6c') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonAberration_MindFlayer"
+data "PowerLevel" "7"
+
+new entry "Target_SummonAberration_MindFlayer_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_MindFlayer"
+data "SpellProperties" "GROUND:Summon(8bf4539f-ab95-4009-8e87-784407a8e957,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('8bf4539f-ab95-4009-8e87-784407a8e957') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonAberration_MindFlayer"
+data "PowerLevel" "8"
+
+new entry "Target_SummonAberration_MindFlayer_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_MindFlayer"
+data "SpellProperties" "GROUND:Summon(d039d1da-4da7-4898-9a23-bd4c1b689e9b,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('d039d1da-4da7-4898-9a23-bd4c1b689e9b') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonAberration_MindFlayer"
 data "PowerLevel" "9"
 
 new entry "Target_SummonAberration_Cloaker"
@@ -403,8 +468,8 @@ data "ContainerSpells" ""
 data "SpellProperties" "GROUND:Summon(0980b92e-8d8a-44aa-9455-db88e323795b,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('0980b92e-8d8a-44aa-9455-db88e323795b') and not Character() and not Self()"
 data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;IsConcentration;CannotTargetCharacter;CannotTargetItems"
-data "DisplayName" "h3f7d9a91g094ag5ab5g37a2g7f54bad34969;1"
-data "Description" "hc5a20024gbffeg557ag5dfag982b76203b02;1"
+data "DisplayName" "hd13ba2fd0e284f2dab7bc75010ea65ea71e0;1"
+data "Description" "hfc90a3d4b0a24587a39185087a55fd5eb2c2;1"
 
 new entry "Target_SummonAberration_Cloaker_5"
 type "SpellData"
@@ -430,7 +495,7 @@ new entry "Target_SummonAberration_Cloaker_7"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonAberration_Cloaker"
-data "SpellProperties" "GROUND:Summon(2c5becc0-8b94-40de-a29c-bd69bb2321ab,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "SpellProperties" "GROUND:Summon(2c5becc0-8b94-40de-a29c-bd69bb2321ab,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('2c5becc0-8b94-40de-a29c-bd69bb2321ab') and not Character() and not Self()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
 data "RootSpellID" "Target_SummonAberration_Cloaker"
@@ -440,7 +505,7 @@ new entry "Target_SummonAberration_Cloaker_8"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonAberration_Cloaker"
-data "SpellProperties" "GROUND:Summon(661b0eff-b518-4e77-8c17-6a96c2ae72b6,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "SpellProperties" "GROUND:Summon(661b0eff-b518-4e77-8c17-6a96c2ae72b6,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('661b0eff-b518-4e77-8c17-6a96c2ae72b6') and not Character() and not Self()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
 data "RootSpellID" "Target_SummonAberration_Cloaker"
@@ -450,52 +515,419 @@ new entry "Target_SummonAberration_Cloaker_9"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonAberration_Cloaker"
-data "SpellProperties" "GROUND:Summon(29d48082-972e-4406-9c7c-6958d2d1b822,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "SpellProperties" "GROUND:Summon(29d48082-972e-4406-9c7c-6958d2d1b822,-1,Projectile_AiHelper_Summon_Strong,,'SummonAberrationStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('29d48082-972e-4406-9c7c-6958d2d1b822') and not Character() and not Self()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
 data "RootSpellID" "Target_SummonAberration_Cloaker"
 data "PowerLevel" "9"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data "CastSound" "Spell_Cast_Summon_ArcaneEye_L4to5"
-data "PreviewCursor" "Cast"
+new entry "Target_EyeRay_SummonAberration"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetCeiling" "0"
+data "TargetRadius" "18"
+data "SpellRoll" "Attack(AttackType.RangedSpellAttack)"
+data "SpellSuccess" "DealDamage(1d8+7,Psychic,Magical)"
+data "TargetConditions" "not Self() and not Dead()"
+data "Icon" "GenericIcon_Intent_Control"
+data "DisplayName" "h3e09786390074680ab7882d358c1dceb911c;1"
+data "Description" "h89570a426d904b6088b66f4ac276952cfcb7;1"
+data "TooltipDamageList" "DealDamage(1d8+7,Psychic)"
+data "TooltipAttackSave" "RangedSpellAttack"
+data "CastSound" "CrSpell_Cast_RayWounding"
+data "TargetSound" "CrSpell_Impact_RayWounding"
 data "CastTextEvent" "Cast"
-data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
-data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
-data "VerbalIntent" "Summon"
-data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration"
-data "MemoryCost" "1"
-data "PrepareEffect" "be762a33-c7ea-418a-b565-dc122f7d87aa"
-data "CastEffect" "518bc78f-c169-43ba-b951-977d75429199"
-data "PositionEffect" "303b6851-33e8-488e-8d35-a3b73b732faf"
-data "DamageType" "Psychic"
+data "CycleConditions" "Character() and not Dead()"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" ",,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;23e80ef6-39b6-4229-9e2e-60a6d65c7aa7,,;f73184a5-9046-49dc-a6a7-c4d2a0005732,,;,,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "CannotRotate;IsSpell;IsAttack;IsHarmful"
+data "HitAnimationType" "MagicalDamage_Internal"
+data "SpellAnimationIntentType" "Aggressive"
+data "SourceLimbIndex" "1"
+data "CastEffect" "91994073-34fd-4d03-8380-274968c1d04e"
+data "TargetEffect" "5627d1ef-3821-44ac-b734-9ab84e0f4ccc"
+data "HitEffect" "cd356086-21df-406f-8acf-bf7e73bf7b89"
+data "BeamEffect" "73f914ff-726e-4e4a-a156-f1ac02b8753c"
+data "SpellSoundMagnitude" "None"
+data "Sheathing" "DontChange"
+
+new entry "Target_EyeRay_SummonAberration_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EyeRay_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+8,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+8,Psychic)"
+
+new entry "Target_EyeRay_SummonAberration_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EyeRay_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+9,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+9,Psychic)"
+
+new entry "Target_EyeRay_SummonAberration_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EyeRay_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+10,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+10,Psychic)"
+
+new entry "Target_EyeRay_SummonAberration_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EyeRay_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+11,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+11,Psychic)"
+
+new entry "Target_EyeRay_SummonAberration_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EyeRay_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+12,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+12,Psychic)"
+
+new entry "Target_ConfusionRay_SummonAberration"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetCeiling" "0"
+data "TargetRadius" "18"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom,SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(CONFUSION_RAY,100,2)"
+data "TargetConditions" "not Self() and not Dead() and not HasStatus('CONFUSION_RAY')"
+data "Icon" "Spell_Enchantment_Confusion"
+data "DisplayName" "h9b1e70fd058a42c5a83876dfa26201a6g58d;1"
+data "Description" "hcf1d613b61d1418e96373da099e988dce754;1"
+data "TooltipAttackSave" "Wisdom"
+data "TooltipStatusApply" "ApplyStatus(CONFUSION_RAY,100,2)"
+data "CastSound" "CrSpell_Cast_Spectator_ConfusionRay"
+data "TargetSound" "CrSpell_Impact_Spectator_ConfusionRay"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Character() and not Dead()"
+data "UseCosts" "ActionPoint:1;BonusActionPoint:1"
+data "SpellAnimation" ",,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;23e80ef6-39b6-4229-9e2e-60a6d65c7aa7,,;f73184a5-9046-49dc-a6a7-c4d2a0005732,,;,,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "CannotRotate;IsSpell;IsHarmful"
+data "RechargeValues" "1-3"
+data "HitAnimationType" "None"
+data "SpellAnimationIntentType" "Aggressive"
+data "SourceLimbIndex" "1"
+data "CastEffect" "6acd6b15-c4ed-4acd-8f10-9d7d54460e46"
+data "TargetEffect" "3787f028-453a-4b76-ac7f-9ff677da6748"
+data "HitEffect" "eec186d8-ae79-4800-a463-756d9834ecbb"
+data "BeamEffect" "0ceeadd7-b6a7-43f0-882b-2509ecb5c635"
+data "SpellSoundMagnitude" "None"
+data "Sheathing" "DontChange"
+
+new entry "Target_FearRay_SummonAberration"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetCeiling" "0"
+data "TargetRadius" "18"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom,SourceSpellDC(), AdvantageOnFrightened(), DisadvantageOnFrightened())"
+data "SpellSuccess" "ApplyStatus(FRIGHTENED,100,2)"
+data "TargetConditions" "not Self() and not Dead() and not HasStatus('FRIGHTENED')"
+data "Icon" "Spell_New_CauseFear"
+data "DisplayName" "h165a5e3c81c24637a733cab32d67866b38g9;1"
+data "Description" "h0aa28bf0680645fabadb21c5e047e4742c5g;1"
+data "TooltipAttackSave" "Wisdom"
+data "TooltipStatusApply" "ApplyStatus(FRIGHTENED,100,2)"
+data "CastSound" "CrSpell_Cast_RayFear"
+data "TargetSound" "CrSpell_Impact_RayFear"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Character() and not Dead()"
+data "UseCosts" "ActionPoint:1;BonusActionPoint:1"
+data "SpellAnimation" ",,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;23e80ef6-39b6-4229-9e2e-60a6d65c7aa7,,;f73184a5-9046-49dc-a6a7-c4d2a0005732,,;,,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "CannotRotate;IsSpell;IsHarmful"
+data "RechargeValues" "1-3"
+data "HitAnimationType" "None"
+data "SpellAnimationIntentType" "Aggressive"
+data "SourceLimbIndex" "1"
+data "CastEffect" "45b6efb7-bba3-4dc9-af25-cbfa2c74926d"
+data "TargetEffect" "3ec121cf-0862-40b9-ba59-0881af7da550"
+data "HitEffect" "d9846f10-94b4-4de7-85d7-04173e4c1e2b"
+data "BeamEffect" "4bc7dd52-06ff-4500-9054-db4424a72d98"
+data "SpellSoundMagnitude" "None"
+data "Sheathing" "DontChange"
+
+new entry "Target_ParalyzingRay_SummonAberration"
+type "SpellData"
+data "SpellType" "Target"
+data "Cooldown" "OncePerShortRest"
+data "TargetCeiling" "0"
+data "TargetRadius" "18"
+data "SpellRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC(), AdvantageOnParalyzed())"
+data "SpellSuccess" "ApplyStatus(PARALYZED_SPECTATOR,100,2)"
+data "TargetConditions" "not Self() and not Dead() and not HasStatus('PARALYZED_SPECTATOR')"
+data "Icon" "Spell_Enchantment_HoldMonster"
+data "DisplayName" "hc86e8360d4544961b947aec7217ed91fc6f9;1"
+data "Description" "h9ca3577b45d241d5ad8295e7bc8072350151;1"
+data "TooltipAttackSave" "Constitution"
+data "TooltipStatusApply" "ApplyStatus(PARALYZED_SPECTATOR,100,2)"
+data "CastSound" "CrSpell_Cast_RayParalyzing"
+data "TargetSound" "CrSpell_Impact_RayParalyzing"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Character() and not Dead()"
+data "UseCosts" "ActionPoint:1;BonusActionPoint:1"
+data "SpellAnimation" ",,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;23e80ef6-39b6-4229-9e2e-60a6d65c7aa7,,;f73184a5-9046-49dc-a6a7-c4d2a0005732,,;,,;f12a602f-a39e-4752-a5bd-8fe8c8ff654e,,;,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "CannotRotate;IsSpell;IsHarmful"
+data "RechargeValues" "1-3"
+data "HitAnimationType" "None"
+data "SpellAnimationIntentType" "Aggressive"
+data "SourceLimbIndex" "1"
+data "CastEffect" "6acd6b15-c4ed-4acd-8f10-9d7d54460e46"
+data "TargetEffect" "3787f028-453a-4b76-ac7f-9ff677da6748"
+data "HitEffect" "eec186d8-ae79-4800-a463-756d9834ecbb"
+data "BeamEffect" "0ceeadd7-b6a7-43f0-882b-2509ecb5c635"
+data "SpellSoundMagnitude" "None"
+data "Sheathing" "DontChange"
+
+new entry "Zone_MindBlast_SummonAberration"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_MindBlast_MindFlayer"
+data "SpellRoll" "Attack(AttackType.MeleeSpellAttack)"
+data "SpellSuccess" "DealDamage(1d8+7,Psychic)"
+data "DisplayName" "h494f7a622b264af5972a52f2b7d0f30265ea;1"
+data "Description" "hefc68ba5e2244d6ab1d66347767bc9318934;1"
+data "TooltipDamageList" "DealDamage(1d8+7,Psychic,Magical)"
+data "TooltipAttackSave" "MeleeSpellAttack"
+data "TooltipStatusApply" ""
+
+new entry "Zone_MindBlast_SummonAberration_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Zone_MindBlast_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+8,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+8,Psychic)"
+
+new entry "Zone_MindBlast_SummonAberration_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Zone_MindBlast_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+9,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+9,Psychic)"
+
+new entry "Zone_MindBlast_SummonAberration_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Zone_MindBlast_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+10,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+10,Psychic)"
+
+new entry "Zone_MindBlast_SummonAberration_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Zone_MindBlast_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+11,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+11,Psychic)"
+
+new entry "Zone_MindBlast_SummonAberration_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Zone_MindBlast_SummonAberration"
+data "SpellSuccess" "DealDamage(1d8+12,Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(1d8+12,Psychic)"
+
+new entry "Target_SummonAberration_Multiattack"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack"
+data "Cooldown" "OncePerTurn"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d8+7,Psychic);Cast2[DealDamage(1d8+7,Psychic)]"
+data "TooltipDamageList" "DealDamage(1d8+7,Psychic);DealDamage(1d8+7,Psychic)"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;b8a95317-2226-4f00-82b2-af97fb1f36bc,,;2eaa08cb-b2bd-453c-b80a-f1bf1cd90a1a,,;f8d1de3f-8fd1-42b2-87a5-d83ce4937e8c,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;66cb2d8a-f5c5-4edd-8c1c-e2c03c80d3f7,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "SpellFlags" "IsMelee;IsHarmful"
+data "CastEffect" "f29f7ac8-cce2-45f9-8302-b824847a8bbe"
+data "TargetEffect" "cc09a13d-5d07-4604-a77f-87e0fa1df56b"
+
+new entry "Target_SummonAberration_Multiattack_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Multiattack"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d8+8,Psychic);Cast2[DealDamage(1d8+8,Psychic)]"
+data "TooltipDamageList" "DealDamage(1d8+8,Psychic);DealDamage(1d8+8,Psychic)"
+
+new entry "Target_SummonAberration_Multiattack_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Multiattack"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d8+9,Psychic);Cast2[DealDamage(1d8+9,Psychic)];Cast3[DealDamage(1d8+9,Psychic)]"
+data "TooltipDamageList" "DealDamage(1d8+9,Psychic);DealDamage(1d8+9,Psychic);DealDamage(1d8+9,Psychic)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_SummonAberration_Multiattack_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Multiattack"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d8+10,Psychic);Cast2[DealDamage(1d8+10,Psychic)];Cast3[DealDamage(1d8+10,Psychic)]"
+data "TooltipDamageList" "DealDamage(1d8+10,Psychic);DealDamage(1d8+10,Psychic);DealDamage(1d8+10,Psychic)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_SummonAberration_Multiattack_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Multiattack"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d8+11,Psychic);Cast2[DealDamage(1d8+11,Psychic)];Cast3[DealDamage(1d8+11,Psychic)];Cast4[DealDamage(1d8+11,Psychic)]"
+data "TooltipDamageList" "DealDamage(1d8+11,Psychic);DealDamage(1d8+11,Psychic);DealDamage(1d8+11,Psychic);DealDamage(1d8+11,Psychic)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+
+new entry "Target_SummonAberration_Multiattack_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_Multiattack"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d8+12,Psychic);Cast2[DealDamage(1d8+12,Psychic)];Cast3[DealDamage(1d8+12,Psychic)];Cast4[DealDamage(1d8+12,Psychic)]"
+data "TooltipDamageList" "DealDamage(1d8+12,Psychic);DealDamage(1d8+12,Psychic);DealDamage(1d8+12,Psychic);DealDamage(1d8+12,Psychic)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
 
 
 
 
-  <content contentuid="h1034a55fg4abcgfa34gae39g4dba975bcab2" version="1">Wounding Ray</content>
-  <content contentuid="h29fa1fc2g7fafg201bg23c1g1cfa492ce6cb" version="1">Shoot an eye ray that deals psychic damage. </content>
-  <content contentuid="h375cd28eg661bg6311g7d03ge7c105b5a9a1" version="1">Fear Ray</content>
-  <content contentuid="h7e56a96eg5f0cg8ed8g488ag7f848b82a51c" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; its target.</content>
-  <content contentuid="h14d41c88gf67fg472fgc97egf843d66f625d" version="1">Fear Ray</content>
-  <content contentuid="hbd7e2726g98c9g7a2ag36cdg3d10999ed583" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; its target.</content>
-  <content contentuid="h7cd50b41g5993g2849g1306gc14d56a1da70" version="1">Paralysing Ray</content>
-  <content contentuid="hea1f8374g0516geed0g03abg6cab73f4c0f9" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="PARALYZED_SPECTATOR"&gt;Paralyses&lt;/LSTag&gt; its target.</content>
-  <content contentuid="h1b4332f2g6786g993bg4b36gd39df3598661" version="1">Confusion Ray</content>
-  <content contentuid="h2979616bg3c3cg49c5gbd9bg9648c068d526" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="CONFUSION_RAY"&gt;Befuddles&lt;/LSTag&gt; its target.</content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Multiattack
+The spirit makes a number of attacks equal to half this spell's level (round down).
+
+
+Claw (Slaad Only)
+Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d10 + 3 + the spell's level Slashing damage, and the target can't regain Hit Points until the start of the spirit's next turn.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <content contentuid="ha1df2d1dg8f94ga80ag38d3g6705ecc04b54" version="1">Spectator Spirit</content>
   <content contentuid="h6baf5718g4966g56ccgf832gcceef14a8ab5" version="1">Bite</content>
   <content contentuid="ha4d55033g29d4g89cag7691gb99ce195b7cf" version="1">Bite the target.</content>

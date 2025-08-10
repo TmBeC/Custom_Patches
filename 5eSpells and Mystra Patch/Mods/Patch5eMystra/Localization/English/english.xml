@@ -423,10 +423,28 @@
   <content contentuid="h11afdd4e1e3e4dac9f775bf49adc042b8a27" version="1">Summon Aberration</content>
   <content contentuid="h36d47ce0eb3f4ed0acf8cda0a167ea7b4g95" version="1">Call forth an aberrant spirit of a &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_Beholderkin"&gt;Beholderkin&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_MindFlayer"&gt;Mind Flayer&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_Cloaker"&gt;Cloaker&lt;/LSTag&gt; aberration.</content>
   <content contentuid="h40a4a36fg2b8dgab41g4904g89b98fbbd134" version="1">Summon Aberration: Beholderkin</content>
-  <content contentuid="h18228036g9c2dg43c8g1bdeg53805a13f4b0" version="1">Summon a Spectator spirit. Its eye rays can &lt;LSTag Type="Spell" Tooltip="Target_EyeRay_SummonAberration"&gt;Wound&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FearRay_SummonAberration"&gt;Frighten&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ParalyzingRay_SummonAberration"&gt;Paralyze&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ConfusionRay_SummonAberration"&gt;Confuse&lt;/LSTag&gt;.</content>
+  <content contentuid="h18228036g9c2dg43c8g1bdeg53805a13f4b0" version="1">Summon an aberrant spirit resembling a beholderkin.</content>
+  <content contentuid="h70a0f439fc014eb286073c1d1640748760f9" version="1">Summon Aberration: Mind Flayer</content>
+  <content contentuid="h53aebea815824d23af1fab5dc0803a9cc331" version="1">Summon an aberrant spirit resembling a mind flayer.</content>
+  <content contentuid="hd13ba2fd0e284f2dab7bc75010ea65ea71e0" version="1">Summon Aberration: Cloaker</content>
+  <content contentuid="hfc90a3d4b0a24587a39185087a55fd5eb2c2" version="1">Summon an aberrant spirit resembling a cloaker.</content>
   <content contentuid="hb62f97230ddc4a69a92af39c14e748733165" version="1">Spectator Spirit</content>
   <content contentuid="hd5127002fa474af4bbca5921c2712504e8ca" version="1">Mind Flayer Spirit</content>
   <content contentuid="hc762c3f1gbf02g85eag19e2gb16b4926b26b" version="1">Cloaker Spirit</content>
+  <content contentuid="h3e09786390074680ab7882d358c1dceb911c" version="1">Wounding Ray</content>
+  <content contentuid="h89570a426d904b6088b66f4ac276952cfcb7" version="1">Shoot an eye ray that deals psychic damage.</content>
+  <content contentuid="h9b1e70fd058a42c5a83876dfa26201a6g58d" version="1">Confusion Ray</content>
+  <content contentuid="hcf1d613b61d1418e96373da099e988dce754" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="CONFUSION_RAY"&gt;Befuddles&lt;/LSTag&gt; its target.</content>
+  <content contentuid="h165a5e3c81c24637a733cab32d67866b38g9" version="1">Fear Ray</content>
+  <content contentuid="h0aa28bf0680645fabadb21c5e047e4742c5g" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; its target.</content>
+  <content contentuid="hc86e8360d4544961b947aec7217ed91fc6f9" version="1">Paralyzing Ray</content>
+  <content contentuid="h9ca3577b45d241d5ad8295e7bc8072350151" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="PARALYZED_SPECTATOR"&gt;Paralyzes&lt;/LSTag&gt; its target.</content>
+  <content contentuid="h494f7a622b264af5972a52f2b7d0f30265ea" version="1">Psychic Blast</content>
+  <content contentuid="hefc68ba5e2244d6ab1d66347767bc9318934" version="1">Spew forth a conical wave of psychic energy.</content>
+
+
+
+
 
 
 
