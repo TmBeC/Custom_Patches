@@ -396,6 +396,10 @@ Target_MindSpike;
                     <attribute id="UUID" type="guid" value="SpellList_UUID"/>
                 </node>
 
+Target_Dispel_Magic;
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="Primary_SpellList_UUID"/>
                     <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 4 5R"/>
