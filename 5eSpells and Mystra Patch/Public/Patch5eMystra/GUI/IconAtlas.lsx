@@ -320,7 +320,7 @@
                     <attribute id="V2" type="float" value="0.75"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ICONNAMEHERE"/>
+                    <attribute id="MapKey" type="FixedString" value="Action_Monster_ElementalAir_Slam"/>
                     <attribute id="U1" type="float" value="0.625"/>
                     <attribute id="U2" type="float" value="0.75"/>
                     <attribute id="V1" type="float" value="0.625"/>

@@ -43,8 +43,7 @@ Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_Dis
 
 
 lvl 4
-Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_Stoneskin;
-<<Summon Elemental>>
+Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_Stoneskin;Target_SummonElemental
 
 
 lvl 5

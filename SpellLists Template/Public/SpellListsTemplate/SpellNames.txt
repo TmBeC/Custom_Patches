@@ -271,7 +271,7 @@ Target_SummonAberration
 Target_SummonConstruct
 
 (Summon Elemental)
-
+Target_SummonElemental
 
 (Summon Greater Demon)
 Target_SummonGreaterDemon

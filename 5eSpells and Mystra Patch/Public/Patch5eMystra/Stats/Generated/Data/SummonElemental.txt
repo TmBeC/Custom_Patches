@@ -1,3 +1,564 @@
+new entry "SummonElemental_Air"
+type "Character"
+using "Air_Elemental"
+data "Level" "7"
+data "Strength" "18"
+data "Dexterity" "15"
+data "Constitution" "17"
+data "Intelligence" "4"
+data "Wisdom" "10"
+data "Charisma" "16"
+data "Armor" "13"
+data "Vitality" "50"
+data "GameSize" "Medium"
+data "Flags" "Floating"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
+data "Passives" "AttackOfOpportunity;DarknessRules;Darkvision;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;Ethereal;ShortResting"
+data "BludgeoningResistance" ""
+data "SlashingResistance" ""
+data "PiercingResistance" ""
+data "DarkvisionRange" "18"
+data "DifficultyStatuses" ""
+
+new entry "SummonElemental_Air_5"
+type "Character"
+using "SummonElemental_Air"
+data "Level" "9"
+data "Armor" "14"
+data "Vitality" "60"
+
+new entry "SummonElemental_Air_6"
+type "Character"
+using "SummonElemental_Air"
+data "Level" "11"
+data "Armor" "15"
+data "Vitality" "70"
+
+new entry "SummonElemental_Air_7"
+type "Character"
+using "SummonElemental_Air"
+data "Level" "13"
+data "Armor" "16"
+data "Vitality" "80"
+
+new entry "SummonElemental_Air_8"
+type "Character"
+using "SummonElemental_Air"
+data "Level" "15"
+data "Armor" "17"
+data "Vitality" "90"
+
+new entry "SummonElemental_Air_9"
+type "Character"
+using "SummonElemental_Air"
+data "Level" "17"
+data "Armor" "18"
+data "Vitality" "100"
+
+new entry "SummonElemental_Earth"
+type "Character"
+using "Earth_Elemental"
+data "Level" "7"
+data "Strength" "18"
+data "Dexterity" "15"
+data "Constitution" "17"
+data "Intelligence" "4"
+data "Wisdom" "10"
+data "Charisma" "16"
+data "Armor" "13"
+data "Vitality" "50"
+data "GameSize" "Medium"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "Passives" "Darkvision;AttackOfOpportunity;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting"
+data "PiercingResistance" "Resistant"
+data "SlashingResistance" "Resistant"
+data "PoisonResistance" "Immune"
+data "DarkvisionRange" "18"
+data "DifficultyStatuses" ""
+
+new entry "SummonElemental_Earth_5"
+type "Character"
+using "SummonElemental_Earth"
+data "Level" "9"
+data "Armor" "14"
+data "Vitality" "60"
+
+new entry "SummonElemental_Earth_6"
+type "Character"
+using "SummonElemental_Earth"
+data "Level" "11"
+data "Armor" "15"
+data "Vitality" "70"
+
+new entry "SummonElemental_Earth_7"
+type "Character"
+using "SummonElemental_Earth"
+data "Level" "13"
+data "Armor" "16"
+data "Vitality" "80"
+
+new entry "SummonElemental_Earth_8"
+type "Character"
+using "SummonElemental_Earth"
+data "Level" "15"
+data "Armor" "17"
+data "Vitality" "90"
+
+new entry "SummonElemental_Earth_9"
+type "Character"
+using "SummonElemental_Earth"
+data "Level" "17"
+data "Armor" "18"
+data "Vitality" "100"
+
+new entry "SummonElemental_Fire"
+type "Character"
+using "Fire_Elemental"
+data "Level" "7"
+data "Strength" "18"
+data "Dexterity" "15"
+data "Constitution" "17"
+data "Intelligence" "4"
+data "Charisma" "16"
+data "Armor" "13"
+data "Vitality" "50"
+data "GameSize" "Medium"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4;BURNING"
+data "UnarmedAttackAbility" "Strength"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "Passives" "Ethereal;AttackOfOpportunity;DarknessRules;Darkvision;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting"
+data "FireResistance" "Immune"
+data "PoisonResistance" "Immune"
+data "DarkvisionRange" "18"
+data "DifficultyStatuses" ""
+
+new entry "SummonElemental_Fire_5"
+type "Character"
+using "SummonElemental_Fire"
+data "Level" "9"
+data "Armor" "14"
+data "Vitality" "60"
+
+new entry "SummonElemental_Fire_6"
+type "Character"
+using "SummonElemental_Fire"
+data "Level" "11"
+data "Armor" "15"
+data "Vitality" "70"
+
+new entry "SummonElemental_Fire_7"
+type "Character"
+using "SummonElemental_Fire"
+data "Level" "13"
+data "Armor" "16"
+data "Vitality" "80"
+
+new entry "SummonElemental_Fire_8"
+type "Character"
+using "SummonElemental_Fire"
+data "Level" "15"
+data "Armor" "17"
+data "Vitality" "90"
+
+new entry "SummonElemental_Fire_9"
+type "Character"
+using "SummonElemental_Fire"
+data "Level" "17"
+data "Armor" "18"
+data "Vitality" "100"
+
+new entry "SummonElemental_Water"
+type "Character"
+using "Water_Elemental"
+data "Level" "7"
+data "Strength" "18"
+data "Dexterity" "15"
+data "Constitution" "17"
+data "Intelligence" "4"
+data "Charisma" "16"
+data "Armor" "13"
+data "Vitality" "50"
+data "GameSize" "Medium"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "Passives" "Ethereal;AttackOfOpportunity;DarknessRules;Darkvision;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting"
+data "BludgeoningResistance" ""
+data "SlashingResistance" ""
+data "PiercingResistance" ""
+data "AcidResistance" "Resistant"
+data "PoisonResistance" "Immune"
+data "DarkvisionRange" "18"
+data "DifficultyStatuses" ""
+
+new entry "SummonElemental_Water_5"
+type "Character"
+using "SummonElemental_Water"
+data "Level" "9"
+data "Armor" "14"
+data "Vitality" "60"
+
+new entry "SummonElemental_Water_6"
+type "Character"
+using "SummonElemental_Water"
+data "Level" "11"
+data "Armor" "15"
+data "Vitality" "70"
+
+new entry "SummonElemental_Water_7"
+type "Character"
+using "SummonElemental_Water"
+data "Level" "13"
+data "Armor" "16"
+data "Vitality" "80"
+
+new entry "SummonElemental_Water_8"
+type "Character"
+using "SummonElemental_Water"
+data "Level" "15"
+data "Armor" "17"
+data "Vitality" "90"
+
+new entry "SummonElemental_Water_9"
+type "Character"
+using "SummonElemental_Water"
+data "Level" "17"
+data "Armor" "18"
+data "Vitality" "100"
+
+new entry "Target_Slam_SummonElemental_Air"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1)"
+data "SpellSuccess" "DealDamage(1d10+8,Lightning)"
+data "Icon" "Action_Monster_ElementalAir_Slam"
+data "DisplayName" "he4b3ee8ade2c47f5b269901da95fc760753g;1"
+data "TooltipDamageList" "DealDamage(1d10+8,Lightning)"
+data "PrepareSound" "CrSpell_Prepare_ElementalAir_AirBlast"
+data "PrepareLoopSound" "CrSpell_Loop_ElementalAir_AirBlast"
+data "CastSound" "CrSpell_Cast_ElementalAir_Multiattack"
+data "TargetSound" "CrSpell_Impact_ElementalAir_Multiattack"
+data "PrepareEffect" "4c4557e1-cca1-4f82-964f-ae5d1320452d"
+data "CastEffect" "726908e6-9805-4ee1-a80b-af7e39476a45"
+data "HitEffect" "c97ce550-acf4-42a0-9aa5-91707713d52f"
+data "DamageType" "Lightning"
+
+
+
+
+
+
+
+
+
+Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
+
+Slam
+Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
+Hit: 1d10 + 4 + the spell's level 
+
+
+
+
+
+Target_Slam_SummonElemental_Earth
+new entry "Target_Slam_Elemental_Earth"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:CreateSurface(1,0,Mud)"
+data "SpellSuccess" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
+data "Icon" "Action_Monster_ElementalEarth_Slam"
+// Soil-Clogged Slam
+data "DisplayName" "he30af119ge00fg4d04g880fg95b7816762bd;1"
+// Punch a foe with a landslide's worth of force, leaving behind a residue of mud.
+data "Description" "he70b15d1gfba1g4eabgbf6fg3043f8291a9f;1"
+data "TooltipDamageList" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
+data "PrepareSound" "CrSpell_Prepare_ElementalEarth_Slam"
+data "PrepareLoopSound" "CrSpell_Loop_ElementalEarth_Slam"
+data "CastSound" "CrSpell_Cast_ElementalEarth_Slam"
+data "TargetSound" "CrSpell_Impact_ElementalEarth_Slam"
+data "PrepareEffect" "3c7eca6a-aaf2-4481-a9b3-63593cfdf105"
+data "CastEffect" "d6e9dd61-ef5d-4aa7-95ee-0dc362a2d16d"
+data "PositionEffect" "0aeac37e-9890-4c79-9cae-cb01433264e1"
+data "Sheathing" "DontChange"
+
+
+
+
+Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
+
+Slam
+Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
+Hit: 1d10 + 4 + the spell's level Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage.
+
+
+
+
+
+
+
+
+
+
+Action_Monster_ElementalLava_Slam
+
+new entry "Target_Slam_Elemental_Lava"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_MudElemental"
+data "SpellSuccess" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
+data "TooltipDamageList" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
+data "CastSound" "CrSpell_Cast_LavaSlam"
+data "TargetSound" "CrSpell_Impact_LavaSlam"
+data "PrepareEffect" "0d8388e8-d6f6-4c22-8914-fcc92f85d1b8"
+data "CastEffect" "a310ddc5-85a0-4d52-b615-7df60f9c7df9"
+data "TargetEffect" "a85b03a3-6a34-4509-b59d-295f0d31cbc8"
+
+new entry "Target_Slam_MudElemental"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:CreateSurface(2,2,Mud)"
+data "SpellSuccess" "DealDamage(2d4+UnarmedMeleeAbilityModifier, Bludgeoning);IF(not SavingThrow(Ability.Dexterity,12)):ApplyStatus(MEPHIT_MUD_RESTRAINED,100,2);"
+data "Icon" "Action_Slam"
+// Slam
+data "DisplayName" "h6b96bca4g2e4ag4851g93d3g6120d16435d2;1"
+data "TooltipDamageList" "DealDamage(2d4+UnarmedMeleeAbilityModifier, Bludgeoning)"
+data "SpellAnimationIntentType" "Aggressive"
+data "CastEffect" "82cd426e-7d1c-4e44-9965-9859d0660658"
+data "TargetEffect" "ec18ddf7-7c12-4255-8ac9-21be3ae508a9"
+data "Sheathing" "DontChange"
+
+
+
+
+Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
+
+Slam
+Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
+Hit: 1d10 + 4 + the spell's level Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage.
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "Target_Slam_Elemental_Water"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:CreateSurface(1,0,Water)"
+data "SpellSuccess" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
+data "Icon" "Action_Monster_ElementalWater_Slam"
+// Slam
+data "DisplayName" "he5ac56ebgebf3g4e73gbdf7g8129c98c51cb;1"
+// Slam into a foe and create a puddle of water around the impact site.
+data "Description" "h385e6616ge372g41c5g9c2egb9c23e59e3e0;1"
+data "TooltipDamageList" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
+data "TooltipStatusApply" "ApplyStatus(CHILLED,100,2)"
+data "PrepareSound" "CrSpell_Prepare_ElementalWater_Slam"
+data "PrepareLoopSound" "CrSpell_Loop_ElementalWater_Slam"
+data "CastSound" "CrSpell_Cast_ElementalWater_Slam"
+data "TargetSound" "CrSpell_Impact_ElementalWater_Slam"
+data "SpellAnimation" "a1fd8b6c-2ced-4518-922b-acce1d2bcbf0,,;1fad5d7e-b4c1-4852-b44f-3f8efc3c4460,,;b3cfdeb0-fc45-4a10-b6fb-3c62817662eb,,;d7ea1967-d037-477d-b3d2-b422b3e40c34,,;2e1a3214-7c9a-44c0-bf99-32704dcd56f5,,;fb40445c-9e15-40be-8125-1daa14180686,,;9f8f9646-8e32-42dc-8277-09e396a0a3ad,,;,,;,,"
+data "Sheathing" "DontChange"
+
+
+
+
+
+
+
+
+Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
+
+Slam
+Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
+Hit: 1d10 + 4 + the spell's level Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage.
+
+
+
+
+
+
+new entry "Target_SummonElemental"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "4"
+data "SpellSchool" "Conjuration"
+data "ContainerSpells" "Target_SummonElemental_Air;Target_SummonElemental_Earth;Target_SummonElemental_Fire;Target_SummonElemental_Water"
+data "TargetRadius" "18"
+data "Icon" "Spell_Conjuration_ConjureElemental"
+data "DisplayName" "hb687de29ee1f45b2b036b50e2b93980ab3g0;1"
+data "Description" "h0c5ea866f175456e8683223d584341209ee7;1"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
+data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
+data "VerbalIntent" "Summon"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration;IsLinkedSpellContainer;CannotTargetCharacter;CannotTargetItems"
+data "MemoryCost" "1"
+data "PrepareEffect" "239d0263-eb26-4d7e-9683-4d7be6b6a1cf"
+data "CastEffect" "111a8b8c-b395-46d0-b2f0-a10ac6f9731f"
+data "Sheathing" "Sheathed"
+
+new entry "Target_SummonElemental_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "ContainerSpells" "Target_SummonElemental_Air_5;Target_SummonElemental_Earth_5;Target_SummonElemental_Fire_5;Target_SummonElemental_Water_5"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonElemental"
+data "PowerLevel" "5"
+
+new entry "Target_SummonElemental_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "ContainerSpells" "Target_SummonElemental_Air_6;Target_SummonElemental_Earth_6;Target_SummonElemental_Fire_6;Target_SummonElemental_Water_6"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonElemental"
+data "PowerLevel" "6"
+
+new entry "Target_SummonElemental_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "ContainerSpells" "Target_SummonElemental_Air_7;Target_SummonElemental_Earth_7;Target_SummonElemental_Fire_7;Target_SummonElemental_Water_7"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonElemental"
+data "PowerLevel" "7"
+
+new entry "Target_SummonElemental_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "ContainerSpells" "Target_SummonElemental_Air_8;Target_SummonElemental_Earth_8;Target_SummonElemental_Fire_8;Target_SummonElemental_Water_8"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonElemental"
+data "PowerLevel" "8"
+
+new entry "Target_SummonElemental_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "ContainerSpells" "Target_SummonElemental_Air_9;Target_SummonElemental_Earth_9;Target_SummonElemental_Fire_9;Target_SummonElemental_Water_9"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonElemental"
+data "PowerLevel" "9"
+
+new entry "Target_SummonElemental_Air"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "ContainerSpells" ""
+
+
+
+
+
+
+
+
+
+
+data "SpellProperties" "GROUND:Summon(50ac45ab-f4fd-45ab-96a6-77c448ef62df,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('50ac45ab-f4fd-45ab-96a6-77c448ef62df') and not Character() and not Self()"
+data "Icon" "Spell_New_SummonElemental_Air"
+data "DisplayName" "h90d987acgfc49gfafeg40ceg0c878cb4f76b;1"
+data "Description" "hda543c68g4da3g06d2g7a6fg0bf01603092d;1"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Air_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Air_L4to5"
+data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
+data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Air_L4to5"
+data "PreviewCursor" "Cast"
+data "PrepareEffect" "8cd96174-585d-41b6-89ce-b4b309f2ecab"
+data "DamageType" "Lightning"
+
+new entry "Target_SummonElemental_Air"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "SpellProperties" "GROUND:Summon(0d8cacda-37c6-11ee-be56-0242ac120002,600,,,,AIR_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('0d8cacda-37c6-11ee-be56-0242ac120002')"
+data "DisplayName" "h6a066dffgc6d3g41a1g821bg4a114ad47c02;1"
+data "Description" "hf4731a3dg6428g4168g9d2bga50849a8486d;1"
+data "Icon" "Spell_Conjuration_SummonElemental_Air"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Air_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Air_L4to5"
+data "PrepareEffect" "8cd96174-585d-41b6-89ce-b4b309f2ecab"
+
+
+
+new entry "Target_ConjureElemental_Elemental_Air"
+data "SpellProperties" "GROUND:Summon(284b9c7f-1e04-48b7-af41-9029d1fa753c, -1,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('284b9c7f-1e04-48b7-af41-9029d1fa753c') and not Character() and not Self()"
+data "Icon" "Spell_Conjuration_ConjureElemental_Air"
+// Conjure Elemental: Air Elemental
+data "DisplayName" "h5492f279g48bcg4389g875cg8f20255064b7;2"
+// The air elemental can use <LSTag Type="Spell" Tooltip="Shout_Whirlwind_Elemental_Air">Primordial Gales</LSTag>, <LSTag Type="Spell" Tooltip="Projectile_AirBlast_Elemental_Air">Gushing Air</LSTag>, and can <LSTag Type="Status" Tooltip="SHOCKED">Shock</LSTag> your foes.
+data "Description" "h0adad6dagc390g4460g926fga076481f4a17;7"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Air_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Air_L4to5"
+data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
+data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Air_L4to5"
+data "PreviewCursor" "Cast"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell"
+data "PrepareEffect" "8cd96174-585d-41b6-89ce-b4b309f2ecab"
+data "DamageType" "Lightning"
+
+
+
+
+
+  <content contentuid="h90d987acgfc49gfafeg40ceg0c878cb4f76b" version="1">Summon Elemental: Air Elemental Spirit</content>
+  <content contentuid="hda543c68g4da3g06d2g7a6fg0bf01603092d" version="1">The air elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Air"&gt;Thunderous Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Air"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="hb579f73eg43c3gd0cfg4682gfbd486def817" version="1">Summon Elemental: Earth Elemental Spirit</content>
+  <content contentuid="ha3888c67g9538gf9f3g0590g43874cb49d79" version="1">The earth elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Earth"&gt;Soil-Clogged Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Earth"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="h5db4e078g4395g388bg2154gae0a9021b6e7" version="1">Summon Elemental: Fire Elemental Spirit</content>
+  <content contentuid="hac28ba4bg5462g8c98ge77ag670af4702b59" version="1">The fire elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Fire"&gt;Smouldering Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Fire"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="h0265a548g36e9g0621gd824g6384eb617b48" version="1">Summon Elemental: Water Elemental Spirit</content>
+  <content contentuid="h83da5f1dgee06g80f3gec9dg546762d8ca83" version="1">The water elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Water"&gt;Torrential Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Water"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="h04077ee2g9b03g6b5bgb96bgb19feed5d953" version="1">Air Elemental Spirit</content>
+  <content contentuid="he097891dga7f1g9ff3g1d48g0efbd0c6c876" version="1">Earth Elemental Spirit</content>
+  <content contentuid="hd2078729g711egc4f0gbb8eg1a3285f69938" version="1">Fire Elemental Spirit</content>
+  <content contentuid="h603eaed0gfc6dg1235g525dg145d41b86385" version="1">Water Elemental Spirit</content>
+  <content contentuid="hc94e00cagdab1gae54g6aa2gf56389f3e198" version="1">Earth Elemental Spirit</content>
+  <content contentuid="h463ecab9gec38g8f1dg18c3g27f5fbd8c05d" version="1">Earth Elemental Spirit</content>
+  <content contentuid="h1e581111ge55eg81ddg7324gaf41f086fa21" version="1">The air elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Air_6"&gt;Thunderous Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Air_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="hbab14b37g2ecdg99b6g9071g5781cadbde79" version="1">The earth elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Earth_6"&gt;Soil-Clogged Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Earth_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="h6a306693gfda6g4742gd233g8fc6e742f612" version="1">The fire elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Fire_6"&gt;Smouldering Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Fire_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
+  <content contentuid="h2790cd9ag022fg10fag6325ge5d8031997e1" version="1">The water elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Water_6"&gt;Torrential Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Water_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
+
+
+  <content contentuid="h6a066dffgc6d3g41a1g821bg4a114ad47c02" version="1">Summon Elemental: Air</content>
+  <content contentuid="hf4731a3dg6428g4168g9d2bga50849a8486d" version="1">Call forth an elemental servant of air that fights alongside you.</content>
+  <content contentuid="h67a0e491gd8ebg49b6gb847g2eff1da1ca77" version="1">Slam</content>
+  <content contentuid="hae65b010g2117g429agb305g3d19d49853ab" version="1">Slam a foe with a blast of powerful wind.</content>
+  <content contentuid="h32c2b390ga38bg40e3g91a7g64aa4e682445" version="1">Summon Elemental: Earth</content>
+  <content contentuid="h8b00be39g5adfg4161g9682g13fe1648c8cc" version="1">Call forth an elemental servant of earth that fights alongside you.</content>
+  <content contentuid="h7f2aa376g6dfbg45dag92d0gcbd2880c36f1" version="1">Earth Glide</content>
+  <content contentuid="h7d161f73gd34dg4e8fg964dge7946cc44a66" version="1">The earth elemental can burrow through earth and stone.</content>
+  <content contentuid="a3741b86a7ca436d86ed8a2d0c67ad67" version="1">Punch a foe with a landslide's worth of force.</content>
+  <content contentuid="hc03c582dg69b8g4403ga396g94e22f1a5da5" version="1">Summon Elemental: Fire</content>
+  <content contentuid="hb2526a58gc9feg495fga811g16ff8f18b395" version="1">Call forth an elemental servant of fire that fights alongside you.</content>
+  <content contentuid="fd887f71871e4de4b489b619cc0a94e5" version="1">Touch a foe with a heat like the bright core of a furnace, searing them.</content>
+  <content contentuid="h0b6e1600g9d48g455agbdf6g6a5bb4b17f35" version="1">Summon Elemental: Water</content>
+  <content contentuid="he1481f94gc413g41bcgb88fg190d410e08c3" version="1">Call forth an elemental servant of water that fights alongside you.</content>
+  <content contentuid="12e18415a7f34ceb9b0b06fdf69b12a0" version="1">Slam into a foe with the power of a tsunami.</content>
+  <content contentuid="80f074d7ae7a4dc78265818ba8bcaaa2" version="1">Air Elemental</content>
+  <content contentuid="h949643b3g6293g4d93ga939gca18d095f102" version="1">This attack deals an additional amount of damage equal to the spell slot used to create the elemental.</content>
 
 
 
@@ -15,6 +576,67 @@
 
 
 
+new entry "Target_SummonElemental_Earth"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "SpellProperties" "GROUND:Summon(01d98a9e-ae92-475b-9381-fd952f4f4e8b, -1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('01d98a9e-ae92-475b-9381-fd952f4f4e8b') and not Character() and not Self()"
+data "Icon" "Spell_New_SummonElemental_Earth"
+data "DisplayName" "hb579f73eg43c3gd0cfg4682gfbd486def817;1"
+data "Description" "ha3888c67g9538gf9f3g0590g43874cb49d79;1"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Earth_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Earth_L4to5"
+data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
+data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Earth_L4to5"
+data "PreviewCursor" "Cast"
+data "PrepareEffect" "21b3181a-1369-47f1-87d9-0797c6864bf1"
+data "DamageType" "Thunder"
+
+
+
+
+
+new entry "Target_SummonElemental_Fire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "SpellProperties" "GROUND:Summon(87fb309b-c16a-48bd-b58a-3dea893eacc9, -1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('87fb309b-c16a-48bd-b58a-3dea893eacc9') and not Character() and not Self()"
+data "Icon" "Spell_New_SummonElemental_Fire"
+data "DisplayName" "h5db4e078g4395g388bg2154gae0a9021b6e7;1"
+data "Description" "hac28ba4bg5462g8c98ge77ag670af4702b59;1"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Fire_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Fire_L4to5"
+data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
+data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Fire_L4to5"
+data "PreviewCursor" "Cast"
+data "PrepareEffect" "46477378-b867-43c9-a000-2d166787a6ed"
+data "DamageType" "Fire"
+
+
+
+
+
+new entry "Target_SummonElemental_Water"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "SpellProperties" "GROUND:Summon(c0d5f739-4681-4c5a-bb19-2d7c09737cab, -1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('c0d5f739-4681-4c5a-bb19-2d7c09737cab') and not Character() and not Self()"
+data "Icon" "Spell_New_SummonElemental_Water"
+data "DisplayName" "h0265a548g36e9g0621gd824g6384eb617b48;1"
+data "Description" "h83da5f1dgee06g80f3gec9dg546762d8ca83;1"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Water_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Water_L4to5"
+data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
+data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Water_L4to5"
+data "PreviewCursor" "Cast"
+data "PrepareEffect" "811e7b54-cbe2-438d-8b82-6457939d0ecb"
+data "DamageType" "Cold"
 
 
 
@@ -25,15 +647,61 @@
 
 
 
+new entry "Target_SummonElemental_Earth"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "SpellProperties" "GROUND:Summon(2d9d7a14-67f8-4ba4-a590-9435e66022b5,600,,,,EARTH_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('2d9d7a14-67f8-4ba4-a590-9435e66022b5')"
+data "DisplayName" "h32c2b390ga38bg40e3g91a7g64aa4e682445;1"
+data "Description" "h8b00be39g5adfg4161g9682g13fe1648c8cc;1"
+data "Icon" "Spell_Conjuration_SummonElemental_Earth"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Earth_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Earth_L4to5"
+data "CastSound" "Action_Cast_Druid_ElementalWildShapeEarthMyrmidon"
+data "TargetSound" "Action_Impact_Druid_ElementalWildShapeEarthMyrmidon"
+data "PrepareEffect" "21b3181a-1369-47f1-87d9-0797c6864bf1"
 
 
 
 
 
+new entry "Target_SummonElemental_Fire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "SpellProperties" "GROUND:Summon(990b2e31-f2d3-45f1-a906-354fd1f22aa3,600,,,,FIRE_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('990b2e31-f2d3-45f1-a906-354fd1f22aa3')"
+data "DisplayName" "hc03c582dg69b8g4403ga396g94e22f1a5da5;1"
+data "Description" "hb2526a58gc9feg495fga811g16ff8f18b395;1"
+data "Icon" "Spell_Conjuration_SummonElemental_Fire"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Fire_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Fire_L4to5"
+data "CastSound" "Action_Cast_Druid_ElementalWildShapeFireMyrmidon"
+data "TargetSound" "Action_Impact_Druid_ElementalWildShapeFireMyrmidon"
+data "PrepareEffect" "46477378-b867-43c9-a000-2d166787a6ed"
 
 
 
 
+
+new entry "Target_SummonElemental_Water"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental"
+data "SpellContainerID" "Target_SummonElemental"
+data "SpellProperties" "GROUND:Summon(570e02e6-01ee-4e81-8860-467e52ceb7d9,600,,,,WATER_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('570e02e6-01ee-4e81-8860-467e52ceb7d9')"
+data "DisplayName" "h0b6e1600g9d48g455agbdf6g6a5bb4b17f35;1"
+data "Description" "he1481f94gc413g41bcgb88fg190d410e08c3;1"
+data "Icon" "Spell_Conjuration_SummonElemental_Water"
+data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Water_L4to5"
+data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Water_L4to5"
+data "CastSound" "Action_Cast_Druid_ElementalWildShapeWaterMyrmidon"
+data "TargetSound" "Action_Impact_Druid_ElementalWildShapeWaterMyrmidon"
+data "PrepareEffect" "811e7b54-cbe2-438d-8b82-6457939d0ecb"
 
 
 
