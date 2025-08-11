@@ -148,6 +148,7 @@ type "PassiveData"
 data "DisplayName" "h6ce7eb0749c44d7f87d4305c60f759f0ed79;1"
 data "Description" "h6af2d959bbaa442cb5f6cfc5151fc5a23726;1"
 data "DescriptionParams" "RegainHitPoints(5)"
+data "Icon" "PassiveFeature_Regeneration"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCombatStarted"
 data "Conditions" "not HasStatus('SUMMON_ABERRATION_REGENERATION')"
@@ -164,9 +165,10 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 
 new entry "SummonAberration_WhisperingAura"
 type "PassiveData"
-data "DisplayName" "h27814537a7e641f8a6804541290dc66b2358;1"
-data "Description" "he58fa218b13b4580b05f0938ad208b265b0a;1"
-data "DescriptionParams" "Distance(2)"
+data "DisplayName" "h83bf8d7cdcf448a196d2d816f6dc950a87g4;1"
+data "Description" "hd26646413b4642adb3439fc28e07aea5g171;1"
+data "DescriptionParams" "Distance(2);DealDamage(2d6,Psychic)"
+data "Icon" "GenericIcon_DamageType_Psychic"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCombatStarted"
 data "Conditions" "not HasStatus('SUMMON_ABERRATION_WHISPERING_AURA')"
@@ -175,8 +177,8 @@ data "StatsFunctors" "ApplyStatus(SUMMON_ABERRATION_WHISPERING_AURA,100,-1)"
 new entry "SUMMON_ABERRATION_WHISPERING_AURA"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h844695b66daf4eee9b6532a1aa49b8048403;1"
-data "Description" "h1ece779f2d3c443ca0a9bab9101ba9684510;1"
+data "DisplayName" "hb25e22eb2c0b4a39aff3f910e47a81d66895;1"
+data "Description" "hec2371d13aef48bab51af09764072730f048;1"
 data "DescriptionParams" "Distance(2)"
 data "Icon" "GenericIcon_DamageType_Psychic"
 data "StackId" "SUMMON_ABERRATION_WHISPERING_AURA"
@@ -190,8 +192,9 @@ data "StatusPropertyFlags" "DisableCombatlog"
 new entry "SUMMON_ABERRATION_WHISPERING_DAMAGE"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h5c860169148249efa5cf01456d2803b4ga30;1"
-data "Description" "h1a65a8d5214e46278d1dc4857d90ea61ec80;1"
+data "DisplayName" "h0c63477e6e7245d394e3e297f5771afff6a9;1"
+data "Description" "hbd1e4eb37e5b4318ac1c81938d313c270762;1"
+data "DescriptionParams" "DealDamage(2d6,Psychic)"
 data "Icon" "GenericIcon_DamageType_Psychic"
 data "TooltipDamage" "DealDamage(2d6,Psychic)"
 data "StackId" "SUMMON_ABERRATION_WHISPERING_DAMAGE"
@@ -202,63 +205,7 @@ data "RemoveEvents" "OnCombatEnded"
 data "TooltipSave" "Wisdom"
 data "OnTickRoll" "not SavingThrow(Ability.Wisdom, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
 data "OnTickSuccess" "DealDamage(2d6,Psychic,Magical)"
-
-
-
-
-
-
-
-
-
-data "TickFunctors" "IF(not HasStatus('SG_Incapacitated') and not Dead() and Combat()):RegainHitPoints(5)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
-
-
-// Meenlock Fear
-// This entity's proximity to a meenlock fills it with fear. It will become <LSTag Type="Status" Tooltip="FRIGHTENED">Frightened</LSTag> unless it succeeds a Wisdom <LSTag Tooltip="SavingThrow">Saving Throw</LSTag>.
-
-
-
-
-Whispering Aura (Mind Flayer Only)
-At the start of each of the spirit's turns, the spirit emits psionic energy if it doesn't have the Incapacitated condition.
-Wisdom Saving Throw: DC equals your spell save DC, each creature (other than you) within 5 feet of the spirit.
-Failure: 2d6 Psychic damage.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
 
 new entry "Target_SummonAberration"
 type "SpellData"
@@ -788,204 +735,136 @@ data "SpellSuccess" "DealDamage(1d8+12,Psychic);Cast2[DealDamage(1d8+12,Psychic)
 data "TooltipDamageList" "DealDamage(1d8+12,Psychic);DealDamage(1d8+12,Psychic);DealDamage(1d8+12,Psychic);DealDamage(1d8+12,Psychic)"
 data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Multiattack
-The spirit makes a number of attacks equal to half this spell's level (round down).
-
-
-Claw (Slaad Only)
-Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d10 + 3 + the spell's level Slashing damage, and the target can't regain Hit Points until the start of the spirit's next turn.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <content contentuid="ha1df2d1dg8f94ga80ag38d3g6705ecc04b54" version="1">Spectator Spirit</content>
-  <content contentuid="h6baf5718g4966g56ccgf832gcceef14a8ab5" version="1">Bite</content>
-  <content contentuid="ha4d55033g29d4g89cag7691gb99ce195b7cf" version="1">Bite the target.</content>
-  <content contentuid="hc762c3f1gbf02g85eag19e2gb16b4926b26b" version="1">Cloaker Spirit</content>
-  <content contentuid="he4ef0f67g2d81g4ecagb1bdga399365a9c02" version="1">Aim multiple attacks at a target that cause &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;. The target must be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; or have less than half of its maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
-  <content contentuid="hd348f7d6g9f85g22e1g7b4dg65acf6b77f87" version="1">Multiattack</content>
-  <content contentuid="h3f7d9a91g094ag5ab5g37a2g7f54bad34969" version="1">Summon Aberration: Cloaker</content>
-  <content contentuid="hc5a20024gbffeg557ag5dfag982b76203b02" version="1">Summon a Cloaker spirit. Its can &lt;LSTag Type="Spell" Tooltip="Shout_Phantasm_Cloaker_SummonAberration"&gt;Summon Phantasms&lt;/LSTag&gt;, induce &lt;LSTag Type="Spell" Tooltip="Shout_Moan_Cloaker_SummonAberration"&gt;Fear&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker_SummonAberration"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="he2045714g59eeg7681gdbdfgee13c708e926" version="1">Moan</content>
-  <content contentuid="h0e1a8191g12fagf570g1582g8da82352c511" version="1">Produce a piercing moan and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; nearby creatures.</content>
-  <content contentuid="h79e0ac9dgf5cdgbf5cg4fa5gff935612340a" version="1">Summon Phantasms</content>
-  <content contentuid="h246e5968g3c52gf0d5g7e6bg4270c557f2af" version="1">Create 3 illusory duplicates of yourself that distract attackers. Each duplicate increases your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3.&lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while there is at least one phantasm active.</content>
-  <content contentuid="hc7b3a903g56ffg99ddgcd1bg802950071094" version="1">Whenever you successfully evade an attack, one of the duplicates disappears.&lt;br&gt;&lt;br&gt;Bright light prevents phantasms from being summoned and dispels any active phantasms.</content>
-  <content contentuid="hf8708e49g7eddg0045g8a85g8f7d48e9b226" version="1">Phantasms: Saving Throws</content>
-  <content contentuid="hffbedb78g7746g8948g50d6g60d5f9b6eadc" version="1">Phantasm</content>
-  <content contentuid="h75abc8ffg2283g3ce4gc7d6g37b058c65b3c" version="1">The phantasm distracts attackers, increasing the Cloaker's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3.&lt;br&gt;&lt;br&gt;Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while there is at least one phantasm active.&lt;br&gt;&lt;br&gt;When the Cloaker successfully evades an attack, one of the images disappears.&lt;br&gt;&lt;br&gt;Bright light prevents phantasms from being summoned and dispels any active phantasms.</content>
-  <content contentuid="h392a9bfbg32f7g7b4eg7f00g8ad74c04f94c" version="1">Second Phantasm</content>
-  <content contentuid="h3d52d8e2g36d4gbdecg9426gcc0ad2e2850b" version="1">Third Phantasm</content>
-  <content contentuid="h1d4b2c4bg561cgb03cg463bga421d53516ad" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while there is at least one phantasm active.</content>
-  <content contentuid="h96cad309g905dge925gfc0ag9e4847f42272" version="1">Phantasms Obscurity</content>
-  <content contentuid="hfa3cc5a6g6bbagfb81g5643g505f82922a9d" version="1">Summon a Spectator spirit. Its eye rays can &lt;LSTag Type="Spell" Tooltip="Target_EyeRay_SummonAberration_5"&gt;Wound&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FearRay_SummonAberration"&gt;Frighten&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ParalyzingRay_SummonAberration"&gt;Paralyze&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ConfusionRay_SummonAberration"&gt;Confuse&lt;/LSTag&gt;.</content>
-  <content contentuid="h9ab216ecg4867g6a34g7235g0a41ff92b437" version="1">Summon a Spectator spirit. Its eye rays can &lt;LSTag Type="Spell" Tooltip="Target_EyeRay_SummonAberration_6"&gt;Wound&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FearRay_SummonAberration"&gt;Frighten&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ParalyzingRay_SummonAberration"&gt;Paralyze&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ConfusionRay_SummonAberration"&gt;Confuse&lt;/LSTag&gt;.</content>
-  <content contentuid="h14e3eb14g8b43ga1cag82c7ga22ade66b734" version="1">Summon a Cloaker spirit. Its can &lt;LSTag Type="Spell" Tooltip="Shout_Phantasm_Cloaker_SummonAberration"&gt;Summon Phantasms&lt;/LSTag&gt;, induce &lt;LSTag Type="Spell" Tooltip="Shout_Moan_Cloaker_SummonAberration_5"&gt;Fear&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker_SummonAberration_5"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="h02f86216g5205ga07eg1c7cg8fcc7cad37a3" version="1">Summon a Cloaker spirit. Its can &lt;LSTag Type="Spell" Tooltip="Shout_Phantasm_Cloaker_SummonAberration"&gt;Summon Phantasms&lt;/LSTag&gt;, induce &lt;LSTag Type="Spell" Tooltip="Shout_Moan_Cloaker_SummonAberration_6"&gt;Fear&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker_SummonAberration_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
-
-
-  <content contentuid="h2e2114b9g2922g41f9ga396g9e485a4043f3" version="1">Summon Aberration: Beholderkin</content>
-  <content contentuid="h2865ab28g7c78g40cegbc49g22910db110d8" version="1">Call forth an aberrant spirit whose corporeal form resembles a Beholderkin.</content>
-  <content contentuid="h5677fe1cgc4bdg4db7gb4e9gdc3c4c8069f7" version="1">Aberrant Spirit: Beholderkin</content>
-  <content contentuid="h41b4be4dgedffg4072gb3aegb51839ab050d" version="1">Eye Ray</content>
-  <content contentuid="h8ba16f71gc073g414ag8270g509d2fe00666" version="1">Shoot amagical eye ray at a creature.</content>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "Target_Bite_Cloaker_SummonAberration"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Bite_Cloaker"
+data "SpellSuccess" "DealDamage(1d10+7,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+data "DisplayName" "h9ad25df25f0241fa9a21887fe50d314a6962;1"
+data "Description" "h47ec98efec7c49f0a0fd8b895f7a95f6fad9;1"
+data "TooltipDamageList" "DealDamage(1d10+7,Slashing)"
+data "TooltipStatusApply" "ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+
+new entry "Target_Bite_Cloaker_SummonAberration_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Bite_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+8,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+data "TooltipDamageList" "DealDamage(1d10+8,Slashing)"
+
+new entry "Target_Bite_Cloaker_SummonAberration_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Bite_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+9,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+data "TooltipDamageList" "DealDamage(1d10+9,Slashing)"
+
+new entry "Target_Bite_Cloaker_SummonAberration_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Bite_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+10,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+data "TooltipDamageList" "DealDamage(1d10+10,Slashing)"
+
+new entry "Target_Bite_Cloaker_SummonAberration_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Bite_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+11,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+data "TooltipDamageList" "DealDamage(1d10+11,Slashing)"
+
+new entry "Target_Bite_Cloaker_SummonAberration_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Bite_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+12,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+data "TooltipDamageList" "DealDamage(1d10+12,Slashing)"
+
+
+
+
+
+
+
+
+
+new entry "Target_Multiattack_Cloaker"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack"
+data "SpellSuccess" "DealDamage(3d6+UnarmedMeleeAbilityModifier,Piercing);ApplyStatus(GAPING_WOUND,100,5);Cast2[DealDamage(3d8+UnarmedMeleeAbilityModifier,Slashing);ApplyStatus(BLEEDING,100,5)]"
+data "TargetConditions" "not Self() and not Dead() and HasStatus('FRIGHTENED',context.Target) "
+// Aim multiple attacks at a target that cause <LSTag Type="Status" Tooltip="GAPING_WOUND">Gaping Wounds</LSTag> and <LSTag Type="Status" Tooltip="BLEEDING">Bleeding</LSTag>.
+data "Description" "h32d254f6g2ed7g407cg96cfg02a279e4084f;4"
+data "TooltipDamageList" "DealDamage(3d6+UnarmedMeleeAbilityModifier,Piercing);DealDamage(3d8+UnarmedMeleeAbilityModifier,Slashing)"
+data "TooltipStatusApply" "ApplyStatus(GAPING_WOUND,100,5);ApplyStatus(BLEEDING,100,5);"
+
+
+
+
+
+
+new entry "Target_Multiattack_Cloaker_SummonAberration"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Cloaker"
+data "SpellSuccess" "DealDamage(1d10+7,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1);Cast2[DealDamage(1d10+7,Slashing)]"
+data "TargetConditions" "not Self() and not Dead()"
+data "DisplayName" "he1dff96e735b4740969e30b88052af065g0b;1"
+data "Description" "h46df906b9cf648d782c38e2ace6a7a7f7f7e;1"
+data "TooltipDamageList" "DealDamage(1d10+7,Slashing);DealDamage(1d10+7,Slashing)"
+data "TooltipStatusApply" "ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1)"
+data "CycleConditions" "Character() and not Dead()"
+data "SpellFlags" "IsMelee;IsHarmful;IsSpell"
+
+new entry "Target_Multiattack_Cloaker_SummonAberration_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+8,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1);Cast2[DealDamage(1d10+8,Slashing)]"
+data "TooltipDamageList" "DealDamage(1d10+8,Slashing);DealDamage(1d10+8,Slashing)"
+
+new entry "Target_Multiattack_Cloaker_SummonAberration_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+9,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1);Cast2[DealDamage(1d10+9,Slashing)];Cast3[DealDamage(1d10+9,Slashing)]"
+data "TooltipDamageList" "DealDamage(1d10+9,Slashing);DealDamage(1d10+9,Slashing);DealDamage(1d10+9,Slashing)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_Cloaker_SummonAberration_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+10,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1);Cast2[DealDamage(1d10+10,Slashing)];Cast3[DealDamage(1d10+10,Slashing)]"
+data "TooltipDamageList" "DealDamage(1d10+10,Slashing);DealDamage(1d10+10,Slashing);DealDamage(1d10+10,Slashing)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_Cloaker_SummonAberration_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+11,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1);Cast2[DealDamage(1d10+11,Slashing)];Cast3[DealDamage(1d10+11,Slashing)];Cast4[DealDamage(1d10+11,Slashing)]"
+data "TooltipDamageList" "DealDamage(1d10+11,Slashing);DealDamage(1d10+11,Slashing);DealDamage(1d10+11,Slashing);DealDamage(1d10+11,Slashing)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+
+new entry "Target_Multiattack_Cloaker_SummonAberration_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Cloaker_SummonAberration"
+data "SpellSuccess" "DealDamage(1d10+12,Slashing);ApplyStatus(CLOAKER_ABERRATION_HEALBLOCK,100,1);Cast2[DealDamage(1d10+12,Slashing)];Cast3[DealDamage(1d10+12,Slashing)];Cast4[DealDamage(1d10+12,Slashing)]"
+data "TooltipDamageList" "DealDamage(1d10+12,Slashing);DealDamage(1d10+12,Slashing);DealDamage(1d10+12,Slashing);DealDamage(1d10+12,Slashing)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+
+new entry "CLOAKER_ABERRATION_HEALBLOCK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h3cc04b4a788d4c0b8cfd479f075ed5a16f2g;1"
+data "Description" "h7124c740cedd4425b1bbd00e018945b8g47d;1"
+data "Icon" "Spell_Necromancy_ChillTouch"
+data "StillAnimationType" "Weakened"
+data "StillAnimationPriority" "Weakened"
+data "StackId" "CLOAKER_ABERRATION_HEALBLOCK"
+data "TickType" "StartTurn"
+data "Boosts" "BlockRegainHP(Living;Undead)"
+data "StatusPropertyFlags" "TickingWithSource"

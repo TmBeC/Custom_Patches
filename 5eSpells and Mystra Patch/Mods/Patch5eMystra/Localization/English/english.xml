@@ -430,7 +430,7 @@
   <content contentuid="hfc90a3d4b0a24587a39185087a55fd5eb2c2" version="1">Summon an aberrant spirit resembling a cloaker.</content>
   <content contentuid="hb62f97230ddc4a69a92af39c14e748733165" version="1">Spectator Spirit</content>
   <content contentuid="hd5127002fa474af4bbca5921c2712504e8ca" version="1">Mind Flayer Spirit</content>
-  <content contentuid="hc762c3f1gbf02g85eag19e2gb16b4926b26b" version="1">Cloaker Spirit</content>
+  <content contentuid="hc9217267ae424083b634a05353c99abc2g34" version="1">Cloaker Spirit</content>
   <content contentuid="h3e09786390074680ab7882d358c1dceb911c" version="1">Wounding Ray</content>
   <content contentuid="h89570a426d904b6088b66f4ac276952cfcb7" version="1">Shoot an eye ray that deals psychic damage.</content>
   <content contentuid="h9b1e70fd058a42c5a83876dfa26201a6g58d" version="1">Confusion Ray</content>
@@ -441,22 +441,37 @@
   <content contentuid="h9ca3577b45d241d5ad8295e7bc8072350151" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="PARALYZED_SPECTATOR"&gt;Paralyzes&lt;/LSTag&gt; its target.</content>
   <content contentuid="h494f7a622b264af5972a52f2b7d0f30265ea" version="1">Psychic Blast</content>
   <content contentuid="hefc68ba5e2244d6ab1d66347767bc9318934" version="1">Spew forth a conical wave of psychic energy.</content>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <content contentuid="h9ad25df25f0241fa9a21887fe50d314a6962" version="1">Bite</content>
+  <content contentuid="h47ec98efec7c49f0a0fd8b895f7a95f6fad9" version="1">Target cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; until the start of your next turn.</content>
+  <content contentuid="h3cc04b4a788d4c0b8cfd479f075ed5a16f2g" version="1">Cloaker Saliva</content>
+  <content contentuid="h7124c740cedd4425b1bbd00e018945b8g47d" version="1">Cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="he1dff96e735b4740969e30b88052af065g0b" version="1">Multiattack</content>
+  <content contentuid="h46df906b9cf648d782c38e2ace6a7a7f7f7e" version="1">Target cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; until the start of your next turn.</content>
   <content contentuid="h6ce7eb0749c44d7f87d4305c60f759f0ed79" version="1">Regeneration</content>
   <content contentuid="h6af2d959bbaa442cb5f6cfc5151fc5a23726" version="1">At the beginning of your turn, heal you [1].</content>
   <content contentuid="hf6cb91b573c945b0be8c5a4f1b75ff5b5237" version="1">Regeneration Technical</content>
+  <content contentuid="h83bf8d7cdcf448a196d2d816f6dc950a87g4" version="1">Whispering Aura</content>
+  <content contentuid="hd26646413b4642adb3439fc28e07aea5g171" version="1">Emits aberrant psionic energy at the start of its turn to all creatures within [1], dealing [2] on a failed Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="hb25e22eb2c0b4a39aff3f910e47a81d66895" version="1">Whispering Aura</content>
+  <content contentuid="hec2371d13aef48bab51af09764072730f048" version="1">Damages all creatures within [1] at the start of its turn.</content>
+  <content contentuid="h0c63477e6e7245d394e3e297f5771afff6a9" version="1">Whispering Aura</content>
+  <content contentuid="hbd1e4eb37e5b4318ac1c81938d313c270762" version="1">This entity's proximity to the mind flayer spirit causes it to be caught up in the aberrant psionic energy. Takes [1] on a failed Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="h42bb971117e84636a420f6c7b5519a06g1fc" version="1">Summon Construct: Metal</content>
+  <content contentuid="h8104cc02de1c481b8e79b92ea0a1df47516a" version="1">Call forth the spirit of a Metal construct that burns enemies for [1] when they land a melee attack.</content>
+  <content contentuid="h3b2c22c788d844709ab9daca586628c71ed7" version="1">Heated Body</content>
+  <content contentuid="h13d5d6d292604891a2a76f96ca619be641e0" version="1">Deal [1] when a nearby creature lands a melee attack.</content>
+  <content contentuid="hfeed65872b78471ea73403134342b7f56df7" version="1">%%% Heated Body VFX</content>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -268,7 +268,7 @@ Target_StormSphere
 Target_SummonAberration
 
 (Summon Construct)
-
+Target_SummonConstruct
 
 (Summon Elemental)
 
