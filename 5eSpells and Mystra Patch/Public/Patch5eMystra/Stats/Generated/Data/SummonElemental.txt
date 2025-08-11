@@ -12,7 +12,7 @@ data "Armor" "13"
 data "Vitality" "50"
 data "GameSize" "Medium"
 data "Flags" "Floating"
-data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Exhausted;PETRIFIED;PARALYZED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
 data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
 data "Passives" "AttackOfOpportunity;DarknessRules;Darkvision;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;Ethereal;ShortResting"
@@ -70,8 +70,9 @@ data "Charisma" "16"
 data "Armor" "13"
 data "Vitality" "50"
 data "GameSize" "Medium"
-data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Exhausted;PETRIFIED;PARALYZED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
 data "Passives" "Darkvision;AttackOfOpportunity;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting"
 data "PiercingResistance" "Resistant"
 data "SlashingResistance" "Resistant"
@@ -126,9 +127,10 @@ data "Charisma" "16"
 data "Armor" "13"
 data "Vitality" "50"
 data "GameSize" "Medium"
-data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4;BURNING"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Exhausted;PETRIFIED;PARALYZED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4;BURNING"
 data "UnarmedAttackAbility" "Strength"
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
 data "Passives" "Ethereal;AttackOfOpportunity;DarknessRules;Darkvision;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting"
 data "FireResistance" "Immune"
 data "PoisonResistance" "Immune"
@@ -182,8 +184,9 @@ data "Charisma" "16"
 data "Armor" "13"
 data "Vitality" "50"
 data "GameSize" "Medium"
-data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;EXHAUSTION;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
+data "PersonalStatusImmunities" "BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Exhausted;PETRIFIED;PARALYZED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4"
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "DefaultBoosts" "ProficiencyBonusOverride(Owner.ProficiencyBonus);DialogueBlock();BlockRegainHP(Undead;Construct)"
 data "Passives" "Ethereal;AttackOfOpportunity;DarknessRules;Darkvision;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting"
 data "BludgeoningResistance" ""
 data "SlashingResistance" ""
@@ -232,164 +235,405 @@ new entry "Target_Slam_SummonElemental_Air"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_UnarmedAttack"
-data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1)"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING)"
 data "SpellSuccess" "DealDamage(1d10+8,Lightning)"
 data "Icon" "Action_Monster_ElementalAir_Slam"
 data "DisplayName" "he4b3ee8ade2c47f5b269901da95fc760753g;1"
+data "Description" "he600912c27274452a3b358b4b6cf343fcd0a;1"
 data "TooltipDamageList" "DealDamage(1d10+8,Lightning)"
 data "PrepareSound" "CrSpell_Prepare_ElementalAir_AirBlast"
 data "PrepareLoopSound" "CrSpell_Loop_ElementalAir_AirBlast"
-data "CastSound" "CrSpell_Cast_ElementalAir_Multiattack"
-data "TargetSound" "CrSpell_Impact_ElementalAir_Multiattack"
-data "PrepareEffect" "4c4557e1-cca1-4f82-964f-ae5d1320452d"
-data "CastEffect" "726908e6-9805-4ee1-a80b-af7e39476a45"
-data "HitEffect" "c97ce550-acf4-42a0-9aa5-91707713d52f"
+data "CastSound" "CrSpell_Cast_ElementalAir_Whirlwind"
+data "TargetSound" "CrSpell_Impact_ElementalAir_Whirlwind"
+data "PrepareEffect" "51473379-ba7f-4742-a5c5-30f8f52bafbf"
+data "CastEffect" "1baa1115-14e1-47fe-a152-de6dc7b89435"
+data "HitEffect" "62c93179-7074-43f1-9fb9-71851615c279"
 data "DamageType" "Lightning"
 
-
-
-
-
-
-
-
-
-Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
-
-Slam
-Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
-Hit: 1d10 + 4 + the spell's level 
-
-
-
-
-
-Target_Slam_SummonElemental_Earth
-new entry "Target_Slam_Elemental_Earth"
+new entry "Target_Slam_SummonElemental_Air_5"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_UnarmedAttack"
-data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:CreateSurface(1,0,Mud)"
-data "SpellSuccess" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
-data "Icon" "Action_Monster_ElementalEarth_Slam"
-// Soil-Clogged Slam
-data "DisplayName" "he30af119ge00fg4d04g880fg95b7816762bd;1"
-// Punch a foe with a landslide's worth of force, leaving behind a residue of mud.
-data "Description" "he70b15d1gfba1g4eabgbf6fg3043f8291a9f;1"
-data "TooltipDamageList" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
-data "PrepareSound" "CrSpell_Prepare_ElementalEarth_Slam"
-data "PrepareLoopSound" "CrSpell_Loop_ElementalEarth_Slam"
-data "CastSound" "CrSpell_Cast_ElementalEarth_Slam"
-data "TargetSound" "CrSpell_Impact_ElementalEarth_Slam"
-data "PrepareEffect" "3c7eca6a-aaf2-4481-a9b3-63593cfdf105"
-data "CastEffect" "d6e9dd61-ef5d-4aa7-95ee-0dc362a2d16d"
-data "PositionEffect" "0aeac37e-9890-4c79-9cae-cb01433264e1"
-data "Sheathing" "DontChange"
+using "Target_Slam_SummonElemental_Air"
+data "SpellSuccess" "DealDamage(1d10+9,Lightning)"
+data "TooltipDamageList" "DealDamage(1d10+9,Lightning)"
 
-
-
-
-Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
-
-Slam
-Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
-Hit: 1d10 + 4 + the spell's level Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage.
-
-
-
-
-
-
-
-
-
-
-Action_Monster_ElementalLava_Slam
-
-new entry "Target_Slam_Elemental_Lava"
+new entry "Target_Slam_SummonElemental_Air_6"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_Slam_MudElemental"
-data "SpellSuccess" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
-data "TooltipDamageList" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
-data "CastSound" "CrSpell_Cast_LavaSlam"
-data "TargetSound" "CrSpell_Impact_LavaSlam"
-data "PrepareEffect" "0d8388e8-d6f6-4c22-8914-fcc92f85d1b8"
-data "CastEffect" "a310ddc5-85a0-4d52-b615-7df60f9c7df9"
-data "TargetEffect" "a85b03a3-6a34-4509-b59d-295f0d31cbc8"
+using "Target_Slam_SummonElemental_Air"
+data "SpellSuccess" "DealDamage(1d10+10,Lightning)"
+data "TooltipDamageList" "DealDamage(1d10+10,Lightning)"
 
-new entry "Target_Slam_MudElemental"
+new entry "Target_Slam_SummonElemental_Air_7"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_UnarmedAttack"
-data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:CreateSurface(2,2,Mud)"
-data "SpellSuccess" "DealDamage(2d4+UnarmedMeleeAbilityModifier, Bludgeoning);IF(not SavingThrow(Ability.Dexterity,12)):ApplyStatus(MEPHIT_MUD_RESTRAINED,100,2);"
-data "Icon" "Action_Slam"
-// Slam
-data "DisplayName" "h6b96bca4g2e4ag4851g93d3g6120d16435d2;1"
-data "TooltipDamageList" "DealDamage(2d4+UnarmedMeleeAbilityModifier, Bludgeoning)"
-data "SpellAnimationIntentType" "Aggressive"
-data "CastEffect" "82cd426e-7d1c-4e44-9965-9859d0660658"
-data "TargetEffect" "ec18ddf7-7c12-4255-8ac9-21be3ae508a9"
-data "Sheathing" "DontChange"
+using "Target_Slam_SummonElemental_Air"
+data "SpellSuccess" "DealDamage(1d10+11,Lightning)"
+data "TooltipDamageList" "DealDamage(1d10+11,Lightning)"
 
-
-
-
-Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
-
-Slam
-Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
-Hit: 1d10 + 4 + the spell's level Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage.
-
-
-
-
-
-
-
-
-
-
-
-
-new entry "Target_Slam_Elemental_Water"
+new entry "Target_Slam_SummonElemental_Air_8"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_UnarmedAttack"
-data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:CreateSurface(1,0,Water)"
-data "SpellSuccess" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
-data "Icon" "Action_Monster_ElementalWater_Slam"
-// Slam
-data "DisplayName" "he5ac56ebgebf3g4e73gbdf7g8129c98c51cb;1"
-// Slam into a foe and create a puddle of water around the impact site.
-data "Description" "h385e6616ge372g41c5g9c2egb9c23e59e3e0;1"
-data "TooltipDamageList" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Lightning)"
-data "TooltipStatusApply" "ApplyStatus(CHILLED,100,2)"
-data "PrepareSound" "CrSpell_Prepare_ElementalWater_Slam"
-data "PrepareLoopSound" "CrSpell_Loop_ElementalWater_Slam"
-data "CastSound" "CrSpell_Cast_ElementalWater_Slam"
-data "TargetSound" "CrSpell_Impact_ElementalWater_Slam"
-data "SpellAnimation" "a1fd8b6c-2ced-4518-922b-acce1d2bcbf0,,;1fad5d7e-b4c1-4852-b44f-3f8efc3c4460,,;b3cfdeb0-fc45-4a10-b6fb-3c62817662eb,,;d7ea1967-d037-477d-b3d2-b422b3e40c34,,;2e1a3214-7c9a-44c0-bf99-32704dcd56f5,,;fb40445c-9e15-40be-8125-1daa14180686,,;9f8f9646-8e32-42dc-8277-09e396a0a3ad,,;,,;,,"
-data "Sheathing" "DontChange"
+using "Target_Slam_SummonElemental_Air"
+data "SpellSuccess" "DealDamage(1d10+12,Lightning)"
+data "TooltipDamageList" "DealDamage(1d10+12,Lightning)"
 
+new entry "Target_Slam_SummonElemental_Air_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Air"
+data "SpellSuccess" "DealDamage(1d10+13,Lightning)"
+data "TooltipDamageList" "DealDamage(1d10+13,Lightning)"
 
+new entry "Target_Multiattack_SummonElemental_Air"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Elemental_Air"
+data "SpellSuccess" "DealDamage(1d10+8,Lightning);Cast2[DealDamage(1d10+8,Lightning)]"
+data "Description" "h3578a06dccc549eba4ce5987aa0d28628118;1"
+data "ExtraDescription" ""
+data "TooltipDamageList" "DealDamage(1d10+8,Lightning);DealDamage(1d10+8,Lightning)"
+data "DamageType" "Lightning"
 
+new entry "Target_Multiattack_SummonElemental_Air_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Air"
+data "SpellSuccess" "DealDamage(1d10+9,Lightning);Cast2[DealDamage(1d10+9,Lightning)]"
+data "TooltipDamageList" "DealDamage(1d10+9,Lightning);DealDamage(1d10+9,Lightning)"
 
+new entry "Target_Multiattack_SummonElemental_Air_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Air"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+10,Lightning);Cast2[DealDamage(1d10+10,Lightning)];Cast3[DealDamage(1d10+10,Lightning)]"
+data "TooltipDamageList" "DealDamage(1d10+10,Lightning);DealDamage(1d10+10,Lightning);DealDamage(1d10+10,Lightning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
 
+new entry "Target_Multiattack_SummonElemental_Air_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Air"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+11,Lightning);Cast2[DealDamage(1d10+11,Lightning)];Cast3[DealDamage(1d10+11,Lightning)]"
+data "TooltipDamageList" "DealDamage(1d10+11,Lightning);DealDamage(1d10+11,Lightning);DealDamage(1d10+11,Lightning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
 
+new entry "Target_Multiattack_SummonElemental_Air_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Air"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+12,Lightning);Cast2[DealDamage(1d10+12,Lightning)];Cast3[DealDamage(1d10+12,Lightning)];Cast4[DealDamage(1d10+12,Lightning)]"
+data "TooltipDamageList" "DealDamage(1d10+12,Lightning);DealDamage(1d10+12,Lightning);DealDamage(1d10+12,Lightning);DealDamage(1d10+12,Lightning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
 
+new entry "Target_Multiattack_SummonElemental_Air_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Air"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+13,Lightning);Cast2[DealDamage(1d10+13,Lightning)];Cast3[DealDamage(1d10+13,Lightning)];Cast4[DealDamage(1d10+13,Lightning)]"
+data "TooltipDamageList" "DealDamage(1d10+13,Lightning);DealDamage(1d10+13,Lightning);DealDamage(1d10+13,Lightning);DealDamage(1d10+13,Lightning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
 
-Multiattack. The spirit makes a number of Slam attacks equal to half this spell's level (round down).
+new entry "Target_Slam_SummonElemental_Earth"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_Elemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+8,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(1d10+8,Bludgeoning)"
+data "DamageType" "Bludgeoning"
 
-Slam
-Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft.
-Hit: 1d10 + 4 + the spell's level Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage.
+new entry "Target_Slam_SummonElemental_Earth_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+9,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(1d10+9,Bludgeoning)"
 
+new entry "Target_Slam_SummonElemental_Earth_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+10,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(1d10+10,Bludgeoning)"
 
+new entry "Target_Slam_SummonElemental_Earth_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+11,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(1d10+11,Bludgeoning)"
 
+new entry "Target_Slam_SummonElemental_Earth_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+12,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(1d10+12,Bludgeoning)"
 
+new entry "Target_Slam_SummonElemental_Earth_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+13,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(1d10+13,Bludgeoning)"
 
+new entry "Target_Multiattack_SummonElemental_Earth"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Elemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+8,Bludgeoning);Cast2[DealDamage(1d10+8,Bludgeoning)]"
+data "ExtraDescription" ""
+data "TooltipDamageList" "DealDamage(1d10+8,Bludgeoning);DealDamage(1d10+8,Bludgeoning)"
+data "DamageType" "Bludgeoning"
+
+new entry "Target_Multiattack_SummonElemental_Earth_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Earth"
+data "SpellSuccess" "DealDamage(1d10+9,Bludgeoning);Cast2[DealDamage(1d10+9,Bludgeoning)]"
+data "TooltipDamageList" "DealDamage(1d10+9,Bludgeoning);DealDamage(1d10+9,Bludgeoning)"
+
+new entry "Target_Multiattack_SummonElemental_Earth_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Earth"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+10,Bludgeoning);Cast2[DealDamage(1d10+10,Bludgeoning)];Cast3[DealDamage(1d10+10,Bludgeoning)]"
+data "TooltipDamageList" "DealDamage(1d10+10,Bludgeoning);DealDamage(1d10+10,Bludgeoning);DealDamage(1d10+10,Bludgeoning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Earth_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Earth"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+11,Bludgeoning);Cast2[DealDamage(1d10+11,Bludgeoning)];Cast3[DealDamage(1d10+11,Bludgeoning)]"
+data "TooltipDamageList" "DealDamage(1d10+11,Bludgeoning);DealDamage(1d10+11,Bludgeoning);DealDamage(1d10+11,Bludgeoning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Earth_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Earth"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+12,Bludgeoning);Cast2[DealDamage(1d10+12,Bludgeoning)];Cast3[DealDamage(1d10+12,Bludgeoning)];Cast4[DealDamage(1d10+12,Bludgeoning)]"
+data "TooltipDamageList" "DealDamage(1d10+12,Bludgeoning);DealDamage(1d10+12,Bludgeoning);DealDamage(1d10+12,Bludgeoning);DealDamage(1d10+12,Bludgeoning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Earth_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Earth"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+13,Bludgeoning);Cast2[DealDamage(1d10+13,Bludgeoning)];Cast3[DealDamage(1d10+13,Bludgeoning)];Cast4[DealDamage(1d10+13,Bludgeoning)]"
+data "TooltipDamageList" "DealDamage(1d10+13,Bludgeoning);DealDamage(1d10+13,Bludgeoning);DealDamage(1d10+13,Bludgeoning);DealDamage(1d10+13,Bludgeoning)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+
+new entry "Target_Slam_SummonElemental_Fire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_Elemental_Lava"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt)"
+data "SpellSuccess" "DealDamage(1d10+8,Fire);ApplyStatus(BURNING,100,2);CreateSurface(1,0,Fire)"
+data "Icon" "Action_Monster_ElementalLava_Slam"
+data "DisplayName" "ha294d52bgadedg950cge1acg285b5c2bce0e;1"
+data "Description" "hc421cb1ag43dbg1602g8554g1793bb949666;1"
+data "TooltipDamageList" "DealDamage(1d10+8,Fire)"
+data "TooltipStatusApply" "ApplyStatus(BURNING,100,2)"
+data "PrepareSound" "CrSpell_Prepare_ElementalFire_SmolderingTouch"
+data "PrepareLoopSound" "CrSpell_Loop_ElementalFire_SmolderingTouch"
+data "DamageType" "Fire"
+
+new entry "Target_Slam_SummonElemental_Fire_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Fire"
+data "SpellSuccess" "DealDamage(1d10+9,Fire);ApplyStatus(BURNING,100,2);CreateSurface(1,0,Fire)"
+data "TooltipDamageList" "DealDamage(1d10+9,Fire)"
+
+new entry "Target_Slam_SummonElemental_Fire_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Fire"
+data "SpellSuccess" "DealDamage(1d10+10,Fire);ApplyStatus(BURNING,100,2);CreateSurface(1,0,Fire)"
+data "TooltipDamageList" "DealDamage(1d10+10,Fire)"
+
+new entry "Target_Slam_SummonElemental_Fire_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Fire"
+data "SpellSuccess" "DealDamage(1d10+11,Fire);ApplyStatus(BURNING,100,2);CreateSurface(1,0,Fire)"
+data "TooltipDamageList" "DealDamage(1d10+11,Fire)"
+
+new entry "Target_Slam_SummonElemental_Fire_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Fire"
+data "SpellSuccess" "DealDamage(1d10+12,Fire);ApplyStatus(BURNING,100,2);CreateSurface(1,0,Fire)"
+data "TooltipDamageList" "DealDamage(1d10+12,Fire)"
+
+new entry "Target_Slam_SummonElemental_Fire_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Fire"
+data "SpellSuccess" "DealDamage(1d10+13,Fire);ApplyStatus(BURNING,100,2);CreateSurface(1,0,Fire)"
+data "TooltipDamageList" "DealDamage(1d10+13,Fire)"
+
+new entry "Target_Multiattack_SummonElemental_Fire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Elemental_Fire"
+data "SpellSuccess" "DealDamage(1d10+8,Fire);Cast2[DealDamage(1d10+8,Fire)]"
+data "ExtraDescription" ""
+data "TooltipDamageList" "DealDamage(1d10+8,Fire);DealDamage(1d10+8,Fire)"
+data "DamageType" "Fire"
+
+new entry "Target_Multiattack_SummonElemental_Fire_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Fire"
+data "SpellSuccess" "DealDamage(1d10+9,Fire);Cast2[DealDamage(1d10+9,Fire)]"
+data "TooltipDamageList" "DealDamage(1d10+9,Fire);DealDamage(1d10+9,Fire)"
+
+new entry "Target_Multiattack_SummonElemental_Fire_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Fire"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+10,Fire);Cast2[DealDamage(1d10+10,Fire)];Cast3[DealDamage(1d10+10,Fire)]"
+data "TooltipDamageList" "DealDamage(1d10+10,Fire);DealDamage(1d10+10,Fire);DealDamage(1d10+10,Fire)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Fire_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Fire"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+11,Fire);Cast2[DealDamage(1d10+11,Fire)];Cast3[DealDamage(1d10+11,Fire)]"
+data "TooltipDamageList" "DealDamage(1d10+11,Fire);DealDamage(1d10+11,Fire);DealDamage(1d10+11,Fire)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Fire_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Fire"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+12,Fire);Cast2[DealDamage(1d10+12,Fire)];Cast3[DealDamage(1d10+12,Fire)];Cast4[DealDamage(1d10+12,Fire)]"
+data "TooltipDamageList" "DealDamage(1d10+12,Fire);DealDamage(1d10+12,Fire);DealDamage(1d10+12,Fire);DealDamage(1d10+12,Fire)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Fire_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Fire"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+13,Fire);Cast2[DealDamage(1d10+13,Fire)];Cast3[DealDamage(1d10+13,Fire)];Cast4[DealDamage(1d10+13,Fire)]"
+data "TooltipDamageList" "DealDamage(1d10+13,Fire);DealDamage(1d10+13,Fire);DealDamage(1d10+13,Fire);DealDamage(1d10+13,Fire)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+
+new entry "Target_Slam_SummonElemental_Water"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_Elemental_Water"
+data "SpellSuccess" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Cold)"
+data "TooltipDamageList" "DealDamage(1d10+UnarmedMeleeAbilityModifier,Cold)"
+data "TooltipStatusApply" ""
+data "DamageType" "Cold"
+
+new entry "Target_Slam_SummonElemental_Water_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Water"
+data "SpellSuccess" "DealDamage(1d10+9,Cold)"
+data "TooltipDamageList" "DealDamage(1d10+9,Cold)"
+
+new entry "Target_Slam_SummonElemental_Water_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Water"
+data "SpellSuccess" "DealDamage(1d10+10,Cold)"
+data "TooltipDamageList" "DealDamage(1d10+10,Cold)"
+
+new entry "Target_Slam_SummonElemental_Water_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Water"
+data "SpellSuccess" "DealDamage(1d10+11,Cold)"
+data "TooltipDamageList" "DealDamage(1d10+11,Cold)"
+
+new entry "Target_Slam_SummonElemental_Water_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Water"
+data "SpellSuccess" "DealDamage(1d10+12,Cold)"
+data "TooltipDamageList" "DealDamage(1d10+12,Cold)"
+
+new entry "Target_Slam_SummonElemental_Water_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slam_SummonElemental_Water"
+data "SpellSuccess" "DealDamage(1d10+13,Cold)"
+data "TooltipDamageList" "DealDamage(1d10+13,Cold)"
+
+new entry "Target_Multiattack_SummonElemental_Water"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_Elemental_Water"
+data "SpellSuccess" "DealDamage(1d10+8,Cold);Cast2[DealDamage(1d10+8,Cold)]"
+data "ExtraDescription" ""
+data "TooltipDamageList" "DealDamage(1d10+8,Cold);DealDamage(1d10+8,Cold)"
+data "DamageType" "Cold"
+
+new entry "Target_Multiattack_SummonElemental_Water_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Water"
+data "SpellSuccess" "DealDamage(1d10+9,Cold);Cast2[DealDamage(1d10+9,Cold)]"
+data "TooltipDamageList" "DealDamage(1d10+9,Cold);DealDamage(1d10+9,Cold)"
+
+new entry "Target_Multiattack_SummonElemental_Water_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Water"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+10,Cold);Cast2[DealDamage(1d10+10,Cold)];Cast3[DealDamage(1d10+10,Cold)]"
+data "TooltipDamageList" "DealDamage(1d10+10,Cold);DealDamage(1d10+10,Cold);DealDamage(1d10+10,Cold)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Water_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Water"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+11,Cold);Cast2[DealDamage(1d10+11,Cold)];Cast3[DealDamage(1d10+11,Cold)]"
+data "TooltipDamageList" "DealDamage(1d10+11,Cold);DealDamage(1d10+11,Cold);DealDamage(1d10+11,Cold)"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Water_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Water"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+12,Cold);Cast2[DealDamage(1d10+12,Cold)];Cast3[DealDamage(1d10+12,Cold)];Cast4[DealDamage(1d10+12,Cold)]"
+data "TooltipDamageList" "DealDamage(1d10+12,Cold);DealDamage(1d10+12,Cold);DealDamage(1d10+12,Cold);DealDamage(1d10+12,Cold)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
+data "AlternativeCastTextEvents" "Cast2;Cast3"
+
+new entry "Target_Multiattack_SummonElemental_Water_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Multiattack_SummonElemental_Water"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack)];Cast3[Attack(AttackType.MeleeUnarmedAttack)];Cast4[Attack(AttackType.MeleeUnarmedAttack)]"
+data "SpellSuccess" "DealDamage(1d10+13,Cold);Cast2[DealDamage(1d10+13,Cold)];Cast3[DealDamage(1d10+13,Cold)];Cast4[DealDamage(1d10+13,Cold)]"
+data "TooltipDamageList" "DealDamage(1d10+13,Cold);DealDamage(1d10+13,Cold);DealDamage(1d10+13,Cold);DealDamage(1d10+13,Cold)"
+data "AlternativeCastTextEvents" "Cast2;Cast3;Cast4"
 
 new entry "Target_SummonElemental"
 type "SpellData"
@@ -405,7 +649,7 @@ data "CastTextEvent" "Cast"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:4"
 data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,"
 data "VerbalIntent" "Summon"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration;IsLinkedSpellContainer;CannotTargetCharacter;CannotTargetItems"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration;IsLinkedSpellContainer"
 data "MemoryCost" "1"
 data "PrepareEffect" "239d0263-eb26-4d7e-9683-4d7be6b6a1cf"
 data "CastEffect" "111a8b8c-b395-46d0-b2f0-a10ac6f9731f"
@@ -462,264 +706,296 @@ data "SpellType" "Target"
 using "Target_SummonElemental"
 data "SpellContainerID" "Target_SummonElemental"
 data "ContainerSpells" ""
-
-
-
-
-
-
-
-
-
-
 data "SpellProperties" "GROUND:Summon(50ac45ab-f4fd-45ab-96a6-77c448ef62df,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('50ac45ab-f4fd-45ab-96a6-77c448ef62df') and not Character() and not Self()"
-data "Icon" "Spell_New_SummonElemental_Air"
-data "DisplayName" "h90d987acgfc49gfafeg40ceg0c878cb4f76b;1"
-data "Description" "hda543c68g4da3g06d2g7a6fg0bf01603092d;1"
+data "Icon" "Spell_Conjuration_ConjureElemental_Air"
+data "DisplayName" "habc65748041a4329b25810653e36c6fb1d7b;1"
+data "Description" "hf36dba90f789491e87c71e6a1b7f382d8843;1"
 data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Air_L4to5"
 data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Air_L4to5"
 data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
 data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Air_L4to5"
 data "PreviewCursor" "Cast"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration"
 data "PrepareEffect" "8cd96174-585d-41b6-89ce-b4b309f2ecab"
 data "DamageType" "Lightning"
 
-new entry "Target_SummonElemental_Air"
+new entry "Target_SummonElemental_Air_5"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_SummonElemental"
-data "SpellContainerID" "Target_SummonElemental"
-data "SpellProperties" "GROUND:Summon(0d8cacda-37c6-11ee-be56-0242ac120002,600,,,,AIR_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
-data "TargetConditions" "CanStand('0d8cacda-37c6-11ee-be56-0242ac120002')"
-data "DisplayName" "h6a066dffgc6d3g41a1g821bg4a114ad47c02;1"
-data "Description" "hf4731a3dg6428g4168g9d2bga50849a8486d;1"
-data "Icon" "Spell_Conjuration_SummonElemental_Air"
-data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Air_L4to5"
-data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Air_L4to5"
-data "PrepareEffect" "8cd96174-585d-41b6-89ce-b4b309f2ecab"
+using "Target_SummonElemental_Air"
+data "SpellContainerID" "Target_SummonElemental_5"
+data "SpellProperties" "GROUND:Summon(d183173f-f4ad-4fbb-ab26-756a86c5902e,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('d183173f-f4ad-4fbb-ab26-756a86c5902e') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonElemental_Air"
+data "PowerLevel" "5"
 
+new entry "Target_SummonElemental_Air_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Air"
+data "SpellContainerID" "Target_SummonElemental_6"
+data "SpellProperties" "GROUND:Summon(d5dc424f-010a-4cb2-a38a-a0fa54ba332b,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('d5dc424f-010a-4cb2-a38a-a0fa54ba332b') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonElemental_Air"
+data "PowerLevel" "6"
 
+new entry "Target_SummonElemental_Air_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Air"
+data "SpellContainerID" "Target_SummonElemental_7"
+data "SpellProperties" "GROUND:Summon(b079895c-c89c-4f46-ab81-be19c4779826,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('d5dc424f-010a-4cb2-a38a-a0fa54ba332b') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonElemental_Air"
+data "PowerLevel" "7"
 
-new entry "Target_ConjureElemental_Elemental_Air"
-data "SpellProperties" "GROUND:Summon(284b9c7f-1e04-48b7-af41-9029d1fa753c, -1,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
-data "TargetConditions" "CanStand('284b9c7f-1e04-48b7-af41-9029d1fa753c') and not Character() and not Self()"
-data "Icon" "Spell_Conjuration_ConjureElemental_Air"
-// Conjure Elemental: Air Elemental
-data "DisplayName" "h5492f279g48bcg4389g875cg8f20255064b7;2"
-// The air elemental can use <LSTag Type="Spell" Tooltip="Shout_Whirlwind_Elemental_Air">Primordial Gales</LSTag>, <LSTag Type="Spell" Tooltip="Projectile_AirBlast_Elemental_Air">Gushing Air</LSTag>, and can <LSTag Type="Status" Tooltip="SHOCKED">Shock</LSTag> your foes.
-data "Description" "h0adad6dagc390g4460g926fga076481f4a17;7"
-data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Air_L4to5"
-data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Air_L4to5"
-data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
-data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Air_L4to5"
-data "PreviewCursor" "Cast"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell"
-data "PrepareEffect" "8cd96174-585d-41b6-89ce-b4b309f2ecab"
-data "DamageType" "Lightning"
+new entry "Target_SummonElemental_Air_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Air"
+data "SpellContainerID" "Target_SummonElemental_8"
+data "SpellProperties" "GROUND:Summon(19d1bb1f-3418-4f46-8127-a17c9a410d90,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('d5dc424f-010a-4cb2-a38a-a0fa54ba332b') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonElemental_Air"
+data "PowerLevel" "8"
 
-
-
-
-
-  <content contentuid="h90d987acgfc49gfafeg40ceg0c878cb4f76b" version="1">Summon Elemental: Air Elemental Spirit</content>
-  <content contentuid="hda543c68g4da3g06d2g7a6fg0bf01603092d" version="1">The air elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Air"&gt;Thunderous Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Air"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="hb579f73eg43c3gd0cfg4682gfbd486def817" version="1">Summon Elemental: Earth Elemental Spirit</content>
-  <content contentuid="ha3888c67g9538gf9f3g0590g43874cb49d79" version="1">The earth elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Earth"&gt;Soil-Clogged Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Earth"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="h5db4e078g4395g388bg2154gae0a9021b6e7" version="1">Summon Elemental: Fire Elemental Spirit</content>
-  <content contentuid="hac28ba4bg5462g8c98ge77ag670af4702b59" version="1">The fire elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Fire"&gt;Smouldering Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Fire"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="h0265a548g36e9g0621gd824g6384eb617b48" version="1">Summon Elemental: Water Elemental Spirit</content>
-  <content contentuid="h83da5f1dgee06g80f3gec9dg546762d8ca83" version="1">The water elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Water"&gt;Torrential Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Water"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="h04077ee2g9b03g6b5bgb96bgb19feed5d953" version="1">Air Elemental Spirit</content>
-  <content contentuid="he097891dga7f1g9ff3g1d48g0efbd0c6c876" version="1">Earth Elemental Spirit</content>
-  <content contentuid="hd2078729g711egc4f0gbb8eg1a3285f69938" version="1">Fire Elemental Spirit</content>
-  <content contentuid="h603eaed0gfc6dg1235g525dg145d41b86385" version="1">Water Elemental Spirit</content>
-  <content contentuid="hc94e00cagdab1gae54g6aa2gf56389f3e198" version="1">Earth Elemental Spirit</content>
-  <content contentuid="h463ecab9gec38g8f1dg18c3g27f5fbd8c05d" version="1">Earth Elemental Spirit</content>
-  <content contentuid="h1e581111ge55eg81ddg7324gaf41f086fa21" version="1">The air elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Air_6"&gt;Thunderous Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Air_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="hbab14b37g2ecdg99b6g9071g5781cadbde79" version="1">The earth elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Earth_6"&gt;Soil-Clogged Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Earth_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="h6a306693gfda6g4742gd233g8fc6e742f612" version="1">The fire elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Fire_6"&gt;Smouldering Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Fire_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
-  <content contentuid="h2790cd9ag022fg10fag6325ge5d8031997e1" version="1">The water elemental can use &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonElemental_Water_6"&gt;Torrential Slam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_SummonElemental_Water_6"&gt;Multiattack&lt;/LSTag&gt;.</content>
-
-
-  <content contentuid="h6a066dffgc6d3g41a1g821bg4a114ad47c02" version="1">Summon Elemental: Air</content>
-  <content contentuid="hf4731a3dg6428g4168g9d2bga50849a8486d" version="1">Call forth an elemental servant of air that fights alongside you.</content>
-  <content contentuid="h67a0e491gd8ebg49b6gb847g2eff1da1ca77" version="1">Slam</content>
-  <content contentuid="hae65b010g2117g429agb305g3d19d49853ab" version="1">Slam a foe with a blast of powerful wind.</content>
-  <content contentuid="h32c2b390ga38bg40e3g91a7g64aa4e682445" version="1">Summon Elemental: Earth</content>
-  <content contentuid="h8b00be39g5adfg4161g9682g13fe1648c8cc" version="1">Call forth an elemental servant of earth that fights alongside you.</content>
-  <content contentuid="h7f2aa376g6dfbg45dag92d0gcbd2880c36f1" version="1">Earth Glide</content>
-  <content contentuid="h7d161f73gd34dg4e8fg964dge7946cc44a66" version="1">The earth elemental can burrow through earth and stone.</content>
-  <content contentuid="a3741b86a7ca436d86ed8a2d0c67ad67" version="1">Punch a foe with a landslide's worth of force.</content>
-  <content contentuid="hc03c582dg69b8g4403ga396g94e22f1a5da5" version="1">Summon Elemental: Fire</content>
-  <content contentuid="hb2526a58gc9feg495fga811g16ff8f18b395" version="1">Call forth an elemental servant of fire that fights alongside you.</content>
-  <content contentuid="fd887f71871e4de4b489b619cc0a94e5" version="1">Touch a foe with a heat like the bright core of a furnace, searing them.</content>
-  <content contentuid="h0b6e1600g9d48g455agbdf6g6a5bb4b17f35" version="1">Summon Elemental: Water</content>
-  <content contentuid="he1481f94gc413g41bcgb88fg190d410e08c3" version="1">Call forth an elemental servant of water that fights alongside you.</content>
-  <content contentuid="12e18415a7f34ceb9b0b06fdf69b12a0" version="1">Slam into a foe with the power of a tsunami.</content>
-  <content contentuid="80f074d7ae7a4dc78265818ba8bcaaa2" version="1">Air Elemental</content>
-  <content contentuid="h949643b3g6293g4d93ga939gca18d095f102" version="1">This attack deals an additional amount of damage equal to the spell slot used to create the elemental.</content>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "Target_SummonElemental_Air_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Air"
+data "SpellContainerID" "Target_SummonElemental_9"
+data "SpellProperties" "GROUND:Summon(37700275-65e1-48f4-8903-57bc52c2413e,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('d5dc424f-010a-4cb2-a38a-a0fa54ba332b') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonElemental_Air"
+data "PowerLevel" "9"
 
 new entry "Target_SummonElemental_Earth"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonElemental"
 data "SpellContainerID" "Target_SummonElemental"
-data "SpellProperties" "GROUND:Summon(01d98a9e-ae92-475b-9381-fd952f4f4e8b, -1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(01d98a9e-ae92-475b-9381-fd952f4f4e8b,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('01d98a9e-ae92-475b-9381-fd952f4f4e8b') and not Character() and not Self()"
-data "Icon" "Spell_New_SummonElemental_Earth"
-data "DisplayName" "hb579f73eg43c3gd0cfg4682gfbd486def817;1"
-data "Description" "ha3888c67g9538gf9f3g0590g43874cb49d79;1"
+data "Icon" "Spell_Conjuration_ConjureElemental_Earth"
+data "DisplayName" "h9a217870ec0848dfaa5ac2fb31fa9f8c97a9;1"
+data "Description" "hbc18cd65a6a34fbf8de28d83b148a5dfc2a2;1"
 data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Earth_L4to5"
 data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Earth_L4to5"
 data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
 data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Earth_L4to5"
 data "PreviewCursor" "Cast"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration"
 data "PrepareEffect" "21b3181a-1369-47f1-87d9-0797c6864bf1"
-data "DamageType" "Thunder"
+data "DamageType" "Bludgeoning"
 
+new entry "Target_SummonElemental_Earth_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Earth"
+data "SpellContainerID" "Target_SummonElemental_5"
+data "SpellProperties" "GROUND:Summon(2e271c7d-c401-47dc-9e76-391a34bc6131,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('2e271c7d-c401-47dc-9e76-391a34bc6131') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonElemental_Earth"
+data "PowerLevel" "5"
 
+new entry "Target_SummonElemental_Earth_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Earth"
+data "SpellContainerID" "Target_SummonElemental_6"
+data "SpellProperties" "GROUND:Summon(4f03301f-7f94-4097-bb3e-80c7ae289ca7,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('4f03301f-7f94-4097-bb3e-80c7ae289ca7') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonElemental_Earth"
+data "PowerLevel" "6"
 
+new entry "Target_SummonElemental_Earth_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Earth"
+data "SpellContainerID" "Target_SummonElemental_7"
+data "SpellProperties" "GROUND:Summon(3bbc9625-a88a-4279-ac50-5dda71678565,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('4f03301f-7f94-4097-bb3e-80c7ae289ca7') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonElemental_Earth"
+data "PowerLevel" "7"
 
+new entry "Target_SummonElemental_Earth_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Earth"
+data "SpellContainerID" "Target_SummonElemental_8"
+data "SpellProperties" "GROUND:Summon(940253e0-f731-4613-baf8-afcf828b86e4,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('4f03301f-7f94-4097-bb3e-80c7ae289ca7') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonElemental_Earth"
+data "PowerLevel" "8"
+
+new entry "Target_SummonElemental_Earth_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Earth"
+data "SpellContainerID" "Target_SummonElemental_9"
+data "SpellProperties" "GROUND:Summon(caa5c1b1-2f47-48ca-b36a-7320d8db315e,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('4f03301f-7f94-4097-bb3e-80c7ae289ca7') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonElemental_Earth"
+data "PowerLevel" "9"
 
 new entry "Target_SummonElemental_Fire"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonElemental"
 data "SpellContainerID" "Target_SummonElemental"
-data "SpellProperties" "GROUND:Summon(87fb309b-c16a-48bd-b58a-3dea893eacc9, -1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(87fb309b-c16a-48bd-b58a-3dea893eacc9,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('87fb309b-c16a-48bd-b58a-3dea893eacc9') and not Character() and not Self()"
-data "Icon" "Spell_New_SummonElemental_Fire"
-data "DisplayName" "h5db4e078g4395g388bg2154gae0a9021b6e7;1"
-data "Description" "hac28ba4bg5462g8c98ge77ag670af4702b59;1"
+data "Icon" "Spell_Conjuration_ConjureElemental_Fire"
+data "DisplayName" "hec507a77cc784d6f82f5766cea1c51a0fg60;1"
+data "Description" "he624e64f1ec24175b705ac2a2bcf1c9b1bf2;1"
 data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Fire_L4to5"
 data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Fire_L4to5"
 data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
 data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Fire_L4to5"
 data "PreviewCursor" "Cast"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration"
 data "PrepareEffect" "46477378-b867-43c9-a000-2d166787a6ed"
 data "DamageType" "Fire"
 
+new entry "Target_SummonElemental_Fire_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Fire"
+data "SpellContainerID" "Target_SummonElemental_5"
+data "SpellProperties" "GROUND:Summon(2d17e536-e56a-4f7a-b7a8-2f3597fc0447,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('2d17e536-e56a-4f7a-b7a8-2f3597fc0447') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonElemental_Fire"
+data "PowerLevel" "5"
 
+new entry "Target_SummonElemental_Fire_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Fire"
+data "SpellContainerID" "Target_SummonElemental_6"
+data "SpellProperties" "GROUND:Summon(fca52e2a-ece9-48c5-9937-5789e218683d,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('fca52e2a-ece9-48c5-9937-5789e218683d') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonElemental_Fire"
+data "PowerLevel" "6"
 
+new entry "Target_SummonElemental_Fire_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Fire"
+data "SpellContainerID" "Target_SummonElemental_7"
+data "SpellProperties" "GROUND:Summon(9f2298f3-429a-4641-be19-36dac12755f4,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('fca52e2a-ece9-48c5-9937-5789e218683d') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonElemental_Fire"
+data "PowerLevel" "7"
 
+new entry "Target_SummonElemental_Fire_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Fire"
+data "SpellContainerID" "Target_SummonElemental_8"
+data "SpellProperties" "GROUND:Summon(e5149726-5bda-40ce-baa5-e29d5041e903,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('fca52e2a-ece9-48c5-9937-5789e218683d') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonElemental_Fire"
+data "PowerLevel" "8"
+
+new entry "Target_SummonElemental_Fire_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Fire"
+data "SpellContainerID" "Target_SummonElemental_9"
+data "SpellProperties" "GROUND:Summon(87eda58e-1429-4cc6-8ece-d753fe96bd17,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('fca52e2a-ece9-48c5-9937-5789e218683d') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonElemental_Fire"
+data "PowerLevel" "9"
 
 new entry "Target_SummonElemental_Water"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonElemental"
 data "SpellContainerID" "Target_SummonElemental"
-data "SpellProperties" "GROUND:Summon(c0d5f739-4681-4c5a-bb19-2d7c09737cab, -1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "ContainerSpells" ""
+data "SpellProperties" "GROUND:Summon(c0d5f739-4681-4c5a-bb19-2d7c09737cab,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
 data "TargetConditions" "CanStand('c0d5f739-4681-4c5a-bb19-2d7c09737cab') and not Character() and not Self()"
-data "Icon" "Spell_New_SummonElemental_Water"
-data "DisplayName" "h0265a548g36e9g0621gd824g6384eb617b48;1"
-data "Description" "h83da5f1dgee06g80f3gec9dg546762d8ca83;1"
+data "Icon" "Spell_Conjuration_ConjureElemental_Water"
+data "DisplayName" "hb4f4720d2f7842e3a9466fba6544b0c474dd;1"
+data "Description" "hfaf90a46a0704c8ab0355eee9a1f88c28g08;1"
 data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Water_L4to5"
 data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Water_L4to5"
 data "CastSound" "Spell_Cast_Summon_ConjureElemental_L4to5"
 data "TargetSound" "Spell_Impact_Summon_ConjureElemental_Water_L4to5"
 data "PreviewCursor" "Cast"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration"
 data "PrepareEffect" "811e7b54-cbe2-438d-8b82-6457939d0ecb"
 data "DamageType" "Cold"
 
-
-
-
-
-
-
-
-
-
-new entry "Target_SummonElemental_Earth"
+new entry "Target_SummonElemental_Water_5"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_SummonElemental"
-data "SpellContainerID" "Target_SummonElemental"
-data "SpellProperties" "GROUND:Summon(2d9d7a14-67f8-4ba4-a590-9435e66022b5,600,,,,EARTH_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
-data "TargetConditions" "CanStand('2d9d7a14-67f8-4ba4-a590-9435e66022b5')"
-data "DisplayName" "h32c2b390ga38bg40e3g91a7g64aa4e682445;1"
-data "Description" "h8b00be39g5adfg4161g9682g13fe1648c8cc;1"
-data "Icon" "Spell_Conjuration_SummonElemental_Earth"
-data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Earth_L4to5"
-data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Earth_L4to5"
-data "CastSound" "Action_Cast_Druid_ElementalWildShapeEarthMyrmidon"
-data "TargetSound" "Action_Impact_Druid_ElementalWildShapeEarthMyrmidon"
-data "PrepareEffect" "21b3181a-1369-47f1-87d9-0797c6864bf1"
+using "Target_SummonElemental_Water"
+data "SpellContainerID" "Target_SummonElemental_5"
+data "SpellProperties" "GROUND:Summon(5ad61393-a5d7-4875-853f-33a68ad97bfd,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('5ad61393-a5d7-4875-853f-33a68ad97bfd') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "RootSpellID" "Target_SummonElemental_Water"
+data "PowerLevel" "5"
 
-
-
-
-
-new entry "Target_SummonElemental_Fire"
+new entry "Target_SummonElemental_Water_6"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_SummonElemental"
-data "SpellContainerID" "Target_SummonElemental"
-data "SpellProperties" "GROUND:Summon(990b2e31-f2d3-45f1-a906-354fd1f22aa3,600,,,,FIRE_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
-data "TargetConditions" "CanStand('990b2e31-f2d3-45f1-a906-354fd1f22aa3')"
-data "DisplayName" "hc03c582dg69b8g4403ga396g94e22f1a5da5;1"
-data "Description" "hb2526a58gc9feg495fga811g16ff8f18b395;1"
-data "Icon" "Spell_Conjuration_SummonElemental_Fire"
-data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Fire_L4to5"
-data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Fire_L4to5"
-data "CastSound" "Action_Cast_Druid_ElementalWildShapeFireMyrmidon"
-data "TargetSound" "Action_Impact_Druid_ElementalWildShapeFireMyrmidon"
-data "PrepareEffect" "46477378-b867-43c9-a000-2d166787a6ed"
+using "Target_SummonElemental_Water"
+data "SpellContainerID" "Target_SummonElemental_6"
+data "SpellProperties" "GROUND:Summon(b563f4a6-0357-4f4c-ae97-1531bea70a79,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('b563f4a6-0357-4f4c-ae97-1531bea70a79') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_SummonElemental_Water"
+data "PowerLevel" "6"
 
-
-
-
-
-new entry "Target_SummonElemental_Water"
+new entry "Target_SummonElemental_Water_7"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_SummonElemental"
-data "SpellContainerID" "Target_SummonElemental"
-data "SpellProperties" "GROUND:Summon(570e02e6-01ee-4e81-8860-467e52ceb7d9,600,,,,WATER_ELEMENTAL,UNSUMMON_ABLE,SHARE_SUMMONER_INITIATIVE,SHADOWCURSE_SUMMON_CHECK)"
-data "TargetConditions" "CanStand('570e02e6-01ee-4e81-8860-467e52ceb7d9')"
-data "DisplayName" "h0b6e1600g9d48g455agbdf6g6a5bb4b17f35;1"
-data "Description" "he1481f94gc413g41bcgb88fg190d410e08c3;1"
-data "Icon" "Spell_Conjuration_SummonElemental_Water"
-data "PrepareSound" "Spell_Prepare_Summon_ConjureElemental_Water_L4to5"
-data "PrepareLoopSound" "Spell_Loop_Summon_ConjureElemental_Water_L4to5"
-data "CastSound" "Action_Cast_Druid_ElementalWildShapeWaterMyrmidon"
-data "TargetSound" "Action_Impact_Druid_ElementalWildShapeWaterMyrmidon"
-data "PrepareEffect" "811e7b54-cbe2-438d-8b82-6457939d0ecb"
+using "Target_SummonElemental_Water"
+data "SpellContainerID" "Target_SummonElemental_7"
+data "SpellProperties" "GROUND:Summon(ae019e7c-ff23-4174-a72c-d6f388d99514,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('b563f4a6-0357-4f4c-ae97-1531bea70a79') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_SummonElemental_Water"
+data "PowerLevel" "7"
 
+new entry "Target_SummonElemental_Water_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Water"
+data "SpellContainerID" "Target_SummonElemental_8"
+data "SpellProperties" "GROUND:Summon(5d3ee5b8-0891-46df-ae72-dd06d8566ed0,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('b563f4a6-0357-4f4c-ae97-1531bea70a79') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_SummonElemental_Water"
+data "PowerLevel" "8"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "Target_SummonElemental_Water_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonElemental_Water"
+data "SpellContainerID" "Target_SummonElemental_9"
+data "SpellProperties" "GROUND:Summon(c4fd6ea7-a287-4649-840a-fc81a9b0e075,-1,Projectile_AiHelper_Summon_Strong,,'SummonElementalStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('b563f4a6-0357-4f4c-ae97-1531bea70a79') and not Character() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_SummonElemental_Water"
+data "PowerLevel" "9"

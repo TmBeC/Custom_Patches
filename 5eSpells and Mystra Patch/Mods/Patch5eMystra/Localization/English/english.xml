@@ -463,7 +463,23 @@
   <content contentuid="hfeed65872b78471ea73403134342b7f56df7" version="1">%%% Heated Body VFX</content>
   <content contentuid="hb687de29ee1f45b2b036b50e2b93980ab3g0" version="1">Summon Elemental</content>
   <content contentuid="h0c5ea866f175456e8683223d584341209ee7" version="1">Call forth an elemental spirit of air, earth, fire or water that fights alongside you.</content>
-  <content contentuid="he4b3ee8ade2c47f5b269901da95fc760753g" version="1">Slam</content>
+  <content contentuid="he4b3ee8ade2c47f5b269901da95fc760753g" version="1">Thunderous Slam</content>
+  <content contentuid="he600912c27274452a3b358b4b6cf343fcd0a" version="1">Buffet a foe with deafening winds, extinguishing any active fire sources and leaving behind a thick cloud layer.</content>
+  <content contentuid="h3578a06dccc549eba4ce5987aa0d28628118" version="1">Descend on a creature to buffet it with multiple swipes.</content>
+  <content contentuid="h7e1a224ef49240c89e48854e2cd01a13cbe7" version="1">Air Elemental Spirit</content>
+  <content contentuid="h030ed4031c514c928330fcf4748fdee193f0" version="1">Earth Elemental Spirit</content>
+  <content contentuid="hdb7470249d4d444a969854ae503b5281c7a8" version="1">Fire Elemental Spirit</content>
+  <content contentuid="h335b819b8a2241ca9d019cbed53dab8db57f" version="1">Water Elemental Spirit</content>
+  <content contentuid="habc65748041a4329b25810653e36c6fb1d7b" version="1">Summon Elemental: Air Elemental Spirit</content>
+  <content contentuid="hf36dba90f789491e87c71e6a1b7f382d8843" version="1">Call forth an elemental servant of air that fights alongside you.</content>
+  <content contentuid="h9a217870ec0848dfaa5ac2fb31fa9f8c97a9" version="1">Summon Elemental: Earth Elemental Spirit</content>
+  <content contentuid="hbc18cd65a6a34fbf8de28d83b148a5dfc2a2" version="1">Call forth an elemental servant of earth that fights alongside you.</content>
+  <content contentuid="hec507a77cc784d6f82f5766cea1c51a0fg60" version="1">Summon Elemental: Fire Elemental Spirit</content>
+  <content contentuid="he624e64f1ec24175b705ac2a2bcf1c9b1bf2" version="1">Call forth an elemental servant of fire that fights alongside you.</content>
+  <content contentuid="hb4f4720d2f7842e3a9466fba6544b0c474dd" version="1">Summon Elemental: Water Elemental Spirit</content>
+  <content contentuid="hfaf90a46a0704c8ab0355eee9a1f88c28g08" version="1">Call forth an elemental servant of water that fights alongside you.</content>
+
+
 
 
 
