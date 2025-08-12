@@ -20,12 +20,12 @@
                     <attribute id="UUID" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="11d0c2a0-41c6-4ec0-98fe-5d987f7e1665"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="f351595c-90f7-4804-9e55-18c4d624593c"/>
                 </node>
@@ -129,12 +129,12 @@ Shout_AuraOf_Courage
     <attribute id="UUID" type="guid" value="02c495eb-c79a-445d-804c-628be82b586b"/>
 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Ancient Paladin SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Ancient Paladin SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="e119674f-37d0-49f5-8c6e-426f65a254bc"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Ancient Paladin SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Ancient Paladin SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="8c33c86e-e3e4-4ea2-838e-0823bef06061"/>
                 </node>
@@ -194,12 +194,12 @@ Wall_WallOfStone
     <attribute id="UUID" type="guid" value="99a16aaf-233b-4eb0-82cd-c4abfd2e389f"/>
 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Devotion Paladin SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Devotion Paladin SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="592ad940-48a6-4835-a147-84d0a237b9bf"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Devotion Paladin SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Devotion Paladin SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="70ee3e4a-536f-485d-882a-94de6fbf7c65"/>
                 </node>
@@ -257,12 +257,12 @@ Target_GreaterRestoration
     <attribute id="UUID" type="guid" value="49a63d5c-04a3-4f20-8da5-fa75136b0255"/>
 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Vengeance Paladin SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Vengeance Paladin SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="47d6a1a8-eacc-4355-ac2d-dac73ff01490"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Vengeance Paladin SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Vengeance Paladin SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="e8fce689-c836-45b3-9666-fb45d57ab1f9"/>
                 </node>
@@ -373,12 +373,12 @@ Target_SpiritualWeapon
     <attribute id="UUID" type="guid" value="dd7c1c98-73ab-4543-a17e-c19e680caaa4"/>
 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Oathbreaker Paladin SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Oathbreaker Paladin SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="243663d7-7662-49bc-83cc-f99284138761"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Oathbreaker Paladin SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Oathbreaker Paladin SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="5054ddf0-e093-4228-8c62-6ed98667c4f7"/>
                 </node>

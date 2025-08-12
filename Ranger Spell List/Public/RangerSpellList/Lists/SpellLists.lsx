@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="ModSpellListName"/>
+                    <attribute id="Spells" type="LSString" value="Spell1;Spell2"/>
+                    <attribute id="UUID" type="guid" value="Mod_Spell_List_UUID_Here"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

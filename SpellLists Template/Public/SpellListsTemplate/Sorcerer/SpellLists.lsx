@@ -40,17 +40,17 @@
                     <attribute id="UUID" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Sorcerer SLevel 7"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 7"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="9e38e5ae-51e8-4dd4-aad5-869a571b1519"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Sorcerer SLevel 8"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 8"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="5a8a002c-352b-44e9-8233-da7e6112f4b0"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Sorcerer SLevel 9"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 9"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="d58ac072-e079-410b-b167-a5e43723b59f"/>
                 </node>
@@ -72,15 +72,11 @@ Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Teleportati
 
 
 lvl 5
-Target_BigbyHand;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Shout_Enervation_Activate;Target_FarStep;
-Target_HoldMonster;Target_Immolation;Target_InsectPlague;Target_Seeming;Target_SkillEmpowerment;
-<<Synaptic Static>>
-Throw_Telekinesis;Teleportation_TeleportationCircle;Wall_WallOfStone
+Target_BigbyHand;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Shout_Enervation_Activate;Target_FarStep;Target_HoldMonster;Target_Immolation;Target_InsectPlague;Target_Seeming;Target_SkillEmpowerment;Target_SynapticStatic;Throw_Telekinesis;Teleportation_TeleportationCircle;Wall_WallOfStone
 
 
 lvl 6
-Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Shout_ElementalInvestiture;Target_FreezingSphere;Target_PsychicCrush;Zone_Sunbeam;
-<<True Seeing>>
+Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Shout_ElementalInvestiture;Target_FreezingSphere;Target_PsychicCrush;Zone_Sunbeam;Target_TrueSeeing
 
 
 lvl 7

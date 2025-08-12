@@ -561,17 +561,17 @@ Target_Dispel_Magic;
 
 
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Mystic Arcanum SLevel 7"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 7"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="388cd3b0-914a-44b6-a828-1315323b9fd7"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Mystic Arcanum SLevel 8"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 8"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="070495e1-ccf4-4c05-9add-61c5010b8204"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Mystic Arcanum SLevel 9"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 9"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="47766c27-e791-4e6e-9b3d-2bb379106e62"/>
                 </node>

@@ -333,16 +333,16 @@ Target_RaiseDead
 Target_SkillEmpowerment
 
 (Steel Wind Strike)
-
+Projectile_SteelWindStrike
 
 (Summon Dragon)
 Target_SummonDragon
 
 (Swift Quiver)
-
+Shout_SwiftQuiver
 
 (Synaptic Static)
-
+Target_SynapticStatic
 
 (Teleportation Circle)
 Teleportation_TeleportationCircle
@@ -365,10 +365,10 @@ Shout_PrimordialWard
 Target_PsychicCrush
 
 (Tenser's Transformation)
-
+Shout_TensersTransformation
 
 (True Seeing)
-
+Target_TrueSeeing
 
 
 // 7th Level Spells

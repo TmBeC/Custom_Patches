@@ -20,12 +20,12 @@
                     <attribute id="UUID" type="guid" value="9a60f649-7f82-4152-90b1-0499c5c9f3e2"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Ranger SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="7022d937-b2e4-4b6e-a3c5-e168f5c00194"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Ranger SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="412d77e1-4aa2-4149-aa0e-c835b8c79f32"/>
                 </node>
@@ -47,9 +47,7 @@ Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Targe
 
 
 lvl 5
-Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Target_GreaterRestoration;
-<<Steel Wind Strike>>
-<<Swift Quiver>>
+Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Target_GreaterRestoration;Projectile_SteelWindStrike;Shout_SwiftQuiver
 
 
 <!-- Base Game Passive not in 2024 -->
@@ -86,12 +84,12 @@ Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Target_GreaterRestoration
 	<attribute id="UUID" type="guid" value="7c18f54c-2675-4762-8921-d0b9f0b1b8f4"/>
 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Swarmkeeper Ranger SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Swarmkeeper Ranger SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="29ea2e11-b344-427a-9851-1526abc25aa8"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Swarmkeeper Ranger SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Swarmkeeper Ranger SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="2272e291-e68d-40d0-8560-f0a02ae56006"/>
                 </node>
@@ -131,12 +129,12 @@ Target_InsectPlague
 	<attribute id="UUID" type="guid" value="4a23c3c3-e6f7-48a4-a883-8ac2f6a2c97a"/>
 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Gloomstalker Ranger SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Gloomstalker Ranger SLevel 4"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="4cf1272a-9701-4d07-a4be-b381da8aa46b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Gloomstalker Ranger SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Gloomstalker Ranger SLevel 5"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="142e7213-f483-49a1-b946-59a44751678d"/>
                 </node>

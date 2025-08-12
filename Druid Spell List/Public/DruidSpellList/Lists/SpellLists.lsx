@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Guidance;Target_Infestation;Target_MagicStone;Target_Mending;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhipShout_Thunderclap"/>
+                    <attribute id="UUID" type="guid" value="b8faf12f-ca42-45c0-84f8-6951b526182a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 1 expanded"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Shout_DetectMagic;Shout_EarthTremor;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Target_Snare;Shout_SpeakWithAnimals;Zone_Thunderwave"/>
+                    <attribute id="UUID" type="guid" value="2cd54137-2fe5-4100-aad3-df64735a8145"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid spells level 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Barkskin;Target_ContinualFlame;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_SummonBeast;Shout_WardingWind"/>
+                    <attribute id="UUID" type="guid" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_EruptingEarth;Target_FeignDeath;Target_FlameArrows;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_Summon_Fey;Target_TidalWave;Target_WaterWalk"/>
+                    <attribute id="UUID" type="guid" value="3156daf5-9266-41d0-b52c-5bc559a98654"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_ElementalBane;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Target_SummonElemental;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="09c326c9-672c-4198-a4c0-6f07323bde27"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AntilifeShell;Shout_CommuneWithNature;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_Maelstrom;Target_PlanarBinding;Wall_WallOfStone"/>
+                    <attribute id="UUID" type="guid" value="ff711c12-b59f-4fde-b9ea-6e5c38ec8f23"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureFey;Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Shout_ElementalInvestiture;Shout_PrimordialWard;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk"/>
+                    <attribute id="UUID" type="guid" value="6a4e2167-55f3-4ba8-900f-14666b293e93"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ATT_FizbanTransform;Target_FireStorm;Target_Regenerate;Target_ATT_ReverseGravity;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
+                    <attribute id="UUID" type="guid" value="29c9cf78-3bd6-47dc-88b4-2dce54710124"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_ATT_AnimalShapes;Target_Feeblemind;Target_ATT_IncendiaryCloud;Target_Sunburst"/>
+                    <attribute id="UUID" type="guid" value="bdff0cba-d631-4b83-9562-63c0187df380"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Foresight;Shout_ATT_Shapechange_Container;Shout_ATT_StormOfVengeance;Teleportation_ATT_MOD_TrueResurrection"/>
+                    <attribute id="UUID" type="guid" value="9e388f0f-7432-4f29-bfe5-5358ebde4491"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid Cantrips NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="eb3f75bc-3769-4415-8a16-7851409ead62"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 1 expanded NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="ae9bdc9e-9ae9-4583-a970-8aca3cdcf45d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid spells level 2 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="588c4234-2b09-4b29-a637-48f67d4fc4de"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 3 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="cd25cb01-8a27-47ff-9e7e-a1244b3e82f8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 4 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="9e2ae0b1-ea95-4aef-8830-b890352f472b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 5 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="dacea510-ae75-459e-8572-93ac8b47ba93"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 6 NEW"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="0161084e-da85-41f6-8f23-ebca1caed474"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid Cantrips"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="7e6dd8e0-a7a9-4907-8167-6c15d02e4265"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 1 expanded"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="49580223-016f-4da6-8a6c-9f2761e8ee7e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid spells level 2"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="bd4881f4-14ef-4a83-8be2-b1945f49ac91"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="227c584f-ddca-4a2c-87e5-a77688539789"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="96c45fa5-d371-4d9b-b766-9ac33522df6b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="3465cab2-9453-4733-a1d4-c408f858fbc2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="ab896a32-a35a-42fb-9fe8-ca2acbc7af76"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="b9940219-5efb-4801-b64e-3888567deef0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="f45ca17d-4060-4ad9-89b2-56d00f4af197"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5eSpells Druid SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="c2c27eaa-a992-488b-881b-057a5a2233c1"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Druid7thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="bf02f548-2eed-49c2-b5a6-0233af867863"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Druid8thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="1dcc76b7-1f3c-45b1-8c97-2f8df852ce86"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="AddTo_Druid9thOther"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="6f047fde-9b4e-4cea-9db0-04ec10dc27a0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
