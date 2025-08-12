@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid Cantrips"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Guidance;Target_Infestation;Target_MagicStone;Target_Mending;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhipShout_Thunderclap"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Guidance;Target_Infestation;Target_MagicStone;Target_Mending;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="b8faf12f-ca42-45c0-84f8-6951b526182a"/>
                 </node>
                 <node id="SpellList">
