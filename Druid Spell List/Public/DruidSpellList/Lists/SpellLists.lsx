@@ -36,7 +36,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_ConjureFey;Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Shout_ElementalInvestiture;Shout_PrimordialWard;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureFey;Shout_ElementalInvestiture;Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Shout_PrimordialWard;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk"/>
                     <attribute id="UUID" type="guid" value="6a4e2167-55f3-4ba8-900f-14666b293e93"/>
                 </node>
                 <node id="SpellList">
