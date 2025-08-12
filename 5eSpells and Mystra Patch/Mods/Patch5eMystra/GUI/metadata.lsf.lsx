@@ -7,6 +7,16 @@
 				<node id="entries">
 					<children>
 						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_HolyWeapon_Burst.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_Monster_ElementalAir_Slam.png" />
 							<children>
 								<node id="entries">
@@ -58,6 +68,16 @@
 						</node>
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Abjuration_Snare.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Conjuration_FarStep.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="144" />
@@ -247,6 +267,46 @@
 							</children>
 						</node>
 						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_GreenFlameBlade.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_HolyWeapon.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_Maelstrom.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_MinuteMeteors.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_SnillocsSnowballSwarm.png" />
 							<children>
 								<node id="entries">
@@ -258,6 +318,16 @@
 						</node>
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_StormSphere.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_VitriolicSphere.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="144" />
@@ -328,26 +398,6 @@
 						</node>
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Transmutation_ZephyrStrike.png" />
-							<children>
-								<node id="entries">
-									<attribute id="h" type="int16" value="144" />
-									<attribute id="mipcount" type="int8" value="1" />
-									<attribute id="w" type="int16" value="144" />
-								</node>
-							</children>
-						</node>
-						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_GreenFlameBlade.png" />
-							<children>
-								<node id="entries">
-									<attribute id="h" type="int16" value="144" />
-									<attribute id="mipcount" type="int8" value="1" />
-									<attribute id="w" type="int16" value="144" />
-								</node>
-							</children>
-						</node>
-						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Spell_Evocation_MinuteMeteors.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="144" />
@@ -473,6 +523,16 @@
 									<attribute id="h" type="int16" value="144" />
 									<attribute id="mipcount" type="int8" value="1" />
 									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Action_HolyWeapon_Burst.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
 								</node>
 							</children>
 						</node>

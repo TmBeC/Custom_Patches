@@ -277,7 +277,7 @@ Target_SummonElemental
 Target_SummonGreaterDemon
 
 (Vitriolic Sphere)
-
+Projectile_VitriolicSphere
 
 
 // 5th Level Spells
@@ -306,10 +306,10 @@ Target_DreamSleep
 Shout_Enervation_Activate
 
 (Far Step)
-
+Target_FarStep
 
 (Holy Weapon)
-
+Target_HolyWeapon
 
 (Immolation)
 Target_Immolation
@@ -318,13 +318,13 @@ Target_Immolation
 Target_InfernalCalling
 
 (Maelstrom)
-
+Target_Maelstrom
 
 (Mislead)
 Target_Mislead
 
 (Negative Energy Flood)
-
+Projectile_NegativeEnergyFlood
 
 (Raise Dead)
 Target_RaiseDead

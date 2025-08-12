@@ -1,57 +1,93 @@
+new entry "Target_Maelstrom"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+data "SpellSchool" "Evocation"
+data "SpellProperties" "GROUND:SurfaceChange(Douse);GROUND:CreateSurface(9,10,Deepwater,true);GROUND:Summon(49cb4cda-ec8c-47d2-bb51-fef980da6a70,10,,,,MAELSTROM_AURA)"
+data "TargetRadius" "18"
+data "AreaRadius" "9"
+data "Icon" "Spell_Evocation_Maelstrom"
+data "DisplayName" "h83048673023247a298d7af2fa293b217eg25;1"
+data "Description" "h54b6377900874b599a59d1a7a9118d0c18e3;1"
+data "DescriptionParams" "Distance(1.5);Distance(9);Distance(3)"
+data "TooltipDamageList" "DealDamage(6d6,Bludgeoning)"
+data "TooltipAttackSave" "Strength"
+data "TooltipStatusApply" "ApplyStatus(MAELSTROM_AURA,100,10)"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "PrepareSound" "Spell_Prepare_Control_Gen_L1to3_01"
+data "PrepareLoopSound" "Spell_Prepare_Control_Gen_L1to3_01_Loop"
+data "CastSound" "Spell_Cast_Utility_CreateWater_L1to3"
+data "TargetSound" "Spell_Impact_Utility_CreateWater_L1to3"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500,,;10caea0e-c949-4d91-8ab7-3b50019dd054,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "HasSomaticComponent;HasVerbalComponent;IsConcentration;CannotTargetCharacter;CannotTargetItems;IsSpell;IsHarmful"
+data "MemoryCost" "1"
+data "PrepareEffect" "811e7b54-cbe2-438d-8b82-6457939d0ecb"
+data "CastEffect" "06fda61b-8867-4f68-aee4-c1536bd11e78"
+data "PositionEffect" "2c9ae2d5-5b85-458e-92fe-f311dae7f174"
+data "DamageType" "Bludgeoning"
 
+new entry "Target_Maelstrom_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Maelstrom"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "Target_Maelstrom"
+data "PowerLevel" "6"
 
+new entry "Target_Maelstrom_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Maelstrom"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_Maelstrom"
+data "PowerLevel" "7"
 
+new entry "Target_Maelstrom_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Maelstrom"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_Maelstrom"
+data "PowerLevel" "8"
 
+new entry "Target_Maelstrom_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Maelstrom"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_Maelstrom"
+data "PowerLevel" "9"
 
+new entry "MAELSTROM_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha78ee1c08dd44f16a560fafdd7adb427473e;1"
+data "Icon" "Spell_Evocation_Maelstrom"
+data "SoundLoop" "Spell_Status_CloudOfDaggers_ST"
+data "StackId" "MAELSTROM_AURA"
+data "AuraRadius" "9"
+data "AuraStatuses" "TARGET:IF(Character() and not Dead() and not (HasPassive('SculptSpells',GetSummoner(context.Source)) and Ally())):ApplyStatus(MAELSTROM_EFFECT)"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
+data "StatusEffect" "d0c7d5a1-33c2-4527-bd0c-166a5fdf2486"
+data "SurfaceChange" "Douse"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "MAELSTROM_EFFECT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h10a17ce583ad4946be6794cb0af3ead9c975;1"
+data "Description" "hdf8ca7bc5db6467ea149c1362f51c70d67a3;1"
+data "Icon" "Spell_Evocation_Maelstrom"
+data "StackId" "MAELSTROM_EFFECT"
+data "SurfaceChange" "Douse"
+data "TickType" "StartTurn"
+data "TooltipSave" "Strength"
+data "TooltipDamage" "DealDamage(6d6,Bludgeoning)"
+data "OnTickRoll" "not SavingThrow(Ability.Strength, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnTickSuccess" "DealDamage(6d6,Bludgeoning,Magical);Force(-3)"
+data "StatusEffectOnTurn" "582b6023-0295-4227-bf46-89755e238183"

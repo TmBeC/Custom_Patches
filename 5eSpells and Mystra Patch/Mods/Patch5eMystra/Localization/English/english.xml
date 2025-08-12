@@ -478,8 +478,26 @@
   <content contentuid="he624e64f1ec24175b705ac2a2bcf1c9b1bf2" version="1">Call forth an elemental servant of fire that fights alongside you.</content>
   <content contentuid="hb4f4720d2f7842e3a9466fba6544b0c474dd" version="1">Summon Elemental: Water Elemental Spirit</content>
   <content contentuid="hfaf90a46a0704c8ab0355eee9a1f88c28g08" version="1">Call forth an elemental servant of water that fights alongside you.</content>
-
-
+  <content contentuid="h80e46b8ed04f4ac0b3b6d141d934b8068a56" version="1">Vitriolic Sphere</content>
+  <content contentuid="h4adff515e6ca4b018595cc4c2a16e8cdg674" version="1">Shoot a glowing ball of green acid that explodes in a [1] radius, covering the ground with acid. Deals [2] immediately and [3] at the end of the target's turn.</content>
+  <content contentuid="h2b156f1440754203a75b90607716f6ac51gb" version="1">Vitriolic Sphere</content>
+  <content contentuid="hb39c26232ba24c51bc408aa278fea1ff2dfd" version="1">Takes [1] at the end of the turn.</content>
+  <content contentuid="haf0cee26f8824ab395852c903f423549g94b" version="1">Far Step</content>
+  <content contentuid="h80187f38c5584181ac729e05c757cff57100" version="1">Teleport to an unoccupied space you can see. Until the spell ends, you can teleport in this way again as a bonus action on your turns.</content>
+  <content contentuid="hdb9d0e1009ed473eb4aa90fadf451fe3b3cc" version="1">Far Step</content>
+  <content contentuid="he2603896a70a419880ab619de9c63cd4ec7d" version="1">Holy Weapon</content>
+  <content contentuid="h02c14b5cd6264614a48fcc4c9e32fe2318ab" version="1">Imbue a weapon with holy power. It becomes a magical weapon, emits light in a [1] radius, and deals an extra [2].</content>
+  <content contentuid="h0cc34b702e8a434e897ae93362e11b19cea4" version="1">As a bonus action, you can cause the weapon to emit a burst of radiance, dealing [1] to creatures within [2] of you and possibly causing them to be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="ha135cfd384f04d2082a24f8f4f6f6e4f14e1" version="1">Holy Weapon</content>
+  <content contentuid="had304a6ee58d433db8ca933d2a00f9fcea56" version="1">Weapon has become magical and deals an additional [1].</content>
+  <content contentuid="h9189e283770845bb8db5e413d58608c6gd86" version="1">Burst of Radiance</content>
+  <content contentuid="h53caece39d004e19a189550f3bcd726b6c7g" version="1">Emit a burst of radiance from the weapon, possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; creatures.</content>
+  <content contentuid="h3b2660b8aadf47e8942516e03dee022093ag" version="1">This action ends the &lt;LSTag Type="Spell" Tooltip="Target_HolyWeapon"&gt;Holy Weapon&lt;/LSTag&gt; spell.</content>
+  <content contentuid="h83048673023247a298d7af2fa293b217eg25" version="1">Maelstrom</content>
+	<content contentuid="h54b6377900874b599a59d1a7a9118d0c18e3" version="1">A swirling mass of [1]-deep water appears in a [2] radius centered on a point you can see within range. Until the spell ends, that area is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, and any creature that starts its turn there must succeed on a Strength saving throw or take damage and be pulled [3] toward the center.</content>
+  <content contentuid="ha78ee1c08dd44f16a560fafdd7adb427473e" version="1">Maelstrom Aura</content>
+  <content contentuid="h10a17ce583ad4946be6794cb0af3ead9c975" version="1">Maelstrom</content>
+  <content contentuid="hdf8ca7bc5db6467ea149c1362f51c70d67a3" version="1">This entity is caught in the maelstrom, taking damage and being pulled toward the center at the start of its turn.</content>
 
 
 

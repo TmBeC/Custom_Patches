@@ -49,9 +49,7 @@ Shout_AuraOfLife;Shout_AuraOfPurity;Target_Banishment;Target_DeathWard;Target_St
 
 
 lvl 5
-Target_Smite_Banishing;Shout_CircleOfPower;Shout_DestructiveWave;Shout_DispelEvilAndGood;Target_GreaterRestoration;
-<<Holy Weapon>>
-Target_RaiseDead;
+Target_Smite_Banishing;Shout_CircleOfPower;Shout_DestructiveWave;Shout_DispelEvilAndGood;Target_GreaterRestoration;Target_HolyWeapon;Target_RaiseDead;
 <<Summon Celestial>>
 
 

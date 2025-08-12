@@ -77,9 +77,7 @@ Shout_AuraOfLife;Shout_AuraOfPurity;Target_Banishment;Target_DeathWard;Target_Fr
 
 
 lvl 5
-Shout_CircleOfPower;Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;
-<<Holy Weapon>>
-Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Target_RaiseDead
+Shout_CircleOfPower;Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_HolyWeapon;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Target_RaiseDead
 
 
 lvl 6
