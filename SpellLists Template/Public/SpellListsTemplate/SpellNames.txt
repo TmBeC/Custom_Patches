@@ -303,7 +303,7 @@ Target_DanseMacabre_Container
 Target_DreamSleep
 
 (Enervation)
-Shout_Enervation_Activate
+Projectile_Enervation
 
 (Far Step)
 Target_FarStep
