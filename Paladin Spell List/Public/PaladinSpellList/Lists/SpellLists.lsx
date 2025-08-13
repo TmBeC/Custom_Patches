@@ -11,7 +11,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding;Warding_Bond;Target_ZoneofTruth"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding;Target_WardingBond;Target_ZoneofTruth"/>
                     <attribute id="UUID" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59"/>
                 </node>
                 <node id="SpellList">
