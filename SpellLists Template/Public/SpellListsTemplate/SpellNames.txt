@@ -347,7 +347,7 @@ Target_SynapticStatic
 (Teleportation Circle)
 Teleportation_TeleportationCircle
 
-(Temporal Shunt)
+(Temporal Shunt) - Chronurgy wizards only
 Target_AstralDisjunction
 
 
