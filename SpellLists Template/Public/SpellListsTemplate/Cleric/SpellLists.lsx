@@ -5,6 +5,73 @@
         <node id="root">
             <children>
 
+
+
+Cantrips
+-(remove) blade ward
+-(remove) produce flame
+-spare the dying - base game
+-word of radiance - mod
+-hand of radiance - mod
+
+Slevel 1
+-detect evil and good - mod
+-detect magic - mod
+-ceremony - mod
+
+Slevel 2
+-blindness/deafness - mod (remove blindness)
+-continual flame - mod
+-zone of truth - mod
+-borrowed knowledge - mod
+
+Slevel 3
+-aura of vitality - basegame (rename)
+-create food and water - mod
+-magic circle - mod
+-water walk - mod
+-incite greed - mod
+-life transference - mod
+-motivational speech - mod
+-spirit shroud - mod
+
+Slevel 4
+-aura of life - mod
+-aura of purity - mod
+-control water - mod?
+-stone shape - mod?
+
+Slevel 5
+-circle of power - mod
+-raise dead - mod
+-holy weapon - mod
+
+Slevel 6
+-sunbeam - base game
+-true seeing - mod
+
+Slevel 7
+-divine word - mod
+-etherealness - mod
+-fire storm - mod
+-power word fortify - mod
+-regenerate - mod
+-symbol - mod
+
+Slevel 8
+-antimagic field - mod
+-holy aura - mod
+-sunburst - mod
+
+Slevel 9
+-gate - mod
+-mass heal - mod
+-power word heal - mod
+-true resurrection - mod
+
+
+
+
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Cleric channel divinity"/>
                     <attribute id="Spells" type="LSString" value=""/>

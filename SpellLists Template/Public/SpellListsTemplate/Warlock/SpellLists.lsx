@@ -4,6 +4,107 @@
     <region id="SpellLists">
         <node id="root">
             <children>
+
+
+
+
+Cantrips
+-mind sliver - mod
+-prestidigitation - mod
+-thunderclap - mod
+-frostbite - mod
+-green-flame blade - mod
+-infestation - mod
+-lightning lure - mod
+-magic stone - mod
+-sword burst - mod
+
+Slevel 1
+-bane - base game
+-detect magic - mod
+-speak with animals - base game
+-tashas hideous laughter - base game
+-unseen servant - mod
+-cause fear - mod
+-id insinuation - mod
+
+Slevel 2
+-mind spike - mod
+-(remove) shatter - base game
+-borrowed knowledge - mod
+-earthbind - mod?
+-flock of familiars - mod
+-mental barrier - mod
+
+Slevel 3
+-magic circle - mod
+-summon fey - mod
+-antagonize - mod
+-enemies abound - mod
+-incite greed - mod
+-intellect fortress - mod
+-psionic blast - mod
+-spirit shroud - mod
+-summon lesser demons - mod
+-summon shadowspawn - mod
+-thunder step - mod
+
+Slevel 4
+-charm monster - mod
+-summon aberration - mod
+-ego whip - mod
+-elemental bane - mod
+-raulothims psychic lance - mod
+-shadow of moil - mod
+-summon greater demon - mod
+
+Slevel 5
+-dream - mod
+-mislead - mod
+-planar binding - base game
+-synaptic static - mod
+-teleportation circle - mod
+-danse macabre - mod
+-enervation - mod
+-far step - mod
+-infernal calling - mod
+-negative energy flood - mod
+
+Slevel 6
+-arcane gate - base game
+-circle of death - base game
+-create undead - base game
+-eyebite - base game
+-summon fiend - mod
+-true seeing - mod
+-elemental investiture - mod
+-psychic crush - mod
+
+Slevel 7
+-etherealness - mod
+-finger of death - mod
+-crown of stars - mod
+-power word pain - mod
+
+Slevel 8
+-befuddlement - mod
+-dominate monster - mod
+-glibness - mod
+-power word stun - mod
+-maddening darkness - mod
+
+Slevel 9
+-foresight - mod
+-gate - mod
+-power word kill - base game
+-weird - mod
+-blade of disaster - mod
+-psychic scream - mod
+
+
+
+
+
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
                     <attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma) 5R"/>

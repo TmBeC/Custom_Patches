@@ -5,6 +5,91 @@
         <node id="root">
             <children>
 
+Cantrips
+-Prestidigitation - mod
+-Thunderclap - mod
+
+Slevel 1
+-detect magic - mod
+-unseen servant - mod
+-earth tremor - mod
+-silvery barbs - mod
+-sudden awakening - mod
+
+Slevel 2
+-zone of truth - mod
+-borrowed knowledge - mod
+-kinetic jaunt - mod
+-nathairs mischief - mod
+-pyrotechnics - mod
+-warding wind - mod
+
+Slevel 3
+-nondetection - mod
+-antagonize - mod
+-catnap - mod
+-enemies abound - mod
+-intellect fortress - mod
+-motivational speech - mod
+
+Slevel 4
+-charm monster - mod
+-ego whip - mod
+-raulothims psychic lance - mod
+
+Slevel 5
+-dream - mod
+-mislead - mod
+-raise dead - mod
+-synaptic static - mod
+-teleportation circle - mod
+-skill empowerment - mod
+
+Slevel 6
+-true seeing - mod
+
+Slevel 7
+-etherealness - mod
+-power word fortify - mod
+-prismatic spray - mod
+-regenerate - mod
+-symbol - mod
+
+Slevel 8
+-befuddlement - mod
+-dominate monster - mod
+-glibness - mod
+-mind blank - mod
+-power word stun - mod
+
+Slevel 9
+-foresight - mod
+-power word heal - mod
+-prismatic wall - mod
+-mass polymorph - mod
+-psychic scream - mod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Bard Magical Secrets 10"/>

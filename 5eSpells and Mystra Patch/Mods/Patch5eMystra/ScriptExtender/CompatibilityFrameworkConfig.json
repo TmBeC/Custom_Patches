@@ -1,0 +1,62 @@
+{
+  "FileVersion": 1,
+  "Lists": [
+    {
+      "Action": "Remove",
+      "UUID": "3cae2e56-9871-4cef-bba6-96845ea765fa",
+      "Type": "SpellList",
+      "Items": ["Target_BoomingBladeMove", "Target_CreateBonfire", "Target_Gust", "Projectile_Infestation", "Projectile_LarlochsMinorDrain", "Target_CreateDestroyMoldEarth",  "Target_ShapeWater_Container", "Target_BoomingBlade_5e", "Target_ControlFlames", "Target_CreateBonfire", "Target_Gust", "Target_MindSliver", "Target_MoldEarth", "Target_ShapeWater"]
+    },
+    {
+      "Action": "Remove",
+      "UUID": "11f331b0-e8b7-473b-9d1f-19e8e4178d7d",
+      "Type": "SpellList",
+      "Items": ["Shout_AbsorbElementsSpell", "Zone_AcidStream", "Target_GiftOfAlacrity", "Shout_MagicMissile_Jim", "Target_MagnifyGravity", "Zone_TashasCausticBrew"]
+    },
+    {
+      "Action": "Remove",
+      "UUID": "80c6b070-c3a6-4864-84ca-e78626784eb4",
+      "Type": "SpellList",
+      "Items": ["Zone_AganazzarScorcher", "Shout_BeastAspect", "Shout_DustDevil", "Target_Earthbind", "Target_ForceWeapon", "Target_HealingElixir", "Projectile_GlowingCoin_Jim", "Shout_ShadowBlade_Spell", "Target_SnowballStorm", "Zone_SprayOfCards", "Shout_SummonMoonblade_Container", "Target_DustDevil", "Target_MaximiliansEarthenGrasp", "Target_TashasMindWhip", "Target_SnillocsSnowballStorm", "Target_WitherAndBloom", "Shout_AbsorbElementsSpell", "Zone_AcidStream", "Target_GiftOfAlacrity", "Shout_MagicMissile_Jim", "Target_MagnifyGravity", "Zone_TashasCausticBrew"]
+    },
+    {
+      "Action": "Remove",
+      "UUID": "22755771-ca11-49f4-b772-13d8b8fecd93",
+      "Type": "SpellList",
+      "Items": ["Shout_InciteGreed", "Shout_MelfsMinuteMeteors", "Zone_PulseWave", "Target_SummonFey_Container", "Projectile_MinuteMeteors", "Zone_AganazzarScorcher", "Shout_BeastAspect", "Shout_DustDevil", "Target_Earthbind", "Target_ForceWeapon", "Target_HealingElixir", "Projectile_GlowingCoin_Jim", "Shout_ShadowBlade_Spell", "Target_SnowballStorm", "Zone_SprayOfCards", "Shout_SummonMoonblade_Container", "Target_DustDevil", "Target_MaximiliansEarthenGrasp", "Target_TashasMindWhip", "Target_SnillocsSnowballStorm", "Target_WitherAndBloom", "Shout_AbsorbElementsSpell", "Zone_AcidStream", "Target_GiftOfAlacrity", "Shout_MagicMissile_Jim", "Target_MagnifyGravity", "Zone_TashasCausticBrew"]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

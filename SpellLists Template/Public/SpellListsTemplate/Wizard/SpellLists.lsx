@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<save>
-    <version major="4" minor="8" revision="0" build="200"/>
-    <region id="SpellLists">
-        <node id="root">
-            <children>
+
+
 
 
 
@@ -16,44 +12,49 @@ Cantrips
 -green-flame blade - mod
 -infestation - mod
 -lightning lure - mod
+-sapping sting - mod
 -sword burst - mod
 
 Slevel 1
 -detect magic - mod
--grease - base game
+-unseen servant - mod
 -absorb elements - mod
 -catapult - mod
--chaos bolt - mod (maybe add?)
+-cause fear - mod
 -earth tremor - mod
+-frost fingers - mod
 -id insinuation - mod
 -silvery barbs - mod
+-snare - mod
 -sudden awakening - mod
 -tashas caustic brew - mod
 
 Slevel 2
 -alter self - mod
 -blindness/deafness - mod (remove blindness)
+-continual flame - mod
 -dragons breath - mod
--flame blade - base game
--flaming sphere - base game
--magic weapon - base game
+-enhance ability - base game
 -mind spike - mod
 -aganazzars scorcher - mod
+-borrowed knowledge - mod
 -earthbind - mod?
+-flock of familiars - mod
 -kinetic jaunt - mod
 -maximillians earthen grasp - mod
 -mental barrier - mod
 -nathairs mischief - mod
 -pyrotechnics - mod
 -rimes binding ice - mod
--snillocs snowball swarm - mod
+-snillocs snowball storm - mod
 -tashas mind whip - mod
 -vortex warp - mod
--warding wind - mod
 
 Slevel 3
--vampiric touch - base game
--water walk - mod
+-magic circle - mod
+-nondetection - mod
+-speak with dead - base game
+-summon fey - mod
 -antagonize - mod
 -ashardalons stride - mod
 -catnap - mod
@@ -62,89 +63,97 @@ Slevel 3
 -flame arrows - mod
 -incite greed - mod
 -intellect fortress - mod
+-life transference - mod
 -melfs minute meteors - mod
--psionic blast - mod?
--thunder step - mod
+-psionic blast - mod
+-pulse wave - mod
+-spirit shroud - mod
+-summon lesser demons - mod
+-summon shadowspawn - mod
+-thunderstep - mod
 
 Slevel 4
+-arcane eye - mod
 -charm monster - mod
--fire shield - base game
+-control water - mod?
+-stone shape - mod?
+-summon aberration - mod
+-summon construct - mod
+-summon elemental - mod
 -vitriolic sphere - mod
 -ego whip - mod
+-elemental bane - mod
 -raulothims psychic lance - mod
--storm sphere - mod
+-storm sphere -mod
+-summon greater demon - mod
 
 Slevel 5
 -bigbys hand - mod
+-circle of power - mod
+-dream - mod
+-mislead - mod
+-steel wind strike - mod
+-summon dragon - mod
 -synaptic static - mod
 -teleportation circle - mod
+-danse macabre - mod
 -enervation - mod
 -far step - mod
 -immolation - mod
+-infernal calling - mod
+-negative energy flood - mod
 -skill empowerment - mod
 -Projectile_CursedTome_Dethrone - base game
 -Projectile_CursedTome_CurriculumofStrategy - base game
 
 Slevel 6
--flesh to stone - base game
--otilukes freezing sphere - base game
+-summon fiend - mod
 -true seeing - mod
 -elemental investiture - mod
 -psychic crush - mod
+-tensers transformation - mod
 -Target_TWN_Tollhouse_FleshToGold - base game
 
 Slevel 7
 -delayed blast fireball - mod
 -etherealness - mod
 -finger of death - mod
--fire storm - mod
 -prismatic spray - mod
 -reverse gravity - mod
+-symbol - mod
 -crown of stars - mod
 -draconic transformation - mod
 -power word pain - mod
+-whirlwind - mod
 
 Slevel 8
+-antimagic field - mod
+-befuddlement - mod
 -dominate monster - mod
 -incendiary cloud - mod
+-maze - mod
+-mind blank - mod
 -power word stun - mod
 -sunburst - mod
 -abidalzims horrid wilting - mod
+-illusory dragon - mod
+-maddening darkness - mod
 
 Slevel 9
+-foresight - mod
 -gate - mod
 -meteor swarm - mod
 -power word kill - base game
+-prismatic wall - mod
+-shapechange - mod
 -time stop - mod
+-weird - mod
 -wish - mod
 -blade of disaster - mod
+-invulnerability - mod
 -mass polymorph - mod
 -psychic scream - mod
 
 
 
 
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Draconic Bloodline Sorcerer 11"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_Fly_DragonWings"/>
-                    <attribute id="UUID" type="guid" value="12150e11-267a-4ecc-a3cc-292c9e2a198d"/>
-                </node>
-
-lvl 3
-Shout_AlterSelf;Projectile_ChromaticOrb;Target_Command_Container;Target_DragonsBreath
-
-lvl 5
-Zone_Fear;Target_Fly
-
-lvl 7
-<<Arcane Eye>>
-<<Charm Monster>>
-
-lvl 9
-<<Legend Lore ???>>
-<<Summon Dragon>>
-
-            </children>
-        </node>
-    </region>
-</save>
