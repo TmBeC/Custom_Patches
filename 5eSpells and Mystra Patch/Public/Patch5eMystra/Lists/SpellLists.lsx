@@ -53,45 +53,7 @@
 
 
 
-Target_TrueSeeing;Target_DreamSleep;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_CharmMonster;Target_EgoWhip;Projectile_PsychicLance;Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Shout_WardingWind;Target_ZoneofTruth;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Target_UnseenServant
 
-
-
-
-Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_Regenerate;Target_ATT_Symbol
-Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_MindBlank;Target_ATT_PowerWordStun
-Target_Foresight;Target_MassPolymorph;Target_PowerWordHeal;Target_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream
-
-
-
-
-
-                    
-
-
-
-
-
-
-
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="f923e058-b1d9-4b02-98ef-9daaa82a71b6"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 7 New"/>
-                    <attribute id="Spells" type="LSString" value="Spell1"/>
-                    <attribute id="UUID" type="guid" value="f37c248f-29b0-4749-a86f-8cb32cea0027"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="073c09e5-ccb9-4153-a210-001225a30cbb"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 8 New"/>
-                    <attribute id="Spells" type="LSString" value="Spell1"/>
-                    <attribute id="UUID" type="guid" value="bc70a8c7-66ab-4e25-9d63-51bef7bbb0ff"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="MergedInto" type="guid" value="2bbd99d0-21b4-41cc-836e-e386a96fc8e6"/>
-                    <attribute id="Name" type="FixedString" value="Bard SLevel 9 New"/>
-                    <attribute id="Spells" type="LSString" value="Spell1"/>
-                    <attribute id="UUID" type="guid" value="3c4bf37a-869c-4c4c-8d7d-497d3fe3031a"/>
-                </node>
 
 
 
