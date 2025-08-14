@@ -20,6 +20,8 @@ Projectile_Smite_Banishing
 
 Shout_ComprehendLanguages
 
+// need to add this to the appropriate spells
+data "RequirementConditions" "Tagged('WIZARD_DUNAMANCY')"
 
 // Cantrips
 

@@ -10,7 +10,6 @@
 Cantrips
 -druidcraft - mod
 -elementalism - mod
--spare the dying - base game
 -thunderclap - mod
 -frostbite - mod
 -infestation - mod
@@ -19,24 +18,17 @@ Cantrips
 
 Slevel 1
 -detect magic - mod
--protection from evil and good - base game
 -absorb elements - mod
 -beast bond - mod
 -earth tremor - mod
 -snare - mod
 
 Slevel 2
--aid - base game
 -continual flame - mod
--enlarge/reduce - base game
 -summon beast - mod
--earthbind - mod?
 -warding wind - mod
 
 Slevel 3
--aura of vitality - base game (rename)
--elemental weapon - base game
--revivify - base game
 -summon fey - mod
 -water walk - mod
 -erupting earth - mod
@@ -44,9 +36,6 @@ Slevel 3
 
 Slevel 4
 -charm monster - mod
--control water - mod?
--fire shield - base game
--stone shape - mod??
 -summon elemental - mod
 -elemental bane - mod
 -guardian of nature - mod
@@ -54,15 +43,12 @@ Slevel 4
 Slevel 5
 -antilife shell - mod
 -commune with nature - mod
--cone of cold - base game
 -maelstrom - mod
 
 Slevel 6
 -conjure fey - mod
--flesh to stone - base game
 -elemental investiture - mod
 -primoridal ward - mod
--Target_TWN_Tollhouse_FleshToGold - base game
 
 Slevel 7
 -fire storm - mod

@@ -20,7 +20,6 @@ Cantrips
 
 Slevel 1
 -detect magic - mod
--grease - base game
 -absorb elements - mod
 -catapult - mod
 -chaos bolt - mod (maybe add?)
@@ -32,14 +31,9 @@ Slevel 1
 
 Slevel 2
 -alter self - mod
--blindness/deafness - mod (remove blindness)
 -dragons breath - mod
--flame blade - base game
--flaming sphere - base game
--magic weapon - base game
 -mind spike - mod
 -aganazzars scorcher - mod
--earthbind - mod?
 -kinetic jaunt - mod
 -maximillians earthen grasp - mod
 -mental barrier - mod
@@ -52,7 +46,6 @@ Slevel 2
 -warding wind - mod
 
 Slevel 3
--vampiric touch - base game
 -water walk - mod
 -antagonize - mod
 -ashardalons stride - mod
@@ -63,12 +56,11 @@ Slevel 3
 -incite greed - mod
 -intellect fortress - mod
 -melfs minute meteors - mod
--psionic blast - mod?
+-psionic blast - mod
 -thunder step - mod
 
 Slevel 4
 -charm monster - mod
--fire shield - base game
 -vitriolic sphere - mod
 -ego whip - mod
 -raulothims psychic lance - mod
@@ -82,16 +74,11 @@ Slevel 5
 -far step - mod
 -immolation - mod
 -skill empowerment - mod
--Projectile_CursedTome_Dethrone - base game
--Projectile_CursedTome_CurriculumofStrategy - base game
 
 Slevel 6
--flesh to stone - base game
--otilukes freezing sphere - base game
 -true seeing - mod
 -elemental investiture - mod
 -psychic crush - mod
--Target_TWN_Tollhouse_FleshToGold - base game
 
 Slevel 7
 -delayed blast fireball - mod
@@ -114,7 +101,6 @@ Slevel 8
 Slevel 9
 -gate - mod
 -meteor swarm - mod
--power word kill - base game
 -time stop - mod
 -wish - mod
 -blade of disaster - mod

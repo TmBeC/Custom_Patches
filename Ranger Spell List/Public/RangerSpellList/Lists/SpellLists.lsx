@@ -29,46 +29,6 @@
                     <attribute id="Spells" type="LSString" value="Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Target_GreaterRestoration;Projectile_SteelWindStrike;Shout_SwiftQuiver;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_Stoneskin;Target_SummonElemental;Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_FlameArrows;Projectile_LightningArrow;Target_Nondetection;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_Summon_Fey;Target_WaterWalk;Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_SummonBeast;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CureWounds;Shout_DetectMagic;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Target_Snare;Shout_SpeakWithAnimals;Target_SuddenAwakening;Shout_ZephyrStrike"/>
                     <attribute id="UUID" type="guid" value="412d77e1-4aa2-4149-aa0e-c835b8c79f32"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Ranger spells level 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="22264715-6f58-428b-8d69-9daf5a487adf"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Ranger SLevel 2 NEW"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="2cdc44dc-dca9-44cf-a679-1d33c27e1e4d"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Ranger SLevel 3 NEW"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="6996b72e-421b-42b0-bc60-0bce4109a946"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Ranger spells level 1"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="3609c044-4628-410f-929c-674eaca4ea56"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Ranger SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="45001f68-dea4-414e-a90f-c57dec0a4079"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Ranger SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="a3760d5c-9aa5-46fd-9444-669dbe0af532"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Ranger SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="fc9a905e-5d77-4494-a7b4-fa1304caec7f"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Ranger SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="7e310264-3882-4df3-9a7c-e76f657c3331"/>
-                </node>
             </children>
         </node>
     </region>

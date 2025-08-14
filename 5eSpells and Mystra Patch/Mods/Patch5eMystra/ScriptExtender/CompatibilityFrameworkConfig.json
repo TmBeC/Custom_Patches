@@ -3,27 +3,27 @@
   "Lists": [
     {
       "Action": "Remove",
-      "UUID": "3cae2e56-9871-4cef-bba6-96845ea765fa",
+      "UUIDs": ["8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d"],
       "Type": "SpellList",
-      "Items": ["Target_BoomingBladeMove", "Target_CreateBonfire", "Target_Gust", "Projectile_Infestation", "Projectile_LarlochsMinorDrain", "Target_CreateDestroyMoldEarth",  "Target_ShapeWater_Container", "Target_BoomingBlade_5e", "Target_ControlFlames", "Target_CreateBonfire", "Target_Gust", "Target_MindSliver", "Target_MoldEarth", "Target_ShapeWater"]
+      "Items": ["Target_Ceremony_Ritual", "Target_WaterWalk", "Target_GiftOfAlacrity"]
     },
     {
       "Action": "Remove",
-      "UUID": "11f331b0-e8b7-473b-9d1f-19e8e4178d7d",
+      "UUIDs": ["7ea8f476-97a1-4256-8f10-afa76a845cce", "c213ca01-3767-457b-a5c8-fd4c1dd656e2", "75e04c40-be8f-40a5-9acc-0b5d59d5f3a6", "bd71fffb-e4d2-4233-9a31-13d43fba36e3", "586a8796-34f4-41f5-a3ef-95738561d55d", "f923e058-b1d9-4b02-98ef-9daaa82a71b6", "073c09e5-ccb9-4153-a210-001225a30cbb", "2bbd99d0-21b4-41cc-836e-e386a96fc8e6"],
       "Type": "SpellList",
-      "Items": ["Shout_AbsorbElementsSpell", "Zone_AcidStream", "Target_GiftOfAlacrity", "Shout_MagicMissile_Jim", "Target_MagnifyGravity", "Zone_TashasCausticBrew"]
+      "Items": ["Zone_SprayOfCards"]
     },
     {
       "Action": "Remove",
-      "UUID": "80c6b070-c3a6-4864-84ca-e78626784eb4",
+      "UUIDs": ["c213ca01-3767-457b-a5c8-fd4c1dd656e2", "75e04c40-be8f-40a5-9acc-0b5d59d5f3a6", "bd71fffb-e4d2-4233-9a31-13d43fba36e3", "586a8796-34f4-41f5-a3ef-95738561d55d", "f923e058-b1d9-4b02-98ef-9daaa82a71b6", "073c09e5-ccb9-4153-a210-001225a30cbb", "2bbd99d0-21b4-41cc-836e-e386a96fc8e6"],
       "Type": "SpellList",
-      "Items": ["Zone_AganazzarScorcher", "Shout_BeastAspect", "Shout_DustDevil", "Target_Earthbind", "Target_ForceWeapon", "Target_HealingElixir", "Projectile_GlowingCoin_Jim", "Shout_ShadowBlade_Spell", "Target_SnowballStorm", "Zone_SprayOfCards", "Shout_SummonMoonblade_Container", "Target_DustDevil", "Target_MaximiliansEarthenGrasp", "Target_TashasMindWhip", "Target_SnillocsSnowballStorm", "Target_WitherAndBloom", "Shout_AbsorbElementsSpell", "Zone_AcidStream", "Target_GiftOfAlacrity", "Shout_MagicMissile_Jim", "Target_MagnifyGravity", "Zone_TashasCausticBrew"]
+      "Items": ["Shout_DiscordantMelody"]
     },
     {
       "Action": "Remove",
-      "UUID": "22755771-ca11-49f4-b772-13d8b8fecd93",
+      "UUIDs": ["75e04c40-be8f-40a5-9acc-0b5d59d5f3a6", "bd71fffb-e4d2-4233-9a31-13d43fba36e3", "586a8796-34f4-41f5-a3ef-95738561d55d", "f923e058-b1d9-4b02-98ef-9daaa82a71b6", "073c09e5-ccb9-4153-a210-001225a30cbb", "2bbd99d0-21b4-41cc-836e-e386a96fc8e6"],
       "Type": "SpellList",
-      "Items": ["Shout_InciteGreed", "Shout_MelfsMinuteMeteors", "Zone_PulseWave", "Target_SummonFey_Container", "Projectile_MinuteMeteors", "Zone_AganazzarScorcher", "Shout_BeastAspect", "Shout_DustDevil", "Target_Earthbind", "Target_ForceWeapon", "Target_HealingElixir", "Projectile_GlowingCoin_Jim", "Shout_ShadowBlade_Spell", "Target_SnowballStorm", "Zone_SprayOfCards", "Shout_SummonMoonblade_Container", "Target_DustDevil", "Target_MaximiliansEarthenGrasp", "Target_TashasMindWhip", "Target_SnillocsSnowballStorm", "Target_WitherAndBloom", "Shout_AbsorbElementsSpell", "Zone_AcidStream", "Target_GiftOfAlacrity", "Shout_MagicMissile_Jim", "Target_MagnifyGravity", "Zone_TashasCausticBrew"]
+      "Items": ["Target_IllusoryWeapon", "Shout_MesmersLullaby", "Target_PsychicLance", "Projectile_RaulothimsPsychicLance"]
     },
 
 
@@ -31,6 +31,10 @@
 
 
 
+"75e04c40-be8f-40a5-9acc-0b5d59d5f3a6", "bd71fffb-e4d2-4233-9a31-13d43fba36e3", "586a8796-34f4-41f5-a3ef-95738561d55d", "f923e058-b1d9-4b02-98ef-9daaa82a71b6", "073c09e5-ccb9-4153-a210-001225a30cbb", "2bbd99d0-21b4-41cc-836e-e386a96fc8e6"
+
+
+                    
 
 
 
@@ -54,6 +58,24 @@
 
 
 
+    {
+      "Action": "Remove",
+      "UUIDs": [""],
+      "Type": "SpellList",
+      "Items": ["", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": [""],
+      "Type": "SpellList",
+      "Items": ["", ""]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": [""],
+      "Type": "SpellList",
+      "Items": [""]
+    },
 
 
 

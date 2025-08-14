@@ -29,46 +29,6 @@
                     <attribute id="Spells" type="LSString" value="Target_Smite_Banishing;Shout_CircleOfPower;Shout_DestructiveWave;Shout_DispelEvilAndGood;Target_GreaterRestoration;Target_HolyWeapon;Target_RaiseDead"/>
                     <attribute id="UUID" type="guid" value="f351595c-90f7-4804-9e55-18c4d624593c"/>
                 </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 1 NEW"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="20ec5141-3e56-420a-9226-9697fee8512e"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 2 NEW"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="21d31053-83c0-46b4-b4a9-f32a5260d170"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin SLevel 3 NEW"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="10d2c10c-d1fa-47d3-ae79-c6b1a09d471d"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="f9c4d953-9080-41c7-8da5-f3e7be65678b"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="a45ee3d1-874e-440e-9be7-09fd2123ab44"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="5b1c6a5e-4c26-4238-879e-b5067809f816"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="3122a944-18ee-4bcc-9496-7999d29642ec"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5eSpells Paladin SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="0ccd1ca9-2cdb-4fe8-93a1-51e40aa870c0"/>
-                </node>
             </children>
         </node>
     </region>

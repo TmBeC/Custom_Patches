@@ -31,10 +31,8 @@ Slevel 1
 
 Slevel 2
 -alter self - mod
--blindness/deafness - mod (remove blindness)
 -continual flame - mod
 -dragons breath - mod
--enhance ability - base game
 -mind spike - mod
 -aganazzars scorcher - mod
 -borrowed knowledge - mod
@@ -53,7 +51,6 @@ Slevel 2
 Slevel 3
 -magic circle - mod
 -nondetection - mod
--speak with dead - base game
 -summon fey - mod
 -antagonize - mod
 -ashardalons stride - mod
@@ -75,8 +72,6 @@ Slevel 3
 Slevel 4
 -arcane eye - mod
 -charm monster - mod
--control water - mod?
--stone shape - mod?
 -summon aberration - mod
 -summon construct - mod
 -summon elemental - mod
@@ -103,8 +98,6 @@ Slevel 5
 -infernal calling - mod
 -negative energy flood - mod
 -skill empowerment - mod
--Projectile_CursedTome_Dethrone - base game
--Projectile_CursedTome_CurriculumofStrategy - base game
 
 Slevel 6
 -summon fiend - mod
@@ -112,7 +105,6 @@ Slevel 6
 -elemental investiture - mod
 -psychic crush - mod
 -tensers transformation - mod
--Target_TWN_Tollhouse_FleshToGold - base game
 
 Slevel 7
 -delayed blast fireball - mod
@@ -143,7 +135,6 @@ Slevel 9
 -foresight - mod
 -gate - mod
 -meteor swarm - mod
--power word kill - base game
 -prismatic wall - mod
 -shapechange - mod
 -time stop - mod

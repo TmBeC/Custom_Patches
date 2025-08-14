@@ -5,46 +5,6 @@
         <node id="root">
             <children>
 
-Cantrips
--Prestidigitation - mod
--Thunderclap - mod
-
-Slevel 1
--detect magic - mod
--unseen servant - mod
--earth tremor - mod
--silvery barbs - mod
--sudden awakening - mod
-
-Slevel 2
--zone of truth - mod
--borrowed knowledge - mod
--kinetic jaunt - mod
--nathairs mischief - mod
--pyrotechnics - mod
--warding wind - mod
-
-Slevel 3
--nondetection - mod
--antagonize - mod
--catnap - mod
--enemies abound - mod
--intellect fortress - mod
--motivational speech - mod
-
-Slevel 4
--charm monster - mod
--ego whip - mod
--raulothims psychic lance - mod
-
-Slevel 5
--dream - mod
--mislead - mod
--raise dead - mod
--synaptic static - mod
--teleportation circle - mod
--skill empowerment - mod
-
 Slevel 6
 -true seeing - mod
 
@@ -72,11 +32,75 @@ Slevel 9
 
 
 
+Target_Foresight;Target_MassPolymorph;Target_PowerWordHeal;Target_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream
+Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_MindBlank;Target_ATT_PowerWordStun
+Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_Regenerate;Target_ATT_Symbol
+Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance;Target_TrueSeeing
+Target_DominatePerson;Target_DreamSleep;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_Mislead;Target_PlanarBinding;Target_RaiseDead;Target_Seeming;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_EgoWhip;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Projectile_PsychicLance
+Target_Antagonize;Target_BestowCurse;Target_Catnap;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Target_IntellectFortress;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_Nondetection;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+Shout_Aid;Target_BlindnessDeafness;Shout_BorrowedKnowledge;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_NathairsMischief;Target_PhantasmalForce;Target_Pyrotechnics;Shout_SeeInvisibility;Target_Shatter;Target_Silence;Shout_WardingWind;Target_ZoneofTruth
+Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Shout_ComprehendLanguages;Target_Command_Container;Target_CureWounds;Shout_DetectMagic;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_EarthTremor;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_SilveryBarbs;Target_Sleep;Shout_SpeakWithAnimals;Target_SuddenAwakening;Zone_CausticBrew;Target_HideousLaughter;Zone_Thunderwave;Target_UnseenServant
 
 
 
 
 
+
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="dcb45167-86bd-4297-9b9d-c295be51af5b"/>
+                    <attribute id="Name" type="FixedString" value="Bard spells level 1"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="7ea8f476-97a1-4256-8f10-afa76a845cce"/>
+                    <attribute id="Name" type="FixedString" value="Bard spells level 2"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f923e058-b1d9-4b02-98ef-9daaa82a71b6"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="073c09e5-ccb9-4153-a210-001225a30cbb"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2bbd99d0-21b4-41cc-836e-e386a96fc8e6"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Spell1"/>
+                    <attribute id="UUID" type="guid" value="UUID"/>
+                </node>
 
 
 
