@@ -25,13 +25,36 @@
       "Type": "SpellList",
       "Items": ["Target_IllusoryWeapon", "Shout_MesmersLullaby", "Target_PsychicLance", "Projectile_RaulothimsPsychicLance"]
     },
+    {
+      "Action": "Remove",
+      "UUIDs": ["f923e058-b1d9-4b02-98ef-9daaa82a71b6", "073c09e5-ccb9-4153-a210-001225a30cbb", "2bbd99d0-21b4-41cc-836e-e386a96fc8e6"],
+      "Type": "SpellList",
+      "Items": ["Target_ATT_Regenerate"]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": ["073c09e5-ccb9-4153-a210-001225a30cbb", "2bbd99d0-21b4-41cc-836e-e386a96fc8e6"],
+      "Type": "SpellList",
+      "Items": ["Target_ATT_DominateMonster", "Projectile_ATT_Feeblemind", "Target_ATT_MindBlank"]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": ["2bbd99d0-21b4-41cc-836e-e386a96fc8e6"],
+      "Type": "SpellList",
+      "Items": ["Target_ATT_Foresight", "Target_ATT_PowerWordHeal", "Target_ATT_PowerWordKill"]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": ["858d4322-9e9f-4aa4-aada-9c68835dc6fe"],
+      "Type": "SpellList",
+      "Items": ["Projectile_AcidSplash", "Shout_BladeWard", "Target_DancingLights", "Target_Friends", "Target_Guidance", "Target_Light", "Target_MageHand", "Target_MinorIllusion", "Projectile_PoisonSpray", "Shout_ProduceFlame", "Target_Resistance", "Shout_Shillelagh", "Target_ShockingGrasp", "Shout_Thaumaturgy", "Target_ThornWhip", "Target_TrueStrike", "Projectile_Smite_Banishing_Container", "Shout_CrusadersMantle", "Target_HungerOfHadar", "Shout_ArmorOfAgathys", "Shout_HellishRebuke", "Target_Hex", "Target_HuntersMark", "Target_Smite_Thunderous", "Target_ChillTouch", "Projectile_EldritchBlast", "Projectile_FireBolt", "Projectile_RayOfFrost", "Target_SacredFlame"]
+    },
 
 
 
 
 
 
-"75e04c40-be8f-40a5-9acc-0b5d59d5f3a6", "bd71fffb-e4d2-4233-9a31-13d43fba36e3", "586a8796-34f4-41f5-a3ef-95738561d55d", "f923e058-b1d9-4b02-98ef-9daaa82a71b6", "073c09e5-ccb9-4153-a210-001225a30cbb", "2bbd99d0-21b4-41cc-836e-e386a96fc8e6"
 
 
                     
@@ -69,6 +92,12 @@
       "UUIDs": [""],
       "Type": "SpellList",
       "Items": ["", ""]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": ["", ""],
+      "Type": "SpellList",
+      "Items": [""]
     },
     {
       "Action": "Remove",
