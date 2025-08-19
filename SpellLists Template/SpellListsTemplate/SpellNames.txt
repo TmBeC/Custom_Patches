@@ -31,17 +31,27 @@ Target_Elementalism
 
 Target_Frostbite
 
+Target_GreenFlameBlade
+
 Target_Infestation
+
+Target_LightningLure
 
 Target_MagicStone
 
 Target_Mending
+
+Projectile_MindSliver
+
+Target_Prestidigitation
 
 Target_PrimalSavagery
 
 Target_SpareTheDying
 
 Projectile_StarryWisp
+
+Shout_SwordBurst
 
 Shout_Thunderclap
 
