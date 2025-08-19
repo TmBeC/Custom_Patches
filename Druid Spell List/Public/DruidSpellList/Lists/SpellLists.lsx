@@ -5,54 +5,54 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid Cantrips"/>
+                    <attribute id="Name" type="FixedString" value="Druid Cantrips 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Guidance;Target_Infestation;Target_MagicStone;Target_Mending;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap"/>
-                    <attribute id="UUID" type="guid" value="b8faf12f-ca42-45c0-84f8-6951b526182a"/>
+                    <attribute id="UUID" type="guid" value="becccd0e-9617-4140-8d97-968229e60b6a"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 1 expanded"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 1 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Shout_DetectMagic;Shout_EarthTremor;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Target_Snare;Shout_SpeakWithAnimals;Zone_Thunderwave"/>
-                    <attribute id="UUID" type="guid" value="2cd54137-2fe5-4100-aad3-df64735a8145"/>
+                    <attribute id="UUID" type="guid" value="cfe0567a-1092-4890-95a6-69a548b0cbee"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid spells level 2"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 2 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Barkskin;Target_ContinualFlame;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_SummonBeast;Shout_WardingWind"/>
-                    <attribute id="UUID" type="guid" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135"/>
+                    <attribute id="UUID" type="guid" value="2abb0c4a-0d2d-449d-a7be-b08c87b34181"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 3"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 3 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_EruptingEarth;Target_FeignDeath;Target_FlameArrows;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_Summon_Fey;Target_TidalWave;Target_WaterWalk"/>
-                    <attribute id="UUID" type="guid" value="3156daf5-9266-41d0-b52c-5bc559a98654"/>
+                    <attribute id="UUID" type="guid" value="66998e83-4933-4ea9-99f9-347a1bca1b27"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 4"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 4 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_ElementalBane;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Target_SummonElemental;Wall_WallOfFire"/>
-                    <attribute id="UUID" type="guid" value="09c326c9-672c-4198-a4c0-6f07323bde27"/>
+                    <attribute id="UUID" type="guid" value="cb4963d3-68ad-41f9-aaca-097c5e3f2f74"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 5"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 5 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_AntilifeShell;Shout_CommuneWithNature;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_Maelstrom;Target_PlanarBinding;Wall_WallOfStone"/>
-                    <attribute id="UUID" type="guid" value="ff711c12-b59f-4fde-b9ea-6e5c38ec8f23"/>
+                    <attribute id="UUID" type="guid" value="2b09aa2f-2380-4fab-931e-1fac07f28c92"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 6"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 6 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_ConjureFey;Shout_ElementalInvestiture;Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Shout_PrimordialWard;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk"/>
-                    <attribute id="UUID" type="guid" value="6a4e2167-55f3-4ba8-900f-14666b293e93"/>
+                    <attribute id="UUID" type="guid" value="941702bf-9f88-4659-85ec-ed8b4d95a5ad"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 7"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 7 5R"/>
                     <attribute id="Spells" type="LSString" value="Zone_ATT_FizbanTransform;Target_FireStorm;Target_Regenerate;Target_ATT_ReverseGravity;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
-                    <attribute id="UUID" type="guid" value="29c9cf78-3bd6-47dc-88b4-2dce54710124"/>
+                    <attribute id="UUID" type="guid" value="a55bbb37-0587-46e9-af6b-46b2dff1aa57"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 8"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 8 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_ATT_AnimalShapes;Target_Feeblemind;Target_ATT_IncendiaryCloud;Target_Sunburst"/>
-                    <attribute id="UUID" type="guid" value="bdff0cba-d631-4b83-9562-63c0187df380"/>
+                    <attribute id="UUID" type="guid" value="2800041c-d480-4bf7-9620-f1258cb74556"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Druid SLevel 9"/>
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 9 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_Foresight;Shout_ATT_Shapechange_Container;Shout_ATT_StormOfVengeance;Teleportation_ATT_MOD_TrueResurrection"/>
-                    <attribute id="UUID" type="guid" value="9e388f0f-7432-4f29-bfe5-5358ebde4491"/>
+                    <attribute id="UUID" type="guid" value="341f99e1-a30b-4d3c-8eb9-a43fb8dc7e5f"/>
                 </node>
             </children>
         </node>
