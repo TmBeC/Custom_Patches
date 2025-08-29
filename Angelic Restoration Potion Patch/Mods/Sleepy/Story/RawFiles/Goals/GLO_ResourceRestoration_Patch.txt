@@ -1,0 +1,41 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Restoration Pod, Potion of Angelic Slumber, Angelic Relief, and Divine Intervention catches for custom resources
+
+IF
+StatusApplied(_Character, "TUT_RESTORATION", _, _)
+THEN
+ApplyStatus(_Character, "GREATER_RESTORATION_LONG_REST_PATCH", 1.0);
+
+IF
+StatusApplied(_Character, "END_RESTORATION", _, _)
+THEN
+ApplyStatus(_Character, "GREATER_RESTORATION_LONG_REST_PATCH", 1.0);
+
+IF
+StatusApplied(_Character, "ALCH_POTION_REST_SLEEP_GREATER", _, _)
+THEN
+ApplyStatus(_Character, "GREATER_RESTORATION_LONG_REST_PATCH", 1.0);
+
+IF
+CastSpell(_Character, "Shout_DivineIntervention_Healing", _, _, _)
+THEN
+ApplyStatus(_Character, "GREATER_RESTORATION_LONG_REST_PATCH", 1.0);
+
+//END_REGION
+
+
+//REGION Potion of Angelic Relief restore for Short Rest resources
+
+IF
+StatusApplied(_Character, "ALCH_POTION_REST_SLEEP_LESSER", _, _)
+THEN
+ApplyStatus(_Character, "LESSER_RESTORATION_SHORT_REST_PATCH", 1.0);
+
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION

@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Wizard cantrips (Intelligence) 5R"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Target_DancingLights;Target_Elementalism;Projectile_FireBolt;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_Light;Target_LightningLure;Target_MageHand;Target_Mending;Projectile_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation;Projectile_RayOfFrost;Projectile_SappingSting;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Target_DancingLights;Target_Elementalism;Projectile_FireBolt;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_Light;Target_LightningLure;Target_MageHand;Target_Mending;Projectile_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation;Projectile_RayOfFrost;Projectile_SappingSting;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_DWE_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="4e3aaaea-077e-42d3-8b74-ff8517ba272a"/>
                 </node>
                 <node id="SpellList">

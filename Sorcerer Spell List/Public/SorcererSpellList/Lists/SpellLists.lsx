@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Sorcerer cantrips 5R"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Target_DancingLights;Target_Elementalism;Projectile_FireBolt;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_Light;Target_LightningLure;Target_MageHand;Target_Mending;Projectile_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation;Projectile_RayOfFrost;Target_ShockingGrasp;Projectile_SorcerousBurst;Shout_SwordBurst;Shout_Thunderclap;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Target_DancingLights;Target_Elementalism;Projectile_FireBolt;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_Light;Target_LightningLure;Target_MageHand;Target_Mending;Projectile_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation;Projectile_RayOfFrost;Target_ShockingGrasp;Projectile_SorcerousBurst;Shout_SwordBurst;Shout_Thunderclap;Target_DWE_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="cae50d2a-731a-4ee7-8161-8738efdb73cb"/>
                 </node>
                 <node id="SpellList">

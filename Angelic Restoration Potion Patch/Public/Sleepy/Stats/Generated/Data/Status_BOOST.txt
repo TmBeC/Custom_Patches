@@ -1,0 +1,17 @@
+new entry "GREATER_RESTORATION_LONG_REST_PATCH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ALCH_POTION_REST_SLEEP_GREATER_RESTORATION"
+data "OnApplyFunctors" "RestoreResource(SpellSlot,100%,7);RestoreResource(SpellSlot,100%,8);RestoreResource(SpellSlot,100%,9);RestoreResource(ArcaneShot,100%,0);RestoreResource(StarMapPoint,100%,0);RestoreResource(CosmicOmen,100%,0);RestoreResource(WrithingTidePoint,100%,0);RestoreResource(Bladesong,100%,0);RestoreResource(DivinePowerPoint,100%,0);RestoreResource(FavoredFoePoint,100%,0);RestoreResource(NaturesVeil,100%,0);RestoreResource(Tireless,100%,0);RestoreResource(CleansingTouchCharge,100%,0);RestoreResource(Interrupt_HurlThroughHell,100%,0);RestoreResource(ActionSurgeCharge,100%,0);RestoreResource(SpellThiefPoint,100%,0);RestoreResource(StrokeOfLuck,100%,0)"
+
+new entry "LESSER_RESTORATION_SHORT_REST_PATCH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ALCH_POTION_REST_SLEEP_LESSER_RESTORATION"
+data "OnApplyFunctors" "RestoreResource(ArcaneShot,100%,0);RestoreResource(ActionSurgeCharge,100%,0);RestoreResource(StrokeOfLuck,100%,0)"
+
+new entry "ALCH_POTION_REST_SLEEP_LESSER_RESTORATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ALCH_POTION_REST_SLEEP_LESSER_RESTORATION"
+data "OnApplyFunctors" "IF(HasPassive('FontOfInspiration')):RestoreResource(BardicInspiration,100%,0);ResetCooldowns(UntilShortRest);IF(not HasPassive('Durable')):RegainHitPoints(MaxHP/2);IF(HasPassive('Durable')):RegainHitPoints(MaxHP);RestoreResource(SpellSlot,100%,1);RestoreResource(SpellSlot,100%,2);RestoreResource(SuperiorityDie,100%,0);RestoreResource(KiPoint,100%,0);RestoreResource(WarlockSpellSlot,100%,1);RestoreResource(WarlockSpellSlot,100%,2);RestoreResource(WarlockSpellSlot,100%,3);RestoreResource(WarlockSpellSlot,100%,4);RestoreResource(WarlockSpellSlot,100%,5);RestoreResource(WarlockSpellSlot,100%,6);RestoreResource(WildShape,100%,0);RestoreResource(WeaponActionPoint,100%,0);RestoreResource(TidesOfChaos,100%,0);RestoreResource(ChannelOath,100%,0);RestoreResource(ArcaneShot,100%,0)"

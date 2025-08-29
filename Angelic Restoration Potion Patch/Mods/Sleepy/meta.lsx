@@ -20,22 +20,22 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSString" value="MaxStrengthWizard" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSString" value="Master spell list for the Bard." />
+          <attribute id="Description" type="LSString" value="Patches the resources into the potions of Angelic Reprieve and Slumber." />
           <attribute id="FileSize" type="uint64" value="0" />
-          <attribute id="Folder" type="LSString" value="BardSpellList" />
+          <attribute id="Folder" type="LSString" value="Sleepy" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="LSString" value="Bard Spell List" />
+          <attribute id="Name" type="LSString" value="Angelic Potion Restoration Patch" />
           <attribute id="NumPlayers" type="uint8" value="4" />
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="PublishHandle" type="uint64" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
-          <attribute id="UUID" type="FixedString" value="48d64569-4d4b-4327-be5a-b9591641674f" />
-          <attribute id="Version64" type="int64" value="72057596185411584" />
+          <attribute id="UUID" type="FixedString" value="57e0262c-0cc1-4b45-bb75-48e2f19af872" />
+          <attribute id="Version64" type="int64" value="36028797018963968" />
           <children>
             <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="72057596185411584" />
+              <attribute id="Version64" type="int64" value="144255927718543409" />
             </node>
             <node id="Scripts">
               <children>

@@ -25,6 +25,9 @@ data "RequirementConditions" "Tagged('WIZARD_DUNAMANCY')"
 
 // Cantrips
 
+(True Strike)
+Target_DWE_TrueStrike
+
 Shout_Druidcraft
 
 Target_Elementalism
