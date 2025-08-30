@@ -48,7 +48,8 @@ Target_Mending
 (Mind Sliver - changed)
 Projectile_MindSliver_5R
 
-Target_Prestidigitation
+(Prestidigitation - changed)
+Target_Prestidigitation_5R
 
 Target_PrimalSavagery
 
