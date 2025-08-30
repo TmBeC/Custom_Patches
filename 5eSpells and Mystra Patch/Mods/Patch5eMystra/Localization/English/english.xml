@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <content contentuid="hc40dc0fc085c4a0b992f814936db639ef0e0" version="1">%%% Empty</content>
-  <content contentuid="hcf1405ae3f90454db23236c0f7fe23ef5b85" version="1">%%% Empty</content>
+
   <content contentuid="h93d3af5eg98dbg47aegb5a3gdc9c9f2b940b" version="1">Drive a disorienting spike of psychic energy into the mind of a creature, possibly imposing a -[1] penalty to its next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
   <content contentuid="h5c8dccaag720cg9253g7c85gda2454b1cb3a" version="2">Peform a minor magical trick that can clean or soil creatures and surfaces, light or snuff out small fires, and create musical notes.</content>
   <content contentuid="h098143174b834385813af86b7297a752e4g4" version="1">Prestidigitation: Soil</content>

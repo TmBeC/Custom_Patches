@@ -28,7 +28,8 @@ data "RequirementConditions" "Tagged('WIZARD_DUNAMANCY')"
 (True Strike)
 Target_DWE_TrueStrike
 
-Shout_Druidcraft
+(Druidcraft - changed)
+Target_Druidcraft_5R
 
 Target_Elementalism
 
@@ -44,7 +45,8 @@ Target_MagicStone
 
 Target_Mending
 
-Projectile_MindSliver
+(Mind Sliver - changed)
+Projectile_MindSliver_5R
 
 Target_Prestidigitation
 
@@ -57,6 +59,9 @@ Projectile_StarryWisp
 Shout_SwordBurst
 
 Shout_Thunderclap
+
+(Word of Radiance - changed)
+Shout_WordOfRadiance_5R
 
 
 // 1st Level Spells
