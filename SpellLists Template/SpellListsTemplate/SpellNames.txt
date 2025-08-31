@@ -59,7 +59,8 @@ Projectile_StarryWisp
 
 Shout_SwordBurst
 
-Shout_Thunderclap
+(Thunderclap - changed)
+Shout_Thunderclap_5R
 
 (Word of Radiance - changed)
 Shout_WordOfRadiance_5R
