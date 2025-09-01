@@ -163,10 +163,8 @@
   <content contentuid="hf2f7e5edd2314519aa94ac1ad6bb48bacfc8" version="1">Magically empower your movement, giving yourself an additional [1] of &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and the ability to avoid &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
   <content contentuid="h7d925bbafd9d44d7b0fc077f4124cc6b18ga" version="1">Kinetic Jaunt</content>
   <content contentuid="h689d476909be4f2b98bfd8cfab87c4b46eb9" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; increased by [1] and don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
-  <content contentuid="hfef983d1cb3149d1ba329b8cabb0c416ec17" version="1">Mind Spike</content>
-  <content contentuid="h8dcf3f2323b34ea194e53be12e52b1f8d196" version="1">Invade the mind of the target and prevent them from turning invisible.</content>
-  <content contentuid="hdb69157ee00e40638f9c76f0182c0aaa909e" version="1">Mind Spike</content>
-  <content contentuid="h1fda6527d680439daf840a7ecd371b5a3e7b" version="1">Cannot be Invisible.</content>
+
+
   <content contentuid="hd58202e8d1684c76bfe359e4430e52e9ge9g" version="1">Nathair's Mischief</content>
   <content contentuid="he9a44da23683427895d4ae8e1428c857266g" version="1">Enchant all creatures within [1] of the target location with a random debilitating effect at the start of each turn.</content>
   <content contentuid="hd80f686e74cd4076acec35660eb1d58cd08c" version="1">Mischievous Surge</content>
@@ -180,12 +178,14 @@
   <content contentuid="hf9ab1f88g7345g633fg7c47g53a8dba40a64" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; halved as if walking on &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
   <content contentuid="hab68570215174820a1dfcf57feb8e4fc6g33" version="1">Snilloc's Snowball Swarm</content>
   <content contentuid="h97ecd5f088534dc6bca79e51b57fbe1c5a17" version="1">A flurry of magic snowballs erupt around a [1] radius of the targeted area.</content>
-  <content contentuid="hafbe67f48085484bb83fbacea28785a30cag" version="1">Summon Beast</content>
-  <content contentuid="h594e02ab5116423cbd07d2944c0694b9ab76" version="1">Call forth a bestial spirit from an environment of Air or Land.</content>
-  <content contentuid="h0840e645a6e54bd48a423b52b31830d0gg7a" version="1">Summon Beast: Air</content>
-  <content contentuid="h5274b917c4ad4c14841195349c1e7186070e" version="1">Call forth an allied bestial spirit from the environment of Air.</content>
-  <content contentuid="h5c77285e8dc24cc7910088b51387afbd9b8b" version="1">Summon Beast: Land</content>
-  <content contentuid="h1dd532b708db4ffca5fd748df74561aba20g" version="1">Call forth an allied bestial spirit from the environment of Land.</content>
+
+
+
+
+
+
+
+
   <content contentuid="hc01128d7068543a6a8fe9d465cfd8f17622a" version="1">Tasha's Mind Whip</content>
   <content contentuid="hd1cc1007f0d540529a7e8294f506afe7fgf9" version="1">Psychically lash out at the target to prevent them from moving and taking reactions until the end of their next turn.</content>
   <content contentuid="h9eb4ba71216b4767b59c96e1d9188081aade" version="1">Mind Whipped</content>

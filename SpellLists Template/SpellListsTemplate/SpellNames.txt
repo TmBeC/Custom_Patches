@@ -150,8 +150,8 @@ Target_EarthenGrasp
 (Mental Barrier)
 Shout_MentalBarrier
 
-(Mind Spike)
-Target_MindSpike
+(Mind Spike - changed)
+Target_MindSpike_5R
 
 (Nathairs Mischief)
 Target_NathairsMischief
@@ -165,8 +165,8 @@ Zone_RimesBindingIce
 (Snillocs Snowball Swarm)
 Target_SnowballSwarm
 
-(Summon Beast)
-Target_SummonBeast
+(Summon Beast - changed)
+Target_SummonBeast_5R
 
 (Tashas Mind Whip)
 Target_MindWhip
