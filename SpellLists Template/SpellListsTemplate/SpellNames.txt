@@ -191,8 +191,8 @@ Shout_AshardalonsStride
 (Catnap)
 Target_Catnap
 
-(Create Food and Water)
-Target_CreateFoodAndWater
+(Create Food and Water - changed)
+Target_CreateFoodAndWater_5R
 
 (Enemies Abound)
 Target_EnemiesAbound
@@ -212,8 +212,8 @@ Target_IntellectFortress
 (Life Transference)
 Target_LifeTransference
 
-(Magic Circle)
-Target_MagicCircle
+(Magic Circle - changed)
+Target_MagicCircle_5R
 
 (Melf's Minute Meteors)
 Shout_MinuteMeteors
@@ -248,19 +248,19 @@ Teleportation_ThunderStep
 (Tidal Wave)
 Target_TidalWave
 
-(Water Walk)
-Target_WaterWalk
+(Water Walk - changed)
+Target_WaterWalk_5R
 
 
 // 4th Level Spells
 (Arcane Eye)
 Target_ArcaneEye
 
-(Aura of Life)
-Shout_AuraOfLife
+(Aura of Life - changed)
+Shout_AuraOfLife_5R
 
-(Aura of Purity)
-Shout_AuraOfPurity
+(Aura of Purity - changed)
+Shout_AuraOfPurity_5R
 
 (Charm Monster)
 Target_CharmMonster
