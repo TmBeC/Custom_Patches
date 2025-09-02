@@ -478,27 +478,12 @@
 
 
 
-  <content contentuid="h270256f1aa614f579b78dfe85a4ad63d3ac4" version="1">Steel Wind Strike</content>
-  <content contentuid="hcc56eed33dbc4c499a6f279cc9756dc28252" version="1">Flourish a melee weapon and then vanish to strike like the wind, dealing [1] up to five creatures.</content>
-  <content contentuid="hb32917af82e94453913069aaaa8e11c1d6ea" version="1">Steel Wind Strike</content>
-  <content contentuid="h804efd0bb45d40129f845554ede995d7gbe9" version="1">Before moving again, teleport to a target hit by Steel Wind Strike.</content>
-  <content contentuid="hf4e373381cc2482cbad4cac8376f1b5e51fd" version="1">Steel Wind Strike: Teleport</content>
-  <content contentuid="h0824617d9bbe4b42a45c5b9d22819ebfe6d8" version="1">Teleport next to a target of Steel Wind Strike.</content>
 
 
 
-  <content contentuid="hbf7a8a13cd9d480b857db3f941f54f9904bf" version="1">Swift Quiver</content>
-  <content contentuid="h436d18e8dae04e0b9cc950377644eee5e04c" version="1">Transmute your quiver so it produces an endless supply of nonmagical ammunition. You can use a bonus action to make two ranged weapon attacks per turn until the spell ends.</content>
-  <content contentuid="h006288d37e144e7f9232f0738389025cdad2" version="1">Swift Quiver</content>
-  <content contentuid="h2d6f01ef0dab4e5f8c65f8b32c4248631667" version="1">Swift Quiver</content>
-  <content contentuid="h09e2825d36a540b3919576a08332abb4f5ee" version="1">Make two ranged attacks with the equipped weapon.</content>
 
 
 
-  <content contentuid="h6cc7d49be35f442ba8790408a40e0bda4eg9" version="1">Synaptic Static</content>
-  <content contentuid="h2c0b4ccd4ceb4276b9c688c6555e658c840a" version="1">Detonate psychic energy that inflicts targets with a -1d6 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain concentration.</content>
-  <content contentuid="hb8e76ef8ef2341b6b4866713641e7f3b0bb3" version="1">Synaptic Static</content>
-  <content contentuid="h63e528aab9d54a70a77f343ad43dedc1ce11" version="1">Has a -1d6 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain concentration. Makes an Intelligence saving throw each turn to break free.</content>
 
 
 
@@ -511,11 +496,4 @@
 
 
 
-  <content contentuid="h2ad68f012ab944c8aa54b6674755975b78cc" version="1">True Seeing</content>
-  <content contentuid="hd316c8afa426409a8356822149ff84b2dg3e" version="1">Touch a creature - it can see &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt; creatures and pierce the planes with its eyes.</content>
-  <content contentuid="he9b4c85e59474fd590df1b9e7d2109380c63" version="1">The target can also see through illusions created by spells and automatically save against any that would force a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
-  <content contentuid="h66a509ba15ad4188be4081a8e16527d37140" version="1">True Sight</content>
-  <content contentuid="h508bbc25853f4ac2b600d49179a85e80b5d7" version="1">Can see any &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures and objects.</content>
-  <content contentuid="h6d0567e00607491db64d1a381a3c6493g82e" version="1">True Sight</content>
-  <content contentuid="h31d90054e0a744b5b447bef0280df7b4cb3a" version="1">When you are targeted by an Illusion spell that forces you to make a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can automatically succeed on the save.</content>
 </contentList>
