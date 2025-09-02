@@ -25,6 +25,9 @@
   <content contentuid="h358a33cagab17g4ac2gbb89g2cfdebc71966" version="1">Manipulate a water surface to change its shape and freeze it into a block of ice.</content>
   <content contentuid="h3aab77a8g5455g4968g9341gef97386d1798" version="1">Beckon Water: Move</content>
   <content contentuid="h99d89c81g7507g4a4dgbac4ge68c80d3a84c" version="1">Manipulate a water surface to move to a different location.</content>
+
+
+
   <content contentuid="h012ffc5101d64b47ba788f31aeffd91851e5" version="1">Absorb Elements</content>
   <content contentuid="h0d742852194944ab8e1cf1b52cdd1678d5e6" version="1">Absorb incoming elemental energy, lessening its effect on you and store it for your next melee attack. Take half damage from the next elemental attack targetting you, and deal an additional [1] of that element type on your next attack.</content>
   <content contentuid="hcaa1b19e17574826b1a03ffa933b09c1ce99" version="1">Absorb Elements</content>
@@ -39,17 +42,29 @@
   <content contentuid="h864fadf7fa284db397e259688740cf47ce04" version="1">The affected entity is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Lightning damage and deals an additional [1] the next time it deals damage with a weapon.</content>
   <content contentuid="hbbce4a4da85846fea6bf9641b1a9534e4621" version="1">Absorb Elements: Thunder</content>
   <content contentuid="hc74ff4880aee4230877467a80f325b290a1g" version="1">The affected entity is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Thunder damage and deals an additional [1] the next time it deals damage with a weapon.</content>
+
+
+
   <content contentuid="haa28701329f04b61962f7027efa75940g25g" version="1">Beast Bond</content>
   <content contentuid="hcb0f58b0affc493c97fdbaae16d2d9339c15" version="1">Grants a friendly or charmed beast &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against creatures within [1] of you.</content>
   <content contentuid="hdc91bce937c843f9b50c074a945fd1a22d5b" version="1">Beast Bond</content>
   <content contentuid="h07199d014e374f3aaf701ead8d1fed0dcf29" version="1">Affected entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against creatures within [1] of the bonded target.</content>
   <content contentuid="h62fbd64f14b34c7d8c48d160e6c84a08a8fe" version="1">Beast Bond</content>
   <content contentuid="h0a8f3c09ee9c403ba83cabc3b4884b70ba2g" version="1">Bonded beast has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against creatures within [1] of you that you can see.</content>
+
+
+
   <content contentuid="haaf3a90599804253a2e42edc9c0f060c669b" version="1">Catapult</content>
   <content contentuid="h85fe4db5a7a049d78b448bcfbcf0977ae52c" version="1">Retrieve a light object from the ground and launch it at a creature.</content>
+
+
+
   <content contentuid="hacd9f3c7ed1c41bcb37bbfd6c6a86d181f27" version="1">Cause Fear</content>
   <content contentuid="h904f8c779b6b491ea1e591587115416f6gg8" version="1">Awaken the sense of mortality in a creature, possibly &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; it.</content>
   <content contentuid="h35d385aba5c64d659e71655c8c5c3db4cf32" version="1">The affected creature repeats the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; at the end of its turns.</content>
+
+
+
   <content contentuid="h9fe9f6859c3d4a08a48647cf28a855df3g7d" version="1">Ceremony</content>
   <content contentuid="h79b00db7866d4f199ef421b2d2b4c595b5bb" version="1">Perform one of many beneficial religious ceremonies.</content>
   <content contentuid="h05e37ecfdeae43f8a87cfeb8afa2c76a4f5d" version="1">Ceremony: Atonement</content>
@@ -72,10 +87,19 @@
   <content contentuid="hb159fa2213c24c13903784b45538db3bc66c" version="1">Touch two humanoid creatures, bonding them together in marriage. For the next [1] days, each target gains +[2] to their &lt;LSTag Tooltip="ArmourClass"&gt;Armor Class&lt;/LSTag&gt; while they are within [3] of each other.</content>
   <content contentuid="hb99d9546b3ad4412bde68dc2cf9fcaa022a3" version="1">Wedding Vows</content>
   <content contentuid="h29070cdd038e4ff6a245307f683ff35bb01d" version="1">Happily Married!&lt;br&gt;&lt;br&gt;For the next [1] days, gain +[2] to your &lt;LSTag Tooltip="ArmourClass"&gt;Armor Class&lt;/LSTag&gt; while within [1] of your partner.</content>
+
+
+
   <content contentuid="hb6194a8d1cc74dbfaa84944567264b3d0769" version="1">Earth Tremor</content>
   <content contentuid="h10387eb290004f8a935e3c56133d5291f2c7" version="1">Cause a tremor in the ground, miring the area around yourself in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;thick mud&lt;/LSTag&gt; and possibly knocking nearby creatures &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+
+
   <content contentuid="hfb12c907e4aa4ea49d4cece1ea6eaf3aecda" version="1">Frost Fingers</content>
   <content contentuid="h23d947571e594f819c80f5ca07ed155761df" version="1">Freezing cold blasts from your fingertips.</content>
+
+
+
   <content contentuid="hf0960c125190481e8a19acfd6ac03ad92d10" version="1">Silvery Barbs</content>
   <content contentuid="haad64bf1e0534b638266c96c1b38e06357df" version="1">Force an enemy to reroll a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
   <content contentuid="hc647015c937849478e9bb708ca2555a4dcef" version="1">Can't be used again while still affected by &lt;LSTag Type="Status" Tooltip="SILVERY_BARBS"&gt;Silvery Barbs&lt;/LSTag&gt;.</content>
@@ -85,16 +109,25 @@
   <content contentuid="h82f6e52bb557427da88a2be57c70ff7dddg5" version="1">Give a friendly creature &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
   <content contentuid="h32551ba9001449a1b3d823a99c415dce56f5" version="1">Silvery Barbs: Luck</content>
   <content contentuid="hd4a977d797084c609ee82994c67f2d2c4e45" version="1">Can grant one nearby friendly creature &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed after usage.</content>
+
+
+
   <content contentuid="ha0e07d7a61244481a007856a2f2681a8a6e3" version="1">Snare</content>
   <content contentuid="h4ae02e7081a445a5b70c7ebfc7df451b7ece" version="1">Place a magical trap that captures enemies that walk within [1] of it. It is triggered when a Small or larger creature moves near it, possibly causing all nearby creatures to be knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and become &lt;LSTag Type="Status" Tooltip="SNARE_TRAP"&gt;Restrained&lt;/LSTag&gt;</content>
   <content contentuid="h930170a7f88d4d82b67a7b4b245065e64144" version="1">&lt;LSTag Type="Status" Tooltip="SNARE_TRAP"&gt;Restrained&lt;/LSTag&gt; creatures make Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; at the end of their turns, ending the effect on a success. Another creature can &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Help&lt;/LSTag&gt; them to end the effect as well.</content>
   <content contentuid="h8025d54eada747a9be147b6d16bd256e2aeb" version="1">Snare</content>
   <content contentuid="he2d45bca5c084bb5845b01444fb4bd6b39ed" version="1">The snare activates when stepped on by an enemy and traps them.</content>
   <content contentuid="h53e697af35684adaac3911f301dd49369bee" version="1">Snare Trapped</content>
+
+
+
   <content contentuid="h0434a74a224646e0a266ee4e4c2e55ff5287" version="1">Tasha's Caustic Brew</content>
   <content contentuid="h735ab7042d6e447abf0c2507dce6d658f2g3" version="1">Cover a creature in corrosive acid for as long as you maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;, dealing [1] at the start of each of the creatures turns.</content>
   <content contentuid="hf9f57c0b27324d6fbed44b01467c416e0433" version="1">Caustic Brew</content>
   <content contentuid="h346df748a7bb4c12b509c03ef0db52b80089" version="3">Takes [1] at the start of their turn.</content>
+
+
+
   <content contentuid="hb5289f90ea61416091fe15322a1addbbe680" version="1">Zephyr Strike</content>
   <content contentuid="hc47b89e9b1534c2c8051684ff1bdd6a9eb3c" version="1">Move like the wind, allowing you to avoid provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
   <content contentuid="h05a492451a2247f8b436be418833f3bc8425" version="1">Until the spell ends, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; which deals an additional [1]. Hit or miss, you gain an additional [2] of &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; until the end of that turn.</content>
@@ -103,8 +136,14 @@
   <content contentuid="hb479191dbeb64738b4128663305ff36065f1" version="1">%%% Zephyr Strike Force Damage</content>
   <content contentuid="h9689daef98e8479e8c4d4d276b52107b5c45" version="1">Zephyr Strike: Dash</content>
   <content contentuid="h5bc5a24ccf304742abeda28fe4959908d505" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is increased by [1].</content>
+
+
+
   <content contentuid="h2775a10e3cfb40bbb25470e361c919cca2a5" version="1">Aganazzar's Scorcher</content>
   <content contentuid="hfcd65c1aa3cc41d6a6fade16e4b119835c1d" version="1">Roaring flame emanates from you in a line, dealing [1] to all creatures caught in its path.</content>
+
+
+
   <content contentuid="h16948230a39c4dd3936d444b43ee0d5f80ag" version="1">Borrowed Knowledge</content>
   <content contentuid="h9482278a5fb14cb79f862373ce6cb4eecc91" version="1">Draw on knowledge from spirits of the past and become &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in one skill you lack proficiency in.</content>
   <content contentuid="h8c5c4a7e481a4ce49808887693adc2882ge6" version="1">Draw on knowledge from spirits of the past and gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in [1] if you're not already proficient.</content>
@@ -159,6 +198,9 @@
   <content contentuid="h26beb42fd26a4195bb2c2d6fcf5f4ccf3fcf" version="1">Summon [1] imp familiars that can fly, turn Invisible, and &lt;LSTag Type="Spell" Tooltip="Target_Sting_Imp_Summon"&gt;Sting&lt;/LSTag&gt; enemies.</content>
   <content contentuid="hd9ad2e7dc500448d8d520a30b209ab6c51fg" version="1">Flock of Familiars: Quasit</content>
   <content contentuid="h9242e4621429499fad8be084ac78ff592f8e" version="1">Summon [1] quasit familiars that can turn Invisible and &lt;LSTag Type="Spell" Tooltip="Target_Scare_Quasit_Summon"&gt;Scare&lt;/LSTag&gt; enemies.</content>
+
+
+
   <content contentuid="ha2c6589f2928404785e96ec10900dfca5d3e" version="1">Kinetic Jaunt</content>
   <content contentuid="hf2f7e5edd2314519aa94ac1ad6bb48bacfc8" version="1">Magically empower your movement, giving yourself an additional [1] of &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and the ability to avoid &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
   <content contentuid="h7d925bbafd9d44d7b0fc077f4124cc6b18ga" version="1">Kinetic Jaunt</content>
@@ -176,6 +218,9 @@
   <content contentuid="hafd65bdbg9288gb695g521bg008e8da49e41" version="1">Nathair's Laughter</content>
   <content contentuid="hb5f9a16ag3cafg12begd441g2e2d00c48a30" version="1">Nathair's Slipperiness</content>
   <content contentuid="hf9ab1f88g7345g633fg7c47g53a8dba40a64" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; halved as if walking on &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+
+
+
   <content contentuid="hab68570215174820a1dfcf57feb8e4fc6g33" version="1">Snilloc's Snowball Swarm</content>
   <content contentuid="h97ecd5f088534dc6bca79e51b57fbe1c5a17" version="1">A flurry of magic snowballs erupt around a [1] radius of the targeted area.</content>
 
@@ -192,16 +237,25 @@
   <content contentuid="hebe5ccffd42343b59dbec1abd9dfdc0d7d93" version="1">Affected entity can't take reactions and it must choose whether it uses movement, takes an action, or a bonus action; it gets only one of the three.</content>
   <content contentuid="hf8647f7b6ee84c74bfbaf42469fba0bc6ed9" version="1">Mind Whip: Actions</content>
   <content contentuid="h9a4f58164b104dbcac7b1f3332ae532ac085" version="1">You can't take an action, a bonus action, and movement. If you take an action, you lose a bonus action and movement, and vice versa.</content>
+
+
+
   <content contentuid="heae2c0b0459c4b5c819d95be9afd803f2ff7" version="1">Vortex Warp</content>
   <content contentuid="h516a9c5d69fc4751baf42befc8e096a9604g" version="1">Magically twist space around another creature up to [1] away and teleport them to an unoccupied space.</content>
   <content contentuid="h45a3743e02e748279d369af3b9d5a26ac7e0" version="1">Vortex Warp</content>
   <content contentuid="hdb21976f2999467f8f266654b7263a6e5b17" version="1">Can be teleported by Vortex Warp.</content>
   <content contentuid="h252a44f2b0ce4edbbcf3bd7fe989447cde45" version="1">Vortex Warp</content>
   <content contentuid="h20f4cfb2ca4e414e9c593dacb9112baae305" version="1">Magically twist space around another creature and teleport them up to [1] away.</content>
+
+
+
   <content contentuid="hbaf964f8210c4dc7897832c01a4e0ac77b43" version="1">Antagonize</content>
   <content contentuid="h9ffd976f8c19435db0023cd30d85b942cdd0" version="1">&lt;LSTag Type="Status" Tooltip="ANTAGONIZE"&gt;Antagonize&lt;/LSTag&gt; a creature: they'll have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and can't take reactions until the start of your next turn.</content>
   <content contentuid="h99a69b92725240b1af7a09bc48994314a33b" version="1">Antagonized</content>
   <content contentuid="h8ce0685dfd1e4b91875a11e2ee6b806175da" version="1">Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and can't take reactions.</content>
+
+
+
   <content contentuid="hdbd81402a66649788e1cb3cf37e3b39456c4" version="1">Ashardalon's Stride</content>
   <content contentuid="hd9a6075acbdf4e2c96f573b0fc66276cd9b3" version="1">Billowing dragon flames blast from your feet, burning creatures within [3] for [1].&lt;br&gt;&lt;br&gt;Increases movement speed by [2] and moving no longer provokes &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
   <content contentuid="hd2378a05g1ec0g40a7gb126gda627b6a5d0c" version="1">Increase movement speed by [1] and deal an additional [2] per level.</content>
@@ -210,6 +264,9 @@
   <content contentuid="hef6aeeebbfc1489da8a1faa704114cc86fbd" version="1">%%% EMPTY</content>
   <content contentuid="hc69a515f35eb499f83d72520c0cc3769faga" version="1">Ashardalon's Stride</content>
   <content contentuid="h964e3e6b67354ff08b85a99aa30760e910bd" version="1">Takes [1] per turn.&lt;br&gt;&lt;br&gt;Removed upon leaving the area.</content>
+
+
+
   <content contentuid="hfe17dc7611b04517b992daebbce255a767fg" version="1">Catnap</content>
   <content contentuid="h36ad4a8dd7fd4fdbad55a98e94f8a0e5ba48" version="1">Make a calming gesture that forces targeted allies to fall unconscious and gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   <content contentuid="h4fba505fc0bc483eb7beef4c800dd0e719g5" version="1">Catnap</content>
@@ -220,18 +277,30 @@
   <content contentuid="h03ef0cf094224f2ea43122c3b3a727c45d7a" version="1">Reach into a creature's mind, causing it to lose the ability to distinguish friend from foe.</content>
   <content contentuid="h84ea59633e62409ab267c507f11f898f6632" version="1">Enemies Abound</content>
   <content contentuid="h4d7ba39eb54d42b0abda0c2af0bb6b7131bg" version="1">Affected entity is hostile to everyone and may wander around aimlessly.&lt;br&gt;&lt;br&gt;When it takes damage, the entity can try to shake off the effect.</content>
+
+
+
   <content contentuid="hf77924ed1e7947b88c7d773eb5b928520e53" version="1">Flame Arrows</content>
   <content contentuid="h82fe3a27967840b493718dc8c9706d6e61g7" version="1">Touch a ranged weapon held by a creature, causing up to [1] attacks with it to deal an extra [2].</content>
   <content contentuid="h67a978b368b0464883c846c3a55779c8gd5c" version="1">Flame Arrows</content>
   <content contentuid="h07b3a0ff1295448fa728321716ff8af8gc6d" version="1">Flame Arrows</content>
   <content contentuid="h506945e2a35a4d5fa305be17754b16e63b8b" version="1">Ranged attacks using affected weapon deal an additional [1].</content>
   <content contentuid="hf9ee55c5482b44759d1329a7b8e1f73b441e" version="1">Flame Arrows</content>
+
+
+
   <content contentuid="h468bdf53ac494d6a9818f0b815930612eg33" version="1">Intellect Fortress</content>
   <content contentuid="h85fc623c1ae140fdae8e6a71012ff86df0af" version="1">Grant yourself or a target &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to psychic damage as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
   <content contentuid="h08f655a8dfa449aba2c15f8ddc532601180c" version="1">Intellect Fortress</content>
   <content contentuid="ha5964fac6fd94cabb8e0c3983d97f02c5dc2" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom, and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to psychic damage.</content>
+
+
+
   <content contentuid="h47f34d63b831431dae69ed9f3ef90b14fa3a" version="1">Life Transference</content>
   <content contentuid="h0ea151a495cf473e8e040ee9636dfe5ffa2g" version="1">Sacrifice some of your life to mend another creature's injuries. You take [1] and the targeted creature regains &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; equal to twice the damage you take.</content>
+
+
+
   <content contentuid="h6e3f302bdbae455b864f7b69c9b53857f5cd" version="1">Melf's Minute Meteors</content>
   <content contentuid="ha77075f90f944a82b80eaa46e7173c9a380c" version="1">Conjure [2] flaming meteors that can be sent streaking toward enemies to explode in a [3] radius dealing [1].</content>
   <content contentuid="ha785fc92g442dg8f18gf4c8g115bda549ab9" version="1">Melf's Minute Meteors</content>
@@ -245,12 +314,18 @@
   <content contentuid="h1f265b48gc68dgdc53gb5f2g553895878072" version="2">Melf's Minute Meteors</content>
   <content contentuid="h2f4d92d8gbe40g2cbcgb176gaf8a140fa7f3" version="2">Hurl a minute meteor at the target that explodes in a [1] radius.</content>
   <content contentuid="h3fe0e198gc928gd061g4965gf08db5c18a4d" version="1">Melf's Minute Meteors</content>
+
+
+
   <content contentuid="ha2b90619b523445baac079d2e4222b5e42b6" version="1">Motivational Speech</content>
   <content contentuid="hde0036b00c6541939416660c07929982443a" version="1">Motivate up to 5 creatures. They gain +[1] and advantage on Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;If an affected entity is hit by an attack it has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
   <content contentuid="h3270a52f52b74349974c7c5d179f6e91ca85" version="1">Motivational Speech</content>
   <content contentuid="h77b6bd30699541adb44140e5925a1ac4d80a" version="1">Gain [1] and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; after being hit by an attack.</content>
   <content contentuid="h3490c6e73e914c8faafb88e6af2fc759c8eb" version="1">Motivational Speech: Advantage</content>
   <content contentuid="h5d56dd4b46564a78a1609e93287c094e8d87" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
+
+
   <content contentuid="h1856c4eba0d94eccb40904d7aeb4e05b1b39" version="1">Spirit Shroud</content>
   <content contentuid="h8945ce9a21bf43719d34141a2713ca64337g" version="1">Call forth spirits of the dead that flit around you. Attacks you make against creatures within [1] of you deal an extra [2], [3] or [4] and prevents them from regaining &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
   <content contentuid="h929aa43d272442e28ff30dea3a7ec11bg27f" version="1">Hostile creatures that start their turns within [1] of you have its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; reduced by [1].</content>
@@ -297,6 +372,9 @@
   <content contentuid="he8531410253147d894b162559c56b534g1e3" version="1">Call forth a shadowy spirit that embodies the emotion of Despair, causing creatures other than you within [1] of it to have its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; reduced by [2].</content>
   <content contentuid="h04f9d53b84e74e4fa052465abfed2278d787" version="1">Shadowspawn of Fury</content>
   <content contentuid="h2e4d4956571e44789bd520ae747b489bb681" version="1">Shadowspawn of Despair</content>
+
+
+
   <content contentuid="hd07f975966de4a7897c11837fbcdce503990" version="1">Thunder Step</content>
   <content contentuid="hc373b6071e6f4f008ac4a3b5476e9d6d4d76" version="1">Teleport yourself and up to 1 adjacent ally to a place you can see. A thunderous boom damages all creatures within [1] of the space you left.</content>
   <content contentuid="h8d5887b01ba749b5980ece7d6782e0d8bcf1" version="1">The ally cannot be larger than medium.</content>
@@ -305,9 +383,6 @@
 
 
 
-  <content contentuid="h8b18365fcb3b4be0afd8b153996433afbefb" version="1">Charm Monster</content>
-  <content contentuid="h91921d672e704e25979578327d43ac6bb0cd" version="1">&lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; a creature to prevent it from attacking you. You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; in dialogue.</content>
-  <content contentuid="hd85209ffb4b04373b29429c9e56eb00fd5a9" version="1">Enemies have Advantage on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being Charmed.</content>
   <content contentuid="h3380708b939046f59d55e41bed6cd95ee7e4" version="1">Guardian of Nature</content>
   <content contentuid="hb8daf485b3284487a8d801b05a608d19801g" version="1">Call forth a nature spirit to transform you into a powerful guardian.</content>
   <content contentuid="hbce277098035451faf7e2af3aa220b55d6ac" version="1">Guardian of Nature: Primal Beast</content>
@@ -318,9 +393,15 @@
   <content contentuid="ha16f3f7a4e25402da0fc698ddcb6c29aa6gd" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; increased by [1], gains [2] darkvision, Strength-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and melee weapon attacks deal an extra [3].</content>
   <content contentuid="h147a05ece1774b7f8f1b9c38b13aad7ea210" version="1">Guardian of Nature: Giant Tree</content>
   <content contentuid="h4346cbbafe0e4b0f90775a7cb370fc19a221" version="1">Gains [1].&lt;br&gt;&lt;br&gt;Gains advantage on Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and make Dexterity and Wisdom-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The area within [2] of the entity is considered &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+
+
+
   <content contentuid="hf32c82953b3e4e018aea05eeb56dcf93c5gc" version="1">Raulothim's Psychic Lance</content>
   <content contentuid="h78a0ddfa096f4d61afa696e08049ee431b0d" version="1">Unleash a shimmering lance of psychic power at a creature, possibly causing it to be &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;.</content>
   <content contentuid="h06430c44d23a4ddb932af6f284f4015f1gd6" version="1">Psychic Lance</content>
+
+
+
   <content contentuid="hf16cbee83a864a2dbfb1e08ea7a0db34gfd8" version="1">Shadow of Moil</content>
   <content contentuid="he123686e6d1e4ea9bd8d7f2e4da0735ea3ag" version="1">Flame-like shadows wreathe your body, causing you to gain &lt;LSTag Tooltip="Resistance"&gt;Resistance&lt;/LSTag&gt; to radiant damage and become &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt; to others.</content>
   <content contentuid="h4df3f39aa77747e884dbcdc53073658a245d" version="1">Whenever a creature within [1] hits you with an attack, the shadows lash out at that creature, dealing [2].</content>
@@ -328,6 +409,9 @@
   <content contentuid="hafb5344bb0d54b5da84fdb1b53469fd0bf7d" version="1">The entity is &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt; by thick shadows exuding up to [1] away from it.&lt;br&gt;&lt;br&gt;Gains &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.&lt;br&gt;&lt;br&gt;Creatures attacking the entity within [1] take [2].</content>
   <content contentuid="h9ac347067fae424d872db148e967d27578g0" version="1">Shadow of Moil</content>
   <content contentuid="h196106fc1d01453c9f54105a4bb65aaf4e8b" version="1">Deal [1] when a nearby creature lands an attack.</content>
+
+
+
   <content contentuid="hb818e99f9aa3488bb43811f2528192c70cab" version="1">Storm Sphere</content>
 	<content contentuid="h9c02d5e3dd574b7cb3567b8069bdc5295e09" version="1">A [1] radius sphere of whirling air springs into existence. Creatures in the sphere when it appears or that ends its turn there takes [2]. The sphere’s space is difficult terrain.</content>
 	<content contentuid="h04ae9ae0353c4234b9971419e1dbca4f8d82" version="1">You can use a &lt;LSTag Tooltip="BonusAction"&gt;bonus action&lt;/LSTag&gt; to cause a bolt of lightning to leap from the sphere towards a creature within [1], dealing [2]. You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; if the target is in the sphere.</content>
@@ -345,71 +429,26 @@
   <content contentuid="h9f910885b5c444a4b880896fb0d80df5bbda" version="1">Storm Sphere Shock</content>
   <content contentuid="h8f0f7adb70f4471ea6569a881deecca2gf43" version="1">Call down a lightning bolt to hit a target near the storm sphere.</content>
   <content contentuid="h49c6228b65e0434a9a4efd5255a6ed613aef" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;on the attack roll if the enemy is standing within [1] of the sphere.</content>
-  <content contentuid="h11afdd4e1e3e4dac9f775bf49adc042b8a27" version="1">Summon Aberration</content>
-  <content contentuid="h36d47ce0eb3f4ed0acf8cda0a167ea7b4g95" version="1">Call forth an aberrant spirit of a &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_Beholderkin"&gt;Beholderkin&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_MindFlayer"&gt;Mind Flayer&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_Cloaker"&gt;Cloaker&lt;/LSTag&gt; aberration.</content>
-  <content contentuid="h40a4a36fg2b8dgab41g4904g89b98fbbd134" version="1">Summon Aberration: Beholderkin</content>
-  <content contentuid="h18228036g9c2dg43c8g1bdeg53805a13f4b0" version="1">Summon an aberrant spirit resembling a beholderkin.</content>
-  <content contentuid="h70a0f439fc014eb286073c1d1640748760f9" version="1">Summon Aberration: Mind Flayer</content>
-  <content contentuid="h53aebea815824d23af1fab5dc0803a9cc331" version="1">Summon an aberrant spirit resembling a mind flayer.</content>
-  <content contentuid="hd13ba2fd0e284f2dab7bc75010ea65ea71e0" version="1">Summon Aberration: Cloaker</content>
-  <content contentuid="hfc90a3d4b0a24587a39185087a55fd5eb2c2" version="1">Summon an aberrant spirit resembling a cloaker.</content>
-  <content contentuid="hb62f97230ddc4a69a92af39c14e748733165" version="1">Spectator Spirit</content>
-  <content contentuid="hd5127002fa474af4bbca5921c2712504e8ca" version="1">Mind Flayer Spirit</content>
-  <content contentuid="hc9217267ae424083b634a05353c99abc2g34" version="1">Cloaker Spirit</content>
-  <content contentuid="h3e09786390074680ab7882d358c1dceb911c" version="1">Wounding Ray</content>
-  <content contentuid="h89570a426d904b6088b66f4ac276952cfcb7" version="1">Shoot an eye ray that deals psychic damage.</content>
-  <content contentuid="h9b1e70fd058a42c5a83876dfa26201a6g58d" version="1">Confusion Ray</content>
-  <content contentuid="hcf1d613b61d1418e96373da099e988dce754" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="CONFUSION_RAY"&gt;Befuddles&lt;/LSTag&gt; its target.</content>
-  <content contentuid="h165a5e3c81c24637a733cab32d67866b38g9" version="1">Fear Ray</content>
-  <content contentuid="h0aa28bf0680645fabadb21c5e047e4742c5g" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; its target.</content>
-  <content contentuid="hc86e8360d4544961b947aec7217ed91fc6f9" version="1">Paralyzing Ray</content>
-  <content contentuid="h9ca3577b45d241d5ad8295e7bc8072350151" version="1">Shoot an eye ray that &lt;LSTag Type="Status" Tooltip="PARALYZED_SPECTATOR"&gt;Paralyzes&lt;/LSTag&gt; its target.</content>
-  <content contentuid="h494f7a622b264af5972a52f2b7d0f30265ea" version="1">Psychic Blast</content>
-  <content contentuid="hefc68ba5e2244d6ab1d66347767bc9318934" version="1">Spew forth a conical wave of psychic energy.</content>
-  <content contentuid="h9ad25df25f0241fa9a21887fe50d314a6962" version="1">Bite</content>
-  <content contentuid="h47ec98efec7c49f0a0fd8b895f7a95f6fad9" version="1">Target cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; until the start of your next turn.</content>
-  <content contentuid="h3cc04b4a788d4c0b8cfd479f075ed5a16f2g" version="1">Cloaker Saliva</content>
-  <content contentuid="h7124c740cedd4425b1bbd00e018945b8g47d" version="1">Cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
-  <content contentuid="he1dff96e735b4740969e30b88052af065g0b" version="1">Multiattack</content>
-  <content contentuid="h46df906b9cf648d782c38e2ace6a7a7f7f7e" version="1">Target cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; until the start of your next turn.</content>
-  <content contentuid="h6ce7eb0749c44d7f87d4305c60f759f0ed79" version="1">Regeneration</content>
-  <content contentuid="h6af2d959bbaa442cb5f6cfc5151fc5a23726" version="1">At the beginning of your turn, heal you [1].</content>
-  <content contentuid="hf6cb91b573c945b0be8c5a4f1b75ff5b5237" version="1">Regeneration Technical</content>
-  <content contentuid="h83bf8d7cdcf448a196d2d816f6dc950a87g4" version="1">Whispering Aura</content>
-  <content contentuid="hd26646413b4642adb3439fc28e07aea5g171" version="1">Emits aberrant psionic energy at the start of its turn to all creatures within [1], dealing [2] on a failed Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
-  <content contentuid="hb25e22eb2c0b4a39aff3f910e47a81d66895" version="1">Whispering Aura</content>
-  <content contentuid="hec2371d13aef48bab51af09764072730f048" version="1">Damages all creatures within [1] at the start of its turn.</content>
-  <content contentuid="h0c63477e6e7245d394e3e297f5771afff6a9" version="1">Whispering Aura</content>
-  <content contentuid="hbd1e4eb37e5b4318ac1c81938d313c270762" version="1">This entity's proximity to the mind flayer spirit causes it to be caught up in the aberrant psionic energy. Takes [1] on a failed Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
-  <content contentuid="h42bb971117e84636a420f6c7b5519a06g1fc" version="1">Summon Construct: Metal</content>
-  <content contentuid="h8104cc02de1c481b8e79b92ea0a1df47516a" version="1">Call forth the spirit of a Metal construct that burns enemies for [1] when they land a melee attack.</content>
-  <content contentuid="h3b2c22c788d844709ab9daca586628c71ed7" version="1">Heated Body</content>
-  <content contentuid="h13d5d6d292604891a2a76f96ca619be641e0" version="1">Deal [1] when a nearby creature lands a melee attack.</content>
-  <content contentuid="hfeed65872b78471ea73403134342b7f56df7" version="1">%%% Heated Body VFX</content>
-  <content contentuid="hb687de29ee1f45b2b036b50e2b93980ab3g0" version="1">Summon Elemental</content>
-  <content contentuid="h0c5ea866f175456e8683223d584341209ee7" version="1">Call forth an elemental spirit of air, earth, fire or water that fights alongside you.</content>
-  <content contentuid="he4b3ee8ade2c47f5b269901da95fc760753g" version="1">Thunderous Slam</content>
-  <content contentuid="he600912c27274452a3b358b4b6cf343fcd0a" version="1">Buffet a foe with deafening winds, extinguishing any active fire sources and leaving behind a thick cloud layer.</content>
-  <content contentuid="h3578a06dccc549eba4ce5987aa0d28628118" version="1">Descend on a creature to buffet it with multiple swipes.</content>
-  <content contentuid="h7e1a224ef49240c89e48854e2cd01a13cbe7" version="1">Air Elemental Spirit</content>
-  <content contentuid="h030ed4031c514c928330fcf4748fdee193f0" version="1">Earth Elemental Spirit</content>
-  <content contentuid="hdb7470249d4d444a969854ae503b5281c7a8" version="1">Fire Elemental Spirit</content>
-  <content contentuid="h335b819b8a2241ca9d019cbed53dab8db57f" version="1">Water Elemental Spirit</content>
-  <content contentuid="habc65748041a4329b25810653e36c6fb1d7b" version="1">Summon Elemental: Air Elemental Spirit</content>
-  <content contentuid="hf36dba90f789491e87c71e6a1b7f382d8843" version="1">Call forth an elemental servant of air that fights alongside you.</content>
-  <content contentuid="h9a217870ec0848dfaa5ac2fb31fa9f8c97a9" version="1">Summon Elemental: Earth Elemental Spirit</content>
-  <content contentuid="hbc18cd65a6a34fbf8de28d83b148a5dfc2a2" version="1">Call forth an elemental servant of earth that fights alongside you.</content>
-  <content contentuid="hec507a77cc784d6f82f5766cea1c51a0fg60" version="1">Summon Elemental: Fire Elemental Spirit</content>
-  <content contentuid="he624e64f1ec24175b705ac2a2bcf1c9b1bf2" version="1">Call forth an elemental servant of fire that fights alongside you.</content>
-  <content contentuid="hb4f4720d2f7842e3a9466fba6544b0c474dd" version="1">Summon Elemental: Water Elemental Spirit</content>
-  <content contentuid="hfaf90a46a0704c8ab0355eee9a1f88c28g08" version="1">Call forth an elemental servant of water that fights alongside you.</content>
-  <content contentuid="h80e46b8ed04f4ac0b3b6d141d934b8068a56" version="1">Vitriolic Sphere</content>
-  <content contentuid="h4adff515e6ca4b018595cc4c2a16e8cdg674" version="1">Shoot a glowing ball of green acid that explodes in a [1] radius, covering the ground with acid. Deals [2] immediately and [3] at the end of the target's turn.</content>
-  <content contentuid="h2b156f1440754203a75b90607716f6ac51gb" version="1">Vitriolic Sphere</content>
-  <content contentuid="hb39c26232ba24c51bc408aa278fea1ff2dfd" version="1">Takes [1] at the end of the turn.</content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <content contentuid="haf0cee26f8824ab395852c903f423549g94b" version="1">Far Step</content>
   <content contentuid="h80187f38c5584181ac729e05c757cff57100" version="1">Teleport to an unoccupied space you can see. Until the spell ends, you can teleport in this way again as a bonus action on your turns.</content>
   <content contentuid="hdb9d0e1009ed473eb4aa90fadf451fe3b3cc" version="1">Far Step</content>
+
+
+
   <content contentuid="he2603896a70a419880ab619de9c63cd4ec7d" version="1">Holy Weapon</content>
   <content contentuid="h02c14b5cd6264614a48fcc4c9e32fe2318ab" version="1">Imbue a weapon with holy power. It becomes a magical weapon, emits light in a [1] radius, and deals an extra [2].</content>
   <content contentuid="h0cc34b702e8a434e897ae93362e11b19cea4" version="1">As a bonus action, you can cause the weapon to emit a burst of radiance, dealing [1] to creatures within [2] of you and possibly causing them to be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
@@ -418,11 +457,17 @@
   <content contentuid="h9189e283770845bb8db5e413d58608c6gd86" version="1">Burst of Radiance</content>
   <content contentuid="h53caece39d004e19a189550f3bcd726b6c7g" version="1">Emit a burst of radiance from the weapon, possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; creatures.</content>
   <content contentuid="h3b2660b8aadf47e8942516e03dee022093ag" version="1">This action ends the &lt;LSTag Type="Spell" Tooltip="Target_HolyWeapon"&gt;Holy Weapon&lt;/LSTag&gt; spell.</content>
+
+
+
   <content contentuid="h83048673023247a298d7af2fa293b217eg25" version="1">Maelstrom</content>
 	<content contentuid="h54b6377900874b599a59d1a7a9118d0c18e3" version="1">A swirling mass of [1]-deep water appears in a [2] radius centered on a point you can see within range. Until the spell ends, that area is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, and any creature that starts its turn there must succeed on a Strength saving throw or take damage and be pulled [3] toward the center.</content>
   <content contentuid="ha78ee1c08dd44f16a560fafdd7adb427473e" version="1">Maelstrom Aura</content>
   <content contentuid="h10a17ce583ad4946be6794cb0af3ead9c975" version="1">Maelstrom</content>
   <content contentuid="hdf8ca7bc5db6467ea149c1362f51c70d67a3" version="1">This entity is caught in the maelstrom, taking damage and being pulled toward the center at the start of its turn.</content>
+
+
+
   <content contentuid="h12eee487d7f2403bacd3ab7181d4caa5gd1c" version="1">Negative Energy Flood</content>
   <content contentuid="hc5b84978fff6453a8289270069d0077cbg71" version="1">Send ribbons of negative energy at a creature, dealing [1] if they aren't undead. Targets killed by this damage rise up as a zombie at the start of your next turn and become hostile to all creatures. If the target is an undead, they gain [2] instead.</content>
   <content contentuid="h022cdc4115114575a16605c6e075ee993827" version="1">Negative Energy Flood</content>
@@ -430,26 +475,42 @@
   <content contentuid="h451475b15f834b03b4db183f01c9101ef07d" version="1">Negative Energy Reanimation</content>
   <content contentuid="h6898a9988ad349ed85ff5af00fd29732f2da" version="1">Reanimates as a zombie at the start of next turn.</content>
   <content contentuid="he62a347447f14e8e81729be9bfaa08ce2a58" version="1">%%% Negative Energy Zombie</content>
+
+
+
   <content contentuid="h270256f1aa614f579b78dfe85a4ad63d3ac4" version="1">Steel Wind Strike</content>
   <content contentuid="hcc56eed33dbc4c499a6f279cc9756dc28252" version="1">Flourish a melee weapon and then vanish to strike like the wind, dealing [1] up to five creatures.</content>
   <content contentuid="hb32917af82e94453913069aaaa8e11c1d6ea" version="1">Steel Wind Strike</content>
   <content contentuid="h804efd0bb45d40129f845554ede995d7gbe9" version="1">Before moving again, teleport to a target hit by Steel Wind Strike.</content>
   <content contentuid="hf4e373381cc2482cbad4cac8376f1b5e51fd" version="1">Steel Wind Strike: Teleport</content>
   <content contentuid="h0824617d9bbe4b42a45c5b9d22819ebfe6d8" version="1">Teleport next to a target of Steel Wind Strike.</content>
+
+
+
   <content contentuid="hbf7a8a13cd9d480b857db3f941f54f9904bf" version="1">Swift Quiver</content>
   <content contentuid="h436d18e8dae04e0b9cc950377644eee5e04c" version="1">Transmute your quiver so it produces an endless supply of nonmagical ammunition. You can use a bonus action to make two ranged weapon attacks per turn until the spell ends.</content>
   <content contentuid="h006288d37e144e7f9232f0738389025cdad2" version="1">Swift Quiver</content>
   <content contentuid="h2d6f01ef0dab4e5f8c65f8b32c4248631667" version="1">Swift Quiver</content>
   <content contentuid="h09e2825d36a540b3919576a08332abb4f5ee" version="1">Make two ranged attacks with the equipped weapon.</content>
+
+
+
   <content contentuid="h6cc7d49be35f442ba8790408a40e0bda4eg9" version="1">Synaptic Static</content>
   <content contentuid="h2c0b4ccd4ceb4276b9c688c6555e658c840a" version="1">Detonate psychic energy that inflicts targets with a -1d6 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain concentration.</content>
   <content contentuid="hb8e76ef8ef2341b6b4866713641e7f3b0bb3" version="1">Synaptic Static</content>
   <content contentuid="h63e528aab9d54a70a77f343ad43dedc1ce11" version="1">Has a -1d6 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain concentration. Makes an Intelligence saving throw each turn to break free.</content>
+
+
+
   <content contentuid="h9e6618d00e10482db1678f167f07361be72a" version="1">Tenser's Transformation</content>
   <content contentuid="h07bc85816bef470cb2970d1953b2566dccde" version="1">Endow yourself with endurance and martial prowess fueled by magic, preventing you from casting spells but granting you gain several benefits.</content>
   <content contentuid="h66e537a48cf847f7a453fda2baedc967539d" version="1">When the condition ends, you must pass a DC 15 Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or suffer one level of Exhaustion.</content>
   <content contentuid="h77474fe35b164362a454183f306f9746ee61" version="1">Tenser's Transformation</content>
   <content contentuid="haab44264556a49ba973dde93edcb23b8993d" version="1">This entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with weapons, deals an extra [2] with weapon attacks, has proficiency with all armor, shields and weapons, has proficiency in Strength and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and attack twice, instead of once, when taking the Attack action on its turn.&lt;br&gt;&lt;br&gt;Cannot cast spells.</content>
+
+
+
+
   <content contentuid="h2ad68f012ab944c8aa54b6674755975b78cc" version="1">True Seeing</content>
   <content contentuid="hd316c8afa426409a8356822149ff84b2dg3e" version="1">Touch a creature - it can see &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt; creatures and pierce the planes with its eyes.</content>
   <content contentuid="he9b4c85e59474fd590df1b9e7d2109380c63" version="1">The target can also see through illusions created by spells and automatically save against any that would force a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
