@@ -29,9 +29,18 @@ Shout_WordOfRadiance
 // =========================================================================================
 // 5R 1st Level Spells
 
+// Detect Evil and Good
+Shout_DetectEvilAndGood
+
+// Detect Magic
+Shout_DetectMagic
+
 
 // =========================================================================================
 // 5R 2nd Level Spells
+
+// Continual Flame
+Target_ContinualFlame
 
 
 // =========================================================================================
