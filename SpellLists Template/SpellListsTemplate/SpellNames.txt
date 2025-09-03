@@ -42,6 +42,18 @@ Shout_DetectMagic
 // Continual Flame
 Target_ContinualFlame
 
+// Dragon's Breath
+Target_DragonsBreath_5R
+
+// Mind Spike
+Target_MindSpike_ClassSpell
+
+// Summon Beast
+
+
+// Zone of Truth
+Target_ZoneofTruth
+
 
 // =========================================================================================
 // 5R 3rd Level Spells
