@@ -86,13 +86,7 @@ Shout_AuraOfLife_5R
 Shout_AuraOfPurity
 
 // Charm Monster
-
-
-// Control Water
-
-
-// Stone Shape
-
+Target_CharmMonster_5R
 
 // Summon Aberration
 
@@ -104,7 +98,7 @@ Shout_AuraOfPurity
 
 
 // Vitriolic Sphere
-
+Projectile_VitriolicSphere_5R
 
 // =========================================================================================
 // 5R 5th Level Spells
