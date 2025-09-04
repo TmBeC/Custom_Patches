@@ -58,29 +58,208 @@ Target_ZoneofTruth
 // =========================================================================================
 // 5R 3rd Level Spells
 
+// Create Food and Water
+Shout_CreateFoodAndWater
+
+// Magic Circle
+Target_MagicCircle
+
+// Nondetection
+Target_Nondetection
+
+// Phantom Steed (ritual)
+Target_PhantomSteed
+
+// Water Walk (ritual)
+Target_WaterWalk
 
 // =========================================================================================
 // 5R 4th Level Spells
+
+// Arcane Eye
+
+
+// Aura of Life
+Shout_AuraOfLife_5R
+
+// Aura of Purity
+Shout_AuraOfPurity
+
+// Charm Monster
+
+
+// Control Water
+
+
+// Stone Shape
+
+
+// Summon Aberration
+
+
+// Summon Construct
+
+
+// Summon Elemental
+
+
+// Vitriolic Sphere
 
 
 // =========================================================================================
 // 5R 5th Level Spells
 
+// Bigby's Hand
+
+
+// Circle of Power
+
+
+// Conjure Volley
+
+
+// Creation
+
+
+// Dream
+
+
+// Raise Dead
+
+
+// Steel Wind Strike
+
+
+// Summon Celestial
+
+
+// Summon Dragon
+
+
+// Swift Quiver
+
+
+// Synaptic Static
+
 
 // =========================================================================================
 // 5R 6th Level Spells
+
+// Conjure Fey
+
+
+// True Seeing
 
 
 // =========================================================================================
 // 5R 7th Level Spells
 
+// Delayed Blast Fireball
+
+
+// Divine Word
+
+
+// Etherealness
+
+
+// Finger of Death
+
+
+// Fire Storm
+
+
+// Power Word Fortify
+
+
+// Prismatic Spray
+
+
+// Regenerate
+
+
+// Reverse Gravity
+
+
+// Symbol
+
 
 // =========================================================================================
 // 5R 8th Level Spells
 
+// Animal Shapes
+
+
+// Antimagic Field
+
+
+// Befuddlement
+
+
+// Dominate Monster
+
+
+// Glibness
+
+
+// Holy Aura
+
+
+// Incendiary Cloud
+
+
+// Maze
+
+
+// Mind Blank
+
+
+// Power Word Stun
+
+
+// Sunburst
+
 
 // =========================================================================================
 // 5R 9th Level Spells
+
+// Foresight
+
+
+// Gate
+
+
+// Mass Heal
+
+
+// Meteor Swarm
+
+
+// Power Word Heal
+
+
+// Power Word Kill
+
+
+// Prismatic Wall
+
+
+// Shapechange
+
+
+// Storm of Vengeance
+
+
+// Time Stop
+
+
+// True Resurrection
+
+
+// Weird
+
+
+// Wish
 
 
 // =========================================================================================
@@ -89,41 +268,331 @@ Target_ZoneofTruth
 // =========================================================================================
 // Cantrips
 
+// Control Flames
+
+
+// Create Bonfire
+
+
+// Frostbite
+
+
+// Gust
+
+
+// Infestation
+
+
+// Magic Stone
+
+
+// Mold Earth
+
+
+// Primal Savagery
+
+
+// Sapping Sting (Dunamancy)
+
+
+// Shape Water
+
 
 // =========================================================================================
 // 1st Level Spells
+
+// Absorb Elements
+
+
+// Beast Bond
+
+
+// Catapult
+
+
+// Cause Fear
+
+
+// Ceremony
+
+
+// Chaos Bolt
+
+
+// Earth Tremor
+
+
+// Frost Fingers
+
+
+// Gift of Alacrity (Chronurgy)
+
+
+// Magnify Gravity (Graviturgy)
+
+
+// Silvery Barbs
+
+
+// Snare
+
+
+// Tasha's Caustic Brew
+
+
+// Zephyr Strike
 
 
 // =========================================================================================
 // 2nd Level Spells
 
+// Aganazzar's Scorcher
+
+
+// Borrowed Knowledge
+
+
+// Dust Devil
+
+
+// Earthbind
+
+
+// Flock of Familiars
+
+
+// Fortune's Favor (Chronurgy)
+
+
+// Healing Spirit
+
+
+// Kinetic Jaunt
+
+
+// Maximillian's Earthen Grasp
+
+
+// Nathair's Mischief
+
+
+// Pyrotechnics
+
+
+// Rime's Binding Ice
+
+
+// Snilloc's Snowball Swarm
+
+
+// Tasha's Mind Whip
+
+
+// Vortex Warp
+
+
+// Volley of Arrows
+
+
+// Warding Wind
+
+
+// Wither and Bloom
+
 
 // =========================================================================================
 // 3rd Level Spells
+
+// Antagonize
+
+
+// Ashardalon's Stride
+
+
+// Catnap
+
+
+// Enemies Abound
+
+
+// Erupting Earth
+
+
+// Flame Arrows
+
+
+// Incite Greed
+
+
+// Intellect Fortress
+
+
+// Life Transference
+
+
+// Melf's Minute Meteors
+
+
+// Motivational Speech
+
+
+// Pulse Wave (Dunamancy)
+
+
+// Spirit Shroud
+
+
+// Summon Lesser Demons
+
+
+// Summon Shadowspawn
+
+
+// Thunder Step
+
+
+// Tidal Wave
 
 
 // =========================================================================================
 // 4th Level Spells
 
+// Elemental Bane
+
+
+// Gravity Sinkhole (Graviturgy)
+
+
+// Guardian of Nature
+
+
+// Raulothim's Psychic Lance
+
+
+// Shadow of Moil
+
+
+// Storm Sphere
+
+
+// Summon Greater Demon
+
 
 // =========================================================================================
 // 5th Level Spells
+
+// Control Winds
+
+
+// Danse Macabre
+
+
+// Dawn
+
+
+// Enervation
+
+
+// Far Step
+
+
+// Infernal Calling
+
+
+// Holy Weapon
+
+
+// Immolation
+
+
+// Maelstrom
+
+
+// Negative Energy Flood
+
+
+// Temporal Shunt (Chronurgy)
 
 
 // =========================================================================================
 // 6th Level Spells
 
+// Gravity Fissure (Chronurgy)
+
+
+// Investiture of Flame
+
+
+// Investiture of Ice
+
+
+// Investiture of Stone
+
+
+// Investiture of Wind
+
+
+// Primordial Ward
+
+
+// Tasha's Otherwordly Guise
+
+
+// Tenser's Transformation
+
 
 // =========================================================================================
 // 7th Level Spells
+
+// Crown of Stars
+
+
+// Draconic Transformation
+
+
+// Power Word Pain
+
+
+// Whirlwind
 
 
 // =========================================================================================
 // 8th Level Spells
 
+// Abi-Dalzim's Horrid Wilting
+
+
+// Dark Star (Chronurgy)
+
+
+// Illusory Dragon
+
+
+// Maddening Darkness
+
+
+// Reality Break (Chronurgy)
+
 
 // =========================================================================================
 // 9th Level Spells
+
+// Blade of Disaster
+
+
+// Invulnerability
+
+
+// Mass Polymorph
+
+
+// Psychic Scream
+
+
+// Ravenous Void (Chronurgy)
+
+
+// Time Ravage (Chronurgy)
 
 
 

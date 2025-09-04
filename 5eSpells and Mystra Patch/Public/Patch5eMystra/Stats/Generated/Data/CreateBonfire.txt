@@ -1,4 +1,0 @@
-new entry "Target_CreateBonfire"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_UnarmedAttack"
