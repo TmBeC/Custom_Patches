@@ -103,6 +103,9 @@ Projectile_VitriolicSphere_5R
 // =========================================================================================
 // 5R 5th Level Spells
 
+// Antilife Shell
+Shout_AntilifeShell
+
 // Bigby's Hand
 
 
