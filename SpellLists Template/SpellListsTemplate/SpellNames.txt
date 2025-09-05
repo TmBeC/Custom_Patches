@@ -115,17 +115,14 @@ Shout_CircleOfPower
 // Conjure Volley
 ProjectileStrike_ConjureVolley
 
-// Creation
-
-
-// Dream
+// remove "Dream" from spell lists
 
 
 // Raise Dead
-
+Target_RaiseDead
 
 // Steel Wind Strike
-
+Projectile_SteelWindStrikeNew
 
 // Summon Celestial
 
