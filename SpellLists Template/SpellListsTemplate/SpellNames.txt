@@ -35,9 +35,15 @@ Shout_DetectEvilAndGood
 // Detect Magic
 Shout_DetectMagic
 
+// Unseen Servant
+Target_UnseenServant
+
 
 // =========================================================================================
 // 5R 2nd Level Spells
+
+// Alter Self
+Shout_AlterSelf
 
 // Continual Flame
 Target_ContinualFlame
@@ -112,6 +118,9 @@ Shout_AntilifeShell
 // Circle of Power
 Shout_CircleOfPower
 
+// Commune with Nature
+Shout_CommuneWithNature
+
 // Conjure Volley
 ProjectileStrike_ConjureVolley
 
@@ -151,16 +160,16 @@ Teleportation_TeleportationCircle
 
 
 // True Seeing
-
+Target_TrueSeeing
 
 // =========================================================================================
 // 5R 7th Level Spells
 
 // Delayed Blast Fireball
-
+Projectile_ATT_DelayedBlastFireball
 
 // Divine Word
-
+Shout_DivineWord
 
 // Etherealness
 
