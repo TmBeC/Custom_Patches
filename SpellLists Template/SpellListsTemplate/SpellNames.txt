@@ -110,10 +110,10 @@ Shout_AntilifeShell
 
 
 // Circle of Power
-
+Shout_CircleOfPower
 
 // Conjure Volley
-
+ProjectileStrike_ConjureVolley
 
 // Creation
 
