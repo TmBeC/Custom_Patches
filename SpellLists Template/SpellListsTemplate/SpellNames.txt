@@ -115,8 +115,12 @@ Shout_CircleOfPower
 // Conjure Volley
 ProjectileStrike_ConjureVolley
 
+
 // remove "Dream" from spell lists
 
+
+// Mislead
+Target_Mislead
 
 // Raise Dead
 Target_RaiseDead
@@ -131,9 +135,13 @@ Projectile_SteelWindStrikeNew
 
 
 // Swift Quiver
-
+Shout_SwiftQuiver_5R
 
 // Synaptic Static
+Target_SynapticStatic_5R
+
+// Teleportation Circle
+Teleportation_TeleportationCircle
 
 
 // =========================================================================================
