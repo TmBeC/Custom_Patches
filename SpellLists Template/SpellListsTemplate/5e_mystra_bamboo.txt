@@ -1,0 +1,56 @@
+Duplicated spells that do not stack with each other
+﻿
+Spell Name﻿﻿﻿ - ﻿﻿﻿﻿﻿﻿﻿Version retained
+
+Cantrips
+Booming Blade﻿﻿﻿﻿﻿﻿﻿ - ﻿﻿﻿﻿﻿5e
+Infestation﻿﻿﻿ - 5e
+Magic Stone﻿﻿﻿﻿﻿﻿﻿ - ﻿﻿﻿﻿﻿5e
+Mind Sliver﻿﻿﻿﻿﻿﻿﻿﻿ - 5e
+Mold Earth﻿﻿﻿﻿﻿﻿﻿﻿ - 5e
+Shape Water﻿﻿﻿ - 5e
+
+Level 1
+Absorb Elements﻿﻿﻿﻿﻿﻿ - 5e
+Chaos Bolt﻿﻿﻿﻿﻿﻿﻿﻿ - 5e
+Tasha's Caustic Brew﻿﻿﻿﻿﻿ - ﻿﻿﻿﻿5e
+
+Level 2
+Aganazzar's Scorcher﻿﻿﻿﻿﻿ - 5e
+Dust Devil﻿﻿﻿﻿﻿﻿﻿﻿ - 5e
+Maximilian's Earthen Grasp﻿﻿﻿ - 5e
+Snilloc's Snowball Swarm﻿﻿﻿﻿ - 5e
+Tasha's Mind Whip﻿﻿﻿﻿﻿﻿ - 5e
+
+Level 3
+Create Food and Water﻿﻿﻿ - 5e
+Melf's Minute Meteors﻿﻿﻿ - 5e
+Summon Fey﻿﻿﻿﻿﻿﻿﻿ - ﻿﻿﻿﻿Mystra
+Water Walk﻿﻿﻿﻿﻿﻿﻿﻿ - Mystra
+
+Level 4
+Arcane Eye﻿﻿﻿﻿﻿﻿﻿﻿ - 5e
+Raulothim's Psychic Lance﻿﻿﻿﻿ - 5e
+Summon Aberration﻿﻿﻿﻿﻿ - ﻿﻿﻿﻿Mystra
+
+Level 5
+Far Step﻿﻿﻿﻿﻿﻿﻿﻿ - 5e
+Steel Wind Strike﻿﻿﻿ - Mystra
+Summon Draconic Spirit﻿ -﻿﻿ Mystra
+
+Level 6
+None
+
+
+Conflicting Spells Fixed
+
+Depending on the load order, the corresponding version of the following spells will now function properly.
+
+Shape Water
+Magic Stone
+Dust Devil
+
+
+Following spells are fixed to a version that merges both.
+
+Spirit Shroud
