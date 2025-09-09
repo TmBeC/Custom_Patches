@@ -1,0 +1,71 @@
+patch
+
+
+counterspellfixes
+
+new entry "Interrupt_Counterspell"
+type "InterruptData"
+using "Interrupt_Counterspell"
+data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})"
+
+
+
+silencedfix
+
+new entry "ShadowVine"
+type "Character"
+using "ShadowVine"
+data "PersonalStatusImmunities" "SCL_SHADOW_CURSE_UNDEAD;SILENCED;SG_Silenced;CRIPPLED;BLEEDING;CHEST_TRAUMA;GAPING_WOUND;SG_Charmed;SG_Frightened;SG_Prone;SG_RAW_Prone;SG_Blinded;SG_Restrained;DIFFICULT_TERRAIN;DIFFICULT_TERRAIN_VINES;DIFFICULT_TERRAIN_WEB;DIFFICULT_TERRAIN_MUD;DIFFICULT_TERRAIN_OVERGROWTH;DIFFICULT_TERRAIN_DEEPWATER"
+
+new entry "ShadowVine_Giant"
+type "Character"
+using "ShadowVine_Giant"
+data "PersonalStatusImmunities" "SCL_SHADOW_CURSE_UNDEAD;SILENCED;SG_Silenced;CRIPPLED;BLEEDING;CHEST_TRAUMA;GAPING_WOUND;SG_Charmed;SG_Frightened;SG_Prone;SG_RAW_Prone;SG_Blinded;SG_Restrained;DIFFICULT_TERRAIN;DIFFICULT_TERRAIN_VINES;DIFFICULT_TERRAIN_WEB;DIFFICULT_TERRAIN_MUD;DIFFICULT_TERRAIN_OVERGROWTH;DIFFICULT_TERRAIN_DEEPWATER"
+
+new entry "Interrupt_CuttingWords"
+type "InterruptData"
+using "Interrupt_CuttingWords"
+data "EnableCondition" "(not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})) and not HasStatus('SG_Silenced')"
+
+
+
+
+
+uncannydodgefix
+
+new entry "Interrupt_UncannyDodge"
+type "InterruptData"
+using "Interrupt_UncannyDodge"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and IsHit() or IsCritical() and not IsInvisibleState(context.Target) and not AnyEntityIsItem() and HasLastAttackTriggered()"
+data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})"
+
+
+
+
+
+
+
+more mimics
+
+new entry "Mimic"
+type "Character"
+using "Mimic"
+data "Armor" "12"
+data "DefaultBoosts" "Skill(Stealth,5);Initiative(3);BlockRegainHP(Undead;Construct)"
+data "PersonalStatusImmunities" "SG_Prone;PRONE_ICE;PRONE_FALLEN;PRONE;ACID"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:6;ReactionActionPoint:1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
