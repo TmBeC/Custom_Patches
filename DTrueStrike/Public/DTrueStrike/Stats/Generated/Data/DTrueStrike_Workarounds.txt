@@ -1,0 +1,29 @@
+new entry "DWE_TRUE_STRIKE_WORKAROUND_COMMON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "DWE_TrueStrike_Melee_Status"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisablePortraitIndicator;DisableOverhead;DisableCombatlog"
+
+new entry "MAG_CharismaCaster_CantripBooster_Passive_DWE_TrueStrike"
+type "PassiveData"
+using "MAG_CharismaCaster_CantripBooster_Passive"
+data "Boosts" "IF(HasStatus('DWE_TRUE_STRIKE',context.Source) and not IsCantrip()):DamageBonus(max(1,CharismaModifier))"
+
+new entry "DWE_TRUE_STRIKE_CHARISMACASTER_CANTRIPBOOSTER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DWE_TRUE_STRIKE_WORKAROUND_COMMON"
+data "Passives" "MAG_CharismaCaster_CantripBooster_Passive_DWE_TrueStrike"
+
+new entry "MAG_Gish_ArcaneSynergy_Ring_Passive_DWE_TrueStrike"
+type "PassiveData"
+using "MAG_Gish_ArcaneSynergy_Ring_Passive"
+data "StatsFunctors" "IF(HasStatus('DWE_TRUE_STRIKE',context.Source) and not IsCantrip()):ApplyStatus(SELF, MAG_GISH_ARCANE_SYNERGY, 100, 2)"
+
+new entry "DWE_TRUE_STRIKE_ARCANESYNERGY_RING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DWE_TRUE_STRIKE_WORKAROUND_COMMON"
+data "Passives" "MAG_Gish_ArcaneSynergy_Ring_Passive_DWE_TrueStrike"
+

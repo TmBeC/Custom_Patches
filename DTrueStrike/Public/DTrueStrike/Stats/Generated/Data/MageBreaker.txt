@@ -1,0 +1,5 @@
+new entry "FavoredEnemy_MageBreaker"
+type "PassiveData"
+using "FavoredEnemy_MageBreaker"
+data "Boosts" "ProficiencyBonus(Skill,Arcana);UnlockSpell(Target_DWE_TrueStrike,,,,Wisdom)"
+

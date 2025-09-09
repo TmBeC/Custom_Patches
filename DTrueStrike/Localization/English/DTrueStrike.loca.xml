@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h9a3898ebg0ac4g4655ga8cbg9f4c78efc597" version="1">Make a weapon attack using your &lt;LSTag Tooltip="[1]"&gt;[2]&lt;/LSTag&gt; for the &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls. Deals an extra [3].</content>
+	<content contentuid="hfce2f013gaab0g4351g9323g50160f5373de" version="1">Auto True Strike (Melee)</content>
+	<content contentuid="hb2130251g7921g4058gafd8g33cb4be5a8e7" version="1">Auto True Strike (Ranged)</content>
+	<content contentuid="h29a0a2d5gd2f9g4302gbfe8g12e2c52f8ed7" version="1">Toggle treating weapon attacks as casts of &lt;LSTag Type="Spell" Tooltip="Target_DWE_TrueStrike"&gt;True Strike&lt;/LSTag&gt;, when applicable.</content>
+	<content contentuid="h5e240d81gb825g4eb7g86beg779034e93752" version="1">Radiant (Melee)</content>
+	<content contentuid="h92171838ga432g4297gb11dg75a8bc0968c3" version="1">Radiant (Ranged)</content>
+	<content contentuid="h229e91b5ga67cg4610g980cgc94d879a6f4c" version="1">Toggle converting weapon damage to [1].</content>
+	<content contentuid="hc16cb136g5a51g4774ga9adg18d8339d2a01" version="1">Not proficient with equipped weapon.</content>
+	<content contentuid="hb9e4d260g668ag4e8ag8848g443a35915784" version="1">&lt;b&gt;Requires Script Extender!&lt;/b&gt;&lt;br&gt;If already installed, enable its console and check for errors there.</content>
+	<content contentuid="h562e2e81g9de1g4c3dgabcfgc4f20663c9a9" version="1">Enabled</content>
+	<content contentuid="hffd9049fg8fd5g4e87gbfd9g16eee49fb8f0" version="1">Compatible melee attacks will be treated as &lt;LSTag Type="Spell" Tooltip="Target_DWE_TrueStrike_Melee"&gt;True Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="hcfa47058g2464g4e48gb703gd7671febbb71" version="1">Enabled</content>
+	<content contentuid="h4c0dfc77ge6d2g4843gb6deg6e86b6bb78ee" version="1">Compatible ranged attacks will be treated as &lt;LSTag Type="Spell" Tooltip="Projectile_DWE_TrueStrike_Ranged"&gt;True Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="h58e47244g8b38g40a8ga961ga5d0cafe134e" version="1">Enabled</content>
+	<content contentuid="hee71a6e4g2f46g48a2g8011g7b786f26578a" version="1">Melee weapon damage dealt by &lt;LSTag Type="Spell" Tooltip="Target_DWE_TrueStrike_Melee"&gt;True Strike&lt;/LSTag&gt; will be converted to Radiant.</content>
+	<content contentuid="h6e143cc8g1b09g4ad9gb9a8g89894510e304" version="1">Enabled</content>
+	<content contentuid="h1ad6d174gd408g403fg943egf67da0f33349" version="1">Ranged weapon damage dealt by &lt;LSTag Type="Spell" Tooltip="Projectile_DWE_TrueStrike_Ranged"&gt;True Strike&lt;/LSTag&gt; will be converted to Radiant.</content>
+</contentList>

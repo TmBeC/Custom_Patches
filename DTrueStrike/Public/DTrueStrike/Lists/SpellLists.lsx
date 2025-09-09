@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+					<attribute id="MergedInto" type="guid" value="64784e08-e31e-4850-a743-ecfb3fd434d7" />
+					<attribute id="Name" type="FixedString" value="True Strike 2024 SpellSniperAttackSpells" />
+					<attribute id="Spells" type="LSString" value="Target_DWE_TrueStrike" />
+					<attribute id="UUID" type="guid" value="a7ffb4aa-f830-41ab-b1e2-af4271cdbe43" />
+				</node>
+        <node id="SpellList">
+					<attribute id="MergedInto" type="guid" value="61f79a30-2cac-4a7a-b5fe-50c89d307dd6" />
+					<attribute id="Name" type="FixedString" value="True Strike 2024 Bard cantrip" />
+					<attribute id="Spells" type="LSString" value="Target_DWE_TrueStrike" />
+					<attribute id="UUID" type="guid" value="9fd5361e-5508-458f-8c49-83f8a7b2ab12" />
+				</node>
+        <node id="SpellList">
+					<attribute id="MergedInto" type="guid" value="485a68b4-c678-4888-be63-4a702efbe391" />
+					<attribute id="Name" type="FixedString" value="True Strike 2024 Sorcerer cantrips" />
+					<attribute id="Spells" type="LSString" value="Target_DWE_TrueStrike" />
+					<attribute id="UUID" type="guid" value="04a4850e-751c-46bd-ba4a-44a02f7b3b74" />
+				</node>
+        <node id="SpellList">
+					<attribute id="MergedInto" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40" />
+					<attribute id="Name" type="FixedString" value="True Strike 2024 Warlock cantrips (Charisma)" />
+					<attribute id="Spells" type="LSString" value="Target_DWE_TrueStrike" />
+					<attribute id="UUID" type="guid" value="a403fbe8-110b-4e9c-b864-c54ef7e79410" />
+				</node>
+        <node id="SpellList">
+					<attribute id="MergedInto" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa" />
+					<attribute id="Name" type="FixedString" value="True Strike 2024 Wizard cantrips (Intelligence)" />
+					<attribute id="Spells" type="LSString" value="Target_DWE_TrueStrike" />
+					<attribute id="UUID" type="guid" value="a8a9928a-e439-4c8a-b998-e92683675070" />
+				</node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,0 +1,41 @@
+local __util = require 'larian.util'
+
+function DWE_TrueStrike_ScriptExtenderError()
+	return ConditionResult(false, { ConditionError("DWE_TrueStrike_Err_ScriptExtender") })
+end
+
+function DWE_TrueStrike_Common_Requirements()
+	return ~HasAnyExtraAttack()
+end
+
+function DWE_TrueStrike_IsProficientWithWeaponInSlot(slot, entity)
+	entity = entity or context.Target
+
+	local weapon = GetItemInEquipmentSlot(slot, entity)
+	if not weapon.IsValid() then
+		return ConditionResult(false)
+	end
+	local result = IsProficientWith(entity, weapon)
+	return ConditionResult(result.Result, { ConditionError("DWE_TrueStrike_Err_NotProficient") })
+end
+
+function DWE_TrueStrike_Melee_Requirements()
+	local result = DWE_TrueStrike_Common_Requirements()
+	if not result.Result then
+		return result
+	end
+	return DWE_TrueStrike_IsProficientWithWeaponInSlot(EquipmentSlot.MeleeMainHand)
+end
+
+function DWE_TrueStrike_Ranged_Requirements()
+	local result = DWE_TrueStrike_Common_Requirements()
+	if not result.Result then
+		return result
+	end
+	return DWE_TrueStrike_IsProficientWithWeaponInSlot(EquipmentSlot.RangedMainHand)
+end
+
+function DWE_TrueStrike_Toggle_Requirements()
+	-- disable so that the container icon won't be enabled when no attacks are available
+	return HasActionResource('ActionPoint', 1, 0)
+end
