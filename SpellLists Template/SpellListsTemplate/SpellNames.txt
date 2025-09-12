@@ -172,28 +172,28 @@ Projectile_ATT_DelayedBlastFireball
 Shout_DivineWord
 
 // Etherealness
-
+Target_ATT_Etherealness
 
 // Finger of Death
-
+Projectile_VlaakithBeam
 
 // Fire Storm
-
+Target_FireStorm
 
 // Power Word Fortify
-
+Target_ATT_PowerWordFortify
 
 // Prismatic Spray
-
+Zone_PrismaticSpray
 
 // Regenerate
-
+Target_Regenerate
 
 // Reverse Gravity
-
+Target_ATT_ReverseGravity
 
 // Symbol
-
+Target_ATT_Symbol
 
 // =========================================================================================
 // 5R 8th Level Spells
