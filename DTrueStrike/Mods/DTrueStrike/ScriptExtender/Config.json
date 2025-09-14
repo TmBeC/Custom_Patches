@@ -1,5 +1,0 @@
-{
-    "RequiredVersion": 22,
-    "ModTable": "DTrueStrike",
-    "FeatureFlags": [ "Lua" ]
-}

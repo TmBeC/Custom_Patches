@@ -1,155 +1,73 @@
 // =========================================================================================
 // 5R Cantrips
 
-// Druidcraft
-Target_Druidcraft
-
-// Mind Sliver
-Projectile_MindSliver
-
-// Prestidigitation
-Target_Prestidigitation
-
-// Spare the Dying
+Target_Druidcraft_5R
+Projectile_MindSliver_5R
+Target_Prestidigitation_5R
 Target_SpareTheDying
-
-// Starry Wisp
 Projectile_StarryWisp
-
-// Thunderclap
-Shout_Thunderclap
-
-// True Strike
+Shout_Thunderclap_5R
 Target_DWE_TrueStrike
-
-// Word of Radiance
-Shout_WordOfRadiance
+Shout_WordOfRadiance_5R
 
 
 // =========================================================================================
 // 5R 1st Level Spells
 
-// Detect Evil and Good
 Shout_DetectEvilAndGood
-
-// Detect Magic
 Shout_DetectMagic
-
-// Unseen Servant
 Target_UnseenServant
 
 
 // =========================================================================================
 // 5R 2nd Level Spells
 
-// Alter Self
 Shout_AlterSelf
-
-// Continual Flame
 Target_ContinualFlame
-
-// Dragon's Breath
 Target_DragonsBreath_5R
-
-// Mind Spike
 Target_MindSpike_ClassSpell
-
 // Summon Beast
-
-
-// Zone of Truth
-Target_ZoneofTruth
+Target_ZoneofTruth_5R
 
 
 // =========================================================================================
 // 5R 3rd Level Spells
 
-// Create Food and Water
-Shout_CreateFoodAndWater
-
-// Magic Circle
-Target_MagicCircle
-
-// Nondetection
-Target_Nondetection
-
+Shout_CreateFoodAndWater_5R
+Target_MagicCircle_5R
+Target_Nondetection_5R
 // Phantom Steed (ritual)
-Target_PhantomSteed
-
+Target_PhantomSteed_5R
 // Water Walk (ritual)
-Target_WaterWalk
+Target_WaterWalk_5R
 
 // =========================================================================================
 // 5R 4th Level Spells
 
 // Arcane Eye
-
-
-// Aura of Life
 Shout_AuraOfLife_5R
-
-// Aura of Purity
-Shout_AuraOfPurity
-
-// Charm Monster
+Shout_AuraOfPurity_5R
 Target_CharmMonster_5R
-
 // Summon Aberration
-
-
 // Summon Construct
-
-
 // Summon Elemental
-
-
-// Vitriolic Sphere
 Projectile_VitriolicSphere_5R
 
 // =========================================================================================
 // 5R 5th Level Spells
 
-// Antilife Shell
 Shout_AntilifeShell
-
 // Bigby's Hand
-
-
-// Circle of Power
 Shout_CircleOfPower
-
-// Commune with Nature
 Shout_CommuneWithNature
-
-// Conjure Volley
 ProjectileStrike_ConjureVolley
-
-
-// remove "Dream" from spell lists
-
-
-// Mislead
 Target_Mislead
-
-// Raise Dead
-Target_RaiseDead
-
-// Steel Wind Strike
+Target_RaiseDead_5R
 Projectile_SteelWindStrikeNew
-
 // Summon Celestial
-
-
 // Summon Dragon
-
-
-// Swift Quiver
 Shout_SwiftQuiver_5R
-
-// Synaptic Static
 Target_SynapticStatic_5R
-
-// Teleportation Circle
 Teleportation_TeleportationCircle
 
 
@@ -157,42 +75,20 @@ Teleportation_TeleportationCircle
 // 5R 6th Level Spells
 
 // Conjure Fey
-
-
-// True Seeing
 Target_TrueSeeing
 
 // =========================================================================================
 // 5R 7th Level Spells
 
-// Delayed Blast Fireball
 Projectile_ATT_DelayedBlastFireball
-
-// Divine Word
 Shout_DivineWord
-
-// Etherealness
 Target_ATT_Etherealness
-
-// Finger of Death
 Projectile_VlaakithBeam
-
-// Fire Storm
 Target_FireStorm
-
-// Power Word Fortify
 Target_ATT_PowerWordFortify
-
-// Prismatic Spray
 Zone_PrismaticSpray
-
-// Regenerate
 Target_Regenerate
-
-// Reverse Gravity
 Target_ATT_ReverseGravity
-
-// Symbol
 Target_ATT_Symbol
 
 // =========================================================================================
@@ -770,7 +666,7 @@ Target_VortexWarp
 Shout_WardingWind
 
 (Zone of Truth)
-Target_ZoneofTruth
+Target_ZoneofTruth_5R
 
 
 // 3rd Level Spells
@@ -814,7 +710,7 @@ Shout_MinuteMeteors
 Target_MotivationalSpeech
 
 (Nondetection)
-Target_Nondetection
+Target_Nondetection_5R
 
 (Psionic Blast)
 Zone_PsionicBlast
@@ -855,7 +751,7 @@ Shout_AuraOfLife_5R
 Shout_AuraOfPurity_5R
 
 (Charm Monster)
-Target_CharmMonster
+Target_CharmMonster_5R
 
 (Ego Whip)
 Target_EgoWhip
@@ -891,7 +787,7 @@ Target_SummonElemental
 Target_SummonGreaterDemon
 
 (Vitriolic Sphere)
-Projectile_VitriolicSphere
+Projectile_VitriolicSphere_5R
 
 
 // 5th Level Spells
@@ -914,7 +810,7 @@ ProjectileStrike_ConjureVolley
 Target_DanseMacabre_Container
 
 (Dream)
-Target_DreamSleep
+
 
 (Enervation)
 Projectile_Enervation
@@ -941,22 +837,22 @@ Target_Mislead
 Projectile_NegativeEnergyFlood
 
 (Raise Dead)
-Target_RaiseDead
+Target_RaiseDead_5R
 
 (Skill Empowerment)
 Target_SkillEmpowerment
 
 (Steel Wind Strike)
-Projectile_SteelWindStrike
+Projectile_SteelWindStrikeNew
 
 (Summon Dragon)
 Target_SummonDragon
 
 (Swift Quiver)
-Shout_SwiftQuiver
+Shout_SwiftQuiver_5R
 
 (Synaptic Static)
-Target_SynapticStatic
+Target_SynapticStatic_5R
 
 (Teleportation Circle)
 Teleportation_TeleportationCircle
@@ -1002,7 +898,7 @@ Zone_ATT_FizbanTransform
 Target_ATT_Etherealness
 
 (Finger of Death)
-Projectile_FingerOfDeath
+Projectile_VlaakithBeam
 
 (Fire Storm)
 Target_FireStorm

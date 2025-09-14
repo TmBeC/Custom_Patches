@@ -117,7 +117,7 @@ Slevel 9
                 </node>
 
 lvl 3
-Shout_AlterSelf;Projectile_ChromaticOrb;Target_Command_Container;Target_DragonsBreath
+Shout_AlterSelf;Projectile_ChromaticOrb;Target_Command_Container;Target_DragonsBreath_5R
 
 lvl 5
 Zone_Fear;Target_Fly

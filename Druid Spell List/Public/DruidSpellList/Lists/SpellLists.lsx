@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid Cantrips 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Target_Elementalism;Target_Frostbite;Target_Guidance;Target_Infestation;Target_MagicStone;Target_Mending;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap"/>
+                    <attribute id="Spells" type="LSString" value="Target_Druidcraft_5R;Target_Elementalism;Target_Frostbite;Target_Guidance;Target_Infestation;Target_MagicStone;Target_Mending;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap_5R"/>
                     <attribute id="UUID" type="guid" value="becccd0e-9617-4140-8d97-968229e60b6a"/>
                 </node>
                 <node id="SpellList">
@@ -21,12 +21,12 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 3 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_EruptingEarth;Target_FeignDeath;Target_FlameArrows;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_Summon_Fey;Target_TidalWave;Target_WaterWalk"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_EruptingEarth;Target_FeignDeath;Target_FlameArrows;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_Summon_Fey;Target_TidalWave;Target_WaterWalk_5R"/>
                     <attribute id="UUID" type="guid" value="66998e83-4933-4ea9-99f9-347a1bca1b27"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 4 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_ElementalBane;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Target_SummonElemental;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster_5R;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_ElementalBane;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Target_SummonElemental;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="cb4963d3-68ad-41f9-aaca-097c5e3f2f74"/>
                 </node>
                 <node id="SpellList">

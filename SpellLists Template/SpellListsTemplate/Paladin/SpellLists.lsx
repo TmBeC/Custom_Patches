@@ -192,7 +192,7 @@ Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith
 Shout_SacredWeapon (CD)
 
 lvl 5
-Shout_Aid;Target_ZoneofTruth
+Shout_Aid;Target_ZoneofTruth_5R
 
 lvl 7
 Shout_AuraOf_Devotion
@@ -307,7 +307,7 @@ Shout_Champion_Challenge (CD)
 Shout_TurnTheTide (CD)
 
 lvl 5
-Target_WardingBond;Target_ZoneofTruth
+Target_WardingBond;Target_ZoneofTruth_5R
 
 lvl 7
 <<DivineAllegiance passive>>
