@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma) 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Target_MageHand;Target_MagicStone;Projectile_MindSliver_5R;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation_5R;Shout_SwordBurst;Shout_Thunderclap_5R;Target_TollTheDead;Target_DWE_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Target_MageHand;Target_MagicStone;Projectile_MindSliver_5R;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation_5R;Shout_SwordBurst;Shout_Thunderclap_5R;Target_TollTheDead;Target_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="6bf2ff82-91f1-4487-9f98-1e1fc55a1ef8"/>
                 </node>
                 <node id="SpellList">

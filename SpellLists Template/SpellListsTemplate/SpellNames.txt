@@ -7,7 +7,6 @@ Target_Prestidigitation_5R
 Target_SpareTheDying
 Projectile_StarryWisp
 Shout_Thunderclap_5R
-Target_DWE_TrueStrike
 Shout_WordOfRadiance_5R
 
 
@@ -36,7 +35,6 @@ Target_ZoneofTruth_5R
 Shout_CreateFoodAndWater_5R
 Target_MagicCircle_5R
 Target_Nondetection_5R
-// Phantom Steed (ritual)
 Target_PhantomSteed_5R
 // Water Walk (ritual)
 Target_WaterWalk_5R
