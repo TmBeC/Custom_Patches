@@ -31,56 +31,7 @@ Slevel 5
 -holy weapon - mod
 
 
-
-
-
 <<Summon Celestial>>
-
-<!-- ======================================================================================================================================================================================================================================= -->
-
-<!-- Paladin -->
-
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin always prepared spells level 1"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="fb407d81-3a05-46f1-9153-0fb27dce95b6"/>
-</node>
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin always prepared spells level 2"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="58aef51d-a46c-44c8-8bed-df90870eb55f"/>
-</node>
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin level 6 (Aura)"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="94db914d-95d0-484e-8a02-c0faa9d575a7"/>
-</node>
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin level 10 (Aura)"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="da27c6ae-15cf-4441-9115-82dcc282f8cc"/>
-</node>
-
-lvl 1
-Target_LayOnHands
-
-lvl 2
-Target_Smite_Divine;
-Target_Smite_Divine_Unlock;
-Target_Smite_Divine_Critical_Unlock
-
-lvl 3 (Channel Divinity)
-Shout_DivineSense (CD)
-
-lvl 6
-Shout_AuraOf_Protection
-
-lvl 9 (Channel Divinity)
-Target_AbjureEnemy (CD)
-
-lvl 10
-Shout_AuraOf_Courage
-
 
 <!-- ======================================================================================================================================================================================================================================= -->
 
@@ -146,74 +97,6 @@ Shout_CommuneWithNature
 Shout_HealingRadiance
 Shout_TurnTheFaithless
 Wall_WallOfStone
-
-<!-- ======================================================================================================================================================================================================================================= -->
-
-<!-- Devotion -->
-
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 1"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="b4220712-15bb-4235-b4a8-9946a9708a9c"/>
-</node>
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 3"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7"/>
-</node>
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 5"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="a54421d2-c07c-451a-b060-a125696e0ce7"/>
-</node>
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin Devotion level 7 (Aura)"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="7112a6f2-8100-40e8-a411-75cde8847b36"/>
-</node>
-<node id="SpellList">
-    <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 9"/>
-    <attribute id="Spells" type="LSString" value=""/>
-    <attribute id="UUID" type="guid" value="99a16aaf-233b-4eb0-82cd-c4abfd2e389f"/>
-</node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Devotion Paladin SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="592ad940-48a6-4835-a147-84d0a237b9bf"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Devotion Paladin SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="70ee3e4a-536f-485d-882a-94de6fbf7c65"/>
-                </node>
-
-lvl 3
-Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith
-Shout_SacredWeapon (CD)
-
-lvl 5
-Shout_Aid;Target_ZoneofTruth_5R
-
-lvl 7
-Shout_AuraOf_Devotion
-
-lvl 9
-Shout_BeaconOfHope;Target_Dispel_Magic
-
-lvl 13
-Target_FreedomOfMovement;Target_GuardianOfFaith
-
-lvl 17
-<<Commune ???>>
-Target_FlameStrike
-
-
-<!-- Base Game Spells unused in 2024 -->
-Target_HolyRebuke
-Shout_TurnTheUnholy;Target_Sanctuary
-Target_LesserRestoration;Target_Silence
-Target_RemoveCurse
-Target_GreaterRestoration
 
 <!-- ======================================================================================================================================================================================================================================= -->
 
