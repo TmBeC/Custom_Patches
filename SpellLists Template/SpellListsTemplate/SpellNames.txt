@@ -32,6 +32,7 @@ Target_ZoneofTruth_5R
 // =========================================================================================
 // 5R 3rd Level Spells
 
+Shout_Clairvoyance
 Shout_CreateFoodAndWater_5R
 Target_MagicCircle_5R
 Target_Nondetection_5R
@@ -57,6 +58,7 @@ Projectile_VitriolicSphere_5R
 Shout_AntilifeShell
 // Bigby's Hand
 Shout_CircleOfPower
+Shout_Commune (ritual)
 Shout_CommuneWithNature
 ProjectileStrike_ConjureVolley
 Target_Mislead
