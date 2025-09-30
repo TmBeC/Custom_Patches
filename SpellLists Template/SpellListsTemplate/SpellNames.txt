@@ -47,6 +47,8 @@ Target_WaterWalk_5R
 Shout_AuraOfLife_5R
 Shout_AuraOfPurity_5R
 Target_CharmMonster_5R
+// Divination (ritual)
+Shout_Divination_Container
 // Summon Aberration
 // Summon Construct
 // Summon Elemental
@@ -58,7 +60,8 @@ Projectile_VitriolicSphere_5R
 Shout_AntilifeShell
 // Bigby's Hand
 Shout_CircleOfPower
-Shout_Commune (ritual)
+// Commune (ritual)
+Shout_Commune
 Shout_CommuneWithNature
 ProjectileStrike_ConjureVolley
 Target_Mislead
