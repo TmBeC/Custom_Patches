@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h55bcee96gaab6g4f0aga74dgb0d77d445b33" version="1">Aptitude</content>
+	<content contentuid="h52ea57c7gc167g45b4ga745ga5a2790500c5" version="1">Your ability to utilize an innate trait a number of times equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. Regain all expended uses after finishing a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hf753302egb17dg463bgab8egbfb3cdbf8e5a" version="1">Aptitude</content>
+	<content contentuid="ha0e1ee88g08ffg44f3g894dg0a726343611d" version="1">Your ability to utilize an innate trait per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h377c3bfegb902g4e00gacaagc65153154871" version="1">Aptitude: [3]</content>
+	<content contentuid="h90268acfg6992g4481g8eafg772f6fcce952" version="1">You gained an additional Aptitude point to utilize your innate trait one more time per Long Rest.</content>
+	<content contentuid="h6409a9100336492fb44559d9610cb0f187a3" version="1">Breath Weapon Charge</content>
+	<content contentuid="h8d185412e91047de8fa2cd306e7741587d6e" version="1">The number of times you can use your breath weapon.</content>
+	<content contentuid="haef2d776gd43dg448agb2bdg4c49c213abfc" version="1">Must take a Long Rest</content>
+	<content contentuid="h61f8e464g34ebg4ecbg9500gcb02ed509913" version="1">Breath Weapon</content>
+	<content contentuid="h95491a1fgfaccg41cdg9aedg60999e929d39" version="1">Your ability to channel your Draconic Ancestry and exhale magical breath a number of times equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. Regain all expended uses after finishing a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hb01c7fafgbfd0g427cg9eeeg0b5efce44516" version="1">Additional Breath Weapon Charge</content>
+	<content contentuid="h97cf17a2g347bg428cg858eg70e1cb7ce5ab" version="1">You can now use your breath weapon attack more times per Long Rest.</content>
+	<content contentuid="he6b6af5b3d554a63acf285d060c98e9af007" version="1">Stonecunning Charge</content>
+	<content contentuid="h44f5ee7c6c4d469293ea0bd1018fb2bcg785" version="1">The number of times you can use Stonecunning.</content>
+	<content contentuid="hd23886b6g6355g44f7ga19dgbef44fa371eb" version="1">Must take a Long Rest</content>
+	<content contentuid="h61f8e464g34ebg4ecbg9500gcb02ed509913" version="1">Stonecunning</content>
+	<content contentuid="h95491a1fgfaccg41cdg9aedg60999e929d39" version="1">Your ability to attune with rock and stone to detect non-flying invisible creatures a number of times equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. Regain all expended uses after finishing a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hb01c7fafgbfd0g427cg9eeeg0b5efce44516" version="1">Additional Stonecunning Charge</content>
+	<content contentuid="h97cf17a2g347bg428cg858eg70e1cb7ce5ab" version="1">You can now use Stonecunning more times per Long Rest.</content>
+	<content contentuid="h10ea14355eab4916a28ada89d0fbfa5db2f2" version="1">Adrenaline Rush Charge</content>
+	<content contentuid="h15eee35c7d5945f686ec1cbb61339d1c1692" version="1">The number of times you can use Adrenaline Rush.</content>
+	<content contentuid="h6fdf2ae9gffebg421ag8841gb3c0ccedb55d" version="1">Must take a Long Rest</content>
+	<content contentuid="hcbe0fcadgac73g494bg9384g37600816a2cd" version="1">Adrenaline Rush</content>
+	<content contentuid="h31c5b1f6g0619g4552gb4a9g1bd184b7e6b4" version="1">Your ability to tap into your inner reserves to Dash as a bonus action, gaining &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. Regain all expended uses after finishing a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hbda22f2dg2741g4578ga4ffg6c840aa98339" version="1">Additional Adrenaline Rush Charge</content>
+	<content contentuid="h898fcb1dg3047g4c42g9e8cg567263b5a48c" version="1">You can now use Adrenaline Rush more times per Short or Long Rest.</content>
+	<content contentuid="he993ba39bda3430bb13be00d81568614aaf7" version="1">Giant Ancestry Charge</content>
+	<content contentuid="h93b80e37b4c34f14ada74d7517e380154d7c" version="1">The number of times you can use your Giant Ancestry boon.</content>
+	<content contentuid="heca7d38cgb7f4g4380gbac6g0f22d0215a8c" version="1">Giant Ancestry</content>
+	<content contentuid="h547d0122gbde5g44e9g9fecg28c830861b15" version="1">Your ability to call on your Giant ancestry for a beneficial boon a number of times equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. Regain all expended uses after finishing a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h51b86bfdg555fg444ag8bccgb8dcca426a0d" version="1">Additional Giant Ancestry Charge</content>
+	<content contentuid="hbc6917f0g2b48g4d98g951bg997433f308eb" version="1">You can use your Giant Ancestry boon more times per Long Rest.</content>
+	<content contentuid="h8f792845g4985g4ce7g8208g922ede10441f" version="1">Raven Queen's Blessing Charge</content>
+	<content contentuid="hc80255a5g8bd2g4dc8g8572gb38663021c8c" version="1">The number of times you can teleport with the Raven Queen's blessing.</content>
+	<content contentuid="he1af8128gb2feg405egbb31g2c1256e3a923" version="1">Must take a Long Rest.</content>
+	<content contentuid="h750c39adgcc9cg431cg94f2gc23147ea681f" version="1">Raven Queen's Blessing</content>
+	<content contentuid="hf870f82fg5392g4985g8a8eg4db0936a3ffc" version="1">Your ability to call on the Raven Queen for a blessing of teleportation a number of times equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. Regain all expended uses after finishing a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h7549e181g1aa2g4532g90b0g3938719fc485" version="1">Additional Raven Queen's Blessing Charge</content>
+	<content contentuid="h05c59d98g6836g4cbbga5cdg246f803c4e5f" version="1">You can now use Shadowfell Step more times per Long Rest.</content>
+</contentList>

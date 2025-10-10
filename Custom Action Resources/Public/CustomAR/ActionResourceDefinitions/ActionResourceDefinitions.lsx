@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h52ea57c7gc167g45b4ga745ga5a2790500c5" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h55bcee96gaab6g4f0aga74dgb0d77d445b33" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Aptitude"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="6974e63e-0adc-46d9-9c96-f00310b5e194"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h8d185412e91047de8fa2cd306e7741587d6e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6409a9100336492fb44559d9610cb0f187a3" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="BreathWeaponCharge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="ac058709-d6f9-4a89-b2e6-3831c7063e80"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h44f5ee7c6c4d469293ea0bd1018fb2bcg785" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he6b6af5b3d554a63acf285d060c98e9af007" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="DwarfStonecunningCharge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="d3a8eac4-f5b7-4720-b0ed-9bfa80f2fcec"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h15eee35c7d5945f686ec1cbb61339d1c1692" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h10ea14355eab4916a28ada89d0fbfa5db2f2" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="OrcAdrenalineRushCharge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="30a9335d-6360-4dcb-974e-85ce75c3f4ca"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h93b80e37b4c34f14ada74d7517e380154d7c" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he993ba39bda3430bb13be00d81568614aaf7" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="GiantAncestryCharge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="c57540e7-a726-4a0f-84a5-ad19b600fa77"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hc80255a5g8bd2g4dc8g8572gb38663021c8c" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8f792845g4985g4ce7g8208g922ede10441f" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="RavenQueenBlessingCharge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="4d652663-198a-4c26-97a0-819e068ef6de"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
