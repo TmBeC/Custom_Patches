@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="fe313b98-4e19-42a7-9590-c4e1a4c9eb89" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="5dec41aa-f16a-434e-b209-50c07e64e4ed" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="b5493b56-99a8-405a-9e74-51ff689f44e2" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="ccef9b17-acaf-4912-bfa6-47a442b7c8a0" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="deab57bf-4eec-4085-82f7-87335bce3f5d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="7edbe78a-af05-4aed-98f9-e09a4f98caf4" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="69d140ce-e988-4007-b069-30fe2e5f0d2f" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="fc59ea35-6fd8-40e6-b180-5f86a88bdc68" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="30e9b761-6be0-418e-bb28-5103c00c663b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="378c7e0f-d5be-44fa-bc0d-c7f3569ba0b8" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="b64e527e-1f97-4125-84f7-78376ab1440b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="b2290439-e18a-4583-b42e-2024901a35d7" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="5d50d3f9-dfe3-4d89-8fc6-9f282d1bd63f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="9bcde680-356e-445e-abdb-c21f3400648b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="d7337991-b81d-4cbd-a912-a01bb6d035a5" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="b6e32e3a-aeca-4e5e-af0c-dbd6d60ecea1" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="39750075-781e-4ce2-a033-f8a288e47b8e" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="765ef068-0d6b-4dd7-bd4b-77642376b66b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="88fafaeb-8b59-4319-9841-b9e6043f4636" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="fcd63e01-3a06-4279-a009-74c2e761cd3f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4141540e-bd4c-4e12-90b5-34dccaf1c38b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="ad832abc-4237-4ad2-83c3-42c8df6bc2e3" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f18ad912-e2f4-47a9-8744-73d6a51c2941" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="d83fd423-ed52-4946-9bd1-cc7d60af127c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="c3d8a4a5-9dae-4193-8322-a5d1c5b89f47" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="ed51204d-bebd-416c-b7b5-97e9f7d1a6f4" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="0a9b924f-64fb-4f22-b975-5eeedc99b2fd" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="c6561baf-7d52-41d8-95ff-cf635b38dbaf" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f95ef4cc-5f75-4274-bda5-589175d2ac66" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="b59c60c2-5a82-4e48-bab8-e8ed665dbf42" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4d04fb8f-c397-414c-b3ba-4d508c9079b1" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="2092b87d-1683-4eb0-b811-91284f22afbc" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="ebd3794a-a810-47e1-b98a-40d7dd856736" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="d21e04bf-f133-4190-b0a8-a4dad8484b9d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="df077db5-8c92-46e9-8b87-48cf50683847" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="93a40cd1-7f77-4e9f-a2fb-45b414e2f033" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="b4cb9e59-45cd-437d-87f5-f0aa1dd7e0aa" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="f3db40e2-0afd-4c3a-b6f8-751aa473c806" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="e999273a-b4b4-4950-9ae8-f8395cef87af" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="3264ad56-8a3c-4a05-ad25-797862058178" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="19a3ef71-47df-44a8-83ae-0ec1830a5b12" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="76bb671a-1e93-4048-833b-dc73003be021" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="934f02de-95db-4149-9f48-1f4bf43f42e9" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="c95d4ce1-bf9c-4b9a-97de-74d7534b79e5" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="093349cf-c4e3-41a3-89a7-32135b9fd6b2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="b3a34467-3b40-499e-aaae-3f24cbaa3337" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="cd42a24c-bd5e-430b-9698-6d30cbc2f46e" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="e309a117-a5ed-49de-b3cf-866ca36a873d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="23ecac2c-cc7f-45f0-878f-b0ddcedaa75d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="6b56b9a9-53a3-4e03-ba98-f43ad25da096" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="5080c377-bd1b-43c1-9b7c-25e36180c352" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="a317b857-deed-4b5a-b552-e7defdbc90f0" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f6fb10fc-6d4f-49b5-892f-eb94ae441bf2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="35eaef84-64c5-4a6a-b6bb-99f7f34e710b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="3934e42d-757f-4ee1-bb50-62f8752e0a67" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="d23b489a-ba9a-4105-9b64-6602df1b7f6b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="0c86c70a-3150-4bf7-8902-32ebe18d8891" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="856a9b62-e36c-463d-8ad0-4c8ba68a1abe" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="822f8360-390b-482d-98e7-98a67359f5ed" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="60748adc-3f36-4e7c-a34e-87f6a35de59b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="54a41573-a468-4791-bf93-d0982d11a222" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SpiritShroud;VBT_Spell_3_SummonUndead;" />
+					<attribute id="UUID" type="guid" value="17ad2aea-e394-43f3-b218-16539b10697d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="0c0706bf-e43d-4610-bf45-9bdd1d0fb8bf" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SummonUndead;VBT_Spell_3_SpiritShroud;VBT_Spell_3_PhantomSteed;VBT_Spell_3_EruptingEarth;VBT_Spell_3_PulseWave;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="44f56530-e4f9-4e60-a39d-788e65d7c05b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ControlWater;VBT_Spell_4_GravitySinkhole;VBT_Spell_3_SummonUndead;VBT_Spell_3_SpiritShroud;VBT_Spell_3_PhantomSteed;VBT_Spell_3_EruptingEarth;VBT_Spell_3_PulseWave;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="51af4a72-f5f4-4d81-b82e-8a00f0c0fdfc" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Enervate;VBT_Spell_5_Dawn;VBT_Spell_5_Immolation;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Creation;VBT_Spell_5_ControlWinds;VBT_Spell_4_ControlWater;VBT_Spell_4_GravitySinkhole;VBT_Spell_3_SummonUndead;VBT_Spell_3_SpiritShroud;VBT_Spell_3_PhantomSteed;VBT_Spell_3_EruptingEarth;VBT_Spell_3_PulseWave;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="b4610f56-a1b0-4546-962a-0bd7ac1d51f1" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Enervate;VBT_Spell_5_Dawn;VBT_Spell_5_Immolation;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Creation;VBT_Spell_5_ControlWinds;VBT_Spell_4_ControlWater;VBT_Spell_4_GravitySinkhole;VBT_Spell_3_SummonUndead;VBT_Spell_3_SpiritShroud;VBT_Spell_3_PhantomSteed;VBT_Spell_3_EruptingEarth;VBT_Spell_3_PulseWave;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="ea89d645-a591-4531-b794-8a4326fdc481" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Enervate;VBT_Spell_5_Dawn;VBT_Spell_5_Immolation;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Creation;VBT_Spell_5_ControlWinds;VBT_Spell_4_ControlWater;VBT_Spell_4_GravitySinkhole;VBT_Spell_3_SummonUndead;VBT_Spell_3_SpiritShroud;VBT_Spell_3_PhantomSteed;VBT_Spell_3_EruptingEarth;VBT_Spell_3_PulseWave;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="edc65f2e-4ce2-42bb-9911-cc1a72fc7968" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f80396e2-cb76-4694-b0db-5c34da61a478" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="d19e9e11-ec9a-4e98-a096-c31d8373f28d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_EruptingEarth;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="56061590-3d2b-4458-a513-65c4db79aa2c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_EruptingEarth;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="a573b8f4-19f5-4216-8f3e-9c345566954d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Enervate;VBT_Spell_5_Immolation;VBT_Spell_5_Creation;VBT_Spell_5_ControlWinds;VBT_Spell_3_EruptingEarth;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="b5896773-637e-4795-be85-870e0584bbc9" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Enervate;VBT_Spell_5_Immolation;VBT_Spell_5_Creation;VBT_Spell_5_ControlWinds;VBT_Spell_3_EruptingEarth;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="4e17174b-2026-4914-ba28-4d0d4e7c57ce" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="2ba5248a-f014-409d-ab26-b50116f7e477" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Enervate;VBT_Spell_5_Immolation;VBT_Spell_5_Creation;VBT_Spell_5_ControlWinds;VBT_Spell_3_EruptingEarth;VBT_Spell_2_DustDevil;VBT_Spell_2_VortexWarp;" />
+					<attribute id="UUID" type="guid" value="10f861e5-1f3f-48ae-8d4f-f340584af758" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="21be0992-499f-4c7a-a77a-4430085e947a" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;" />
+					<attribute id="UUID" type="guid" value="8f400096-8038-4203-b40b-49d1405cac09" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ControlWater;" />
+					<attribute id="UUID" type="guid" value="0b0ceeb2-0692-41c5-b8ad-68847ad7195c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="b73aeea5-1ff9-4cac-b61d-b5aa6dfe31c2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_SummonCelestial;VBT_Spell_5_Dawn;" />
+					<attribute id="UUID" type="guid" value="eb37f170-97c8-4587-b2cc-e3420bf7cc19" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="42acd9d3-3b44-4d08-a061-3fd2f69aa4bf" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_SummonCelestial;VBT_Spell_5_Dawn;VBT_Spell_4_ControlWater;VBT_Spell_3_SpiritShroud;" />
+					<attribute id="UUID" type="guid" value="78c34ffa-5726-49f7-9dc2-bf9b37950852" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;" />
+					<attribute id="UUID" type="guid" value="2e7d1754-51c6-456a-bad7-3d0432813923" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4ed41a6d-19fd-4ca8-940a-072314b71e43" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SpiritShroud;" />
+					<attribute id="UUID" type="guid" value="89ac6a27-2bf4-4a31-84db-411dded1aabe" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_DustDevil;" />
+					<attribute id="UUID" type="guid" value="f169f28e-a2e7-44af-9124-4e971a4f4dba" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="3156daf5-9266-41d0-b52c-5bc559a98654" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_ConjureAnimals;VBT_Spell_3_EruptingEarth;" />
+					<attribute id="UUID" type="guid" value="1c288d80-380e-4d10-9f94-82b88e6d8025" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="09c326c9-672c-4198-a4c0-6f07323bde27" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ControlWater;" />
+					<attribute id="UUID" type="guid" value="43cc2f41-8d62-4195-9db4-222e00d47100" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="ff711c12-b59f-4fde-b9ea-6e5c38ec8f23" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Maelstrom;VBT_Spell_5_ControlWinds;" />
+					<attribute id="UUID" type="guid" value="4098eee0-f35f-43bf-8bb2-2fb15ae0a90f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="fd366d4e-4063-4b6f-9cd9-26889bcd6465" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Maelstrom;VBT_Spell_5_ControlWinds;VBT_Spell_4_ControlWater;VBT_Spell_3_ConjureAnimals;VBT_Spell_3_EruptingEarth;VBT_Spell_2_DustDevil;" />
+					<attribute id="UUID" type="guid" value="47858184-f6da-4699-9acb-15af5bb8d089" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="9a60f649-7f82-4152-90b1-0499c5c9f3e2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_ConjureAnimals;" />
+					<attribute id="UUID" type="guid" value="e5cfbb0e-9bea-439b-9d97-943177b6ca38" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="ffd3b636-d424-4120-87ae-4499a34828dc" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_ConjureAnimals;" />
+					<attribute id="UUID" type="guid" value="2f13b5a7-4a42-4623-8848-286d013fd535" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="175ceed7-5a53-4f48-823c-41c4f72d18ae" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_SummonUndead;VBT_Spell_3_ConjureAnimals;VBT_Spell_3_EruptingEarth;VBT_Spell_3_PhantomSteed;VBT_Spell_3_SpiritShroud;VBT_Spell_2_DustDevil;" />
+					<attribute id="UUID" type="guid" value="cac2c004-2a1c-4fa6-a7cc-778fc4bd59fc" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_Maelstrom;VBT_Spell_5_SummonCelestial;VBT_Spell_5_Enervate;VBT_Spell_5_Dawn;VBT_Spell_5_Immolation;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Creation;VBT_Spell_5_ControlWinds;VBT_Spell_4_ControlWater;VBT_Spell_4_ShadowOfMoil;VBT_Spell_3_SummonUndead;VBT_Spell_3_ConjureAnimals;VBT_Spell_3_EruptingEarth;VBT_Spell_3_PhantomSteed;VBT_Spell_3_SpiritShroud;VBT_Spell_2_DustDevil;" />
+					<attribute id="UUID" type="guid" value="30941e00-41d6-422a-a529-6a83e78aca24" />
+				</node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="46b776d8-9bcc-454c-b50d-28a371cc4599" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;" />
+					<attribute id="UUID" type="guid" value="5f508c17-754c-4256-ad08-26c54326c438" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="77a92d61-65fb-495e-ad06-2150a2e9bb05" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="21e1e2b9-81f7-47d2-ab69-90ba67c0c74c" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="72561916-73d5-4a87-8584-2125785e712f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4823a292-f584-4f7f-8434-6630c72e5411" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="db93142e-fae6-407a-b050-396090c6d920" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="73cb6e04-710b-4beb-97fd-43602931aff0" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="5dec41aa-f16a-434e-b209-50c07e64e4ed" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="a1d047bf-43f9-4278-96ee-492c561d5148" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="6876a5f4-8e52-40a2-977f-48007ab95bff" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="deab57bf-4eec-4085-82f7-87335bce3f5d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="405a476d-4fc5-49ee-8914-d430b6278ba4" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="69d140ce-e988-4007-b069-30fe2e5f0d2f" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="ebfd5dc1-31be-4164-bd56-2db39634899d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="65952d48-bb16-4ad7-b173-532182bf7770" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="ea81fc70-2e8e-400e-b54b-79a04456987c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="8cfab233-9d25-45bd-bb47-a7a50cfb2ccf" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="30e9b761-6be0-418e-bb28-5103c00c663b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="d9da5970-7760-46f1-bae6-22f9329aa898" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="b64e527e-1f97-4125-84f7-78376ab1440b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="6eb81e44-f949-4536-bfe7-c1be1c3236c3" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="49ff6b01-4921-43ef-91c1-5fa408463e83" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="9bcde680-356e-445e-abdb-c21f3400648b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="602b5ad1-7fc0-4cee-a81a-b03ac8409300" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="d90e88eb-e5f9-4db2-b7ef-1dccb044839a" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="375068eb-fe1f-43c1-8579-6904bf89bf41" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4a3bf687-91c1-4dad-821c-ad32171c7552" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="be9e4b49-5d55-466d-89f1-cfb52df0e25f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="a1f7cf01-21fc-44eb-9540-c3a4c7b6009f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="39750075-781e-4ce2-a033-f8a288e47b8e" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="eccc578b-bc5a-4da3-98e5-b09c6c0ef787" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="88fafaeb-8b59-4319-9841-b9e6043f4636" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="0fe7a87e-619b-4b73-8e23-b2a282a04861" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4141540e-bd4c-4e12-90b5-34dccaf1c38b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="3f6f1c10-2fa5-473b-b1fc-74da3d7652f7" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="e0099b15-2599-4cba-a54b-b25ae03d6519" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="03f8a41e-935d-4c27-b3e5-b4ce4f197d10" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="0cc2c8ab-9bbc-43a7-a66d-08e47da4c172" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="ca9fb23f-e921-4063-848c-1b8fa762446d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f18ad912-e2f4-47a9-8744-73d6a51c2941" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="ddd3d0a6-ce8e-4330-bea6-87d012bb3b7f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="c3d8a4a5-9dae-4193-8322-a5d1c5b89f47" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="62532c0d-da1c-4531-969c-4e6433d5373a" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="0a9b924f-64fb-4f22-b975-5eeedc99b2fd" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="72fc7625-0436-4cfa-95a3-62b232cf707a" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f95ef4cc-5f75-4274-bda5-589175d2ac66" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="dfdcc902-cb0e-4222-9d71-619f53daa5fd" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="6fc5c1fd-f389-4648-b55a-fe371c517bf6" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="258cd62a-5bc7-488f-91b7-2213745d88ec" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="8b35fd89-b464-4839-bb89-d6c928eedfe8" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="09935ce6-101e-461e-9e97-dd897597745d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4d04fb8f-c397-414c-b3ba-4d508c9079b1" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="29562317-dce2-4cec-8b50-3aab5956d579" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="ebd3794a-a810-47e1-b98a-40d7dd856736" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="4d363a75-3056-4e5b-822d-ce5a4efb9950" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="df077db5-8c92-46e9-8b87-48cf50683847" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="2e037f6c-9e4c-443b-b21e-876073e08beb" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="b4cb9e59-45cd-437d-87f5-f0aa1dd7e0aa" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="4d2f3a04-02da-426e-9888-b73fe7af99ff" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="212298bf-8bfb-403b-ac81-4096c22577e7" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="f95a9577-f13f-44cd-a43a-6f83a3c9d94c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="424d4188-4178-48d9-b53d-6abac1562fff" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="5dbb4c62-1d85-4e74-8851-a8da9ab9321f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="e999273a-b4b4-4950-9ae8-f8395cef87af" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="2b070843-c091-4852-bd8a-fc2e63b475b7" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="19a3ef71-47df-44a8-83ae-0ec1830a5b12" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="06257fb4-80f0-477e-8afa-a13c67ed515d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="934f02de-95db-4149-9f48-1f4bf43f42e9" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="a5b049d6-72b5-4129-89b9-463f5d8cab0d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="093349cf-c4e3-41a3-89a7-32135b9fd6b2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="18726415-96b1-4fb7-89b8-24851814b001" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="236cc6a8-20b4-44ea-9871-44237fc29d81" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="7e5b049e-32fa-4bd8-a19a-0a02f34f75bc" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="07072d59-75f5-445f-b803-036676188ff7" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="1f3af3b3-c04e-4578-84dc-ea79a75f61c6" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="cd42a24c-bd5e-430b-9698-6d30cbc2f46e" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="8fced6aa-83c5-44de-be18-ffb859ca140b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="23ecac2c-cc7f-45f0-878f-b0ddcedaa75d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="9ad6dac5-9b06-4794-ab93-3087bf89b96c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="5080c377-bd1b-43c1-9b7c-25e36180c352" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="56112fa3-140e-468c-b2e6-c579c7dc93ec" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f6fb10fc-6d4f-49b5-892f-eb94ae441bf2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="243b86c6-cb48-4bd2-96a8-aecba4fd54c0" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="9f9a4225-2f08-4667-ae34-b78a4ecfa5ff" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="c58afda5-131b-4440-a343-8ba221e1cfab" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="02c7aa1d-f29a-4449-892b-c8b7f9b9f549" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="f315b1ee-df87-4dfa-9f0b-283fc746bd44" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="3934e42d-757f-4ee1-bb50-62f8752e0a67" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="5f6d285e-3921-496e-b3ff-48abee4b9523" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="0c86c70a-3150-4bf7-8902-32ebe18d8891" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="010629d6-2372-448e-9d88-633ff597f330" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="822f8360-390b-482d-98e7-98a67359f5ed" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="bae31a6b-b8d7-41a6-9ddd-767d289966b3" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="54a41573-a468-4791-bf93-d0982d11a222" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_6_TombOfDelban;VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;VBT_Spell_0_ShadowGrasp;" />
+					<attribute id="UUID" type="guid" value="25baaef2-61aa-4b75-9f16-cf13c4fe4c50" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_0_ChurningPuddle;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;" />
+					<attribute id="UUID" type="guid" value="9ad43451-dc0a-497c-b892-43f5fd1d3334" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="df07c2da-193e-4128-9374-f23dd591f8c6" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="462e1b05-0762-470e-89e7-455c822f867a" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_3_RaiseUndead;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="da1c49e4-6652-403c-bc79-feda6e4e0c29" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_AnimateShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_3_RaiseUndead;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="75e80243-414c-44ef-a1a0-6ea8d6084c96" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_AnimateShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_3_RaiseUndead;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="1d389439-1b91-4238-8144-2706a76ffac8" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_AnimateShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_3_RaiseUndead;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="dd8c9d4e-c722-45e4-8105-46bad33d9480" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_AnimateShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_3_RaiseUndead;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;" />
+					<attribute id="UUID" type="guid" value="3fd95dc3-2666-4552-85d8-ba80973a2468" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="485a68b4-c678-4888-be63-4a702efbe391" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_0_ChurningPuddle;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;" />
+					<attribute id="UUID" type="guid" value="7f5f587a-8a5c-46eb-b236-38833a3629b0" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="92c4751f-6255-4f67-822c-a75d53830b27" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_TendrilsOfDarkness;" />
+					<attribute id="UUID" type="guid" value="e842c198-ba41-483c-be15-002facd67ace" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f80396e2-cb76-4694-b0db-5c34da61a478" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_TendrilsOfDarkness;" />
+					<attribute id="UUID" type="guid" value="b225e22b-a868-4af6-a91d-777ec61348cf" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_TendrilsOfDarkness;" />
+					<attribute id="UUID" type="guid" value="57ee9d3c-aa84-449c-afd6-f27e795e7a81" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_TendrilsOfDarkness;" />
+					<attribute id="UUID" type="guid" value="54930433-f375-4e62-aa9a-4145cb747a2c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_TendrilsOfDarkness;" />
+					<attribute id="UUID" type="guid" value="28b4c10d-b7b4-413d-933d-5570953faa1b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_TendrilsOfDarkness;" />
+					<attribute id="UUID" type="guid" value="1f301078-0cae-4531-918e-e689ccb1f26f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="2ba5248a-f014-409d-ab26-b50116f7e477" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_4_ConjureShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlackfireRay;VBT_Spell_3_HungeringDarkness;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_0_ChurningPuddle;VBT_Spell_0_HarrowingRay;VBT_Spell_0_SiphoningStrike;VBT_Spell_0_Shade;" />
+					<attribute id="UUID" type="guid" value="485d3de8-baf1-4417-a2fa-7a1a91bcf41b" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_0_SiphoningStrike;" />
+					<attribute id="UUID" type="guid" value="38cf7453-78b9-4c2e-9c7c-acae523e5c65" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="269d1a3b-eed8-4131-8901-a562238f5289" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="31fb2721-d55f-4293-8e67-e37622b760b1" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_DeathKnell;VBT_Spell_2_ProtectionFromSpells;" />
+					<attribute id="UUID" type="guid" value="fa600842-4883-4656-ab02-71f40515c3b0" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="42acd9d3-3b44-4d08-a061-3fd2f69aa4bf" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_DeathKnell;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_0_SiphoningStrike;" />
+					<attribute id="UUID" type="guid" value="879096f4-ea47-45a3-8aba-e0e821102943" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="1e2636c6-5cf5-4516-bbd0-4faa872bdf4c" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="c14c9564-1503-47a1-be19-98e77f22ff59" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;" />
+					<attribute id="UUID" type="guid" value="cd400569-dca3-4181-8370-607d7b248a1f" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_ThunderRush;VBT_Spell_3_DrainingSmite;" />
+					<attribute id="UUID" type="guid" value="d229390d-3448-4d50-81f8-0fd6d165490a" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4ed41a6d-19fd-4ca8-940a-072314b71e43" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_ThunderRush;VBT_Spell_3_DrainingSmite;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="04db82e7-9f95-48e6-87e4-a6485ac86cb8" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="b8faf12f-ca42-45c0-84f8-6951b526182a" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;" />
+					<attribute id="UUID" type="guid" value="e1fb7c14-ba69-4683-b521-ff444fac2e90" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="fd366d4e-4063-4b6f-9cd9-26889bcd6465" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_0_ChurningPuddle;VBT_Spell_0_BlightBriars;" />
+					<attribute id="UUID" type="guid" value="2dcd7635-d0c7-4327-87b8-4df3ad25ac47" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="458be063-60d4-4548-ae7d-50117fa0226f" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="0504656b-3aea-49dc-ba97-cd1a902584cc" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="e7cfb80a-f5c2-4304-8446-9b00ea6a9814" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="e56c1d39-44e7-468c-957d-8c5829b4cb1d" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="9a60f649-7f82-4152-90b1-0499c5c9f3e2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="42d23344-8f8e-4cfa-b60c-ce78c59d5288" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="ffd3b636-d424-4120-87ae-4499a34828dc" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="3b929ad4-f8cf-4ebd-a73d-b4df406e9635" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="dcb45167-86bd-4297-9b9d-c295be51af5b" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="b446e991-6aff-4c3d-bddc-438237437980" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="7ea8f476-97a1-4256-8f10-afa76a845cce" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="f36481c0-8db7-46eb-88a4-62d0874d31bd" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="8785f6fe-db96-45e4-8497-fcecaf03a652" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="dca5c9c2-0186-4093-8b88-2f532872e1b8" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="1405f9af-b347-45be-a4f7-49a18c73c684" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="e1052978-a91f-4eec-9b82-3a475b0feea3" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="c98f2011-31e1-4e9a-8061-62c8679c645e" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="a355f158-26fb-4b6b-a29f-6acfeb3baaf6" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="175ceed7-5a53-4f48-823c-41c4f72d18ae" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_3_DrainingSmite;VBT_Spell_3_ThunderRush;VBT_Spell_3_HungeringDarkness;VBT_Spell_3_RaiseUndead;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="fdd408cf-0156-4ece-81d3-aee22a6d70ef" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_5_AcamarsMaw;VBT_Spell_4_ConjureShadows;VBT_Spell_4_AnimateShadows;VBT_Spell_4_ContinuousDarkness;VBT_Spell_4_BlazeOfUlban;VBT_Spell_4_BlackfireRay;VBT_Spell_3_DrainingSmite;VBT_Spell_3_ThunderRush;VBT_Spell_3_HungeringDarkness;VBT_Spell_3_RaiseUndead;VBT_Spell_2_ProtectionFromSpells;VBT_Spell_2_LeechesOfNihal;VBT_Spell_2_AlienMaw;VBT_Spell_2_CircleOfSickness;VBT_Spell_1_ProtectionFromMissiles;VBT_Spell_1_ForceAssault;VBT_Spell_1_HandsOfIhbar;VBT_Spell_1_DisturbanceOfNihal;VBT_Spell_1_TendrilsOfDarkness;VBT_Spell_1_GlowOfUlban;" />
+					<attribute id="UUID" type="guid" value="bd77601f-f14c-4c82-a19f-5e3b88c2a9fb" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="32aeba85-13bd-4a6f-8e06-cd4447b746d8" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="f3e7e5c1-8639-4950-8184-e531f72b1907" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="4a86443c-6a21-4b8d-b1bf-55a99e021354" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="b1b28e4d-f319-442f-b7bf-cae450babdb2" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="0e33c4d4-d784-4cfb-852e-e510dd100ef2" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;VBT_Spell_1_ProtectionFromMissiles;" />
+					<attribute id="UUID" type="guid" value="73ea496f-b033-4470-86ca-5edbf61b7841" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="f9fd64f1-f417-4544-94a9-51d8876d68df" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;" />
+					<attribute id="UUID" type="guid" value="eecdef45-ab24-4594-8b75-03080a6867e8" />
+				</node>
+        <node id="SpellList"> 
+					<attribute id="MergedInto" type="guid" value="c3a861a2-6bbc-4ff6-96e4-a4accf10d957" />
+					<attribute id="Spells" type="LSString" value="VBT_Spell_2_ProtectionFromSpells;" />
+					<attribute id="UUID" type="guid" value="533dfe9a-1a4b-4c57-9f06-97001a269f9a" />
+				</node>
+      </children>
+    </node>
+  </region>
+</save>
