@@ -550,6 +550,36 @@ Target_MordenkainensSword
 
 
 // =========================================================================================
+// Other Mods
+
+// Fount of Moonlight
+Shout_FountOfMoonlight
+
+// Starry Wisp
+Projectile_StarryWisp
+
+// Sorcerous Burst
+Projectile_SorcerousBurst
+
+// Dispel Magic
+Target_Dispel_Magic
+
+// Mending
+Target_Mending
+
+
+// =========================================================================================
+// Other Mods (Homebrew)
+
+// Mirror Blade
+Target_DWE_MirrorBlade
+
+// Night Piercer
+Projectile_NightPiercer
+Projectile_LightPiercer
+
+
+// =========================================================================================
 // Mine
 
 (Blindness)
