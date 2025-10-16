@@ -578,6 +578,18 @@ Target_DWE_MirrorBlade
 Projectile_NightPiercer
 Projectile_LightPiercer
 
+// Telekinetic Thrust
+TK_Thrust
+
+// Infernal Step
+IQ_Target_Hellcrawler
+
+// Rimefrost Blade
+Target_RimefrostBlade
+
+// Radiant Burst
+Zone_RadiantBurst
+
 
 // =========================================================================================
 // Mine
