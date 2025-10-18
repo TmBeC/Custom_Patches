@@ -1,0 +1,53 @@
+// ==========================================================================
+// Instrument of the Bards
+
+new entry "IB_SB_Doss"
+type "Armor"
+using "IB_SB_Doss"
+data "UseConditions" "Tagged('BARD',context.Source)"
+data "Unique" "1"
+
+new entry "IB_SB_Fochlucan"
+type "Armor"
+using "IB_SB_Fochlucan"
+data "UseConditions" "Tagged('BARD',context.Source)"
+data "Unique" "1"
+
+new entry "IB_SB_Mac"
+type "Armor"
+using "IB_SB_Mac"
+data "UseConditions" "Tagged('BARD',context.Source)"
+data "Unique" "1"
+
+new entry "IB_SB_Canaith"
+type "Armor"
+using "IB_SB_Canaith"
+data "Boosts" "UnlockSpell(Shout_Bard_Perform_Flute);UnlockSpell(IB_SB_Invisibility);UnlockSpell(IB_SB_Fly);UnlockSpell(IB_SB_ProtectionFromEvilAndGood);UnlockSpell(IB_SB_CureWounds_3);UnlockSpell(IB_SB_DispelMagic);UnlockSpell(IB_SB_ProtectionFromEnergy_Lightning)"
+data "UseConditions" "Tagged('BARD',context.Source)"
+data "Unique" "1"
+
+new entry "IB_SB_Cli"
+type "Armor"
+using "IB_SB_Cli"
+data "UseConditions" "Tagged('BARD',context.Source)"
+data "Unique" "1"
+
+new entry "IB_SB_Anstruth"
+type "Armor"
+using "IB_SB_Anstruth"
+data "UseConditions" "Tagged('BARD',context.Source)"
+data "Unique" "1"
+
+new entry "IB_SB_DispelMagic"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Dispel_Magic"
+data "UseCosts" "ActionPoint:1"
+data "Cooldown" "OncePerRest"
+data "InstrumentComponentPrepareSound" "Instrument_Bard_BardicInspiration_Prepare"
+data "InstrumentComponentLoopingSound" "Instrument_Bard_BardicInspiration_Loop"
+data "InstrumentComponentCastSound" "Instrument_Bard_BardicInspiration_Cast"
+data "InstrumentComponentImpactSound" "Instrument_Bard_BardicInspiration_Impact"
+data "SpellSoundMagnitude" "Big"
+data "Sheathing" "Instrument"
+
