@@ -1,46 +1,6 @@
 // =========================================================================================
 // 5e Spells
 
-// Cantrips
-Target_BoomingBlade_5e
-	Target_BoomingBlade_SneakAttack
-	Target_BoomingBlade_DivineStrike_Radiant
-	Target_BoomingBlade_DivineStrike_Cold
-	Target_BoomingBlade_DivineStrike_Fire
-	Target_BoomingBlade_DivineStrike_Lightning
-	Target_BoomingBlade_DivineStrike_Thunder
-	Target_BoomingBlade_DivineStrike_Poison
-	Target_BoomingBlade_DivineStrike_MeleeWeapon
-	Target_BoomingBlade_DivineStrike_Necrotic
-	Target_BoomingBlade_DivineStrike_Psychic
-Target_ControlFlames
-Target_CreateBonfire
-Shout_Druidcraft
-Target_Frostbite
-Target_GreenFlameBlade
-	Target_GreenFlameBlade_SneakAttack
-	Target_GreenFlameBlade_DivineStrike_Radiant
-	Target_GreenFlameBlade_DivineStrike_Cold
-	Target_GreenFlameBlade_DivineStrike_Fire
-	Target_GreenFlameBlade_DivineStrike_Lightning
-	Target_GreenFlameBlade_DivineStrike_Thunder
-	Target_GreenFlameBlade_DivineStrike_Poison
-	Target_GreenFlameBlade_DivineStrike_MeleeWeapon
-	Target_GreenFlameBlade_DivineStrike_Necrotic
-	Target_GreenFlameBlade_DivineStrike_Psychic
-Target_Gust
-Target_Infestation
-Target_LightningLure
-Target_MagicStone
-Target_MindSliver
-Target_MoldEarth
-Target_Prestidigitation
-Target_PrimalSavagery
-Target_ShapeWater
-Shout_SwordBurst
-Shout_Thunderclap
-Shout_WordOfRadiance
-
 
 // 1st Level Spells
 Shout_AbsorbElements
@@ -49,41 +9,41 @@ Throw_Catapult
 Target_CauseFear
 Target_Ceremony
 Target_ChaosBolt
-Shout_DetectEvilAndGood
-Shout_DetectMagic
+(Shout_DetectEvilAndGood)
+(Shout_DetectMagic)
 Shout_EarthTremor
 Zone_FrostFingers
 Target_Snare
 Zone_TashasCausticBrew
-Target_UnseenServant
+(Target_UnseenServant)
 Shout_ZephyrStrike
 
 
 // 2nd Level Spells
 Zone_AganazzarsScorcher
-Shout_AlterSelf
+(Shout_AlterSelf)
 Shout_BorrowedKnowledge
-Target_ContinualFlame
-Target_DragonsBreath
+(Target_ContinualFlame)
+(Target_DragonsBreath)
 Target_DustDevil
-Shout_FindTraps
+(Shout_FindTraps)
 Target_FlockOfFamiliars
 Target_GentleRepose
 Target_HealingSpirit
 Shout_KineticJaunt
 [Target_Levitate]
 Target_MaximiliansEarthenGrasp
-Target_MindSpike
+(Target_MindSpike)
 Target_NathairsMischief
 Zone_RimesBindingIce
 Target_SnillocsSnowballStorm
 [Target_Suggestion]
-Target_SummonBeast
+(Target_SummonBeast)
 Target_TashasMindWhip
 Target_VortexWarp
 Shout_WardingWind
 Target_WitherAndBloom
-Target_ZoneofTruth
+(Target_ZoneofTruth)
 
 
 // 3rd Level Spells
@@ -91,62 +51,62 @@ Target_Antagonize
 Shout_AshardalonsStride
 Target_Catnap
 Target_ConjureAnimals_Container
-Target_CreateFoodAndWater
+(Target_CreateFoodAndWater)
 Target_EnemiesAbound
 Target_EruptingEarth
 Target_FlameArrows
 Target_IntellectFortress
 Target_LifeTransference
-Target_MagicCircle
+(Target_MagicCircle)
 Projectile_MinuteMeteors
 Target_MotivationalSpeech
-Target_Nondetection
+(Target_Nondetection)
 Shout_SpiritShroud
-Target_SummonFey
+(Target_SummonFey)
 Target_SummonShadowspawn
 Teleportation_ThunderStep
-Shout_WaterWalk
+(Shout_WaterWalk)
 
 
 // 4th Level Spells
-Target_ArcaneEye
-Shout_AuraOfLife
-Target_CharmMonster
+(Target_ArcaneEye)
+(Shout_AuraOfLife)
+(Target_CharmMonster)
 Shout_GuardianOfNature
 Projectile_RaulothimsPsychicLance
 Shout_ShadowOfMoil
-Target_SummonBeholderkin
+(Target_SummonBeholderkin)
 Target_StormSphere
-Target_SummonConstruct
-Target_SummonElemental
-Projectile_VitriolicSphere
+(Target_SummonConstruct)
+(Target_SummonElemental)
+(Projectile_VitriolicSphere)
 
 
 // 5th Level Spells
-Shout_AntilifeShell
-Shout_CircleOfPower
-Shout_CommuneWithNature
+(Shout_AntilifeShell)
+(Shout_CircleOfPower)
+(Shout_CommuneWithNature)
 ProjectileStrike_ConjureVolley
 [Target_Dawn]
 Target_FarStep
 Target_HolyWeapon
 Target_Maelstrom
-Target_Mislead
+(Target_Mislead)
 Projectile_NegativeEnergyFlood
-Target_RaiseDead
+(Target_RaiseDead)
 [Target_RarysTelepathicBond]
 [Target_Reincarnate]
 Target_SkillEmpowerment
-Target_SteelWindStrike
-Target_SummonDraconicSpirit
-Shout_SwiftQuiver
-Target_SynapticStatic
-Teleportation_TeleportationCircle
+(Target_SteelWindStrike)
+(Target_SummonDraconicSpirit)
+(Shout_SwiftQuiver)
+(Target_SynapticStatic)
+(Teleportation_TeleportationCircle)
 
 
 // 6th Level Spells
 Shout_TensersTransformation
-Target_TrueSeeing
+(Target_TrueSeeing)
 
 
 // 7th Level Spells
@@ -173,28 +133,6 @@ Target_PowerWordKill
 // =========================================================================================
 // Mystra's Spells
 
-// Cantrip
-Target_BoomingBladeMove
-Target_CreateBonfire
-Target_Frostbite
-Target_GreenFlameBlade
-Target_Gust
-Shout_HandOfRadiance UNEARTHEDARCANA
-Projectile_Infestation
-Projectile_LarlochsMinorDrain HOMEBREW
-Target_LightningLure
-Shout_MagicStone
-Projectile_MindSilver
-Target_CreateDestroyMoldEarth
-Projectile_Moonflare HOMEBREW
-Target_PrimalSavagery
-Target_Prestidigitation
-Projectile_SappingSting
-Target_ShapeWater_Container
-Shout_SwordBurst
-Shout_Thunderclap
-Shout_WordOfRadiance
-
 
 // 1st Level Spells
 Shout_AbsorbElementsSpell
@@ -220,7 +158,7 @@ Shout_ZephyrStrike
 Zone_AganazzarScorcher
 Shout_BeastAspect SUBSPELL_OF_ALTERSELF
 Shout_BorrowedKnowledge
-Target_DragonsBreath
+(Target_DragonsBreath)
 Shout_DustDevil
 Target_Earthbind
 Target_FlockOfFamiliars
@@ -231,7 +169,7 @@ Projectile_GlowingCoin_Jim
 Shout_KineticJaunt
 Target_EarthenGrasp
 Shout_MentalBarrier UNEARTHEDARCANA
-Target_MindSpike
+(Target_MindSpike)
 Target_NathairsMischief
 Target_Pyrotechnics
 Shout_ShadowBlade_Spell IN_VANILLA
@@ -239,7 +177,7 @@ Target_SilveryBarbs SHOULD_BE_FIRST_LEVEL
 Target_SnowballStorm
 Zone_SprayOfCards
 Shout_SummonMoonblade_Container HOMEBREW
-Target_SummonBeast
+(Target_SummonBeast)
 Target_MindWhip
 Target_VortexWarp
 Projectile_VolleyOfArrows HOMEBREW
@@ -266,21 +204,21 @@ Zone_PsionicBlast UNEARTHEDARCANA
 Zone_PulseWave
 Shout_SenseVitals HOMEBREW
 Shout_SpiritShroud
-Target_SummonFey_Container
+(Target_SummonFey_Container)
 Target_SummonLesserDemons
 Target_SummonShadowspawn
 Teleportation_ThunderStep
 Target_TidalWave
 Target_VenomousBarbs HOMEBREW
-Target_WaterWalk
+(Target_WaterWalk)
 
 
 // 4th Level Spells
-Target_ArcaneEyeNew
-Shout_AuraOfLife
-Shout_AuraOfPurity
-Target_CharmMonster
-Target_ControlWater_Container
+(Target_ArcaneEyeNew)
+(Shout_AuraOfLife)
+(Shout_AuraOfPurity)
+(Target_CharmMonster)
+(Target_ControlWater_Container)
 Target_DreamSleep
 Target_EgoWhip UNEARTHEDARCANA
 Target_ElementalBane
@@ -292,17 +230,17 @@ Target_PsychicLance
 Shout_ShadowOfMoil
 Target_StoneShape_Container
 Target_StormSphere
-Target_SummonAberration
-Target_SummonConstruct
-Target_SummonElemental
+(Target_SummonAberration)
+(Target_SummonConstruct)
+(Target_SummonElemental)
 Target_SummonGreaterDemon
-Projectile_VitriolicSphere
+(Projectile_VitriolicSphere)
 Projectile_WebOfFire CRITICAL_ROLE
 
 
 // 5th Level Spells
 Target_AstralDisjunction TEMPORAL_SHUNT
-Target_BigbyHand
+(Target_BigbyHand)
 Target_DanseMacabre_Container
 Projectile_Enervation
 Shout_FarStep
@@ -312,10 +250,10 @@ Target_Immolation
 Target_MacabreExplosion HOMEBREW
 Target_Maelstrom
 Projectile_NegativeEnergyFlood
-Projectile_SteelWindStrikeNew
-Target_SummonDragon
-Shout_SwiftQuiver
-Target_SynapticStatic
+(Projectile_SteelWindStrikeNew)
+(Target_SummonDragon)
+(Shout_SwiftQuiver)
+(Target_SynapticStatic)
 
 
 // 6th Level Spells
@@ -326,7 +264,7 @@ Target_LesserRegenerate HOMEBREW
 Shout_PrimordialWard
 Target_PsychicCrush UNEARTHEDARCANA
 TensersTransformation
-Target_TrueSeeing
+(Target_TrueSeeing)
 
 
 // =========================================================================================
@@ -389,9 +327,6 @@ Shout_Wish
 // =========================================================================================
 // Exandria
 
-// Cantrip
-Target_ATT_SappingSting
-
 
 // 1st Level Spell
 Target_ATT_GiftOfAlacrity
@@ -433,10 +368,6 @@ Target_ATT_TimeRavage
 
 // =========================================================================================
 // Veenab
-
-// Cantrips
-[VBT_Spell_0_Frostbite]
-[VBT_Spell_0_Thunderclap]
 
 
 // 1st Level Spells
@@ -492,11 +423,6 @@ VBT_Spell_9_Wish
 
 // =========================================================================================
 // havsglimt
-
-// Cantrips
-Target_Druidcraft
-Target_MindSliver_AberrantMind
-Target_SappingSting
 
 
 // 1st Level Spells
@@ -555,40 +481,18 @@ Target_MordenkainensSword
 // Fount of Moonlight
 Shout_FountOfMoonlight
 
-// Starry Wisp
-Projectile_StarryWisp
-
-// Sorcerous Burst
-Projectile_SorcerousBurst
-
 // Dispel Magic
 Target_Dispel_Magic
-
-// Mending
-Target_Mending
 
 
 // =========================================================================================
 // Other Mods (Homebrew)
-
-// Mirror Blade
-Target_DWE_MirrorBlade
-
-// Night Piercer
-Projectile_NightPiercer
-Projectile_LightPiercer
 
 // Telekinetic Thrust
 TK_Thrust
 
 // Infernal Step
 IQ_Target_Hellcrawler
-
-// Rimefrost Blade
-Target_RimefrostBlade
-
-// Radiant Burst
-Zone_RadiantBurst
 
 
 // =========================================================================================
@@ -611,4 +515,169 @@ Target_Smite_Banishing
 
 (Banishing Smite: Ranged)
 Projectile_Smite_Banishing
+
+
+// =========================================================================================
+// Cantrips
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 1st Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 2nd Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 3rd Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 4th Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 5th Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 6th Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 7th Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 8th Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 9th Level Spells
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

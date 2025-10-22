@@ -53,4 +53,6 @@ Dust Devil
 
 Following spells are fixed to a version that merges both.
 
+Summon Beast
+Dragon's Breath
 Spirit Shroud
