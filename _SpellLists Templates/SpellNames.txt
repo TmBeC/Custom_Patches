@@ -330,6 +330,7 @@ Shout_Wish
 
 // 1st Level Spell
 Target_ATT_GiftOfAlacrity
+Target_ATT_MagnifyGravity
 
 
 // 2nd Level Spell
