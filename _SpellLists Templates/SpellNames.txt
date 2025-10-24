@@ -335,6 +335,7 @@ Target_ATT_MagnifyGravity
 
 // 2nd Level Spell
 Target_ATT_FortuneFavour
+Target_ATT_ImmovableObject
 
 
 // 3rd Level Spell
