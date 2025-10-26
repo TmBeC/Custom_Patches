@@ -1,6 +1,46 @@
 // =========================================================================================
 // 5e Spells
 
+// Cantrips
+Target_BoomingBlade_5e
+	Target_BoomingBlade_SneakAttack
+	Target_BoomingBlade_DivineStrike_Radiant
+	Target_BoomingBlade_DivineStrike_Cold
+	Target_BoomingBlade_DivineStrike_Fire
+	Target_BoomingBlade_DivineStrike_Lightning
+	Target_BoomingBlade_DivineStrike_Thunder
+	Target_BoomingBlade_DivineStrike_Poison
+	Target_BoomingBlade_DivineStrike_MeleeWeapon
+	Target_BoomingBlade_DivineStrike_Necrotic
+	Target_BoomingBlade_DivineStrike_Psychic
+Target_ControlFlames
+Target_CreateBonfire
+Shout_Druidcraft
+Target_Frostbite
+Target_GreenFlameBlade
+	Target_GreenFlameBlade_SneakAttack
+	Target_GreenFlameBlade_DivineStrike_Radiant
+	Target_GreenFlameBlade_DivineStrike_Cold
+	Target_GreenFlameBlade_DivineStrike_Fire
+	Target_GreenFlameBlade_DivineStrike_Lightning
+	Target_GreenFlameBlade_DivineStrike_Thunder
+	Target_GreenFlameBlade_DivineStrike_Poison
+	Target_GreenFlameBlade_DivineStrike_MeleeWeapon
+	Target_GreenFlameBlade_DivineStrike_Necrotic
+	Target_GreenFlameBlade_DivineStrike_Psychic
+Target_Gust
+Target_Infestation
+Target_LightningLure
+Target_MagicStone
+Target_MindSliver
+Target_MoldEarth
+Target_Prestidigitation
+Target_PrimalSavagery
+Target_ShapeWater
+Shout_SwordBurst
+Shout_Thunderclap
+Shout_WordOfRadiance
+
 
 // 1st Level Spells
 Shout_AbsorbElements
@@ -132,6 +172,28 @@ Target_PowerWordKill
 
 // =========================================================================================
 // Mystra's Spells
+
+// Cantrip
+Target_BoomingBladeMove
+Target_CreateBonfire
+Target_Frostbite
+Target_GreenFlameBlade
+Target_Gust
+Shout_HandOfRadiance UNEARTHEDARCANA
+Projectile_Infestation
+Projectile_LarlochsMinorDrain HOMEBREW
+Target_LightningLure
+Shout_MagicStone
+Projectile_MindSilver
+Target_CreateDestroyMoldEarth
+Projectile_Moonflare HOMEBREW
+Target_PrimalSavagery
+Target_Prestidigitation
+Projectile_SappingSting
+Target_ShapeWater_Container
+Shout_SwordBurst
+Shout_Thunderclap
+Shout_WordOfRadiance
 
 
 // 1st Level Spells
@@ -327,6 +389,9 @@ Shout_Wish
 // =========================================================================================
 // Exandria
 
+// Cantrip
+Target_ATT_SappingSting
+
 
 // 1st Level Spell
 Target_ATT_GiftOfAlacrity
@@ -370,6 +435,10 @@ Target_ATT_TimeRavage
 
 // =========================================================================================
 // Veenab
+
+// Cantrips
+[VBT_Spell_0_Frostbite]
+[VBT_Spell_0_Thunderclap]
 
 
 // 1st Level Spells
@@ -425,6 +494,11 @@ VBT_Spell_9_Wish
 
 // =========================================================================================
 // havsglimt
+
+// Cantrips
+Target_Druidcraft
+Target_MindSliver_AberrantMind
+Target_SappingSting
 
 
 // 1st Level Spells
@@ -483,18 +557,40 @@ Target_MordenkainensSword
 // Fount of Moonlight
 Shout_FountOfMoonlight
 
+// Starry Wisp
+Projectile_StarryWisp
+
+// Sorcerous Burst
+Projectile_SorcerousBurst
+
 // Dispel Magic
 Target_Dispel_Magic
+
+// Mending
+Target_Mending
 
 
 // =========================================================================================
 // Other Mods (Homebrew)
+
+// Mirror Blade
+Target_DWE_MirrorBlade
+
+// Night Piercer
+Projectile_NightPiercer
+Projectile_LightPiercer
 
 // Telekinetic Thrust
 TK_Thrust
 
 // Infernal Step
 IQ_Target_Hellcrawler
+
+// Rimefrost Blade
+Target_RimefrostBlade
+
+// Radiant Burst
+Zone_RadiantBurst
 
 
 // =========================================================================================
@@ -522,41 +618,118 @@ Projectile_Smite_Banishing
 // =========================================================================================
 // Cantrips
 
+// 5e
+Target_ControlFlames
+Target_Infestation
+Target_MagicStone
+Target_MindSliver
+Target_MoldEarth
+Target_ShapeWater
 
+// Mystra
+Target_CreateBonfire
+Target_Frostbite
+Target_GreenFlameBlade
+Target_Gust
+Target_LightningLure
+Target_PrimalSavagery
+Target_Prestidigitation
+Shout_SwordBurst
+Shout_Thunderclap
+Shout_WordOfRadiance
 
+// Exandria
+Target_ATT_SappingSting
 
-
-
-
-
-
-
-
+// havsglimt
+Target_Druidcraft
 
 
 // =========================================================================================
 // 1st Level Spells
 
+// 5e
+Shout_AbsorbElements
+Target_ChaosBolt
+(Shout_DetectEvilAndGood)
+(Shout_DetectMagic)
+Zone_TashasCausticBrew
+(Target_UnseenServant)
 
+// Mystra
+Target_BeastBond
+Throw_Catapult
+Target_CauseFear
+Target_Ceremony
+Shout_EarthTremor
+Zone_FrostFingers
+Target_Snare
+Shout_ZephyrStrike
 
-
-
-
-
-
-
-
-
+// Exandria
+Target_ATT_GiftOfAlacrity
+Target_ATT_MagnifyGravity
 
 
 // =========================================================================================
 // 2nd Level Spells
 
+// 5e
+Zone_AganazzarsScorcher
+(Shout_AlterSelf)
+(Target_ContinualFlame)
+Target_DustDevil
+(Shout_FindTraps)
+Target_GentleRepose
+Target_MaximiliansEarthenGrasp
+Zone_RimesBindingIce
+Target_SnillocsSnowballStorm
+//////////////(Target_SummonBeast)
+Target_TashasMindWhip
+Shout_WardingWind
+(Target_ZoneofTruth)
+
+// Mystra
+Shout_BorrowedKnowledge
+(Target_DragonsBreath)
+Target_Earthbind
+Target_FlockOfFamiliars
+Target_HealingSpirit
+Shout_KineticJaunt
+(Target_MindSpike)
+Target_NathairsMischief
+Target_Pyrotechnics
+Target_SilveryBarbs SHOULD_BE_FIRST_LEVEL
+//////////////(Target_SummonBeast)
+Target_VortexWarp
+Target_WitherAndBloom
+
+// Exandria
+Target_ATT_FortuneFavour
+Target_ATT_ImmovableObject
+
+// havsglimt
 
 
 
 
 
+
+
+
+
+veenab
+// 2nd Level Spells
+VBT_Spell_2_DustDevil
+VBT_Spell_2_VortexWarp
+[VBT_Spell_2_SpiderClimb]
+
+
+
+havsglimt
+// 2nd Level Spells
+Target_SnowballSwarm
+//////////////Target_SummonBeast
 
 
 
@@ -567,6 +740,22 @@ Projectile_Smite_Banishing
 // =========================================================================================
 // 3rd Level Spells
 
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
 
 
 
@@ -577,11 +766,69 @@ Projectile_Smite_Banishing
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 3
+Create Food and Water - 5e
+Melf's Minute Meteors - 5e
+Summon Fey - Mystra
+Water Walk - Mystra
+
+
+
+
+
+
+
+
+
+
+
+
+// havsglimt
+// 3rd Level Spells
+Target_ConjureAnimals
+Zone_PulseWave
+Shout_SpeakWithPlants_Hedge
+Target_SummonFey
 
 
 // =========================================================================================
 // 4th Level Spells
 
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
 
 
 
@@ -591,12 +838,75 @@ Projectile_Smite_Banishing
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 4
+Arcane Eye - 5e
+Raulothim's Psychic Lance - 5e
+Summon Aberration - Mystra
+
+
+
+
+
+
+
+
+
+
+// havsglimt
+// 4th Level Spells
+Shout_AuraOfLife
+Target_GravitySinkhole
+Target_SummonBeholderkin_AberrantMind
+Target_SummonConstruct
 
 
 
 // =========================================================================================
 // 5th Level Spells
 
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
 
 
 
@@ -607,11 +917,73 @@ Projectile_Smite_Banishing
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 5
+Far Step - 5e
+Steel Wind Strike - Mystra
+Summon Draconic Spirit - Mystra
+
+
+
+
+
+
+
+// havsglimt
+// 5th Level Spells
+Shout_TemporalShunt
+
+
+// BadtotheBard
+// 5th Level Spells
+Target_StormOfRadiance
+Shout_YolandesRegalPresence
 
 
 // =========================================================================================
 // 6th Level Spells
 
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
 
 
 
@@ -621,12 +993,44 @@ Projectile_Smite_Banishing
 
 
 
+
+
+
+// havsglimt
+// 6th Level Spells
+Shout_InvestitureOfFlame
+
+
+// BadtotheBard
+// 6th Level Spells
+Target_PlatinumShield
 
 
 
 // =========================================================================================
 // 7th Level Spells
 
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// ATT
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
 
 
 
@@ -636,11 +1040,40 @@ Projectile_Smite_Banishing
 
 
 
+
+
+
+// BadtotheBard
+// 7th Level Spells
+Target_ConjureCelestial
+Target_MordenkainensSword
 
 
 
 // =========================================================================================
 // 8th Level Spells
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// ATT
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
 
 
 
@@ -656,6 +1089,28 @@ Projectile_Smite_Banishing
 
 // =========================================================================================
 // 9th Level Spells
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// ATT
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
 
 
 
