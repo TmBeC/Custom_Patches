@@ -1,4 +1,763 @@
 // =========================================================================================
+// Cantrips
+
+// Vanilla
+Projectile_AcidSplash
+Shout_BladeWard
+Target_ChillTouch
+Target_BoomingBlade_ClassSpell
+Target_BurstingSinew
+Target_DancingLights
+Projectile_EldritchBlast
+Projectile_FireBolt
+Target_Friends
+Target_Guidance
+Target_Light
+Target_MageHand
+Target_MinorIllusion
+Projectile_PoisonSpray
+Shout_ProduceFlame
+Projectile_RayOfFrost
+Target_Resistance
+Target_SacredFlame
+Shout_Shillelagh
+Target_ShockingGrasp
+Shout_Thaumaturgy
+Target_ThornWhip
+Target_TollTheDead
+Target_TrueStrike
+Target_ViciousMockery
+
+// 5e
+Target_ControlFlames
+Target_Infestation
+Target_MagicStone
+Target_MindSliver
+Target_MoldEarth
+Target_ShapeWater
+
+// Mystra
+Target_CreateBonfire
+Target_Frostbite
+Target_Gust
+Target_PrimalSavagery
+Target_Prestidigitation
+Shout_Thunderclap
+Shout_WordOfRadiance
+
+// Exandria
+Target_ATT_SappingSting
+
+// havsglimt
+Target_Druidcraft
+
+// Other Mods
+Target_SCC_GreenFlame_Blade
+Target_SCC_LightningLure
+Target_Mending
+Projectile_SorcerousBurst
+Projectile_StarryWisp
+Shout_SCC_SwordBurst
+
+
+// =========================================================================================
+// 1st Level Spells
+
+// Vanilla
+Target_AnimalFriendship
+Shout_ArmorOfAgathys
+Shout_ArmsOfHadar
+Target_Bane
+Target_Bless
+Zone_BurningHands
+Target_CharmPerson
+Projectile_ChromaticOrb
+Zone_ColorSpray
+Target_Command_Container
+Target_CompelledDuel
+Target_CreateDestroyWater
+Target_CureWounds
+Shout_DisguiseSelf
+Target_DissonantWhispers
+Shout_DivineFavor
+Target_Jump
+Projectile_EnsnaringStrike_Container
+Target_Entangle
+Shout_ExpeditiousRetreat
+Target_FaerieFire
+Shout_FalseLife
+Shout_FeatherFall
+Target_FindFamiliar
+Target_FogCloud
+Target_Goodberry
+Target_Grease
+Projectile_GuidingBolt
+Projectile_HailOfThorns
+Target_HealingWord
+Shout_HellishRebuke
+Target_Heroism
+Target_Hex
+Target_HuntersMark
+Projectile_IceKnife
+Target_InflictWounds
+Target_Longstrider
+Target_MageArmor
+Projectile_MagicMissile
+Target_ProtectionFromEvilAndGood
+Projectile_RayOfSickness
+Target_Sanctuary
+Target_Smite_Searing
+Shout_Shield_Wizard	/	Shout_Shield_Sorcerer	/	Shout_Shield_Warlock
+Target_ShieldOfFaith
+Target_Sleep
+Shout_SpeakWithAnimals
+Target_HideousLaughter
+Target_Smite_Thunderous
+Zone_Thunderwave
+Projectile_WitchBolt
+Target_Smite_Wrathful
+
+// 5e
+Shout_AbsorbElements
+Target_ChaosBolt
+(Shout_DetectEvilAndGood)
+(Shout_DetectMagic)
+Zone_TashasCausticBrew
+(Target_UnseenServant)
+
+// Mystra
+Target_BeastBond
+Throw_Catapult
+Target_CauseFear
+Target_Ceremony
+Shout_EarthTremor
+Zone_FrostFingers
+Target_Snare
+Shout_ZephyrStrike
+
+// Exandria
+Target_ATT_GiftOfAlacrity
+Target_ATT_MagnifyGravity
+
+
+// =========================================================================================
+// 2nd Level Spells
+
+// Vanilla
+Shout_Aid
+Target_ArcaneLock
+Target_Barkskin
+Target_BlindnessDeafness	(altered)
+Shout_Blur
+Target_Smite_Branding	(altered)
+Target_CalmEmotions
+Target_CloudOfDaggers
+Target_CrownOfMadness
+Target_Darkness
+Target_Darkvision
+Shout_DetectThoughts
+Target_EnhanceAbility
+Target_EnlargeReduce
+Target_Enthrall
+Shout_FlameBlade
+Target_FlamingSphere
+Zone_GustOfWind
+Target_HeatMetal
+Target_HoldPerson
+Target_Invisibility
+Target_Knock
+Target_LesserRestoration
+Target_MagicWeapon
+Projectile_AcidArrow
+Shout_MirrorImage
+Target_MistyStep
+Target_Moonbeam
+Shout_PassWithoutTrace
+Target_PhantasmalForce
+Shout_PrayerOfHealing
+Target_ProtectionFromPoison
+Projectile_RayOfEnfeeblement
+Projectile_ScorchingRay
+Shout_SeeInvisibility
+Shout_ShadowBlade_Class
+Target_Shatter
+Target_Silence
+Target_SpikeGrowth
+Target_SpiritualWeapon
+Target_WardingBond
+Target_Web
+
+// 5e
+Zone_AganazzarsScorcher
+(Shout_AlterSelf)
+(Target_ContinualFlame)
+Target_DustDevil
+(Shout_FindTraps)
+Target_GentleRepose
+Target_MaximiliansEarthenGrasp
+Zone_RimesBindingIce
+Target_SnillocsSnowballStorm
+//////////////(Target_SummonBeast)
+Target_TashasMindWhip
+Shout_WardingWind
+(Target_ZoneofTruth)
+
+// Mystra
+Shout_BorrowedKnowledge
+(Target_DragonsBreath)
+Target_Earthbind
+Target_FlockOfFamiliars
+Target_HealingSpirit
+Shout_KineticJaunt
+(Target_MindSpike)
+Target_NathairsMischief
+Target_Pyrotechnics
+Target_SilveryBarbs SHOULD_BE_FIRST_LEVEL
+//////////////(Target_SummonBeast)
+Target_VortexWarp
+Target_WitherAndBloom
+
+// Exandria
+Target_ATT_FortuneFavour
+Target_ATT_ImmovableObject
+
+// havsglimt
+
+
+
+
+
+
+
+
+
+veenab
+// 2nd Level Spells
+VBT_Spell_2_DustDevil
+VBT_Spell_2_VortexWarp
+[VBT_Spell_2_SpiderClimb]
+
+
+
+havsglimt
+// 2nd Level Spells
+Target_SnowballSwarm
+//////////////Target_SummonBeast
+
+
+
+
+
+
+
+// =========================================================================================
+// 3rd Level Spells
+
+// Vanilla
+Target_AnimateDead
+Shout_AuraOfVitality
+Shout_BeaconOfHope
+Target_BestowCurse
+Target_Smite_Blinding
+Shout_Blink
+Target_CallLightning
+Zone_ConjureBarrage
+Target_Counterspell
+Shout_CrusadersMantle
+Target_Daylight_Container
+Target_ElementalWeapon
+Zone_Fear
+Target_FeignDeath
+Projectile_Fireball
+Target_GaseousForm
+Target_GlyphOfWarding
+Target_Fly
+Target_Haste
+Target_HungerOfHadar
+Target_HypnoticPattern
+Projectile_LightningArrow
+Zone_LightningBolt
+Shout_HealingWord_Mass
+Target_PlantGrowth
+Target_ProtectionFromEnergy
+Target_RemoveCurse
+Teleportation_Revivify
+Target_SleetStorm
+Target_Slow
+Target_SpeakWithDead
+Shout_SpiritGuardians
+Target_StinkingCloud
+Target_VampiricTouch
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
+
+
+
+
+// Other Mods
+Target_Dispel_Magic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 3
+Create Food and Water - 5e
+Melf's Minute Meteors - 5e
+Summon Fey - Mystra
+Water Walk - Mystra
+
+
+
+
+
+
+
+
+
+
+
+
+// havsglimt
+// 3rd Level Spells
+Target_ConjureAnimals
+Zone_PulseWave
+Shout_SpeakWithPlants_Hedge
+Target_SummonFey
+
+
+// =========================================================================================
+// 4th Level Spells
+
+// Vanilla
+Target_Banishment
+Target_Blight
+Target_Confusion
+Target_ConjureElementals_Minor_Container
+Target_ConjureWoodlandBeings
+Target_DeathWard
+Teleportation_DimensionDoor
+Target_DominateBeast
+Target_BlackTentacles
+Shout_FireShield
+Target_FreedomOfMovement
+Target_GraspingVine
+Target_Invisibility_Greater
+Target_GuardianOfFaith
+Target_IceStorm
+Target_ResilientSphere
+Target_PhantasmalKiller
+Target_Polymorph
+Target_Stoneskin
+Wall_WallOfFire
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
+
+
+
+
+// Other Mods
+Shout_FountOfMoonlight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 4
+Arcane Eye - 5e
+Raulothim's Psychic Lance - 5e
+Summon Aberration - Mystra
+
+
+
+
+
+
+
+
+
+
+// havsglimt
+// 4th Level Spells
+Shout_AuraOfLife
+Target_GravitySinkhole
+Target_SummonBeholderkin_AberrantMind
+Target_SummonConstruct
+
+
+
+// =========================================================================================
+// 5th Level Spells
+
+// Vanilla
+Target_Smite_Banishing
+Target_Cloudkill
+Zone_ConeOfCold
+Target_ConjureElemental_Container
+Target_Contagion
+Shout_DispelEvilAndGood
+Target_DominatePerson
+Target_FlameStrike
+Target_GreaterRestoration
+Target_HoldMonster
+Target_InsectPlague
+Target_CureWounds_Mass
+Target_PlanarBinding
+Target_Seeming
+Throw_Telekinesis
+Wall_WallOfStone
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 5
+Far Step - 5e
+Steel Wind Strike - Mystra
+Summon Draconic Spirit - Mystra
+
+
+
+
+
+
+
+// havsglimt
+// 5th Level Spells
+Shout_TemporalShunt
+
+
+// BadtotheBard
+// 5th Level Spells
+Target_StormOfRadiance
+Shout_YolandesRegalPresence
+
+
+// =========================================================================================
+// 6th Level Spells
+
+// Vanilla
+Teleportation_ArcaneGate
+Wall_BladeBarrier
+Projectile_ChainLightning
+Target_CircleOfDeath
+Target_CreateUndead
+Projectile_Disintegrate
+Target_Eyebite
+Target_FleshToStone
+Target_GlobeOfInvulnerability
+Target_Harm
+Target_Heal
+Shout_HeroesFeast
+Target_FreezingSphere
+Target_IrresistibleDance
+Target_PlanarAlly_Container
+Zone_Sunbeam
+Wall_WallOfIce
+Wall_WallOfThorns
+Shout_WindWalk
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
+
+
+
+
+
+
+
+
+
+
+
+
+// havsglimt
+// 6th Level Spells
+Shout_InvestitureOfFlame
+
+
+// BadtotheBard
+// 6th Level Spells
+Target_PlatinumShield
+
+
+
+// =========================================================================================
+// 7th Level Spells
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// ATT
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
+
+
+
+
+
+
+
+
+
+
+
+
+// BadtotheBard
+// 7th Level Spells
+Target_ConjureCelestial
+Target_MordenkainensSword
+
+
+
+// =========================================================================================
+// 8th Level Spells
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// ATT
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// 9th Level Spells
+
+// Vanilla
+Target_PowerWordKill
+
+// 5e
+
+
+
+
+// Mystra
+
+
+
+
+// ATT
+
+
+
+
+// Exandria
+
+
+
+
+// havsglimt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
 // 5e Spells
 
 // Cantrips
@@ -173,7 +932,7 @@ Target_PowerWordKill
 // =========================================================================================
 // Mystra's Spells
 
-// Cantrip
+// Cantrips
 Target_BoomingBladeMove
 Target_CreateBonfire
 Target_Frostbite
@@ -389,46 +1148,46 @@ Shout_Wish
 // =========================================================================================
 // Exandria
 
-// Cantrip
+// Cantrips
 Target_ATT_SappingSting
 
 
-// 1st Level Spell
+// 1st Level Spells
 Target_ATT_GiftOfAlacrity
 Target_ATT_MagnifyGravity
 
 
-// 2nd Level Spell
+// 2nd Level Spells
 Target_ATT_FortuneFavour
 Target_ATT_ImmovableObject
 
 
-// 3rd Level Spell
+// 3rd Level Spells
 Zone_ATT_PulseWaveContainer
 
 
-// 4th Level Spell
+// 4th Level Spells
 Target_ATT_GravitySinkhole
 
 
-// 5th Level Spell
+// 5th Level Spells
 Target_ATT_TemporalShunt
 
 
-// 6th Level Spell
+// 6th Level Spells
 Zone_ATT_GravityFissure
 
 
-// 7th Level Spell
+// 7th Level Spells
 Target_ATT_TetherEssence
 
 
-// 8th Level Spell
+// 8th Level Spells
 Target_ATT_DarkStar
 Target_ATT_RealityBreak
 
 
-// 9th Level Spell
+// 9th Level Spells
 Target_ATT_RavenousVoid
 Target_ATT_TimeRavage
 
@@ -554,47 +1313,44 @@ Target_MordenkainensSword
 // =========================================================================================
 // Other Mods
 
-// Fount of Moonlight
-Shout_FountOfMoonlight
-
-// Starry Wisp
-Projectile_StarryWisp
-
-// Sorcerous Burst
+// Cantrips
+Target_SCC_GreenFlame_Blade
+Target_SCC_LightningLure
+Target_Mending
 Projectile_SorcerousBurst
+Projectile_StarryWisp
+Shout_SCC_SwordBurst
 
-// Dispel Magic
+
+// 3rd Level Spells
 Target_Dispel_Magic
 
-// Mending
-Target_Mending
+
+// 4th Level Spells
+Shout_FountOfMoonlight
 
 
 // =========================================================================================
 // Other Mods (Homebrew)
 
-// Mirror Blade
+// Cantrips
 Target_DWE_MirrorBlade
-
-// Night Piercer
 Projectile_NightPiercer
 Projectile_LightPiercer
-
-// Telekinetic Thrust
 TK_Thrust
-
-// Infernal Step
-IQ_Target_Hellcrawler
-
-// Rimefrost Blade
 Target_RimefrostBlade
 
-// Radiant Burst
+
+// 1st Level Spells
 Zone_RadiantBurst
 
 
+// 2nd Level Spells
+IQ_Target_Hellcrawler
+
+
 // =========================================================================================
-// Mine
+// Vanilla Changes
 
 (Blindness)
 Target_BlindnessDeafness
@@ -616,525 +1372,5 @@ Projectile_Smite_Banishing
 
 
 // =========================================================================================
-// Cantrips
-
-// 5e
-Target_ControlFlames
-Target_Infestation
-Target_MagicStone
-Target_MindSliver
-Target_MoldEarth
-Target_ShapeWater
-
-// Mystra
-Target_CreateBonfire
-Target_Frostbite
-Target_GreenFlameBlade
-Target_Gust
-Target_LightningLure
-Target_PrimalSavagery
-Target_Prestidigitation
-Shout_SwordBurst
-Shout_Thunderclap
-Shout_WordOfRadiance
-
-// Exandria
-Target_ATT_SappingSting
-
-// havsglimt
-Target_Druidcraft
-
-
 // =========================================================================================
-// 1st Level Spells
-
-// 5e
-Shout_AbsorbElements
-Target_ChaosBolt
-(Shout_DetectEvilAndGood)
-(Shout_DetectMagic)
-Zone_TashasCausticBrew
-(Target_UnseenServant)
-
-// Mystra
-Target_BeastBond
-Throw_Catapult
-Target_CauseFear
-Target_Ceremony
-Shout_EarthTremor
-Zone_FrostFingers
-Target_Snare
-Shout_ZephyrStrike
-
-// Exandria
-Target_ATT_GiftOfAlacrity
-Target_ATT_MagnifyGravity
-
-
 // =========================================================================================
-// 2nd Level Spells
-
-// 5e
-Zone_AganazzarsScorcher
-(Shout_AlterSelf)
-(Target_ContinualFlame)
-Target_DustDevil
-(Shout_FindTraps)
-Target_GentleRepose
-Target_MaximiliansEarthenGrasp
-Zone_RimesBindingIce
-Target_SnillocsSnowballStorm
-//////////////(Target_SummonBeast)
-Target_TashasMindWhip
-Shout_WardingWind
-(Target_ZoneofTruth)
-
-// Mystra
-Shout_BorrowedKnowledge
-(Target_DragonsBreath)
-Target_Earthbind
-Target_FlockOfFamiliars
-Target_HealingSpirit
-Shout_KineticJaunt
-(Target_MindSpike)
-Target_NathairsMischief
-Target_Pyrotechnics
-Target_SilveryBarbs SHOULD_BE_FIRST_LEVEL
-//////////////(Target_SummonBeast)
-Target_VortexWarp
-Target_WitherAndBloom
-
-// Exandria
-Target_ATT_FortuneFavour
-Target_ATT_ImmovableObject
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-veenab
-// 2nd Level Spells
-VBT_Spell_2_DustDevil
-VBT_Spell_2_VortexWarp
-[VBT_Spell_2_SpiderClimb]
-
-
-
-havsglimt
-// 2nd Level Spells
-Target_SnowballSwarm
-//////////////Target_SummonBeast
-
-
-
-
-
-
-
-// =========================================================================================
-// 3rd Level Spells
-
-// 5e
-
-
-
-
-// Mystra
-
-
-
-
-// Exandria
-
-
-
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Level 3
-Create Food and Water - 5e
-Melf's Minute Meteors - 5e
-Summon Fey - Mystra
-Water Walk - Mystra
-
-
-
-
-
-
-
-
-
-
-
-
-// havsglimt
-// 3rd Level Spells
-Target_ConjureAnimals
-Zone_PulseWave
-Shout_SpeakWithPlants_Hedge
-Target_SummonFey
-
-
-// =========================================================================================
-// 4th Level Spells
-
-// 5e
-
-
-
-
-// Mystra
-
-
-
-
-// Exandria
-
-
-
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Level 4
-Arcane Eye - 5e
-Raulothim's Psychic Lance - 5e
-Summon Aberration - Mystra
-
-
-
-
-
-
-
-
-
-
-// havsglimt
-// 4th Level Spells
-Shout_AuraOfLife
-Target_GravitySinkhole
-Target_SummonBeholderkin_AberrantMind
-Target_SummonConstruct
-
-
-
-// =========================================================================================
-// 5th Level Spells
-
-// 5e
-
-
-
-
-// Mystra
-
-
-
-
-// Exandria
-
-
-
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Level 5
-Far Step - 5e
-Steel Wind Strike - Mystra
-Summon Draconic Spirit - Mystra
-
-
-
-
-
-
-
-// havsglimt
-// 5th Level Spells
-Shout_TemporalShunt
-
-
-// BadtotheBard
-// 5th Level Spells
-Target_StormOfRadiance
-Shout_YolandesRegalPresence
-
-
-// =========================================================================================
-// 6th Level Spells
-
-// 5e
-
-
-
-
-// Mystra
-
-
-
-
-// Exandria
-
-
-
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-
-
-
-// havsglimt
-// 6th Level Spells
-Shout_InvestitureOfFlame
-
-
-// BadtotheBard
-// 6th Level Spells
-Target_PlatinumShield
-
-
-
-// =========================================================================================
-// 7th Level Spells
-
-// 5e
-
-
-
-
-// Mystra
-
-
-
-
-// ATT
-
-
-
-
-// Exandria
-
-
-
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-
-
-
-// BadtotheBard
-// 7th Level Spells
-Target_ConjureCelestial
-Target_MordenkainensSword
-
-
-
-// =========================================================================================
-// 8th Level Spells
-
-// 5e
-
-
-
-
-// Mystra
-
-
-
-
-// ATT
-
-
-
-
-// Exandria
-
-
-
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-
-
-
-
-// =========================================================================================
-// 9th Level Spells
-
-// 5e
-
-
-
-
-// Mystra
-
-
-
-
-// ATT
-
-
-
-
-// Exandria
-
-
-
-
-// havsglimt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
