@@ -59,6 +59,13 @@ Projectile_SorcerousBurst
 Projectile_StarryWisp
 Shout_SCC_SwordBurst
 
+// Other Mods (Homebrew)
+Target_DWE_MirrorBlade
+Projectile_NightPiercer
+Projectile_LightPiercer
+TK_Thrust
+Target_RimefrostBlade
+
 
 // =========================================================================================
 // 1st Level Spells
@@ -139,6 +146,9 @@ Target_SilveryBarbs	(moved from 2nd level)
 // Exandria
 Target_ATT_GiftOfAlacrity
 Target_ATT_MagnifyGravity
+
+// Other Mods (Homebrew)
+Zone_RadiantBurst
 
 
 // =========================================================================================
@@ -221,6 +231,10 @@ Target_ATT_FortuneFavour
 Target_ATT_ImmovableObject
 
 // havsglimt
+
+
+// Other Mods (Homebrew)
+IQ_Target_Hellcrawler
 
 
 
@@ -573,18 +587,21 @@ Shout_ElementalInvestiture
 // 5e
 
 
-
-
-
 // ATT
 Shout_ATT_CrownOfStars
 Projectile_ATT_DelayedBlastFireball
 Shout_DivineWord
 Zone_ATT_FizbanTransform
 Target_ATT_Etherealness
-
-
-
+//////Projectile_VlaakithBeam
+Target_FireStorm
+Target_ATT_PowerWordFortify
+Target_ATT_PowerWordPain
+Zone_PrismaticSpray
+Target_ATT_Regenerate
+Target_ATT_ReverseGravity
+Target_ATT_Symbol
+Target_ATT_Whirlwind
 
 // Exandria
 Target_ATT_TetherEssence
@@ -602,21 +619,12 @@ Target_MordenkainensSword
 
 
 
+
 // 5e
 // 7th Level Spells
 Target_FingerOfDeath
+Target_Regenerate
 
-
-// 7th Level Spells
-Projectile_VlaakithBeam
-Target_FireStorm
-Target_ATT_PowerWordFortify
-Target_ATT_PowerWordPain
-Zone_PrismaticSpray
-Target_ATT_Regenerate
-Target_ATT_ReverseGravity
-Target_ATT_Symbol
-Target_ATT_Whirlwind
 
 
 
@@ -627,23 +635,25 @@ Target_ATT_Whirlwind
 
 
 
-
-
-
 // ATT
+Target_HorridWilting
 Target_ATT_AnimalShapes
 Shout_AntimagicField
-
-
+/////////Target_ATT_DominateMonster
+/////////Projectile_ATT_Feeblemind
+Shout_Glibness
+/////////Shout_ATT_HolyAura
+Target_IllusoryDragon
+Target_ATT_IncendiaryCloud
+Target_ATT_MaddeningDarkness
+Target_ATT_Maze
+/////////Target_ATT_MindBlank
+Target_ATT_PowerWordStun
+Target_Sunburst
 
 // Exandria
 Target_ATT_DarkStar
 Target_ATT_RealityBreak
-
-
-
-
-
 
 
 
@@ -659,20 +669,6 @@ Target_DominateMonster
 Target_Feeblemind
 Shout_HolyAura
 Target_MindBlank
-
-// 8th Level Spells
-Target_ATT_DominateMonster
-Projectile_ATT_Feeblemind
-Shout_Glibness
-Shout_ATT_HolyAura
-Target_HorridWilting
-Target_IllusoryDragon
-Target_ATT_IncendiaryCloud
-Target_ATT_MaddeningDarkness
-Target_ATT_Maze
-Target_ATT_MindBlank
-Target_ATT_PowerWordStun
-Target_Sunburst
 
 
 
@@ -705,6 +701,14 @@ Shout_Wish
 // Exandria
 Target_ATT_RavenousVoid
 Target_ATT_TimeRavage
+
+
+
+
+// 9th Level Spells
+Target_Foresight
+Target_PowerWordHeal
+
 
 
 // =========================================================================================
