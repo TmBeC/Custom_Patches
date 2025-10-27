@@ -124,6 +124,9 @@ Zone_Thunderwave
 Projectile_WitchBolt
 Target_Smite_Wrathful
 
+// Vanilla Special
+Target_Smite_Lunar
+
 // 5e
 Shout_AbsorbElements
 Target_BeastBond
@@ -459,6 +462,10 @@ Target_Seeming
 Throw_Telekinesis
 Wall_WallOfStone
 
+// Vanilla Special
+Projectile_CursedTome_CurriculumofStrategy
+Projectile_CursedTome_Dethrone
+
 // 5e
 (Shout_AntilifeShell)
 (Shout_CircleOfPower)
@@ -546,6 +553,9 @@ Wall_WallOfIce
 Wall_WallOfThorns
 Shout_WindWalk
 
+// Vanilla Special
+Target_TWN_Tollhouse_FleshToGold
+
 // 5e
 Shout_TensersTransformation
 (Target_TrueSeeing)
@@ -561,6 +571,7 @@ Shout_InvestitureOfFlame
 
 // BadtotheBard
 Target_PlatinumShield
+
 
 
 
@@ -639,8 +650,8 @@ Target_Regenerate
 Target_HorridWilting
 Target_ATT_AnimalShapes
 Shout_AntimagicField
-/////////Target_ATT_DominateMonster
 /////////Projectile_ATT_Feeblemind
+/////////Target_ATT_DominateMonster
 Shout_Glibness
 /////////Shout_ATT_HolyAura
 Target_IllusoryDragon
@@ -665,8 +676,8 @@ Target_ATT_RealityBreak
 
 // 5e
 // 8th Level Spells
-Target_DominateMonster
 Target_Feeblemind
+Target_DominateMonster
 Shout_HolyAura
 Target_MindBlank
 
@@ -707,7 +718,7 @@ Target_ATT_TimeRavage
 
 // 9th Level Spells
 Target_Foresight
-Target_PowerWordHeal
+
 
 
 
