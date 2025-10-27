@@ -1,0 +1,194 @@
+// ==========================================================================
+// Sixth Level Spells
+
+// ==========================================================================
+// Flesh to Gold
+
+new entry "Target_TWN_Tollhouse_FleshToGold"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TWN_Tollhouse_FleshToGold"
+data "SpellSuccess" "ApplyStatus(TWN_TOLLHOUSE_FLESH_TO_GOLD_1,100,-1)"
+data "Icon" "Spell_Transmutation_FleshToGold"
+data "Description" "h19cead1f6a864e89ac0cf9db5976369771fc;1"
+data "DescriptionParams" "3"
+data "ExtraDescription" "h742920992bf54588a2087c3f6ca8d0c4f729;1"
+data "TooltipStatusApply" "ApplyStatus(TWN_TOLLHOUSE_GOLDIFIED,100,-1)"
+
+new entry "Target_TWN_Tollhouse_FleshToGold_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TWN_Tollhouse_FleshToGold"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_TWN_Tollhouse_FleshToGold"
+data "PowerLevel" "7"
+
+new entry "Target_TWN_Tollhouse_FleshToGold_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TWN_Tollhouse_FleshToGold"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_TWN_Tollhouse_FleshToGold"
+data "PowerLevel" "8"
+
+new entry "Target_TWN_Tollhouse_FleshToGold_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TWN_Tollhouse_FleshToGold"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_TWN_Tollhouse_FleshToGold"
+data "PowerLevel" "9"
+
+new entry "TWN_TOLLHOUSE_FLESH_TO_GOLD_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TWN_TOLLHOUSE_FLESH_TO_GOLD_1"
+data "OnRemoveFunctors" ""
+data "OnTickRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC())"
+data "OnTickSuccess" "ApplyStatus(TWN_TOLLHOUSE_FLESH_TO_GOLD_2,100,-1)"
+data "OnTickFail" "IF(StatusGroupDurationEqual(context.Target,'FLESH_TO_GOLD_SAVE',2)):RemoveStatus(FLESH_TO_GOLD_SAVE);ApplyStatus(FLESH_TO_GOLD_SAVE,100,1)"
+
+new entry "TWN_TOLLHOUSE_FLESH_TO_GOLD_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TWN_TOLLHOUSE_FLESH_TO_GOLD_2"
+data "OnRemoveFunctors" ""
+data "OnTickSuccess" "ApplyStatus(TWN_TOLLHOUSE_FLESH_TO_GOLD_3,100,-1)"
+
+new entry "TWN_TOLLHOUSE_FLESH_TO_GOLD_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TWN_TOLLHOUSE_FLESH_TO_GOLD_3"
+data "OnRemoveFunctors" ""
+data "OnTickSuccess" "ApplyStatus(TWN_TOLLHOUSE_GOLDIFIED,100,-1);RemoveStatus(TWN_TOLLHOUSE_FLESH_TO_GOLD_3)"
+
+new entry "FLESH_TO_GOLD_SAVE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hf244924942254c3a81a501b8373ff571e746;1"
+data "Description" "h0a101a9fg2238g4f58g9094g7849d0929063;1"
+data "DescriptionParams" "3"
+data "Icon" "Spell_Transmutation_FleshToGold"
+data "StackId" "FLESH_TO_GOLD_SAVE"
+data "StackType" "Additive"
+data "RemoveConditions" "not HasAnyStatus({'TWN_TOLLHOUSE_FLESH_TO_GOLD_1','TWN_TOLLHOUSE_FLESH_TO_GOLD_2','TWN_TOLLHOUSE_FLESH_TO_GOLD_3'})"
+data "RemoveEvents" "OnStatusRemoved"
+data "StatusPropertyFlags" "FreezeDuration;DisableCombatlog"
+data "OnRemoveFunctors" "RemoveStatus(TWN_TOLLHOUSE_FLESH_TO_GOLD_1);RemoveStatus(TWN_TOLLHOUSE_FLESH_TO_GOLD_2);RemoveStatus(TWN_TOLLHOUSE_FLESH_TO_GOLD_3)"
+
+// ==========================================================================
+// Gravity Fissure
+
+new entry "Zone_ATT_GravityFissure"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_ATT_GravityFissure"
+data "Range" "18"
+
+// ==========================================================================
+// Primordial Ward
+
+new entry "Shout_PrimordialWard"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_PrimordialWard"
+data "SpellProperties" "ApplyStatus(PRIMORDIAL_WARD,100,10)"
+data "TooltipStatusApply" "ApplyStatus(PRIMORDIAL_WARD,100,10)"
+
+new entry "Shout_PrimordialWard_7"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_PrimordialWard"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Shout_PrimordialWard"
+data "PowerLevel" "7"
+
+new entry "Shout_PrimordialWard_8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_PrimordialWard"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Shout_PrimordialWard"
+data "PowerLevel" "8"
+
+new entry "Shout_PrimordialWard_9"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_PrimordialWard"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Shout_PrimordialWard"
+data "PowerLevel" "9"
+
+new entry "Interrupt_PrimordialWard"
+type "InterruptData"
+using "Interrupt_PrimordialWard"
+data "Description" "hae393faa3197490ebb7b75b35a9a1a0d1bc9;1"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'}) and HasStatus('PRIMORDIAL_WARD') and not HasStatus('PRIMORDIAL_WARD_TECHNICAL')"
+
+new entry "PRIMORDIAL_WARD_ACID"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PRIMORDIAL_WARD_ACID"
+data "OnApplyFunctors" "RemoveStatus(PRIMORDIAL_WARD)"
+data "OnRemoveFunctors" "BreakConcentration()"
+
+new entry "PRIMORDIAL_WARD_COLD"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PRIMORDIAL_WARD_COLD"
+data "OnApplyFunctors" "RemoveStatus(PRIMORDIAL_WARD)"
+data "OnRemoveFunctors" "BreakConcentration()"
+
+new entry "PRIMORDIAL_WARD_FIRE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PRIMORDIAL_WARD_FIRE"
+data "OnApplyFunctors" "RemoveStatus(PRIMORDIAL_WARD)"
+data "OnRemoveFunctors" "BreakConcentration()"
+
+new entry "PRIMORDIAL_WARD_LIGHTNING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PRIMORDIAL_WARD_LIGHTNING"
+data "OnApplyFunctors" "RemoveStatus(PRIMORDIAL_WARD)"
+data "OnRemoveFunctors" "BreakConcentration()"
+
+new entry "PRIMORDIAL_WARD_THUNDER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PRIMORDIAL_WARD_THUNDER"
+data "OnApplyFunctors" "RemoveStatus(PRIMORDIAL_WARD)"
+data "OnRemoveFunctors" "BreakConcentration()"
+
+// ==========================================================================
+// Tenser's Transformation
+
+new entry "Shout_TensersTransformation"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_TensersTransformation"
+data "SpellProperties" "ApplyStatus(TENSERS_TRANSFORMATION,100,10)"
+data "TooltipStatusApply" "ApplyStatus(TENSERS_TRANSFORMATION,100,10)"
+
+new entry "TENSERS_TRANSFORMATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TENSERS_TRANSFORMATION"
+data "OnApplyFunctors" "ApplyStatus(TENSERS_TRANSFORMATION_TEMP_HP,100,-1)"
+
+// ==========================================================================
+// True Seeing
+
+new entry "Target_TrueSeeing"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TrueSeeing"
+data "SpellProperties" "ApplyStatus(TRUESIGHT,100,-1)"
+data "TooltipStatusApply" "ApplyStatus(TRUESIGHT,100,-1)"
+
+new entry "TRUESIGHT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TRUESIGHT"
+data "OnApplyFunctors" "ApplyStatus(TRUESIGHT_SEE_TRUEFORM,100,-1)"
+

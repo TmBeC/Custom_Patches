@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="TooltipUpcastDescriptions">
+        <node id="root">
+            <children>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Artistry of War"/>
+                    <attribute id="Text" type="TranslatedString" handle="h62cf6804a88d46c69b548fd3252d5518eb36" version="1"/>
+                    <attribute id="UUID" type="guid" value="0046bea5-cf5e-43f9-a39a-3e6fd40bc708"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
