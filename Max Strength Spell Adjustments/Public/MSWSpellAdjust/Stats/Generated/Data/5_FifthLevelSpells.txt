@@ -186,6 +186,51 @@ data "ContainerSpells" ""
 data "SpellContainerID" ""
 
 // ==========================================================================
+// Dawn
+
+new entry "VBT_Spell_5_Dawn"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_Dawn"
+data "SpellProperties" "GROUND:ApplyStatus(SELF,VBT_DAWN_OWNER,100,10);GROUND:Summon(cf366b32-0b91-46a0-816b-6e58a713bbb8,10,,,'VBT_DawnStack',VBT_DAWN_AURA,VBT_DAWN_AURA_RECAST);GROUND:Summon(cf366b32-0b91-46a0-816b-6e58a713bbb8,0,,,,CHT_DAWN_AURA_INITIAL)"
+data "SpellRoll" ""
+data "SpellSuccess" ""
+data "SpellFail" ""
+
+new entry "VBT_DAWN_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "VBT_DAWN_AURA"
+data "AuraStatuses" "TARGET:IF(Character() and not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(VBT_DAWN_AURA_TARGET);IF(Character() and not Dead()):ApplyStatus(AI_HELPER_AVOIDAREA)"
+
+new entry "CHT_DAWN_AURA_INITIAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "CHT_DAWN_AURA_INITIAL"
+data "AuraRadius" "9"
+data "AuraStatuses" "TARGET:IF(Character() and not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(CHT_DAWN_AURA_TARGET_INITIAL)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "CHT_DAWN_AURA_TARGET_INITIAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd54298e6g73aeg4ab1gb93eg2c6df31e39e5;1"
+data "Description" "h566a63f8g9450g46a6g95bfgf7eaa753db40;1"
+data "TooltipDamage" "DealDamage(4d10,Radiant)"
+data "TooltipSave" "Constitution"
+data "Icon" "VBT_Icon_Dawn_B"
+data "SoundStart" "Spell_Status_MoonBeam_Enter"
+data "SoundLoop" "Spell_Status_MoonBeam_MO"
+data "SoundStop" "Spell_Status_MoonBeam_MO_Stop"
+data "StackId" "CHT_DAWN_AURA_TARGET_INITIAL"
+data "OnApplyRoll" "not SavingThrow(Ability.Constitution,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnApplySuccess" "DealDamage(4d10,Radiant,Magical)"
+data "OnApplyFail" "DealDamage(4d10/2,Radiant,Magical)"
+data "StatusPropertyFlags" "DisableOverhead;InitiateCombat;BringIntoCombat;DisablePortraitIndicator"
+data "ApplyEffect" "62710804-ff29-4936-9d45-0e6a44372526"
+data "StatusEffect" "73f8b212-1a39-4214-8a32-b5e1427ec860"
+
+// ==========================================================================
 // Dethrone
 
 new entry "Projectile_CursedTome_Dethrone"
@@ -572,6 +617,30 @@ data "SpellType" "Target"
 using "Target_Maelstrom"
 data "TargetRadius" "18"
 
+new entry "VBT_Spell_5_Maelstrom_7"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_Maelstrom"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "VBT_Spell_5_Maelstrom"
+data "PowerLevel" "7"
+
+new entry "VBT_Spell_5_Maelstrom_8"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_Maelstrom"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "VBT_Spell_5_Maelstrom"
+data "PowerLevel" "8"
+
+new entry "VBT_Spell_5_Maelstrom_9"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_Maelstrom"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "VBT_Spell_5_Maelstrom"
+data "PowerLevel" "9"
+
 // ==========================================================================
 // Mislead
 
@@ -698,6 +767,80 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_SkillEmpowerment_Survival"
 data "SpellProperties" "ApplyStatus(SKILL_EMPOWERMENT_SURVIVAL,100,-1)"
+
+// ==========================================================================
+// Summon Celestial
+
+new entry "VBT_Spell_5_SummonCelestial_Avenger"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_SummonCelestial_Avenger"
+data "SpellProperties" "GROUND:Summon(ea465324-528f-4d52-9bec-67fdf3df74cc,-1,,,'VBT_SummonStack_Celestial',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,VBT_CC_SUMMON_SPIRIT_SLEVEL_5)"
+
+new entry "VBT_Spell_5_SummonCelestial_Defender"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_SummonCelestial_Defender"
+data "SpellProperties" "GROUND:Summon(0a5712f5-86f9-4220-aa38-11a39e6ac6d0,-1,,,'VBT_SummonStack_Celestial',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,VBT_CC_SUMMON_SPIRIT_SLEVEL_5)"
+
+new entry "VBT_Spell_5_SummonCelestial_Avenger_6"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_SummonCelestial_Avenger_6"
+data "SpellProperties" "GROUND:Summon(ea465324-528f-4d52-9bec-67fdf3df74cc,-1,,,'VBT_SummonStack_Celestial',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,VBT_CC_SUMMON_SPIRIT_SLEVEL_6,VBT_CC_SUMMON_SPIRIT_UPCAST_1)"
+
+new entry "VBT_Spell_5_SummonCelestial_Defender_6"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_SummonCelestial_Defender_6"
+data "SpellProperties" "GROUND:Summon(0a5712f5-86f9-4220-aa38-11a39e6ac6d0,-1,,,'VBT_SummonStack_Celestial',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,VBT_CC_SUMMON_SPIRIT_SLEVEL_6,VBT_CC_SUMMON_SPIRIT_UPCAST_1)"
+
+
+
+
+
+
+
+
+
+
+new entry "VBT_Spell_5_SummonCelestial_6"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_SummonCelestial"
+data "ContainerSpells" "VBT_Spell_5_SummonCelestial_Avenger_6;VBT_Spell_5_SummonCelestial_Defender_6"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "VBT_Spell_5_SummonCelestial"
+data "PowerLevel" "6"
+
+new entry "VBT_Spell_5_SummonCelestial_Avenger_6"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_SummonCelestial_Avenger"
+data "SpellContainerID" "VBT_Spell_5_SummonCelestial_6"
+data "SpellProperties" "GROUND:Summon(ea465324-528f-4d52-9bec-67fdf3df74cc, 10,,,'VBT_SummonStack_Celestial',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,VBT_CC_SUMMON_SPIRIT_SLEVEL_6,VBT_CC_SUMMON_SPIRIT_UPCAST_1)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "VBT_Spell_5_SummonCelestial_Avenger"
+data "PowerLevel" "6"
+
+new entry "VBT_Spell_5_SummonCelestial_Defender_6"
+type "SpellData"
+data "SpellType" "Target"
+using "VBT_Spell_5_SummonCelestial_Defender"
+data "SpellContainerID" "VBT_Spell_5_SummonCelestial_6"
+data "SpellProperties" "GROUND:Summon(0a5712f5-86f9-4220-aa38-11a39e6ac6d0, 10,,,'VBT_SummonStack_Celestial',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,VBT_CC_SUMMON_SPIRIT_SLEVEL_6,VBT_CC_SUMMON_SPIRIT_UPCAST_1)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
+data "RootSpellID" "VBT_Spell_5_SummonCelestial_Defender"
+data "PowerLevel" "6"
+
+
+
+
+
+
+
+
+
 
 // ==========================================================================
 // Summon Dragon
