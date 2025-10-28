@@ -207,7 +207,6 @@ Zone_AganazzarsScorcher
 Shout_BorrowedKnowledge
 (Target_ContinualFlame)
 (Target_DragonsBreath)
-Target_DustDevil
 (Shout_FindTraps)
 Target_FlockOfFamiliars
 Target_GentleRepose
@@ -217,7 +216,6 @@ Target_MaximiliansEarthenGrasp
 (Target_MindSpike)
 Target_NathairsMischief
 Zone_RimesBindingIce
-//////////////Target_SnillocsSnowballStorm
 //////////////(Target_SummonBeast)
 Target_TashasMindWhip
 Target_VortexWarp
@@ -233,8 +231,11 @@ Target_Pyrotechnics
 Target_ATT_FortuneFavour
 Target_ATT_ImmovableObject
 
-// havsglimt
+// veenab
+VBT_Spell_2_DustDevil
 
+// havsglimt
+Target_SnowballSwarm
 
 // Other Mods (Homebrew)
 IQ_Target_Hellcrawler
@@ -249,14 +250,12 @@ IQ_Target_Hellcrawler
 
 veenab
 // 2nd Level Spells
-VBT_Spell_2_DustDevil
 [VBT_Spell_2_SpiderClimb]
 
 
 
 havsglimt
 // 2nd Level Spells
-//////////////Target_SnowballSwarm
 //////////////Target_SummonBeast
 
 
@@ -311,7 +310,6 @@ Target_Catnap
 Target_ConjureAnimals_Container
 (Target_CreateFoodAndWater)
 Target_EnemiesAbound
-Target_EruptingEarth
 Target_FlameArrows
 Target_IntellectFortress
 Target_LifeTransference
@@ -319,7 +317,6 @@ Target_LifeTransference
 Projectile_MinuteMeteors
 Target_MotivationalSpeech
 (Target_Nondetection)
-Shout_SpiritShroud
 Target_SummonShadowspawn
 Teleportation_ThunderStep
 
@@ -337,8 +334,10 @@ Zone_ATT_PulseWaveContainer
 Shout_SpeakWithPlants_Hedge
 
 // veenab
-VBT_Spell_3_SummonUndead
+VBT_Spell_3_EruptingEarth
 VBT_Spell_3_PhantomSteed
+VBT_Spell_3_SpiritShroud
+VBT_Spell_3_SummonUndead
 
 // Other Mods
 Target_Dispel_Magic
@@ -359,8 +358,6 @@ Target_Dispel_Magic
 
 // veenab
 VBT_Spell_3_ConjureAnimals
-VBT_Spell_3_EruptingEarth
-VBT_Spell_3_SpiritShroud
 
 // =========================================================================================
 // 4th Level Spells
@@ -393,7 +390,6 @@ Wall_WallOfFire
 (Target_CharmMonster)
 Shout_GuardianOfNature
 Projectile_RaulothimsPsychicLance
-Shout_ShadowOfMoil
 Target_StormSphere
 (Target_SummonConstruct)
 (Target_SummonElemental)
@@ -403,7 +399,6 @@ Target_StormSphere
 (Shout_AuraOfPurity)
 Target_DreamSleep
 Target_ElementalBane
-xShout_GuardianOfNature
 Target_StoneShape_Container
 (Target_SummonAberration)
 Target_SummonGreaterDemon
@@ -413,6 +408,7 @@ Target_ATT_GravitySinkhole
 
 // veenab
 VBT_Spell_4_ControlWater
+VBT_Spell_4_ShadowOfMoil
 
 // ShadyDax
 Shout_FountOfMoonlight
@@ -434,7 +430,6 @@ Shout_FountOfMoonlight
 
 
 // veenab
-VBT_Spell_4_ShadowOfMoil
 [VBT_Spell_4_SummonElemental]
 
 
@@ -473,7 +468,6 @@ Projectile_CursedTome_Dethrone
 ProjectileStrike_ConjureVolley
 Target_FarStep
 Target_HolyWeapon
-Target_Maelstrom
 (Target_Mislead)
 Projectile_NegativeEnergyFlood
 (Target_RaiseDead)
@@ -485,9 +479,7 @@ Target_SkillEmpowerment
 // Mystra
 (Target_BigbyHand)
 Target_DanseMacabre_Container
-Projectile_Enervation
 Target_InfernalCalling
-Target_Immolation
 (Projectile_SteelWindStrikeNew)
 (Target_SummonDragon)
 
@@ -498,6 +490,9 @@ Target_ATT_TemporalShunt
 VBT_Spell_5_ControlWinds
 VBT_Spell_5_Creation
 VBT_Spell_5_Dawn
+VBT_Spell_5_Enervate
+VBT_Spell_5_Immolation
+VBT_Spell_5_Maelstrom
 VBT_Spell_5_SummonCelestial
 
 // BadtotheBard
@@ -523,9 +518,6 @@ Shout_YolandesRegalPresence
 
 // Veenab
 VBT_Spell_5_DanseMacabre
-VBT_Spell_5_Enervate
-VBT_Spell_5_Immolation
-VBT_Spell_5_Maelstrom
 
 
 
@@ -597,14 +589,13 @@ Shout_ElementalInvestiture
 
 // 5e
 
-
 // ATT
 Shout_ATT_CrownOfStars
 Projectile_ATT_DelayedBlastFireball
 Shout_DivineWord
 Zone_ATT_FizbanTransform
 Target_ATT_Etherealness
-//////Projectile_VlaakithBeam
+Projectile_VlaakithBeam
 Target_FireStorm
 Target_ATT_PowerWordFortify
 Target_ATT_PowerWordPain
@@ -622,65 +613,30 @@ Target_ConjureCelestial
 Target_MordenkainensSword
 
 
-
-
-
-
-
-
-
-
-
-// 5e
-// 7th Level Spells
-Target_FingerOfDeath
-Target_Regenerate
-
-
-
-
 // =========================================================================================
 // 8th Level Spells
 
 // 5e
 
-
-
 // ATT
 Target_HorridWilting
 Target_ATT_AnimalShapes
 Shout_AntimagicField
-/////////Projectile_ATT_Feeblemind
-/////////Target_ATT_DominateMonster
+Projectile_ATT_Feeblemind
+Target_ATT_DominateMonster
 Shout_Glibness
-/////////Shout_ATT_HolyAura
+Shout_ATT_HolyAura
 Target_IllusoryDragon
 Target_ATT_IncendiaryCloud
 Target_ATT_MaddeningDarkness
 Target_ATT_Maze
-/////////Target_ATT_MindBlank
+Target_ATT_MindBlank
 Target_ATT_PowerWordStun
 Target_Sunburst
 
 // Exandria
 Target_ATT_DarkStar
 Target_ATT_RealityBreak
-
-
-
-
-
-
-
-
-
-// 5e
-// 8th Level Spells
-Target_Feeblemind
-Target_DominateMonster
-Shout_HolyAura
-Target_MindBlank
-
 
 
 // =========================================================================================
@@ -714,12 +670,20 @@ Target_ATT_RavenousVoid
 Target_ATT_TimeRavage
 
 
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
 
 
-// 9th Level Spells
-Target_Foresight
-
-
+Osi.AddSpell(GetHostCharacter(), "SPELL", 0, 0)
+Osi.SetLevel(GetHostCharacter(), 20)
 
 
 // =========================================================================================
