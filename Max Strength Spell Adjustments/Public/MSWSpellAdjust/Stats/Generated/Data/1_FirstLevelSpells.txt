@@ -2,14 +2,44 @@
 // First Level Spells
 
 // ==========================================================================
-// Beast Bond
+// Absorb Elements
 
-new entry "Target_BeastBond"
+new entry "Shout_AbsorbElementsSpell"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_AbsorbElementsSpell"
+data "TargetConditions" "Self() and not HasStatus('SHARE_SPELLS',context.Source) or (HasStatus('SHARE_SPELLS',context.Source) or (HasStatus('RANGER_COMPANION_BEAR',context.Target,context.Source) or HasStatus('RANGERS_COMPANION_BOAR',context.Target,context.Source) or HasStatus('RANGERS_COMPANION_GIANTSPIDER',context.Target,context.Source) or HasStatus('RANGERS_COMPANION_RAVEN',context.Target,context.Source) or HasStatus('RANGERS_COMPANION_WOLF',context.Target,context.Source)))"
+
+new entry "Interrupt_AbsorbElementsSpell"
+type "InterruptData"
+using "Interrupt_AbsorbElementsSpell"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})"
+
+// ==========================================================================
+// Cause Fear
+
+new entry "Target_CauseFear"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_BeastBond"
-data "SpellProperties" "ApplyStatus(BEAST_BOND,100,100);ApplyStatus(SELF,BEAST_BOND_TECHNICAL,100,10)"
-data "TooltipStatusApply" "ApplyStatus(BEAST_BOND,100,10)"
+using "Target_CauseFear"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC(),AdvantageOnFrightened(), DisadvantageOnFrightened())"
+data "SpellSuccess" "ApplyStatus(CAUSE_FEAR,100,10)"
+data "TargetConditions" "Character() and not Self() and not Tagged('CONSTRUCT') and not Tagged('UNDEAD') and not Dead() and not IsImmuneToStatus('SG_Frightened')"
+
+// ==========================================================================
+// Ceremony
+
+new entry "Target_Ceremony"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Ceremony"
+data "TargetConditions" "Ally() and not Self()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:1"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsMelee;IsLinkedSpellContainer"
+data "Requirements" "!Combat"
+data "RequirementConditions" "HasGoldForCeremony(context.Source)"
+data "RequirementEvents" "OnStatusApplied;OnStatusRemoved"
+data "RitualCosts" "ActionPoint:1"
 
 // ==========================================================================
 // Chaos Bolt
@@ -63,6 +93,65 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "DETECTED_MAGIC"
 data "Icon" "Spell_Divination_DetectMagic_5R"
+
+// ==========================================================================
+// Frost Fingers
+
+new entry "Zone_FrostFingers"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers"
+data "SpellSuccess" "DealDamage(2d8,Cold,Magical)"
+data "Description" "h862c9195gd5c9g45f0g8ff8g0bf301a9b3a9;1"
+data "TooltipStatusApply" ""
+
+new entry "Zone_FrostFingers_2"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_2"
+data "SpellSuccess" "DealDamage(3d8,Cold,Magical)"
+
+new entry "Zone_FrostFingers_3"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_3"
+data "SpellSuccess" "DealDamage(4d8,Cold,Magical)"
+
+new entry "Zone_FrostFingers_4"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_4"
+data "SpellSuccess" "DealDamage(5d8,Cold,Magical)"
+
+new entry "Zone_FrostFingers_5"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_5"
+data "SpellSuccess" "DealDamage(6d8,Cold,Magical)"
+
+new entry "Zone_FrostFingers_6"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_6"
+data "SpellSuccess" "DealDamage(7d8,Cold,Magical)"
+
+new entry "Zone_FrostFingers_7"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_7"
+data "SpellSuccess" "DealDamage(8d8,Cold,Magical);"
+
+new entry "Zone_FrostFingers_8"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_8"
+data "SpellSuccess" "DealDamage(9d8,Cold,Magical);"
+
+new entry "Zone_FrostFingers_9"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_FrostFingers_9"
+data "SpellSuccess" "DealDamage(10d8,Cold,Magical);"
 
 // ==========================================================================
 // Lunar Smite

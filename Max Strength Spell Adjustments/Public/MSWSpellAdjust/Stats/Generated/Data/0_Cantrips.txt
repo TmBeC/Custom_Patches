@@ -63,6 +63,15 @@ using "Target_ControlFlames_Douse"
 data "SpellProperties" "GROUND:SurfaceChange(Douse);TARGET:IF(Item()):RemoveStatus(BURNING);ApplyEquipmentStatus(MainHand,DIPPED_FIRE,100,3)"
 
 // ==========================================================================
+// Create Bonfire
+
+new entry "CREATE_BONFIRE_BURN"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CREATE_BONFIRE_AURA"
+data "OnTickSuccess" "IF(not CharacterLevelGreaterThan(4, GetSummoner(context.Source))):DealDamage(1d8,Fire,Magical);IF(CharacterLevelGreaterThan(4, GetSummoner(context.Source)) and not CharacterLevelGreaterThan(9, GetSummoner(context.Source))):DealDamage(2d8,Fire,Magical);IF(CharacterLevelGreaterThan(9, GetSummoner(context.Source)) and not CharacterLevelGreaterThan(15, GetSummoner(context.Source))):DealDamage(3d8,Fire,Magical);IF(CharacterLevelGreaterThan(15, GetSummoner(context.Source))):DealDamage(4d8,Fire,Magical)"
+
+// ==========================================================================
 // Green Flame Blade
 
 new entry "Target_SCC_GreenFlame_Blade"
@@ -86,27 +95,6 @@ new entry "Target_Gust"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Gust"
-data "SpellProperties" "IF(Item()):Force(3,OriginToTarget,Aggressive)"
-data "SpellSuccess" "IF(not Ally() and Character()):Force(2,OriginToTarget,Aggressive);IF(Ally() and Character()):Force(2,OriginToTarget,Friendly)"
-
-// ==========================================================================
-// Shape Water
-
-new entry "Target_ShapeWater"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_ShapeWater"
-data "SpellProperties" "GROUND:CreateSurface(2,-1,WaterFrozen)"
-
-new entry "Teleportation_ShapeWater_Move"
-type "SpellData"
-data "SpellType" "Teleportation"
-using "Teleportation_ShapeWater_Move"
-data "SpellProperties" "GROUND:CreateSurface(2,-1,Water)"
-
-new entry "Target_ShapeWater_IceBlock"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_ShapeWater_IceBlock"
-data "SpellProperties" "GROUND:CreateSurface(2,-1,None);GROUND:Summon(408559c5-ac6c-4fab-b629-7fd6e52e108a,-1,,,'IceBlockStack',SHAPE_WATER_ICE_BLOCK)"
+data "SpellSuccess" "IF(not Ally()):Force(2,OriginToTarget,Aggressive);IF(Ally()):Force(2,OriginToTarget,Friendly)"
+data "DescriptionParams" "Distance(2)"
 

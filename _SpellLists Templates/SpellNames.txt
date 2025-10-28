@@ -30,9 +30,6 @@ Target_ViciousMockery
 
 // 5e
 Target_ControlFlames
-Target_CreateBonfire
-Target_Frostbite
-Target_Gust
 Target_Infestation
 Target_MagicStone
 Target_MindSliver
@@ -44,6 +41,14 @@ Shout_Thunderclap
 Shout_WordOfRadiance
 
 // Mystra
+Target_CreateBonfire
+Target_Frostbite
+Target_Gust
+Shout_HandOfRadiance
+Target_PrimalSavagery
+Target_Prestidigitation
+Shout_Thunderclap
+Shout_WordOfRadiance
 
 // Exandria
 Target_ATT_SappingSting
@@ -128,30 +133,27 @@ Target_Smite_Wrathful
 Target_Smite_Lunar
 
 // 5e
-Shout_AbsorbElements
-Target_BeastBond
-Throw_Catapult
-Target_CauseFear
-Target_Ceremony
 Target_ChaosBolt
 (Shout_DetectEvilAndGood)
 (Shout_DetectMagic)
-Shout_EarthTremor
-Zone_FrostFingers
 Target_Snare
 Zone_TashasCausticBrew
 (Target_UnseenServant)
 Shout_ZephyrStrike
 
 // Mystra
+Shout_AbsorbElementsSpell
+Target_BeastBond
+Throw_Catapult
+Target_CauseFear
+Target_Ceremony
+Shout_EarthTremor
+Zone_FrostFingers
 Target_SilveryBarbs	(moved from 2nd level)
 
 // Exandria
 Target_ATT_GiftOfAlacrity
 Target_ATT_MagnifyGravity
-
-// Other Mods (Homebrew)
-Zone_RadiantBurst
 
 
 // =========================================================================================
@@ -478,7 +480,6 @@ Target_SkillEmpowerment
 
 // Mystra
 (Target_BigbyHand)
-Target_DanseMacabre_Container
 Target_InfernalCalling
 (Projectile_SteelWindStrikeNew)
 (Target_SummonDragon)
@@ -489,6 +490,7 @@ Target_ATT_TemporalShunt
 // veenab
 VBT_Spell_5_ControlWinds
 VBT_Spell_5_Creation
+VBT_Spell_5_DanseMacabre
 VBT_Spell_5_Dawn
 VBT_Spell_5_Enervate
 VBT_Spell_5_Immolation
@@ -498,27 +500,6 @@ VBT_Spell_5_SummonCelestial
 // BadtotheBard
 Target_StormOfRadiance
 Shout_YolandesRegalPresence
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Veenab
-VBT_Spell_5_DanseMacabre
-
 
 
 // =========================================================================================
@@ -700,31 +681,11 @@ Osi.SetLevel(GetHostCharacter(), 20)
 
 // Cantrips
 Target_BoomingBlade_5e
-	Target_BoomingBlade_SneakAttack
-	Target_BoomingBlade_DivineStrike_Radiant
-	Target_BoomingBlade_DivineStrike_Cold
-	Target_BoomingBlade_DivineStrike_Fire
-	Target_BoomingBlade_DivineStrike_Lightning
-	Target_BoomingBlade_DivineStrike_Thunder
-	Target_BoomingBlade_DivineStrike_Poison
-	Target_BoomingBlade_DivineStrike_MeleeWeapon
-	Target_BoomingBlade_DivineStrike_Necrotic
-	Target_BoomingBlade_DivineStrike_Psychic
 Target_ControlFlames
 Target_CreateBonfire
 Shout_Druidcraft
 Target_Frostbite
 Target_GreenFlameBlade
-	Target_GreenFlameBlade_SneakAttack
-	Target_GreenFlameBlade_DivineStrike_Radiant
-	Target_GreenFlameBlade_DivineStrike_Cold
-	Target_GreenFlameBlade_DivineStrike_Fire
-	Target_GreenFlameBlade_DivineStrike_Lightning
-	Target_GreenFlameBlade_DivineStrike_Thunder
-	Target_GreenFlameBlade_DivineStrike_Poison
-	Target_GreenFlameBlade_DivineStrike_MeleeWeapon
-	Target_GreenFlameBlade_DivineStrike_Necrotic
-	Target_GreenFlameBlade_DivineStrike_Psychic
 Target_Gust
 Target_Infestation
 Target_LightningLure
@@ -768,13 +729,11 @@ Target_FlockOfFamiliars
 Target_GentleRepose
 Target_HealingSpirit
 Shout_KineticJaunt
-[Target_Levitate]
 Target_MaximiliansEarthenGrasp
 (Target_MindSpike)
 Target_NathairsMischief
 Zone_RimesBindingIce
 Target_SnillocsSnowballStorm
-[Target_Suggestion]
 (Target_SummonBeast)
 Target_TashasMindWhip
 Target_VortexWarp
@@ -824,15 +783,12 @@ Target_StormSphere
 (Shout_CircleOfPower)
 (Shout_CommuneWithNature)
 ProjectileStrike_ConjureVolley
-[Target_Dawn]
 Target_FarStep
 Target_HolyWeapon
 Target_Maelstrom
 (Target_Mislead)
 Projectile_NegativeEnergyFlood
 (Target_RaiseDead)
-[Target_RarysTelepathicBond]
-[Target_Reincarnate]
 Target_SkillEmpowerment
 (Target_SteelWindStrike)
 (Target_SummonDraconicSpirit)
@@ -847,17 +803,14 @@ Shout_TensersTransformation
 
 
 // 7th Level Spells
-[Shout_CrownOfStars]
 Target_FingerOfDeath
 Target_Regenerate
-[Shout_Teleport]
 
 
 // 8th Level Spells
 Target_DominateMonster
 Target_Feeblemind
 Shout_HolyAura
-[Target_MaddeningDarkness]
 Target_MindBlank
 
 
@@ -876,14 +829,12 @@ Target_CreateBonfire
 Target_Frostbite
 Target_GreenFlameBlade
 Target_Gust
-Shout_HandOfRadiance UNEARTHEDARCANA
+Shout_HandOfRadiance
 Projectile_Infestation
-Projectile_LarlochsMinorDrain HOMEBREW
 Target_LightningLure
 Shout_MagicStone
 Projectile_MindSilver
 Target_CreateDestroyMoldEarth
-Projectile_Moonflare HOMEBREW
 Target_PrimalSavagery
 Target_Prestidigitation
 Projectile_SappingSting
@@ -895,7 +846,6 @@ Shout_WordOfRadiance
 
 // 1st Level Spells
 Shout_AbsorbElementsSpell
-Zone_AcidStream UNEARTHEDARCANA
 Target_BeastBond
 Throw_Catapult
 Target_CauseFear
@@ -904,42 +854,33 @@ Projectile_ChaosBoltNew
 Shout_EarthTremor
 Zone_FrostFingers
 Target_GiftOfAlacrity
-Target_IdInsinuation UNEARTHEDARCANA
 Shout_MagicMissile_Jim
 Target_MagnifyGravity
 Target_Snare
-Target_SuddenAwakening UNEARTHEDARCANA
 Zone_CausticBrew
 Shout_ZephyrStrike
 
 
 // 2nd Level Spells
 Zone_AganazzarScorcher
-Shout_BeastAspect SUBSPELL_OF_ALTERSELF
 Shout_BorrowedKnowledge
 (Target_DragonsBreath)
 Shout_DustDevil
 Target_Earthbind
 Target_FlockOfFamiliars
-Target_ForceWeapon HOMEBREW
-Target_HealingElixir UNEARTHEDARCANA_SECOND_LEVEL_SPELL
 Target_HealingSpirit
 Projectile_GlowingCoin_Jim
 Shout_KineticJaunt
 Target_EarthenGrasp
-Shout_MentalBarrier UNEARTHEDARCANA
 (Target_MindSpike)
 Target_NathairsMischief
 Target_Pyrotechnics
-Shout_ShadowBlade_Spell IN_VANILLA
 Target_SilveryBarbs SHOULD_BE_FIRST_LEVEL
 Target_SnowballStorm
 Zone_SprayOfCards
-Shout_SummonMoonblade_Container HOMEBREW
 (Target_SummonBeast)
 Target_MindWhip
 Target_VortexWarp
-Projectile_VolleyOfArrows HOMEBREW
 Target_WitherAndBloom
 
 
@@ -949,7 +890,6 @@ Shout_AshardalonsStride
 BlindFaith_HOMEBREW
 Target_Catnap
 Shout_CreateFoodAndWater
-Shout_DiscordantMelody HOMEBREW
 Target_EnemiesAbound
 Target_EruptingEarth
 Target_FlameArrows
@@ -959,16 +899,13 @@ Target_IntellectFortress
 Target_LifeTransference
 Shout_MelfsMinuteMeteors
 Target_MotivationalSpeech
-Zone_PsionicBlast UNEARTHEDARCANA
 Zone_PulseWave
-Shout_SenseVitals HOMEBREW
 Shout_SpiritShroud
 (Target_SummonFey_Container)
 Target_SummonLesserDemons
 Target_SummonShadowspawn
 Teleportation_ThunderStep
 Target_TidalWave
-Target_VenomousBarbs HOMEBREW
 (Target_WaterWalk)
 
 
@@ -979,12 +916,9 @@ Target_VenomousBarbs HOMEBREW
 (Target_CharmMonster)
 (Target_ControlWater_Container)
 Target_DreamSleep
-Target_EgoWhip UNEARTHEDARCANA
 Target_ElementalBane
 Target_GravitySinkhole
 Shout_GuardianOfNature
-Target_IllusoryWeapon HOMEBREW
-Shout_MesmersLullaby HOMEBREW
 Target_PsychicLance
 Shout_ShadowOfMoil
 Target_StoneShape_Container
@@ -994,11 +928,10 @@ Target_StormSphere
 (Target_SummonElemental)
 Target_SummonGreaterDemon
 (Projectile_VitriolicSphere)
-Projectile_WebOfFire CRITICAL_ROLE
+Projectile_WebOfFire
 
 
 // 5th Level Spells
-Target_AstralDisjunction TEMPORAL_SHUNT
 (Target_BigbyHand)
 Target_DanseMacabre_Container
 Projectile_Enervation
@@ -1006,7 +939,6 @@ Shout_FarStep
 Target_InfernalCalling
 Target_HolyWeapon
 Target_Immolation
-Target_MacabreExplosion HOMEBREW
 Target_Maelstrom
 Projectile_NegativeEnergyFlood
 (Projectile_SteelWindStrikeNew)
@@ -1018,10 +950,7 @@ Projectile_NegativeEnergyFlood
 // 6th Level Spells
 Target_ConjureFey
 Shout_ElementalInvestiture
-Zone_Fissure HOMEBREW
-Target_LesserRegenerate HOMEBREW
 Shout_PrimordialWard
-Target_PsychicCrush UNEARTHEDARCANA
 TensersTransformation
 (Target_TrueSeeing)
 
@@ -1133,15 +1062,6 @@ Target_ATT_TimeRavage
 // =========================================================================================
 // Veenab
 
-// Cantrips
-[VBT_Spell_0_Frostbite]
-[VBT_Spell_0_Thunderclap]
-
-
-// 1st Level Spells
-[VBT_Spell_1_DetectEvilAndGood]
-
-
 // 2nd Level Spells
 VBT_Spell_2_DustDevil
 VBT_Spell_2_VortexWarp
@@ -1150,7 +1070,6 @@ VBT_Spell_2_VortexWarp
 
 // 3rd Level Spells
 VBT_Spell_3_ConjureAnimals
-[VBT_Spell_3_CreateFoodWater]
 VBT_Spell_3_EruptingEarth
 VBT_Spell_3_SummonUndead
 VBT_Spell_3_SpiritShroud
@@ -1175,14 +1094,6 @@ VBT_Spell_5_Immolation
 VBT_Spell_5_Maelstrom
 [VBT_Spell_5_RaiseDead]
 VBT_Spell_5_SummonCelestial
-
-
-// 7th Level Spells
-[VBT_Spell_7_CrownOfStars]
-
-
-// 8th Level Spells
-[VBT_Spell_8_DominateMonster]
 
 
 // 9th Level Spells
@@ -1277,10 +1188,6 @@ Projectile_NightPiercer
 Projectile_LightPiercer
 TK_Thrust
 Target_RimefrostBlade
-
-
-// 1st Level Spells
-Zone_RadiantBurst
 
 
 // 2nd Level Spells
