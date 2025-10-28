@@ -549,11 +549,11 @@ Shout_WindWalk
 Target_TWN_Tollhouse_FleshToGold
 
 // 5e
-Shout_TensersTransformation
 (Target_TrueSeeing)
 
 // Mystra
 Shout_PrimordialWard
+Shout_TensersTransformation
 
 // Exandria
 Zone_ATT_GravityFissure
