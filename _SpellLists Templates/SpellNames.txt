@@ -30,7 +30,6 @@ Target_ViciousMockery
 
 // 5e
 Target_ControlFlames
-Target_Frostbite
 Target_Infestation
 Target_MagicStone
 Target_MoldEarth
@@ -38,16 +37,19 @@ Target_PrimalSavagery
 Target_ShapeWater
 
 // Mystra
-Target_Gust
-Shout_HandOfRadiance (UA)
-Shout_WordOfRadiance
+Target_Gust_5e
+Shout_HandOfRadiance
+Shout_WordOfRadiance_5R
 
 // 5e/Mystra Merge
 Target_CreateBonfire_5e
-Shout_Thunderclap_5e
 
 // Exandria
 Target_ATT_SappingSting
+
+// veenab
+VBT_Spell_0_Frostbite
+VBT_Spell_0_Thunderclap
 
 // havsglimt
 Target_Druidcraft
@@ -61,7 +63,7 @@ Projectile_SorcerousBurst
 Projectile_StarryWisp
 Shout_SCC_SwordBurst
 
-// Other Mods (Homebrew)
+// Other Mods Homebrew
 Target_DWE_MirrorBlade
 Projectile_NightPiercer
 Projectile_LightPiercer
@@ -119,7 +121,7 @@ Target_ProtectionFromEvilAndGood
 Projectile_RayOfSickness
 Target_Sanctuary
 Target_Smite_Searing
-Shout_Shield_Wizard	/	Shout_Shield_Sorcerer	/	Shout_Shield_Warlock
+Shout_Shield_Wizard		/	Shout_Shield_Sorcerer	/	Shout_Shield_Warlock
 Target_ShieldOfFaith
 Target_Sleep
 Shout_SpeakWithAnimals
@@ -138,20 +140,20 @@ Target_BeastBond
 Throw_Catapult
 Target_CauseFear
 Target_ChaosBolt
-(Shout_DetectEvilAndGood)
-(Shout_DetectMagic)
+Shout_DetectEvilAndGood
+Shout_DetectMagic
 Shout_EarthTremor
+Target_Snare
 Zone_TashasCausticBrew
-(Target_UnseenServant)
+Target_UnseenServant
 Shout_ZephyrStrike
 
 // Mystra
 Target_SilveryBarbs	(moved from 2nd level)
 
 // 5e/Mystra Merge
-Target_Ceremony_5e
+Target_Ceremony
 Zone_FrostFingers_5e
-Target_Snare_5e
 
 // Exandria
 Target_ATT_GiftOfAlacrity
@@ -206,32 +208,31 @@ Target_WardingBond
 Target_Web
 
 // 5e
-(Shout_AlterSelf)
+Shout_AlterSelf
 Shout_BorrowedKnowledge
-(Target_ContinualFlame)
-(Shout_FindTraps)
+Target_ContinualFlame
+Shout_FindTraps
 Target_FlockOfFamiliars
 Target_GentleRepose
+Target_HealingSpirit
 Shout_KineticJaunt
 Target_MaximiliansEarthenGrasp
-(Target_MindSpike)
+Target_MindSpike
 Zone_RimesBindingIce
-(Target_SummonBeast)
+Target_SummonBeast
 Target_TashasMindWhip
-Target_VortexWarp
 Shout_WardingWind
-(Target_ZoneofTruth)
+Target_WitherAndBloom
+Target_ZoneofTruth
 
 // Mystra
-Zone_AganazzarScorcher
+Zone_AganazzarsScorcher_5e
 Target_Earthbind
-Target_NathairsMischief
+Target_NathairsMischief_5e
 Target_Pyrotechnics
 
 // 5e/Mystra Merge
-(Target_DragonsBreath_5R)
-Target_HealingSpirit_5e
-Target_WitherAndBloom_5e
+Target_DragonsBreath_5R
 
 // Exandria
 Target_ATT_FortuneFavour
@@ -240,25 +241,13 @@ Target_ATT_ImmovableObject
 // veenab
 VBT_Spell_2_DustDevil
 VBT_Spell_2_SpiderClimb
+VBT_Spell_2_VortexWarp
 
 // havsglimt
 Target_SnowballSwarm
 
-// Other Mods (Homebrew)
+// Other Mods Homebrew
 IQ_Target_Hellcrawler
-
-
-
-
-
-
-
-
-
-veenab
-// 2nd Level Spells
-VBT_Spell_2_VortexWarp
-
 
 
 // =========================================================================================
@@ -303,12 +292,13 @@ Target_VampiricTouch
 // 5e
 Target_Antagonize
 Shout_AshardalonsStride
+Target_CreateFoodAndWater
 Target_FlameArrows
 Target_IntellectFortress
 Target_LifeTransference
-(Target_MagicCircle)
+Target_MagicCircle
 Projectile_MinuteMeteors
-(Target_Nondetection)
+Target_Nondetection
 Teleportation_ThunderStep
 
 // Mystra
@@ -319,10 +309,9 @@ Shout_InciteGreed
 Target_SummonLesserDemons
 
 // 5e/Mystra Merge
-(Target_CreateFoodAndWater_5R)
 Target_MotivationalSpeech_5e
 Target_SummonShadowspawn_5e
-(Shout_WaterWalk_5R)
+Shout_WaterWalk_5R
 
 // Exandria
 Zone_ATT_PulseWaveContainer
@@ -340,7 +329,7 @@ VBT_Spell_3_SummonUndead
 Target_Dispel_Magic
 
 // Mine
-(Target_SummonFey_5R)
+Target_SummonFey_5R
 
 
 // =========================================================================================
@@ -369,11 +358,11 @@ Target_Stoneskin
 Wall_WallOfFire
 
 // 5e
-(Target_ArcaneEye)
+Target_ArcaneEye
 
 // Mystra
-(Shout_AuraOfPurity)
-(Target_CharmMonster)
+Shout_AuraOfPurity
+Target_CharmMonster
 Target_DreamSleep
 Target_ElementalBane
 Shout_GuardianOfNature
@@ -381,13 +370,13 @@ Target_PsychicLance
 Target_StoneShape_Container
 Target_StormSphere
 Target_SummonGreaterDemon
-(Projectile_VitriolicSphere)
+Projectile_VitriolicSphere
 Projectile_WebOfFire
 
 // 5e/Mystra Merge
-(Target_SummonAberration_5R)
-(Target_SummonConstruct_5R)
-(Target_SummonElemental_5R)
+Target_SummonAberration_5R
+Target_SummonConstruct_5R
+Target_SummonElemental_5R
 
 // Exandria
 Target_ATT_GravitySinkhole
@@ -429,27 +418,27 @@ Projectile_CursedTome_CurriculumofStrategy
 Projectile_CursedTome_Dethrone
 
 // 5e
-(Shout_AntilifeShell)
-(Shout_CircleOfPower)
-(Shout_CommuneWithNature)
+Shout_AntilifeShell
+Shout_CircleOfPower
+Shout_CommuneWithNature
 ProjectileStrike_ConjureVolley
 Target_FarStep
 Target_HolyWeapon
-(Target_Mislead)
+Target_Mislead
 
 Target_SkillEmpowerment
-(Shout_SwiftQuiver)
-(Teleportation_TeleportationCircle)
+Shout_SwiftQuiver
+Teleportation_TeleportationCircle
 
 // Mystra
-(Target_BigbyHand)
+Target_BigbyHand
 Target_InfernalCalling
 Projectile_NegativeEnergyFlood
-(Projectile_SteelWindStrikeNew)
-(Target_SynapticStatic)
+Projectile_SteelWindStrikeNew
+Target_SynapticStatic
 
 // 5e/Mystra Merge
-(Target_SummonDragon_5R)
+Target_SummonDragon_5R
 
 // Exandria
 Target_ATT_TemporalShunt
@@ -473,7 +462,7 @@ Shout_YolandesRegalPresence
 
 
 // 5th Level Spells
-(Target_RaiseDead)
+Target_RaiseDead
 
 // 5th Level Spells
 [VBT_Spell_5_RaiseDead]
@@ -509,7 +498,7 @@ Shout_WindWalk
 Target_TWN_Tollhouse_FleshToGold
 
 // 5e
-(Target_TrueSeeing)
+Target_TrueSeeing
 
 // Mystra
 Shout_PrimordialWard
@@ -525,6 +514,11 @@ Shout_InvestitureOfFlame
 
 // BadtotheBard
 Target_PlatinumShield
+
+// Mine
+Shout_InvestitureOfIce
+Shout_InvestitureOfStone
+Shout_InvestitureOfWind
 
 
 // =========================================================================================
@@ -625,8 +619,8 @@ Target_ATT_TimeRavage
 // =========================================================================================
 
 
-Osi.AddSpell(GetHostCharacter(), "SPELL", 0, 0)
-Osi.SetLevel(GetHostCharacter(), 20)
+Osi.AddSpell(GetHostCharacter, "SPELL", 0, 0)
+Osi.SetLevel(GetHostCharacter, 20)
 
 
 // =========================================================================================
@@ -669,39 +663,39 @@ Throw_Catapult
 Target_CauseFear
 Target_Ceremony
 Target_ChaosBolt
-(Shout_DetectEvilAndGood)
-(Shout_DetectMagic)
+Shout_DetectEvilAndGood
+Shout_DetectMagic
 Shout_EarthTremor
 Zone_FrostFingers
 Target_Snare
 Zone_TashasCausticBrew
-(Target_UnseenServant)
+Target_UnseenServant
 Shout_ZephyrStrike
 
 
 // 2nd Level Spells
 Zone_AganazzarsScorcher
-(Shout_AlterSelf)
+Shout_AlterSelf
 Shout_BorrowedKnowledge
-(Target_ContinualFlame)
-(Target_DragonsBreath)
+Target_ContinualFlame
+Target_DragonsBreath
 Target_DustDevil
-(Shout_FindTraps)
+Shout_FindTraps
 Target_FlockOfFamiliars
 Target_GentleRepose
 Target_HealingSpirit
 Shout_KineticJaunt
 Target_MaximiliansEarthenGrasp
-(Target_MindSpike)
+Target_MindSpike
 Target_NathairsMischief
 Zone_RimesBindingIce
 Target_SnillocsSnowballStorm
-(Target_SummonBeast)
+Target_SummonBeast
 Target_TashasMindWhip
 Target_VortexWarp
 Shout_WardingWind
 Target_WitherAndBloom
-(Target_ZoneofTruth)
+Target_ZoneofTruth
 
 
 // 3rd Level Spells
@@ -709,59 +703,59 @@ Target_Antagonize
 Shout_AshardalonsStride
 Target_Catnap
 Target_ConjureAnimals_Container
-(Target_CreateFoodAndWater)
+Target_CreateFoodAndWater
 Target_EnemiesAbound
 Target_EruptingEarth
 Target_FlameArrows
 Target_IntellectFortress
 Target_LifeTransference
-(Target_MagicCircle)
+Target_MagicCircle
 Projectile_MinuteMeteors
 Target_MotivationalSpeech
-(Target_Nondetection)
+Target_Nondetection
 Shout_SpiritShroud
-(Target_SummonFey)
+Target_SummonFey
 Target_SummonShadowspawn
 Teleportation_ThunderStep
-(Shout_WaterWalk)
+Shout_WaterWalk
 
 
 // 4th Level Spells
-(Target_ArcaneEye)
-(Shout_AuraOfLife)
-(Target_CharmMonster)
+Target_ArcaneEye
+Shout_AuraOfLife
+Target_CharmMonster
 Shout_GuardianOfNature
 Projectile_RaulothimsPsychicLance
 Shout_ShadowOfMoil
-(Target_SummonBeholderkin)
+Target_SummonBeholderkin
 Target_StormSphere
-(Target_SummonConstruct)
-(Target_SummonElemental)
-(Projectile_VitriolicSphere)
+Target_SummonConstruct
+Target_SummonElemental
+Projectile_VitriolicSphere
 
 
 // 5th Level Spells
-(Shout_AntilifeShell)
-(Shout_CircleOfPower)
-(Shout_CommuneWithNature)
+Shout_AntilifeShell
+Shout_CircleOfPower
+Shout_CommuneWithNature
 ProjectileStrike_ConjureVolley
 Target_FarStep
 Target_HolyWeapon
 Target_Maelstrom
-(Target_Mislead)
+Target_Mislead
 Projectile_NegativeEnergyFlood
-(Target_RaiseDead)
+Target_RaiseDead
 Target_SkillEmpowerment
-(Target_SteelWindStrike)
-(Target_SummonDraconicSpirit)
-(Shout_SwiftQuiver)
-(Target_SynapticStatic)
-(Teleportation_TeleportationCircle)
+Target_SteelWindStrike
+Target_SummonDraconicSpirit
+Shout_SwiftQuiver
+Target_SynapticStatic
+Teleportation_TeleportationCircle
 
 
 // 6th Level Spells
 Shout_TensersTransformation
-(Target_TrueSeeing)
+Target_TrueSeeing
 
 
 // 7th Level Spells
@@ -818,6 +812,7 @@ Zone_FrostFingers
 Target_GiftOfAlacrity
 Shout_MagicMissile_Jim
 Target_MagnifyGravity
+Target_SilveryBarbs (previously 2nd level)
 Target_Snare
 Zone_CausticBrew
 Shout_ZephyrStrike
@@ -826,7 +821,7 @@ Shout_ZephyrStrike
 // 2nd Level Spells
 Zone_AganazzarScorcher
 Shout_BorrowedKnowledge
-(Target_DragonsBreath)
+Target_DragonsBreath
 Shout_DustDevil
 Target_Earthbind
 Target_FlockOfFamiliars
@@ -834,13 +829,12 @@ Target_HealingSpirit
 Projectile_GlowingCoin_Jim
 Shout_KineticJaunt
 Target_EarthenGrasp
-(Target_MindSpike)
+Target_MindSpike
 Target_NathairsMischief
 Target_Pyrotechnics
-Target_SilveryBarbs SHOULD_BE_FIRST_LEVEL
 Target_SnowballStorm
 Zone_SprayOfCards
-(Target_SummonBeast)
+Target_SummonBeast
 Target_MindWhip
 Target_VortexWarp
 Target_WitherAndBloom
@@ -849,13 +843,12 @@ Target_WitherAndBloom
 // 3rd Level Spells
 Target_Antagonize
 Shout_AshardalonsStride
-BlindFaith_HOMEBREW
 Target_Catnap
 Shout_CreateFoodAndWater
 Target_EnemiesAbound
 Target_EruptingEarth
 Target_FlameArrows
-Target_FreedomOfTheWaves TAL_DOREI
+Target_FreedomOfTheWaves
 Shout_InciteGreed
 Target_IntellectFortress
 Target_LifeTransference
@@ -863,20 +856,20 @@ Shout_MelfsMinuteMeteors
 Target_MotivationalSpeech
 Zone_PulseWave
 Shout_SpiritShroud
-(Target_SummonFey_Container)
+Target_SummonFey_Container
 Target_SummonLesserDemons
 Target_SummonShadowspawn
 Teleportation_ThunderStep
 Target_TidalWave
-(Target_WaterWalk)
+Target_WaterWalk
 
 
 // 4th Level Spells
-(Target_ArcaneEyeNew)
-(Shout_AuraOfLife)
-(Shout_AuraOfPurity)
-(Target_CharmMonster)
-(Target_ControlWater_Container)
+Target_ArcaneEyeNew
+Shout_AuraOfLife
+Shout_AuraOfPurity
+Target_CharmMonster
+Target_ControlWater_Container
 Target_DreamSleep
 Target_ElementalBane
 Target_GravitySinkhole
@@ -885,16 +878,16 @@ Target_PsychicLance
 Shout_ShadowOfMoil
 Target_StoneShape_Container
 Target_StormSphere
-(Target_SummonAberration)
-(Target_SummonConstruct)
-(Target_SummonElemental)
+Target_SummonAberration
+Target_SummonConstruct
+Target_SummonElemental
 Target_SummonGreaterDemon
-(Projectile_VitriolicSphere)
+Projectile_VitriolicSphere
 Projectile_WebOfFire
 
 
 // 5th Level Spells
-(Target_BigbyHand)
+Target_BigbyHand
 Target_DanseMacabre_Container
 Projectile_Enervation
 Shout_FarStep
@@ -903,10 +896,10 @@ Target_HolyWeapon
 Target_Immolation
 Target_Maelstrom
 Projectile_NegativeEnergyFlood
-(Projectile_SteelWindStrikeNew)
-(Target_SummonDragon)
-(Shout_SwiftQuiver)
-(Target_SynapticStatic)
+Projectile_SteelWindStrikeNew
+Target_SummonDragon
+Shout_SwiftQuiver
+Target_SynapticStatic
 
 
 // 6th Level Spells
@@ -914,7 +907,7 @@ Target_ConjureFey
 Shout_ElementalInvestiture
 Shout_PrimordialWard
 TensersTransformation
-(Target_TrueSeeing)
+Target_TrueSeeing
 
 
 // =========================================================================================
@@ -1023,6 +1016,11 @@ Target_ATT_TimeRavage
 
 // =========================================================================================
 // Veenab
+
+// Cantrips
+VBT_Spell_0_Frostbite
+VBT_Spell_0_Thunderclap
+
 
 // 2nd Level Spells
 VBT_Spell_2_DustDevil
@@ -1142,7 +1140,7 @@ Shout_FountOfMoonlight
 
 
 // =========================================================================================
-// Other Mods (Homebrew)
+// Other Mods Homebrew
 
 // Cantrips
 Target_DWE_MirrorBlade
@@ -1159,23 +1157,28 @@ IQ_Target_Hellcrawler
 // =========================================================================================
 // Vanilla Changes
 
-(Blindness)
 Target_BlindnessDeafness
-
-(Shining Smite: Melee)
 Target_Smite_Branding
-
-(Shining Smite: Ranged)
 Projectile_Smite_Branding
-
-(Shining Smite: Zariel Tiefling)
 Target_Smite_Branding_ZarielTiefling
-
-(Banishing Smite: Melee)
 Target_Smite_Banishing
-
-(Banishing Smite: Ranged)
 Projectile_Smite_Banishing
+
+
+// =========================================================================================
+// Mine
+
+Target_Prestidigitation_5R
+Target_SummonFey_5R
+Shout_InvestitureOfIce
+Shout_InvestitureOfStone
+Shout_InvestitureOfWind
+
+
+
+
+
+
 
 
 // =========================================================================================
