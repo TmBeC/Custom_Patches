@@ -30,31 +30,28 @@ Target_ViciousMockery
 
 // 5e
 Target_ControlFlames
+Target_Frostbite
 Target_Infestation
 Target_MagicStone
-Target_MindSliver
 Target_MoldEarth
-Target_Prestidigitation
 Target_PrimalSavagery
 Target_ShapeWater
-Shout_Thunderclap
-Shout_WordOfRadiance
 
 // Mystra
-Target_CreateBonfire
-Target_Frostbite
 Target_Gust
-Shout_HandOfRadiance
-Target_PrimalSavagery
-Target_Prestidigitation
-Shout_Thunderclap
+Shout_HandOfRadiance (UA)
 Shout_WordOfRadiance
+
+// 5e/Mystra Merge
+Target_CreateBonfire_5e
+Shout_Thunderclap_5e
 
 // Exandria
 Target_ATT_SappingSting
 
 // havsglimt
 Target_Druidcraft
+Target_MindSliver_AberrantMind
 
 // Other Mods
 Target_SCC_GreenFlame_Blade
@@ -70,6 +67,9 @@ Projectile_NightPiercer
 Projectile_LightPiercer
 TK_Thrust
 Target_RimefrostBlade
+
+// Mine
+Target_Prestidigitation_5R
 
 
 // =========================================================================================
@@ -133,23 +133,25 @@ Target_Smite_Wrathful
 Target_Smite_Lunar
 
 // 5e
+Shout_AbsorbElements
+Target_BeastBond
+Throw_Catapult
+Target_CauseFear
 Target_ChaosBolt
 (Shout_DetectEvilAndGood)
 (Shout_DetectMagic)
-Target_Snare
+Shout_EarthTremor
 Zone_TashasCausticBrew
 (Target_UnseenServant)
 Shout_ZephyrStrike
 
 // Mystra
-Shout_AbsorbElementsSpell
-Target_BeastBond
-Throw_Catapult
-Target_CauseFear
-Target_Ceremony
-Shout_EarthTremor
-Zone_FrostFingers
 Target_SilveryBarbs	(moved from 2nd level)
+
+// 5e/Mystra Merge
+Target_Ceremony_5e
+Zone_FrostFingers_5e
+Target_Snare_5e
 
 // Exandria
 Target_ATT_GiftOfAlacrity
@@ -204,30 +206,32 @@ Target_WardingBond
 Target_Web
 
 // 5e
-Zone_AganazzarsScorcher
 (Shout_AlterSelf)
 Shout_BorrowedKnowledge
 (Target_ContinualFlame)
-(Target_DragonsBreath)
 (Shout_FindTraps)
 Target_FlockOfFamiliars
 Target_GentleRepose
-Target_HealingSpirit
 Shout_KineticJaunt
 Target_MaximiliansEarthenGrasp
 (Target_MindSpike)
-Target_NathairsMischief
 Zone_RimesBindingIce
-//////////////(Target_SummonBeast)
+(Target_SummonBeast)
 Target_TashasMindWhip
 Target_VortexWarp
 Shout_WardingWind
-Target_WitherAndBloom
 (Target_ZoneofTruth)
 
 // Mystra
+Zone_AganazzarScorcher
 Target_Earthbind
+Target_NathairsMischief
 Target_Pyrotechnics
+
+// 5e/Mystra Merge
+(Target_DragonsBreath_5R)
+Target_HealingSpirit_5e
+Target_WitherAndBloom_5e
 
 // Exandria
 Target_ATT_FortuneFavour
@@ -235,6 +239,7 @@ Target_ATT_ImmovableObject
 
 // veenab
 VBT_Spell_2_DustDevil
+VBT_Spell_2_SpiderClimb
 
 // havsglimt
 Target_SnowballSwarm
@@ -252,17 +257,7 @@ IQ_Target_Hellcrawler
 
 veenab
 // 2nd Level Spells
-[VBT_Spell_2_SpiderClimb]
-
-
-
-havsglimt
-// 2nd Level Spells
-//////////////Target_SummonBeast
-
-
-
-
+VBT_Spell_2_VortexWarp
 
 
 
@@ -308,26 +303,26 @@ Target_VampiricTouch
 // 5e
 Target_Antagonize
 Shout_AshardalonsStride
-Target_Catnap
-Target_ConjureAnimals_Container
-(Target_CreateFoodAndWater)
-Target_EnemiesAbound
 Target_FlameArrows
 Target_IntellectFortress
 Target_LifeTransference
 (Target_MagicCircle)
 Projectile_MinuteMeteors
-Target_MotivationalSpeech
 (Target_Nondetection)
-Target_SummonShadowspawn
 Teleportation_ThunderStep
 
 // Mystra
+Target_Catnap
+Target_EnemiesAbound
+Target_FreedomOfTheWaves (Tal'Dorei)
 Shout_InciteGreed
-(Target_SummonFey_Container)
 Target_SummonLesserDemons
-Target_TidalWave
-(Target_WaterWalk)
+
+// 5e/Mystra Merge
+(Target_CreateFoodAndWater_5R)
+Target_MotivationalSpeech_5e
+Target_SummonShadowspawn_5e
+(Shout_WaterWalk_5R)
 
 // Exandria
 Zone_ATT_PulseWaveContainer
@@ -344,22 +339,9 @@ VBT_Spell_3_SummonUndead
 // Other Mods
 Target_Dispel_Magic
 
+// Mine
+(Target_SummonFey_5R)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// veenab
-VBT_Spell_3_ConjureAnimals
 
 // =========================================================================================
 // 4th Level Spells
@@ -388,25 +370,30 @@ Wall_WallOfFire
 
 // 5e
 (Target_ArcaneEye)
-(Shout_AuraOfLife)
-(Target_CharmMonster)
-Shout_GuardianOfNature
-Projectile_RaulothimsPsychicLance
-Target_StormSphere
-(Target_SummonConstruct)
-(Target_SummonElemental)
-(Projectile_VitriolicSphere)
 
 // Mystra
 (Shout_AuraOfPurity)
+(Target_CharmMonster)
 Target_DreamSleep
 Target_ElementalBane
+Shout_GuardianOfNature
+Target_PsychicLance
 Target_StoneShape_Container
-(Target_SummonAberration)
+Target_StormSphere
 Target_SummonGreaterDemon
+(Projectile_VitriolicSphere)
+Projectile_WebOfFire
+
+// 5e/Mystra Merge
+(Target_SummonAberration_5R)
+(Target_SummonConstruct_5R)
+(Target_SummonElemental_5R)
 
 // Exandria
 Target_ATT_GravitySinkhole
+
+// havsglimt
+Shout_AuraOfLife
 
 // veenab
 VBT_Spell_4_ControlWater
@@ -414,28 +401,6 @@ VBT_Spell_4_ShadowOfMoil
 
 // ShadyDax
 Shout_FountOfMoonlight
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// veenab
-[VBT_Spell_4_SummonElemental]
-
-
-
 
 
 // =========================================================================================
@@ -471,18 +436,20 @@ ProjectileStrike_ConjureVolley
 Target_FarStep
 Target_HolyWeapon
 (Target_Mislead)
-Projectile_NegativeEnergyFlood
-(Target_RaiseDead)
+
 Target_SkillEmpowerment
 (Shout_SwiftQuiver)
-(Target_SynapticStatic)
 (Teleportation_TeleportationCircle)
 
 // Mystra
 (Target_BigbyHand)
 Target_InfernalCalling
+Projectile_NegativeEnergyFlood
 (Projectile_SteelWindStrikeNew)
-(Target_SummonDragon)
+(Target_SynapticStatic)
+
+// 5e/Mystra Merge
+(Target_SummonDragon_5R)
 
 // Exandria
 Target_ATT_TemporalShunt
@@ -500,6 +467,18 @@ VBT_Spell_5_SummonCelestial
 // BadtotheBard
 Target_StormOfRadiance
 Shout_YolandesRegalPresence
+
+
+
+
+
+// 5th Level Spells
+(Target_RaiseDead)
+
+// 5th Level Spells
+[VBT_Spell_5_RaiseDead]
+
+
 
 
 // =========================================================================================
@@ -536,6 +515,8 @@ Target_TWN_Tollhouse_FleshToGold
 Shout_PrimordialWard
 Shout_TensersTransformation
 
+// 5e/Mystra Merge
+
 // Exandria
 Zone_ATT_GravityFissure
 
@@ -544,25 +525,6 @@ Shout_InvestitureOfFlame
 
 // BadtotheBard
 Target_PlatinumShield
-
-
-
-
-
-
-
-
-
-
-
-// mystra
-// 6th Level Spells
-Target_ConjureFey
-Shout_ElementalInvestiture
-
-
-
-
 
 
 // =========================================================================================
