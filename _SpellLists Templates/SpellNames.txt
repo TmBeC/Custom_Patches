@@ -1,77 +1,60 @@
 // =========================================================================================
 // Cantrips
 
-// Vanilla
 Projectile_AcidSplash
 Shout_BladeWard
 Target_ChillTouch
 Target_BoomingBlade_ClassSpell
 Target_BurstingSinew
+Target_ControlFlames
+Target_CreateBonfire_5e
 Target_DancingLights
+Target_Druidcraft
 Projectile_EldritchBlast
 Projectile_FireBolt
 Target_Friends
+VBT_Spell_0_Frostbite
+Target_SCC_GreenFlame_Blade
 Target_Guidance
+Target_Gust_5e
+Shout_HandOfRadiance
+Target_Infestation
 Target_Light
+Projectile_LightPiercer
+Target_SCC_LightningLure
 Target_MageHand
+Target_MagicStone
+Target_Mending
+Target_MindSliver_AberrantMind
 Target_MinorIllusion
+Target_DWE_MirrorBlade
+Target_MoldEarth
+Projectile_NightPiercer
 Projectile_PoisonSpray
+Target_Prestidigitation_5R
+Target_PrimalSavagery
 Shout_ProduceFlame
 Projectile_RayOfFrost
 Target_Resistance
+Target_RimefrostBlade
 Target_SacredFlame
+Target_ShapeWater
 Shout_Shillelagh
 Target_ShockingGrasp
-Shout_Thaumaturgy
-Target_ThornWhip
-Target_TollTheDead
-Target_TrueStrike
-Target_ViciousMockery
-
-// 5e
-Target_ControlFlames
-Target_Infestation
-Target_MagicStone
-Target_MoldEarth
-Target_PrimalSavagery
-Target_ShapeWater
-
-// Mystra
-Target_Gust_5e
-Shout_HandOfRadiance
-Shout_WordOfRadiance_5R
-
-// 5e/Mystra Merge
-Target_CreateBonfire_5e
-
-// Exandria
-Target_ATT_SappingSting
-
-// veenab
-VBT_Spell_0_Frostbite
-VBT_Spell_0_Thunderclap
-
-// havsglimt
-Target_Druidcraft
-Target_MindSliver_AberrantMind
-
-// Other Mods
-Target_SCC_GreenFlame_Blade
-Target_SCC_LightningLure
-Target_Mending
 Projectile_SorcerousBurst
 Projectile_StarryWisp
 Shout_SCC_SwordBurst
-
-// Other Mods Homebrew
-Target_DWE_MirrorBlade
-Projectile_NightPiercer
-Projectile_LightPiercer
 TK_Thrust
-Target_RimefrostBlade
+Shout_Thaumaturgy
+Target_ThornWhip
+VBT_Spell_0_Thunderclap
+Target_TollTheDead
+Target_TrueStrike
+Target_ViciousMockery
+Shout_WordOfRadiance_5R
 
-// Mine
-Target_Prestidigitation_5R
+// Exandria
+Target_ATT_SappingSting
 
 
 // =========================================================================================
@@ -329,6 +312,7 @@ VBT_Spell_3_SummonUndead
 Target_Dispel_Magic
 
 // Mine
+Shout_Clairvoyance
 Target_SummonFey_5R
 
 
@@ -390,6 +374,9 @@ VBT_Spell_4_ShadowOfMoil
 
 // ShadyDax
 Shout_FountOfMoonlight
+
+// Mine
+Shout_Divination_Container
 
 
 // =========================================================================================
@@ -457,6 +444,11 @@ VBT_Spell_5_SummonCelestial
 Target_StormOfRadiance
 Shout_YolandesRegalPresence
 
+// Mine
+Shout_Commune
+Target_StormOfRadiance
+Shout_YolandesRegalPresence
+
 
 
 
@@ -466,8 +458,6 @@ Target_RaiseDead
 
 // 5th Level Spells
 [VBT_Spell_5_RaiseDead]
-
-
 
 
 // =========================================================================================
@@ -549,13 +539,14 @@ Target_ATT_TetherEssence
 Target_ConjureCelestial
 Target_MordenkainensSword
 
+// Mine
+Target_ConjureCelestial
+Target_MordenkainensSword
+
 
 // =========================================================================================
 // 8th Level Spells
 
-// 5e
-
-// ATT
 Target_HorridWilting
 Target_ATT_AnimalShapes
 Shout_AntimagicField
@@ -579,12 +570,6 @@ Target_ATT_RealityBreak
 // =========================================================================================
 // 9th Level Spells
 
-// Vanilla
-Target_PowerWordKill
-
-// 5e
-
-// ATT
 Target_BladeOfDisaster
 Target_ATT_Foresight
 Target_Gate_Container
@@ -593,6 +578,7 @@ Target_ATT_MassHeal
 Target_MassPolymorph
 Target_ATT_MeteorSwarm
 Target_ATT_PowerWordHeal
+Target_PowerWordKill
 Wall_ATT_PrismaticWall
 Shout_PsychicScream
 Shout_ATT_Shapechange_Container
@@ -1168,17 +1154,33 @@ Projectile_Smite_Banishing
 // =========================================================================================
 // Mine
 
+// Cantrips
 Target_Prestidigitation_5R
+
+// 1st Level Spells
+
+// 2nd Level Spells
+
+// 3rd Level Spells
+Shout_Clairvoyance
 Target_SummonFey_5R
+
+// 4th Level Spells
+Shout_Divination_Container
+
+// 5th Level Spells
+Shout_Commune
+Target_StormOfRadiance
+Shout_YolandesRegalPresence
+
+// 6th Level Spells
 Shout_InvestitureOfIce
 Shout_InvestitureOfStone
 Shout_InvestitureOfWind
 
-
-
-
-
-
+// 7th Level Spells
+Target_ConjureCelestial
+Target_MordenkainensSword
 
 
 // =========================================================================================
