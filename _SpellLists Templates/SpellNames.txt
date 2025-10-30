@@ -309,7 +309,7 @@ Target_FreedomOfMovement
 Target_GraspingVine
 Target_Invisibility_Greater
 Target_GuardianOfFaith
-Shout_GuardianOfNature
+Shout_GuardianOfNature_5e
 Target_IceStorm
 Target_PsychicLance
 Target_ResilientSphere
