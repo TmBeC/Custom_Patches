@@ -318,7 +318,7 @@ Target_Polymorph
 VBT_Spell_4_ShadowOfMoil
 Target_StoneShape_Container
 Target_Stoneskin
-Target_StormSphere
+Target_StormSphere_5e
 Target_SummonGreaterDemon
 Projectile_VitriolicSphere
 Wall_WallOfFire
