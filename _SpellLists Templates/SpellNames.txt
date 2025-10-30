@@ -60,13 +60,18 @@ Target_ATT_SappingSting
 // =========================================================================================
 // 1st Level Spells
 
-// Vanilla
+Shout_AbsorbElements
 Target_AnimalFriendship
 Shout_ArmorOfAgathys
 Shout_ArmsOfHadar
 Target_Bane
+Target_BeastBond
 Target_Bless
 Zone_BurningHands
+Throw_Catapult
+Target_CauseFear
+Target_Ceremony
+Target_ChaosBolt
 Target_CharmPerson
 Projectile_ChromaticOrb
 Zone_ColorSpray
@@ -74,10 +79,13 @@ Target_Command_Container
 Target_CompelledDuel
 Target_CreateDestroyWater
 Target_CureWounds
+Shout_DetectEvilAndGood
+Shout_DetectMagic
 Shout_DisguiseSelf
 Target_DissonantWhispers
 Shout_DivineFavor
 Target_Jump
+Shout_EarthTremor
 Projectile_EnsnaringStrike_Container
 Target_Entangle
 Shout_ExpeditiousRetreat
@@ -86,6 +94,7 @@ Shout_FalseLife
 Shout_FeatherFall
 Target_FindFamiliar
 Target_FogCloud
+Zone_FrostFingers_5e
 Target_Goodberry
 Target_Grease
 Projectile_GuidingBolt
@@ -106,37 +115,21 @@ Target_Sanctuary
 Target_Smite_Searing
 Shout_Shield_Wizard		/	Shout_Shield_Sorcerer	/	Shout_Shield_Warlock
 Target_ShieldOfFaith
+Target_SilveryBarbs	(moved from 2nd level)
 Target_Sleep
+Target_Snare
 Shout_SpeakWithAnimals
+Zone_TashasCausticBrew
 Target_HideousLaughter
 Target_Smite_Thunderous
 Zone_Thunderwave
+Target_UnseenServant
 Projectile_WitchBolt
 Target_Smite_Wrathful
+Shout_ZephyrStrike
 
 // Vanilla Special
 Target_Smite_Lunar
-
-// 5e
-Shout_AbsorbElements
-Target_BeastBond
-Throw_Catapult
-Target_CauseFear
-Target_ChaosBolt
-Shout_DetectEvilAndGood
-Shout_DetectMagic
-Shout_EarthTremor
-Target_Snare
-Zone_TashasCausticBrew
-Target_UnseenServant
-Shout_ZephyrStrike
-
-// Mystra
-Target_SilveryBarbs	(moved from 2nd level)
-
-// 5e/Mystra Merge
-Target_Ceremony
-Zone_FrostFingers_5e
 
 // Exandria
 Target_ATT_GiftOfAlacrity
@@ -146,121 +139,125 @@ Target_ATT_MagnifyGravity
 // =========================================================================================
 // 2nd Level Spells
 
-// Vanilla
+Zone_AganazzarsScorcher_5e
 Shout_Aid
+Shout_AlterSelf
 Target_ArcaneLock
 Target_Barkskin
 Target_BlindnessDeafness	(altered)
 Shout_Blur
+Shout_BorrowedKnowledge
 Target_Smite_Branding	(altered)
 Target_CalmEmotions
 Target_CloudOfDaggers
+Target_ContinualFlame
 Target_CrownOfMadness
 Target_Darkness
 Target_Darkvision
 Shout_DetectThoughts
+Target_DragonsBreath_5R
+VBT_Spell_2_DustDevil
+Target_Earthbind
 Target_EnhanceAbility
 Target_EnlargeReduce
 Target_Enthrall
+Shout_FindTraps
 Shout_FlameBlade
 Target_FlamingSphere
+Target_FlockOfFamiliars
+Target_GentleRepose
 Zone_GustOfWind
+Target_HealingSpirit
 Target_HeatMetal
 Target_HoldPerson
+IQ_Target_Hellcrawler
 Target_Invisibility
+Shout_KineticJaunt
 Target_Knock
 Target_LesserRestoration
 Target_MagicWeapon
+Target_MaximiliansEarthenGrasp
 Projectile_AcidArrow
+Target_MindSpike
 Shout_MirrorImage
 Target_MistyStep
 Target_Moonbeam
+Target_NathairsMischief_5e
 Shout_PassWithoutTrace
 Target_PhantasmalForce
 Shout_PrayerOfHealing
 Target_ProtectionFromPoison
+Target_Pyrotechnics
 Projectile_RayOfEnfeeblement
+Zone_RimesBindingIce
 Projectile_ScorchingRay
 Shout_SeeInvisibility
 Shout_ShadowBlade_Class
 Target_Shatter
 Target_Silence
+Target_SnowballSwarm
+VBT_Spell_2_SpiderClimb
 Target_SpikeGrowth
 Target_SpiritualWeapon
-Target_WardingBond
-Target_Web
-
-// 5e
-Shout_AlterSelf
-Shout_BorrowedKnowledge
-Target_ContinualFlame
-Shout_FindTraps
-Target_FlockOfFamiliars
-Target_GentleRepose
-Target_HealingSpirit
-Shout_KineticJaunt
-Target_MaximiliansEarthenGrasp
-Target_MindSpike
-Zone_RimesBindingIce
 Target_SummonBeast
 Target_TashasMindWhip
+Target_WardingBond
 Shout_WardingWind
+Target_Web
 Target_WitherAndBloom
+VBT_Spell_2_VortexWarp
 Target_ZoneofTruth
-
-// Mystra
-Zone_AganazzarsScorcher_5e
-Target_Earthbind
-Target_NathairsMischief_5e
-Target_Pyrotechnics
-
-// 5e/Mystra Merge
-Target_DragonsBreath_5R
 
 // Exandria
 Target_ATT_FortuneFavour
 Target_ATT_ImmovableObject
 
-// veenab
-VBT_Spell_2_DustDevil
-VBT_Spell_2_SpiderClimb
-VBT_Spell_2_VortexWarp
-
-// havsglimt
-Target_SnowballSwarm
-
-// Other Mods Homebrew
-IQ_Target_Hellcrawler
-
 
 // =========================================================================================
 // 3rd Level Spells
 
-// Vanilla
 Target_AnimateDead
+Target_Antagonize
+Shout_AshardalonsStride_5e
 Shout_AuraOfVitality
 Shout_BeaconOfHope
 Target_BestowCurse
 Target_Smite_Blinding
 Shout_Blink
+Target_Catnap
 Target_CallLightning
+Shout_Clairvoyance
 Zone_ConjureBarrage
 Target_Counterspell
+Target_CreateFoodAndWater
 Shout_CrusadersMantle
 Target_Daylight_Container
+Target_Dispel_Magic
 Target_ElementalWeapon
+Target_EnemiesAbound
+VBT_Spell_3_EruptingEarth
 Zone_Fear
 Target_FeignDeath
 Projectile_Fireball
+Target_FlameArrows
+Target_FreedomOfTheWaves (Tal'Dorei)
 Target_GaseousForm
 Target_GlyphOfWarding
 Target_Fly
 Target_Haste
 Target_HungerOfHadar
 Target_HypnoticPattern
+Shout_InciteGreed
+Target_IntellectFortress
+Target_LifeTransference
 Projectile_LightningArrow
 Zone_LightningBolt
+Target_MagicCircle
 Shout_HealingWord_Mass
+Projectile_MinuteMeteors
+Target_MotivationalSpeech
+Target_Nondetection
+VBT_Spell_3_PhantomSteed
 Target_PlantGrowth
 Target_ProtectionFromEnergy
 Target_RemoveCurse
@@ -268,93 +265,63 @@ Teleportation_Revivify
 Target_SleetStorm
 Target_Slow
 Target_SpeakWithDead
+Shout_SpeakWithPlants_Hedge
 Shout_SpiritGuardians
+VBT_Spell_3_SpiritShroud
 Target_StinkingCloud
-Target_VampiricTouch
-
-// 5e
-Target_Antagonize
-Shout_AshardalonsStride
-Target_CreateFoodAndWater
-Target_FlameArrows
-Target_IntellectFortress
-Target_LifeTransference
-Target_MagicCircle
-Projectile_MinuteMeteors
-Target_Nondetection
-Teleportation_ThunderStep
-
-// Mystra
-Target_Catnap
-Target_EnemiesAbound
-Target_FreedomOfTheWaves (Tal'Dorei)
-Shout_InciteGreed
 Target_SummonLesserDemons
-
-// 5e/Mystra Merge
-Target_MotivationalSpeech_5e
-Target_SummonShadowspawn_5e
-Shout_WaterWalk_5R
+Target_SummonShadowspawn
+VBT_Spell_3_SummonUndead
+Teleportation_ThunderStep
+Shout_WaterWalk
+Target_VampiricTouch
 
 // Exandria
 Zone_ATT_PulseWaveContainer
 
-// havsglimt
-Shout_SpeakWithPlants_Hedge
-
-// veenab
-VBT_Spell_3_EruptingEarth
-VBT_Spell_3_PhantomSteed
-VBT_Spell_3_SpiritShroud
-VBT_Spell_3_SummonUndead
-
-// Other Mods
-Target_Dispel_Magic
-
 // Mine
-Shout_Clairvoyance
 Target_SummonFey_5R
 
 
 // =========================================================================================
 // 4th Level Spells
 
-// Vanilla
+Target_ArcaneEye
+Shout_AuraOfLife
+Shout_AuraOfPurity
 Target_Banishment
 Target_Blight
+Target_CharmMonster
 Target_Confusion
 Target_ConjureElementals_Minor_Container
 Target_ConjureWoodlandBeings
+VBT_Spell_4_ControlWater
 Target_DeathWard
 Teleportation_DimensionDoor
+Shout_Divination_Container
 Target_DominateBeast
+Target_DreamSleep
+Target_ElementalBane
 Target_BlackTentacles
 Shout_FireShield
+Shout_FountOfMoonlight
 Target_FreedomOfMovement
 Target_GraspingVine
 Target_Invisibility_Greater
 Target_GuardianOfFaith
+Shout_GuardianOfNature
 Target_IceStorm
+Target_PsychicLance
 Target_ResilientSphere
 Target_PhantasmalKiller
 Target_Polymorph
-Target_Stoneskin
-Wall_WallOfFire
-
-// 5e
-Target_ArcaneEye
-
-// Mystra
-Shout_AuraOfPurity
-Target_CharmMonster
-Target_DreamSleep
-Target_ElementalBane
-Shout_GuardianOfNature
-Target_PsychicLance
+VBT_Spell_4_ShadowOfMoil
 Target_StoneShape_Container
+Target_Stoneskin
 Target_StormSphere
 Target_SummonGreaterDemon
 Projectile_VitriolicSphere
+Wall_WallOfFire
 Projectile_WebOfFire
 
 // 5e/Mystra Merge
@@ -365,64 +332,56 @@ Target_SummonElemental_5R
 // Exandria
 Target_ATT_GravitySinkhole
 
-// havsglimt
-Shout_AuraOfLife
-
-// veenab
-VBT_Spell_4_ControlWater
-VBT_Spell_4_ShadowOfMoil
-
-// ShadyDax
-Shout_FountOfMoonlight
-
-// Mine
-Shout_Divination_Container
-
 
 // =========================================================================================
 // 5th Level Spells
 
-// Vanilla
+Shout_AntilifeShell
 Target_Smite_Banishing
+Target_BigbyHand
+Shout_CircleOfPower
 Target_Cloudkill
+Shout_Commune
+Shout_CommuneWithNature
 Zone_ConeOfCold
-Target_ConjureElemental_Container
+VBT_Spell_5_ControlWinds
+ProjectileStrike_ConjureVolley
 Target_Contagion
+VBT_Spell_5_Creation
+VBT_Spell_5_DanseMacabre
+VBT_Spell_5_Dawn
 Shout_DispelEvilAndGood
 Target_DominatePerson
+VBT_Spell_5_Enervate
+Target_FarStep
 Target_FlameStrike
 Target_GreaterRestoration
 Target_HoldMonster
+Target_HolyWeapon
+VBT_Spell_5_Immolation
+Target_InfernalCalling
 Target_InsectPlague
+Target_StormOfRadiance
+VBT_Spell_5_Maelstrom
 Target_CureWounds_Mass
+Target_Mislead
+Projectile_NegativeEnergyFlood
 Target_PlanarBinding
+Target_RaiseDead
 Target_Seeming
+Target_SkillEmpowerment
+Projectile_SteelWindStrikeNew
+VBT_Spell_5_SummonCelestial
+Shout_SwiftQuiver
+Target_SynapticStatic
 Throw_Telekinesis
+Teleportation_TeleportationCircle
 Wall_WallOfStone
+Shout_YolandesRegalPresence
 
 // Vanilla Special
 Projectile_CursedTome_CurriculumofStrategy
 Projectile_CursedTome_Dethrone
-
-// 5e
-Shout_AntilifeShell
-Shout_CircleOfPower
-Shout_CommuneWithNature
-ProjectileStrike_ConjureVolley
-Target_FarStep
-Target_HolyWeapon
-Target_Mislead
-
-Target_SkillEmpowerment
-Shout_SwiftQuiver
-Teleportation_TeleportationCircle
-
-// Mystra
-Target_BigbyHand
-Target_InfernalCalling
-Projectile_NegativeEnergyFlood
-Projectile_SteelWindStrikeNew
-Target_SynapticStatic
 
 // 5e/Mystra Merge
 Target_SummonDragon_5R
@@ -430,40 +389,10 @@ Target_SummonDragon_5R
 // Exandria
 Target_ATT_TemporalShunt
 
-// veenab
-VBT_Spell_5_ControlWinds
-VBT_Spell_5_Creation
-VBT_Spell_5_DanseMacabre
-VBT_Spell_5_Dawn
-VBT_Spell_5_Enervate
-VBT_Spell_5_Immolation
-VBT_Spell_5_Maelstrom
-VBT_Spell_5_SummonCelestial
-
-// BadtotheBard
-Target_StormOfRadiance
-Shout_YolandesRegalPresence
-
-// Mine
-Shout_Commune
-Target_StormOfRadiance
-Shout_YolandesRegalPresence
-
-
-
-
-
-// 5th Level Spells
-Target_RaiseDead
-
-// 5th Level Spells
-[VBT_Spell_5_RaiseDead]
-
 
 // =========================================================================================
 // 6th Level Spells
 
-// Vanilla
 Teleportation_ArcaneGate
 Wall_BladeBarrier
 Projectile_ChainLightning
@@ -477,9 +406,16 @@ Target_Harm
 Target_Heal
 Shout_HeroesFeast
 Target_FreezingSphere
+Shout_InvestitureOfFlame
+Shout_InvestitureOfIce
+Shout_InvestitureOfStone
+Shout_InvestitureOfWind
 Target_IrresistibleDance
 Target_PlanarAlly_Container
+Shout_PrimordialWard
 Zone_Sunbeam
+Shout_TensersTransformation
+Target_TrueSeeing
 Wall_WallOfIce
 Wall_WallOfThorns
 Shout_WindWalk
@@ -487,36 +423,17 @@ Shout_WindWalk
 // Vanilla Special
 Target_TWN_Tollhouse_FleshToGold
 
-// 5e
-Target_TrueSeeing
-
-// Mystra
-Shout_PrimordialWard
-Shout_TensersTransformation
-
-// 5e/Mystra Merge
-
 // Exandria
 Zone_ATT_GravityFissure
 
-// havsglimt
-Shout_InvestitureOfFlame
-
 // BadtotheBard
 Target_PlatinumShield
-
-// Mine
-Shout_InvestitureOfIce
-Shout_InvestitureOfStone
-Shout_InvestitureOfWind
 
 
 // =========================================================================================
 // 7th Level Spells
 
-// 5e
-
-// ATT
+Target_ConjureCelestial
 Shout_ATT_CrownOfStars
 Projectile_ATT_DelayedBlastFireball
 Shout_DivineWord
@@ -524,6 +441,7 @@ Zone_ATT_FizbanTransform
 Target_ATT_Etherealness
 Projectile_VlaakithBeam
 Target_FireStorm
+Target_MordenkainensSword
 Target_ATT_PowerWordFortify
 Target_ATT_PowerWordPain
 Zone_PrismaticSpray
@@ -534,14 +452,6 @@ Target_ATT_Whirlwind
 
 // Exandria
 Target_ATT_TetherEssence
-
-// BadtotheBard
-Target_ConjureCelestial
-Target_MordenkainensSword
-
-// Mine
-Target_ConjureCelestial
-Target_MordenkainensSword
 
 
 // =========================================================================================
