@@ -7,7 +7,7 @@ Target_ChillTouch
 Target_BoomingBlade_ClassSpell
 Target_BurstingSinew
 Target_ControlFlames
-Target_CreateBonfire_5e
+Target_CreateBonfire
 Target_DancingLights
 Target_Druidcraft
 Projectile_EldritchBlast
@@ -16,7 +16,7 @@ Target_Friends
 VBT_Spell_0_Frostbite
 Target_SCC_GreenFlame_Blade
 Target_Guidance
-Target_Gust_5e
+Target_Gust
 Shout_HandOfRadiance
 Target_Infestation
 Target_Light
@@ -31,7 +31,7 @@ Target_DWE_MirrorBlade
 Target_MoldEarth
 Projectile_NightPiercer
 Projectile_PoisonSpray
-Target_Prestidigitation_5R
+Target_Prestidigitation
 Target_PrimalSavagery
 Shout_ProduceFlame
 Projectile_RayOfFrost
@@ -51,7 +51,7 @@ VBT_Spell_0_Thunderclap
 Target_TollTheDead
 Target_TrueStrike
 Target_ViciousMockery
-Shout_WordOfRadiance_5R
+Shout_WordOfRadiance
 
 // Exandria
 Target_ATT_SappingSting
@@ -94,7 +94,7 @@ Shout_FalseLife
 Shout_FeatherFall
 Target_FindFamiliar
 Target_FogCloud
-Zone_FrostFingers_5e
+Zone_FrostFingers
 Target_Goodberry
 Target_Grease
 Projectile_GuidingBolt
@@ -139,7 +139,7 @@ Target_ATT_MagnifyGravity
 // =========================================================================================
 // 2nd Level Spells
 
-Zone_AganazzarsScorcher_5e
+Zone_AganazzarsScorcher
 Shout_Aid
 Shout_AlterSelf
 Target_ArcaneLock
@@ -155,7 +155,7 @@ Target_CrownOfMadness
 Target_Darkness
 Target_Darkvision
 Shout_DetectThoughts
-Target_DragonsBreath_5R
+Target_DragonsBreath
 VBT_Spell_2_DustDevil
 Target_Earthbind
 Target_EnhanceAbility
@@ -182,7 +182,7 @@ Target_MindSpike
 Shout_MirrorImage
 Target_MistyStep
 Target_Moonbeam
-Target_NathairsMischief_5e
+Target_NathairsMischief
 Shout_PassWithoutTrace
 Target_PhantasmalForce
 Shout_PrayerOfHealing
@@ -218,7 +218,7 @@ Target_ATT_ImmovableObject
 
 Target_AnimateDead
 Target_Antagonize
-Shout_AshardalonsStride_5e
+Shout_AshardalonsStride
 Shout_AuraOfVitality
 Shout_BeaconOfHope
 Target_BestowCurse
@@ -309,7 +309,7 @@ Target_FreedomOfMovement
 Target_GraspingVine
 Target_Invisibility_Greater
 Target_GuardianOfFaith
-Shout_GuardianOfNature_5e
+Shout_GuardianOfNature
 Target_IceStorm
 Target_PsychicLance
 Target_ResilientSphere
@@ -318,7 +318,7 @@ Target_Polymorph
 VBT_Spell_4_ShadowOfMoil
 Target_StoneShape_Container
 Target_Stoneskin
-Target_StormSphere_5e
+Target_StormSphere
 Target_SummonGreaterDemon
 Projectile_VitriolicSphere
 Wall_WallOfFire
@@ -1065,7 +1065,6 @@ Projectile_Smite_Banishing
 // Mine
 
 // Cantrips
-Target_Prestidigitation_5R
 
 // 1st Level Spells
 
