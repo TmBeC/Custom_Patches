@@ -145,7 +145,6 @@ Icon_MSW_Conjuration_SummonFey
 // =========================================================================================
 // 4th Level Spells
 
-Target_ArcaneEye
 Icon_MSW_Abjuration_AuraOfLife
 Icon_MSW_Abjuration_AuraOfPurity
 Icon_MSW_Enchantment_CharmMonster
@@ -154,15 +153,15 @@ Icon_MSW_Transmutation_ControlWater
 	Icon_MSW_Transmutation_ControlWater_Pillar
 	Icon_MSW_Transmutation_ControlWater_Whirl
 Shout_Divination_Container
-Target_DominateBeast
-Target_DreamSleep
 Icon_MSW_Transmutation_ElementalBane
 	Icon_MSW_Transmutation_ElementalBane_Acid
 	Icon_MSW_Transmutation_ElementalBane_Cold
 	Icon_MSW_Transmutation_ElementalBane_Fire
 	Icon_MSW_Transmutation_ElementalBane_Lightning
 	Icon_MSW_Transmutation_ElementalBane_Thunder
-Shout_GuardianOfNature
+Icon_MSW_Transmutation_GuardianOfNature
+	
+	
 Icon_MSW_Enchantment_RaulothimsPsychicLance
 Icon_MSW_Necromancy_ShadowOfMoil
 Target_StoneShape_Container

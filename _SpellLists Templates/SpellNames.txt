@@ -300,7 +300,6 @@ Target_DeathWard
 Teleportation_DimensionDoor
 Shout_Divination_Container
 Target_DominateBeast
-Target_DreamSleep
 Target_ElementalBane
 Target_BlackTentacles
 Shout_FireShield
