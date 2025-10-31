@@ -6,7 +6,7 @@ Icon_MSW
 
 Icon_MSW_Evocation_BoomingBlade
 Icon_MSW_Transmutation_ControlFlames
-Target_CreateBonfire
+Icon_MSW_Conjuration_CreateBonfire
 Icon_MSW_Transmutation_Druidcraft
 	Icon_MSW_Transmutation_Druidcraft_Bloom
 	Icon_MSW_Transmutation_Druidcraft_Distract
@@ -14,23 +14,20 @@ Icon_MSW_Transmutation_Druidcraft
 	Icon_MSW_Transmutation_Druidcraft_Persuasion	
 Icon_MSW_Evocation_Frostbite
 Icon_MSW_Evocation_GreenFlameBlade
-Target_Gust
+Icon_MSW_Transmutation_Gust
 Icon_MSW_Evocation_HandOfRadiance
 Target_Infestation
-Projectile_LightPiercer
-Target_SCC_LightningLure
 Target_MagicStone
-Target_MindSliver_AberrantMind
+Icon_MSW_Enchantment_MindSliver
 Target_DWE_MirrorBlade
 Target_MoldEarth
 Projectile_NightPiercer
 Icon_MSW_Transmutation_Prestidigitation
 Target_PrimalSavagery
 Target_ShapeWater
-Shout_SCC_SwordBurst
-TK_Thrust
+Icon_MSW_Conjuration_SwordBurst
 Icon_MSW_Evocation_Thunderclap
-Shout_WordOfRadiance
+Icon_MSW_Evocation_WordOfRadiance
 
 // Exandria
 Icon_MSW_Necromancy_SappingSting
@@ -40,10 +37,10 @@ Icon_MSW_Necromancy_SappingSting
 // 1st Level Spells
 
 Icon_MSW_Abjuration_AbsorbElements
-Target_BeastBond
+Icon_MSW_Divination_BeastBond
 Icon_MSW_Transmutation_Catapult
-Target_CauseFear
-Target_Ceremony
+Icon_MSW_Necromancy_CauseFear
+Icon_MSW_Evocation_Ceremony
 Target_ChaosBolt
 Icon_MSW_Divination_DetectMagic
 Shout_EarthTremor
@@ -52,7 +49,7 @@ Icon_MSW_Enchantment_SilveryBarbs
 Icon_MSW_Abjuration_Snare
 Icon_MSW_Evocation_CausticBrew
 Icon_MSW_Conjuration_UnseenServant
-Shout_ZephyrStrike
+Icon_MSW_Transmutation_ZephyrStrike
 
 // Exandria
 Icon_MSW_Divination_GiftOfAlacrity
@@ -80,7 +77,7 @@ Icon_MSW_Transmutation_DragonsBreath
 Icon_MSW_Conjuration_DustDevil
 	Icon_MSW_Conjuration_DustDevil_Move
 Target_Earthbind
-Shout_FindTraps
+Icon_MSW_Divination_FindTraps
 Target_FlockOfFamiliars
 Target_GentleRepose
 Target_HealingSpirit
@@ -91,17 +88,17 @@ Icon_MSW_Divination_MindSpike
 Icon_MSW_Illusion_NathairsMischief
 Target_Pyrotechnics
 Zone_RimesBindingIce
-Target_SnowballSwarm
+Icon_MSW_Evocation_SnillocsSnowballSwarm
 VBT_Spell_2_SpiderClimb
 Target_SummonBeast
 Target_TashasMindWhip
 Shout_WardingWind
 Target_WitherAndBloom
 Icon_MSW_Conjuration_VortexWarp
-Target_ZoneofTruth
+Icon_MSW_Enchantment_ZoneOfTruth
 
 // Exandria
-Target_ATT_FortuneFavour
+Icon_MSW_Divination_FortunesFavor
 Target_ATT_ImmovableObject
 
 
@@ -124,7 +121,7 @@ Projectile_MinuteMeteors
 Target_MotivationalSpeech
 Icon_MSW_Abjuration_Nondetection
 Icon_MSW_Illusion_PhantomSteed
-Shout_SpeakWithPlants_Hedge
+Icon_MSW_Transmutation_SpeakWithPlants
 VBT_Spell_3_SpiritShroud
 Target_SummonLesserDemons
 Icon_MSW_Conjuration_SummonShadowspawn
@@ -139,7 +136,10 @@ Icon_MSW_Transmutation_WaterWalk
 Icon_MSW_Evocation_PulseWave
 
 // Mine
-Target_SummonFey_5R
+Icon_MSW_Conjuration_SummonFey
+	Icon_MSW_Conjuration_SummonFey_Fuming
+	Icon_MSW_Conjuration_SummonFey_Mirthful
+	Icon_MSW_Conjuration_SummonFey_Tricksy
 
 
 // =========================================================================================
@@ -148,7 +148,7 @@ Target_SummonFey_5R
 Target_ArcaneEye
 Icon_MSW_Abjuration_AuraOfLife
 Icon_MSW_Abjuration_AuraOfPurity
-Target_CharmMonster
+Icon_MSW_Enchantment_CharmMonster
 Icon_MSW_Transmutation_ControlWater
 	Icon_MSW_Transmutation_ControlWater_Flood
 	Icon_MSW_Transmutation_ControlWater_Pillar
@@ -156,12 +156,17 @@ Icon_MSW_Transmutation_ControlWater
 Shout_Divination_Container
 Target_DominateBeast
 Target_DreamSleep
-Target_ElementalBane
+Icon_MSW_Transmutation_ElementalBane
+	Icon_MSW_Transmutation_ElementalBane_Acid
+	Icon_MSW_Transmutation_ElementalBane_Cold
+	Icon_MSW_Transmutation_ElementalBane_Fire
+	Icon_MSW_Transmutation_ElementalBane_Lightning
+	Icon_MSW_Transmutation_ElementalBane_Thunder
 Shout_GuardianOfNature
 Icon_MSW_Enchantment_RaulothimsPsychicLance
 Icon_MSW_Necromancy_ShadowOfMoil
 Target_StoneShape_Container
-Target_StormSphere
+Icon_MSW_Evocation_StormSphere
 Target_SummonGreaterDemon
 Icon_MSW_Evocation_VitriolicSphere
 Projectile_WebOfFire
@@ -197,7 +202,7 @@ Icon_MSW_Illusion_Creation
 VBT_Spell_5_DanseMacabre
 VBT_Spell_5_Dawn
 Icon_MSW_Necromancy_Enervation
-Target_FarStep
+Icon_MSW_Conjuration_FarStep
 Icon_MSW_Evocation_HolyWeapon
 	Icon_MSW_HolyWeapon_Burst
 Icon_MSW_Evocation_Immolation
@@ -223,13 +228,14 @@ Shout_YolandesRegalPresence
 Target_SummonDragon_5R
 
 // Exandria
-Target_ATT_TemporalShunt
+Icon_MSW_Transmutation_TemporalShunt
 
 
 // =========================================================================================
 // 6th Level Spells
 
-Shout_InvestitureOfFlame
+Icon_MSW_Transmutation_InvestitureOfFlame
+	Icon_MSW_Transmutation_InvestitureOfFlame_LineOfFlame
 Shout_InvestitureOfIce
 Shout_InvestitureOfStone
 Shout_InvestitureOfWind
@@ -275,8 +281,8 @@ Target_ATT_TetherEssence
 Target_HorridWilting
 Target_ATT_AnimalShapes
 Shout_AntimagicField
-Projectile_ATT_Feeblemind
-Target_ATT_DominateMonster
+Icon_MSW_Enchantment_Befuddlement
+Icon_MSW_Enchantment_DominateMonster
 Shout_Glibness
 Icon_MSW_Abjuration_HolyAura
 Target_IllusoryDragon
