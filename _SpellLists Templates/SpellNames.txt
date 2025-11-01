@@ -106,6 +106,7 @@ Target_Heroism
 Target_Hex
 Target_HuntersMark
 Projectile_IceKnife
+Target_IdInsinuation
 Target_InflictWounds
 Target_Longstrider
 Target_MageArmor
@@ -120,6 +121,7 @@ Target_SilveryBarbs	(moved from 2nd level)
 Target_Sleep
 Target_Snare
 Shout_SpeakWithAnimals
+Target_SuddenAwakening
 Zone_TashasCausticBrew
 Target_HideousLaughter
 Target_Smite_Thunderous
@@ -172,6 +174,7 @@ Target_HeatMetal
 Target_HoldPerson
 IQ_Target_Hellcrawler
 Target_Invisibility
+Projectile_GlowingCoin_Jim
 Shout_KineticJaunt
 Target_Knock
 Target_LesserRestoration
@@ -200,6 +203,7 @@ Target_SnowballSwarm
 VBT_Spell_2_SpiderClimb
 Target_SpikeGrowth
 Target_SpiritualWeapon
+Zone_SprayOfCards
 Target_SummonBeast
 Target_TashasMindWhip
 Target_WardingBond
@@ -262,6 +266,7 @@ Target_Nondetection
 VBT_Spell_3_PhantomSteed
 Target_PlantGrowth
 Target_ProtectionFromEnergy
+Zone_PsionicBlast
 Target_RemoveCurse
 Teleportation_Revivify
 Target_SleetStorm
@@ -300,6 +305,7 @@ Target_DeathWard
 Teleportation_DimensionDoor
 Shout_Divination_Container
 Target_DominateBeast
+Target_EgoWhip
 Target_ElementalBane
 Target_BlackTentacles
 Shout_FireShield
@@ -352,6 +358,7 @@ VBT_Spell_5_Dawn
 Shout_DestructiveWave
 Shout_DispelEvilAndGood
 Target_DominatePerson
+Target_DreamSleep
 VBT_Spell_5_Enervate
 Target_FarStep
 Target_FlameStrike
@@ -411,6 +418,7 @@ Shout_InvestitureOfWind
 Target_IrresistibleDance
 Target_PlanarAlly_Container
 Shout_PrimordialWard
+Target_PsychicCrush
 Zone_Sunbeam
 Shout_TensersTransformation
 Target_TrueSeeing
