@@ -6,57 +6,82 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock cantrips (Charisma) 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Infestation;Target_LightningLure;Target_MageHand;Target_MagicStone;Projectile_MindSliver_5R;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation_5R;Shout_SwordBurst;Shout_Thunderclap_5R;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Target_CreateBonfire;Projectile_EldritchBlast;Target_Friends;VBT_Spell_0_Frostbite;Target_SCC_GreenFlame_Blade;Target_Infestation;Target_SCC_LightningLure;Target_MageHand;Target_MagicStone;Target_MindSliver_AberrantMind;Target_MinorIllusion;Projectile_PoisonSpray;Target_Prestidigitation;Shout_SCC_SwordBurst;VBT_Spell_0_Thunderclap;Target_TollTheDead;Target_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="6bf2ff82-91f1-4487-9f98-1e1fc55a1ef8"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 1 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="361ed347-07d9-4711-a929-0fb84a870b89"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 2 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="4deaaf4a-bf7f-4c6a-8c84-233e1d938494"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 3 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_MagicCircle_5R;Zone_PsionicBlast;Target_RemoveCurse;Shout_SpiritShroud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Shout_InciteGreed;Target_IntellectFortress;Target_MagicCircle;Target_RemoveCurse;VBT_Spell_3_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;VBT_Spell_3_SummonUndead;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="146745fb-d05f-4fab-80f5-4cfe81c5dbb5"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 4 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster_5R;Teleportation_DimensionDoor;Target_EgoWhip;Target_ElementalBane;Projectile_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_MagicCircle_5R;Zone_PsionicBlast;Target_RemoveCurse;Shout_SpiritShroud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Target_ElementalBane;Target_PsychicLance;VBT_Spell_4_ShadowOfMoil;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Shout_InciteGreed;Target_IntellectFortress;Target_MagicCircle;Target_RemoveCurse;VBT_Spell_3_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;VBT_Spell_3_SummonUndead;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="4dc0b935-3df0-4e30-bcb9-fb8d04c10c9c"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 5 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_DanseMacabre_Container;Projectile_Enervation;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic_5R;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster_5R;Teleportation_DimensionDoor;Target_EgoWhip;Target_ElementalBane;Projectile_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_MagicCircle_5R;Zone_PsionicBlast;Target_RemoveCurse;Shout_SpiritShroud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_StormOfRadiance;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Target_ElementalBane;Target_PsychicLance;VBT_Spell_4_ShadowOfMoil;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Shout_InciteGreed;Target_IntellectFortress;Target_MagicCircle;Target_RemoveCurse;VBT_Spell_3_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;VBT_Spell_3_SummonUndead;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="acf0b62d-fad0-45ab-9f7c-a1ff0b8a7fae"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 6 5R"/>
-                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_CircleOfDeath;Target_ConjureFey;Target_CreateUndead;Shout_ElementalInvestiture;Target_Eyebite;Target_FleshToStone;Target_PsychicCrush;Target_TrueSeeing;Target_DanseMacabre_Container;Projectile_Enervation;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic_5R;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster_5R;Teleportation_DimensionDoor;Target_EgoWhip;Target_ElementalBane;Projectile_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_MagicCircle_5R;Zone_PsionicBlast;Target_RemoveCurse;Shout_SpiritShroud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_TrueSeeing;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_StormOfRadiance;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Target_ElementalBane;Target_PsychicLance;VBT_Spell_4_ShadowOfMoil;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Shout_InciteGreed;Target_IntellectFortress;Target_MagicCircle;Target_RemoveCurse;VBT_Spell_3_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;VBT_Spell_3_SummonUndead;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="3b92a63f-9be3-412f-a533-17b29c0c20cc"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 7 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Teleportation_ArcaneGate;Target_CircleOfDeath;Target_ConjureFey;Target_CreateUndead;Shout_ElementalInvestiture;Target_Eyebite;Target_FleshToStone;Target_PsychicCrush;Target_TrueSeeing;Target_DanseMacabre_Container;Projectile_Enervation;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic_5R;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster_5R;Teleportation_DimensionDoor;Target_EgoWhip;Target_ElementalBane;Projectile_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_MagicCircle_5R;Zone_PsionicBlast;Target_RemoveCurse;Shout_SpiritShroud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Teleportation_ArcaneGate;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_TrueSeeing;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_StormOfRadiance;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Target_ElementalBane;Target_PsychicLance;VBT_Spell_4_ShadowOfMoil;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Shout_InciteGreed;Target_IntellectFortress;Target_MagicCircle;Target_RemoveCurse;VBT_Spell_3_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;VBT_Spell_3_SummonUndead;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="0871d0cd-ea01-4808-b179-819615b06a17"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 8 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun;Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Teleportation_ArcaneGate;Target_CircleOfDeath;Target_ConjureFey;Target_CreateUndead;Shout_ElementalInvestiture;Target_Eyebite;Target_FleshToStone;Target_PsychicCrush;Target_TrueSeeing;Target_DanseMacabre_Container;Projectile_Enervation;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic_5R;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster_5R;Teleportation_DimensionDoor;Target_EgoWhip;Target_ElementalBane;Projectile_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_MagicCircle_5R;Zone_PsionicBlast;Target_RemoveCurse;Shout_SpiritShroud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ATT_Feeblemind;Target_ATT_DominateMonster;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun;Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Teleportation_ArcaneGate;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_TrueSeeing;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_StormOfRadiance;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Target_ElementalBane;Target_PsychicLance;VBT_Spell_4_ShadowOfMoil;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Shout_InciteGreed;Target_IntellectFortress;Target_MagicCircle;Target_RemoveCurse;VBT_Spell_3_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;VBT_Spell_3_SummonUndead;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="05e687df-4d48-4a6c-9e6f-87ee3644ad46"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock SLevel 9 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_BladeOfDisaster;Target_Foresight;Target_Gate_Container;Target_PowerWordKill;Shout_PsychicScream;Target_Weird;Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun;Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Teleportation_ArcaneGate;Target_CircleOfDeath;Target_ConjureFey;Target_CreateUndead;Shout_ElementalInvestiture;Target_Eyebite;Target_FleshToStone;Target_PsychicCrush;Target_TrueSeeing;Target_DanseMacabre_Container;Projectile_Enervation;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic_5R;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster_5R;Teleportation_DimensionDoor;Target_EgoWhip;Target_ElementalBane;Projectile_PsychicLance;Shout_ShadowOfMoil;Target_SummonAberration;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_InciteGreed;Target_IntellectFortress;Target_MagicCircle_5R;Zone_PsionicBlast;Target_RemoveCurse;Shout_SpiritShroud;Target_Summon_Fey;Target_SummonLesserDemons;Target_SummonShadowspawn;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Shout_MentalBarrier;Target_MindSpike_ClassSpell;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_ComprehendLanguages;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_IdInsinuation;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Target_BladeOfDisaster;Target_ATT_Foresight;Target_Gate_Container;Target_PowerWordKill;Shout_PsychicScream;Target_Weird;Projectile_ATT_Feeblemind;Target_ATT_DominateMonster;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun;Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain;Teleportation_ArcaneGate;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_TrueSeeing;VBT_Spell_5_DanseMacabre;VBT_Spell_5_Enervate;Target_FarStep;Target_HoldMonster;Target_InfernalCalling;Target_StormOfRadiance;Target_Mislead;Projectile_NegativeEnergyFlood;Target_PlanarBinding;Target_SynapticStatic;Teleportation_TeleportationCircle;Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Target_ElementalBane;Target_PsychicLance;VBT_Spell_4_ShadowOfMoil;Target_SummonGreaterDemon;Target_Antagonize;Target_Counterspell;Target_Dispel_Magic;Target_EnemiesAbound;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Shout_InciteGreed;Target_IntellectFortress;Target_MagicCircle;Target_RemoveCurse;VBT_Spell_3_SpiritShroud;Target_SummonLesserDemons;Target_SummonShadowspawn;VBT_Spell_3_SummonUndead;Teleportation_ThunderStep;Target_VampiricTouch;Shout_BorrowedKnowledge;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Earthbind;Target_Enthrall;Target_FlockOfFamiliars;Target_HoldPerson;Target_Invisibility;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class;VBT_Spell_2_SpiderClimb;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CauseFear;Target_CharmPerson;Shout_DetectMagic;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Target_UnseenServant;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="89ceda03-9841-40d2-8826-01034cc88066"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 6 5R"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_TrueSeeing"/>
+                    <attribute id="UUID" type="guid" value="2d8c3b20-aafb-4bde-9e54-b17e35588754"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 7 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain"/>
+                    <attribute id="UUID" type="guid" value="0861ae41-67db-496d-8c37-9c7c3cfbda40"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 8 5R"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ATT_Feeblemind;Target_ATT_DominateMonster;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun"/>
+                    <attribute id="UUID" type="guid" value="87308368-c239-48b4-91fa-843c066ea3ba"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 9 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_BladeOfDisaster;Target_ATT_Foresight;Target_Gate_Container;Target_PowerWordKill;Shout_PsychicScream;Target_Weird"/>
+                    <attribute id="UUID" type="guid" value="0b9b592e-fcef-4319-912c-a143f2ea5bb1"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey Level 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_CalmEmotions;Target_FaerieFire"/>
+                    <attribute id="UUID" type="guid" value="0c924df8-2a53-4ebe-bd65-854802ed393e"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Archfey Level 3 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_CalmEmotions;Target_FaerieFire;Target_MistyStep;Target_PhantasmalForce;Target_Sleep"/>
+                    <attribute id="Spells" type="LSString" value="Target_MistyStep;Target_PhantasmalForce;Target_Sleep"/>
                     <attribute id="UUID" type="guid" value="b157c107-2fec-4002-aa87-5265c1fa15bb"/>
                 </node>
                 <node id="SpellList">
@@ -75,8 +100,13 @@
                     <attribute id="UUID" type="guid" value="a42611dc-c340-4d45-b065-ab182b5593e5"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend Level 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Target_Command_Container"/>
+                    <attribute id="UUID" type="guid" value="0057f16f-4469-4f71-8316-ad40c0f02838"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Fiend Level 3 5R"/>
-                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Target_Command_Container;Projectile_ScorchingRay;Target_CharmPerson"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ScorchingRay;Target_BlindnessDeafness"/>
                     <attribute id="UUID" type="guid" value="9d828ee7-4515-470f-88f0-464970999c7f"/>
                 </node>
                 <node id="SpellList">
@@ -91,17 +121,22 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Fiend Level 9 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood;Target_InsectPlague"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike;Target_InsectPlague"/>
                     <attribute id="UUID" type="guid" value="958905e1-c4eb-4bd6-921e-1db324e45fd0"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Great Old One Level 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_DissonantWhispers;Target_HideousLaughter"/>
+                    <attribute id="UUID" type="guid" value="506e5616-d48b-44fe-b444-7fad6b2f48a8"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Great Old One Level 3 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Target_DissonantWhispers;Target_PhantasmalForce;Target_HideousLaughter"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Target_PhantasmalForce"/>
                     <attribute id="UUID" type="guid" value="613bc1ce-8304-46d6-82cd-90e9a7738e28"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Great Old One Level 5 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_HungerOfHadar"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Clairvoyance;Target_HungerOfHadar"/>
                     <attribute id="UUID" type="guid" value="06bc2ca0-8752-49d2-9a77-a3de0d054228"/>
                 </node>
                 <node id="SpellList">
@@ -111,12 +146,17 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Great Old One Level 9 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_SynapticStatic_5R;Throw_Telekinesis"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Throw_Telekinesis"/>
                     <attribute id="UUID" type="guid" value="604ffa5c-1034-4a61-b03c-5c28db72297d"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade Level 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Hex;Shout_Shield_Warlock;Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="5c0fb4c0-b370-4230-9530-ae261cdab3a6"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade Level 3 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_Hex;Target_MagicWeapon;Shout_Shield_Warlock;Target_Smite_Wrathful"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_MagicWeapon"/>
                     <attribute id="UUID" type="guid" value="b03576bd-3154-43c1-8249-0d3bf1431c94"/>
                 </node>
                 <node id="SpellList">
@@ -131,28 +171,33 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade Level 9 5R"/>
-                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Projectile_SteelWindStrikeNew"/>
+                    <attribute id="Spells" type="LSString" value="Target_Smite_Banishing;Projectile_SteelWindStrikeNew"/>
                     <attribute id="UUID" type="guid" value="818eefb6-cb68-4e41-b717-48c8be84a9d3"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 6 5R"/>
-                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_CircleOfDeath;Target_ConjureFey;Target_CreateUndead;Shout_ElementalInvestiture;Target_Eyebite;Target_FleshToStone;Target_PsychicCrush;Target_TrueSeeing"/>
-                    <attribute id="UUID" type="guid" value="2d8c3b20-aafb-4bde-9e54-b17e35588754"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Celestial Level 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Light;Target_SacredFlame;Target_CureWounds;Projectile_GuidingBolt"/>
+                    <attribute id="UUID" type="guid" value="055651aa-9ca8-4f7d-a10e-a85f3ea7c820"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 7 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ATT_CrownOfStars;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_ATT_PowerWordPain"/>
-                    <attribute id="UUID" type="guid" value="0861ae41-67db-496d-8c37-9c7c3cfbda40"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Celestial Level 3 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_LesserRestoration"/>
+                    <attribute id="UUID" type="guid" value="ccf7ea99-b53a-41f8-b40a-e0a9d4ab8218"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 8 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_Feeblemind;Target_DominateMonster;Shout_Glibness;Target_ATT_MaddeningDarkness;Target_ATT_PowerWordStun"/>
-                    <attribute id="UUID" type="guid" value="87308368-c239-48b4-91fa-843c066ea3ba"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Celestial Level 5 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Daylight_Container;Teleportation_Revivify"/>
+                    <attribute id="UUID" type="guid" value="520695a7-b6f5-41a4-ba06-78452db01e14"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Warlock Mystic Arcanum SLevel 9 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_BladeOfDisaster;Target_Foresight;Target_Gate_Container;Target_PowerWordKill;Shout_PsychicScream;Target_Weird"/>
-                    <attribute id="UUID" type="guid" value="0b9b592e-fcef-4319-912c-a143f2ea5bb1"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Celestial Level 7 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_GuardianOfFaith;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="fbc75e83-a4d6-46cc-a6cf-60a5c6a5b0cd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Celestial Level 9 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_GreaterRestoration;VBT_Spell_5_SummonCelestial"/>
+                    <attribute id="UUID" type="guid" value="a4b4300e-78a0-4e2f-9e1f-00f76c0fe705"/>
                 </node>
             </children>
         </node>
