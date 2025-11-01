@@ -228,6 +228,7 @@ Shout_Blink
 Target_Catnap
 Target_CallLightning
 Shout_Clairvoyance
+// Target_ConjureAnimals //
 Zone_ConjureBarrage
 Target_Counterspell
 Target_CreateFoodAndWater
@@ -270,6 +271,7 @@ Shout_SpeakWithPlants_Hedge
 Shout_SpiritGuardians
 VBT_Spell_3_SpiritShroud
 Target_StinkingCloud
+// Target_SummonFey //
 Target_SummonLesserDemons
 Target_SummonShadowspawn
 VBT_Spell_3_SummonUndead
@@ -279,9 +281,6 @@ Target_VampiricTouch
 
 // Exandria
 Zone_ATT_PulseWaveContainer
-
-// Mine
-Target_SummonFey_5R
 
 
 // =========================================================================================
@@ -294,8 +293,8 @@ Target_Banishment
 Target_Blight
 Target_CharmMonster
 Target_Confusion
-Target_ConjureElementals_Minor_Container
-Target_ConjureWoodlandBeings
+// Target_ConjureElementals_Minor_Container //
+// Target_ConjureWoodlandBeings //
 VBT_Spell_4_ControlWater
 Target_DeathWard
 Teleportation_DimensionDoor
@@ -316,18 +315,17 @@ Target_ResilientSphere
 Target_PhantasmalKiller
 Target_Polymorph
 VBT_Spell_4_ShadowOfMoil
+Target_StaggeringSmite
 Target_StoneShape_Container
 Target_Stoneskin
 Target_StormSphere
+// Target_SummonAberration //
+// Target_SummonConstruct //
+// Target_SummonElemental //
 Target_SummonGreaterDemon
 Projectile_VitriolicSphere
 Wall_WallOfFire
 Projectile_WebOfFire
-
-// 5e/Mystra Merge
-Target_SummonAberration_5R
-Target_SummonConstruct_5R
-Target_SummonElemental_5R
 
 // Exandria
 Target_ATT_GravitySinkhole
@@ -345,11 +343,13 @@ Shout_Commune
 Shout_CommuneWithNature
 Zone_ConeOfCold
 VBT_Spell_5_ControlWinds
+// Target_ConjureElemental_Container //
 ProjectileStrike_ConjureVolley
 Target_Contagion
 VBT_Spell_5_Creation
 VBT_Spell_5_DanseMacabre
 VBT_Spell_5_Dawn
+Shout_DestructiveWave
 Shout_DispelEvilAndGood
 Target_DominatePerson
 VBT_Spell_5_Enervate
@@ -371,6 +371,7 @@ Target_RaiseDead
 Target_Seeming
 Target_SkillEmpowerment
 Projectile_SteelWindStrikeNew
+// Target_SummonDragon //
 VBT_Spell_5_SummonCelestial
 Shout_SwiftQuiver
 Target_SynapticStatic
@@ -382,9 +383,6 @@ Shout_YolandesRegalPresence
 // Vanilla Special
 Projectile_CursedTome_CurriculumofStrategy
 Projectile_CursedTome_Dethrone
-
-// 5e/Mystra Merge
-Target_SummonDragon_5R
 
 // Exandria
 Target_ATT_TemporalShunt

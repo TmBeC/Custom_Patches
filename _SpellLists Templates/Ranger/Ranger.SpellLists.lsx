@@ -4,12 +4,46 @@
     <region id="SpellLists">
         <node id="root">
             <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CureWounds;Shout_DetectMagic;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Target_Snare;Shout_SpeakWithAnimals;Shout_ZephyrStrike"/>
+                    <attribute id="UUID" type="guid" value="64b3f3bf-7a2e-4ee2-9397-1d2b735ee483"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FindTraps;Zone_GustOfWind;Target_HealingSpirit;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_SummonBeast;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CureWounds;Shout_DetectMagic;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Target_Snare;Shout_SpeakWithAnimals;Shout_ZephyrStrike"/>
+                    <attribute id="UUID" type="guid" value="b28f0f9c-1742-431e-ba95-771eb371338e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 3 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_FlameArrows;Projectile_LightningArrow;Target_Nondetection;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Shout_SpeakWithPlants_Hedge;Shout_WaterWalk;Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FindTraps;Zone_GustOfWind;Target_HealingSpirit;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_SummonBeast;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CureWounds;Shout_DetectMagic;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Target_Snare;Shout_SpeakWithAnimals;Shout_ZephyrStrike"/>
+                    <attribute id="UUID" type="guid" value="240637d2-6b58-4ae7-8777-c69219625f8e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 4 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_Stoneskin;Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_FlameArrows;Projectile_LightningArrow;Target_Nondetection;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Shout_SpeakWithPlants_Hedge;Shout_WaterWalk;Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FindTraps;Zone_GustOfWind;Target_HealingSpirit;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_SummonBeast;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CureWounds;Shout_DetectMagic;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Target_Snare;Shout_SpeakWithAnimals;Shout_ZephyrStrike"/>
+                    <attribute id="UUID" type="guid" value="572f37a4-a2c2-41a4-82f1-b5ae02967e8a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 5 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Target_GreaterRestoration;Projectile_SteelWindStrikeNew;Shout_SwiftQuiver;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_Stoneskin;Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_FlameArrows;Projectile_LightningArrow;Target_Nondetection;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Shout_SpeakWithPlants_Hedge;Shout_WaterWalk;Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FindTraps;Zone_GustOfWind;Target_HealingSpirit;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_SummonBeast;Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CureWounds;Shout_DetectMagic;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Target_Snare;Shout_SpeakWithAnimals;Shout_ZephyrStrike"/>
+                    <attribute id="UUID" type="guid" value="c6a4d63c-41d6-4d8e-9a4d-424ababab043"/>
+                </node>
             </children>
         </node>
     </region>
 </save>
 
 
+
+
+3
+conjure animals
+summon fey
+
+4
+conjure woodland beings
+summon elemental
 
 
 

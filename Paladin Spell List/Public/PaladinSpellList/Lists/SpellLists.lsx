@@ -19,18 +19,14 @@
                     <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_Smite_Blinding;Target_CreateFoodAndWater;Shout_CrusadersMantle;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_MagicCircle;Target_RemoveCurse;Teleportation_Revivify;VBT_Spell_3_SpiritShroud"/>
                     <attribute id="UUID" type="guid" value="df11e8c4-2e4c-42bf-8b97-406741205020"/>
                 </node>
-
-
-
-
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 4 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfLife;Shout_AuraOfPurity;Target_Banishment;Target_DeathWard;Target_StaggeringSmite"/>
                     <attribute id="UUID" type="guid" value="5846eef1-3c93-4809-a08b-2d7f21509633"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Paladin SLevel 5 5R"/>
-                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="Spells" type="LSString" value="Target_Smite_Banishing;Shout_CircleOfPower;Shout_DestructiveWave;Shout_DispelEvilAndGood;Target_HolyWeapon;Target_GreaterRestoration;Target_RaiseDead;VBT_Spell_5_SummonCelestial"/>
                     <attribute id="UUID" type="guid" value="401bff0d-f4be-4482-9c42-3f059096ca41"/>
                 </node>
             </children>
