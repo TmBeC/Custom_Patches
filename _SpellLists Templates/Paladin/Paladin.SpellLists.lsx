@@ -4,6 +4,21 @@
     <region id="SpellLists">
         <node id="root">
             <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 1 5R"/>
+                    <attribute id="Spells" type="LSString" value="Target_Bless;Target_Ceremony;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DetectEvilAndGood;Shout_DetectMagic;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_Smite_Searing;Target_ShieldOfFaith;Target_Smite_Thunderous;Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="20e3a182-bfa4-48ed-ab79-6a7ca75bb329"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 2 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_GentleRepose;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding;Target_WardingBond;Target_ZoneofTruth"/>
+                    <attribute id="UUID" type="guid" value="d630f1f8-51f0-4f3e-9090-0517dbfdfddd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Paladin SLevel 3 5R"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_Smite_Blinding;Target_CreateFoodAndWater;Shout_CrusadersMantle;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;Target_MagicCircle;Target_RemoveCurse;Teleportation_Revivify;VBT_Spell_3_SpiritShroud"/>
+                    <attribute id="UUID" type="guid" value="df11e8c4-2e4c-42bf-8b97-406741205020"/>
+                </node>
             </children>
         </node>
     </region>

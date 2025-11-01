@@ -42,6 +42,7 @@ Target_ShapeWater
 Shout_Shillelagh
 Target_ShockingGrasp
 Projectile_SorcerousBurst
+Target_SpareTheDying
 Projectile_StarryWisp
 Shout_SCC_SwordBurst
 TK_Thrust
@@ -147,7 +148,6 @@ Target_Barkskin
 Target_BlindnessDeafness	(altered)
 Shout_Blur
 Shout_BorrowedKnowledge
-Target_Smite_Branding	(altered)
 Target_CalmEmotions
 Target_CloudOfDaggers
 Target_ContinualFlame
@@ -194,6 +194,7 @@ Projectile_ScorchingRay
 Shout_SeeInvisibility
 Shout_ShadowBlade_Class
 Target_Shatter
+Target_Smite_Branding	(altered)
 Target_Silence
 Target_SnowballSwarm
 VBT_Spell_2_SpiderClimb
