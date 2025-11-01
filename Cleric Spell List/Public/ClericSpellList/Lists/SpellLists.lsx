@@ -21,7 +21,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Cleric SLevel 3 5R"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Shout_Clairvoyance;Target_CreateFoodAndWater;Target_Daylight_Container;Target_Dispel_Magic;Target_FeignDeath;Target_GlyphOfWarding;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;VBT_Spell_3_SpiritShroud;Shout_WaterWalk"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Shout_Clairvoyance;Target_CreateFoodAndWater;Target_Daylight_Container;Target_Dispel_Magic;Target_FeignDeath;Target_GlyphOfWarding;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;Shout_HealingWord_Mass;Target_MotivationalSpeech;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;VBT_Spell_3_SpiritShroud;Target_Paitm_Tongues;Shout_WaterWalk"/>
                     <attribute id="UUID" type="guid" value="cdd7828a-6adf-48f7-8972-07c7fbe231ce"/>
                 </node>
                 <node id="SpellList">

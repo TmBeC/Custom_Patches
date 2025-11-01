@@ -16,7 +16,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 2 5R"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Barkskin;Target_ContinualFlame;Target_Darkvision;VBT_Spell_2_DustDevil;Target_Earthbind;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FindTraps;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HealingSpirit;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_SummonBeast;Shout_WardingWind;Target_WitherAndBloom"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Spjm_AirBubble;Target_Barkskin;Target_ContinualFlame;Target_Darkvision;VBT_Spell_2_DustDevil;Target_Earthbind;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FindTraps;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HealingSpirit;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_SummonBeast;Shout_WardingWind;Target_WitherAndBloom"/>
                     <attribute id="UUID" type="guid" value="2abb0c4a-0d2d-449d-a7be-b08c87b34181"/>
                 </node>
                 <node id="SpellList">

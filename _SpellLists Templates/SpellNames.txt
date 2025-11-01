@@ -144,6 +144,7 @@ Target_ATT_MagnifyGravity
 
 Zone_AganazzarsScorcher
 Shout_Aid
+Target_Spjm_AirBubble
 Shout_AlterSelf
 Target_ArcaneLock
 Target_Barkskin
@@ -208,6 +209,7 @@ Target_SummonBeast
 Target_TashasMindWhip
 Target_WardingBond
 Shout_WardingWind
+Shout_Paitm_WarpSense
 Target_Web
 Target_WitherAndBloom
 VBT_Spell_2_VortexWarp
@@ -281,6 +283,7 @@ Target_SummonLesserDemons
 Target_SummonShadowspawn
 VBT_Spell_3_SummonUndead
 Teleportation_ThunderStep
+Target_Paitm_Tongues
 Shout_WaterWalk
 Target_VampiricTouch
 
@@ -311,6 +314,7 @@ Target_BlackTentacles
 Shout_FireShield
 Shout_FountOfMoonlight
 Target_FreedomOfMovement
+Target_Paitm_GateSeal
 Target_GraspingVine
 Target_Invisibility_Greater
 Target_GuardianOfFaith
@@ -352,6 +356,7 @@ VBT_Spell_5_ControlWinds
 // Target_ConjureElemental_Container //
 ProjectileStrike_ConjureVolley
 Target_Contagion
+Shout_Spjm_CreateSpelljammerHelm
 VBT_Spell_5_Creation
 VBT_Spell_5_DanseMacabre
 VBT_Spell_5_Dawn
@@ -1022,23 +1027,50 @@ Target_MordenkainensSword
 
 
 // =========================================================================================
-// Other Mods
+// ShadyDax
 
 // Cantrips
-Target_SCC_GreenFlame_Blade
-Target_SCC_LightningLure
-Target_Mending
-Projectile_SorcerousBurst
 Projectile_StarryWisp
-Shout_SCC_SwordBurst
-
-
-// 3rd Level Spells
-Target_Dispel_Magic
 
 
 // 4th Level Spells
 Shout_FountOfMoonlight
+
+
+// =========================================================================================
+// Sword Coast Cantrips
+
+// Cantrips
+Target_SCC_GreenFlame_Blade
+Target_SCC_LightningLure
+Shout_SCC_SwordBurst
+
+
+// =========================================================================================
+// bibsan (Spelljammer and Planescape)
+
+// 2nd Level Spells
+Target_Spjm_AirBubble
+Shout_Paitm_WarpSense
+
+
+// 3rd Level Spells
+Target_Paitm_Tongues
+
+
+// 4th Level Spells
+Target_Paitm_GateSeal
+
+
+// 5th Level Spells
+Shout_Spjm_CreateSpelljammerHelm
+
+
+// =========================================================================================
+// Argelia
+
+// Cantrips
+Projectile_SorcerousBurst
 
 
 // =========================================================================================
@@ -1071,27 +1103,36 @@ Projectile_Smite_Banishing
 // Mine
 
 // Cantrips
+Target_Mending
+
 
 // 1st Level Spells
+Shout_ComprehendLanguages
+
 
 // 2nd Level Spells
 
+
 // 3rd Level Spells
 Shout_Clairvoyance
-Target_SummonFey_5R
+Target_Dispel_Magic
+
 
 // 4th Level Spells
 Shout_Divination_Container
+
 
 // 5th Level Spells
 Shout_Commune
 Target_StormOfRadiance
 Shout_YolandesRegalPresence
 
+
 // 6th Level Spells
 Shout_InvestitureOfIce
 Shout_InvestitureOfStone
 Shout_InvestitureOfWind
+
 
 // 7th Level Spells
 Target_ConjureCelestial
