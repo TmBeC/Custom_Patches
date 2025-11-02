@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="he82d03b9g66e4g4b3eg8506g552ab19d59f5" version="1">Aoskar</content>
+	<content contentuid="h7cb73f37g38c0g4d76ga370gc97765e3d5c6" version="1">Aoskar, also known as the Power of Portals and the Keeper of Gateways, was venerated as the god of portals within his own temple in the City of Doors. After a failed attempt to wrest control of Sigil from the Lady of Pain, the Lady slew Aoskar and cast out his corpse into the Astral Plane.&lt;br&gt;&lt;br&gt;Domains: Arcana&lt;br&gt;Alignment: Neutral</content>
+
+
+
+
+
+
+	<content contentuid="PLACEHOLDER" version="1">Example_Text_Block</content>
+
+
+&lt;LSTag
+
+&lt;
+
+&gt;
+
+&lt;/LSTag&gt;
+
+&lt;br&gt;
+
+&lt;LSTag Tooltip="THING_HERE"&gt;TEXT_HERE&lt;/LSTag&gt;
+
+&lt;LSTag Type="THING_TYPE_HERE" Tooltip="THING_HERE"&gt;TEXT_HERE&lt;/LSTag&gt;
+
+
+</contentList>
