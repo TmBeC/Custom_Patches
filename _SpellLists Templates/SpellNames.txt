@@ -112,6 +112,7 @@ Target_Longstrider
 Target_MageArmor
 Projectile_MagicMissile
 Target_ProtectionFromEvilAndGood
+Zone_RadiantBurst
 Projectile_RayOfSickness
 Target_Sanctuary
 Target_Smite_Searing
@@ -1082,6 +1083,10 @@ Projectile_NightPiercer
 Projectile_LightPiercer
 TK_Thrust
 Target_RimefrostBlade
+
+
+// 1st Level Spells
+Zone_RadiantBurst
 
 
 // 2nd Level Spells
