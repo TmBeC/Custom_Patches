@@ -45,8 +45,10 @@ Target_ChaosBolt
 Icon_MSW_Divination_DetectMagic
 Shout_EarthTremor
 Zone_FrostFingers
+Target_IdInsinuation
 Icon_MSW_Enchantment_SilveryBarbs
 Icon_MSW_Abjuration_Snare
+Target_SuddenAwakening
 Icon_MSW_Evocation_CausticBrew
 Icon_MSW_Conjuration_UnseenServant
 Icon_MSW_Transmutation_ZephyrStrike
@@ -60,6 +62,7 @@ Target_ATT_MagnifyGravity
 // 2nd Level Spells
 
 Zone_AganazzarsScorcher
+Target_Spjm_AirBubble
 Icon_MSW_Transmutation_AlterSelf
 	Icon_MSW_Transmutation_AlterSelf_BludgeoningWeapon
 	Icon_MSW_Transmutation_AlterSelf_PiercingWeapon
@@ -82,6 +85,7 @@ Target_FlockOfFamiliars
 Target_GentleRepose
 Target_HealingSpirit
 IQ_Target_Hellcrawler
+Projectile_GlowingCoin_Jim
 Shout_KineticJaunt
 Target_MaximiliansEarthenGrasp
 Icon_MSW_Divination_MindSpike
@@ -90,9 +94,11 @@ Target_Pyrotechnics
 Zone_RimesBindingIce
 Icon_MSW_Evocation_SnillocsSnowballSwarm
 VBT_Spell_2_SpiderClimb
+Zone_SprayOfCards
 Target_SummonBeast
 Target_TashasMindWhip
 Shout_WardingWind
+Shout_Paitm_WarpSense
 Target_WitherAndBloom
 Icon_MSW_Conjuration_VortexWarp
 Icon_MSW_Enchantment_ZoneOfTruth
@@ -121,6 +127,7 @@ Projectile_MinuteMeteors
 Target_MotivationalSpeech
 Icon_MSW_Abjuration_Nondetection
 Icon_MSW_Illusion_PhantomSteed
+Zone_PsionicBlast
 Icon_MSW_Transmutation_SpeakWithPlants
 VBT_Spell_3_SpiritShroud
 Target_SummonLesserDemons
@@ -130,6 +137,7 @@ Icon_MSW_Necromancy_SummonUndead
 	Icon_MSW_Necromancy_SummonUndeadPutrid
 	Icon_MSW_Necromancy_SummonUndeadSkeletal
 Icon_MSW_Conjuration_ThunderStep
+Target_Paitm_Tongues
 Icon_MSW_Transmutation_WaterWalk
 
 // Exandria
@@ -153,12 +161,14 @@ Icon_MSW_Transmutation_ControlWater
 	Icon_MSW_Transmutation_ControlWater_Pillar
 	Icon_MSW_Transmutation_ControlWater_Whirl
 Shout_Divination_Container
+Target_EgoWhip
 Icon_MSW_Transmutation_ElementalBane
 	Icon_MSW_Transmutation_ElementalBane_Acid
 	Icon_MSW_Transmutation_ElementalBane_Cold
 	Icon_MSW_Transmutation_ElementalBane_Fire
 	Icon_MSW_Transmutation_ElementalBane_Lightning
 	Icon_MSW_Transmutation_ElementalBane_Thunder
+Target_Paitm_GateSeal
 Icon_MSW_Transmutation_GuardianOfNature
 	
 	
@@ -192,6 +202,7 @@ Icon_MSW_Transmutation_ControlWind
 	Icon_MSW_Transmutation_ControlWind_Downdraft
 	Icon_MSW_Transmutation_ControlWind_Gust
 	Icon_MSW_Transmutation_ControlWind_Updraft
+Shout_Spjm_CreateSpelljammerHelm
 Icon_MSW_Conjuration_ConjureVolley
 Icon_MSW_Illusion_Creation
 	Icon_MSW_Illusion_Creation_Cube
@@ -200,6 +211,7 @@ Icon_MSW_Illusion_Creation
 	Icon_MSW_Illusion_Creation_Weapon
 VBT_Spell_5_DanseMacabre
 VBT_Spell_5_Dawn
+Target_DreamSleep
 Icon_MSW_Necromancy_Enervation
 Icon_MSW_Conjuration_FarStep
 Icon_MSW_Evocation_HolyWeapon
@@ -239,6 +251,7 @@ Shout_InvestitureOfIce
 Shout_InvestitureOfStone
 Shout_InvestitureOfWind
 Shout_PrimordialWard
+Target_PsychicCrush
 Icon_MSW_Transmutation_TensersTransformation
 Target_TrueSeeing
 
