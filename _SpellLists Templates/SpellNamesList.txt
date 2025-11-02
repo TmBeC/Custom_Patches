@@ -207,6 +207,7 @@ IQ_Target_Hellcrawler;
 Projectile_GlowingCoin_Jim;
 Shout_KineticJaunt;
 Target_MaximiliansEarthenGrasp;
+Shout_MentalBarrier;
 Target_MindSpike;
 Target_NathairsMischief;
 Target_Pyrotechnics;

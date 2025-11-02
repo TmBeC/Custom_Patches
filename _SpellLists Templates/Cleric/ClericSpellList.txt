@@ -3,7 +3,7 @@
 // UUID: 9e86dd08-aba2-4d99-b7de-c6381a315fbf
 
 // Vanilla
-Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead
+Target_BurstingSinew;Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead
 
 // Modded
 Shout_HandOfRadiance;Projectile_LightPiercer;Projectile_NightPiercer;Shout_WordOfRadiance

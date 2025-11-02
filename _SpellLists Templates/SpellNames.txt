@@ -183,6 +183,7 @@ Target_LesserRestoration
 Target_MagicWeapon
 Target_MaximiliansEarthenGrasp
 Projectile_AcidArrow
+Shout_MentalBarrier
 Target_MindSpike
 Shout_MirrorImage
 Target_MistyStep
@@ -737,6 +738,7 @@ Target_HealingSpirit
 Projectile_GlowingCoin_Jim
 Shout_KineticJaunt
 Target_EarthenGrasp
+Shout_MentalBarrier
 Target_MindSpike
 Target_NathairsMischief
 Target_Pyrotechnics
