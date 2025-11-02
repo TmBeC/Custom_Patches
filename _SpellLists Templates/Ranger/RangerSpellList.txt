@@ -3,50 +3,53 @@
 // UUID: 
 
 // Vanilla
+Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals
 
 // Modded
-
-// Standalone Mods
+Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout_ZephyrStrike
 
 // =========================================================================================
 // 2nd Level Spells
 // UUID: 
 
 // Vanilla
+Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth
 
 // Modded
-
-// Standalone Mods
+Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast
 
 // =========================================================================================
 // 3rd Level Spells
 // UUID: 
 
 // Vanilla
+Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify
 
 // Modded
+Shout_AshardalonsStride;Target_ConjureAnimals;Target_FlameArrows;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk
 
 // Standalone Mods
+Target_Dispel_Magic
 
 // =========================================================================================
 // 4th Level Spells
 // UUID: 
 
 // Vanilla
+Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_Stoneskin
 
 // Modded
-
-// Standalone Mods
+Shout_GuardianOfNature;Target_SummonElemental
 
 // =========================================================================================
 // 5th Level Spells
 // UUID: 
 
 // Vanilla
+Target_GreaterRestoration
 
 // Modded
-
-// Standalone Mods
+Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Projectile_SteelWindStrikeNew;Shout_SwiftQuiver
 
 // ==================================================================================================================================================================================//
 // ==================================================================================================================================================================================//
