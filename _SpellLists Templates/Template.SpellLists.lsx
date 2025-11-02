@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME Cantrips Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                   <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 1 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 2 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 3 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 4 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 5 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 6 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 7 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 8 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="CLASS_NAME SLevel 9 Addition"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="ORIGINAL_SPELL_LIST_UUID"/>
+                    <attribute id="Name" type="FixedString" value="OTHER_SPELL_LIST_TO_ADD_INTO"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="CREATE_NEW_UUID"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

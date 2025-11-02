@@ -1,0 +1,383 @@
+// =========================================================================================
+// Cantrips
+// UUID: d4e08391-b2ea-41fb-b5e1-1139e562fc78
+
+// Vanilla
+Shout_BladeWard;Target_DancingLights;Target_Friends;Target_MageHand;Target_MinorIllusion;Target_TrueStrike;Target_ViciousMockery
+
+// Modded
+Target_Prestidigitation;Projectile_StarryWisp;VBT_Spell_0_Thunderclap
+
+// Standalone Mods
+Target_Mending
+
+// =========================================================================================
+// 1st Level Spells
+// UUID: 8174056d-1f31-4687-a656-1443d22bcc15
+
+// Vanilla
+Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Shout_DisguiseSelf;Target_DissonantWhispers;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter;Zone_Thunderwave
+
+// Modded
+Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Target_UnseenServant
+
+// Standalone Mods
+Shout_ComprehendLanguages
+
+// =========================================================================================
+// 2nd Level Spells
+// UUID: 52b1c459-cbce-4f7b-83a1-ba2b44606f9e
+
+// Vanilla
+Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence
+
+// Modded
+Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Zone_SprayOfCards;Shout_WardingWind;Target_ZoneofTruth
+
+// =========================================================================================
+// 3rd Level Spells
+// UUID: 6d5d2ea9-70d8-42c1-8f75-c434d6956817
+
+// Vanilla
+Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+
+// Modded
+Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_Paitm_Tongues
+
+// Extra Spells
+Shout_Clairvoyance
+
+// Standalone Mods
+Target_Dispel_Magic
+
+// =========================================================================================
+// 4th Level Spells
+// UUID: 99eff5ae-5e99-420a-9e11-f290294d4db8
+
+// Vanilla
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph
+
+// Modded
+Target_EgoWhip;Shout_FountOfMoonlight;Target_PsychicLance
+
+// =========================================================================================
+// 5th Level Spells
+// UUID: 4a642325-c39e-455b-b655-350549b36495
+
+// Vanilla
+Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming
+
+// Modded
+Target_DreamSleep;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle
+
+// Extra Spells
+Shout_YolandesRegalPresence
+
+// =========================================================================================
+// 6th Level Spells
+// UUID: a7eea34a-194d-47b7-9f14-ea2365a50540
+
+// Vanilla
+Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance
+
+// Modded
+Target_TrueSeeing
+
+// =========================================================================================
+// 7th Level Spells
+// UUID: 8546c1ce-8fc3-4396-814a-f4a1eaab38e6
+
+Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_ATT_Regenerate;Target_ATT_Symbol
+
+// Extra Spells
+Target_MordenkainensSword
+
+// =========================================================================================
+// 8th Level Spells
+// UUID: 8970236a-b5ed-477f-8ca0-ec39fdaac893
+
+Projectile_ATT_Feeblemind;Target_ATT_DominateMonster;Shout_Glibness;Target_ATT_MindBlank;Target_ATT_PowerWordStun
+
+// =========================================================================================
+// 9th Level Spells
+// UUID: ad5c8516-9e40-459e-a517-b1c2cb276e45
+
+Target_ATT_Foresight;Target_MassPolymorph;Target_ATT_PowerWordHeal;Target_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream
+
+// ==================================================================================================================================================================================//
+// ==================================================================================================================================================================================//
+// ==================================================================================================================================================================================//
+
+// =========================================================================================
+// Magical Secrets 5th Level Spells
+// UUID: 4a94da43-4ef2-497d-8deb-a2d8e1b44c54
+
+// Vanilla Bard
+Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Shout_DisguiseSelf;Target_DissonantWhispers;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter;Zone_Thunderwave
+Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence
+Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph
+Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming
+
+// Modded Bard
+Shout_ComprehendLanguages;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Target_UnseenServant
+Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Zone_SprayOfCards;Shout_WardingWind;Target_ZoneofTruth
+Target_Antagonize;Target_Catnap;Shout_Clairvoyance;Target_Dispel_Magic;Target_EnemiesAbound;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_Paitm_Tongues
+Target_EgoWhip;Shout_FountOfMoonlight;Target_PsychicLance
+Target_DreamSleep;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Shout_YolandesRegalPresence
+
+// Vanilla Cleric
+Target_Bless;Target_CreateDestroyWater;Projectile_GuidingBolt;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith
+Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_SpiritualWeapon;Target_WardingBond
+Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_Daylight_Container;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Shout_SpiritGuardians
+Target_Banishment;Target_DeathWard;Target_GuardianOfFaith
+Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_InsectPlague
+
+// Modded Cleric
+Target_Ceremony;Shout_DetectEvilAndGood;Zone_RadiantBurst
+Target_ContinualFlame;Shout_FindTraps;Target_GentleRepose
+Target_CreateFoodAndWater;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;VBT_Spell_3_SpiritShroud;Shout_WaterWalk
+Shout_AuraOfLife;Shout_AuraOfPurity;VBT_Spell_4_ControlWater;Shout_Divination_Container;Target_StoneShape_Container
+Shout_CircleOfPower;Shout_Commune;VBT_Spell_5_Dawn;Target_HolyWeapon;VBT_Spell_5_SummonCelestial
+
+// Vanilla Druid
+
+// Modded Druid
+
+// Vanilla Wizard
+
+// Modded Wizard
+
+// =========================================================================================
+// Magical Secrets 6th Level Spells
+// UUID: 7d803225-e4b0-481f-a359-87344d9b3707
+
+// Vanilla Bard
+Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Shout_DisguiseSelf;Target_DissonantWhispers;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter;Zone_Thunderwave
+Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence
+Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph
+Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming
+Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance
+
+// Modded Bard
+Shout_ComprehendLanguages;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Target_UnseenServant
+Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Zone_SprayOfCards;Shout_WardingWind;Target_ZoneofTruth
+Target_Antagonize;Target_Catnap;Shout_Clairvoyance;Target_Dispel_Magic;Target_EnemiesAbound;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_Paitm_Tongues
+Target_EgoWhip;Shout_FountOfMoonlight;Target_PsychicLance
+Target_DreamSleep;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Shout_YolandesRegalPresence
+Target_TrueSeeing
+
+// Vanilla Cleric
+Target_Bless;Target_CreateDestroyWater;Projectile_GuidingBolt;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith
+Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_SpiritualWeapon;Target_WardingBond
+Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_Daylight_Container;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Shout_SpiritGuardians
+Target_Banishment;Target_DeathWard;Target_GuardianOfFaith
+Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_InsectPlague
+Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Target_PlanarAlly_Container;Zone_Sunbeam
+
+// Modded Cleric
+Target_Ceremony;Shout_DetectEvilAndGood;Zone_RadiantBurst
+Target_ContinualFlame;Shout_FindTraps;Target_GentleRepose
+Target_CreateFoodAndWater;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;VBT_Spell_3_SpiritShroud;Shout_WaterWalk
+Shout_AuraOfLife;Shout_AuraOfPurity;VBT_Spell_4_ControlWater;Shout_Divination_Container;Target_StoneShape_Container
+Shout_CircleOfPower;Shout_Commune;VBT_Spell_5_Dawn;Target_HolyWeapon;VBT_Spell_5_SummonCelestial
+
+// Vanilla Druid
+Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_IceKnife;Target_Jump
+Target_Barkskin;Target_Darkvision;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_Moonbeam;Shout_PassWithoutTrace;Target_SpikeGrowth
+Target_CallLightning;Target_ElementalWeapon;Target_SleetStorm
+Target_Blight;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Target_GraspingVine;Target_IceStorm;Target_Stoneskin;Wall_WallOfFire
+Zone_ConeOfCold;Target_ConjureElemental_Container;Wall_WallOfStone
+
+// Modded Druid
+Shout_AbsorbElements;Target_BeastBond;Target_Snare
+Target_Spjm_AirBubble;VBT_Spell_2_DustDevil;Target_Earthbind;Target_HealingSpirit;Target_SummonBeast;Target_WitherAndBloom
+Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Target_SummonFey
+Target_ElementalBane;Shout_GuardianOfNature;Target_SummonElemental
+Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon
+
+// Vanilla Wizard
+
+// Modded Wizard
+
+
+// =========================================================================================
+// Magical Secrets 7th Level Spells
+// UUID: b0531b46-f447-4841-875d-4f6b5c6466a3
+
+// Vanilla Bard
+Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Shout_DisguiseSelf;Target_DissonantWhispers;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter;Zone_Thunderwave
+Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence
+Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph
+Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming
+Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance
+Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_ATT_Regenerate;Target_ATT_Symbol
+
+// Modded Bard
+Shout_ComprehendLanguages;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Target_UnseenServant
+Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Zone_SprayOfCards;Shout_WardingWind;Target_ZoneofTruth
+Target_Antagonize;Target_Catnap;Shout_Clairvoyance;Target_Dispel_Magic;Target_EnemiesAbound;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_Paitm_Tongues
+Target_EgoWhip;Shout_FountOfMoonlight;Target_PsychicLance
+Target_DreamSleep;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Shout_YolandesRegalPresence
+Target_TrueSeeing
+Target_MordenkainensSword
+
+// Vanilla Cleric
+Target_Bless;Target_CreateDestroyWater;Projectile_GuidingBolt;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith
+Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_SpiritualWeapon;Target_WardingBond
+Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_Daylight_Container;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Shout_SpiritGuardians
+Target_Banishment;Target_DeathWard;Target_GuardianOfFaith
+Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_InsectPlague
+Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Target_PlanarAlly_Container;Zone_Sunbeam
+Shout_DivineWord;Target_FireStorm
+
+// Modded Cleric
+Target_Ceremony;Shout_DetectEvilAndGood;Zone_RadiantBurst
+Target_ContinualFlame;Shout_FindTraps;Target_GentleRepose
+Target_CreateFoodAndWater;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;VBT_Spell_3_SpiritShroud;Shout_WaterWalk
+Shout_AuraOfLife;Shout_AuraOfPurity;VBT_Spell_4_ControlWater;Shout_Divination_Container;Target_StoneShape_Container
+Shout_CircleOfPower;Shout_Commune;VBT_Spell_5_Dawn;Target_HolyWeapon;VBT_Spell_5_SummonCelestial
+Target_ConjureCelestial
+
+// Vanilla Druid
+Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_IceKnife;Target_Jump
+Target_Barkskin;Target_Darkvision;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_Moonbeam;Shout_PassWithoutTrace;Target_SpikeGrowth
+Target_CallLightning;Target_ElementalWeapon;Target_SleetStorm
+Target_Blight;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Target_GraspingVine;Target_IceStorm;Target_Stoneskin;Wall_WallOfFire
+Zone_ConeOfCold;Target_ConjureElemental_Container;Wall_WallOfStone
+
+// Modded Druid
+Shout_AbsorbElements;Target_BeastBond;Target_Snare
+Target_Spjm_AirBubble;VBT_Spell_2_DustDevil;Target_Earthbind;Target_HealingSpirit;Target_SummonBeast;Target_WitherAndBloom
+Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Target_SummonFey
+Target_ElementalBane;Shout_GuardianOfNature;Target_SummonElemental
+Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon
+
+// Vanilla Wizard
+
+// Modded Wizard
+
+
+// =========================================================================================
+// Magical Secrets 8th Level Spells
+// UUID: 16d09747-ee8c-4c7e-a4a5-b3e63e1b5470
+
+// Vanilla Bard
+Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Shout_DisguiseSelf;Target_DissonantWhispers;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter;Zone_Thunderwave
+Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence
+Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph
+Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming
+Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance
+Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_ATT_Regenerate;Target_ATT_Symbol
+Projectile_ATT_Feeblemind;Target_ATT_DominateMonster;Shout_Glibness;Target_ATT_MindBlank;Target_ATT_PowerWordStun
+
+// Modded Bard
+Shout_ComprehendLanguages;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Target_UnseenServant
+Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Zone_SprayOfCards;Shout_WardingWind;Target_ZoneofTruth
+Target_Antagonize;Target_Catnap;Shout_Clairvoyance;Target_Dispel_Magic;Target_EnemiesAbound;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_Paitm_Tongues
+Target_EgoWhip;Shout_FountOfMoonlight;Target_PsychicLance
+Target_DreamSleep;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Shout_YolandesRegalPresence
+Target_TrueSeeing
+Target_MordenkainensSword
+
+// Vanilla Cleric
+Target_Bless;Target_CreateDestroyWater;Projectile_GuidingBolt;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith
+Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_SpiritualWeapon;Target_WardingBond
+Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_Daylight_Container;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Shout_SpiritGuardians
+Target_Banishment;Target_DeathWard;Target_GuardianOfFaith
+Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_InsectPlague
+Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Target_PlanarAlly_Container;Zone_Sunbeam
+Shout_DivineWord;Target_FireStorm
+Shout_AntimagicField;Shout_ATT_HolyAura;Target_Sunburst
+
+// Modded Cleric
+Target_Ceremony;Shout_DetectEvilAndGood;Zone_RadiantBurst
+Target_ContinualFlame;Shout_FindTraps;Target_GentleRepose
+Target_CreateFoodAndWater;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;VBT_Spell_3_SpiritShroud;Shout_WaterWalk
+Shout_AuraOfLife;Shout_AuraOfPurity;VBT_Spell_4_ControlWater;Shout_Divination_Container;Target_StoneShape_Container
+Shout_CircleOfPower;Shout_Commune;VBT_Spell_5_Dawn;Target_HolyWeapon;VBT_Spell_5_SummonCelestial
+Target_ConjureCelestial
+
+// Vanilla Druid
+Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_IceKnife;Target_Jump
+Target_Barkskin;Target_Darkvision;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_Moonbeam;Shout_PassWithoutTrace;Target_SpikeGrowth
+Target_CallLightning;Target_ElementalWeapon;Target_SleetStorm
+Target_Blight;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Target_GraspingVine;Target_IceStorm;Target_Stoneskin;Wall_WallOfFire
+Zone_ConeOfCold;Target_ConjureElemental_Container;Wall_WallOfStone
+
+// Modded Druid
+Shout_AbsorbElements;Target_BeastBond;Target_Snare
+Target_Spjm_AirBubble;VBT_Spell_2_DustDevil;Target_Earthbind;Target_HealingSpirit;Target_SummonBeast;Target_WitherAndBloom
+Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Target_SummonFey
+Target_ElementalBane;Shout_GuardianOfNature;Target_SummonElemental
+Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon
+
+// Vanilla Wizard
+
+// Modded Wizard
+
+
+// =========================================================================================
+// Magical Secrets 9th Level Spells
+// UUID: 6f26a3d8-c663-462a-99ea-65f31d3fa574
+
+// Vanilla Bard
+Target_AnimalFriendship;Target_Bane;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CureWounds;Shout_DisguiseSelf;Target_DissonantWhispers;Target_FaerieFire;Shout_FeatherFall;Target_HealingWord;Target_Heroism;Target_Longstrider;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter;Zone_Thunderwave
+Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Target_Enthrall;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Shout_MirrorImage;Target_PhantasmalForce;Shout_SeeInvisibility;Target_Shatter;Target_Silence
+Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Target_HypnoticPattern;Shout_HealingWord_Mass;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud
+Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_FreedomOfMovement;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph
+Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_CureWounds_Mass;Target_PlanarBinding;Target_Seeming
+Target_Eyebite;Shout_HeroesFeast;Target_IrresistibleDance
+Target_ATT_Etherealness;Target_ATT_PowerWordFortify;Zone_PrismaticSpray;Target_ATT_Regenerate;Target_ATT_Symbol
+Projectile_ATT_Feeblemind;Target_ATT_DominateMonster;Shout_Glibness;Target_ATT_MindBlank;Target_ATT_PowerWordStun
+Target_ATT_Foresight;Target_MassPolymorph;Target_ATT_PowerWordHeal;Target_PowerWordKill;Wall_ATT_PrismaticWall;Shout_PsychicScream
+
+// Modded Bard
+Shout_ComprehendLanguages;Shout_DetectMagic;Shout_EarthTremor;Target_SilveryBarbs;Target_SuddenAwakening;Target_UnseenServant
+Shout_BorrowedKnowledge;Shout_KineticJaunt;Target_NathairsMischief;Target_Pyrotechnics;Zone_SprayOfCards;Shout_WardingWind;Target_ZoneofTruth
+Target_Antagonize;Target_Catnap;Shout_Clairvoyance;Target_Dispel_Magic;Target_EnemiesAbound;Target_IntellectFortress;Target_MotivationalSpeech;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_Paitm_Tongues
+Target_EgoWhip;Shout_FountOfMoonlight;Target_PsychicLance
+Target_DreamSleep;Target_Mislead;Target_RaiseDead;Target_SkillEmpowerment;Target_SynapticStatic;Teleportation_TeleportationCircle;Shout_YolandesRegalPresence
+Target_TrueSeeing
+Target_MordenkainensSword
+
+// Vanilla Cleric
+Target_Bless;Target_CreateDestroyWater;Projectile_GuidingBolt;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith
+Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_SpiritualWeapon;Target_WardingBond
+Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_Daylight_Container;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Shout_SpiritGuardians
+Target_Banishment;Target_DeathWard;Target_GuardianOfFaith
+Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_InsectPlague
+Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Target_PlanarAlly_Container;Zone_Sunbeam
+Shout_DivineWord;Target_FireStorm
+Shout_AntimagicField;Shout_ATT_HolyAura;Target_Sunburst
+Target_Gate_Container;Target_ATT_MassHeal;Teleportation_ATT_MOD_TrueResurrection
+
+// Modded Cleric
+Target_Ceremony;Shout_DetectEvilAndGood;Zone_RadiantBurst
+Target_ContinualFlame;Shout_FindTraps;Target_GentleRepose
+Target_CreateFoodAndWater;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;VBT_Spell_3_SpiritShroud;Shout_WaterWalk
+Shout_AuraOfLife;Shout_AuraOfPurity;VBT_Spell_4_ControlWater;Shout_Divination_Container;Target_StoneShape_Container
+Shout_CircleOfPower;Shout_Commune;VBT_Spell_5_Dawn;Target_HolyWeapon;VBT_Spell_5_SummonCelestial
+Target_ConjureCelestial
+
+// Vanilla Druid
+Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_IceKnife;Target_Jump
+Target_Barkskin;Target_Darkvision;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_Moonbeam;Shout_PassWithoutTrace;Target_SpikeGrowth
+Target_CallLightning;Target_ElementalWeapon;Target_SleetStorm
+Target_Blight;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Target_GraspingVine;Target_IceStorm;Target_Stoneskin;Wall_WallOfFire
+Zone_ConeOfCold;Target_ConjureElemental_Container;Wall_WallOfStone
+
+// Modded Druid
+Shout_AbsorbElements;Target_BeastBond;Target_Snare
+Target_Spjm_AirBubble;VBT_Spell_2_DustDevil;Target_Earthbind;Target_HealingSpirit;Target_SummonBeast;Target_WitherAndBloom
+Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Target_SummonFey
+Target_ElementalBane;Shout_GuardianOfNature;Target_SummonElemental
+Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon
+
+// Vanilla Wizard
+
+// Modded Wizard
+

@@ -7,47 +7,47 @@
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid Cantrips 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_ControlFlames;Target_CreateBonfire;Target_Druidcraft;VBT_Spell_0_Frostbite;Target_Guidance;Target_Gust;Target_Infestation;Target_MagicStone;Target_Mending;Target_MoldEarth;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Target_ShapeWater;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;VBT_Spell_0_Thunderclap"/>
-                    <attribute id="UUID" type="guid" value="becccd0e-9617-4140-8d97-968229e60b6a"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 1 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_AnimalFriendship;Target_BeastBond;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Shout_DetectMagic;Shout_EarthTremor;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Target_Snare;Shout_SpeakWithAnimals;Zone_Thunderwave"/>
-                    <attribute id="UUID" type="guid" value="cfe0567a-1092-4890-95a6-69a548b0cbee"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 2 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Spjm_AirBubble;Target_Barkskin;Target_ContinualFlame;Target_Darkvision;VBT_Spell_2_DustDevil;Target_Earthbind;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FindTraps;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HealingSpirit;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_SummonBeast;Shout_WardingWind;Target_WitherAndBloom"/>
-                    <attribute id="UUID" type="guid" value="2abb0c4a-0d2d-449d-a7be-b08c87b34181"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 3 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_Dispel_Magic;Target_ElementalWeapon;VBT_Spell_3_EruptingEarth;Target_FeignDeath;Target_FlameArrows;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Shout_SpeakWithPlants_Hedge;Shout_WaterWalk"/>
-                    <attribute id="UUID" type="guid" value="66998e83-4933-4ea9-99f9-347a1bca1b27"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 4 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster;Target_Confusion;VBT_Spell_4_ControlWater;Shout_Divination_Container;Target_DominateBeast;Target_ElementalBane;Shout_FireShield;Shout_FountOfMoonlight;Target_FreedomOfMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_IceStorm;Target_Polymorph;Target_StoneShape_Container;Target_Stoneskin;Wall_WallOfFire"/>
-                    <attribute id="UUID" type="guid" value="cb4963d3-68ad-41f9-aaca-097c5e3f2f74"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 5 5R"/>
                     <attribute id="Spells" type="LSString" value="Shout_AntilifeShell;Shout_CommuneWithNature;Zone_ConeOfCold;Target_Contagion;VBT_Spell_5_ControlWinds;Target_GreaterRestoration;Target_InsectPlague;VBT_Spell_5_Maelstrom;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone"/>
-                    <attribute id="UUID" type="guid" value="2b09aa2f-2380-4fab-931e-1fac07f28c92"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 6 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Shout_PrimordialWard;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk"/>
-                    <attribute id="UUID" type="guid" value="941702bf-9f88-4659-85ec-ed8b4d95a5ad"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 7 5R"/>
                     <attribute id="Spells" type="LSString" value="Zone_ATT_FizbanTransform;Target_FireStorm;Target_ATT_Regenerate;Target_ATT_ReverseGravity;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
-                    <attribute id="UUID" type="guid" value="a55bbb37-0587-46e9-af6b-46b2dff1aa57"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 8 5R"/>
                     <attribute id="Spells" type="LSString" value="Target_ATT_AnimalShapes;Projectile_ATT_Feeblemind;Target_ATT_IncendiaryCloud;Target_Sunburst"/>
-                    <attribute id="UUID" type="guid" value="2800041c-d480-4bf7-9620-f1258cb74556"/>
+                    <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 9 5R"/>
