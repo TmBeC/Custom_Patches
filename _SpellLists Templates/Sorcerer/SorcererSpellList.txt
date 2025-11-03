@@ -1,102 +1,105 @@
 // =========================================================================================
 // Cantrips
-// UUID: 
+// UUID: cae50d2a-731a-4ee7-8161-8738efdb73cb
 
 // Vanilla
+Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Target_TrueStrike
 
 // Modded
+Target_ControlFlames;Target_CreateBonfire;VBT_Spell_0_Frostbite;Target_SCC_GreenFlame_Blade;Target_Gust;Target_Infestation;Target_SCC_LightningLure;Target_MindSliver_AberrantMind;Target_DWE_MirrorBlade;Target_MoldEarth;Target_Prestidigitation;Target_RimefrostBlade;Target_ShapeWater;Projectile_SorcerousBurst;Shout_SCC_SwordBurst;TK_Thrust;VBT_Spell_0_Thunderclap
 
 // Standalone Mods
+Target_Mending
 
 // =========================================================================================
 // 1st Level Spells
-// UUID: 
+// UUID: e3eb6652-9d4d-4c19-a022-b089af8b3e3b
 
 // Vanilla
+Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt
 
 // Modded
+Shout_AbsorbElements;Throw_Catapult;Target_ChaosBolt;Shout_DetectMagic;Shout_EarthTremor;Target_IdInsinuation;Target_SilveryBarbs;Target_SuddenAwakening;Zone_TashasCausticBrew
 
 // Standalone Mods
+Shout_ComprehendLanguages
 
 // =========================================================================================
 // 2nd Level Spells
-// UUID: 
+// UUID: e69d98bc-4a45-4fc0-ab37-03805581415d
 
 // Vanilla
+Target_BlindnessDeafness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web
 
 // Modded
-
-// Standalone Mods
+Zone_AganazzarsScorcher;Target_Spjm_AirBubble;Shout_AlterSelf;Target_DragonsBreath;VBT_Spell_2_DustDevil;Target_Earthbind;IQ_Target_Hellcrawler;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Zone_RimesBindingIce;Target_SnowballSwarm;VBT_Spell_2_SpiderClimb;Zone_SprayOfCards;Target_TashasMindWhip;VBT_Spell_2_VortexWarp;Shout_WardingWind;Shout_Paitm_WarpSense;Target_WitherAndBloom
 
 // =========================================================================================
 // 3rd Level Spells
-// UUID: 
+// UUID: 5a38f49f-75b5-450e-bbcb-a97334276d65
 
 // Vanilla
+Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch
 
 // Modded
+Target_Antagonize;Shout_AshardalonsStride;Target_Catnap;Target_EnemiesAbound;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Shout_InciteGreed;Target_IntellectFortress;Projectile_MinuteMeteors;Zone_PsionicBlast;Teleportation_ThunderStep;Target_Paitm_Tongues;Shout_WaterWalk
+
+// Extra Spells
+Shout_Clairvoyance
 
 // Standalone Mods
+Target_Dispel_Magic
 
 // =========================================================================================
 // 4th Level Spells
-// UUID: 
+// UUID: 88efe7db-ea1d-4f0f-8218-c8dc8a908e20
 
 // Vanilla
+Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Shout_FireShield;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire
 
 // Modded
-
-// Standalone Mods
+Target_EgoWhip;Target_Paitm_GateSeal;Target_PsychicLance;Target_StormSphere;Projectile_VitriolicSphere
 
 // =========================================================================================
 // 5th Level Spells
-// UUID: 
+// UUID: b9079b7a-46db-4f07-b65e-9038d050c22d
 
 // Vanilla
+Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone
 
 // Modded
-
-// Standalone Mods
+Target_BigbyHand;VBT_Spell_5_ControlWinds;VBT_Spell_5_Creation;VBT_Spell_5_Enervate;Target_FarStep;VBT_Spell_5_Immolation;Target_SynapticStatic;Target_SkillEmpowerment;Target_SummonDragon;Teleportation_TeleportationCircle;
 
 // =========================================================================================
 // 6th Level Spells
-// UUID: 
+// UUID: 5d316ff3-d45c-4e58-b0ac-abe9cf8cbf2b
 
 // Vanilla
+Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Target_FreezingSphere;Zone_Sunbeam
 
 // Modded
+Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_PsychicCrush;Target_TrueSeeing
 
-// Standalone Mods
+// Extra Spells
+Target_PlatinumShield
 
 // =========================================================================================
 // 7th Level Spells
-// UUID: 
+// UUID: 6f400906-a3f6-4a1e-ada8-f6aeb89f1c41
 
-// Vanilla
-
-// Modded
-
-// Standalone Mods
+Shout_ATT_CrownOfStars;Projectile_ATT_DelayedBlastFireball;Zone_ATT_FizbanTransform;Target_ATT_Etherealness;Projectile_VlaakithBeam;Target_FireStorm;Target_ATT_PowerWordPain;Zone_PrismaticSpray;Target_ATT_ReverseGravity
 
 // =========================================================================================
 // 8th Level Spells
-// UUID: 
+// UUID: 764ecdab-6b1f-499f-bcda-cfc484931d16
 
-// Vanilla
-
-// Modded
-
-// Standalone Mods
+Target_HorridWilting;Target_ATT_DominateMonster;Target_ATT_IncendiaryCloud;Target_ATT_PowerWordStun;Target_Sunburst
 
 // =========================================================================================
 // 9th Level Spells
-// UUID: 
+// UUID: 8401af4c-7698-4d7e-93e5-be9b0b6d85c3
 
-// Vanilla
-
-// Modded
-
-// Standalone Mods
+Target_BladeOfDisaster;Target_Gate_Container;Target_MassPolymorph;Target_ATT_MeteorSwarm;Target_PowerWordKill;Shout_PsychicScream;Shout_ATT_TimeStop;Shout_Wish
 
 // ==================================================================================================================================================================================//
 // ==================================================================================================================================================================================//
