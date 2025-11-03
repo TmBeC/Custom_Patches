@@ -509,6 +509,9 @@ Target_ATT_RealityBreak;
 // =========================================================================================
 // 9th Level Spells
 
+Target_PowerWordKill;
+
+// Mods
 Target_BladeOfDisaster;
 Target_ATT_Foresight;
 Target_Gate_Container;
@@ -517,7 +520,6 @@ Target_ATT_MassHeal;
 Target_MassPolymorph;
 Target_ATT_MeteorSwarm;
 Target_ATT_PowerWordHeal;
-Target_PowerWordKill;
 Wall_ATT_PrismaticWall;
 Shout_PsychicScream;
 Shout_ATT_Shapechange_Container;
