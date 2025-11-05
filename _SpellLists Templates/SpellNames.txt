@@ -78,6 +78,7 @@ Projectile_ChromaticOrb
 Zone_ColorSpray
 Target_Command_Container
 Target_CompelledDuel
+Shout_ComprehendLanguages
 Target_CreateDestroyWater
 Target_CureWounds
 Shout_DetectEvilAndGood
