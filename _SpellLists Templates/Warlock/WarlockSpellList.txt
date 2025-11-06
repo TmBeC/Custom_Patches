@@ -29,7 +29,7 @@ Shout_ComprehendLanguages
 Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ShadowBlade_Class
 
 // Modded
-Shout_BorrowedKnowledge;Target_Earthbind;Target_FlockOfFamiliars;IQ_Target_Hellcrawler;Shout_MentalBarrier;Target_MindSpike;VBT_Spell_2_SpiderClimb;Zone_SprayOfCards;Shout_Paitm_WarpSense
+Shout_BorrowedKnowledge;Target_Earthbind;Target_FlockOfFamiliars;IQ_Target_Hellcrawler;Shout_MentalBarrier;VBT_Spell_2_MindSpike;VBT_Spell_2_SpiderClimb;Zone_SprayOfCards;Shout_Paitm_WarpSense
 
 // =========================================================================================
 // 3rd Level Spells
@@ -62,7 +62,7 @@ Target_EgoWhip;Target_ElementalBane;Target_Paitm_GateSeal;Target_PsychicLance;VB
 Target_HoldMonster;Target_PlanarBinding
 
 // Modded
-VBT_Spell_5_DanseMacabre;Target_DreamSleep;VBT_Spell_5_Enervate;Target_FarStep;Target_InfernalCalling;Target_Mislead;Projectile_NegativeEnergyFlood;Target_SynapticStatic;Teleportation_TeleportationCircle
+VBT_Spell_5_DanseMacabre;Target_DreamSleep;VBT_Spell_5_Enervate;Target_FarStep;Target_InfernalCalling;Target_Mislead;Projectile_NegativeEnergyFlood;VBT_Spell_5_SynapticStatic;Teleportation_TeleportationCircle
 
 // Extra Spells
 Target_StormOfRadiance
@@ -75,7 +75,7 @@ Target_StormOfRadiance
 Teleportation_ArcaneGate;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone
 
 // Modded
-Target_ConjureFey;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_PsychicCrush;Target_TrueSeeing
+Target_ConjureFey;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Target_PsychicCrush;VBT_Spell_6_SummonFiend;Target_TrueSeeing
 
 // =========================================================================================
 // 7th Level Spells

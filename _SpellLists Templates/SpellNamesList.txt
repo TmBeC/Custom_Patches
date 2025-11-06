@@ -208,7 +208,7 @@ Projectile_GlowingCoin_Jim;
 Shout_KineticJaunt;
 Target_MaximiliansEarthenGrasp;
 Shout_MentalBarrier;
-Target_MindSpike;
+VBT_Spell_2_MindSpike;
 Target_NathairsMischief;
 Target_Pyrotechnics;
 Zone_RimesBindingIce;
@@ -402,7 +402,7 @@ Projectile_SteelWindStrikeNew;
 // Target_SummonDragon //
 VBT_Spell_5_SummonCelestial;
 Shout_SwiftQuiver;
-Target_SynapticStatic;
+VBT_Spell_5_SynapticStatic;
 Teleportation_TeleportationCircle;
 Shout_YolandesRegalPresence;
 
@@ -444,6 +444,7 @@ Shout_InvestitureOfStone;
 Shout_InvestitureOfWind;
 Shout_PrimordialWard;
 Target_PsychicCrush;
+VBT_Spell_6_SummonFiend;
 Shout_TensersTransformation;
 Target_TrueSeeing;
 

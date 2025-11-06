@@ -32,7 +32,7 @@ Shout_ComprehendLanguages
 Target_BlindnessDeafness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Target_Web
 
 // Modded
-Zone_AganazzarsScorcher;Target_Spjm_AirBubble;Shout_AlterSelf;Target_DragonsBreath;VBT_Spell_2_DustDevil;Target_Earthbind;IQ_Target_Hellcrawler;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Shout_MentalBarrier;Target_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Zone_RimesBindingIce;Target_SnowballSwarm;VBT_Spell_2_SpiderClimb;Zone_SprayOfCards;Target_TashasMindWhip;VBT_Spell_2_VortexWarp;Shout_WardingWind;Shout_Paitm_WarpSense;Target_WitherAndBloom
+Zone_AganazzarsScorcher;Target_Spjm_AirBubble;Shout_AlterSelf;Target_DragonsBreath;VBT_Spell_2_DustDevil;Target_Earthbind;IQ_Target_Hellcrawler;Shout_KineticJaunt;Target_MaximiliansEarthenGrasp;Shout_MentalBarrier;VBT_Spell_2_MindSpike;Target_NathairsMischief;Target_Pyrotechnics;Zone_RimesBindingIce;Target_SnowballSwarm;VBT_Spell_2_SpiderClimb;Zone_SprayOfCards;Target_TashasMindWhip;VBT_Spell_2_VortexWarp;Shout_WardingWind;Shout_Paitm_WarpSense;Target_WitherAndBloom
 
 // =========================================================================================
 // 3rd Level Spells
@@ -68,7 +68,7 @@ Target_EgoWhip;Target_Paitm_GateSeal;Target_PsychicLance;Target_StormSphere;Proj
 Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone
 
 // Modded
-Target_BigbyHand;VBT_Spell_5_ControlWinds;VBT_Spell_5_Creation;VBT_Spell_5_Enervate;Target_FarStep;VBT_Spell_5_Immolation;Target_SynapticStatic;Target_SkillEmpowerment;Target_SummonDragon;Teleportation_TeleportationCircle;
+Target_BigbyHand;VBT_Spell_5_ControlWinds;VBT_Spell_5_Creation;VBT_Spell_5_Enervate;Target_FarStep;VBT_Spell_5_Immolation;VBT_Spell_5_SynapticStatic;Target_SkillEmpowerment;Target_SummonDragon;Teleportation_TeleportationCircle;
 
 // =========================================================================================
 // 6th Level Spells
