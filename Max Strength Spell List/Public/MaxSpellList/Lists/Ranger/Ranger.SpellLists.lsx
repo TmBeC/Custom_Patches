@@ -1,71 +1,35 @@
-// =========================================================================================
-// 1st Level Spells
-// UUID: 
-
-// Vanilla
-Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals
-
-// Modded
-Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout_ZephyrStrike
-
-// Combined
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 1"/>
                     <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout_ZephyrStrike"/>
-
-// =========================================================================================
-// 2nd Level Spells
-// UUID: 
-
-// Vanilla
-Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth
-
-// Modded
-Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container
-
-// Combined
+                    <attribute id="UUID" type="guid" value="64b3f3bf-7a2e-4ee2-9397-1d2b735ee483"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 2"/>
                     <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container;Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout_ZephyrStrike"/>
-
-// =========================================================================================
-// 3rd Level Spells
-// UUID: 
-
-// Vanilla
-Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify
-
-// Modded
-Shout_AshardalonsStride;Target_ConjureAnimals;Target_FlameArrows;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk
-
-// Standalone Mods
-Target_Dispel_Magic
-
-// Combined
+                    <attribute id="UUID" type="guid" value="b28f0f9c-1742-431e-ba95-771eb371338e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 3"/>
                     <attribute id="Spells" type="LSString" value="Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Shout_AshardalonsStride;Target_ConjureAnimals;Target_FlameArrows;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk;Target_Dispel_Magic;Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container;Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout_ZephyrStrike"/>
-
-// =========================================================================================
-// 4th Level Spells
-// UUID: 
-
-// Vanilla
-Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_Stoneskin
-
-// Modded
-Shout_GuardianOfNature;Target_SummonElemental
-
-// Combined
+                    <attribute id="UUID" type="guid" value="240637d2-6b58-4ae7-8777-c69219625f8e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 4"/>
                     <attribute id="Spells" type="LSString" value="Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_Stoneskin;Shout_GuardianOfNature;Target_SummonElemental;Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Shout_AshardalonsStride;Target_ConjureAnimals;Target_FlameArrows;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk;Target_Dispel_Magic;Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container;Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout_ZephyrStrike"/>
-
-// =========================================================================================
-// 5th Level Spells
-// UUID: 
-
-// Vanilla
-Target_GreaterRestoration
-
-// Modded
-Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Projectile_SteelWindStrikeNew;Shout_SwiftQuiver
-
-// Combined
+                    <attribute id="UUID" type="guid" value="572f37a4-a2c2-41a4-82f1-b5ae02967e8a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Ranger SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Target_GreaterRestoration;Shout_CommuneWithNature;ProjectileStrike_ConjureVolley;Projectile_SteelWindStrikeNew;Shout_SwiftQuiver;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_Stoneskin;Shout_GuardianOfNature;Target_SummonElemental;Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Shout_AshardalonsStride;Target_ConjureAnimals;Target_FlameArrows;Target_Nondetection;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk;Target_Dispel_Magic;Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth;Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container;Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout_ZephyrStrike"/>
-
-// ==================================================================================================================================================================================//
-// ==================================================================================================================================================================================//
-// ==================================================================================================================================================================================//
+                    <attribute id="UUID" type="guid" value="c6a4d63c-41d6-4d8e-9a4d-424ababab043"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Target_Guidance;Projectile_PoisonSpray;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Target_ThornWhip;Target_ControlFlames;Target_CreateBonfire;Target_Druidcraft;VBT_Spell_0_Frostbite;Target_Gust;Target_Infestation;Target_MagicStone;Target_MoldEarth;Target_PrimalSavagery;Target_ShapeWater;Projectile_StarryWisp;VBT_Spell_0_Thunderclap;Target_Mending"/>
+                    <attribute id="UUID" type="guid" value="becccd0e-9617-4140-8d97-968229e60b6a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Zone_Thunderwave;Shout_AbsorbElements;Target_BeastBond;Shout_DetectMagic;Shout_EarthTremor;Target_Snare"/>
+                    <attribute id="UUID" type="guid" value="cfe0567a-1092-4890-95a6-69a548b0cbee"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_Spjm_AirBubble;Target_ContinualFlame;VBT_Spell_2_DustDevil;Target_Earthbind;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container;Shout_WardingWind;Target_WitherAndBloom"/>
+                    <attribute id="UUID" type="guid" value="2abb0c4a-0d2d-449d-a7be-b08c87b34181"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk;Target_Dispel_Magic"/>
+                    <attribute id="UUID" type="guid" value="66998e83-4933-4ea9-99f9-347a1bca1b27"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;VBT_Spell_4_ControlWater;Target_ElementalBane;Shout_FountOfMoonlight;Shout_GuardianOfNature;Target_StoneShape_Container;Target_SummonElemental;Shout_Divination_Container"/>
+                    <attribute id="UUID" type="guid" value="cb4963d3-68ad-41f9-aaca-097c5e3f2f74"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone;Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon"/>
+                    <attribute id="UUID" type="guid" value="2b09aa2f-2380-4fab-931e-1fac07f28c92"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_FleshToStone;Target_Heal;Shout_HeroesFeast;Zone_Sunbeam;Wall_WallOfThorns;Shout_WindWalk;Target_ConjureFey;Shout_InvestitureOfFlame;Shout_InvestitureOfIce;Shout_InvestitureOfStone;Shout_InvestitureOfWind;Shout_PrimordialWard"/>
+                    <attribute id="UUID" type="guid" value="941702bf-9f88-4659-85ec-ed8b4d95a5ad"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 7"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ATT_FizbanTransform;Target_FireStorm;Target_ATT_Regenerate;Target_ATT_ReverseGravity;Target_ATT_Symbol;Target_ATT_Whirlwind"/>
+                    <attribute id="UUID" type="guid" value="a55bbb37-0587-46e9-af6b-46b2dff1aa57"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_ATT_AnimalShapes;Projectile_ATT_Feeblemind;Target_ATT_IncendiaryCloud;Target_Sunburst"/>
+                    <attribute id="UUID" type="guid" value="2800041c-d480-4bf7-9620-f1258cb74556"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Druid SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_ATT_Foresight;Shout_ATT_Shapechange_Container;Shout_ATT_StormOfVengeance;Teleportation_ATT_MOD_TrueResurrection"/>
+                    <attribute id="UUID" type="guid" value="341f99e1-a30b-4d3c-8eb9-a43fb8dc7e5f"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

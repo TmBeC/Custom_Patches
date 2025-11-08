@@ -11,6 +11,9 @@ Shout_HandOfRadiance;Projectile_LightPiercer;Projectile_NightPiercer;Shout_WordO
 // Standalone Mods
 Target_Mending
 
+// Combined
+                    <attribute id="Spells" type="LSString" value="Target_BurstingSinew;Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_HandOfRadiance;Projectile_LightPiercer;Projectile_NightPiercer;Shout_WordOfRadiance;Target_Mending"/>
+
 // =========================================================================================
 // 1st Level Spells
 // UUID: a47ffd6c-6452-4f29-a65a-142409138775
@@ -21,6 +24,9 @@ Target_Bane;Target_Bless;Target_Command_Container;Target_CreateDestroyWater;Targ
 // Modded
 Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic;Zone_RadiantBurst
 
+// Combined
+                    <attribute id="Spells" type="LSString" value="Target_Bane;Target_Bless;Target_Command_Container;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith;Target_Ceremony;Shout_DetectEvilAndGood;Shout_DetectMagic;Zone_RadiantBurst"/>
+
 // =========================================================================================
 // 2nd Level Spells
 // UUID: b07e4df5-65ab-4cb3-a664-665f46171b00
@@ -30,6 +36,9 @@ Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_EnhanceAbility;Tar
 
 // Modded
 Shout_BorrowedKnowledge;Target_ContinualFlame;Shout_FindTraps;Target_GentleRepose;Target_ZoneofTruth
+
+// Combined
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Target_BlindnessDeafness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond;Shout_BorrowedKnowledge;Target_ContinualFlame;Shout_FindTraps;Target_GentleRepose;Target_ZoneofTruth"/>
 
 // =========================================================================================
 // 3rd Level Spells
@@ -47,6 +56,9 @@ Shout_Clairvoyance
 // Standalone Mods
 Target_Dispel_Magic
 
+// Combined
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;Target_CreateFoodAndWater;Shout_InciteGreed;Target_LifeTransference;Target_MagicCircle;Target_MotivationalSpeech;VBT_Spell_3_SpiritShroud;Target_Paitm_Tongues;Shout_WaterWalk;Shout_Clairvoyance;Target_Dispel_Magic"/>
+
 // =========================================================================================
 // 4th Level Spells
 // UUID: 4a15301a-92da-433e-abbf-2e629eaa1a2c
@@ -59,6 +71,9 @@ Shout_AuraOfLife;Shout_AuraOfPurity;VBT_Spell_4_ControlWater;Target_StoneShape_C
 
 // Extra Spells
 Shout_Divination_Container
+
+// Combined
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith;Shout_AuraOfLife;Shout_AuraOfPurity;VBT_Spell_4_ControlWater;Target_StoneShape_Container;Shout_Divination_Container"/>
 
 // =========================================================================================
 // 5th Level Spells
@@ -73,6 +88,9 @@ Shout_CircleOfPower;VBT_Spell_5_Dawn;Target_HolyWeapon;Target_RaiseDead;VBT_Spel
 // Extra Spells
 Shout_Commune
 
+// Combined
+                    <attribute id="Spells" type="LSString" value="Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Shout_CircleOfPower;VBT_Spell_5_Dawn;Target_HolyWeapon;Target_RaiseDead;VBT_Spell_5_SummonCelestial;Shout_Commune"/>
+
 // =========================================================================================
 // 6th Level Spells
 // UUID: d96e5b84-b4cd-49e0-9f9b-59b353d77a10
@@ -83,6 +101,9 @@ Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Shout_HeroesFeast;
 // Modded
 Target_TrueSeeing
 
+// Combined
+                    <attribute id="Spells" type="LSString" value="Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Shout_HeroesFeast;Target_PlanarAlly_Container;Zone_Sunbeam;Target_TrueSeeing"/>
+
 // =========================================================================================
 // 7th Level Spells
 // UUID: 3ee878f5-ca9d-4e0d-bc2e-32473927c63b
@@ -92,17 +113,26 @@ Shout_DivineWord;Target_ATT_Etherealness;Target_FireStorm;Target_ATT_PowerWordFo
 // Extra Spells
 Target_ConjureCelestial
 
+// Combined
+                    <attribute id="Spells" type="LSString" value="Shout_DivineWord;Target_ATT_Etherealness;Target_FireStorm;Target_ATT_PowerWordFortify;Target_ATT_Regenerate;Target_ATT_Symbol;Target_ConjureCelestial"/>
+
 // =========================================================================================
 // 8th Level Spells
 // UUID: 0ab5c6f0-5f9f-433c-a9f2-a75cf581e712
 
 Shout_AntimagicField;Shout_ATT_HolyAura;Target_Sunburst
 
+// Combined
+                    <attribute id="Spells" type="LSString" value="Shout_AntimagicField;Shout_ATT_HolyAura;Target_Sunburst"/>
+
 // =========================================================================================
 // 9th Level Spells
 // UUID: d873ad20-97f7-49f0-a925-ade2c952c746
 
 Target_Gate_Container;Target_ATT_MassHeal;Target_ATT_PowerWordHeal;Teleportation_ATT_MOD_TrueResurrection
+
+// Combined
+                    <attribute id="Spells" type="LSString" value="Target_Gate_Container;Target_ATT_MassHeal;Target_ATT_PowerWordHeal;Teleportation_ATT_MOD_TrueResurrection"/>
 
 // ==================================================================================================================================================================================//
 // ==================================================================================================================================================================================//
