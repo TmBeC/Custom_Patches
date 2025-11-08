@@ -16,7 +16,7 @@ Shout_AbsorbElements;Shout_DetectMagic;Target_Snare;Target_SuddenAwakening;Shout
 Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Zone_GustOfWind;Target_LesserRestoration;Target_MagicWeapon;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_Silence;Target_SpikeGrowth
 
 // Modded
-Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast
+Target_Spjm_AirBubble;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container
 
 // =========================================================================================
 // 3rd Level Spells

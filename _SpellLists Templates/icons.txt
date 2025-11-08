@@ -95,7 +95,7 @@ Zone_RimesBindingIce
 Icon_MSW_Evocation_SnillocsSnowballSwarm
 VBT_Spell_2_SpiderClimb
 Zone_SprayOfCards
-Target_SummonBeast
+Target_SummonBeast_Container
 Target_TashasMindWhip
 Shout_WardingWind
 Shout_Paitm_WarpSense

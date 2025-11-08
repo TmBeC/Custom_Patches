@@ -208,7 +208,7 @@ VBT_Spell_2_SpiderClimb
 Target_SpikeGrowth
 Target_SpiritualWeapon
 Zone_SprayOfCards
-Target_SummonBeast
+Target_SummonBeast_Container
 Target_TashasMindWhip
 Target_WardingBond
 Shout_WardingWind
@@ -1126,7 +1126,7 @@ Shout_ComprehendLanguages
 
 
 // 2nd Level Spells
-Target_SummonBeast
+Target_SummonBeast_Container
 
 
 // 3rd Level Spells

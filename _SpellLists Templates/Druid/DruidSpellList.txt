@@ -29,7 +29,7 @@ Shout_AbsorbElements;Target_BeastBond;Shout_DetectMagic;Shout_EarthTremor;Target
 Shout_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth
 
 // Modded
-Target_Spjm_AirBubble;Target_ContinualFlame;VBT_Spell_2_DustDevil;Target_Earthbind;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast;Shout_WardingWind;Target_WitherAndBloom
+Target_Spjm_AirBubble;Target_ContinualFlame;VBT_Spell_2_DustDevil;Target_Earthbind;Shout_FindTraps;Target_HealingSpirit;Target_SummonBeast_Container;Shout_WardingWind;Target_WitherAndBloom
 
 // =========================================================================================
 // 3rd Level Spells
