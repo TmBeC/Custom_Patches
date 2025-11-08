@@ -1126,6 +1126,7 @@ Shout_ComprehendLanguages
 
 
 // 2nd Level Spells
+Target_SummonBeast
 
 
 // 3rd Level Spells
