@@ -333,7 +333,7 @@ Target_StoneShape_Container
 Target_Stoneskin
 Target_StormSphere
 // Target_SummonAberration //
-// Target_SummonConstruct //
+// Target_SummonConstruct_Container //
 // Target_SummonElemental //
 Target_SummonGreaterDemon
 Projectile_VitriolicSphere
@@ -1136,6 +1136,7 @@ Target_Dispel_Magic
 
 // 4th Level Spells
 Shout_Divination_Container
+Target_SummonConstruct_Container
 
 
 // 5th Level Spells
