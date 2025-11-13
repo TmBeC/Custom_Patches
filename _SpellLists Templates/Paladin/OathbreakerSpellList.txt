@@ -1,0 +1,30 @@
+// =========================================================================================
+// Level 3 Spells
+// UUID: 1e4ee267-bc1b-490b-a53a-a4a9b41b9ce9
+
+Shout_HellishRebuke;Projectile_WitchBolt
+
+// =========================================================================================
+// Level 5 Spells
+// UUID: 6114fe58-0e91-4165-8a3b-649f4e237a43
+
+Target_CrownOfMadness;Target_Darkness
+
+// =========================================================================================
+// Level 9 Spells
+// UUID: 6097991f-bc3c-4479-9044-d86de5a91697
+
+Zone_Fear;VBT_Spell_3_SummonUndead
+
+// =========================================================================================
+// Level 13 Spells
+// UUID: 97c0af5a-6330-4a52-af09-9350712880df
+
+Target_Blight;Target_PhantasmalKiller
+
+// =========================================================================================
+// Level 17 Spells
+// UUID: 0aba021a-baeb-4606-a00c-e3127fc1337b
+
+Target_Contagion;Projectile_SteelWindStrikeNew
+
