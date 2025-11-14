@@ -48,13 +48,13 @@ Target_Spjm_AirBubble;Target_ContinualFlame;VBT_Spell_2_DustDevil;Target_Earthbi
 Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm
 
 // Modded
-Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk
+SD_Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk
 
 // Standalone Mods
 Target_Dispel_Magic
 
 // Combined
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk;Target_Dispel_Magic"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;SD_Target_ConjureAnimals;VBT_Spell_3_EruptingEarth;Target_FlameArrows;Target_FreedomOfTheWaves;Shout_SpeakWithPlants_Hedge;Target_SummonFey;Shout_WaterWalk;Target_Dispel_Magic"/>
 
 // =========================================================================================
 // 4th Level Spells

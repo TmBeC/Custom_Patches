@@ -237,7 +237,7 @@ Shout_Blink
 Target_Catnap
 Target_CallLightning
 Shout_Clairvoyance
-// Target_ConjureAnimals //
+SD_Target_ConjureAnimals
 Zone_ConjureBarrage
 Target_Counterspell
 Target_CreateFoodAndWater
@@ -1042,6 +1042,10 @@ Target_MordenkainensSword
 
 // Cantrips
 Projectile_StarryWisp
+
+
+// 3rd Level Spells
+SD_Target_ConjureAnimals
 
 
 // 4th Level Spells

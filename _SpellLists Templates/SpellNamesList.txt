@@ -271,7 +271,7 @@ Target_Antagonize;
 Shout_AshardalonsStride;
 Target_Catnap;
 Shout_Clairvoyance;
-// Target_ConjureAnimals //
+SD_Target_ConjureAnimals
 Target_CreateFoodAndWater;
 Target_Dispel_Magic;
 Target_EnemiesAbound;
