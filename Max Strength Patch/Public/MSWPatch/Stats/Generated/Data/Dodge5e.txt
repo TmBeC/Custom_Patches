@@ -1,0 +1,15 @@
+// ==========================================================================
+// 5eDodgeAction - Icon update
+
+new entry "Shout_Dodge"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Dodge"
+data "Icon" "Icon_MSW_Action_Dodge"
+
+new entry "DODGE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DODGE"
+data "Icon" "Icon_MSW_Action_Dodge"
+
