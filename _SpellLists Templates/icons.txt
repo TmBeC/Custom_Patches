@@ -253,6 +253,7 @@ Shout_InvestitureOfStone
 Shout_InvestitureOfWind
 Shout_PrimordialWard
 Target_PsychicCrush
+Shout_TashasOtherworldlyGuise
 Icon_MSW_Transmutation_TensersTransformation
 Target_TrueSeeing
 

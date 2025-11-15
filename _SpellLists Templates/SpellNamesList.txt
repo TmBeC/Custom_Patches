@@ -445,6 +445,7 @@ Shout_InvestitureOfWind;
 Shout_PrimordialWard;
 Target_PsychicCrush;
 VBT_Spell_6_SummonFiend;
+Shout_TashasOtherworldlyGuise;
 Shout_TensersTransformation;
 Target_TrueSeeing;
 

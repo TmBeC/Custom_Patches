@@ -429,6 +429,7 @@ Shout_PrimordialWard
 Target_PsychicCrush
 VBT_Spell_6_SummonFiend
 Zone_Sunbeam
+Shout_TashasOtherworldlyGuise
 Shout_TensersTransformation
 Target_TrueSeeing
 Wall_WallOfIce
@@ -1153,6 +1154,7 @@ Shout_YolandesRegalPresence
 Shout_InvestitureOfIce
 Shout_InvestitureOfStone
 Shout_InvestitureOfWind
+Shout_TashasOtherworldlyGuise
 
 
 // 7th Level Spells
