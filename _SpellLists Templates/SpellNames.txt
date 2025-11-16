@@ -392,6 +392,7 @@ Shout_SwiftQuiver
 VBT_Spell_5_SynapticStatic
 Throw_Telekinesis
 Teleportation_TeleportationCircle
+Wall_WallOfLight
 Wall_WallOfStone
 Shout_YolandesRegalPresence
 
@@ -1147,6 +1148,7 @@ Target_SummonConstruct_Container
 // 5th Level Spells
 Shout_Commune
 Target_StormOfRadiance
+Wall_WallOfLight
 Shout_YolandesRegalPresence
 
 
