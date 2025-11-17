@@ -1,5 +1,0 @@
-{
-  "RequiredVersion": 3,
-  "ModTable": "CircleofBlood",
-  "FeatureFlags": ["Lua"]
-}
