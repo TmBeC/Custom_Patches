@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="FeatDescriptions">
+		<node id="root">
+			<children>
+				<node id="FeatDescription">
+					<attribute id="Description" type="TranslatedString" handle="hc4b522e1gc883g435fgaba4g822e558359ce" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h031cca1dg0e71g43fdgb28fg036060638ad6" version="1"/>
+					<attribute id="ExactMatch" type="FixedString" value="DWE_VitalSacrifice"/>
+					<attribute id="FeatId" type="guid" value="44fed948-0c39-4716-80d3-67c3b86a540b"/>
+					<attribute id="UUID" type="guid" value="7d896645-a275-415b-9f48-1a2675a3a44e"/>
+				</node>
+				<!--node id="FeatDescription">
+					<attribute id="Description" type="TranslatedString" handle="hc4b522e1gc883g435fgaba4g822e558359ce" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hbb7d90e7gcbe2g4a6dg8ac7gda666cd595d6" version="1"/>
+					<attribute id="ExactMatch" type="FixedString" value="DWE_VitalSacrifice_LongRest"/>
+					<attribute id="FeatId" type="guid" value="5e79c740-e7f2-45b6-87d5-9e152c2be98d"/>
+					<attribute id="UUID" type="guid" value="35768b69-b837-4b2f-af9e-6f8e042a6070"/>
+				</node-->
+			</children>
+		</node>
+	</region>
+</save>

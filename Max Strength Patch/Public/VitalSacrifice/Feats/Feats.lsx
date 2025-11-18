@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Feats">
+		<node id="root">
+			<children>
+				<node id="Feat">
+					<attribute id="Name" type="FixedString" value="DWE_VitalSacrifice"/>
+					<attribute id="PassivesAdded" type="LSString" value="DWE_VitalSacrifice;DWE_VitalSacrifice_IgnoreResistance"/>
+					<attribute id="UUID" type="guid" value="44fed948-0c39-4716-80d3-67c3b86a540b"/>
+				</node>
+				<!--node id="Feat">
+					<attribute id="Name" type="FixedString" value="DWE_VitalSacrifice_LongRest"/>
+					<attribute id="PassivesAdded" type="LSString" value="DWE_VitalSacrifice_LongRest;DWE_VitalSacrifice_IgnoreResistance"/>
+					<attribute id="UUID" type="guid" value="5e79c740-e7f2-45b6-87d5-9e152c2be98d"/>
+				</node-->
+			</children>
+		</node>
+	</region>
+</save>
