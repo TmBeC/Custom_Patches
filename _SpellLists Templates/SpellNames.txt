@@ -281,7 +281,7 @@ Shout_SpeakWithPlants_Hedge
 Shout_SpiritGuardians
 VBT_Spell_3_SpiritShroud
 Target_StinkingCloud
-// Target_SummonFey //
+Target_SummonFey
 Target_SummonLesserDemons
 Target_SummonShadowspawn
 VBT_Spell_3_SummonUndead
@@ -333,7 +333,7 @@ Target_Stoneskin
 Target_StormSphere
 // Target_SummonAberration //
 // Target_SummonConstruct_Container //
-// Target_SummonElemental //
+Target_SummonElemental
 Target_SummonGreaterDemon
 Projectile_VitriolicSphere
 Wall_WallOfFire

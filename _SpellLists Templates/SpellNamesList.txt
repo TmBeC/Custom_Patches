@@ -289,7 +289,7 @@ VBT_Spell_3_PhantomSteed;
 Zone_PsionicBlast;
 Shout_SpeakWithPlants_Hedge;
 VBT_Spell_3_SpiritShroud;
-// Target_SummonFey //
+Target_SummonFey
 Target_SummonLesserDemons;
 Target_SummonShadowspawn;
 VBT_Spell_3_SummonUndead;
@@ -343,7 +343,7 @@ Target_StoneShape_Container;
 Target_StormSphere;
 // Target_SummonAberration //
 // Target_SummonConstruct_Container //
-// Target_SummonElemental //
+Target_SummonElemental
 Target_SummonGreaterDemon;
 Projectile_VitriolicSphere;
 Projectile_WebOfFire;
