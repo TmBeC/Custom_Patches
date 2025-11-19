@@ -309,7 +309,6 @@ Target_Blight;
 Target_CharmMonster;
 Target_Confusion;
 // Target_ConjureElementals_Minor_Container //
-// Target_ConjureWoodlandBeings //
 Target_DeathWard;
 Teleportation_DimensionDoor;
 Target_DominateBeast;
@@ -331,6 +330,7 @@ Wall_WallOfFire;
 Target_ArcaneEye;
 Shout_AuraOfLife;
 Shout_AuraOfPurity;
+Shout_ConjureWoodlandBeings
 VBT_Spell_4_ControlWater;
 Shout_Divination_Container;
 Target_EgoWhip;

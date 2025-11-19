@@ -26,7 +26,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;VBT_Spell_4_ControlWater;Target_ElementalBane;Shout_FountOfMoonlight;Shout_GuardianOfNature;Target_StoneShape_Container;Target_SummonElemental;Shout_Divination_Container"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Shout_ConjureWoodlandBeings;Target_DominateBeast;Shout_FireShield;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;VBT_Spell_4_ControlWater;Target_ElementalBane;Shout_FountOfMoonlight;Shout_GuardianOfNature;Target_StoneShape_Container;Target_SummonElemental;Shout_Divination_Container"/>
                     <attribute id="UUID" type="guid" value="cb4963d3-68ad-41f9-aaca-097c5e3f2f74"/>
                 </node>
                 <node id="SpellList">
