@@ -333,7 +333,6 @@ Shout_AuraOfPurity;
 Shout_ConjureWoodlandBeings
 VBT_Spell_4_ControlWater;
 Shout_Divination_Container;
-Target_EgoWhip;
 Target_ElementalBane;
 Shout_FountOfMoonlight;
 Target_Paitm_GateSeal;
