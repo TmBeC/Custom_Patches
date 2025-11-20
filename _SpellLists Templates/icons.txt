@@ -176,6 +176,7 @@ Icon_MSW_Enchantment_RaulothimsPsychicLance
 Icon_MSW_Necromancy_ShadowOfMoil
 Target_StoneShape_Container
 Icon_MSW_Evocation_StormSphere
+Target_SummonElemental
 Target_SummonGreaterDemon
 Icon_MSW_Evocation_VitriolicSphere
 Projectile_WebOfFire
@@ -183,7 +184,6 @@ Projectile_WebOfFire
 // 5e/Mystra Merge
 Target_SummonAberration_5R
 Target_SummonConstruct_5R
-Target_SummonElemental_5R
 
 // Exandria
 Icon_MSW_Evocation_GravitySinkhole
@@ -230,13 +230,11 @@ Icon_MSW_Conjuration_SteelWindStrike
 Icon_MSW_Conjuration_SummonCelestial
 	Icon_MSW_Conjuration_SummonCelestialAvenger
 	Icon_MSW_Conjuration_SummonCelestialDefender
+Target_SummonDragon_Container
 Icon_MSW_Transmutation_SwiftQuiver
 Target_SynapticStatic
 Icon_MSW_Conjuration_TeleportationCircle
 Shout_YolandesRegalPresence
-
-// 5e/Mystra Merge
-Target_SummonDragon_Container_5R
 
 // Exandria
 Icon_MSW_Transmutation_TemporalShunt
