@@ -31,7 +31,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Druid SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone;Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone;Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom"/>
                     <attribute id="UUID" type="guid" value="2b09aa2f-2380-4fab-931e-1fac07f28c92"/>
                 </node>
                 <node id="SpellList">

@@ -80,10 +80,10 @@ Shout_Divination_Container
 Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone
 
 // Modded
-Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon
+Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom
 
 // Combined
-                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone;Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom;Target_SummonDragon"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding;Wall_WallOfStone;Shout_AntilifeShell;Shout_CommuneWithNature;VBT_Spell_5_ControlWinds;VBT_Spell_5_Maelstrom"/>
 
 // =========================================================================================
 // 6th Level Spells

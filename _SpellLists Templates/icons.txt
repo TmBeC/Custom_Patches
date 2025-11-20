@@ -236,7 +236,7 @@ Icon_MSW_Conjuration_TeleportationCircle
 Shout_YolandesRegalPresence
 
 // 5e/Mystra Merge
-Target_SummonDragon_5R
+Target_SummonDragon_Container_5R
 
 // Exandria
 Icon_MSW_Transmutation_TemporalShunt

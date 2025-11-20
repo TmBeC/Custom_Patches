@@ -385,7 +385,7 @@ Target_RaiseDead
 Target_Seeming
 Target_SkillEmpowerment
 Projectile_SteelWindStrikeNew
-// Target_SummonDragon //
+Target_SummonDragon_Container
 VBT_Spell_5_SummonCelestial
 Shout_SwiftQuiver
 VBT_Spell_5_SynapticStatic
@@ -810,7 +810,7 @@ Target_Immolation
 Target_Maelstrom
 Projectile_NegativeEnergyFlood
 Projectile_SteelWindStrikeNew
-Target_SummonDragon
+Target_SummonDragon_Container
 Shout_SwiftQuiver
 Target_SynapticStatic
 
@@ -1148,6 +1148,7 @@ Target_SummonConstruct_Container
 // 5th Level Spells
 Shout_Commune
 Target_StormOfRadiance
+Target_SummonDragon_Container
 Wall_WallOfLight
 Shout_YolandesRegalPresence
 
