@@ -176,13 +176,13 @@ Icon_MSW_Enchantment_RaulothimsPsychicLance
 Icon_MSW_Necromancy_ShadowOfMoil
 Target_StoneShape_Container
 Icon_MSW_Evocation_StormSphere
+Target_SummonAberration
 Target_SummonElemental
 Target_SummonGreaterDemon
 Icon_MSW_Evocation_VitriolicSphere
 Projectile_WebOfFire
 
 // 5e/Mystra Merge
-Target_SummonAberration_5R
 Target_SummonConstruct_5R
 
 // Exandria

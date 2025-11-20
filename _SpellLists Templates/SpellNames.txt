@@ -331,7 +331,7 @@ Target_StaggeringSmite
 Target_StoneShape_Container
 Target_Stoneskin
 Target_StormSphere
-// Target_SummonAberration //
+Target_SummonAberration
 // Target_SummonConstruct_Container //
 Target_SummonElemental
 Target_SummonGreaterDemon
@@ -1148,6 +1148,7 @@ Target_SummonConstruct_Container
 // 5th Level Spells
 Shout_Commune
 Target_StormOfRadiance
+Target_SummonAberration
 Target_SummonDragon_Container
 Wall_WallOfLight
 Shout_YolandesRegalPresence
