@@ -116,6 +116,7 @@ Shout_AshardalonsStride
 Icon_MSW_Enchantment_Catnap
 Shout_Clairvoyance
 Icon_MSW_Conjuration_CreateFoodAndWater
+Target_ConjureConstructs
 Icon_MSW_Enchantment_EnemiesAbound
 Icon_MSW_Transmutation_EruptingEarth
 Target_FlameArrows
