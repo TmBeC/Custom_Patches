@@ -20,7 +20,6 @@ Icon_MSW_Conjuration_Infestation
 Target_MagicStone
 Icon_MSW_Enchantment_MindSliver
 Target_MoldEarth
-Projectile_NightPiercer
 Icon_MSW_Transmutation_Prestidigitation
 Target_PrimalSavagery
 Icon_MSW_Transmutation_ShapeWater
@@ -131,6 +130,10 @@ Icon_MSW_Illusion_PhantomSteed
 Zone_PsionicBlast
 Icon_MSW_Transmutation_SpeakWithPlants
 VBT_Spell_3_SpiritShroud
+Icon_MSW_Conjuration_SummonFey
+	Icon_MSW_Conjuration_SummonFey_Fuming
+	Icon_MSW_Conjuration_SummonFey_Mirthful
+	Icon_MSW_Conjuration_SummonFey_Tricksy
 Target_SummonLesserDemons
 Icon_MSW_Conjuration_SummonShadowspawn
 Icon_MSW_Necromancy_SummonUndead
@@ -143,12 +146,6 @@ Icon_MSW_Transmutation_WaterWalk
 
 // Exandria
 Icon_MSW_Evocation_PulseWave
-
-// Mine
-Icon_MSW_Conjuration_SummonFey
-	Icon_MSW_Conjuration_SummonFey_Fuming
-	Icon_MSW_Conjuration_SummonFey_Mirthful
-	Icon_MSW_Conjuration_SummonFey_Tricksy
 
 
 // =========================================================================================
@@ -177,13 +174,11 @@ Icon_MSW_Necromancy_ShadowOfMoil
 Target_StoneShape_Container
 Icon_MSW_Evocation_StormSphere
 Target_SummonAberration
+Target_SummonConstruct
 Target_SummonElemental
 Target_SummonGreaterDemon
 Icon_MSW_Evocation_VitriolicSphere
 Projectile_WebOfFire
-
-// 5e/Mystra Merge
-Target_SummonConstruct_5R
 
 // Exandria
 Icon_MSW_Evocation_GravitySinkhole
@@ -248,6 +243,7 @@ Icon_MSW_Transmutation_InvestitureOfFlame
 Shout_InvestitureOfIce
 Shout_InvestitureOfStone
 Shout_InvestitureOfWind
+Target_PlatinumShield
 Shout_PrimordialWard
 Target_PsychicCrush
 Shout_TashasOtherworldlyGuise
@@ -256,9 +252,6 @@ Target_TrueSeeing
 
 // Exandria
 Zone_ATT_GravityFissure
-
-// BadtotheBard
-Target_PlatinumShield
 
 
 // =========================================================================================
