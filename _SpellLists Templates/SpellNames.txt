@@ -239,6 +239,7 @@ Target_CallLightning
 Shout_Clairvoyance
 SD_Target_ConjureAnimals
 Zone_ConjureBarrage
+Target_ConjureConstructs
 Target_Counterspell
 Target_CreateFoodAndWater
 Shout_CrusadersMantle
@@ -1136,6 +1137,7 @@ Target_SummonBeast_Container
 
 // 3rd Level Spells
 Shout_Clairvoyance
+Target_ConjureConstructs
 Target_Dispel_Magic
 
 

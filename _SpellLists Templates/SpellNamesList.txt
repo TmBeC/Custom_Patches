@@ -271,7 +271,8 @@ Target_Antagonize;
 Shout_AshardalonsStride;
 Target_Catnap;
 Shout_Clairvoyance;
-SD_Target_ConjureAnimals
+SD_Target_ConjureAnimals;
+Target_ConjureConstructs;
 Target_CreateFoodAndWater;
 Target_Dispel_Magic;
 Target_EnemiesAbound;
@@ -289,7 +290,7 @@ VBT_Spell_3_PhantomSteed;
 Zone_PsionicBlast;
 Shout_SpeakWithPlants_Hedge;
 VBT_Spell_3_SpiritShroud;
-Target_SummonFey
+Target_SummonFey;
 Target_SummonLesserDemons;
 Target_SummonShadowspawn;
 VBT_Spell_3_SummonUndead;
@@ -341,9 +342,9 @@ Target_PsychicLance;
 VBT_Spell_4_ShadowOfMoil;
 Target_StoneShape_Container;
 Target_StormSphere;
-Target_SummonAberration
-Target_SummonConstruct_Container
-Target_SummonElemental
+Target_SummonAberration;
+Target_SummonConstruct_Container;
+Target_SummonElemental;
 Target_SummonGreaterDemon;
 Projectile_VitriolicSphere;
 Projectile_WebOfFire;
