@@ -174,7 +174,7 @@ Icon_MSW_Necromancy_ShadowOfMoil
 Target_StoneShape_Container
 Icon_MSW_Evocation_StormSphere
 Target_SummonAberration
-Target_SummonConstruct
+Target_SummonConstruct_Container
 Target_SummonElemental
 Target_SummonGreaterDemon
 Icon_MSW_Evocation_VitriolicSphere

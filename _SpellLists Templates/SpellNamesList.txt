@@ -342,7 +342,7 @@ VBT_Spell_4_ShadowOfMoil;
 Target_StoneShape_Container;
 Target_StormSphere;
 Target_SummonAberration
-// Target_SummonConstruct_Container //
+Target_SummonConstruct_Container
 Target_SummonElemental
 Target_SummonGreaterDemon;
 Projectile_VitriolicSphere;
